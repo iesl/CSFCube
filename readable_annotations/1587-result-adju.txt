@@ -1,0 +1,1472 @@
+======================================================================
+paper_id: 1587; YEAR: 2006
+TITLE: Get out the vote: Determining support or opposition from Congressional floor-debate transcripts
+ABSTRACT: background_label: We investigate whether one can determine from the transcripts of U.S. Congressional floor debates whether the speeches represent support of or opposition to proposed legislation.
+method_label: To address this problem, we exploit the fact that these speeches occur as part of a discussion; this allows us to use sources of information regarding relationships between discourse segments, such as whether a given utterance indicates agreement with the opinion expressed by another.
+result_label: We find that the incorporation of such information yields substantial improvements over classifying speeches in isolation.
+===================================
+paper_id: 195348911; YEAR: 2018
+adju relevance: Identical (+3)
+difference: 1; annotator1: 0; annotator2: 1
+sources: specter - abs_tfidf
+TITLE: Learning alignments from legislative discourse
+ABSTRACT: objective_label: In this work, we seek to quantify the extent to which a legislator's spoken language indicates their degree of alignment toward an organization that has a taken a documented position on some legislation.
+method_label: To perform this study, we use a corpus of bill discussion transcripts provided by Digital Democracy1.
+method_label: We then apply proven learning methods in the field of natural language processing to predict alignment scores between each member of the California state legislature and a select set of state-recognized organizations.
+method_label: Our methods surpass established baselines, achieving up to 78% accuracy when predicting these same scores using discourse features.
+
+===================================
+paper_id: 6361438; YEAR: 2003
+adju relevance: Identical (+3)
+difference: 1; annotator1: 1; annotator2: 2
+sources: cited - abs_tfidfcbow200 - specter - title_tfidf
+TITLE: Mining newsgroups using networks arising from social behavior
+ABSTRACT: background_label: Recent advances in information retrieval over hyperlinked corpora have convincingly demonstrated that links carry less noisy information than text.
+objective_label: We investigate the feasibility of applying link-based methods in new applications domains.
+objective_label: The specific application we consider is to partition authors into opposite camps within a given topic in the context of newsgroups.
+method_label: A typical newsgroup posting consists of one or more quoted lines from another posting followed by the opinion of the author.
+method_label: This social behavior gives rise to a network in which the vertices are individuals and the links represent "responded-to" relationships.
+method_label: An interesting characteristic of many newsgroups is that people more frequently respond to a message when they disagree than when they agree.
+method_label: This behavior is in sharp contrast to the WWW link graph, where linkage is an indicator of agreement or common interest.
+result_label: By analyzing the graph structure of the responses, we are able to effectively classify people into opposite camps.
+result_label: In contrast, methods based on statistical analysis of text yield low accuracy on such datasets because the vocabulary used by the two sides tends to be largely identical, and many newsgroup postings consist of relatively few words of text.
+
+===================================
+paper_id: 17312927; YEAR: 2012
+adju relevance: Identical (+3)
+difference: 0; annotator1: 3; annotator2: 3
+sources: specter - abs_tfidfcbow200
+TITLE: Stance Classification using Dialogic Properties of Persuasion
+ABSTRACT: background_label: AbstractPublic debate functions as a forum for both expressing and forming opinions, an important aspect of public life.
+objective_label: We present results for automatically classifying posts in online debate as to the position, or STANCE that the speaker takes on an issue, such as Pro or Con.
+result_label: We show that representing the dialogic structure of the debates in terms of agreement relations between speakers, greatly improves performance for stance classification, over models that operate on post content and parentpost context alone.
+
+===================================
+paper_id: 18151048; YEAR: 2010
+adju relevance: Identical (+3)
+difference: 1; annotator1: 3; annotator2: 2
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: Support or Oppose? Classifying Positions in Online Debates from Reply Activities and Opinion Expressions
+ABSTRACT: objective_label: AbstractWe propose a method for the task of identifying the general positions of users in online debates, i.e., support or oppose the main topic of an online debate, by exploiting local information in their remarks within the debate.
+method_label: An online debate is a forum where each user post an opinion on a particular topic while other users state their positions by posting their remarks within the debate.
+method_label: The supporting or opposing remarks are made by directly replying to the opinion, or indirectly to other remarks (to express local agreement or disagreement), which makes the task of identifying users' general positions difficult.
+method_label: A prior study has shown that a linkbased method, which completely ignores the content of the remarks, can achieve higher accuracy for the identification task than methods based solely on the contents of the remarks.
+result_label: In this paper, we show that utilizing the textual content of the remarks into the link-based method can yield higher accuracy in the identification task.
+
+===================================
+paper_id: 6819967; YEAR: 2011
+adju relevance: Identical (+3)
+difference: 2; annotator1: 3; annotator2: 1
+sources: specter
+TITLE: How can you say such things?!?: Recognizing Disagreement in Informal Political Argument
+ABSTRACT: background_label: AbstractThe recent proliferation of political and social forums has given rise to a wealth of freely accessible naturalistic arguments.
+background_label: People can "talk" to anyone they want, at any time, in any location, about any topic.
+method_label: Here we use a Mechanical Turk annotated corpus of forum discussions as a gold standard for the recognition of disagreement in online ideological forums.
+method_label: We analyze the utility of meta-post features, contextual features, dependency features and word-based features for signaling the disagreement relation.
+result_label: We show that using contextual and dialogic features we can achieve accuracies up to 68% as compared to a unigram baseline of 63%.
+
+===================================
+paper_id: 1589010; YEAR: 2005
+adju relevance: Similar (+2)
+difference: 1; annotator1: 2; annotator2: 1
+sources: cited - abs_tfidfcbow200 - specter - title_tfidf
+TITLE: Collective Content Selection for Concept-to-Text Generation
+ABSTRACT: background_label: A content selection component determines which information should be conveyed in the output of a natural language generation system.
+method_label: We present an efficient method for automatically learning content selection rules from a corpus and its related database.
+method_label: Our modeling framework treats content selection as a collective classification problem, thus allowing us to capture contextual dependencies between input items.
+result_label: Experiments in a sports domain demonstrate that this approach achieves a substantial improvement over context-agnostic methods.
+
+===================================
+paper_id: 6817372; YEAR: 1992
+adju relevance: Similar (+2)
+difference: 0; annotator1: 2; annotator2: 2
+sources: abs_cbow200 - abs_tfidf
+TITLE: A Problem For RST: The Need For Multi-Level Discourse Analysis
+ABSTRACT: background_label: Rhetorical Structure Theory (RST) (Mann and Thompson 1987), argues that in most coherent discourse, consecutive discourse elements are related by a small set of rhetorical relations.
+background_label: Moreover, RST suggests that the information conveyed in a discourse over and above what is conveyed in its component clauses can be derived from the rhetorical relation-based structure of the discourse.
+background_label: A large number of natural language generation systems rely on the rhetorical relations defined in RST to impose structure on multi-sentential text (Hovy 1991; Knott 1991; Moore and Paris 1989; Rosner and Stede 1992).
+background_label: In addition, many descriptive studies of discourse have employed RST (Fox 1987; Linden, Cumming, and Martin 1992; Matthiessen and Thompson 1988).
+background_label: However, recent work by Moore and Paris (1992) noted that RST cannot be used as the sole means of controlling discourse structure in an interactive dialogue system, because RST representations provide insufficient information to support the generation of appropriate responses to "follow-up questions."
+objective_label: The basic problem is that an RST representation of a discourse does not fully specify the intentional structure (Grosz and Sidner 1986) of that discourse.
+result_label: Intentional structure is crucial for responding effectively to questions that address a previous utterance: without a record of what an utterance was intended to achieve, it is impossible to elaborate or clarify that utterance.
+result_label: 1 Further consideration has led us to conclude that the difficulty observed by Moore and Paris stems from a more fundamental problem with RST analyses.
+background_label: RST presumes that, in general, there will be a single, preferred rhetorical relation holding between consecutive discourse elements.
+background_label: In fact, as has been noted in other work on discourse structure (Grosz and Sidner 1986), discourse elements are related simultaneously on multiple levels.
+objective_label: In this paper, we focus on two levels of analysis.
+objective_label: The first involves the relation between the information conveyed in consecutive elements of a coherent discourse.
+method_label: Thus, for example, one utterance may describe an event that can be presumed to be the cause of another event described in the subsequent utterance.
+method_label: This causal relation is at what we will call the informational level.
+method_label: The second level of relation results from the fact that discourses are produced to effect changes in the mental state of the discourse participants.
+method_label: In coherent discourse, a speaker is carrying out a consistent plan to achieve the intended changes, and consecutive discourse elements are related to one another by means of the ways in which they participate in that plan.
+result_label: Thus, one utterance may be intended to increase the likelihood that the hearer will come to
+
+===================================
+paper_id: 115228776; YEAR: 2000
+adju relevance: Similar (+2)
+difference: 1; annotator1: 3; annotator2: 2
+sources: cited - abs_tfidfcbow200 - specter - title_tfidf
+TITLE: The Theory and Practice of Discourse Parsing and Summarization
+ABSTRACT: background_label: From the Publisher:  Until now, most discourse researchers have assumed that full semantic understanding is necessary to derive the discourse structure of texts.
+background_label: This book documents the first serious attempt to construct automatically and use nonsemantic computational structures for text summarization.
+method_label: Daniel Marcu develops a semantics-free theoretical framework that is both general enough to be applicable to naturally occurring texts and concise enough to facilitate an algorithmic approach to discourse analysis.
+method_label: He presents and evaluates two discourse parsing methods: one uses manually written rules that reflect common patterns of usage of cue phrases such as "however" and "in addition to"; the other uses rules that are learned automatically from a corpus of discourse structures.
+method_label: By means of a psycholinguistic experiment, Marcu demonstrates how a discourse-based summarizer identifies the most important parts of texts at levels of performance that are close to those of humans.
+result_label: Marcu also discusses how the automatic derivation of discourse structures may be used to improve the performance of current natural language generation, machine translation, summarization, question answering, and information retrieval systems.
+
+===================================
+paper_id: 1469556; YEAR: 2003
+adju relevance: Similar (+2)
+difference: 0; annotator1: 2; annotator2: 2
+sources: cited - abs_tfidfcbow200 - specter - title_tfidf
+TITLE: Mining the peanut gallery: opinion extraction and semantic classification of product reviews
+ABSTRACT: background_label: The web contains a wealth of product reviews, but sifting through them is a daunting task.
+background_label: Ideally, an opinion mining tool would process a set of search results for a given item, generating a list of product attributes (quality, features, etc.)
+objective_label: and aggregating opinions about each of them (poor, mixed, good).
+method_label: We begin by identifying the unique properties of this problem and develop a method for automatically distinguishing between positive and negative reviews.
+method_label: Our classifier draws on information retrieval techniques for feature extraction and scoring, and the results for various metrics and heuristics vary depending on the testing situation.
+method_label: The best methods work as well as or better than traditional machine learning.
+result_label: When operating on individual sentences collected from web searches, performance is limited due to noise and ambiguity.
+result_label: But in the context of a complete web-based tool and aided by a simple method for grouping sentences into attributes, the results are qualitatively quite useful.
+
+===================================
+paper_id: 11611132; YEAR: 2011
+adju relevance: Similar (+2)
+difference: 1; annotator1: 3; annotator2: 2
+sources: specter - abs_tfidf - title_tfidf
+TITLE: Collective Classification of Congressional Floor-Debate Transcripts
+ABSTRACT: background_label: AbstractThis paper explores approaches to sentiment classification of U.S. Congressional floordebate transcripts.
+method_label: Collective classification techniques are used to take advantage of the informal citation structure present in the debates.
+method_label: We use a range of methods based on local and global formulations and introduce novel approaches for incorporating the outputs of machine learners into collective classification algorithms.
+result_label: Our experimental evaluation shows that the mean-field algorithm obtains the best results for the task, significantly outperforming the benchmark technique.
+
+===================================
+paper_id: 12092327; YEAR: 2015
+adju relevance: Similar (+2)
+difference: 2; annotator1: 2; annotator2: 0
+sources: abs_tfidf - abs_tfidfcbow200
+TITLE: Unveiling the Political Agenda of the European Parliament Plenary: A Topical Analysis
+ABSTRACT: background_label: This study analyzes political interactions in the European Parliament (EP) by considering how the political agenda of the plenary sessions has evolved over time and the manner in which Members of the European Parliament (MEPs) have reacted to external and internal stimuli when making Parliamentary speeches.
+background_label: It does so by considering the context in which speeches are made, and the content of those speeches.
+method_label: To detect latent themes in legislative speeches over time, speech content is analyzed using a new dynamic topic modeling method, based on two layers of matrix factorization.
+method_label: This method is applied to a new corpus of all English language legislative speeches in the EP plenary from the period 1999-2014.
+result_label: Our findings suggest that the political agenda of the EP has evolved significantly over time, is impacted upon by the committee structure of the Parliament, and reacts to exogenous events such as EU Treaty referenda and the emergence of the Euro-crisis have a significant impact on what is being discussed in Parliament.
+
+===================================
+paper_id: 2909452; YEAR: 2005
+adju relevance: Similar (+2)
+difference: 2; annotator1: 1; annotator2: 3
+sources: cited - abs_tfidfcbow200 - specter - title_tfidf
+TITLE: On the collective classification of email "speech acts"
+ABSTRACT: background_label: We consider classification of email messages as to whether or not they contain certain "email acts", such as a request or a commitment.
+background_label: We show that exploiting the sequential correlation among email messages in the same thread can improve email-act classification.
+method_label: More specifically, we describe a new text-classification algorithm based on a dependency-network based collective classification method, in which the local classifiers are maximum entropy models based on words and certain relational features.
+result_label: We show that statistically significant improvements over a bag-of-words baseline classifier can be obtained for some, but not all, email-act classes.
+result_label: Performance improvements obtained by collective classification appears to be consistent across many email acts suggested by prior speech-act theory.
+
+===================================
+paper_id: 26117576; YEAR: 2017
+adju relevance: Similar (+2)
+difference: 2; annotator1: 0; annotator2: 2
+sources: abs_tfidf
+TITLE: Detecting Policy Preferences and Dynamics in the UN General Debate with Neural Word Embeddings
+ABSTRACT: background_label: Foreign policy analysis has been struggling to find ways to measure policy preferences and paradigm shifts in international political systems.
+objective_label: This paper presents a novel, potential solution to this challenge, through the application of a neural word embedding (Word2vec) model on a dataset featuring speeches by heads of state or government in the United Nations General Debate.
+objective_label: The paper provides three key contributions based on the output of the Word2vec model.
+method_label: First, it presents a set of policy attention indices, synthesizing the semantic proximity of political speeches to specific policy themes.
+method_label: Second, it introduces country-specific semantic centrality indices, based on topological analyses of countries' semantic positions with respect to each other.
+method_label: Third, it tests the hypothesis that there exists a statistical relation between the semantic content of political speeches and UN voting behavior, falsifying it and suggesting that political speeches contain information of different nature then the one behind voting outcomes.
+result_label: The paper concludes with a discussion of the practical use of its results and consequences for foreign policy analysis, public accountability, and transparency.
+
+===================================
+paper_id: 2282762; YEAR: 2012
+adju relevance: Similar (+2)
+difference: 1; annotator1: 2; annotator2: 1
+sources: cited - abs_tfidfcbow200 - specter - title_tfidf
+TITLE: Discriminative Probabilistic Models for Relational Data
+ABSTRACT: background_label: In many supervised learning tasks, the entities to be labeled are related to each other in complex ways and their labels are not independent.
+background_label: For example, in hypertext classification, the labels of linked pages are highly correlated.
+background_label: A standard approach is to classify each entity independently, ignoring the correlations between them.
+method_label: Recently, Probabilistic Relational Models, a relational version of Bayesian networks, were used to define a joint probabilistic model for a collection of related entities.
+method_label: In this paper, we present an alternative framework that builds on (conditional) Markov networks and addresses two limitations of the previous approach.
+method_label: First, undirected models do not impose the acyclicity constraint that hinders representation of many important relational dependencies in directed models.
+method_label: Second, undirected models are well suited for discriminative training, where we optimize the conditional likelihood of the labels given the features, which generally improves classification accuracy.
+method_label: We show how to train these models effectively, and how to use approximate probabilistic inference over the learned model for collective classification of multiple related entities.
+result_label: We provide experimental results on a webpage classification task, showing that accuracy can be significantly improved by modeling relational dependencies.
+
+===================================
+paper_id: 2246744; YEAR: 2008
+adju relevance: Similar (+2)
+difference: 0; annotator1: 2; annotator2: 2
+sources: specter - abs_tfidf - title_tfidf
+TITLE: Using Multiple Sources of Agreement Information for Sentiment Classification of Political Transcripts
+ABSTRACT: background_label: AbstractSentiment classifiers attempt to determine whether a document expresses a generally positive or negative sentiment about its topic.
+background_label: Previous work has shown that overall performance can be improved by combining per-document classifications with information about agreement between documents.
+objective_label: This paper explores approaches to sentiment classification of U.S Congressional floor debate transcripts that use a model for incorporating multiple sources of information about agreements between speakers.
+result_label: An empirical evaluation demonstrates accuracy improvements over previously published results.
+
+===================================
+paper_id: 927208; YEAR: 2010
+adju relevance: Similar (+2)
+difference: 1; annotator1: 3; annotator2: 2
+sources: specter
+TITLE: Recognizing Stances in Ideological On-Line Debates
+ABSTRACT: background_label: AbstractThis work explores the utility of sentiment and arguing opinions for classifying stances in ideological debates.
+objective_label: In order to capture arguing opinions in ideological stance taking, we construct an arguing lexicon automatically from a manually annotated corpus.
+method_label: We build supervised systems employing sentiment and arguing opinions and their targets as features.
+method_label: Our systems perform substantially better than a distribution-based baseline.
+result_label: Additionally, by employing both types of opinion features, we are able to perform better than a unigrambased system.
+
+===================================
+paper_id: 713490; YEAR: 2004
+adju relevance: Similar (+2)
+difference: 0; annotator1: 2; annotator2: 2
+sources: cited - abs_tfidfcbow200 - specter - title_tfidf
+TITLE: Identifying Agreement and Disagreement in Conversational Speech: Use of Bayesian Networks to Model Pragmatic Dependencies
+ABSTRACT: background_label: We describe a statistical approach for modeling agreements and disagreements in conversational interaction.
+method_label: Our approach first identifies adjacency pairs using maximum entropy ranking based on a set of lexical, durational, and structural features that look both forward and backward in the discourse.
+method_label: We then classify utterances as agreement or disagreement using these adjacency pairs and features that represent various pragmatic influences of previous agreement or disagreement on the current utterance.
+result_label: Our approach achieves 86.9% accuracy, a 4.9% increase over previous work.
+
+===================================
+paper_id: 55140408; YEAR: 2016
+adju relevance: Similar (+2)
+difference: 0; annotator1: 2; annotator2: 2
+sources: specter - abs_tfidf
+TITLE: Measuring Political Positions from Legislative Speech
+ABSTRACT: background_label: Existing approaches to measuring political disagreement from text data perform poorly except when applied to narrowly selected texts discussing the same issues and written in the same style.
+background_label: We demonstrate the first viable approach for estimating legislator-specific scores from the entire speech corpus of a legislature, while also producing extensive information about the evolution of speech polarization and politically loaded language.
+method_label: In the Irish Dail, we show that the dominant dimension of speech variation is government–opposition, with ministers more extreme on this dimension than backbenchers, and a second dimension distinguishing between the establishment and anti-establishment opposition parties.
+result_label: In the U. S. Senate, we estimate a dimension that has moderate within-party correlations with scales based on roll-call votes and campaign donation patterns; however, we observe greater overlap across parties in speech positions than roll-call positions and partisan polarization in speeches varies more clearly in response to major political events.
+
+===================================
+paper_id: 484335; YEAR: 2002
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: cited - abs_tfidfcbow200 - specter - title_tfidf
+TITLE: Thumbs Up or Thumbs Down? Semantic Orientation Applied to Unsupervised Classification of Reviews
+ABSTRACT: background_label: This paper presents a simple unsupervised learning algorithm for classifying reviews as recommended (thumbs up) or not recommended (thumbs down).
+background_label: The classification of a review is predicted by the average semantic orientation of the phrases in the review that contain adjectives or adverbs.
+method_label: A phrase has a positive semantic orientation when it has good associations (e.g.,"subtle nuances") and a negative semantic orientation when it has bad associations (e.g.,"very cavalier").
+method_label: In this paper, the semantic orientation of a phrase is calculated as the mutual information between the given phrase and the word"excellent"minus the mutual information between the given phrase and the word"poor".
+method_label: A review is classified as recommended if the average semantic orientation of its phrases is positive.
+result_label: The algorithm achieves an average accuracy of 74% when evaluated on 410 reviews from Epinions, sampled from four different domains (reviews of automobiles, banks, movies, and travel destinations).
+result_label: The accuracy ranges from 84% for automobile reviews to 66% for movie reviews.
+
+===================================
+paper_id: 7105713; YEAR: 2002
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: cited - abs_tfidfcbow200 - specter - title_tfidf
+TITLE: Thumbs up? Sentiment Classification using Machine Learning Techniques
+ABSTRACT: background_label: We consider the problem of classifying documents not by topic, but by overall sentiment, e.g., determining whether a review is positive or negative.
+background_label: Using movie reviews as data, we find that standard machine learning techniques definitively outperform human-produced baselines.
+method_label: However, the three machine learning methods we employed (Naive Bayes, maximum entropy classification, and support vector machines) do not perform as well on sentiment classification as on traditional topic-based categorization.
+result_label: We conclude by examining factors that make the sentiment classification problem more challenging.
+
+===================================
+paper_id: 12254186; YEAR: 2015
+adju relevance: Related (+1)
+difference: 2; annotator1: 2; annotator2: 0
+sources: abs_cbow200
+TITLE: QUOTUS: The Structure of Political Media Coverage as Revealed by Quoting Patterns
+ABSTRACT: background_label: Given the extremely large pool of events and stories available, media outlets need to focus on a subset of issues and aspects to convey to their audience.
+background_label: Outlets are often accused of exhibiting a systematic bias in this selection process, with different outlets portraying different versions of reality.
+background_label: However, in the absence of objective measures and empirical evidence, the direction and extent of systematicity remains widely disputed.
+objective_label: In this paper we propose a framework based on quoting patterns for quantifying and characterizing the degree to which media outlets exhibit systematic bias.
+method_label: We apply this framework to a massive dataset of news articles spanning the six years of Obama's presidency and all of his speeches, and reveal that a systematic pattern does indeed emerge from the outlet's quoting behavior.
+method_label: Moreover, we show that this pattern can be successfully exploited in an unsupervised prediction setting, to determine which new quotes an outlet will select to broadcast.
+method_label: By encoding bias patterns in a low-rank space we provide an analysis of the structure of political media coverage.
+result_label: This reveals a latent media bias space that aligns surprisingly well with political ideology and outlet type.
+result_label: A linguistic analysis exposes striking differences across these latent dimensions, showing how the different types of media outlets portray different realities even when reporting on the same events.
+result_label: For example, outlets mapped to the mainstream conservative side of the latent space focus on quotes that portray a presidential persona disproportionately characterized by negativity.
+
+===================================
+paper_id: 52802182; YEAR: 2000
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: cited - abs_tfidfcbow200 - specter - title_tfidf
+TITLE: Dialogue Act Modeling for Automatic Tagging and Recognition of Conversational Speech
+ABSTRACT: background_label: We describe a statistical approach for modeling dialogue acts in conversational speech, i.e., speech-act-like units such as Statement, Question, Backchannel, Agreement, Disagreement, and Apology.
+method_label: Our model detects and predicts dialogue acts based on lexical, collocational, and prosodic cues, as well as on the discourse coherence of the dialogue act sequence.
+method_label: The dialogue model is based on treating the discourse structure of a conversation as a hidden Markov model and the individual dialogue acts as observations emanating from the model states.
+method_label: Constraints on the likely sequence of dialogue acts are modeled via a dialogue act n-gram.
+method_label: The statistical dialogue grammar is combined with word n-grams, decision trees, and neural networks modeling the idiosyncratic lexical and prosodic manifestations of each dialogue act.
+method_label: We develop a probabilistic integration of speech recognition with dialogue modeling, to improve both speech recognition and dialogue act classification accuracy.
+method_label: Models are trained and evaluated using a large hand-labeled database of 1,155 conversations from the Switchboard corpus of spontaneous human-to-human telephone speech.
+result_label: We achieved good dialogue act labeling accuracy (65% based on errorful, automatically recognized words and prosody, and 71% based on word transcripts, compared to a chance baseline accuracy of 35% and human accuracy of 84%) and a small reduction in word recognition error.
+
+===================================
+paper_id: 96457939; YEAR: 2007
+adju relevance: Related (+1)
+difference: 1; annotator1: 1; annotator2: 0
+sources: title_tfidfcbow200 - abs_tfidfcbow200 - title_cbow200
+TITLE: Lobbyists before the U.S. Supreme Court Investigating the Influence of Amicus Curiae Briefs
+ABSTRACT: background_label: Despite the fact that amicus curiae participation is the most common method of interest group activity in the judicial arena, there is little consensus as to whether this means of participation influences the decision making of the U.S. Supreme Court.
+objective_label: To redress this state of affairs, this research investigates the affect of amicus briefs on the ideological direction of the Court's decisions, with particular attention given to theoretical and methodological issues that have gone unexplored in previous studies.
+result_label: Analyzing group influence during the 1946 to 1995 terms, the results provide particularly robust evidence that pressure groups are effective in shaping the Court's policy outputs.
+result_label: These findings therefore indicate that elite decision makers can be influenced by persuasive argumentation presented by organized interests.
+
+===================================
+paper_id: 2436153; YEAR: 2015
+adju relevance: Related (+1)
+difference: 1; annotator1: 2; annotator2: 1
+sources: specter
+TITLE: Argumentation Mining in Parliamentary Discourse
+ABSTRACT: other_label: Abstract.
+background_label: We examine whether using frame choices in forum statements can help us identify framing strategies in parliamentary discourse.
+method_label: In this analysis, we show how features based on embedding representations can improve the discovery of various frames in argumentative political speech.
+result_label: Given the complex nature of the parliamentary discourse, the initial results that are presented here are promising.
+result_label: We further present a manually annotated corpus for frame recognition in parliamentary discourse.
+
+===================================
+paper_id: 2795175; YEAR: 2006
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: cited - abs_tfidfcbow200 - specter - title_tfidf
+TITLE: Seeing Stars When There Aren’t Many Stars: Graph-Based Semi-Supervised Learning For Sentiment Categorization
+ABSTRACT: background_label: We present a graph-based semi-supervised learning algorithm to address the sentiment analysis task of rating inference.
+background_label: Given a set of documents (e.g., movie reviews) and accompanying ratings (e.g., "4 stars"), the task calls for inferring numerical ratings for unlabeled documents based on the perceived sentiment expressed by their text.
+background_label: In particular, we are interested in the situation where labeled data is scarce.
+method_label: We place this task in the semi-supervised setting and demonstrate that considering unlabeled reviews in the learning process can improve rating-inference performance.
+method_label: We do so by creating a graph on both labeled and unlabeled data to encode certain assumptions for this task.
+method_label: We then solve an optimization problem to obtain a smooth rating function over the whole graph.
+result_label: When only limited labeled data is available, this method achieves significantly better predictive accuracy over other methods that ignore the unlabeled examples during training.
+
+===================================
+paper_id: 144521843; YEAR: 1997
+adju relevance: Related (+1)
+difference: 1; annotator1: 0; annotator2: 1
+sources: title_tfidfcbow200 - title_cbow200
+TITLE: Perceived Support for One's Opinions and Willingness to Speak Out: A Meta-Analysis of Survey Studies on the 'Spiral of Silence'
+ABSTRACT: background_label: The authors report a meta-analysis of survey studies examining the relationship between people's perceptions of support for their opinions and their willingness to express those opinions.
+result_label: Evidence from the analysis indicates the presence of a very small but statistically significant, relationship between the degree to which a person believes others hold similar opinions and the willingness to express those opinions.
+result_label: Moderator analyses did not reveal significant moderators of this relationship, although the observed correlations were statistically heterogeneous, suggesting at least one undiscovered moderator
+
+===================================
+paper_id: 52058704; YEAR: 2018
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: abs_tfidf - abs_tfidfcbow200 - specter
+TITLE: Analysis of Speeches in Indian Parliamentary Debates
+ABSTRACT: background_label: With the increasing usage of the internet, more and more data is being digitized including parliamentary debates but they are in an unstructured format.
+background_label: There is a need to convert them into a structured format for linguistic analysis.
+background_label: Much work has been done on parliamentary data such as Hansard, American congressional floor-debate data on various aspects but less on pragmatics.
+method_label: In this paper, we provide a dataset for the synopsis of Indian parliamentary debates and perform stance classification of speeches i.e identifying if the speaker is supporting the bill/issue or against it.
+method_label: We also analyze the intention of the speeches beyond mere sentences i.e pragmatics in the parliament.
+method_label: Based on thorough manual analysis of the debates, we developed an annotation scheme of 4 mutually exclusive categories to analyze the purpose of the speeches: to find out ISSUES, to BLAME, to APPRECIATE and for CALL FOR ACTION.
+method_label: We have annotated the dataset provided, with these 4 categories and conducted preliminary experiments for automatic detection of the categories.
+result_label: Our automated classification approach gave us promising results.
+
+===================================
+paper_id: 62217505; YEAR: 2009
+adju relevance: Related (+1)
+difference: 1; annotator1: 2; annotator2: 1
+sources: specter
+TITLE: Elements of a computational model for multi-party discourse: The turn-taking behavior of Supreme Court justices
+ABSTRACT: background_label: This work explores computational models of multi-party discourse, using transcripts from U.S. Supreme Court oral arguments.
+background_label: The turn-taking behavior of participants is treated as a supervised sequence-labeling problem and modeled using first- and second-order conditional random fields (CRFs).
+method_label: We specifically explore the hypothesis that discourse markers and personal references provide important features in such models.
+result_label: Results from a sequence prediction experiment demonstrate that incorporating these two types of features yields significant improvements in accuracy.
+result_label: Our experiments are couched in the broader context of developing tools to support legal scholarship, although we see other natural language processing applications as well.
+other_label: © 2009 Wiley Periodicals, Inc.
+
+===================================
+paper_id: 5035109; YEAR: 2018
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: abs_tfidfcbow200
+TITLE: A Predictive Model for Notional Anaphora in English
+ABSTRACT: background_label: Notional anaphors are pronouns which disagree with their antecedents' grammatical categories for notional reasons, such as plural to singular agreement in: 'the government ... they'.
+background_label: Since such cases are rare and conflict with evidence from strictly agreeing cases ('the government ... it'), they present a substantial challenge to both coreference resolution and referring expression generation.
+method_label: Using the OntoNotes corpus, this paper takes an ensemble approach to predicting English notional anaphora in context on the basis of the largest empirical data to date.
+result_label: In addition to state of the art prediction accuracy, the results suggest that theoretical approaches positing a plural construal at the antecedent's utterance are insufficient, and that circumstances at the anaphor's utterance location, as well as global factors such as genre, have a strong effect on the choice of referring expression.
+
+===================================
+paper_id: 3545253; YEAR: 2018
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: specter - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - abs_tfidf
+TITLE: "You are no Jack Kennedy": On Media Selection of Highlights from Presidential Debates
+ABSTRACT: background_label: Political speeches and debates play an important role in shaping the images of politicians, and the public often relies on media outlets to select bits of political communication from a large pool of utterances.
+background_label: It is an important research question to understand what factors impact this selection process.
+objective_label: To quantitatively explore the selection process, we build a three- decade dataset of presidential debate transcripts and post-debate coverage.
+method_label: We first examine the effect of wording and propose a binary classification framework that controls for both the speaker and the debate situation.
+method_label: We find that crowdworkers can only achieve an accuracy of 60% in this task, indicating that media choices are not entirely obvious.
+result_label: Our classifiers outperform crowdworkers on average, mainly in primary debates.
+method_label: We also compare important factors from crowdworkers' free-form explanations with those from data-driven methods and find interesting differences.
+result_label: Few crowdworkers mentioned that"context matters", whereas our data show that well-quoted sentences are more distinct from the previous utterance by the same speaker than less-quoted sentences.
+result_label: Finally, we examine the aggregate effect of media preferences towards different wordings to understand the extent of fragmentation among media outlets.
+result_label: By analyzing a bipartite graph built from quoting behavior in our data, we observe a decreasing trend in bipartisan coverage.
+
+===================================
+paper_id: 11312524; YEAR: 2004
+adju relevance: Related (+1)
+difference: 1; annotator1: 1; annotator2: 0
+sources: cited - abs_tfidfcbow200 - specter - title_tfidf
+TITLE: Learning associative Markov networks
+ABSTRACT: background_label: Markov networks are extensively used to model complex sequential, spatial, and relational interactions in fields as diverse as image processing, natural language analysis, and bioinformatics.
+background_label: However, inference and learning in general Markov networks is intractable.
+objective_label: In this paper, we focus on learning a large subclass of such models (called associative Markov networks) that are tractable or closely approximable.
+background_label: This subclass contains networks of discrete variables with K labels each and clique potentials that favor the same labels for all variables in the clique.
+method_label: Such networks capture the "guilt by association" pattern of reasoning present in many domains, in which connected ("associated") variables tend to have the same label.
+method_label: Our approach exploits a linear programming relaxation for the task of finding the best joint assignment in such networks, which provides an approximate quadratic program (QP) for the problem of learning a margin-maximizing Markov network.
+method_label: We show that for associative Markov network over binary-valued variables, this approximate QP is guaranteed to return an optimal parameterization for Markov networks of arbitrary topology.
+method_label: For the nonbinary case, optimality is not guaranteed, but the relaxation produces good solutions in practice.
+result_label: Experimental results with hypertext and newswire classification show significant advantages over standard approaches.
+
+===================================
+paper_id: 3264224; YEAR: 2005
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: cited - abs_tfidfcbow200 - specter - title_tfidf
+TITLE: Seeing stars: Exploiting class relationships for sentiment categorization with respect to rating scales
+ABSTRACT: background_label: We address the rating-inference problem, wherein rather than simply decide whether a review is"thumbs up"or"thumbs down", as in previous sentiment analysis work, one must determine an author's evaluation with respect to a multi-point scale (e.g., one to five"stars").
+method_label: This task represents an interesting twist on standard multi-class text categorization because there are several different degrees of similarity between class labels; for example,"three stars"is intuitively closer to"four stars"than to"one star".
+method_label: We first evaluate human performance at the task.
+method_label: Then, we apply a meta-algorithm, based on a metric labeling formulation of the problem, that alters a given n-ary classifier's output in an explicit attempt to ensure that similar items receive similar labels.
+result_label: We show that the meta-algorithm can provide significant improvements over both multi-class and regression versions of SVMs when we employ a novel similarity measure appropriate to the problem.
+
+===================================
+paper_id: 142582489; YEAR: 2009
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: abs_tfidfcbow200 - abs_cbow200
+TITLE: Turn-Taking and Affirmative Cue Words in TaskOriented Dialogue
+ABSTRACT: background_label: As interactive voice response systems spread at a rapid pace, providing an increasingly more complex functionality, it is becoming clear that the challenges of such systems are not solely associated to their synthesis and recognition capabilities.
+background_label: Rather, issues such as the coordination of turn exchanges between system and user, or the correct generation and understanding of words that may convey multiple meanings, appear to play an important role in system usability.
+objective_label: This thesis explores those two issues in the Columbia Games Corpus, a collection of spontaneous task-oriented dialogues in Standard American English.
+method_label: We provide evidence of the existence of seven turn-yielding cues—prosodic, acoustic and syntactic events strongly associated with conversational turn endings and show that the likelihood of a turn-taking attempt from the interlocutor increases linearly with the number of cues conjointly displayed by the speaker.
+method_label: We present similar results related to six backchannel-inviting cues—events that invite the interlocutor to produce a short utterance conveying continued attention.
+method_label: Additionally, we describe a series of studies of affirmative cue words—a family of cue words such as okay or alright that speakers use frequently in conversation for several purposes: for acknowledging what the interlocutor has said, or for cueing the start of a new topic, among others.
+method_label: We find differences in the acoustic/prosodic realization of such functions, but observe that contextual information figures prominently in human disambiguation of these words.
+result_label: We also conduct machine learning experiments to explore the automatic classification of affirmative cue words.
+result_label: Finally, we examine a novel measure of speaker entrainment related to the usage of these words, showing its association with task success and dialogue coordination.
+
+===================================
+paper_id: 140292583; YEAR: 1993
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: abs_tfidfcbow200
+TITLE: Abductive Interpretation And Reinterpretation Of Natural Language Utterances
+ABSTRACT: background_label: To decide how to respond to an utterance, a speaker must interpret what others have said and why they have said it.
+background_label: Speakers rely on their expectations to decide whether they have understood each other.
+background_label: Misunderstandings occur when speakers differ in their beliefs about what has been said or why.
+background_label: If a listener hears something that seems inconsistent, he may reinterpret an earlier utterance and respond to it anew.
+background_label: Otherwise, he assumes that the conversation is proceeding smoothly.
+method_label: Recognizing an inconsistency as a misunderstanding and generating a new reply together accomplish what is known as a fourth-position repair.
+method_label: To model the repair of misunderstandings, this thesis combines both intentional and social accounts of discourse, unifying theories of speech act production, interpretation, and repair.
+result_label: In intentional accounts, speakers use their beliefs, goals, and expectations to decide what to say; when they interpret an utterance, speakers identify goals that might account for it.
+background_label: In sociological accounts provided by Ethnomethodology, discourse interactions and the resolution of misunderstandings are normal activities guided by social conventions.
+background_label: The approach extends intentional accounts by using expectations deriving from social conventions in order to guide interpretation.
+background_label: As a result, it avoids the unconstrained inference of goals that has plagued many models of discourse.
+method_label: A unified theory has been developed by using default reasoning to generate utterances and using abduction to characterize interpretation and repair.
+method_label: The account has been expressed as a logical theory within the Prioritized Theorist Framework.
+method_label: The theory includes relations on linguistic acts and the Gricean attitudes that they express.
+method_label: It also contains an axiomatization of speakers' knowledge for generating socially appropriate utterances and for detecting and repairing misunderstandings.
+result_label: The generality of the approach is demonstrated by re-enacting real conversations using the theorem-proving capabilities of Prioritized Theorist.
+
+===================================
+paper_id: 1840697; YEAR: 2003
+adju relevance: Related (+1)
+difference: 1; annotator1: 2; annotator2: 1
+sources: cited - abs_tfidfcbow200 - specter - title_tfidf
+TITLE: Detection Of Agreement vs. Disagreement In Meetings: Training With Unlabeled Data
+ABSTRACT: background_label: To support summarization of automatically transcribed meetings, we introduce a classifier to recognize agreement or disagreement utterances, utilizing both word-based and prosodic cues.
+method_label: We show that hand-labeling efforts can be minimized by using unsupervised training on a large unlabeled data set combined with supervised training on a small amount of data.
+result_label: For ASR transcripts with over 45% WER, the system recovers nearly 80% of agree/disagree utterances with a confusion rate of only 3%.
+
+===================================
+paper_id: 12979200; YEAR: 2006
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: cited - abs_tfidfcbow200 - specter - title_tfidf
+TITLE: Automated classification of congressional legislation
+ABSTRACT: background_label: For social science researchers, content analysis and classification of United States Congressional legislative activities have been time consuming and costly.
+background_label: The Library of Congress THOMAS system provides detailed information about bills and laws, but its classification system, the Legislative Indexing Vocabulary (LIV), is geared toward information retrieval instead of the pattern or historical trend recognition that social scientists value.
+background_label: The same event (a bill) may be coded with many subjects at the same time, with little indication of its primary emphasis.
+objective_label: In addition, because the LIV system has not been applied to other activities, it cannot be used to compare (for example) legislative issue attention to executive, media, or public issue attention.This paper presents the Congressional Bills Project's (www.congressionalbills.org) automated classification system.
+method_label: This system applies a topic spotting classification algorithm to the task of coding legislative activities into one of 226 subtopic areas.
+method_label: The algorithm uses a traditional bag-of-words document representation, an extensive set of human coded examples, and an exhaustive topic coding system developed for use by the Congressional Bills Project and the Policy Agendas Project (www.policyagendas.org).
+result_label: Experimental results demonstrate that the automated system is about as effective as human assessors, but with significant time and cost savings.
+result_label: The paper concludes by discussing challenges to moving the system into operational use.
+
+===================================
+paper_id: 12917488; YEAR: 2012
+adju relevance: Related (+1)
+difference: 2; annotator1: 0; annotator2: 2
+sources: abs_cbow200
+TITLE: Discovering value from community activity on focused question answering sites: a case study of stack overflow
+ABSTRACT: background_label: Question answering (Q&A) websites are now large repositories of valuable knowledge.
+background_label: While most Q&A sites were initially aimed at providing useful answers to the question asker, there has been a marked shift towards question answering as a community-driven knowledge creation process whose end product can be of enduring value to a broad audience.
+background_label: As part of this shift, specific expertise and deep knowledge of the subject at hand have become increasingly important, and many Q&A sites employ voting and reputation mechanisms as centerpieces of their design to help users identify the trustworthiness and accuracy of the content.
+method_label: To better understand this shift in focus from one-off answers to a group knowledge-creation process, we consider a question together with its entire set of corresponding answers as our fundamental unit of analysis, in contrast with the focus on individual question-answer pairs that characterized previous work.
+objective_label: Our investigation considers the dynamics of the community activity that shapes the set of answers, both how answers and voters arrive over time and how this influences the eventual outcome.
+result_label: For example, we observe significant assortativity in the reputations of co-answerers, relationships between reputation and answer speed, and that the probability of an answer being chosen as the best one strongly depends on temporal characteristics of answer arrivals.
+result_label: We then show that our understanding of such properties is naturally applicable to predicting several important quantities, including the long-term value of the question and its answers, as well as whether a question requires a better answer.
+result_label: Finally, we discuss the implications of these results for the design of Q&A sites.
+
+===================================
+paper_id: 1973915; YEAR: 2004
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: cited - abs_tfidfcbow200 - specter - title_tfidf
+TITLE: Cultural orientation: Classifying subjective documents by cociation analysis
+ABSTRACT: background_label: This paper introduces a simple method for estimating cultural orientation, the affiliation of hypertext documents in a polarized field of discourse.
+background_label: Using a probabilistic model based on cocitation information, two experiments are reported.
+method_label: The first experiment tests the model’s ability to discriminate between leftand right-wing documents about politics.
+method_label: In this context the model is tested on three sets of data, 695 partisan web documents, 162 political weblogs, and 72 non-partisan documents.
+result_label: Accuracy above 90% is obtained from the cocitation model, outperforming lexically based classifiers at statistically significant levels.
+method_label: In the second experiment, the proposed method is used to classify the home pages of musical artists with respect to their mainstream or “alternative” appeal.
+result_label: For musical artists the model is tested on a set of 227 artist home pages, achieving 88 % accuracy.
+
+===================================
+paper_id: 17908422; YEAR: 2016
+adju relevance: Related (+1)
+difference: 1; annotator1: 2; annotator2: 1
+sources: specter
+TITLE: Unshared task: (Dis)agreement in online debates
+ABSTRACT: background_label: Topic-independent expressions for conveying agreement and disagreement were annotated in a corpus of web forum debates, in order to evaluate a classifier trained to detect these two categories.
+background_label: Among the 175 expressions annotated in the evaluation set, 163 were unique, which shows that there is large variation in expressions used.
+result_label: This variation might be one of the reasons why the task of automatically detecting the categories was difficult.
+result_label: F-scores of 0.44 and 0.37 were achieved by a classifier trained on 2,000 debate sentences for detecting sentence-level agreement and disagreement.
+
+===================================
+paper_id: 10274824; YEAR: 2003
+adju relevance: Related (+1)
+difference: 1; annotator1: 1; annotator2: 0
+sources: cited - abs_tfidfcbow200 - specter - title_tfidf
+TITLE: Extracting Policy Positions from Political Texts Using Words as Data
+ABSTRACT: objective_label: We present a new way of extracting policy positions from political texts that treats texts not as discourses to be understood and interpreted but rather, as data in the form of words.
+method_label: We compare this approach to previous methods of text analysis and use it to replicate published estimates of the policy positions of political parties in Britain and Ireland, on both economic and social policy dimensions.
+method_label: We “export” the method to a non-English-language environment, analyzing the policy positions of German parties, including the PDS as it entered the former West German party system.
+method_label: Finally, we extend its application beyond the analysis of party manifestos, to the estimation of political positions from legislative speeches.
+method_label: Our “language-blind” word scoring technique successfully replicates published policy estimates without the substantial costs of time and labor that these require.
+result_label: Furthermore, unlike in any previous method for extracting policy positions from political texts, we provide uncertainty measures for our estimates, allowing analysts to make informed judgments of the extent to which differences between two estimated policy positions can be viewed as significant or merely as products of measurement error.
+
+===================================
+paper_id: 8577096; YEAR: 2016
+adju relevance: Related (+1)
+difference: 1; annotator1: 1; annotator2: 0
+sources: abs_tfidfcbow200 - abs_cbow200 - abs_tfidf
+TITLE: Winning Arguments: Interaction Dynamics and Persuasion Strategies in Good-faith Online Discussions
+ABSTRACT: background_label: Changing someone's opinion is arguably one of the most important challenges of social interaction.
+background_label: The underlying process proves difficult to study: it is hard to know how someone's opinions are formed and whether and how someone's views shift.
+background_label: Fortunately, ChangeMyView, an active community on Reddit, provides a platform where users present their own opinions and reasoning, invite others to contest them, and acknowledge when the ensuing discussions change their original views.
+objective_label: In this work, we study these interactions to understand the mechanisms behind persuasion.
+method_label: We find that persuasive arguments are characterized by interesting patterns of interaction dynamics, such as participant entry-order and degree of back-and-forth exchange.
+method_label: Furthermore, by comparing similar counterarguments to the same opinion, we show that language factors play an essential role.
+method_label: In particular, the interplay between the language of the opinion holder and that of the counterargument provides highly predictive cues of persuasiveness.
+result_label: Finally, since even in this favorable setting people may not be persuaded, we investigate the problem of determining whether someone's opinion is susceptible to being changed at all.
+result_label: For this more difficult task, we show that stylistic choices in how the opinion is expressed carry predictive power.
+
+===================================
+paper_id: 155180937; YEAR: 2014
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 1; annotator2: 0
+sources: abs_tfidfcbow200 - abs_cbow200 - specter
+TITLE: What does Twitter have to say about ideology
+ABSTRACT: background_label: Political debates bearing ideological references exist for long in our society; the last few years though the explosion of the use of the internet and the social media as communication means have boosted the production of ideological texts to unprecedented levels.
+background_label: This creates the need for automated processing of the text if we are interested in understanding the ideological references it contains.
+objective_label: In this work, we propose a set of linguistic rules based on certain criteria that identify a text as bearing ideology.
+method_label: We codify and implement these rules as part of a Natural Language Processing System that we also present.
+result_label: We evaluate the system by using it to identify if ideology exists in tweets published by French politicians and discuss its performance.
+
+===================================
+paper_id: 21790248; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: Selfie-Takers Prefer Left Cheeks: Converging Evidence from the (Extended) selfiecity Database
+ABSTRACT: background_label: According to previous reports, selfie takers in widely different cultural contexts prefer poses showing the left cheek more than the right cheek.
+background_label: This posing bias may be interpreted as evidence for a right-hemispheric specialization for the expression of facial emotions.
+background_label: However, earlier studies analyzed selfie poses as categorized by human raters, which raises methodological issues in relation to the distinction between frontal and three-quarter poses.
+method_label: Here, we provide converging evidence by analyzing the (extended) selfiecity database which includes automatic assessments of head rotation and of emotional expression.
+result_label: We confirm a culture- and sex-independent left-cheek bias and report stronger expression of negative emotions in selfies showing the left cheek.
+result_label: These results are generally consistent with a psychobiological account of a left cheek bias in self-portraits but reveal possible unexpected facts concerning the relation between side bias and lateralization of emotional expression.
+
+===================================
+paper_id: 156027410; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 1; annotator2: 0
+sources: abs_tfidfcbow200 - abs_cbow200
+TITLE: All Copying Is Not Created Equal: Examining Supreme Court Opinions’ Borrowed Language
+ABSTRACT: background_label: Long ago, Judge Cardozo warned of an "agglunative" style of judicial writing where whole sections are cut from other documents and reassembled together in courts' opinions.
+background_label: Critics of this practice label it judicial plagiarism while others in the legal community see this as an acceptable, common practice.
+objective_label: This paper is one of the first works to locate multiple instances of this practice in the Supreme Court by comparing opinions with highly similar merits briefs.
+background_label: Due to the sheer number of Supreme Court opinions and associated Court documents that could serve as a textual basis for these opinions, the search for these links has, to date, proven predominately an intractable task.
+method_label: With the aid of computerized textual analysis the task of manually coding and comparing documents can be pared down to the most likely cases of interest.
+result_label: This approach, using the tools of big data analysis, provides the necessary link for this type of inquiry.
+background_label: The analysis in this paper is based on an comparison of over 9,400 merits briefs and their respective Supreme Court opinions.
+background_label: Based on these initial comparisons of linguistic similarity, this paper creates a typology of four Supreme Court opinion styles and focuses on the highly derivative type.
+method_label: The main section of the paper examines twenty-three instances of Supreme Court opinions where one-third or more of the opinion language is taken directly or "lifted" from one merits brief.
+method_label: By directly comparing the opinion language in the cases with the briefs, it highlights not only directly borrowed language, but also opinion language that is highly similar but not identical to language from the briefs.
+method_label: It also identifies the justices associated with high levels of language borrowing.
+result_label: Normatively, it is designed to catalyze the discussion regarding expectations, if any, for the use of original language in Supreme Court opinions.
+
+===================================
+paper_id: 12147916; YEAR: 2012
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: abs_cbow200
+TITLE: Complexity over Uncertainty in Generalized Representational Information Theory (GRIT): A Structure-Sensitive General Theory of Information
+ABSTRACT: background_label: Abstract:What is information?
+background_label: Although researchers have used the construct of information liberally to refer to pertinent forms of domain-specific knowledge, relatively few have attempted to generalize and standardize the construct.
+background_label: Shannon and Weaver (1949) offered the best known attempt at a quantitative generalization in terms of the number of discriminable symbols required to communicate the state of an uncertain event.
+objective_label: This idea, although useful, does not capture the role that structural context and complexity play in the process of understanding an event as being informative.
+objective_label: In what follows, we discuss the limitations and futility of any generalization (and particularly, Shannon's) that is not based on the way that agents extract patterns from their environment.
+method_label: More specifically, we shall argue that agent concept acquisition, and not the communication of states of uncertainty, lie at the heart of generalized information, and that the best way of characterizing information is via the relative gain or loss in concept complexity that is experienced when a set of known entities (regardless of their nature or domain of origin) changes.
+result_label: We show that Representational Information Theory perfectly captures this crucial aspect of information and conclude with the first generalization of Representational Information Theory (RIT) to continuous domains.
+
+===================================
+paper_id: 12310659; YEAR: 2010
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_tfidf
+TITLE: Opposition based computing — A survey
+ABSTRACT: background_label: In algorithms design, one of the important aspects is to consider efficiency.
+background_label: Many algorithm design paradigms are existed and used in order to enhance algorithms' efficiency.
+background_label: Opposition-based Learning (OBL) paradigm was recently introduced as a new way of thinking during the design of algorithms.
+background_label: The concepts of opposition have already been used and applied in several applications.
+background_label: These applications are from different fields, such as optimization algorithms, learning algorithms and fuzzy logic.
+result_label: The reported results confirm that OBL paradigm was promising to accelerate or to enhance accuracy of soft computing algorithms.
+result_label: In this paper, a survey of existing applications of opposition-based computing is presented.
+
+===================================
+paper_id: 4426973; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: abs_tfidf - abs_tfidfcbow200
+TITLE: A Recorded Debating Dataset
+ABSTRACT: background_label: This paper describes an English audio and textual dataset of debating speeches, a unique resource for the growing research field of computational argumentation and debating technologies.
+method_label: We detail the process of speech recording by professional debaters, the transcription of the speeches with an Automatic Speech Recognition (ASR) system, their consequent automatic processing to produce a text that is more"NLP-friendly", and in parallel -- the manual transcription of the speeches in order to produce gold-standard"reference"transcripts.
+method_label: We release 60 speeches on various controversial topics, each in five formats corresponding to the different stages in the production of the data.
+objective_label: The intention is to allow utilizing this resource for multiple research purposes, be it the addition of in-domain training data for a debate-specific ASR system, or applying argumentation mining on either noisy or clean debate transcripts.
+result_label: We intend to make further releases of this data in the future.
+
+===================================
+paper_id: 91183985; YEAR: 2019
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: abs_tfidfcbow200 - abs_cbow200
+TITLE: Temporal and Aspectual Entailment
+ABSTRACT: background_label: Inferences regarding"Jane's arrival in London"from predications such as"Jane is going to London"or"Jane has gone to London"depend on tense and aspect of the predications.
+background_label: Tense determines the temporal location of the predication in the past, present or future of the time of utterance.
+background_label: The aspectual auxiliaries on the other hand specify the internal constituency of the event, i.e.
+background_label: whether the event of"going to London"is completed and whether its consequences hold at that time or not.
+background_label: While tense and aspect are among the most important factors for determining natural language inference, there has been very little work to show whether modern NLP models capture these semantic concepts.
+objective_label: In this paper we propose a novel entailment dataset and analyse the ability of a range of recently proposed NLP models to perform inference on temporal predications.
+result_label: We show that the models encode a substantial amount of morphosyntactic information relating to tense and aspect, but fail to model inferences that require reasoning with these semantic properties.
+
+===================================
+paper_id: 173990964; YEAR: 2019
+adju relevance: Irrelevant (0)
+difference: 2; annotator1: 2; annotator2: 0
+sources: title_tfidf
+TITLE: Mining Data from the Congressional Record
+ABSTRACT: objective_label: We propose a data storage and analysis method for using the US Congressional record as a policy analysis tool.
+method_label: We use Amazon Web Services and the Solr search engine to store and process Congressional record data from 1789 to the present, and then query Solr to find how frequently language related to tax increases and decreases appears.
+method_label: This frequency data is compared to six economic indicators.
+result_label: Our preliminary results indicate potential relationships between incidence of tax discussion and multiple indicators.
+result_label: We present our data storage and analysis procedures, as well as results from comparisons to all six indicators.
+
+===================================
+paper_id: 146628687; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_tfidfcbow200 - title_cbow200 - title_tfidf
+TITLE: Getting Out the Vote in the Social Media Era: Are Digital Tools Changing the Extent, Nature and Impact of Party Contacting in Elections?
+ABSTRACT: objective_label: This paper compares the spread and impact of new digital modes of voter mobilization with more traditional methods (phone, mail and in person canvassing) in recent national elections in the US and UK.
+method_label: We develop hypotheses regarding the relative effects of online contacting and test them using election study data.
+result_label: Our findings show that while online contact is generally less frequent than the offline form in both countries, this gap is particularly pronounced in the UK.
+result_label: US campaigns also reach a much wider audience than their UK counterparts.
+result_label: In terms of impact, while offline forms remain most effective in mobilizing turnout, online messages are important for campaign participation, particularly among younger citizens when they are mediated through social networks.
+
+===================================
+paper_id: 144181398; YEAR: 2006
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_tfidfcbow200 - title_cbow200
+TITLE: Republicans and Golf, Democrats and Outkast: Or, Party Political Culture from the Top Down
+ABSTRACT: background_label: Do political elite operatives differ by party affiliation?
+objective_label: This article explores the extent to which political differences between the parties are reflected in cultural differences among elite party actors.
+method_label: Using interviews of political operatives published in the National Journal's daily newsletter, the Hotline, we look at differences between the parties on political questions such as political heroes and favorite television news show, and more purely cultural questions including favorite magazines and music.
+result_label: The data suggest that differences between the parties do persist on cultural issues, and that Democrats retain more internal differences than Republicans.
+result_label: We conclude by calling for more research into party culture.
+
+===================================
+paper_id: 118988729; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_tfidf - title_cbow200
+TITLE: A Microphotonic Astrocomb
+ABSTRACT: background_label: One of the essential prerequisites for detection of Earth-like extra-solar planets or direct measurements of the cosmological expansion is the accurate and precise wavelength calibration of astronomical spectrometers.
+background_label: It has already been realized that the large number of exactly known optical frequencies provided by laser frequency combs ('astrocombs') can significantly surpass conventionally used hollow-cathode lamps as calibration light sources.
+background_label: A remaining challenge, however, is generation of frequency combs with lines resolvable by astronomical spectrometers.
+method_label: Here we demonstrate an astrocomb generated via soliton formation in an on-chip microphotonic resonator ('microresonator') with a resolvable line spacing of 23.7 GHz.
+method_label: This comb is providing wavelength calibration on the 10 cm/s radial velocity level on the GIANO-B high-resolution near-infrared spectrometer.
+result_label: As such, microresonator frequency combs have the potential of providing broadband wavelength calibration for the next-generation of astronomical instruments in planet-hunting and cosmological research.
+
+===================================
+paper_id: 143106655; YEAR: 2013
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 2; annotator2: 1
+sources: abs_cbow200 - abs_tfidfcbow200
+TITLE: 'We the Peoples': The Global Origins of Constitutional Preambles
+ABSTRACT: background_label: We like to think that constitutions are expressions of distinctly national values, speaking for “We the People.” This is especially true of constitutional preambles, which often recount distinct events from national history and speak to national values.
+background_label: This article challenges this popular view by demonstrating the global influences on constitutional preambles.
+background_label: It does so using a new set of tools in linguistic and textual analysis, applied to a database of most constitutional preambles written since 1789.
+method_label: Arguing that legal language can be analogized to memes or genetic material, we analyze “horizontal” transfer of language across countries and “vertical” transfers within a single country over time.
+method_label: We also examine the circumstances in which countries introduce new terms into preambles, showing that countries innovate when neighbors innovate, and that innovations come in global waves.
+method_label: We show that innovation in language is something like punctuated equilibrium within an ecosystem.
+method_label: For long periods of stasis, countries borrow from one another and restrict their language to a set of common terms and phrases.
+method_label: Then, at particular junctures (likely associated with global conflicts), the equilibrium becomes disrupted and a period of innovation ensues.
+method_label: This eventually generates the “new normal” in terms of the set of language that constitutional drafters use.
+result_label: The article provides an example of how text analysis can help us understand the ways in which legal texts are interrelated across space and time.
+
+===================================
+paper_id: 121252897; YEAR: 1998
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 1; annotator2: 0
+sources: abs_cbow200
+TITLE: Information status and noncanonical word order in English
+ABSTRACT: background_label: This work provides a comprehensive discourse-functional account of three classes of noncanonical constituent placement in English – preposing, postposing, and argument reversal – and shows how their interaction is accounted for in a principled and predictive way.
+background_label: In doing so, it details the variety of ways in which information can be 'given' or 'new' and shows how an understanding of this variety allows us to account for the distribution of these constructions in discourse.
+background_label: Moreover, the authors show that there exist broad and empirically verifiable functional correspondences within classes of syntactically similar constructions.
+method_label: Relying heavily on corpus data, the authors identify three interacting dimensions along which individual constructions may vary with respect to the pragmatic constraints to which they are sensitive: old vs. new information, relative vs. absolute familiarity, and discourse- vs. hearer-familiarity.
+method_label: They show that preposed position is reserved for information that is linked to the prior discourse by means of a contextually licensed partially-ordered set relationship; postposed position is reserved for information that is 'new' in one of a small number of distinct senses; and argument-reversing constructions require that the information represented by the preverbal constituent be at least as familiar within the discourse as that represented by the postverbal constituent.
+result_label: Within each of the three classes of constructions, individual constructions vary with respect to whether they are sensitive to familiarity within the discourse or (assumed) familiarity within the hearer's knowledge store.
+result_label: Thus, although the individual constructions in question are subject to distinct constraints, this work provides empirical evidence for the existence of strong correlations between sentence position and information status.
+result_label: The final chapter presents crosslinguistic data showing that these correlations are not limited to English.
+
+===================================
+paper_id: 197837335; YEAR: 1975
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_cbow200
+TITLE: Roman Republican coinage
+ABSTRACT: other_label: List of tables List of figures Preface Introduction 1.
+other_label: The first period of the denarius coinage 2.
+other_label: The pre-denarius coinage 3.
+other_label: The secondary century - relative chronology 4.
+other_label: The secondary century - absolute chronology 5.
+other_label: The first century Appendix Catalogue Plates Indices.
+
+===================================
+paper_id: 59593603; YEAR: 2019
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 2; annotator2: 1
+sources: abs_tfidf
+TITLE: A joint text mining-rank size investigation of the rhetoric structures of the US Presidents' speeches
+ABSTRACT: background_label: This work presents a text mining context and its use for a deep analysis of the messages delivered by the politicians.
+background_label: Specifically, we deal with an expert systems-based exploration of the rhetoric dynamics of a large collection of US Presidents' speeches, ranging from Washington to Trump.
+background_label: In particular, speeches are viewed as complex expert systems whose structures can be effectively analyzed through rank-size laws.
+objective_label: The methodological contribution of the paper is twofold.
+method_label: First, we develop a text mining-based procedure for the construction of the dataset by using a web scraping routine on the Miller Center website -- the repository collecting the speeches.
+background_label: Second, we explore the implicit structure of the discourse data by implementing a rank-size procedure over the individual speeches, being the words of each speech ranked in terms of their frequencies.
+background_label: The scientific significance of the proposed combination of text-mining and rank-size approaches can be found in its flexibility and generality, which let it be reproducible to a wide set of expert systems and text mining contexts.
+method_label: The usefulness of the proposed method and the speech subsequent analysis is demonstrated by the findings themselves.
+result_label: Indeed, in terms of impact, it is worth noting that interesting conclusions of social, political and linguistic nature on how 45 United States Presidents, from April 30, 1789 till February 28, 2017 delivered political messages can be carried out.
+result_label: Indeed, the proposed analysis shows some remarkable regularities, not only inside a given speech, but also among different speeches.
+result_label: Moreover, under a purely methodological perspective, the presented contribution suggests possible ways of generating a linguistic decision-making algorithm.
+
+===================================
+paper_id: 14439818; YEAR: 2005
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: cited - abs_tfidfcbow200 - specter - title_tfidf
+TITLE: Optimizing to Arbitrary NLP Metrics using Ensemble Selection
+ABSTRACT: background_label: While there have been many successful applications of machine learning methods to tasks in NLP, learning algorithms are not typically designed to optimize NLP performance metrics.
+objective_label: This paper evaluates an ensemble selection framework designed to optimize arbitrary metrics and automate the process of algorithm selection and parameter tuning.
+method_label: We report the results of experiments that instantiate the framework for three NLP tasks, using six learning algorithms, a wide variety of parameterizations, and 15 performance metrics.
+result_label: Based on our results, we make recommendations for subsequent machine-learning-based research for natural language learning.
+
+===================================
+paper_id: 143237240; YEAR: 2013
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_tfidfcbow200 - title_cbow200
+TITLE: WHO'S REPORTING THE PROTESTS?: Converging practices of citizen journalists and two BBC World Service newsrooms, from Iran's election protests to the Arab uprisings
+ABSTRACT: background_label: The 2009 protests in Iran and the 2011 Arab uprisings took place in complex and fast evolving media ecologies.
+background_label: The BBC's Persian and Arabic language services, which reach millions, drew heavily on content created by ordinary citizens to cover events.
+objective_label: This paper traces the flow of this content through the news process to examine how collaboration between newsrooms and citizen journalists changed from 2009 to 2011.
+method_label: The article argues that participation in the news process hinges on the congruence between newsroom practices, and the practices of those producing content on the streets.
+method_label: Such congruence requires mutual knowledge of broadcasting requirements.
+result_label: It finds that by 2011 journalists felt more comfortable and effective integrating user-generated content (UGC) into their news output.
+result_label: Importantly, UGC creators appear to have taken on board the broadcaster's editorial requirements, making them savvier content creators.
+
+===================================
+paper_id: 193019136; YEAR: 2014
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 1; annotator2: 0
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: Гендерные особенности перевода романа Джоан Роулинг “Harry Potter and the Philosopher`s Stone” на русский язык
+ABSTRACT: background_label: The paper focuses on exposing gender peculiarities of literary translations of the book ‘Harry Potter and the Pholosopher’s Stone” that was written by Joan Rowling.
+background_label: The literary translation like no other type of translation gives the translator the opportunity to express their linguistic identity at most.
+background_label: Instinctively a translator in the process of his or her translation uses some language means that are typical for their gender.
+result_label: Studying gender peculiarities manifestation at different language levels allows developing and describing the connection between thinking and gender, gender and language, which favours the cognition of a person through the prism of the language.
+
+===================================
+paper_id: 152903975; YEAR: 1999
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: cited - abs_tfidfcbow200 - specter - title_tfidf
+TITLE: The American Congress
+ABSTRACT: other_label: 1.
+background_label: The American Congress: modern trends 2.
+background_label: Representation and lawmaking in Congress: the constitutional and historical context 3.
+other_label: Congressional elections and policy alignments 4.
+other_label: Members, goals, resources, and strategies 5.
+other_label: Parties and leaders 6.
+other_label: The standing committees 7.
+background_label: The rules of the legislative game 8.
+background_label: The floor and voting 9.
+background_label: Congress and the president 10.
+other_label: Congress and the courts 11.
+other_label: Congress, lobbyists, and interest groups 12.
+result_label: Congress and budget politics.
+
+===================================
+paper_id: 23216433; YEAR: 2010
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: abs_tfidfcbow200
+TITLE: Irrelevant events affect voters' evaluations of government performance.
+ABSTRACT: background_label: Does information irrelevant to government performance affect voting behavior?
+background_label: If so, how does this help us understand the mechanisms underlying voters' retrospective assessments of candidates' performance in office?
+background_label: To precisely test for the effects of irrelevant information, we explore the electoral impact of local college football games just before an election, irrelevant events that government has nothing to do with and for which no government response would be expected.
+method_label: We find that a win in the 10 d before Election Day causes the incumbent to receive an additional 1.61 percentage points of the vote in Senate, gubernatorial, and presidential elections, with the effect being larger for teams with stronger fan support.
+method_label: In addition to conducting placebo tests based on postelection games, we demonstrate these effects by using the betting market's estimate of a team's probability of winning the game before it occurs to isolate the surprise component of game outcomes.
+result_label: We corroborate these aggregate-level results with a survey that we conducted during the 2009 NCAA men's college basketball tournament, where we find that surprising wins and losses affect presidential approval.
+result_label: An experiment embedded within the survey also indicates that personal well-being may influence voting decisions on a subconscious level.
+result_label: We find that making people more aware of the reasons for their current state of mind reduces the effect that irrelevant events have on their opinions.
+result_label: These findings underscore the subtle power of irrelevant events in shaping important real-world decisions and suggest ways in which decision making can be improved.
+
+===================================
+paper_id: 37600461; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 0; annotator2: 1
+sources: title_tfidfcbow200 - title_cbow200
+TITLE: Does Campaigning on Social Media Make a Difference? Evidence from candidate use of Twitter during the 2015 and 2017 UK Elections
+ABSTRACT: background_label: Social media are now a routine part of political campaigns all over the world.
+background_label: However, studies of the impact of campaigning on social platform have thus far been limited to cross-sectional datasets from one election period which are vulnerable to unobserved variable bias.
+background_label: Hence empirical evidence on the effectiveness of political social media activity is thin.
+objective_label: We address this deficit by analysing a novel panel dataset of political Twitter activity in the 2015 and 2017 elections in the United Kingdom.
+result_label: We find that Twitter based campaigning does seem to help win votes, a finding which is consistent across a variety of different model specifications including a first difference regression.
+result_label: The impact of Twitter use is small in absolute terms, though comparable with that of campaign spending.
+result_label: Our data also support the idea that effects are mediated through other communication channels, hence challenging the relevance of engaging in an interactive fashion.
+
+===================================
+paper_id: 2731141; YEAR: 2007
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: cited - abs_tfidfcbow200 - specter - title_tfidf
+TITLE: Semi-Supervised Learning Literature Survey
+ABSTRACT: background_label: Door lock apparatus in which a door latch mechanism is operated by inner and outer door handles coupled to a latch shaft extending through the latch mechanism.
+method_label: Handles are coupled to ends of latch shaft by coupling devices enabling door to be locked from the inside to prevent entry from the outside but can still be opened from the inside by normal operation of outside handle.
+method_label: Inside coupling device has limited lost-motion which is used to operate cam device to unlock the door on actuation of inner handles.
+
+===================================
+paper_id: 61807733; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_tfidf
+TITLE: Congressional Vote Analysis Using Signed Networks
+ABSTRACT: background_label: In today's era of big data, much can be represented as a network.
+background_label: However, most of the work in traditional network analysis is unable to handle many existing network types, which is due to certain networks having added complexities.
+background_label: For example, signed networks, which have both positive and negative links, have been shown to require dedicated efforts due to the methods designed for typical unsigned networks (those having only positive links) being no longer applicable.
+background_label: One specific type of signed network is that of voting records, such as the Senate and House of Representatives from the U.S. Congress, which form signed bipartite networks between the congresspeople and the bills voted upon.
+background_label: With the current tensions between the two prominent political parties in the U.S., it seems time to ask the question if signed network analysis methods are able to aid in our understanding of the underlying dynamics of the voting habits in the U.S. Congress, since they drive some of the most influential decision making processes in the country.
+result_label: To this end, in this paper, we conduct a thorough analysis on the behaviors of both current and past U.S. Congress voting datasets uncovering numerous patterns, extending and then investigating the applicability of balance theory in the signed bipartite setting, and then finally leverage our findings to accurately predict the sign of missing links.
+
+===================================
+paper_id: 119425731; YEAR: 1972
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_tfidf - title_cbow200
+TITLE: Unzerlegbare Darstellungen I
+ABSTRACT: background_label: LetK be the structure got by forgetting the composition law of morphisms in a given category.
+background_label: A linear representation ofK is given by a map V associating with any morphism ϕ: a→e ofK a linear vector space map V(ϕ): V(a)→V(e).
+method_label: We classify thoseK having only finitely many isomorphy classes of indecomposable linear representations.
+other_label: This classification is related to an old paper by Yoshii [3].
+
+===================================
+paper_id: 8270358; YEAR: 2007
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 0; annotator2: 1
+sources: abs_tfidfcbow200
+TITLE: Lexical Influences on the Perception of Sarcasm
+ABSTRACT: background_label: Speakers and listeners make use of a variety of pragmatic factors to produce and identify sarcastic statements.
+background_label: It is also possible that lexical factors play a role, although this possibility has not been investigated previously.
+method_label: College students were asked to read excerpts from published works that originally contained the phrase said sarcastically, although the word sarcastically was deleted.
+method_label: The participants rated the characters' statements in these excerpts as more likely to be sarcastic than those from similar excerpts that did not originally contain the word sarcastically.
+result_label: The use of interjections, such as gee or gosh, predicted a significant amount of the variance in the participants' ratings of sarcastic intent.
+result_label: This outcome suggests that sarcastic statements may be more formulaic than previously realized.
+result_label: It also suggests that computer software could be written to recognize such lexical factors, greatly increasing the likelihood that non-literal intent could be correctly interpreted by such programs, even if they are unable to identify the pragmatic components of nonliteral language.
+
+===================================
+paper_id: 143086807; YEAR: 2000
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_cbow200
+TITLE: Deliberative democracy or agonistic pluralism
+ABSTRACT: background_label: Abstract: This article examines the current debate about the nature of democracy and discusses the main theses of the approach called 'deliberative democracy' in its two main versions, the one put forward by John Rawls, and the other one put forwardby Jurgen Habermas.
+background_label: While agreeing with them as regards to the need to develop a more of democracy than the one offered by the 'aggregative' model, I submit that they do not provide an adequate understanding of the main task of democracy.
+background_label: No doubt, by stating that democracy cannot be reduced to a question of procedures to mediate among conflicting interests, deliberative democrats defend a conception of democracy that presents a richer conception of politics.
+background_label: But, albeit in a different way thanthe view they criticize, their vision is also a rationalist one which leaves aside the crucial role played by 'passions' and collective forms of identifications in the field of politics.
+background_label: Moreover, in their attempt to reconcile the liberal tradition with the democratic one, deliberative democrats tend to erase the tension that exist between liberalism and democracy and they are therefore unable to come to terms with the conflictual nature of democratic politics.
+objective_label: The main thesis that I put forward in this article is that democratic theory needs to acknowledge the ineradicability of antagonism and the impossibility of achieving a fully inclusive rational consensus.
+result_label: I argue that a model of democracy in terms of 'agonistic pluralism' can help us to better envisage the main challenge facing democratic politics today: how to create democratic forms of identifications that will contribute to mobilize passions towards democratic designs.
+other_label: ;
+
+===================================
+paper_id: 17178673; YEAR: 2014
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_cbow200
+TITLE: Planting colourings silently
+ABSTRACT: background_label: Let $k\geq3$ be a fixed integer and let $Z_k(G)$ be the number of $k$-colourings of the graph $G$.
+background_label: For certain values of the average degree, the random variable $Z_k(G(n,m))$ is known to be concentrated in the sense that $\frac1n(\ln Z_k(G(n,m))-\ln E[Z_k(G(n,m))])$ converges to $0$ in probability [Achlioptas and Coja-Oghlan: FOCS 2008].
+objective_label: In the present paper we prove a significantly stronger concentration result.
+other_label: Namely, we show that for a wide range of average degrees, $\frac1\omega(\ln Z_k(G(n,m))-\ln E[Z_k(G(n,m))])$ converges to $0$ in probability for any diverging function $\omega=\omega(n)\to\infty$.
+result_label: For $k$ exceeding a certain constant $k_0$ this result covers all average degrees up to the so-called condensation phase transition, and this is best possible.
+result_label: As an application, we show that the experiment of choosing a $k$-colouring of the random graph $G(n,m)$ uniformly at random is contiguous with respect to the so-called"planted model".
+
+===================================
+paper_id: 7675902; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: abs_tfidf - abs_tfidfcbow200 - specter
+TITLE: Political Speech Generation
+ABSTRACT: background_label: In this report we present a system that can generate political speeches for a desired political party.
+background_label: Furthermore, the system allows to specify whether a speech should hold a supportive or opposing opinion.
+method_label: The system relies on a combination of several state-of-the-art NLP methods which are discussed in this report.
+method_label: These include n-grams, Justeson&Katz POS tag filter, recurrent neural networks, and latent Dirichlet allocation.
+method_label: Sequences of words are generated based on probabilities obtained from two underlying models: A language model takes care of the grammatical correctness while a topic model aims for textual consistency.
+method_label: Both models were trained on the Convote dataset which contains transcripts from US congressional floor debates.
+method_label: Furthermore, we present a manual and an automated approach to evaluate the quality of generated speeches.
+result_label: In an experimental evaluation generated speeches have shown very high quality in terms of grammatical correctness and sentence transitions.
+
+===================================
+paper_id: 144917312; YEAR: 2008
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_tfidfcbow200 - title_cbow200
+TITLE: Many-Voiced or Unisono? : An Inquiry into Motives for Attendance and Aesthetic Dispositions of the Audience Attending Classical Concerts
+ABSTRACT: background_label: In this article, I analyse empirically whether the audience attending classical concerts can be subdivided into three segments - following the lead of Howard Becker's Art Worlds (1984).
+objective_label: Moreover, I investigate how far these groups have different aesthetic dispositions towards classical music.
+method_label: Based on an extensive audience survey in five institutions staging both symphonic and chamber music in Flanders, Belgium (2005), three groups are distinguished based on the frequency of attendance: the passers-by, the interested participants and the inner circle.
+result_label: It is found that these segments differ in socio-demographic composition, have different motives for attendance and have different aesthetic dispositions towards classical music.
+result_label: Yet, all segments share the wish to be emotionally moved and affected by music.
+result_label: Implications for cultural policy and marketing the arts are discussed.
+
+===================================
+paper_id: 16266534; YEAR: 1992
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: cited - abs_tfidfcbow200 - specter - title_tfidf
+TITLE: Direction-Based Text Interpretation as an Information Access Refinement
+ABSTRACT: background_label: A Text-Based Intelligent System should provide more in-depth information about the contents of its corpus than does a standard information retrieval system, while at the same time avoiding the complexity and resource-consuming behavior of detailed text understanders.
+method_label: Instead of focusing on discovering documents that pertain to some topic of interest to the user, an approach is introduced based on the criterion of directionality (e.g., Is the agent in favor of, neutral, or opposed to the event?).
+method_label: A method is described for coercing sentence meanings into a metaphoric model such that the only semantic interpretation needed in order to determine the directionality of a sentence is done with respect to the model.
+method_label: This interpretation method is designed to be an integrated component of a hybrid information access system.
+
+===================================
+paper_id: 155063811; YEAR: 2006
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_tfidfcbow200 - title_cbow200
+TITLE: Off the Record: Unrecorded Legislative Votes, Selection Bias and Roll-Call Vote Analysis
+ABSTRACT: background_label: Scholars often use roll-call votes to study legislative behaviour.
+background_label: However, many legislatures only conclude a minority of decisions by roll call.
+background_label: Thus, if these votes are not a random sample of the universe of votes cast, scholars may be drawing misleading inferences.
+background_label: In fact, theories over why roll-call votes are requested would predict selection bias based on exactly the characteristics of legislative voting that scholars have most heavily studied.
+method_label: This article demonstrates the character and severity of this sampling problem empirically by examining European Parliament vote data for a whole year.
+result_label: Given that many legislatures decided only a fraction of their legislation by roll call, these findings have potentially important implications for the general study of legislative behaviour.
+
+===================================
+paper_id: 20339999; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 2; annotator1: 0; annotator2: 2
+sources: specter - abs_cbow200
+TITLE: Asking Too Much? The Rhetorical Role of Questions in Political Discourse
+ABSTRACT: background_label: Questions play a prominent role in social interactions, performing rhetorical functions that go beyond that of simple informational exchange.
+background_label: The surface form of a question can signal the intention and background of the person asking it, as well as the nature of their relation with the interlocutor.
+background_label: While the informational nature of questions has been extensively examined in the context of question-answering applications, their rhetorical aspects have been largely understudied.
+method_label: In this work we introduce an unsupervised methodology for extracting surface motifs that recur in questions, and for grouping them according to their latent rhetorical role.
+result_label: By applying this framework to the setting of question sessions in the UK parliament, we show that the resulting typology encodes key aspects of the political discourse---such as the bifurcation in questioning behavior between government and opposition parties---and reveals new insights into the effects of a legislator's tenure and political career ambitions.
+
+===================================
+paper_id: 154087903; YEAR: 2004
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_tfidf
+TITLE: Get Out the Vote: How to Increase Voter Turnout
+ABSTRACT: background_label: Get Out the Vote!
+background_label: Is a practical guide for anyone trying to mobilize voters or organize at the grass roots.
+background_label: Unlike authors of other campaign advice books, Donald Green and Alan Gerber root their work firmly in rigorous science.
+background_label: Their recommendations emerge from thorough experiments conducted in real electoral settings, examining the impact and effectiveness of door-to-door canvassing, telephone calls, direct mail, and other campaign tactics.
+method_label: Since 1998 the authors have conducted research in over a dozen states, studying a wide range of federal, state, and municipal elections.
+result_label: Their book connects theory with practice, informing campaign professionals and local organizers as well as students of electoral politics.
+background_label: They discover that many GOTV tactics used by campaign managers and political consultants are less effective than is often believed.
+background_label: The authors, relying on rigorous and systematic research, challenge much of the conventional wisdom about what works and what doesn't in the political campaigns.
+background_label: The authors' applied form of political science has won acclaim from scholars and earned the attention of campaign professionals and journalists.
+result_label: This book presents their result for a non-academic audience interested in putting campaign research into practice, and the findings will be surprising to many.
+other_label: Get Out the Vote!
+result_label: will help both consultants and the candidates who use their services better understand the efficacy of campaign methods.
+result_label: It is essential reading in an age of electronic communication, professional electioneering and voter apathy.
+
+===================================
+paper_id: 145770267; YEAR: 2013
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: abs_cbow200
+TITLE: Causal connectives in discourse processing: How differences in subjectivity are reflected in eye movements
+ABSTRACT: background_label: Causal connectives are often considered to provide crucial information about the discourse structure; they signal a causal relation between two text segments.
+background_label: However, in many languages of the world causal connectives specialise in either subjective or objective causal relations.
+objective_label: We investigate whether this type of (discourse) information is used during the online processing of causal connectives by focusing on the Dutch connectives want and omdat, both translated by because.
+method_label: In three eye-tracking studies we demonstrate that the Dutch connective want, which is a prototypical marker of subjective CLAIM–ARGUMENT relations, leads to an immediate processing disadvantage compared to omdat, a prototypical marker of objective CONSEQUENCE–CAUSE relations.
+result_label: This effect was observed at the words immediately following the connective, at which point readers cannot yet establish the causal relation on the basis of the content, which means that the effect is solely induced by the connectives.
+result_label: In Experiment 2 we demonstr...
+
+===================================
+paper_id: 841374; YEAR: 2007
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: Intense ultrasonic clicks from echolocating toothed whales do not elicit anti–predator responses or debilitate the squid Loligo pealeii
+ABSTRACT: background_label: Toothed whales use intense ultrasonic clicks to echolocate prey and it has been hypothesized that they also acoustically debilitate their prey with these intense sound pulses to facilitate capture.
+background_label: Cephalopods are an important food source for toothed whales, and there has probably been an evolutionary selection pressure on cephalopods to develop a mechanism for detecting and evading sound–emitting toothed whale predators.
+background_label: Ultrasonic detection has evolved in some insects to avoid echolocating bats, and it can be hypothesized that cephalopods might have evolved similar ultrasound detection as an anti–predation measure.
+method_label: We test this hypothesis in the squid Loligo pealeii in a playback experiment using intense echolocation clicks from two squid–eating toothed whale species.
+method_label: Twelve squid were exposed to clicks at two repetition rates (16 and 125 clicks per second) with received sound pressure levels of 199–226 dB re 1 μPa (pp) mimicking the sound exposure from an echolocating toothed whale as it approaches and captures prey.
+result_label: We demonstrate that intense ultrasonic clicks do not elicit any detectable anti–predator behaviour in L. pealeii and that clicks with received levels up to 226 dB re 1 μPa (pp) do not acoustically debilitate this cephalopod species.
+
+===================================
+paper_id: 144522875; YEAR: 1995
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 0; annotator2: 1
+sources: abs_cbow200
+TITLE: Argumentation and the lexical topical fields
+ABSTRACT: background_label: Abstract Most of the work which has been done within the framework of the theory of Argumentation Within Language (AWL) was, until recently, centred on what can be called ‘articulators of argumentation’.
+background_label: This work, which consisted, mainly, in studying the constraints that articulators such as but, nevertheless, therefore, even , or almost, little, a little , impose on the meaning, has concentrated on the fact that the argumentative movements operated in utterances containing those words bear on gradual argumentative rules presented as general and shared by the linguistic community.
+background_label: Those rules, which we call topoi (singular: topos ) appear to belong to the speakers' implicit knowledge and beliefs: from the perspective of the study of articulators, what belongs to the semantic description are the constraints on those topoi, not the topoi themselves.
+result_label: Now, if the semantic description could say nothing about those topoi, the study of the argumentative articulators would strictly belong to pragmatics, since it could be achieved only after those topoi have been determined.
+result_label: We defend here a different position: the argumentative description of articulators belongs to semantics; as a consequence, semantics must mark in a certain way the emergence of the topoi used in utterances, even if those topoi belong to the speakers' knowledge and beliefs.
+background_label: In this paper, we present a way to mark this emergence: we describe the lexical items with argumentative ‘ingredients’ — we call those ingredients topical fields — on the basis of which the topoi used in each utterance containing those lexical items are constructed, according to what the situation requires.
+method_label: We first reconsider the definition of topos and topical field used in the past; we propose a recursive definition of topical fields, which we then apply to the description of lexicon.
+method_label: We then define an operation which allows the transformation of a chain of topoi into a topos.
+method_label: This definition is used in order to construct the dynamic topoi out of the lexical ones.
+method_label: Finally, we step back and reflect about the relationship between the conception of language which underlies our work and the structuralist program.
+result_label: In particular, we evaluate the consequences, from a structuralist point of view, of our account of the grounding of language in the world.
+
+===================================
+paper_id: 145734678; YEAR: 2012
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: abs_tfidfcbow200 - specter
+TITLE: Presupposition Trigger-A Comparative Analysis of Broadcast News Discourse
+ABSTRACT: background_label: Presupposition has long been used as a property of language to mold the audience’s ideology.
+background_label: Using presupposition triggers, surprisingly the author or speaker impinges on readers or listeners’ interpretation of facts and events, establishing either a favorable or unfavorable bias throughout the text.
+background_label: The role of presupposition in mass media’s use of language is of paramount importance in that media writers attempt consciously or unconsciously to influence the audience understanding of news events.
+objective_label: The present paper is aimed at pinpointing the oral discourse structure of two English news channels i.e.
+objective_label: PressTV and CNN as varieties of Persian and American English respectively, in terms of presupposition triggers, employed to share non-asserted meaning.
+method_label: Accordingly, 40 transcripts (20 selected from PressTV and another 20 from CNN) were analyzed in terms of presupposition triggers, namely existential, factive, lexical, non-factive, structural, counter-factual, adverbial, and relative.
+result_label: Analysis of the transcripts revealed that the most frequently used presupposition trigger in both varieties of oral discourse was Existential.
+
+===================================
+paper_id: 152125453; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 2; annotator1: 0; annotator2: 2
+sources: abs_cbow200
+TITLE: What Does 'But' Really Mean? -- Evidence from Managers' Answers to Analysts' Questions During Conference Calls
+ABSTRACT: background_label: This study examines investors’ reaction to managers’ use of contrastive words (words that introduce corrective and/or unexpected information) during the question and answer (Q&A) sessions of conference calls.
+background_label: We document evidence that managers’ use of contrastive words is an indicator of the quality of their disclosure.
+background_label: Specifically, we find that the use of contrastive words is positively associated with the extent to which investors react to earnings news.
+result_label: Our findings indicate that managers use contrastive words to provide more value-relevant information to investors.
+method_label: Further, we shed light on the underexplored contrarian returns phenomenon and show that the use of contrastive words explains some of the instances in which share price reacts positively to unfavorable earnings news.
+method_label: Finally, we separate disclosure content into two sections: before and after the contrastive word "but".
+method_label: We find that disclosure reported after the contrastive word “but” is more informative than disclosure communicated before.
+result_label: This suggests that there is variation in the informativeness within the disclosure content.
+result_label: Overall, our results support the conjecture that the informativeness of Q&A sessions comes primarily from its explanatory feature.
+
+===================================
+paper_id: 43448265; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_tfidfcbow200 - title_cbow200
+TITLE: "Stop Kremlin trolls: " Ideological trolling as calling out, rebuttal, and reactions on online news portal commenting
+ABSTRACT: background_label: Mainstream media sources have recently heightened public awareness to a phenomenon known as Russian troll farms.
+background_label: This research thematically analyzes “Kremlin troll” use and its variations found in user comments on a leading Lithuanian news portal.
+background_label: The main findings of this study indicate that “Kremlin troll” was used in two oppositional themes.
+background_label: The first one reveals accusations of paid commentators as “Kremlin trolls.” The second, in contrast, counter-argues “Kremlin troll” accusations through rebuttal.
+background_label: Sarcasm and humor, e.g.
+method_label: , by emergence of self-identification as a “Kremlin troll” furthermore downplays the “Kremlin troll” accusations and reclaims uncertainty of who is the real troll.
+result_label: Even if the offensive and defensive tactics might seem rather similar to overall Internet troll tactics found in the previous online research, the unique side of “Kremlin troll” use was the emergence of ideological trolling, charged with accusations of some commentators being paid by a foreign government, thus referring to “Kremlin trolling” as a form of astroturfing.
+result_label: We conclude that “Kremlin troll” in this study exemplifies politically charged ideological trolling, rather than the mere subcultural phenomenon that is prevalent in English-language contexts.
+
+===================================
+paper_id: 198967887; YEAR: 2019
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 1; annotator2: 0
+sources: abs_tfidf - specter
+TITLE: Towards Effective Rebuttal: Listening Comprehension using Corpus-Wide Claim Mining
+ABSTRACT: background_label: Engaging in a live debate requires, among other things, the ability to effectively rebut arguments claimed by your opponent.
+background_label: In particular, this requires identifying these arguments.
+objective_label: Here, we suggest doing so by automatically mining claims from a corpus of news articles containing billions of sentences, and searching for them in a given speech.
+method_label: This raises the question of whether such claims indeed correspond to those made in spoken speeches.
+method_label: To this end, we collected a large dataset of $400$ speeches in English discussing $200$ controversial topics, mined claims for each topic, and asked annotators to identify the mined claims mentioned in each speech.
+result_label: Results show that in the vast majority of speeches debaters indeed make use of such claims.
+result_label: In addition, we present several baselines for the automatic detection of mined claims in speeches, forming the basis for future work.
+result_label: All collected data is freely available for research.
+
+===================================
+paper_id: 6227816; YEAR: 2011
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_tfidf - title_tfidfcbow200
+TITLE: Estimation of heterogeneous treatment effects from randomized experiments, with application to the optimal planning of the get-out-the-vote campaign
+ABSTRACT: background_label: Although a growing number of political scientists are conducting randomized experiments, many of them only report the average treatment effects and do not systematically explore the variation in treatment effects across subpopulations.
+background_label: This is unfortunate from a scientific point of view because heterogeneous treatment effects can provide additional substantive insights.
+background_label: This current state of affairs is also problematic from a policy makers’ perspective since such studies do not identify subgroups for which treatments are effective.
+method_label: In this paper, we propose a formal two-step framework that first identifies heterogeneous treatment effects from a randomized experiment and then uses this information to derive an optimal policy about which treatment should be given to whom.
+method_label: Our proposed method avoids the risk of false discoveries that are likely in post hoc subgroup analysis routinely conducted in the discipline.
+result_label: We discuss our methodology in the context of getout-the-vote randomized field experiments and show how the proposed two-step framework can be applied in real-world settings.
+
+===================================
+paper_id: 82456167; YEAR: 2007
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_tfidf - title_cbow200
+TITLE: Janeway's Immunobiology
+ABSTRACT: background_label: Part I An Introduction to Immunobiology and Innate Immunity 1.
+background_label: Basic Concepts in Immunology 2.
+background_label: Innate Immunity Part II The Recognition of Antigen 3.
+background_label: Antigen Recognition by B-cell and T-cell Receptors 4.
+method_label: The Generation of Lymphocyte Antigen Receptors 5.
+method_label: Antigen Presentation to T Lymphocytes Part III The Development of Mature Lymphocyte Receptor Repertoires 6.
+method_label: Signaling Through Immune System Receptors 7.
+result_label: The Development and Survival of Lymphocytes Part IV The Adaptive Immune Response 8.
+background_label: T Cell-Mediated Immunity 9.
+background_label: The Humoral Immune Response 10.
+background_label: Dynamics of Adaptive Immunity 11.
+other_label: The Mucosal Immune System Part V The Immune System in Health and Disease 12.
+background_label: Failures of Host Defense Mechanism 13.
+other_label: Allergy and Hypersensitivity 14.
+other_label: Autoimmunity and Transplantation 15.
+other_label: Manipulation of the Immune Response Part VI The Origins of Immune Responses 16.
+other_label: Evolution of the Immune System Appendix I Immunologists' Toolbox Appendix II CD Antigens Appendix III Cytokines and their Receptors Appendix IV Chemokines and their Receptors Appendix V Immunological Constants
+
+===================================
+paper_id: 7580918; YEAR: 1994
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 0; annotator2: 1
+sources: cited - abs_tfidfcbow200 - specter - title_tfidf
+TITLE: Tracking Point of View in Narrative
+ABSTRACT: background_label: Third-person fictional narrative text is composed not only of passages that objectively narrate events, but also of passages that present characters' thoughts, perceptions, and inner states.
+background_label: Such passages take a character's ``psychological point of view''.
+background_label: A language understander must determine the current psychological point of view in order to distinguish the beliefs of the characters from the facts of the story, to correctly attribute beliefs and other attitudes to their sources, and to understand the discourse relations among sentences.
+background_label: Tracking the psychological point of view is not a trivial problem, because many sentences are not explicitly marked for point of view, and whether the point of view of a sentence is objective or that of a character (and if the latter, which character it is) often depends on the context in which the sentence appears.
+objective_label: Tracking the psychological point of view is the problem addressed in this work.
+method_label: The approach is to seek, by extensive examinations of naturally-occurring narrative, regularities in the ways that authors manipulate point of view, and to develop an algorithm that tracks point of view on the basis of the regularities found.
+result_label: This paper presents this algorithm, gives demonstrations of an implemented system, and describes the results of some preliminary empirical studies, which lend support to the algorithm.
+
+===================================
+paper_id: 6071630; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_tfidfcbow200 - title_cbow200
+TITLE: Decision-Making Under the Gambler's Fallacy: Evidence from Asylum Judges, Loan Officers, and Baseball Umpires*
+ABSTRACT: background_label: We find consistent evidence of negative autocorrelation in decision making that is unrelated to the merits of the cases considered in three separate high-stakes field settings: refugee asylum court decisions, loan application reviews, and Major League Baseball umpire pitch calls.
+background_label: The evidence is most consistent with the law of small numbers and the gambler’s fallacy—people underestimating the likelihood of sequential streaks occurring by chance—leading to negatively autocorrelated decisions that result in errors.
+background_label: The negative autocorrelation is stronger among more moderate and less experienced decision makers, following longer streaks of decisions in one direction, when the current and previous cases share similar characteristics or occur close in time, and when decision makers face weaker incentives for accuracy.
+result_label: Other explanations for negatively autocorrelated decisions such as quotas, learning, or preferences to treat all parties fairly are less consistent with the evidence, though we cannot completely rule out sequential contrast effects as an alternative explanation.
+other_label: JEL Codes: D03, D08, G02.
+
+===================================
+paper_id: 36117198; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_tfidf - title_cbow200
+TITLE: DeepMind_Commentary
+ABSTRACT: background_label: We agree with Lake and colleagues on their list of key ingredients for building humanlike intelligence, including the idea that model-based reasoning is essential.
+background_label: However, we favor an approach that centers on one additional ingredient: autonomy.
+objective_label: In particular, we aim toward agents that can both build and exploit their own internal models, with minimal human hand-engineering.
+method_label: We believe an approach centered on autonomous learning has the greatest chance of success as we scale toward real-world complexity, tackling domains for which ready-made formal models are not available.
+result_label: Here we survey several important examples of the progress that has been made toward building autonomous agents with humanlike abilities, and highlight some outstanding challenges.
+
+===================================
+paper_id: 154785269; YEAR: 2010
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: abs_tfidf - specter
+TITLE: Look who’s talking: Parliamentary debate in the European Union:
+ABSTRACT: background_label: Legislative speeches are an important part of parliamentary activity in the European Parliament (EP).
+background_label: Using a new dataset on EP speeches, this paper offers an explanation for participation in legislative debates.
+background_label: We argue that floor speeches partially serve as a communication tool between members of parliament, their national parties, and their European political groups.
+background_label: EP group dissidents often go on record by taking the floor when there is a conflict between their national party and their European political group.
+result_label: In this instance, members give speeches for two reasons: to explain their national party's position to other members of their EP political group, and to create a positive record for themselves in the eyes of the national party to serve their own reelection purposes.
+
+===================================
+paper_id: 9574000; YEAR: 2015
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: abs_cbow200 - abs_tfidfcbow200
+TITLE: Negotiating Lexical Uncertainty and Speaker Expertise with Disjunction
+ABSTRACT: background_label: There is a well-known preference for disjunctions XorY to be construed so that X and Y are semantically disjoint.
+background_label: However, there are two felicitous usage patterns in which the speaker violates this preference in part to convey information about the language itself.
+background_label: First, disjunctions of terms in a one-way semantic inclusion relation, such as boat or canoe, can form part of a speaker strategy to manage lexical uncertainty surrounding the two terms, or block unwanted implicatures that the listener might draw from the general term alone.
+background_label: Second, disjunctions of synonymous terms like wine lover or oenophile can be used to convey denitional information.
+method_label: We explore both of these uses, relying on corpora to obtain a fuller picture of their motivations and their eects on the listener.
+method_label: In addition, we show how both these uses are predicted by a standard semantics for disjunction and a recursive probabilistic model of communication in which speakers and listeners simultaneously exchange information about the world and about the language they are using.
+method_label: We also use the model to begin to formally characterize the pragmatics of implicature cancelation or blocking.
+
+===================================
+paper_id: 153935978; YEAR: 2000
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_tfidf
+TITLE: To Vote or Not to Vote: The Merits and Limits of Rational Choice Theory
+ABSTRACT: background_label: What makes people vote?
+background_label: In addressing this simple question, Andre Blais examines the factors that increase or decrease turnout at the aggregate, cross-national level and considers what affects people's decision to vote or abstain.
+background_label: In doing so, Blais assesses the merits and limitations of the rational choice model in explaining voter behaviour.
+method_label: The past few decades have witnessed a rise in the popularity of the rational choice model in accounting for voter turnout, and more recently a groundswell of outspoken opposition to rational choice theory.
+method_label: Blais brings together the opposing theories and literatures, and offers tests of these different viewpoints.
+result_label: Using new data sets from many countries, Blais concludes that while rational choice is an important tool - even when it doesn't work - its empirical contribution to understanding why people vote is quite limited.
+
+===================================
+paper_id: 1500891; YEAR: 2002
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 0; annotator2: 1
+sources: cited - abs_tfidfcbow200 - specter - title_tfidf
+TITLE: Summarizing Scientific Articles: Experiments With Relevance And Rhetorical Status
+ABSTRACT: background_label: In this article we propose a strategy for the summarization of scientific articles that concentrates on the rhetorical status of statements in an article: Material for summaries is selected in such a way that summaries can highlight the new contribution of the source article and situate it with respect to earlier work.
+method_label: We provide a gold standard for summaries of this kind consisting of a substantial corpus of conference articles in computational linguistics annotated with human judgments of the rhetorical status and relevance of each sentence in the articles.
+method_label: We present several experiments measuring our judges' agreement on these annotations.
+method_label: We also present an algorithm that, on the basis of the annotated training material, selects content from unseen articles and classifies it into a fixed set of seven rhetorical categories.
+result_label: The output of this extraction and classification system can be viewed as a single-document summary in its own right; alternatively, it provides starting material for the generation of task-oriented and user-tailored summaries designed to give users an overview of a scientific field.
+
+===================================
+paper_id: 154143942; YEAR: 2015
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: To Find or be Forgotten: Global Tensions on the Right toErasure and Internet Governance
+ABSTRACT: background_label: The decision of the Court of Justice of the European Union (CJEU) in Google Spain v AEPD and Mario Costeja Gonzalez enshrined the "right to forget" in the jurisprudence of the European Union.
+background_label: The judgment caused concern to transparency and open information advocates in terms of pitting a right to forget against the general right of the public to know.
+background_label: This, as this paper will argue, is a false distinction.
+background_label: The Internet is, and has always been, a regulated space.
+background_label: Nor is the right to free expression, even in its American form, absolute.
+background_label: While there are genuine concerns about how the balance is struck, evolving practice is likely to identify what cases deserve deletion, to those that do not.
+result_label: The biggest challenge lies in how, and who, tests that balance as to what is removed from the search engines of the Internet.
+result_label: Finding material is important but forgetting may be just as vital to liberties as well.
+
+===================================
+paper_id: 153673590; YEAR: 2014
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_tfidfcbow200 - title_cbow200
+TITLE: The voter says no, but nobody listens: causes and consequences of the Eurosceptic vote in the 2014 European elections
+ABSTRACT: background_label: ABSTRACTThe 2014 European Parliament elections saw an unprecedented surge of support for Eurosceptic parties.
+objective_label: This article provides an overview of the ideologically highly diverse Eurosceptic camp in the European Parliament and addresses the causes and consequences of the Eurosceptic vote.
+background_label: Based on an analysis of aggregate election results and opinion-poll data, it argues that the electoral success of Eurosceptic parties cannot be dismissed as a mere protest vote against unpopular governments.
+background_label: Instead, fundamental worries about the effects of European Union (EU) policies and dissatisfaction with mainstream politics lie at the heart of the Eurosceptic success.
+result_label: The selection of Jean-Claude Juncker as President of the Commission, backed by overwhelming majorities in the European Council and the European Parliament, suggests that Eurosceptics, despite their considerable electoral support, will continue to be excluded from the EU's corridors of power.
+result_label: This strategy of exclusion provides the ideal breeding grou...
+
+===================================
+paper_id: 3732838; YEAR: 2014
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: Separating the Shirkers from the Workers? Making Sure Respondents Pay Attention on Self‐Administered Surveys
+ABSTRACT: background_label: Good survey and experimental research requires subjects to pay attention to questions and treatments, but many subjects do not.
+objective_label: In this article, we discuss “Screeners” as a potential solution to this problem.
+method_label: We first demonstrate Screeners’ power to reveal inattentive respondents and reduce noise.
+method_label: We then examine important but understudied questions about Screeners.
+method_label: We show that using a single Screener is not the most effective way to improve data quality.
+method_label: Instead, we recommend using multiple items to measure attention.
+method_label: We also show that Screener passage correlates with politically relevant characteristics, which limits the generalizability of studies that exclude failers.
+result_label: We conclude that attention is best measured using multiple Screener questions and that studies using Screeners can balance the goals of internal and external validity by presenting results conditional on different levels of attention.
+
+===================================
+paper_id: 17247053; YEAR: 2008
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: Re-placing faith: reconsidering the secular-religious use divide in the United States and Kenya
+ABSTRACT: background_label: In this paper, we report on design-oriented fieldwork and design research conducted over a six-month period in urban centers in the United States and Kenya.
+objective_label: The contributions of this work for the CHI/CSCW community are empirical and methodological.
+method_label: First, we describe how recent design discourse around "designing technology for religion" creates an artificial distinction between instrumental and religious ICT use, particularly in developing regions.
+method_label: As illustrative examples, we relate three themes developed in the course of our fieldwork, which we term mindfulness, watchfulness, and embeddedness, to both "secular" and "religious" aspects of life in the communities studied.
+method_label: Second, we make a methodological contribution by describing how we used design sketches of speculative design concepts to extend and complement our fieldwork.
+result_label: By producing these sketches and soliciting feedback, we elicited additional data about how participants viewed the relationship between religion and ICT and prompted self-reflection on our own ideas.
+
+===================================
+paper_id: 822944; YEAR: 2013
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_cbow200
+TITLE: Rooting out the Rumor Culprit from Suspects
+ABSTRACT: background_label: Suppose that a rumor originating from a single source among a set of suspects spreads in a network, how to root out this rumor source?
+background_label: With the a priori knowledge of suspect nodes and an observation of infected nodes, we construct a maximum a posteriori (MAP) estimator to identify the rumor source using the susceptible-infected (SI) model.
+method_label: The a priori suspect set and its associated connectivity bring about new ingredients to the problem, and thus we propose to use local rumor center, a generalized concept based on rumor centrality, to identify the source from suspects.
+method_label: For regular tree-type networks of node degree {\delta}, we characterize Pc(n), the correct detection probability of the estimator upon observing n infected nodes, in both the finite and asymptotic regimes.
+method_label: First, when every infected node is a suspect, Pc(n) asymptotically grows from 0.25 to 0.307 with {\delta} from 3 to infinity, a result first established in Shah and Zaman (2011, 2012) via a different approach; and it monotonically decreases with n and increases with {\delta}.
+method_label: Second, when the suspects form a connected subgraph of the network, Pc(n) asymptotically significantly exceeds the a priori probability if {\delta}>2, and reliable detection is achieved as {\delta} becomes large; furthermore, it monotonically decreases with n and increases with {\delta}.
+result_label: Third, when there are only two suspects, Pc(n) is asymptotically at least 0.75 if {\delta}>2; and it increases with the distance between the two suspects.
+result_label: Fourth, when there are multiple suspects, among all possible connection patterns, that they form a connected subgraph of the network achieves the smallest detection probability.
+result_label: Our analysis leverages ideas from the Polya's urn model in probability theory and sheds insight into the behavior of the rumor spreading process not only in the asymptotic regime but also for the general finite-n regime.
+
+===================================
+paper_id: 5551792; YEAR: 2006
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: cited - abs_tfidfcbow200 - specter - title_tfidf
+TITLE: Multidimensional text analysis for eRulemaking
+ABSTRACT: background_label: To support rule-writers, we are developing techniques to automatically analyze large number of public comments on proposed regulations.
+method_label: A document is analyzed in various ways including argument structure, topics, and opinions.
+method_label: The individual results are integrated into a unified output.
+result_label: The experiments reported here were performed on comments submitted to the Environmental Protection Agency in response to their proposed rule for mercury regulation.
+
+===================================
+paper_id: 152361897; YEAR: 1991
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_tfidf
+TITLE: PATTERNS OF CONGRESSIONAL VOTING
+ABSTRACT: background_label: Congressional roll call voting has been highly structured for most of U.S. history.
+background_label: The structure is revealed by a dynamic, spatial analysis of the entire roll call voting record from 1789 to 1985.
+background_label: The space is characterized by a predominant major dimension with, at times, a significant, but less important second dimension.
+background_label: In the modern era, spatial positions are very stable.
+background_label: This stability is such that, under certain conditions, short run forecasting of roll call votes is possible.
+result_label: Since the end of World War II, changes in congressional voting patterns have occurred almost entirely through the process of replacement of retiring or defeated legislators with new members.
+result_label: Politically, selection is far more important than adaptation.
+
+===================================
+paper_id: 12981628; YEAR: 2008
+adju relevance: Irrelevant (0)
+difference: 2; annotator1: 2; annotator2: 0
+sources: abs_tfidf - specter
+TITLE: WITP Classifying Party Affiliation from Political Speech
+ABSTRACT: objective_label: ABSTRACT In this article, we discuss the design of party classifiers for Congressional speech data.
+method_label: We then examine these party classifiers' person-dependency and time-dependency.
+result_label: We found that party classifiers trained on 2005 House speeches can be generalized to the Senate speeches of the same year, but not vice versa.
+result_label: The classifiers trained on 2005 House speeches performed better on Senate speeches from recent years than on older ones, which indicates the classifiers' time-dependency.
+result_label: This dependency may be caused by changes in the issue agenda or the ideological composition of Congress.
+
+===================================
+paper_id: 388; YEAR: 2004
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: cited - abs_tfidfcbow200 - specter - title_tfidf
+TITLE: A Sentimental Education: Sentiment Analysis Using Subjectivity Summarization Based on Minimum Cuts
+ABSTRACT: background_label: Sentiment analysis seeks to identify the viewpoint(s) underlying a text span; an example application is classifying a movie review as"thumbs up"or"thumbs down".
+method_label: To determine this sentiment polarity, we propose a novel machine-learning method that applies text-categorization techniques to just the subjective portions of the document.
+method_label: Extracting these portions can be implemented using efficient techniques for finding minimum cuts in graphs; this greatly facilitates incorporation of cross-sentence contextual constraints.
+
+===================================
+paper_id: 202660874; YEAR: 2019
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 0; annotator2: 1
+sources: abs_cbow200 - specter
+TITLE: What matters, context or sentiment?: Analysing the influence of news in U.S. elections using Natural Language Processing
+ABSTRACT: background_label: A key question in the analysis of collective social behaviour is related to know if and how mass media can influence public opinion.
+objective_label: In this paper, we explore quantitatively the relation between a specific manifestation of public opinion and the intention to vote a given candidate, with the information related to the candidates in the Mass Media.
+method_label: We analyse the political news articles related to the US presidential campaign during the year 2016, using techniques of natural language processing.
+method_label: We applied recursive deep models for semantic composition over sentiment treebank to be able to detect the sentiment of sentences, and topic detection methods in order to characterise how media outlets get involved in the election coverage.
+method_label: The results of the analysis were compared to the outcomes of political polls in order to know which of these two aspects of the information have more influence and if there exists any causal relationship between them.
+result_label: Our results suggest that the sentiment content of the news by itself is not enough to understand the differences in the polls between both candidates (validating the popular quote"There is no such thing as bad publicity") but the topic coverage distribution does and the sentiment content discriminated by topic is consistent with these results.
+result_label: In particular, we found that one topic (news related to Clinton's email scandal) is the more relevant in this analysis because it correlates negatively and shows a significant causal relation with the difference between Clinton and Trump in the polls and also explain the negative values of sentiment analysis in Fox News coverage.
+
+===================================
+paper_id: 144510790; YEAR: 1990
+adju relevance: Irrelevant (0)
+difference: 2; annotator1: 2; annotator2: 0
+sources: abs_tfidfcbow200 - abs_cbow200
+TITLE: Ideational and pragmatic markers of discourse structure
+ABSTRACT: background_label: Abstract This paper presents an integrative approach to the study of discourse coherence which follows the observation of Buhler (1934) and others that language use always involves both the representation of propositional content and the expression of attitudes and intentions.
+background_label: Consideration of only one of these functions is shown to be insufficient for an adequate account of discourse coherence.
+background_label: Coherence is regarded as arising from semantic relations between the ideas states and pragmatic relations between the actions performed in speaking or writing.
+method_label: Empirical evidence for this view is provided by the use of pragmatic and ideational structuring devices in film descriptions.
+method_label: Speakers who were describing a film to a friend used more markers of pragmatic structure than those whose listener was a stranger.
+method_label: At the same time, they were less explicit in indicating the ideational structure of their discourse.
+result_label: This trade-off between pragmatic and ideational structuring occurred not only in dialogues (two-way auditory channel where the friends gave more feedback, but also in monologues (one-way channel), where the two conditions differed only in the speaker's knowledge that the listener was a friend or a stranger.
+
+===================================
+paper_id: 4722714; YEAR: 2014
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_tfidf
+TITLE: Opposition Based ElectromagnetismLike for Global Optimization
+ABSTRACT: background_label: Electromagnetismlike Optimization (EMO) is a global optimization algorithm, particularly well suited to solve problems featuring nonlinear and multimodal cost functions.
+background_label: EMO employs searcher agents that emulate a population of charged particles which interact to each other according to electromagnetisms laws of attraction and repulsion.
+background_label: However, EMO usually requires a large number of iterations for a local search procedure; any reduction or cancelling over such number, critically perturb other issues such as convergence, exploration, population diversity and accuracy.
+method_label: This paper presents an enhanced EMO algorithm called OBEMO, which employs the Opposition-Based Learning (OBL) approach to accelerate the global convergence speed.
+method_label: OBL is a machine intelligence strategy which considers the current candidate solution and its opposite value at the same time, achieving a faster exploration of the search space.
+method_label: The proposed OBEMO method significantly reduces the required computational effort yet avoiding any detriment to the good search capabilities of the original EMO algorithm.
+result_label: Experiments are conducted over a comprehensive set of benchmark functions, showing that OBEMO obtains promising performance for most of the discussed test problems.
+
+===================================
+paper_id: 154639895; YEAR: 2014
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: abs_tfidf - abs_tfidfcbow200 - specter
+TITLE: Who Takes the Parliamentary Floor? The Role of Gender in Speech-making in the Swedish Riksdag:
+ABSTRACT: background_label: Legislative speeches are an important instrument for parties and members of parliament (MPs) to signal their positions and priorities.
+background_label: This raises the question of who speaks when.
+objective_label: We evaluate whether a MP’s presence on the floor depends on his or her gender.
+method_label: We hypothesize that female MPs give in general less speeches in parliament and that this pattern results from debates dealing with “harder” policy issues.
+result_label: Our expectations are supported when analyzing a new data set containing information on the number and content of speeches given in the Swedish Riksdag between 2002 and 2010.
+
+===================================
+paper_id: 144941034; YEAR: 2012
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 0; annotator2: 1
+sources: abs_cbow200 - abs_tfidfcbow200
+TITLE: A novel experimental paradigm for distinguishing between what is said and what is implicated
+ABSTRACT: background_label: That there is a theoretical distinction between context-dependent and context-independent aspects of utterance interpretation has become a standard assumption in current theories of meaning; however, how and where to draw this distinction has been the subject of considerable debate.
+objective_label: In the current study, we investigate whether speakers can systematically distinguish between what is said and what is implicated (Grice 1989 [1967]) using a novel truth-value judgment paradigm across a wide range of implicature types.
+method_label: We found that, by providing participants with a clear set of judgment criteria, including the adoption of an objective third-person perspective, we were able to enhance their ability to distinguish conversational implicature from truth-conditional meaning.
+result_label: In addition, we found that none of the implicature types we investigated was either consistently incorporated into or consistently excluded from what is said.
+result_label: Instead, our findings revealed considerable variation in frequency of incorporation across implicature types in ways that do not correspond straightforwardly to the various taxonomies of implicature types proposed in the literature.
+
+===================================
+paper_id: 59606304; YEAR: 2019
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 0; annotator2: 1
+sources: abs_tfidfcbow200 - specter
+TITLE: Assessing Partisan Traits of News Text Attributions
+ABSTRACT: background_label: On the topic of journalistic integrity, the current state of accurate, impartial news reporting has garnered much debate in context to the 2016 US Presidential Election.
+background_label: In pursuit of computational evaluation of news text, the statements (attributions) ascribed by media outlets to sources provide a common category of evidence on which to operate.
+method_label: In this paper, we develop an approach to compare partisan traits of news text attributions and apply it to characterize differences in statements ascribed to candidate, Hilary Clinton, and incumbent President, Donald Trump.
+method_label: In doing so, we present a model trained on over 600 in-house annotated attributions to identify each candidate with accuracy>88%.
+result_label: Finally, we discuss insights from its performance for future research.
+
+===================================
+paper_id: 149203063; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 0; annotator2: 1
+sources: title_tfidfcbow200 - title_cbow200
+TITLE: ‘Lyin' Ted’, ‘Crooked Hillary’, and ‘Deceptive Donald’: Language of Lies in the 2016 US Presidential Debates
+ABSTRACT: background_label: Summary  Language in the high-stakes 2016 US presidential primary campaign was contentious, filled with name-calling, personal attacks, and insults.
+background_label: Language in debates served at least three political functions: for image making, to imagine potential realities currently not in practice, and to disavow facts.
+background_label: In past research, the reality monitoring (RM) framework has discriminated accurately between truthful and deceptive accounts (~70% classification).
+background_label: Truthful accounts show greater sensory, time and space, and affective information, with little evidence of cognitive operations.
+method_label: An RM algorithm was used with Linguistic Inquiry and Word Count software to code candidates' language.
+result_label: RM scores were significantly higher in fact-checked truth statements than in lies, and debate language in the 2016 primaries was as deceptive as fact-checked lies.
+other_label: In a binary logistic regression model, one RM criterion, cognitive processes, predicted veracity using computerized RM, classifying 87% of fact-checked truth statements but only 28% of fact-checked lie statements (63% classification overall).Copyright © 2017 John Wiley & Sons, Ltd.
+
+===================================
+paper_id: 51778818; YEAR: 2005
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_cbow200
+TITLE: Advancing E-Government at the Grassroots: Tortoise or Hare?
+ABSTRACT: background_label: American grassroots governments have rushed to join the e-government revolution.
+background_label: Although there is a growing body of e-government literature, little of it is empirical.
+method_label: Using data from two nationwide surveys, we conduct a longitudinal examination of local government adoption of e-government, Web site sophistication, the perceived impacts of e-government, and barriers to the adoption and sophistication of e-government.
+method_label: We also discuss correlates of e-government adoption and sophistication with selected institutional factors.
+result_label: We find that e-government adoption at the grassroots is progressing rapidly (if measured solely by deployment of Web sites).
+result_label: However, the movement toward integrated and transactional e-government is progressing much more slowly.
+result_label: Continuing research, particularly longitudinal study, is needed to monitor the evolution of e-government among U.S. local governments, especially to keep pace with the practice and to ascertain the actual impacts of e-government.
+

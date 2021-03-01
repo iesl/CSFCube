@@ -1,0 +1,1567 @@
+======================================================================
+paper_id: 1306065; YEAR: 2014
+TITLE: A Convolutional Neural Network for Modelling Sentences
+ABSTRACT: background_label: The ability to accurately represent sentences is central to language understanding.
+background_label: We describe a convolutional architecture dubbed the Dynamic Convolutional Neural Network (DCNN) that we adopt for the semantic modelling of sentences.
+method_label: The network uses Dynamic k-Max Pooling, a global pooling operation over linear sequences.
+method_label: The network handles input sentences of varying length and induces a feature graph over the sentence that is capable of explicitly capturing short and long-range relations.
+method_label: The network does not rely on a parse tree and is easily applicable to any language.
+result_label: We test the DCNN in four experiments: small scale binary and multi-class sentiment prediction, six-way question classification and Twitter sentiment prediction by distant supervision.
+result_label: The network achieves excellent performance in the first three tasks and a greater than 25% error reduction in the last task with respect to the strongest baseline.
+===================================
+paper_id: 1727568; YEAR: 2015
+adju relevance: Identical (+3)
+difference: 0; annotator1: 3; annotator2: 3
+sources: specter - title_cbow200 - title_tfidfcbow200 - abs_tfidf
+TITLE: Dependency-based Convolutional Neural Networks for Sentence Embedding
+ABSTRACT: background_label: In sentence modeling and classification, convolutional neural network approaches have recently achieved state-of-the-art results, but all such efforts process word vectors sequentially and neglect long-distance dependencies.
+method_label: To exploit both deep learning and linguistic structures, we propose a tree-based convolutional neural network model which exploit various long-distance relationships between words.
+result_label: Our model improves the sequential baselines on all three sentiment and question classification tasks, and achieves the highest published accuracy on TREC.
+
+===================================
+paper_id: 9204815; YEAR: 2016
+adju relevance: Identical (+3)
+difference: 1; annotator1: 3; annotator2: 2
+sources: title_tfidfcbow200 - title_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Dependency Sensitive Convolutional Neural Networks for Modeling Sentences and Documents
+ABSTRACT: objective_label: The goal of sentence and document modeling is to accurately represent the meaning of sentences and documents for various Natural Language Processing tasks.
+objective_label: In this work, we present Dependency Sensitive Convolutional Neural Networks (DSCNN) as a general-purpose classification system for both sentences and documents.
+method_label: DSCNN hierarchically builds textual representations by processing pretrained word embeddings via Long Short-Term Memory networks and subsequently extracting features with convolution operators.
+method_label: Compared with existing recursive neural models with tree structures, DSCNN does not rely on parsers and expensive phrase labeling, and thus is not restricted to sentence-level tasks.
+method_label: Moreover, unlike other CNN-based models that analyze sentences locally by sliding windows, our system captures both the dependency information within each sentence and relationships across sentences in the same document.
+result_label: Experiment results demonstrate that our approach is achieving state-of-the-art performance on several tasks, including sentiment analysis, question type classification, and subjectivity classification.
+
+===================================
+paper_id: 52917201; YEAR: 2018
+adju relevance: Similar (+2)
+difference: 0; annotator1: 2; annotator2: 2
+sources: specter - title_tfidfcbow200
+TITLE: A Comparative Study of Neural Network Models for Sentence Classification
+ABSTRACT: background_label: This paper presents an extensive comparative study of four neural network models, including feed-forward networks, convolutional networks, recurrent networks and long short-term memory networks, on two sentence classification datasets of English and Vietnamese text.
+background_label: We show that on the English dataset, the convolutional network models without any feature engineering outperform some competitive sentence classifiers with rich hand-crafted linguistic features.
+method_label: We demonstrate that the GloVe word embeddings are consistently better than both Skip-gram word embeddings and word count vectors.
+result_label: We also show the superiority of convolutional neural network models on a Vietnamese newspaper sentence dataset over strong baseline models.
+result_label: Our experimental results suggest some good practices for applying neural network models in sentence classification.
+
+===================================
+paper_id: 9126867; YEAR: 2015
+adju relevance: Similar (+2)
+difference: 1; annotator1: 1; annotator2: 2
+sources: specter
+TITLE: Skip-Thought Vectors
+ABSTRACT: background_label: We describe an approach for unsupervised learning of a generic, distributed sentence encoder.
+method_label: Using the continuity of text from books, we train an encoder-decoder model that tries to reconstruct the surrounding sentences of an encoded passage.
+method_label: Sentences that share semantic and syntactic properties are thus mapped to similar vector representations.
+method_label: We next introduce a simple vocabulary expansion method to encode words that were not seen as part of training, allowing us to expand our vocabulary to a million words.
+method_label: After training our model, we extract and evaluate our vectors with linear models on 8 tasks: semantic relatedness, paraphrase detection, image-sentence ranking, question-type classification and 4 benchmark sentiment and subjectivity datasets.
+result_label: The end result is an off-the-shelf encoder that can produce highly generic sentence representations that are robust and perform well in practice.
+result_label: We will make our encoder publicly available.
+
+===================================
+paper_id: 11262376; YEAR: 2016
+adju relevance: Similar (+2)
+difference: 0; annotator1: 2; annotator2: 2
+sources: specter
+TITLE: Neural Semantic Encoders
+ABSTRACT: background_label: We present a memory augmented neural network for natural language understanding: Neural Semantic Encoders.
+background_label: NSE is equipped with a novel memory update rule and has a variable sized encoding memory that evolves over time and maintains the understanding of input sequences through read}, compose and write operations.
+background_label: NSE can also access multiple and shared memories.
+result_label: In this paper, we demonstrated the effectiveness and the flexibility of NSE on five different natural language tasks: natural language inference, question answering, sentence classification, document sentiment analysis and machine translation where NSE achieved state-of-the-art performance when evaluated on publically available benchmarks.
+result_label: For example, our shared-memory model showed an encouraging result on neural machine translation, improving an attention-based baseline by approximately 1.0 BLEU.
+
+===================================
+paper_id: 25970075; YEAR: 2017
+adju relevance: Similar (+2)
+difference: 0; annotator1: 2; annotator2: 2
+sources: specter - abs_tfidf
+TITLE: Deep learning for sentence classification
+ABSTRACT: background_label: Most of the machine learning algorithms requires the input to be denoted as a fixed-length feature vector.
+background_label: In text classifications (bag-of-words) is a popular fixed-length features.
+background_label: Despite their simplicity, they are limited in many tasks; they ignore semantics of words and loss ordering of words.
+objective_label: In this paper, we propose a simple and efficient neural language model for sentence-level classification task.
+method_label: Our model employs Recurrent Neural Network Language Model (RNN-LM).
+method_label: Particularly, Long Short-Term Memory (LSTM) over pre-trained word vectors obtained from unsupervised neural language model to capture semantics and syntactic information in a short sentence.
+result_label: We achieved outstanding empirical results on multiple benchmark datasets, IMDB Sentiment analysis dataset, and Stanford Sentiment Treebank (SSTb) dataset.
+result_label: The empirical results show that our model is comparable with neural methods and outperforms traditional methods in sentiment analysis task.
+
+===================================
+paper_id: 10728540; YEAR: 2015
+adju relevance: Similar (+2)
+difference: 2; annotator1: 0; annotator2: 2
+sources: specter - title_tfidfcbow200 - abs_tfidf
+TITLE: Tree-based Convolution : A New Neural Architecture for Sentence Modeling
+ABSTRACT: background_label: This paper proposes a tree-based convolutional neural network (TBCNN) for discriminative sentence modeling.
+background_label: Our models leverage either constituency trees or dependency trees of sentences.
+method_label: The tree-based convolution process extracts sentences' structural features, and these features are aggregated by max pooling.
+method_label: Such architecture allows short propagation paths between the output layer and underlying feature detectors, which enables effective structural feature learning and extraction.
+method_label: We evaluate our models on two tasks: sentiment analysis and question classification.
+result_label: In both experiments, TBCNN outperforms previous state-of-the-art results, including existing neural networks and dedicated feature/rule engineering.
+result_label: We also make efforts to visualize the tree-based convolution process, shedding light on how our models work.
+
+===================================
+paper_id: 9672033; YEAR: 2014
+adju relevance: Similar (+2)
+difference: 1; annotator1: 3; annotator2: 2
+sources: title_tfidfcbow200 - title_cbow200 - specter
+TITLE: Convolutional Neural Networks for Sentence Classification
+ABSTRACT: background_label: We report on a series of experiments with convolutional neural networks (CNN) trained on top of pre-trained word vectors for sentence-level classification tasks.
+background_label: We show that a simple CNN with little hyperparameter tuning and static vectors achieves excellent results on multiple benchmarks.
+method_label: Learning task-specific vectors through fine-tuning offers further gains in performance.
+method_label: We additionally propose a simple modification to the architecture to allow for the use of both task-specific and static vectors.
+result_label: The CNN models discussed herein improve upon the state of the art on 4 out of 7 tasks, which include sentiment analysis and question classification.
+
+===================================
+paper_id: 990233; YEAR: 2013
+adju relevance: Similar (+2)
+difference: 1; annotator1: 1; annotator2: 2
+sources: cited - title_cbow200 - title_tfidfcbow200 - specter - abs_tfidf
+TITLE: Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank
+ABSTRACT: background_label: AbstractSemantic word spaces have been very useful but cannot express the meaning of longer phrases in a principled way.
+background_label: Further progress towards understanding compositionality in tasks such as sentiment detection requires richer supervised training and evaluation resources and more powerful models of composition.
+objective_label: To remedy this, we introduce a Sentiment Treebank.
+method_label: It includes fine grained sentiment labels for 215,154 phrases in the parse trees of 11,855 sentences and presents new challenges for sentiment compositionality.
+method_label: To address them, we introduce the Recursive Neural Tensor Network.
+method_label: When trained on the new treebank, this model outperforms all previous methods on several metrics.
+method_label: It pushes the state of the art in single sentence positive/negative classification from 80% up to 85.4%.
+result_label: The accuracy of predicting fine-grained sentiment labels for all phrases reaches 80.7%, an improvement of 9.7% over bag of features baselines.
+result_label: Lastly, it is the only model that can accurately capture the effects of negation and its scope at various tree levels for both positive and negative phrases.
+
+===================================
+paper_id: 51609149; YEAR: 2018
+adju relevance: Related (+1)
+difference: 1; annotator1: 1; annotator2: 2
+sources: abs_cbow200
+TITLE: TreeNet: Learning Sentence Representations with Unconstrained Tree Structure
+ABSTRACT: background_label: AbstractRecursive neural network (RvNN) has been proved to be an effective and promising tool to learn sentence representations by explicitly exploiting the sentence structure.
+background_label: However, most existing work can only exploit simple tree structure, e.g., binary trees, or ignore the order of nodes, which yields suboptimal performance.
+objective_label: In this paper, we proposed a novel neural network, namely TreeNet, to capture sentences structurally over the raw unconstrained constituency trees, where the number of child nodes can be arbitrary.
+method_label: In TreeNet, each node learns from its left sibling and right child in a bottom-up left-to-right order, thus enabling the net to learn over any tree.
+method_label: Furthermore, multiple soft gates and a memory cell are employed in implementing the TreeNet to determine to what extent it should learn, remember and output, which proves to be a simple and efficient mechanism for semantic synthesis.
+method_label: Moreover, TreeNet significantly suppresses convolutional neural networks (CNN) and Long Short-Term Memory (LSTM) with fewer parameters.
+result_label: It improves the classification accuracy by 2%-5% with 42% of the best CNN's parameters or 94% of standard LSTM's.
+result_label: Extensive experiments demonstrate TreeNet achieves the state-of-the-art performance on all four typical text classification tasks.
+
+===================================
+paper_id: 13914901; YEAR: 2016
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: abs_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf
+TITLE: Dis-S2V: Discourse Informed Sen2Vec
+ABSTRACT: background_label: Vector representation of sentences is important for many text processing tasks that involve clustering, classifying, or ranking sentences.
+background_label: Recently, distributed representation of sentences learned by neural models from unlabeled data has been shown to outperform the traditional bag-of-words representation.
+background_label: However, most of these learning methods consider only the content of a sentence and disregard the relations among sentences in a discourse by and large.
+objective_label: In this paper, we propose a series of novel models for learning latent representations of sentences (Sen2Vec) that consider the content of a sentence as well as inter-sentence relations.
+method_label: We first represent the inter-sentence relations with a language network and then use the network to induce contextual information into the content-based Sen2Vec models.
+background_label: Two different approaches are introduced to exploit the information in the network.
+method_label: Our first approach retrofits (already trained) Sen2Vec vectors with respect to the network in two different ways: (1) using the adjacency relations of a node, and (2) using a stochastic sampling method which is more flexible in sampling neighbors of a node.
+method_label: The second approach uses a regularizer to encode the information in the network into the existing Sen2Vec model.
+result_label: Experimental results show that our proposed models outperform existing methods in three fundamental information system tasks demonstrating the effectiveness of our approach.
+result_label: The models leverage the computational power of multi-core CPUs to achieve fine-grained computational efficiency.
+result_label: We make our code publicly available upon acceptance.
+
+===================================
+paper_id: 15874232; YEAR: 2014
+adju relevance: Related (+1)
+difference: 2; annotator1: 3; annotator2: 1
+sources: title_tfidfcbow200 - title_cbow200 - specter - abs_tfidf
+TITLE: Deep Convolutional Neural Networks for Sentiment Analysis of Short Texts
+ABSTRACT: background_label: AbstractSentiment analysis of short texts such as single sentences and Twitter messages is challenging because of the limited contextual information that they normally contain.
+background_label: Effectively solving this task requires strategies that combine the small text content with prior knowledge and use more than just bag-of-words.
+objective_label: In this work we propose a new deep convolutional neural network that exploits from character-to sentence-level information to perform sentiment analysis of short texts.
+method_label: We apply our approach for two corpora of two different domains: the Stanford Sentiment Treebank (SSTb), which contains sentences from movie reviews; and the Stanford Twitter Sentiment corpus (STS), which contains Twitter messages.
+result_label: For the SSTb corpus, our approach achieves state-of-the-art results for single sentence sentiment prediction in both binary positive/negative classification, with 85.7% accuracy, and fine-grained classification, with 48.3% accuracy.
+result_label: For the STS corpus, our approach achieves a sentiment prediction accuracy of 86.4%.
+
+===================================
+paper_id: 29868689; YEAR: 2017
+adju relevance: Related (+1)
+difference: 1; annotator1: 0; annotator2: 1
+sources: abs_tfidfcbow200
+TITLE: Microblog Sentiment Classification via Recurrent Random Walk Network Learning
+ABSTRACT: background_label: AbstractMicroblog Sentiment Classification (MSC) is a challenging task in microblog mining, arising in many applications such as stock price prediction and crisis management.
+background_label: Currently, most of the existing approaches learn the user sentiment model from their posted tweets in microblogs, which suffer from the insufficiency of discriminative tweet representation.
+objective_label: In this paper, we consider the problem of microblog sentiment classification from the viewpoint of heterogeneous MSC network embedding.
+method_label: We propose a novel recurrent random walk network learning framework for the problem by exploiting both users' posted tweets and their social relations in microblogs.
+method_label: We then introduce the deep recurrent neural networks with randomwalk layer for heterogeneous MSC network embedding, which can be trained end-to-end from the scratch.
+method_label: We employ the back-propagation method for training the proposed recurrent random walk network model.
+result_label: The extensive experiments on the large-scale public datasets from Twitter show that our method achieves better performance than other state-of-the-art solutions to the problem.
+
+===================================
+paper_id: 9451595; YEAR: 2016
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: specter - title_tfidfcbow200
+TITLE: Shallow Discourse Parsing Using Convolutional Neural Network
+ABSTRACT: background_label: AbstractThis paper describes a discourse parsing system for our participation in the CoNLL 2016 Shared Task.
+objective_label: We focus on the supplementary task: Sense Classification, especially the Non-Explicit one which is the bottleneck of discourse parsing system.
+method_label: To improve Non-Explicit sense classification, we propose a Convolutional Neural Network (CNN) model to determine the senses for both English and Chinese tasks.
+method_label: We also explore a traditional linear model with novel dependency features for Explicit sense classification.
+result_label: Compared with the best system in CoNLL-2015, our system achieves competitive performances.
+result_label: Moreover, as shown in the results, our system has higher F1 score on Non-Explicit sense classification.
+
+===================================
+paper_id: 3116311; YEAR: 2011
+adju relevance: Related (+1)
+difference: 1; annotator1: 2; annotator2: 1
+sources: cited - title_cbow200 - title_tfidfcbow200 - specter - abs_tfidf
+TITLE: Semi-Supervised Recursive Autoencoders for Predicting Sentiment Distributions
+ABSTRACT: background_label: AbstractWe introduce a novel machine learning framework based on recursive autoencoders for sentence-level prediction of sentiment label distributions.
+method_label: Our method learns vector space representations for multi-word phrases.
+method_label: In sentiment prediction tasks these representations outperform other state-of-the-art approaches on commonly used datasets, such as movie reviews, without using any pre-defined sentiment lexica or polarity shifting rules.
+result_label: We also evaluate the model's ability to predict sentiment distributions on a new dataset based on confessions from the experience project.
+method_label: The dataset consists of personal user stories annotated with multiple labels which, when aggregated, form a multinomial distribution that captures emotional reactions.
+result_label: Our algorithm can more accurately predict distributions over such labels compared to several competitive baselines.
+
+===================================
+paper_id: 32692295; YEAR: 2017
+adju relevance: Related (+1)
+difference: 1; annotator1: 2; annotator2: 3
+sources: abs_tfidf
+TITLE: Improving sentiment analysis via sentence type classification using BiLSTM-CRF and CNN
+ABSTRACT: background_label: a b s t r a c tDifferent types of sentences express sentiment in very different ways.
+background_label: Traditional sentence-level sentiment classification research focuses on one-technique-fits-all solution or only centers on one special type of sentences.
+method_label: In this paper, we propose a divide-and-conquer approach which first classifies sentences into different types, then performs sentiment analysis separately on sentences from each type.
+method_label: Specifically, we find that sentences tend to be more complex if they contain more sentiment targets.
+method_label: Thus, we propose to first apply a neural network based sequence model to classify opinionated sentences into three types according to the number of targets appeared in a sentence.
+method_label: Each group of sentences is then fed into a one-dimensional convolutional neural network separately for sentiment classification.
+result_label: Our approach has been evaluated on four sentiment classification datasets and compared with a wide range of baselines.
+result_label: Experimental results show that: (1) sentence type classification can improve the performance of sentence-level sentiment analysis; (2) the proposed approach achieves state-of-the-art results on several benchmarking datasets.
+
+===================================
+paper_id: 15500867; YEAR: 2015
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: specter - title_cbow200
+TITLE: A C-LSTM Neural Network for Text Classification
+ABSTRACT: background_label: Neural network models have been demonstrated to be capable of achieving remarkable performance in sentence and document modeling.
+background_label: Convolutional neural network (CNN) and recurrent neural network (RNN) are two mainstream architectures for such modeling tasks, which adopt totally different ways of understanding natural languages.
+objective_label: In this work, we combine the strengths of both architectures and propose a novel and unified model called C-LSTM for sentence representation and text classification.
+method_label: C-LSTM utilizes CNN to extract a sequence of higher-level phrase representations, and are fed into a long short-term memory recurrent neural network (LSTM) to obtain the sentence representation.
+method_label: C-LSTM is able to capture both local features of phrases as well as global and temporal sentence semantics.
+result_label: We evaluate the proposed architecture on sentiment classification and question classification tasks.
+result_label: The experimental results show that the C-LSTM outperforms both CNN and LSTM and can achieve excellent performance on these tasks.
+
+===================================
+paper_id: 2116604; YEAR: 2016
+adju relevance: Related (+1)
+difference: 1; annotator1: 1; annotator2: 2
+sources: title_tfidfcbow200 - specter
+TITLE: Learning Generic Sentence Representations Using Convolutional Neural Networks
+ABSTRACT: objective_label: We propose a new encoder-decoder approach to learn distributed sentence representations that are applicable to multiple purposes.
+method_label: The model is learned by using a convolutional neural network as an encoder to map an input sentence into a continuous vector, and using a long short-term memory recurrent neural network as a decoder.
+method_label: Several tasks are considered, including sentence reconstruction and future sentence prediction.
+method_label: Further, a hierarchical encoder-decoder model is proposed to encode a sentence to predict multiple future sentences.
+method_label: By training our models on a large collection of novels, we obtain a highly generic convolutional sentence encoder that performs well in practice.
+result_label: Experimental results on several benchmark datasets, and across a broad range of applications, demonstrate the superiority of the proposed model over competing methods.
+
+===================================
+paper_id: 286248; YEAR: 2006
+adju relevance: Related (+1)
+difference: 1; annotator1: 0; annotator2: 1
+sources: cited - title_cbow200 - title_tfidfcbow200 - specter - abs_tfidf
+TITLE: Question classification with log-linear models
+ABSTRACT: background_label: Question classification has become a crucial step in modern question answering systems.
+background_label: Previous work has demonstrated the effectiveness of statistical machine learning approaches to this problem.
+objective_label: This paper presents a new approach to building a question classifier using log-linear models.
+result_label: Evidence from a rich and diverse set of syntactic and semantic features is evaluated, as well as approaches which exploit the hierarchical structure of the question classes.
+
+===================================
+paper_id: 6764076; YEAR: 2015
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: title_tfidf - specter
+TITLE: Multi-Timescale Long Short-Term Memory Neural Network for Modelling Sentences and Documents
+ABSTRACT: background_label: Neural network based methods have obtained great progress on a variety of natural language processing tasks.
+background_label: However, it is still a challenge task to model long texts, such as sentences and documents.
+objective_label: In this paper, we propose a multi-timescale long short-termmemory (MT-LSTM) neural network to model long texts.
+method_label: MTLSTM partitions the hidden states of the standard LSTM into several groups.
+method_label: Each group is activated at different time periods.
+method_label: Thus, MT-LSTM can model very long documents as well as short sentences.
+result_label: Experiments on four benchmark datasets show that our model outperforms the other neural models in text classification task.
+
+===================================
+paper_id: 516289; YEAR: 2017
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: specter - title_tfidfcbow200 - abs_cbow200 - abs_tfidf
+TITLE: Efficient Deep Learning Model for Text Classification Based on Recurrent and Convolutional Layers
+ABSTRACT: background_label: Natural Language Processing (NLP) systems conventionally treat words as distinct atomic symbols.
+background_label: The model can leverage small amounts of information regarding the relationship between the individual symbols.
+background_label: Today when it comes to texts; one common technique to extract fixed-length features is bag-of-words.
+background_label: Despite its popularity the bag-of-words feature has two major weaknesses: it ignores semantics of the words and the order of words.
+method_label: In this paper, we propose a neural language model that relies on Convolutional Neural Network (CNN) and Bidirectional Recurrent Neural Network (BRNN) over pre-trained word vectors.
+method_label: We utilize bidirectional layers as a substitute of pooling layers in CNN in order to reduce the loss of detailed local information, and to capture long-term dependencies across input sequences.
+result_label: We validate the proposed model on two benchmark sentiment analysis datasets, Stanford Large Movie Review (IMDB), and Stanford Sentiment Treebank (SSTb).
+result_label: Our model achieves a competitive advantage compared with neural language models on the sentiment analysis datasets.
+
+===================================
+paper_id: 3406567; YEAR: 2016
+adju relevance: Related (+1)
+difference: 1; annotator1: 2; annotator2: 1
+sources: title_tfidfcbow200 - title_cbow200 - specter
+TITLE: Learning text representation using recurrent convolutional neural network with highway layers
+ABSTRACT: background_label: Recently, the rapid development of word embedding and neural networks has brought new inspiration to various NLP and IR tasks.
+objective_label: In this paper, we describe a staged hybrid model combining Recurrent Convolutional Neural Networks (RCNN) with highway layers.
+method_label: The highway network module is incorporated in the middle takes the output of the bi-directional Recurrent Neural Network (Bi-RNN) module in the first stage and provides the Convolutional Neural Network (CNN) module in the last stage with the input.
+result_label: The experiment shows that our model outperforms common neural network models (CNN, RNN, Bi-RNN) on a sentiment analysis task.
+result_label: Besides, the analysis of how sequence length influences the RCNN with highway layers shows that our model could learn good representation for the long text.
+
+===================================
+paper_id: 14251893; YEAR: 2016
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: title_tfidf
+TITLE: On a Topic Model for Sentences
+ABSTRACT: background_label: Probabilistic topic models are generative models that describe the content of documents by discovering the latent topics underlying them.
+background_label: However, the structure of the textual input, and for instance the grouping of words in coherent text spans such as sentences, contains much information which is generally lost with these models.
+objective_label: In this paper, we propose sentenceLDA, an extension of LDA whose goal is to overcome this limitation by incorporating the structure of the text in the generative and inference processes.
+result_label: We illustrate the advantages of sentenceLDA by comparing it with LDA using both intrinsic (perplexity) and extrinsic (text classification) evaluation tasks on different text collections.
+
+===================================
+paper_id: 9212983; YEAR: 2017
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: abs_tfidf
+TITLE: Sentence-level Sentiment Classification with Weak Supervision
+ABSTRACT: background_label: Sentence-level sentiment classification is important to understand users' fine-grained opinions.
+background_label: Existing methods for sentence-level sentiment classification are mainly based on supervised learning.
+background_label: However, it is difficult to obtain sentiment labels of sentences since manual annotation is expensive and time-consuming.
+objective_label: In this paper, we propose an approach for sentence-level sentiment classification without the need of sentence labels.
+method_label: More specifically, we propose a unified framework to incorporate two types of weak supervision, i.e., document-level and word-level sentiment labels, to learn the sentence-level sentiment classifier.
+method_label: In addition, the contextual information of sentences and words extracted from unlabeled sentences is incorporated into our approach to enhance the learning of sentiment classifier.
+result_label: Experiments on benchmark datasets show that our approach can effectively improve the performance of sentence-level sentiment classification.
+
+===================================
+paper_id: 11540703; YEAR: 2016
+adju relevance: Related (+1)
+difference: 1; annotator1: 1; annotator2: 2
+sources: title_tfidfcbow200 - specter
+TITLE: Unsupervised Learning of Sentence Representations using Convolutional Neural Networks
+ABSTRACT: objective_label: AbstractWe propose a new encoder-decoder approach to learn distributed sentence representations from unlabeled sentences.
+method_label: The word-to-vector representation is used, and convolutional neural networks are employed as sentence encoders, mapping an input sentence into a fixed-length vector.
+method_label: This representation is decoded using long short-term memory recurrent neural networks, considering several tasks, such as reconstructing the input sentence, or predicting the future sentence.
+method_label: We further describe a hierarchical encoder-decoder model to encode a sentence to predict multiple future sentences.
+method_label: By training our models on a large collection of novels, we obtain a highly generic convolutional sentence encoder that performs well in practice.
+result_label: Experimental results on several benchmark datasets, and across a broad range of applications, demonstrate the superiority of the proposed model over competing methods.
+
+===================================
+paper_id: 146087264; YEAR: 2019
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: abs_tfidf
+TITLE: An Audio Scene Classification Framework with Embedded Filters and a DCT-based Temporal Module
+ABSTRACT: background_label: Deep convolutional neural network (DCNN) has recently improved the performance of acoustic scene classification.
+background_label: However, the input features of the network are usually based on predefined hand-tailored filters, which may not apply to the specific tasks.
+objective_label: To overcome this, we propose a hybrid framework that jointly trains the front-end filters and the back-end DCNN.
+method_label: Also, a novel temporal module based on the discrete cosine transform (DCT) is inserted after the high-level feature map of the network, thus enabling us to utilize time information without a reduction of training samples.
+result_label: Our single system, composed of the fine-tuned wavelet front-end and the DCNN back-end, with the integrated DCT-based temporal module, has achieved an accuracy of 79.20% in the evaluation set in DCASE17, gaining around 3% and 8% accuracy improvement compared with scalogram-DCNN and FBank-DCNN systems, respectively.
+
+===================================
+paper_id: 15400112; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: abs_tfidfcbow200 - abs_cbow200 - specter
+TITLE: Sequential Convolutional Neural Networks for Slot Filling in Spoken Language Understanding
+ABSTRACT: background_label: We investigate the usage of convolutional neural networks (CNNs) for the slot filling task in spoken language understanding.
+method_label: We propose a novel CNN architecture for sequence labeling which takes into account the previous context words with preserved order information and pays special attention to the current word with its surrounding context.
+method_label: Moreover, it combines the information from the past and the future words for classification.
+result_label: Our proposed CNN architecture outperforms even the previously best ensembling recurrent neural network model and achieves state-of-the-art results with an F1-score of 95.61% on the ATIS benchmark dataset without using any additional linguistic knowledge and resources.
+
+===================================
+paper_id: 8360910; YEAR: 2010
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: cited - title_cbow200 - title_tfidfcbow200 - specter - abs_tfidf
+TITLE: Nouns are Vectors, Adjectives are Matrices: Representing Adjective-Noun Constructions in Semantic Space
+ABSTRACT: background_label: AbstractWe propose an approach to adjective-noun composition (AN) for corpus-based distributional semantics that, building on insights from theoretical linguistics, represents nouns as vectors and adjectives as data-induced (linear) functions (encoded as matrices) over nominal vectors.
+method_label: Our model significantly outperforms the rivals on the task of reconstructing AN vectors not seen in training.
+method_label: A small post-hoc analysis further suggests that, when the model-generated AN vector is not similar to the corpus-observed AN vector, this is due to anomalies in the latter.
+result_label: We show moreover that our approach provides two novel ways to represent adjective meanings, alternative to its representation via corpus-based co-occurrence vectors, both outperforming the latter in an adjective clustering task.
+
+===================================
+paper_id: 2317858; YEAR: 2014
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 1; annotator2: 0
+sources: cited - title_cbow200 - title_tfidfcbow200 - specter - abs_tfidf
+TITLE: Grounded Compositional Semantics for Finding and Describing Images with Sentences
+ABSTRACT: background_label: Previous work on Recursive Neural Networks (RNNs) shows that these models can produce compositional feature vectors for accurately representing and classifying sentences or images.
+background_label: However, the sentence vectors of previous models cannot accurately represent visually grounded meaning.
+method_label: We introduce the DT-RNN model which uses dependency trees to embed sentences into a vector space in order to retrieve images that are described by those sentences.
+method_label: Unlike previous RNN-based models which use constituency trees, DT-RNNs naturally focus on the action and agents in a sentence.
+method_label: They are better able to abstract from the details of word order and syntactic expression.
+method_label: DT-RNNs outperform other recursive and recurrent neural networks, kernelized CCA and a bag-of-words baseline on the tasks of finding an image that fits a sentence description and vice versa.
+result_label: They also give more similar representations to sentences that describe the same image.
+
+===================================
+paper_id: 16889475; YEAR: 2015
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_tfidfcbow200 - title_cbow200
+TITLE: Convolutional recurrent neural networks: Learning spatial dependencies for image representation
+ABSTRACT: background_label: In existing convolutional neural networks (CNNs), both convolution and pooling are locally performed for image regions separately, no contextual dependencies between different image regions have been taken into consideration.
+background_label: Such dependencies represent useful spatial structure information in images.
+background_label: Whereas recurrent neural networks (RNNs) are designed for learning contextual dependencies among sequential data by using the recurrent (feedback) connections.
+objective_label: In this work, we propose the convolutional recurrent neural network (C-RNN), which learns the spatial dependencies between image regions to enhance the discriminative power of image representation.
+method_label: The C-RNN is trained in an end-to-end manner from raw pixel images.
+method_label: CNN layers are firstly processed to generate middle level features.
+method_label: RNN layer is then learned to encode spatial dependencies.
+method_label: The C-RNN can learn better image representation, especially for images with obvious spatial contextual dependencies.
+result_label: Our method achieves competitive performance on ILSVRC 2012, SUN 397, and MIT indoor.
+
+===================================
+paper_id: 12639289; YEAR: 2013
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: cited - title_cbow200 - title_tfidfcbow200 - specter - abs_tfidf
+TITLE: Recurrent Continuous Translation Models
+ABSTRACT: background_label: AbstractWe introduce a class of probabilistic continuous translation models called Recurrent Continuous Translation Models that are purely based on continuous representations for words, phrases and sentences and do not rely on alignments or phrasal translation units.
+background_label: The models have a generation and a conditioning aspect.
+method_label: The generation of the translation is modelled with a target Recurrent Language Model, whereas the conditioning on the source sentence is modelled with a Convolutional Sentence Model.
+result_label: Through various experiments, we show first that our models obtain a perplexity with respect to gold translations that is > 43% lower than that of stateof-the-art alignment-based translation models.
+method_label: Secondly, we show that they are remarkably sensitive to the word order, syntax, and meaning of the source sentence despite lacking alignments.
+result_label: Finally we show that they match a state-of-the-art system when rescoring n-best lists of translations.
+
+===================================
+paper_id: 26901423; YEAR: 2010
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: cited - title_cbow200 - title_tfidfcbow200 - specter - abs_tfidf
+TITLE: Composition in distributional models of semantics.
+ABSTRACT: background_label: Vector-based models of word meaning have become increasingly popular in cognitive science.
+background_label: The appeal of these models lies in their ability to represent meaning simply by using distributional information under the assumption that words occurring within similar contexts are semantically similar.
+background_label: Despite their widespread use, vector-based models are typically directed at representing words in isolation, and methods for constructing representations for phrases or sentences have received little attention in the literature.
+background_label: This is in marked contrast to experimental evidence (e.g., in sentential priming) suggesting that semantic similarity is more complex than simply a relation between isolated words.
+objective_label: This article proposes a framework for representing the meaning of word combinations in vector space.
+method_label: Central to our approach is vector composition, which we operationalize in terms of additive and multiplicative functions.
+result_label: Under this framework, we introduce a wide range of composition models that we evaluate empirically on a phrase similarity task.
+
+===================================
+paper_id: 167217261; YEAR: 2019
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_cbow200
+TITLE: EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks
+ABSTRACT: background_label: Convolutional Neural Networks (ConvNets) are commonly developed at a fixed resource budget, and then scaled up for better accuracy if more resources are available.
+objective_label: In this paper, we systematically study model scaling and identify that carefully balancing network depth, width, and resolution can lead to better performance.
+method_label: Based on this observation, we propose a new scaling method that uniformly scales all dimensions of depth/width/resolution using a simple yet highly effective compound coefficient.
+method_label: We demonstrate the effectiveness of this method on scaling up MobileNets and ResNet.
+method_label: To go even further, we use neural architecture search to design a new baseline network and scale it up to obtain a family of models, called EfficientNets, which achieve much better accuracy and efficiency than previous ConvNets.
+result_label: In particular, our EfficientNet-B7 achieves state-of-the-art 84.4% top-1 / 97.1% top-5 accuracy on ImageNet, while being 8.4x smaller and 6.1x faster on inference than the best existing ConvNet.
+result_label: Our EfficientNets also transfer well and achieve state-of-the-art accuracy on CIFAR-100 (91.7%), Flowers (98.8%), and 3 other transfer learning datasets, with an order of magnitude fewer parameters.
+other_label: Source code is at https://github.com/tensorflow/tpu/tree/master/models/official/efficientnet.
+
+===================================
+paper_id: 776812; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: abs_cbow200
+TITLE: Deep Learning with Minimal Training Data: TurkuNLP Entry in the BioNLP Shared Task 2016
+ABSTRACT: background_label: AbstractWe present the TurkuNLP entry to the BioNLP Shared Task 2016 Bacteria Biotopes event extraction (BB3-event) subtask.
+method_label: We propose a deep learningbased approach to event extraction using a combination of several Long Short-Term Memory (LSTM) networks over syntactic dependency graphs.
+method_label: Features for the proposed neural network are generated based on the shortest path connecting the two candidate entities in the dependency graph.
+method_label: We further detail how this network can be efficiently trained to have good generalization performance even when only a very limited number of training examples are available and part-of-speech (POS) and dependency type feature representations must be learned from scratch.
+result_label: Our method ranked second among the entries to the shared task, achieving an F-score of 52.1% with 62.3% precision and 44.8% recall.
+
+===================================
+paper_id: 49556025; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: abs_tfidf
+TITLE: Autonomous Deep Learning: A Genetic DCNN Designer for Image Classification
+ABSTRACT: background_label: Recent years have witnessed the breakthrough success of deep convolutional neural networks (DCNNs) in image classification and other vision applications.
+background_label: Although freeing users from the troublesome handcrafted feature extraction by providing a uniform feature extraction-classification framework, DCNNs still require a handcrafted design of their architectures.
+objective_label: In this paper, we propose the genetic DCNN designer, an autonomous learning algorithm can generate a DCNN architecture automatically based on the data available for a specific image classification problem.
+method_label: We first partition a DCNN into multiple stacked meta convolutional blocks and fully connected blocks, each containing the operations of convolution, pooling, fully connection, batch normalization, activation and drop out, and thus convert the architecture into an integer vector.
+method_label: Then, we use refined evolutionary operations, including selection, mutation and crossover to evolve a population of DCNN architectures.
+result_label: Our results on the MNIST, Fashion-MNIST, EMNISTDigit, EMNIST-Letter, CIFAR10 and CIFAR100 datasets suggest that the proposed genetic DCNN designer is able to produce automatically DCNN architectures, whose performance is comparable to, if not better than, that of stateof- the-art DCNN models
+
+===================================
+paper_id: 34992888; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 1; annotator2: 0
+sources: specter - title_tfidfcbow200 - abs_tfidf
+TITLE: A Deep Neural Network Approach To Parallel Sentence Extraction
+ABSTRACT: background_label: Parallel sentence extraction is a task addressing the data sparsity problem found in multilingual natural language processing applications.
+objective_label: We propose an end-to-end deep neural network approach to detect translational equivalence between sentences in two different languages.
+method_label: In contrast to previous approaches, which typically rely on multiples models and various word alignment features, by leveraging continuous vector representation of sentences we remove the need of any domain specific feature engineering.
+result_label: Using a siamese bidirectional recurrent neural networks, our results against a strong baseline based on a state-of-the-art parallel sentence extraction system show a significant improvement in both the quality of the extracted parallel sentences and the translation performance of statistical machine translation systems.
+result_label: We believe this study is the first one to investigate deep learning for the parallel sentence extraction task.
+
+===================================
+paper_id: 53204155; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: abs_cbow200 - abs_tfidfcbow200
+TITLE: Towards Linear Time Neural Machine Translation with Capsule Networks
+ABSTRACT: background_label: In this study, we first investigate a novel capsule network with dynamic routing for linear time Neural Machine Translation (NMT), referred as \textsc{CapsNMT}.
+method_label: \textsc{CapsNMT} uses an aggregation mechanism to map the source sentence into a matrix with pre-determined size, and then applys a deep LSTM network to decode the target sequence from the source representation.
+method_label: Unlike the previous work \cite{sutskever2014sequence} to store the source sentence with a passive and bottom-up way, the dynamic routing policy encodes the source sentence with an iterative process to decide the credit attribution between nodes from lower and higher layers.
+method_label: \textsc{CapsNMT} has two core properties: it runs in time that is linear in the length of the sequences and provides a more flexible way to select, represent and aggregates the part-whole information of the source sentence.
+result_label: On WMT14 English-German task and a larger WMT14 English-French task, \textsc{CapsNMT} achieves comparable results with the state-of-the-art NMT systems.
+result_label: To the best of our knowledge, this is the first work that capsule networks have been empirically investigated for sequence to sequence problems.
+
+===================================
+paper_id: 18597583; YEAR: 2008
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 0; annotator2: 1
+sources: cited - title_cbow200 - title_tfidfcbow200 - specter - abs_tfidf
+TITLE: Vector-based Models of Semantic Composition
+ABSTRACT: objective_label: AbstractThis paper proposes a framework for representing the meaning of phrases and sentences in vector space.
+objective_label: Central to our approach is vector composition which we operationalize in terms of additive and multiplicative functions.
+method_label: Under this framework, we introduce a wide range of composition models which we evaluate empirically on a sentence similarity task.
+result_label: Experimental results demonstrate that the multiplicative models are superior to the additive alternatives when compared against human judgments.
+
+===================================
+paper_id: 17014226; YEAR: 2015
+adju relevance: Irrelevant (0)
+difference: 2; annotator1: 2; annotator2: 0
+sources: title_cbow200 - title_tfidfcbow200 - specter
+TITLE: Hierarchical Recurrent Neural Network for Document Modeling
+ABSTRACT: objective_label: This paper proposes a novel hierarchical recurrent neural network language model (HRNNLM) for document modeling.
+method_label: After establishing a RNN to capture the coherence between sentences in a document, HRNNLM integrates it as the sentence history information into the word level RNN to predict the word sequence with cross-sentence contextual information.
+method_label: A two-step training approach is designed, in which sentence-level and word-level language models are approximated for the convergence in a pipeline style.
+result_label: Examined by the standard sentence reordering scenario, HRNNLM is proved for its better accuracy in modeling the sentence coherence.
+result_label: And at the word level, experimental results also indicate a significant lower model perplexity, followed by a practical better translation result when applied to a Chinese-English document translation reranking task.
+
+===================================
+paper_id: 5535381; YEAR: 2015
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_tfidfcbow200 - title_cbow200 - specter
+TITLE: ABCNN: Attention-Based Convolutional Neural Network for Modeling Sentence Pairs
+ABSTRACT: background_label: How to model a pair of sentences is a critical issue in many NLP tasks such as answer selection (AS), paraphrase identification (PI) and textual entailment (TE).
+background_label: Most prior work (i) deals with one individual task by fine-tuning a specific system; (ii) models each sentence's representation separately, rarely considering the impact of the other sentence; or (iii) relies fully on manually designed, task-specific linguistic features.
+objective_label: This work presents a general Attention Based Convolutional Neural Network (ABCNN) for modeling a pair of sentences.
+method_label: We make three contributions.
+method_label: (i) ABCNN can be applied to a wide variety of tasks that require modeling of sentence pairs.
+method_label: (ii) We propose three attention schemes that integrate mutual influence between sentences into CNN; thus, the representation of each sentence takes into consideration its counterpart.
+method_label: These interdependent sentence pair representations are more powerful than isolated sentence representations.
+result_label: (iii) ABCNN achieves state-of-the-art performance on AS, PI and TE tasks.
+
+===================================
+paper_id: 16733173; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 1; annotator2: 0
+sources: title_tfidf - specter
+TITLE: Convolutional Neural Network Language Models
+ABSTRACT: background_label: AbstractConvolutional Neural Networks (CNNs) have shown to yield very strong results in several Computer Vision tasks.
+background_label: Their application to language has received much less attention, and it has mainly focused on static classification tasks, such as sentence classification for Sentiment Analysis or relation extraction.
+objective_label: In this work, we study the application of CNNs to language modeling, a dynamic, sequential prediction task that needs models to capture local as well as long-range dependency information.
+objective_label: Our contribution is twofold.
+method_label: First, we show that CNNs achieve 11-26% better absolute performance than feed-forward neural language models, demonstrating their potential for language representation even in sequential tasks.
+method_label: As for recurrent models, our model outperforms RNNs but is below state of the art LSTM models.
+result_label: Second, we gain some understanding of the behavior of the model, showing that CNNs in language act as feature detectors at a high level of abstraction, like in Computer Vision, and that the model can profitably use information from as far as 16 words before the target.
+
+===================================
+paper_id: 17519578; YEAR: 2008
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 0; annotator2: 1
+sources: cited - title_cbow200 - title_tfidfcbow200 - specter - abs_tfidf
+TITLE: Question Classification using Head Words and their Hypernyms
+ABSTRACT: background_label: Question classification plays an important role in question answering.
+background_label: Features are the key to obtain an accurate question classifier.
+objective_label: In contrast to Li and Roth (2002)'s approach which makes use of very rich feature space, we propose a compact yet effective feature set.
+method_label: In particular, we propose head word feature and present two approaches to augment semantic features of such head words using WordNet.
+method_label: In addition, Lesk's word sense disambiguation (WSD) algorithm is adapted and the depth of hypernym feature is optimized.
+result_label: With further augment of other standard features such as unigrams, our linear SVM and Maximum Entropy (ME) models reach the accuracy of 89.2% and 89.0% respectively over a standard benchmark dataset, which outperform the best previously reported accuracy of 86.2%.
+
+===================================
+paper_id: 11324116; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: abs_tfidfcbow200 - abs_cbow200
+TITLE: Pooling Hybrid Representations for Web Structured Data Annotation
+ABSTRACT: background_label: Automatically identifying data types of web structured data is a key step in the process of web data integration.
+background_label: Web structured data is usually associated with entities or objects in a particular domain.
+objective_label: In this paper, we aim to map attributes of an entity in a given domain to pre-specified classes of attributes in the same domain based on their values.
+method_label: To perform this task, we propose a hybrid deep learning network that relies on the format of the attributes' values.
+method_label: It does so without any pre-processing or using pre-defined hand-crafted features.
+method_label: The hybrid network combines sequence-based neural networks, namely convolutional neural networks (CNN) and recurrent neural networks (RNN), to learn the sequence structure of attributes' values.
+background_label: The CNN captures short-distance dependencies in these sequences through a sliding window approach, and the RNN captures long-distance dependencies by storing information of previous characters.
+background_label: These networks create different vector representations of the input sequence which are combined using a pooling layer.
+method_label: This layer applies a specific operation on these vectors in order to capture their most useful patterns for the task.
+method_label: Finally, on top of the pooling layer, a softmax function predicts the label of a given attribute value.
+result_label: We evaluate our strategy in four different web domains.
+result_label: The results show that the pooling network outperforms previous approaches, which use some kind of input pre-processing, in all domains.
+
+===================================
+paper_id: 56158298; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 2; annotator1: 2; annotator2: 0
+sources: abs_tfidf
+TITLE: Manifold Traversal for Reversing the Sentiment of Text
+ABSTRACT: background_label: Natural language processing (NLP) is a heavily researched field within machine learning, connecting linguistics to computer science and artificial intelligence.
+background_label: One particular problem in NLP is sentiment classification, e.g determining if a sentence holds a positive or negative opinion.
+background_label: There exist many established methods for solving the sentiment classification problem but none for modifying a negatively classified input so that it receives a positive classification.
+method_label: In this paper we propose a method for reversing the sentiment of sentences through manifold traversal.
+method_label: The method utilizes a convolutional neural network (CNN) and pre-trained word vectors for encoding sentences in a continuous space.
+method_label: The sentence representations are traversed through optimization of a test statistic as to resemble the representations of sentences with the opposite sentiment.
+method_label: Finally a recurrent neural network (RNN) is used for decoding the vector representation and generating new sentences.
+method_label: The encoder in our model achieves 80% accuracy on the sentiment classification task and produces sentence representations in 300 dimensions.
+result_label: Visualizations of these representations, using PCA, shows clustering with respect to both sentiment and different topics, indicating that the representations hold information about both sentiment and textual content.
+result_label: Decoding the traversed feature vectors using our RNN language model produces, in most cases, understandable sentences where the sentiment has changed compared to the original sentence.
+
+===================================
+paper_id: 1588782; YEAR: 2008
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 1; annotator2: 0
+sources: cited - title_cbow200 - title_tfidfcbow200 - specter - abs_tfidf
+TITLE: A Structured Vector Space Model for Word Meaning in Context
+ABSTRACT: background_label: We address the task of computing vector space representations for the meaning of word occurrences, which can vary widely according to context.
+background_label: This task is a crucial step towards a robust, vector-based compositional account of sentence meaning.
+background_label: We argue that existing models for this task do not take syntactic structure sufficiently into account.
+method_label: We present a novel structured vector space model that addresses these issues by incorporating the selectional preferences for words' argument positions.
+method_label: This makes it possible to integrate syntax into the computation of word meaning in context.
+result_label: In addition, the model performs at and above the state of the art for modeling the contextual adequacy of paraphrases.
+
+===================================
+paper_id: 5453533; YEAR: 2015
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: abs_tfidfcbow200 - abs_cbow200 - specter
+TITLE: $gen$CNN: A Convolutional Architecture for Word Sequence Prediction
+ABSTRACT: background_label: We propose a novel convolutional architecture, named $gen$CNN, for word sequence prediction.
+method_label: Different from previous work on neural network-based language modeling and generation (e.g., RNN or LSTM), we choose not to greedily summarize the history of words as a fixed length vector.
+method_label: Instead, we use a convolutional neural network to predict the next word with the history of words of variable length.
+method_label: Also different from the existing feedforward networks for language modeling, our model can effectively fuse the local correlation and global correlation in the word sequence, with a convolution-gating strategy specifically designed for the task.
+method_label: We argue that our model can give adequate representation of the history, and therefore can naturally exploit both the short and long range dependencies.
+method_label: Our model is fast, easy to train, and readily parallelized.
+result_label: Our extensive experiments on text generation and $n$-best re-ranking in machine translation show that $gen$CNN outperforms the state-of-the-arts with big margins.
+
+===================================
+paper_id: 4956592; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 0; annotator2: 1
+sources: abs_tfidf
+TITLE: Aspect Level Sentiment Classification with Attention-over-Attention Neural Networks
+ABSTRACT: background_label: Aspect-level sentiment classification aims to identify the sentiment expressed towards some aspects given context sentences.
+objective_label: In this paper, we introduce an attention-over-attention (AOA) neural network for aspect level sentiment classification.
+method_label: Our approach models aspects and sentences in a joint way and explicitly captures the interaction between aspects and context sentences.
+method_label: With the AOA module, our model jointly learns the representations for aspects and sentences, and automatically focuses on the important parts in sentences.
+result_label: Our experiments on laptop and restaurant datasets demonstrate our approach outperforms previous LSTM-based architectures.
+
+===================================
+paper_id: 11039301; YEAR: 2002
+adju relevance: Irrelevant (0)
+difference: 3; annotator1: 0; annotator2: 3
+sources: cited - title_cbow200 - title_tfidfcbow200 - specter - abs_tfidf
+TITLE: Learning Question Classifiers
+ABSTRACT: background_label: In order to respond correctly to a free form factual question given a large collection of texts, one needs to understand the question to a level that allows determining some of the constraints the question imposes on a possible answer.
+objective_label: These constraints may include a semantic classification of the sought after answer and may even suggest using different strategies when looking for and verifying a candidate answer.This paper presents a machine learning approach to question classification.
+method_label: We learn a hierarchical classifier that is guided by a layered semantic hierarchy of answer types, and eventually classifies questions into fine-grained classes.
+result_label: We show accurate results on a large collection of free-form questions used in TREC 10.
+
+===================================
+paper_id: 18689529; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 3; annotator1: -1; annotator2: 2
+sources: abs_cbow200
+TITLE: HoloNet: towards robust emotion recognition in the wild
+ABSTRACT: background_label: In this paper, we present HoloNet, a well-designed Convolutional Neural Network (CNN) architecture regarding our submissions to the video based sub-challenge of the Emotion Recognition in the Wild (EmotiW) 2016 challenge.
+method_label: In contrast to previous related methods that usually adopt relatively simple and shallow neural network architectures to address emotion recognition task, our HoloNet has three critical considerations in network design.
+method_label: (1) To reduce redundant filters and enhance the non-saturated non-linearity in the lower convolutional layers, we use a modified Concatenated Rectified Linear Unit (CReLU) instead of ReLU.
+method_label: (2) To enjoy the accuracy gain from considerably increased network depth and maintain efficiency, we combine residual structure and CReLU to construct the middle layers.
+method_label: (3) To broaden network width and introduce multi-scale feature extraction property, the topper layers are designed as a variant of inception-residual structure.
+method_label: The main benefit of grouping these modules into the HoloNet is that both negative and positive phase information implicitly contained in the input data can flow over it in multiple paths, thus deep multi-scale features explicitly capturing emotion variation can be well extracted from multi-path sibling layers, and then can be further concatenated for robust recognition.
+method_label: We obtain competitive results in this year’s video based emotion recognition sub-challenge using an ensemble of two HoloNet models trained with given data only.
+result_label: Specifically, we obtain a mean recognition rate of 57.84%, outperforming the baseline accuracy with an absolute margin of 17.37%, and yielding 4.04% absolute accuracy gain compared to the result of last year’s winner team.
+result_label: Meanwhile, our method runs with a speed of several thousands of frames per second on a GPU, thus it is well applicable to real-time scenarios.
+
+===================================
+paper_id: 24152036; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 2; annotator1: 2; annotator2: 0
+sources: abs_tfidf
+TITLE: Mass detection using deep convolutional neural network for mammographic computer-aided diagnosis
+ABSTRACT: background_label: In recent years, a deep convolutional neural network (DCNN) has attracted great attention due to its outstanding performance in recognition of natural images.
+background_label: However, the DCNN performance for medical image recognition is still uncertain because collecting a large amount of training data is difficult.
+objective_label: To solve the problem of the DCNN, we adopt a transfer learning strategy, and demonstrate feasibilities of the DCNN and of the transfer learning strategy for mass detection in mammographic images.
+method_label: We adopt a DCNN architecture that consists of 8 layers with weight, including 5 convolutional layers, and 3 fully-connected layers in this study.
+method_label: We first train the DCNN using about 1.2 million natural images for classification of 1,000 classes.
+method_label: Then, we modify the last fully-connected layer of the DCNN and subsequently train the DCNN using 1,656 regions of interest in mammographic image for two classes classification: mass and normal.
+method_label: The detection test is conducted on 198 mammographic images including 99 mass images and 99 normal images.
+result_label: The experimental results showed that the sensitivity of the mass detection was 89.9 % and the false positive was 19.2 %.
+result_label: These results demonstrated that the DCNN trained by transfer learning strategy has a potential to be a key system for mammographic mass detection computer-aided diagnosis (CAD).
+result_label: In addition, to the best of our knowledge, our study is the first demonstration of the DCNN for mammographic CAD application.
+
+===================================
+paper_id: 2875637; YEAR: 2010
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: cited - title_cbow200 - title_tfidfcbow200 - specter - abs_tfidf
+TITLE: From symbolic to sub-symbolic information in question classification
+ABSTRACT: background_label: Question Answering (QA) is undoubtedly a growing field of current research in Artificial Intelligence.
+background_label: Question classification, a QA subtask, aims to associate a category to each question, typically representing the semantic class of its answer.
+background_label: This step is of major importance in the QA process, since it is the basis of several key decisions.
+method_label: For instance, classification helps reducing the number of possible answer candidates, as only answers matching the question category should be taken into account.
+method_label: This paper presents and evaluates a rule-based question classifier that partially founds its performance in the detection of the question headword and in its mapping into the target category through the use of WordNet.
+method_label: Moreover, we use the rule-based classifier as a features’ provider of a machine learning-based question classifier.
+method_label: A detailed analysis of the rule-base contribution is presented.
+result_label: Despite using a very compact feature space, state of the art results are obtained.
+
+===================================
+paper_id: 23208254; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: abs_tfidfcbow200 - abs_cbow200
+TITLE: Richer Semantic Visual and Language Representation for Video Captioning
+ABSTRACT: background_label: Translating and summarizing a video into natural language is an interesting and challenging visual task.
+objective_label: In this work, a novel framework is built to generate sentences for videos with more coherence and semantics.
+method_label: A long short term memory (LSTM) network with an improved factored way is first developed, which takes inspiration of the conventional factored way and a common practice of presenting multi-modal features at the first time in LSTM for video captioning.
+method_label: An LSTM network with the combination of improved factored and un-factored ways is exploited, and a voting strategy is employed to predict the words.
+method_label: Then, the residual is used to enhance the gradient signals which is learned from residual network (ResNet), and a deeper LSTM network is constructed.
+method_label: Furthermore, several convolutional neural network (CNN) features from deep models with different architectures are fused to catch more comprehensive and complementary visual information.
+result_label: Experiments are conducted on the MSR-VTT2016 and MSR-VTT2017 grand challenge datasets to demonstrate the effectiveness of each presented techniques as well as the superiority compared to other state-of-the-art methods.
+
+===================================
+paper_id: 3053184; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: Ensemble application of convolutional and recurrent neural networks for multi-label text categorization
+ABSTRACT: background_label: Text categorization, or text classification, is one of key tasks for representing the semantic information of documents.
+background_label: Multi-label text categorization is finer-grained approach to text categorization which consists of assigning multiple target labels to documents.
+background_label: It is more challenging compared to the task of multi-class text categorization due to the exponential growth of label combinations.
+background_label: Existing approaches to multi-label text categorization fall short to extract local semantic information and to model label correlations.
+method_label: In this paper, we propose an ensemble application of convolutional and recurrent neural networks to capture both the global and the local textual semantics and to model high-order label correlations while having a tractable computational complexity.
+result_label: Extensive experiments show that our approach achieves the state-of-the-art performance when the CNN-RNN model is trained using a large-sized dataset.
+
+===================================
+paper_id: 51977764; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_tfidf
+TITLE: Rank-1 Convolutional Neural Network
+ABSTRACT: background_label: In this paper, we propose a convolutional neural network(CNN) with 3-D rank-1 filters which are composed by the outer product of 1-D filters.
+background_label: After being trained, the 3-D rank-1 filters can be decomposed into 1-D filters in the test time for fast inference.
+method_label: The reason that we train 3-D rank-1 filters in the training stage instead of consecutive 1-D filters is that a better gradient flow can be obtained with this setting, which makes the training possible even in the case where the network with consecutive 1-D filters cannot be trained.
+method_label: The 3-D rank-1 filters are updated by both the gradient flow and the outer product of the 1-D filters in every epoch, where the gradient flow tries to obtain a solution which minimizes the loss function, while the outer product operation tries to make the parameters of the filter to live on a rank-1 sub-space.
+result_label: Furthermore, we show that the convolution with the rank-1 filters results in low rank outputs, constraining the final output of the CNN also to live on a low dimensional subspace.
+
+===================================
+paper_id: 15616495; YEAR: 2010
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: cited - title_cbow200 - title_tfidfcbow200 - specter - abs_tfidf
+TITLE: Estimating Linear Models for Compositional Distributional Semantics
+ABSTRACT: background_label: AbstractIn distributional semantics studies, there is a growing attention in compositionally determining the distributional meaning of word sequences.
+background_label: Yet, compositional distributional models depend on a large set of parameters that have not been explored.
+objective_label: In this paper we propose a novel approach to estimate parameters for a class of compositional distributional models: the additive models.
+method_label: Our approach leverages on two main ideas.
+method_label: Firstly, a novel idea for extracting compositional distributional semantics examples.
+method_label: Secondly, an estimation method based on regression models for multiple dependent variables.
+result_label: Experiments demonstrate that our approach outperforms existing methods for determining a good model for compositional distributional semantics.
+
+===================================
+paper_id: 3623137; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_tfidf
+TITLE: Complex Network Classification with Convolutional Neural Network
+ABSTRACT: background_label: Classifying large scale networks into several categories and distinguishing them according to their fine structures is of great importance with several applications in real life.
+background_label: However, most studies of complex networks focus on properties of a single network but seldom on classification, clustering, and comparison between different networks, in which the network is treated as a whole.
+background_label: Due to the non-Euclidean properties of the data, conventional methods can hardly be applied on networks directly.
+method_label: In this paper, we propose a novel framework of complex network classifier (CNC) by integrating network embedding and convolutional neural network to tackle the problem of network classification.
+result_label: By training the classifiers on synthetic complex network data and real international trade network data, we show CNC can not only classify networks in a high accuracy and robustness, it can also extract the features of the networks automatically.
+
+===================================
+paper_id: 84846160; YEAR: 2019
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: abs_tfidfcbow200
+TITLE: Subgraph Networks with Application to Structural Feature Space Expansion
+ABSTRACT: background_label: In this paper, the concept of subgraph network (SGN) is introduced and then applied to network models, with algorithms designed for constructing the 1st-order and 2nd-order SGNs, which can be easily extended to build higher-order ones.
+method_label: Furthermore, these SGNs are used to expand the structural feature space of the underlying network, beneficial for network classification.
+method_label: Numerical experiments demonstrate that the network classification model based on the structural features of the original network together with the 1st-order and 2nd-order SGNs always performs the best as compared to the models based only on one or two of such networks.
+method_label: In other words, the structural features of SGNs can complement that of the original network for better network classification, regardless of the feature extraction method used, such as the handcrafted, network embedding and kernel-based methods.
+result_label: More interestingly, it is found that the model based on the handcrafted feature performs even better than those based on automatically generated features, at least for most datasets tested in the present investigation.
+result_label: This indicates that, in general, properly chosen structural features are not only more interpretable due to their clear physical meanings, but also effective in designing structure-based algorithms for network classification.
+
+===================================
+paper_id: 24008597; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 0; annotator2: 1
+sources: abs_tfidfcbow200
+TITLE: Dual-Path Convolutional Image-Text Embedding
+ABSTRACT: background_label: AbstractThis paper considers the task of matching images and sentences.
+background_label: The challenge consists in discriminatively embedding the two modalities onto a shared visual-textual space.
+method_label: Existing work in this field largely uses Recurrent Neural Networks (RNN) for text feature learning and employs off-the-shelf Convolutional Neural Networks (CNN) for image feature extraction.
+method_label: Our system, in comparison, differs in two key aspects.
+method_label: Firstly, we build a convolutional network amenable for fine-tuning the visual and textual representations, where the entire network only contains four components, i.e., convolution layer, pooling layer, rectified linear unit function (ReLU), and batch normalisation.
+method_label: Endto-end learning allows the system to directly learn from the data and fully utilise the supervisions.
+method_label: Secondly, we propose instance loss according to viewing each multimodal data pair as a class.
+method_label: This works with a large margin objective to learn the inter-modal correspondence between images and their textual descriptions.
+result_label: Experiments on two generic retrieval datasets (Flickr30k and MSCOCO) demonstrate that our method yields competitive accuracy compared to state-of-the-art methods.
+result_label: Moreover, in language person retrieval, we improve the state of the art by a large margin.
+
+===================================
+paper_id: 52155966; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_cbow200
+TITLE: A Recurrent Neural Network for Sentiment Quantification
+ABSTRACT: background_label: Quantification is a supervised learning task that consists in predicting, given a set of classes C and a set D of unlabelled items, the prevalence (or relative frequency) p(c|D) of each class c in C. Quantification can in principle be solved by classifying all the unlabelled items and counting how many of them have been attributed to each class.
+method_label: However, this"classify and count"approach has been shown to yield suboptimal quantification accuracy; this has established quantification as a task of its own, and given rise to a number of methods specifically devised for it.
+method_label: We propose a recurrent neural network architecture for quantification (that we call QuaNet) that observes the classification predictions to learn higher-order"quantification embeddings", which are then refined by incorporating quantification predictions of simple classify-and-count-like methods.
+result_label: We test {QuaNet on sentiment quantification on text, showing that it substantially outperforms several state-of-the-art baselines.
+
+===================================
+paper_id: 3251509; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 1; annotator2: 0
+sources: title_tfidf
+TITLE: Graph Based Convolutional Neural Network
+ABSTRACT: background_label: The benefit of localized features within the regular domain has given rise to the use of Convolutional Neural Networks (CNNs) in machine learning, with great proficiency in the image classification.
+background_label: The use of CNNs becomes problematic within the irregular spatial domain due to design and convolution of a kernel filter being non-trivial.
+objective_label: One solution to this problem is to utilize graph signal processing techniques and the convolution theorem to perform convolutions on the graph of the irregular domain to obtain feature map responses to learnt filters.
+method_label: We propose graph convolution and pooling operators analogous to those in the regular domain.
+method_label: We also provide gradient calculations on the input data and spectral filters, which allow for the deep learning of an irregular spatial domain problem.
+method_label: Signal filters take the form of spectral multipliers, applying convolution in the graph spectral domain.
+method_label: Applying smooth multipliers results in localized convolutions in the spatial domain, with smoother multipliers providing sharper feature maps.
+method_label: Algebraic Multigrid is presented as a graph pooling method, reducing the resolution of the graph through agglomeration of nodes between layers of the network.
+result_label: Evaluation of performance on the MNIST digit classification problem in both the regular and irregular domain is presented, with comparison drawn to standard CNN.
+result_label: The proposed graph CNN provides a deep learning method for the irregular domains present in the machine learning community, obtaining 94.23% on the regular grid, and 94.96% on a spatially irregular subsampled MNIST.
+
+===================================
+paper_id: 82456167; YEAR: 2007
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_tfidf
+TITLE: Janeway's Immunobiology
+ABSTRACT: background_label: Part I An Introduction to Immunobiology and Innate Immunity 1.
+background_label: Basic Concepts in Immunology 2.
+background_label: Innate Immunity Part II The Recognition of Antigen 3.
+background_label: Antigen Recognition by B-cell and T-cell Receptors 4.
+method_label: The Generation of Lymphocyte Antigen Receptors 5.
+method_label: Antigen Presentation to T Lymphocytes Part III The Development of Mature Lymphocyte Receptor Repertoires 6.
+method_label: Signaling Through Immune System Receptors 7.
+result_label: The Development and Survival of Lymphocytes Part IV The Adaptive Immune Response 8.
+background_label: T Cell-Mediated Immunity 9.
+background_label: The Humoral Immune Response 10.
+background_label: Dynamics of Adaptive Immunity 11.
+other_label: The Mucosal Immune System Part V The Immune System in Health and Disease 12.
+background_label: Failures of Host Defense Mechanism 13.
+other_label: Allergy and Hypersensitivity 14.
+other_label: Autoimmunity and Transplantation 15.
+other_label: Manipulation of the Immune Response Part VI The Origins of Immune Responses 16.
+other_label: Evolution of the Immune System Appendix I Immunologists' Toolbox Appendix II CD Antigens Appendix III Cytokines and their Receptors Appendix IV Chemokines and their Receptors Appendix V Immunological Constants
+
+===================================
+paper_id: 14850173; YEAR: 2011
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: cited - title_cbow200 - title_tfidfcbow200 - specter - abs_tfidf
+TITLE: Extensions of recurrent neural network language model
+ABSTRACT: background_label: We present several modifications of the original recurrent neural network language model (RNN LM).While this model has been shown to significantly outperform many competitive language modeling techniques in terms of accuracy, the remaining problem is the computational complexity.
+method_label: In this work, we show approaches that lead to more than 15 times speedup for both training and testing phases.
+method_label: Next, we show importance of using a backpropagation through time algorithm.
+method_label: An empirical comparison with feedforward networks is also provided.
+method_label: In the end, we discuss possibilities how to reduce the amount of parameters in the model.
+result_label: The resulting RNN model can thus be smaller, faster both during training and testing, and more accurate than the basic one.
+
+===================================
+paper_id: 52178538; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 1; annotator2: 0
+sources: abs_tfidfcbow200
+TITLE: BiasedWalk: Biased Sampling for Representation Learning on Graphs
+ABSTRACT: background_label: Network embedding algorithms are able to learn latent feature representations of nodes, transforming networks into lower dimensional vector representations.
+background_label: Typical key applications, which have effectively been addressed using network embeddings, include link prediction, multilabel classification and community detection.
+objective_label: In this paper, we propose BiasedWalk, a scalable, unsupervised feature learning algorithm that is based on biased random walks to sample context information about each node in the network.
+objective_label: Our random-walk based sampling can behave as Breath-First-Search (BFS) and Depth-First-Search (DFS) samplings with the goal to capture homophily and role equivalence between the nodes in the network.
+method_label: We have performed a detailed experimental evaluation comparing the performance of the proposed algorithm against various baseline methods, on several datasets and learning tasks.
+result_label: The experiment results show that the proposed method outperforms the baseline ones in most of the tasks and datasets.
+
+===================================
+paper_id: 13470099; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: abs_tfidfcbow200 - abs_cbow200
+TITLE: Progressively Diffused Networks for Semantic Image Segmentation
+ABSTRACT: background_label: This paper introduces Progressively Diffused Networks (PDNs) for unifying multi-scale context modeling with deep feature learning, by taking semantic image segmentation as an exemplar application.
+background_label: Prior neural networks, such as ResNet, tend to enhance representational power by increasing the depth of architectures and driving the training objective across layers.
+background_label: However, we argue that spatial dependencies in different layers, which generally represent the rich contexts among data elements, are also critical to building deep and discriminative representations.
+method_label: To this end, our PDNs enables to progressively broadcast information over the learned feature maps by inserting a stack of information diffusion layers, each of which exploits multi-dimensional convolutional LSTMs (Long-Short-Term Memory Structures).
+method_label: In each LSTM unit, a special type of atrous filters are designed to capture the short range and long range dependencies from various neighbors to a certain site of the feature map and pass the accumulated information to the next layer.
+result_label: From the extensive experiments on semantic image segmentation benchmarks (e.g., ImageNet Parsing, PASCAL VOC2012 and PASCAL-Part), our framework demonstrates the effectiveness to substantially improve the performances over the popular existing neural network models, and achieves state-of-the-art on ImageNet Parsing for large scale semantic segmentation.
+
+===================================
+paper_id: 8608051; YEAR: 2012
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 1; annotator2: 0
+sources: cited - title_cbow200 - title_tfidfcbow200 - specter - abs_tfidf
+TITLE: Continuous Space Translation Models for Phrase-Based Statistical Machine Translation
+ABSTRACT: objective_label: ABSTRACTThis paper presents a new approach to perform the estimation of the translation model probabilities of a phrase-based statistical machine translation system.
+method_label: We use neural networks to directly learn the translation probability of phrase pairs using continuous representations.
+method_label: The system can be easily trained on the same data used to build standard phrase-based systems.
+method_label: We provide experimental evidence that the approach seems to be able to infer meaningful translation probabilities for phrase pairs not seen in the training data, or even predict a list of the most likely translations given a source phrase.
+method_label: The approach can be used to rescore n-best lists, but we also discuss an integration into the Moses decoder.
+result_label: A preliminary evaluation on the English/French IWSLT task achieved improvements in the BLEU score and a human analysis showed that the new model often chooses semantically better translations.
+result_label: Several extensions of this work are discussed.
+
+===================================
+paper_id: 31164814; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: abs_cbow200
+TITLE: Image captioning with deep LSTM based on sequential residual
+ABSTRACT: background_label: Image captioning is a fundamental task which requires semantic understanding of images and the ability of generating description sentences with proper and correct structure.
+objective_label: In consideration of the problem that language models are always shallow in modern image caption frameworks, a deep residual recurrent neural network is proposed in this work with the following two contributions.
+method_label: First, an easy-to-train deep stacked Long Short Term Memory (LSTM) language model is designed to learn the residual function of output distributions by adding identity mappings to multi-layer LSTMs.
+method_label: Second, in order to overcome the over-fitting problem caused by larger-scale parameters in deeper LSTM networks, a novel temporal Dropout method is proposed into LSTM.
+result_label: The experimental results on the benchmark MSCOCO and Flickr30K datasets demonstrate that the proposed model achieves the state-of-the-art performances with 101.1 in CIDEr on MSCOCO and 22.9 in B-4 on Flickr30K, respectively.
+
+===================================
+paper_id: 13753587; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 1; annotator2: 0
+sources: title_tfidf - title_tfidfcbow200
+TITLE: How convolutional neural network see the world - A survey of convolutional neural network visualization methods
+ABSTRACT: background_label: Nowadays, the Convolutional Neural Networks (CNNs) have achieved impressive performance on many computer vision related tasks, such as object detection, image recognition, image retrieval, etc.
+background_label: These achievements benefit from the CNNs outstanding capability to learn the input features with deep layers of neuron structures and iterative training process.
+background_label: However, these learned features are hard to identify and interpret from a human vision perspective, causing a lack of understanding of the CNNs internal working mechanism.
+method_label: To improve the CNN interpretability, the CNN visualization is well utilized as a qualitative analysis method, which translates the internal features into visually perceptible patterns.
+method_label: And many CNN visualization works have been proposed in the literature to interpret the CNN in perspectives of network structure, operation, and semantic concept.
+method_label: In this paper, we expect to provide a comprehensive survey of several representative CNN visualization methods, including Activation Maximization, Network Inversion, Deconvolutional Neural Networks (DeconvNet), and Network Dissection based visualization.
+method_label: These methods are presented in terms of motivations, algorithms, and experiment results.
+result_label: Based on these visualization methods, we also discuss their practical applications to demonstrate the significance of the CNN interpretability in areas of network design, optimization, security enhancement, etc.
+
+===================================
+paper_id: 10843611; YEAR: 2015
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 0; annotator2: 1
+sources: abs_cbow200 - abs_tfidfcbow200 - abs_tfidf - title_tfidf
+TITLE: Sentiment Analysis Using Convolutional Neural Network
+ABSTRACT: background_label: Sentiment analysis of text content is important for many natural language processing tasks.
+background_label: Especially, as the development of the social media, there is a big need in dig meaningful information from the big data on Internet through the sentiment analysis.
+background_label: Inspired by the successes of deep learning, we are interested in handling the sentiment analysis task using deep learning models.
+objective_label: In this paper, we propose a framework called Word2vec + Convolutional Neural Network (CNN).
+method_label: Firstly, we use the word2vec proposed by Google to compute vector representations of words, which will be the input for the CNN.
+result_label: The purpose of using word2vec is to gain the vector representation of word and reflect the distance of words.
+background_label: That will lead to initialize the parameters at a good point of CNN, which can efficiently improve the performance of the nets in this problem.
+objective_label: Secondly, we design a suitable CNN architecture for the sentiment analysis task.
+method_label: We use 3 pairs of convolutional layers and pooling layers in this architecture.
+method_label: To the best of our knowledge, this is the first time that a 7-layers architecture model is applied using word2vec and CNN to analyze sentences' sentiment.
+method_label: We also use the Parametric Rectified Linear Unit (PReLU), Normalization and Dropout technology to improve the accuracy and generalizability of our model.
+method_label: We test our framework in a public dataset which is the corpus of movie review excerpts that includes fives labels: negative, somewhat negative, neural, somewhat positive and positive.
+result_label: Our network achieves test accuracy of 45.4% in this dataset, which is a better performance than some other neural network model like Recursive Neural Network (RNN) and Matrix-Vector Recursive Neural Network (MV-RNN).
+
+===================================
+paper_id: 7823468; YEAR: 2015
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: abs_cbow200
+TITLE: Grid Long Short-Term Memory
+ABSTRACT: background_label: This paper introduces Grid Long Short-Term Memory, a network of LSTM cells arranged in a multidimensional grid that can be applied to vectors, sequences or higher dimensional data such as images.
+background_label: The network differs from existing deep LSTM architectures in that the cells are connected between network layers as well as along the spatiotemporal dimensions of the data.
+method_label: The network provides a unified way of using LSTM for both deep and sequential computation.
+method_label: We apply the model to algorithmic tasks such as 15-digit integer addition and sequence memorization, where it is able to significantly outperform the standard LSTM.
+method_label: We then give results for two empirical tasks.
+result_label: We find that 2D Grid LSTM achieves 1.47 bits per character on the Wikipedia character prediction benchmark, which is state-of-the-art among neural approaches.
+result_label: In addition, we use the Grid LSTM to define a novel two-dimensional translation model, the Reencoder, and show that it outperforms a phrase-based reference system on a Chinese-to-English translation task.
+
+===================================
+paper_id: 2617020; YEAR: 2008
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: cited - title_cbow200 - title_tfidfcbow200 - specter - abs_tfidf
+TITLE: A unified architecture for natural language processing: deep neural networks with multitask learning
+ABSTRACT: background_label: We describe a single convolutional neural network architecture that, given a sentence, outputs a host of language processing predictions: part-of-speech tags, chunks, named entity tags, semantic roles, semantically similar words and the likelihood that the sentence makes sense (grammatically and semantically) using a language model.
+background_label: The entire network is trained jointly on all these tasks using weight-sharing, an instance of multitask learning.
+method_label: All the tasks use labeled data except the language model which is learnt from unlabeled text and represents a novel form of semi-supervised learning for the shared tasks.
+result_label: We show how both multitask learning and semi-supervised learning improve the generalization of the shared tasks, resulting in state-of-the-art-performance.
+
+===================================
+paper_id: 11383176; YEAR: 2012
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 0; annotator2: 1
+sources: cited - title_cbow200 - title_tfidfcbow200 - specter - abs_tfidf
+TITLE: Context dependent recurrent neural network language model
+ABSTRACT: background_label: Recurrent neural network language models (RNNLMs) have recently demonstrated state-of-the-art performance across a variety of tasks.
+objective_label: In this paper, we improve their performance by providing a contextual real-valued input vector in association with each word.
+method_label: This vector is used to convey contextual information about the sentence being modeled.
+method_label: By performing Latent Dirichlet Allocation using a block of preceding text, we achieve a topic-conditioned RNNLM.
+method_label: This approach has the key advantage of avoiding the data fragmentation associated with building multiple topic models on different data subsets.
+result_label: We report perplexity results on the Penn Treebank data, where we achieve a new state-of-the-art.
+result_label: We further apply the model to the Wall Street Journal speech recognition task, where we observe improvements in word-error-rate.
+
+===================================
+paper_id: 4189528; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: abs_cbow200 - abs_tfidfcbow200
+TITLE: Multi-Stream Multi-Class Fusion of Deep Networks for Video Classification
+ABSTRACT: objective_label: This paper studies deep network architectures to address the problem of video classification.
+objective_label: A multi-stream framework is proposed to fully utilize the rich multimodal information in videos.
+method_label: Specifically, we first train three Convolutional Neural Networks to model spatial, short-term motion and audio clues respectively.
+method_label: Long Short Term Memory networks are then adopted to explore long-term temporal dynamics.
+method_label: With the outputs of the individual streams on multiple classes, we propose to mine class relationships hidden in the data from the trained models.
+method_label: The automatically discovered relationships are then leveraged in the multi-stream multi-class fusion process as a prior, indicating which and how much information is needed from the remaining classes, to adaptively determine the optimal fusion weights for generating the final scores of each class.
+method_label: Our contributions are two-fold.
+method_label: First, the multi-stream framework is able to exploit multimodal features that are more comprehensive than those previously attempted.
+method_label: Second, our proposed fusion method not only learns the best weights of the multiple network streams for each class, but also takes class relationship into account, which is known as a helpful clue in multi-class visual classification tasks.
+result_label: Our framework produces significantly better results than the state of the arts on two popular benchmarks, 92.2% on UCF-101 (without using audio) and 84.9% on Columbia Consumer Videos.
+
+===================================
+paper_id: 32375986; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: Interlinked Convolutional Neural Networks for Face Parsing
+ABSTRACT: background_label: Face parsing is a basic task in face image analysis.
+background_label: It amounts to labeling each pixel with appropriate facial parts such as eyes and nose.
+objective_label: In the paper, we present a interlinked convolutional neural network (iCNN) for solving this problem in an end-to-end fashion.
+method_label: It consists of multiple convolutional neural networks (CNNs) taking input in different scales.
+method_label: A special interlinking layer is designed to allow the CNNs to exchange information, enabling them to integrate local and contextual information efficiently.
+method_label: The hallmark of iCNN is the extensive use of downsampling and upsampling in the interlinking layers, while traditional CNNs usually uses downsampling only.
+method_label: A two-stage pipeline is proposed for face parsing and both stages use iCNN.
+method_label: The first stage localizes facial parts in the size-reduced image and the second stage labels the pixels in the identified facial parts in the original image.
+result_label: On a benchmark dataset we have obtained better results than the state-of-the-art methods.
+
+===================================
+paper_id: 17578970; YEAR: 2015
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_cbow200 - title_tfidfcbow200 - title_tfidf
+TITLE: Convolutional Neural Network for Paraphrase Identification
+ABSTRACT: background_label: We present a new deep learning architecture Bi-CNN-MI for paraphrase identification (PI).
+method_label: Based on the insight that PI requires comparing two sentences on multiple levels of granularity, we learn multigranular sentence representations using convolutional neural network (CNN) and model interaction features at each level.
+method_label: These features are then the input to a logistic classifier for PI.
+method_label: All parameters of the model (for embeddings, convolution and classification) are directly optimized for PI.
+method_label: To address the lack of training data, we pretrain the network in a novel way using a language modeling task.
+result_label: Results on the MSRP corpus surpass that of previous NN competitors.
+
+===================================
+paper_id: 13895969; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: abs_cbow200
+TITLE: Neural Machine Translation in Linear Time
+ABSTRACT: background_label: We present a novel neural network for processing sequences.
+background_label: The ByteNet is a one-dimensional convolutional neural network that is composed of two parts, one to encode the source sequence and the other to decode the target sequence.
+background_label: The two network parts are connected by stacking the decoder on top of the encoder and preserving the temporal resolution of the sequences.
+method_label: To address the differing lengths of the source and the target, we introduce an efficient mechanism by which the decoder is dynamically unfolded over the representation of the encoder.
+method_label: The ByteNet uses dilation in the convolutional layers to increase its receptive field.
+method_label: The resulting network has two core properties: it runs in time that is linear in the length of the sequences and it sidesteps the need for excessive memorization.
+method_label: The ByteNet decoder attains state-of-the-art performance on character-level language modelling and outperforms the previous best results obtained with recurrent networks.
+result_label: The ByteNet also achieves state-of-the-art performance on character-to-character machine translation on the English-to-German WMT translation task, surpassing comparable neural translation models that are based on recurrent networks with attentional pooling and run in quadratic time.
+result_label: We find that the latent alignment structure contained in the representations reflects the expected alignment between the tokens.
+
+===================================
+paper_id: 36117198; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_tfidf
+TITLE: DeepMind_Commentary
+ABSTRACT: background_label: We agree with Lake and colleagues on their list of key ingredients for building humanlike intelligence, including the idea that model-based reasoning is essential.
+background_label: However, we favor an approach that centers on one additional ingredient: autonomy.
+objective_label: In particular, we aim toward agents that can both build and exploit their own internal models, with minimal human hand-engineering.
+method_label: We believe an approach centered on autonomous learning has the greatest chance of success as we scale toward real-world complexity, tackling domains for which ready-made formal models are not available.
+result_label: Here we survey several important examples of the progress that has been made toward building autonomous agents with humanlike abilities, and highlight some outstanding challenges.
+
+===================================
+paper_id: 10192330; YEAR: 2001
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 1; annotator2: 0
+sources: cited - title_cbow200 - title_tfidfcbow200 - specter - abs_tfidf
+TITLE: LSTM Recurrent Networks Learn Simple Context Free and Context Sensitive Languages
+ABSTRACT: background_label: Previous work on learning regular languages from exemplary training sequences showed that long short-term memory (LSTM) outperforms traditional recurrent neural networks (RNNs).
+result_label: We demonstrate LSTMs superior performance on context-free language benchmarks for RNNs, and show that it works even better than previous hardwired or highly specialized architectures.
+result_label: To the best of our knowledge, LSTM variants are also the first RNNs to learn a simple context-sensitive language, namely a(n)b(n)c(n).
+
+===================================
+paper_id: 11919498; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: abs_tfidf - specter
+TITLE: One Sentence One Model for Neural Machine Translation
+ABSTRACT: background_label: Neural machine translation (NMT) becomes a new state-of-the-art and achieves promising translation results using a simple encoder-decoder neural network.
+background_label: This neural network is trained once on the parallel corpus and the fixed network is used to translate all the test sentences.
+background_label: We argue that the general fixed network cannot best fit the specific test sentences.
+method_label: In this paper, we propose the dynamic NMT which learns a general network as usual, and then fine-tunes the network for each test sentence.
+method_label: The fine-tune work is done on a small set of the bilingual training data that is obtained through similarity search according to the test sentence.
+result_label: Extensive experiments demonstrate that this method can significantly improve the translation performance, especially when highly similar sentences are available.
+
+===================================
+paper_id: 201070056; YEAR: 2019
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: abs_tfidfcbow200
+TITLE: Anomaly Detection in Video Sequence with Appearance-Motion Correspondence
+ABSTRACT: background_label: Anomaly detection in surveillance videos is currently a challenge because of the diversity of possible events.
+background_label: We propose a deep convolutional neural network (CNN) that addresses this problem by learning a correspondence between common object appearances (e.g.
+background_label: pedestrian, background, tree, etc.)
+objective_label: and their associated motions.
+method_label: Our model is designed as a combination of a reconstruction network and an image translation model that share the same encoder.
+method_label: The former sub-network determines the most significant structures that appear in video frames and the latter one attempts to associate motion templates to such structures.
+method_label: The training stage is performed using only videos of normal events and the model is then capable to estimate frame-level scores for an unknown input.
+result_label: The experiments on 6 benchmark datasets demonstrate the competitive performance of the proposed approach with respect to state-of-the-art methods.
+
+===================================
+paper_id: 449252; YEAR: 2012
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: cited - title_cbow200 - title_tfidfcbow200 - specter - abs_tfidf
+TITLE: Learning to Map Sentences to Logical Form: Structured Classification with Probabilistic Categorial Grammars
+ABSTRACT: objective_label: This paper addresses the problem of mapping natural language sentences to lambda-calculus encodings of their meaning.
+method_label: We describe a learning algorithm that takes as input a training set of sentences labeled with expressions in the lambda calculus.
+method_label: The algorithm induces a grammar for the problem, along with a log-linear model that represents a distribution over syntactic and semantic analyses conditioned on the input sentence.
+result_label: We apply the method to the task of learning natural language interfaces to databases and show that the learned parsers outperform previous methods in two benchmark database domains.
+
+===================================
+paper_id: 19007990; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: abs_tfidfcbow200
+TITLE: Comparing Character-level Neural Language Models Using a Lexical Decision Task
+ABSTRACT: background_label: AbstractWhat is the information captured by neural network models of language?
+background_label: We address this question in the case of character-level recurrent neural language models.
+background_label: These models do not have explicit word representations; do they acquire implicit ones?
+method_label: We assess the lexical capacity of a network using the lexical decision task common in psycholinguistics: the system is required to decide whether or not a string of characters forms a word.
+method_label: We explore how accuracy on this task is affected by the architecture of the network, focusing on cell type (LSTM vs. SRN), depth and width.
+method_label: We also compare these architectural properties to a simple count of the parameters of the network.
+result_label: The overall number of parameters in the network turns out to be the most important predictor of accuracy; in particular, there is little evidence that deeper networks are beneficial for this task.
+
+===================================
+paper_id: 1547538; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: abs_cbow200
+TITLE: Fast-Slow Recurrent Neural Networks
+ABSTRACT: background_label: Processing sequential data of variable length is a major challenge in a wide range of applications, such as speech recognition, language modeling, generative image modeling and machine translation.
+objective_label: Here, we address this challenge by proposing a novel recurrent neural network (RNN) architecture, the Fast-Slow RNN (FS-RNN).
+method_label: The FS-RNN incorporates the strengths of both multiscale RNNs and deep transition RNNs as it processes sequential data on different timescales and learns complex transition functions from one time step to the next.
+result_label: We evaluate the FS-RNN on two character level language modeling data sets, Penn Treebank and Hutter Prize Wikipedia, where we improve state of the art results to $1.19$ and $1.25$ bits-per-character (BPC), respectively.
+result_label: In addition, an ensemble of two FS-RNNs achieves $1.20$ BPC on Hutter Prize Wikipedia outperforming the best known compression algorithm with respect to the BPC measure.
+result_label: We also present an empirical investigation of the learning and network dynamics of the FS-RNN, which explains the improved performance compared to other RNN architectures.
+result_label: Our approach is general as any kind of RNN cell is a possible building block for the FS-RNN architecture, and thus can be flexibly applied to different tasks.
+
+===================================
+paper_id: 1774259; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 0; annotator2: 1
+sources: title_cbow200 - abs_tfidfcbow200 - title_tfidfcbow200 - abs_cbow200 - specter
+TITLE: Bidirectional Recurrent Convolutional Neural Network for Relation Classification
+ABSTRACT: background_label: Relation classification is an important semantic processing task in the field of natural language processing (NLP).
+objective_label: In this paper, we present a novel model BRCNN to classify the relation of two entities in a sentence.
+method_label: Some state-of-the-art systems concentrate on modeling the shortest dependency path (SDP) between two entities leveraging convolutional or recurrent neural networks.
+method_label: We further explore how to make full use of the dependency relations information in the SDP, by combining convolutional neural networks and twochannel recurrent neural networks with long short term memory (LSTM) units.
+method_label: We propose a bidirectional architecture to learn relation representations with directional information along the SDP forwards and backwards at the same time, which benefits classifying the direction of relations.
+result_label: Experimental results show that our method outperforms the state-of-theart approaches on the SemEval-2010 Task 8 dataset.
+
+===================================
+paper_id: 8380197; YEAR: 2014
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_cbow200
+TITLE: MatConvNet - Convolutional Neural Networks for MATLAB
+ABSTRACT: background_label: MatConvNet is an implementation of Convolutional Neural Networks (CNNs) for MATLAB.
+background_label: The toolbox is designed with an emphasis on simplicity and flexibility.
+method_label: It exposes the building blocks of CNNs as easy-to-use MATLAB functions, providing routines for computing linear convolutions with filter banks, feature pooling, and many more.
+method_label: In this manner, MatConvNet allows fast prototyping of new CNN architectures; at the same time, it supports efficient computation on CPU and GPU allowing to train complex models on large datasets such as ImageNet ILSVRC.
+result_label: This document provides an overview of CNNs and how they are implemented in MatConvNet and gives the technical details of each computational block in the toolbox.
+
+===================================
+paper_id: 4497054; YEAR: 2015
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_tfidfcbow200 - title_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Convolutional Neural Network Architectures for Matching Natural Language Sentences
+ABSTRACT: background_label: Semantic matching is of central importance to many natural language tasks \cite{bordes2014semantic,RetrievalQA}.
+background_label: A successful matching algorithm needs to adequately model the internal structures of language objects and the interaction between them.
+objective_label: As a step toward this goal, we propose convolutional neural network models for matching two sentences, by adapting the convolutional strategy in vision and speech.
+method_label: The proposed models not only nicely represent the hierarchical structures of sentences with their layer-by-layer composition and pooling, but also capture the rich matching patterns at different levels.
+method_label: Our models are rather generic, requiring no prior knowledge on language, and can hence be applied to matching tasks of different nature and in different languages.
+result_label: The empirical study on a variety of matching tasks demonstrates the efficacy of the proposed model on a variety of matching tasks and its superiority to competitor models.
+
+===================================
+paper_id: 1011918; YEAR: 2015
+adju relevance: Irrelevant (0)
+difference: 2; annotator1: 2; annotator2: 0
+sources: abs_tfidf
+TITLE: Cross-convolutional-layer Pooling for Generic Visual Recognition
+ABSTRACT: background_label: Abstract-Recent studies have shown that a Deep Convolutional Neural Network (DCNN) pretrained on a large image dataset can be used as a universal image descriptor, and that doing so leads to impressive performance for a variety of image classification tasks.
+background_label: Most of these studies adopt activations from a single DCNN layer, usually the fullyconnected layer, as the image representation.
+method_label: In this paper, we proposed a novel way to extract image representations from two consecutive convolutional layers: one layer is utilized for local feature extraction and the other serves as guidance to pool the extracted features.
+method_label: By taking different viewpoints of convolutional layers, we further develop two schemes to realize this idea.
+method_label: The first one directly uses convolutional layers from a DCNN.
+method_label: The second one applies the pretrained CNN on densely sampled image regions and treats the fully-connected activations of each image region as convolutional feature activations.
+method_label: We then train another convolutional layer on top of that as the pooling-guidance convolutional layer.
+result_label: By applying our method to three popular visual classification tasks, we find our first scheme tends to perform better on the applications which need strong discrimination on subtle object patterns within small regions while the latter excels in the cases that require discrimination on category-level patterns.
+result_label: Overall, the proposed method achieves superior performance over existing ways of extracting image representations from a DCNN.
+
+===================================
+paper_id: 14700739; YEAR: 2011
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: cited - title_cbow200 - title_tfidfcbow200 - specter - abs_tfidf
+TITLE: A Context-theoretic Framework for Compositionality in Distributional Semantics
+ABSTRACT: background_label: Techniques in which words are represented as vectors have proved useful in many applications in computational linguistics, however there is currently no general semantic formalism for representing meaning in terms of vectors.
+objective_label: We present a framework for natural language semantics in which words, phrases and sentences are all represented as vectors, based on a theoretical analysis which assumes that meaning is determined by context.
+method_label: In the theoretical analysis, we define a corpus model as a mathematical abstraction of a text corpus.
+method_label: The meaning of a string of words is assumed to be a vector representing the contexts in which it occurs in the corpus model.
+method_label: Based on this assumption, we can show that the vector representations of words can be considered as elements of an algebra over a field.
+method_label: We note that in applications of vector spaces to representing meanings of words there is an underlying lattice structure; we interpret the partial ordering of the lattice as describing entailment between meanings.
+method_label: We also define the context-theoretic probability of a string, and, based on this and the lattice structure, a degree of entailment between strings.
+result_label: We relate the framework to existing methods of composing vector-based representations of meaning, and show that our approach generalises many of these, including vector addition, component-wise multiplication, and the tensor product.
+
+===================================
+paper_id: 20687969; YEAR: 2013
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: cited - title_cbow200 - title_tfidfcbow200 - specter - abs_tfidf
+TITLE: Category-Theoretic Quantitative Compositional Distributional Models of Natural Language Semantics
+ABSTRACT: background_label: This thesis is about the problem of compositionality in distributional semantics.
+background_label: Distributional semantics presupposes that the meanings of words are a function of their occurrences in textual contexts.
+background_label: It models words as distributions over these contexts and represents them as vectors in high dimensional spaces.
+background_label: The problem of compositionality for such models concerns itself with how to produce representations for larger units of text by composing the representations of smaller units of text.
+method_label: This thesis focuses on a particular approach to this compositionality problem, namely using the categorical framework developed by Coecke, Sadrzadeh, and Clark, which combines syntactic analysis formalisms with distributional semantic representations of meaning to produce syntactically motivated composition operations.
+background_label: This thesis shows how this approach can be theoretically extended and practically implemented to produce concrete compositional distributional models of natural language semantics.
+background_label: It furthermore demonstrates that such models can perform on par with, or better than, other competing approaches in the field of natural language processing.
+objective_label: There are three principal contributions to computational linguistics in this thesis.
+method_label: The first is to extend the DisCoCat framework on the syntactic front and semantic front, incorporating a number of syntactic analysis formalisms and providing learning procedures allowing for the generation of concrete compositional distributional models.
+method_label: The second contribution is to evaluate the models developed from the procedures presented here, showing that they outperform other compositional distributional models present in the literature.
+result_label: The third contribution is to show how using category theory to solve linguistic problems forms a sound basis for research, illustrated by examples of work on this topic, that also suggest directions for future research.
+
+===================================
+paper_id: 4377181; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_cbow200 - abs_tfidfcbow200 - abs_cbow200
+TITLE: DeepNAT: Deep Convolutional Neural Network for Segmenting Neuroanatomy
+ABSTRACT: background_label: We introduce DeepNAT, a 3D Deep convolutional neural network for the automatic segmentation of NeuroAnaTomy in T1-weighted magnetic resonance images.
+background_label: DeepNAT is an end-to-end learning-based approach to brain segmentation that jointly learns an abstract feature representation and a multi-class classification.
+method_label: We propose a 3D patch-based approach, where we do not only predict the center voxel of the patch but also neighbors, which is formulated as multi-task learning.
+method_label: To address a class imbalance problem, we arrange two networks hierarchically, where the first one separates foreground from background, and the second one identifies 25 brain structures on the foreground.
+method_label: Since patches lack spatial context, we augment them with coordinates.
+background_label: To this end, we introduce a novel intrinsic parameterization of the brain volume, formed by eigenfunctions of the Laplace-Beltrami operator.
+method_label: As network architecture, we use three convolutional layers with pooling, batch normalization, and non-linearities, followed by fully connected layers with dropout.
+method_label: The final segmentation is inferred from the probabilistic output of the network with a 3D fully connected conditional random field, which ensures label agreement between close voxels.
+method_label: The roughly 2.7 million parameters in the network are learned with stochastic gradient descent.
+result_label: Our results show that DeepNAT compares favorably to state-of-the-art methods.
+result_label: Finally, the purely learning-based method may have a high potential for the adaptation to young, old, or diseased brains by fine-tuning the pre-trained network with a small training sample on the target application, where the availability of larger datasets with manual annotations may boost the overall segmentation accuracy in the future.
+
+===================================
+paper_id: 7840452; YEAR: 1989
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: cited - title_cbow200 - title_tfidfcbow200 - specter - abs_tfidf
+TITLE: Connectionist Learning Procedures
+ABSTRACT: background_label: ABSTRACT
+objective_label: A major goal of research on networks of neuron-like processing units is to discover efficient learning procedures that allow these networks to construct complex internal representations of their environment.
+background_label: The learning procedures must be capable of modifying the connection strengths in such a way that internal units which are not part of the input or output come to represent important features of the task domain.
+method_label: Several interesting gradient-descent procedures have recently been discovered.
+method_label: Each connection computes the derivative, with respect to the connection strength, of a global measure of the error in the performance of the network.
+method_label: The strength is then adjusted in the direction that decreases the error.
+result_label: These relatively simple, gradient-descent learning procedures work well for small tasks and the new challenge is to find ways of improving their convergence rate and theirgeneralization abilities so that they can be applied to larger, more realistic tasks.
+
+===================================
+paper_id: 629094; YEAR: 2010
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: cited - title_cbow200 - title_tfidfcbow200 - specter - abs_tfidf
+TITLE: Word Representations: A Simple and General Method for Semi-Supervised Learning
+ABSTRACT: background_label: AbstractIf we take an existing supervised NLP system, a simple and general way to improve accuracy is to use unsupervised word representations as extra word features.
+method_label: We evaluate Brown clusters, Collobert and Weston (2008) We use near state-of-the-art supervised baselines, and find that each of the three word representations improves the accuracy of these baselines.
+result_label: We find further improvements by combining different word representations.
+other_label: You can download our word features, for off-the-shelf use in existing NLP systems, as well as our code, here: http://metaoptimize.
+other_label: com/projects/wordreprs/
+
+===================================
+paper_id: 119425731; YEAR: 1972
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_tfidf
+TITLE: Unzerlegbare Darstellungen I
+ABSTRACT: background_label: LetK be the structure got by forgetting the composition law of morphisms in a given category.
+background_label: A linear representation ofK is given by a map V associating with any morphism ϕ: a→e ofK a linear vector space map V(ϕ): V(a)→V(e).
+method_label: We classify thoseK having only finitely many isomorphy classes of indecomposable linear representations.
+other_label: This classification is related to an old paper by Yoshii [3].
+
+===================================
+paper_id: 14542261; YEAR: 1998
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: cited - title_cbow200 - title_tfidfcbow200 - specter - abs_tfidf
+TITLE: Gradient-Based Learning Applied to Document Recognition
+ABSTRACT: background_label: Multilayer neural networks trained with the back-propagation algorithm constitute the best example of a successful gradient based learning technique.
+background_label: Given an appropriate network architecture, gradient-based learning algorithms can be used to synthesize a complex decision surface that can classify high-dimensional patterns, such as handwritten characters, with minimal preprocessing.
+objective_label: This paper reviews various methods applied to handwritten character recognition and compares them on a standard handwritten digit recognition task.
+method_label: Convolutional neural networks, which are specifically designed to deal with the variability of 2D shapes, are shown to outperform all other techniques.
+method_label: Real-life document recognition systems are composed of multiple modules including field extraction, segmentation recognition, and language modeling.
+background_label: A new learning paradigm, called graph transformer networks (GTN), allows such multimodule systems to be trained globally using gradient-based methods so as to minimize an overall performance measure.
+method_label: Two systems for online handwriting recognition are described.
+result_label: Experiments demonstrate the advantage of global training, and the flexibility of graph transformer networks.
+method_label: A graph transformer network for reading a bank cheque is also described.
+method_label: It uses convolutional neural network character recognizers combined with global training techniques to provide record accuracy on business and personal cheques.
+result_label: It is deployed commercially and reads several million cheques per day.
+
+===================================
+paper_id: 10691183; YEAR: 2013
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 1; annotator2: 0
+sources: cited - title_cbow200 - title_tfidfcbow200 - specter - abs_tfidf
+TITLE: Recurrent Convolutional Neural Networks for Discourse Compositionality
+ABSTRACT: background_label: The compositionality of meaning extends beyond the single sentence.
+background_label: Just as words combine to form the meaning of sentences, so do sentences combine to form the meaning of paragraphs, dialogues and general discourse.
+method_label: We introduce both a sentence model and a discourse model corresponding to the two levels of compositionality.
+method_label: The sentence model adopts convolution as the central operation for composing semantic vectors and is based on a novel hierarchical convolutional neural network.
+method_label: The discourse model extends the sentence model and is based on a recurrent neural network that is conditioned in a novel way both on the current sentence and on the current speaker.
+method_label: The discourse model is able to capture both the sequentiality of sentences and the interaction between different speakers.
+result_label: Without feature engineering or pretraining and with simple greedy decoding, the discourse model coupled to the sentence model obtains state of the art performance on a dialogue act classification experiment.
+
+===================================
+paper_id: 3819513; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_tfidf
+TITLE: Understanding of a convolutional neural network
+ABSTRACT: background_label: The term Deep Learning or Deep Neural Network refers to Artificial Neural Networks (ANN) with multi layers.
+background_label: Over the last few decades, it has been considered to be one of the most powerful tools, and has become very popular in the literature as it is able to handle a huge amount of data.
+background_label: The interest in having deeper hidden layers has recently begun to surpass classical methods performance in different fields; especially in pattern recognition.
+method_label: One of the most popular deep neural networks is the Convolutional Neural Network (CNN).
+method_label: It take this name from mathematical linear operation between matrixes called convolution.
+result_label: CNN have multiple layers; including convolutional layer, non-linearity layer, pooling layer and fully-connected layer.
+background_label: The convolutional and fully-connected layers have parameters but pooling and non-linearity layers don't have parameters.
+background_label: The CNN has an excellent performance in machine learning problems.
+background_label: Specially the applications that deal with image data, such as largest image classification data set (Image Net), computer vision, and in natural language processing (NLP) and the results achieved were very amazing.
+objective_label: In this paper we will explain and define all the elements and important issues related to CNN, and how these elements work.
+method_label: In addition, we will also state the parameters that effect CNN efficiency.
+result_label: This paper assumes that the readers have adequate knowledge about both machine learning and artificial neural network.
+
+===================================
+paper_id: 15453764; YEAR: 2013
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_tfidfcbow200 - title_cbow200 - abs_cbow200
+TITLE: Recurrent Convolutional Neural Networks for Scene Parsing
+ABSTRACT: background_label: Scene parsing is a technique that consist on giving a label to all pixels in an image according to the class they belong to.
+background_label: To ensure a good visual coherence and a high class accuracy, it is essential for a scene parser to capture image long range dependencies.
+background_label: In a feed-forward architecture, this can be simply achieved by considering a sufficiently large input context patch, around each pixel to be labeled.
+method_label: We propose an approach consisting of a recurrent convolutional neural network which allows us to consider a large input context, while limiting the capacity of the model.
+method_label: Contrary to most standard approaches, our method does not rely on any segmentation methods, nor any task-specific features.
+method_label: The system is trained in an end-to-end manner over raw pixels, and models complex spatial dependencies with low inference cost.
+method_label: As the context size increases with the built-in recurrence, the system identifies and corrects its own errors.
+result_label: Our approach yields state-of-the-art performance on both the Stanford Background Dataset and the SIFT Flow Dataset, while remaining very fast at test time.
+
+===================================
+paper_id: 5917203; YEAR: 2010
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: cited - title_cbow200 - title_tfidfcbow200 - specter - abs_tfidf
+TITLE: Mathematical Foundations for a Compositional Distributional Model of Meaning
+ABSTRACT: background_label: We propose a mathematical framework for a unification of the distributional theory of meaning in terms of vector space models, and a compositional theory for grammatical types, for which we rely on the algebra of Pregroups, introduced by Lambek.
+objective_label: This mathematical framework enables us to compute the meaning of a well-typed sentence from the meanings of its constituents.
+method_label: Concretely, the type reductions of Pregroups are `lifted' to morphisms in a category, a procedure that transforms meanings of constituents into a meaning of the (well-typed) whole.
+method_label: Importantly, meanings of whole sentences live in a single space, independent of the grammatical structure of the sentence.
+method_label: Hence the inner-product can be used to compare meanings of arbitrary sentences, as it is for comparing the meanings of words in the distributional model.
+method_label: The mathematical structure we employ admits a purely diagrammatic calculus which exposes how the information flows between the words in a sentence in order to make up the meaning of the whole sentence.
+result_label: A variation of our `categorical model' which involves constraining the scalars of the vector spaces to the semiring of Booleans results in a Montague-style Boolean-valued semantics.
+
+===================================
+paper_id: 19172224; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 0; annotator2: 1
+sources: specter - title_cbow200 - title_tfidfcbow200 - abs_cbow200
+TITLE: Recurrent Neural Network-Based Sentence Encoder with Gated Attention for Natural Language Inference
+ABSTRACT: background_label: The RepEval 2017 Shared Task aims to evaluate natural language understanding models for sentence representation, in which a sentence is represented as a fixed-length vector with neural networks and the quality of the representation is tested with a natural language inference task.
+method_label: This paper describes our system (alpha) that is ranked among the top in the Shared Task, on both the in-domain test set (obtaining a 74.9% accuracy) and on the cross-domain test set (also attaining a 74.9% accuracy), demonstrating that the model generalizes well to the cross-domain data.
+method_label: Our model is equipped with intra-sentence gated-attention composition which helps achieve a better performance.
+method_label: In addition to submitting our model to the Shared Task, we have also tested it on the Stanford Natural Language Inference (SNLI) dataset.
+result_label: We obtain an accuracy of 85.5%, which is the best reported result on SNLI when cross-sentence attention is not allowed, the same condition enforced in RepEval 2017.
+
+===================================
+paper_id: 326903; YEAR: 2011
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 0; annotator2: 1
+sources: cited - title_cbow200 - title_tfidfcbow200 - specter - abs_tfidf
+TITLE: Experimental Support for a Categorical Compositional Distributional Model of Meaning
+ABSTRACT: background_label: Modelling compositional meaning for sentences using empirical distributional methods has been a challenge for computational linguists.
+background_label: We implement the abstract categorical model of Coecke et al.
+method_label: (arXiv:1003.4394v1 [cs.CL]) using data from the BNC and evaluate it.
+method_label: The implementation is based on unsupervised learning of matrices for relational words and applying them to the vectors of their arguments.
+method_label: The evaluation is based on the word disambiguation task developed by Mitchell and Lapata (2008) for intransitive sentences, and on a similar new experiment designed for transitive sentences.
+result_label: Our model matches the results of its competitors in the first experiment, and betters them in the second.
+result_label: The general improvement in results with increase in syntactic complexity showcases the compositional power of our model.
+
+===================================
+paper_id: 8755918; YEAR: 2015
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: specter - title_cbow200
+TITLE: A Re-ranking Model for Dependency Parser with Recursive Convolutional Neural Network
+ABSTRACT: objective_label: In this work, we address the problem to model all the nodes (words or phrases) in a dependency tree with the dense representations.
+objective_label: We propose a recursive convolutional neural network (RCNN) architecture to capture syntactic and compositional-semantic representations of phrases and words in a dependency tree.
+method_label: Different with the original recursive neural network, we introduce the convolution and pooling layers, which can model a variety of compositions by the feature maps and choose the most informative compositions by the pooling layers.
+method_label: Based on RCNN, we use a discriminative model to re-rank a $k$-best list of candidate dependency parsing trees.
+result_label: The experiments show that RCNN is very effective to improve the state-of-the-art dependency parsing on both English and Chinese datasets.
+
+===================================
+paper_id: 6708387; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: abs_cbow200 - abs_tfidfcbow200 - abs_tfidf
+TITLE: Handwritten digit string recognition by combination of residual network and RNN-CTC
+ABSTRACT: background_label: Recurrent neural network (RNN) and connectionist temporal classification (CTC) have showed successes in many sequence labeling tasks with the strong ability of dealing with the problems where the alignment between the inputs and the target labels is unknown.
+background_label: Residual network is a new structure of convolutional neural network and works well in various computer vision tasks.
+objective_label: In this paper, we take advantage of the architectures mentioned above to create a new network for handwritten digit string recognition.
+method_label: First we design a residual network to extract features from input images, then we employ a RNN to model the contextual information within feature sequences and predict recognition results.
+method_label: At the top of this network, a standard CTC is applied to calculate the loss and yield the final results.
+method_label: These three parts compose an end-to-end trainable network.
+result_label: The proposed new architecture achieves the highest performances on ORAND-CAR-A and ORAND-CAR-B with recognition rates 89.75% and 91.14%, respectively.
+result_label: In addition, the experiments on a generated captcha dataset which has much longer string length show the potential of the proposed network to handle long strings.
+
+===================================
+paper_id: 6262432; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 0; annotator2: 1
+sources: title_cbow200 - title_tfidfcbow200 - specter - abs_tfidf
+TITLE: Rationale-Augmented Convolutional Neural Networks for Text Classification
+ABSTRACT: background_label: We present a new Convolutional Neural Network (CNN) model for text classification that jointly exploits labels on documents and their component sentences.
+background_label: Specifically, we consider scenarios in which annotators explicitly mark sentences (or snippets) that support their overall document categorization, i.e., they provide rationales.
+method_label: Our model exploits such supervision via a hierarchical approach in which each document is represented by a linear combination of the vector representations of its component sentences.
+method_label: We propose a sentence-level convolutional model that estimates the probability that a given sentence is a rationale, and we then scale the contribution of each sentence to the aggregate document representation in proportion to these estimates.
+method_label: Experiments on five classification datasets that have document labels and associated rationales demonstrate that our approach consistently outperforms strong baselines.
+result_label: Moreover, our model naturally provides explanations for its predictions.
+
+===================================
+paper_id: 7413367; YEAR: 2015
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 0; annotator2: 1
+sources: title_tfidfcbow200 - title_cbow200 - specter
+TITLE: Multi-Perspective Sentence Similarity Modeling with Convolutional Neural Networks
+ABSTRACT: background_label: Modeling sentence similarity is complicated by the ambiguity and variability of linguistic expression.
+objective_label: To cope with these challenges, we propose a model for comparing sentences that uses a multiplicity of perspectives.
+method_label: We first model each sentence using a convolutional neural network that extracts features at multiple levels of granularity and uses multiple types of pooling.
+method_label: We then compare our sentence representations at several granularities using multiple similarity metrics.
+method_label: We apply our model to three tasks, including the Microsoft Research paraphrase identification task and two SemEval semantic textual similarity tasks.
+result_label: We obtain strong performance on all tasks, rivaling or exceeding the state of the art without using external resources such as WordNet or parsers.
+
+===================================
+paper_id: 14832074; YEAR: 2012
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: cited - title_cbow200 - title_tfidfcbow200 - specter - abs_tfidf
+TITLE: Improving neural networks by preventing co-adaptation of feature detectors
+ABSTRACT: background_label: When a large feedforward neural network is trained on a small training set, it typically performs poorly on held-out test data.
+background_label: This"overfitting"is greatly reduced by randomly omitting half of the feature detectors on each training case.
+background_label: This prevents complex co-adaptations in which a feature detector is only helpful in the context of several other specific feature detectors.
+method_label: Instead, each neuron learns to detect a feature that is generally helpful for producing the correct answer given the combinatorially large variety of internal contexts in which it must operate.
+result_label: Random"dropout"gives big improvements on many benchmark tasks and sets new records for speech and object recognition.
+
+===================================
+paper_id: 455112; YEAR: 2013
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: cited - title_cbow200 - title_tfidfcbow200 - specter - abs_tfidf
+TITLE: Domain and Function: A Dual-Space Model of Semantic Relations and Compositions
+ABSTRACT: background_label: Given appropriate representations of the semantic relations between carpenter and wood and between mason and stone (for example, vectors in a vector space model), a suitable algorithm should be able to recognize that these relations are highly similar (carpenter is to wood as mason is to stone; the relations are analogous).
+background_label: Likewise, with representations of dog, house, and kennel, an algorithm should be able to recognize that the semantic composition of dog and house, dog house, is highly similar to kennel (dog house and kennel are synonymous).
+background_label: It seems that these two tasks, recognizing relations and compositions, are closely connected.
+background_label: However, up to now, the best models for relations are significantly different from the best models for compositions.
+method_label: In this paper, we introduce a dual-space model that unifies these two tasks.
+method_label: This model matches the performance of the best previous models for relations and compositions.
+method_label: The dual-space model consists of a space for measuring domain similarity and a space for measuring function similarity.
+background_label: Carpenter and wood share the same domain, the domain of carpentry.
+background_label: Mason and stone share the same domain, the domain of masonry.
+background_label: Carpenter and mason share the same function, the function of artisans.
+background_label: Wood and stone share the same function, the function of materials.
+background_label: In the composition dog house, kennel has some domain overlap with both dog and house (the domains of pets and buildings).
+method_label: The function of kennel is similar to the function of house (the function of shelters).
+result_label: By combining domain and function similarities in various ways, we can model relations, compositions, and other aspects of semantics.
+
+===================================
+paper_id: 14414681; YEAR: 2013
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 0; annotator2: 1
+sources: cited - title_cbow200 - title_tfidfcbow200 - specter - abs_tfidf
+TITLE: Prior Disambiguation of Word Tensors for Constructing Sentence Vectors
+ABSTRACT: background_label: AbstractRecent work has shown that compositionaldistributional models using element-wise operations on contextual word vectors benefit from the introduction of a prior disambiguation step.
+objective_label: The purpose of this paper is to generalise these ideas to tensor-based models, where relational words such as verbs and adjectives are represented by linear maps (higher order tensors) acting on a number of arguments (vectors).
+method_label: We propose disambiguation algorithms for a number of tensor-based models, which we then test on a variety of tasks.
+result_label: The results show that disambiguation can provide better compositional representation even for the case of tensor-based models.
+result_label: Furthermore, we confirm previous findings regarding the positive effect of disambiguation on vector mixture models, and we compare the effectiveness of the two approaches.
+
+===================================
+paper_id: 1796782; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_tfidfcbow200 - title_cbow200
+TITLE: Scene text script identification with Convolutional Recurrent Neural Networks
+ABSTRACT: background_label: Script identification for scene text images is a challenging task.
+background_label: This paper describes a novel deep neural network structure that efficiently identifies scripts of images.
+method_label: In our design, we exploit two important factors, namely the image representation, and the spatial dependencies within text lines.
+method_label: To this end, we bring together a Convolutional Neural Network (CNN) and a Recurrent Neural Network (RNN) into one end-to-end trainable network.
+method_label: The former generates rich image representations, while the latter effectively analyzes long-term spatial dependencies.
+method_label: Besides, on top of the structure, we adopt an average pooling structure in order to deal with input images of arbitrary sizes.
+result_label: Experiments on several datasets, including SIW-13 and CVSI2015, demonstrate that our approach achieves superior performance, compared with previous approaches.
+
+===================================
+paper_id: 8220996; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: abs_cbow200 - abs_tfidfcbow200
+TITLE: Reading Scene Text with Attention Convolutional Sequence Modeling
+ABSTRACT: background_label: Reading text in the wild is a challenging task in the field of computer vision.
+background_label: Existing approaches mainly adopted Connectionist Temporal Classification (CTC) or Attention models based on Recurrent Neural Network (RNN), which is computationally expensive and hard to train.
+objective_label: In this paper, we present an end-to-end Attention Convolutional Network for scene text recognition.
+method_label: Firstly, instead of RNN, we adopt the stacked convolutional layers to effectively capture the contextual dependencies of the input sequence, which is characterized by lower computational complexity and easier parallel computation.
+method_label: Compared to the chain structure of recurrent networks, the Convolutional Neural Network (CNN) provides a natural way to capture long-term dependencies between elements, which is 9 times faster than Bidirectional Long Short-Term Memory (BLSTM).
+method_label: Furthermore, in order to enhance the representation of foreground text and suppress the background noise, we incorporate the residual attention modules into a small densely connected network to improve the discriminability of CNN features.
+result_label: We validate the performance of our approach on the standard benchmarks, including the Street View Text, IIIT5K and ICDAR datasets.
+result_label: As a result, state-of-the-art or highly-competitive performance and efficiency show the superiority of the proposed approach.
+
+===================================
+paper_id: 971490; YEAR: 2015
+adju relevance: Irrelevant (0)
+difference: 3; annotator1: 3; annotator2: 0
+sources: abs_tfidf
+TITLE: Cross-convolutional-layer Pooling for Image Recognition
+ABSTRACT: background_label: Recent studies have shown that a Deep Convolutional Neural Network (DCNN) pretrained on a large image dataset can be used as a universal image descriptor, and that doing so leads to impressive performance for a variety of image classification tasks.
+background_label: Most of these studies adopt activations from a single DCNN layer, usually the fully-connected layer, as the image representation.
+method_label: In this paper, we proposed a novel way to extract image representations from two consecutive convolutional layers: one layer is utilized for local feature extraction and the other serves as guidance to pool the extracted features.
+method_label: By taking different viewpoints of convolutional layers, we further develop two schemes to realize this idea.
+method_label: The first one directly uses convolutional layers from a DCNN.
+method_label: The second one applies the pretrained CNN on densely sampled image regions and treats the fully-connected activations of each image region as convolutional feature activations.
+method_label: We then train another convolutional layer on top of that as the pooling-guidance convolutional layer.
+result_label: By applying our method to three popular visual classification tasks, we find our first scheme tends to perform better on the applications which need strong discrimination on subtle object patterns within small regions while the latter excels in the cases that require discrimination on category-level patterns.
+result_label: Overall, the proposed method achieves superior performance over existing ways of extracting image representations from a DCNN.
+
+===================================
+paper_id: 118988729; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_tfidf
+TITLE: A Microphotonic Astrocomb
+ABSTRACT: background_label: One of the essential prerequisites for detection of Earth-like extra-solar planets or direct measurements of the cosmological expansion is the accurate and precise wavelength calibration of astronomical spectrometers.
+background_label: It has already been realized that the large number of exactly known optical frequencies provided by laser frequency combs ('astrocombs') can significantly surpass conventionally used hollow-cathode lamps as calibration light sources.
+background_label: A remaining challenge, however, is generation of frequency combs with lines resolvable by astronomical spectrometers.
+method_label: Here we demonstrate an astrocomb generated via soliton formation in an on-chip microphotonic resonator ('microresonator') with a resolvable line spacing of 23.7 GHz.
+method_label: This comb is providing wavelength calibration on the 10 cm/s radial velocity level on the GIANO-B high-resolution near-infrared spectrometer.
+result_label: As such, microresonator frequency combs have the potential of providing broadband wavelength calibration for the next-generation of astronomical instruments in planet-hunting and cosmological research.
+
+===================================
+paper_id: 11713683; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: A Convolution BiLSTM Neural Network Model for Chinese Event Extraction
+ABSTRACT: other_label: Abstract.
+background_label: Chinese event extraction is a challenging task in information extraction.
+background_label: Previous approaches highly depend on sophisticated feature engineering and complicated natural language processing (NLP) tools.
+method_label: In this paper, we first come up with the language specific issue in Chinese event extraction, and then propose a convolution bidirectional LSTM neural network that combines LSTM and CNN to capture both sentence-level and lexical information without any hand-craft features.
+result_label: Experiments on ACE 2005 dataset show that our approaches can achieve competitive performances in both trigger labeling and argument role labeling.
+
+===================================
+paper_id: 12308254; YEAR: 2015
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: DAG-Recurrent Neural Networks For Scene Labeling
+ABSTRACT: background_label: In image labeling, local representations for image units are usually generated from their surrounding image patches, thus long-range contextual information is not effectively encoded.
+objective_label: In this paper, we introduce recurrent neural networks (RNNs) to address this issue.
+method_label: Specifically, directed acyclic graph RNNs (DAG-RNNs) are proposed to process DAG-structured images, which enables the network to model long-range semantic dependencies among image units.
+method_label: Our DAG-RNNs are capable of tremendously enhancing the discriminative power of local representations, which significantly benefits the local classification.
+method_label: Meanwhile, we propose a novel class weighting function that attends to rare classes, which phenomenally boosts the recognition accuracy for non-frequent classes.
+result_label: Integrating with convolution and deconvolution layers, our DAG-RNNs achieve new state-of-the-art results on the challenging SiftFlow, CamVid and Barcelona benchmarks.
+

@@ -1,0 +1,1476 @@
+======================================================================
+paper_id: 2360770; YEAR: 2014
+TITLE: Your click decides your fate: Inferring Information Processing and Attrition Behavior from MOOC Video Clickstream Interactions
+ABSTRACT: background_label: In this work, we explore video lecture interaction in Massive Open Online Courses (MOOCs), which is central to student learning experience on these educational platforms.
+method_label: As a research contribution, we operationalize video lecture clickstreams of students into cognitively plausible higher level behaviors, and construct a quantitative information processing index, which can aid instructors to better understand MOOC hurdles and reason about unsatisfactory learning outcomes.
+result_label: Our results illustrate how such a metric inspired by cognitive psychology can help answer critical questions regarding students' engagement, their future click interactions and participation trajectories that lead to in-video&course dropouts.
+result_label: Implications for research and practice are discussed
+===================================
+paper_id: 10177349; YEAR: 2014
+adju relevance: Identical (+3)
+difference: 3; annotator2: 3; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Capturing"attrition intensifying"structural traits from didactic interaction sequences of MOOC learners
+ABSTRACT: objective_label: This work is an attempt to discover hidden structural configurations in learning activity sequences of students in Massive Open Online Courses (MOOCs).
+objective_label: Leveraging combined representations of video clickstream interactions and forum activities, we seek to fundamentally understand traits that are predictive of decreasing engagement over time.
+method_label: Grounded in the interdisciplinary field of network science, we follow a graph based approach to successfully extract indicators of active and passive MOOC participation that reflect persistence and regularity in the overall interaction footprint.
+method_label: Using these rich educational semantics, we focus on the problem of predicting student attrition, one of the major highlights of MOOC literature in the recent years.
+result_label: Our results indicate an improvement over a baseline ngram based approach in capturing"attrition intensifying"features from the learning activities that MOOC learners engage in.
+result_label: Implications for some compelling future research are discussed.
+
+===================================
+paper_id: 1662224; YEAR: 2016
+adju relevance: Identical (+3)
+difference: 2; annotator2: 3; annotator3: 1
+sources: abs_tfidf - abs_tfidfcbow200 - specter - title_tfidf
+TITLE: Combining click-stream data with NLP tools to better understand MOOC completion
+ABSTRACT: background_label: Completion rates for massive open online classes (MOOCs) are notoriously low.
+background_label: Identifying student patterns related to course completion may help to develop interventions that can improve retention and learning outcomes in MOOCs.
+background_label: Previous research predicting MOOC completion has focused on click-stream data, student demographics, and natural language processing (NLP) analyses.
+background_label: However, most of these analyses have not taken full advantage of the multiple types of data available.
+objective_label: This study combines click-stream data and NLP approaches to examine if students' on-line activity and the language they produce in the online discussion forum is predictive of successful class completion.
+method_label: We study this analysis in the context of a subsample of 320 students who completed at least one graded assignment and produced at least 50 words in discussion forums, in a MOOC on educational data mining.
+result_label: The findings indicate that a mix of click-stream data and NLP indices can predict with substantial accuracy (78%) whether students complete the MOOC.
+result_label: This predictive power suggests that student interaction data and language data within a MOOC can help us both to understand student retention in MOOCs and to develop automated signals of student success.
+
+===================================
+paper_id: 55702690; YEAR: 2018
+adju relevance: Identical (+3)
+difference: 2; annotator2: 1; annotator3: 3
+sources: specter - abs_tfidfcbow200 - abs_tfidf
+TITLE: Using Detailed Access Trajectories for Learning Behavior Analysis
+ABSTRACT: background_label: Student learning activity in MOOCs can be viewed from multiple perspectives.
+objective_label: We present a new organization of MOOC learner activity data at a resolution that is in between the fine granularity of the clickstream and coarse organizations that count activities, aggregate students or use long duration time units.
+background_label: A detailed access trajectory (DAT) consists of binary values and is two dimensional with one axis that is a time series, e.g.
+method_label: days and the other that is a chronologically ordered list of a MOOC component type's instances, e.g.
+method_label: videos in instructional order.
+method_label: Most popular MOOC platforms generate data that can be organized as detailed access trajectories (DATs).We explore the value of DATs by conducting four empirical mini-studies.
+result_label: Our studies suggest DATs contain rich information about students' learning behaviors and facilitate MOOC learning analyses.
+
+===================================
+paper_id: 12045674; YEAR: 2014
+adju relevance: Identical (+3)
+difference: 0; annotator2: 3; annotator3: 3
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: "Your click decides your fate": Leveraging clickstream patterns from MOOC videos to infer students' information processing&attrition behavior
+ABSTRACT: background_label: With an expansive and ubiquitously available gold mine of educational data, Massive Open Online courses (MOOCs) have become the an important foci of learning analytics research.
+background_label: The hope is that this new surge of development will bring the vision of equitable access to lifelong learning opportunities within practical reach.
+background_label: MOOCs offer many valuable learning experiences to students, from video lectures, readings, assignments and exams, to opportunities to connect and collaborate with others through threaded discussion forums and other Web 2.0 technologies.
+background_label: Nevertheless, despite all this potential, MOOCs have so far failed to produce evidence that this potential is being realized in the current instantiation of MOOCs.
+objective_label: In this work, we primarily explore video lecture interaction in Massive Open Online Courses (MOOCs), which is central to student learning experience on these educational platforms.
+method_label: As a research contribution, we operationalize video lecture clickstreams of students into behavioral actions, and construct a quantitative information processing index, that can aid instructors to better understand MOOC hurdles and reason about unsatisfactory learning outcomes.
+result_label: Our results illuminate the effectiveness of developing such a metric inspired by cognitive psychology, towards answering critical questions regarding students' engagement, their future click interactions and participation trajectories that lead to in-video dropouts.
+result_label: We leverage recurring click behaviors to differentiate distinct video watching profiles for students in MOOCs.
+result_label: Additionally, we discuss about prediction of complete course dropouts, incorporating diverse perspectives from statistics and machine learning, to offer a more nuanced view into how the second generation of MOOCs be benefited, if course instructors were to better comprehend factors that lead to student attrition.
+
+===================================
+paper_id: 16508969; YEAR: 2015
+adju relevance: Identical (+3)
+difference: 1; annotator2: 2; annotator3: 3
+sources: specter - abs_tfidf - title_tfidf
+TITLE: MOOC performance prediction via clickstream data and social learning networks
+ABSTRACT: objective_label: We study student performance prediction in Massive Open Online Courses (MOOCs), where the objective is to predict whether a user will be Correct on First Attempt (CFA) in answering a question.
+method_label: In doing so, we develop novel techniques that leverage behavioral data collected by MOOC platforms.
+method_label: Using video-watching clickstream data from one of our MOOCs, we first extract summary quantities (e.g., fraction played, number of pauses) for each user-video pair, and show how certain intervals/sets of values for these behaviors quantify that a pair is more likely to be CFA or not for the corresponding question.
+method_label: Motivated by these findings, our methods are designed to determine suitable intervals from training data and to use the corresponding success estimates as learning features in prediction algorithms.
+method_label: Tested against a large set of empirical data, we find that our schemes outperform standard algorithms (i.e., without behavioral data) for all datasets and metrics tested.
+result_label: Moreover, the improvement is particularly pronounced when considering the first few course weeks, demonstrating the “early detection” capability of such clickstream data.
+result_label: We also discuss how CFA prediction can be used to depict graphs of the Social Learning Network (SLN) of students, which can help instructors manage courses more effectively.
+
+===================================
+paper_id: 15433651; YEAR: 2017
+adju relevance: Identical (+3)
+difference: 1; annotator2: 3; annotator3: 2
+sources: specter - abs_cbow200 - abs_tfidf - title_tfidf
+TITLE: Detecting changes in student behavior from clickstream data
+ABSTRACT: background_label: Student clickstream data can provide valuable insights about student activities in an online learning environment and how these activities inform their learning outcomes.
+background_label: However, given the noisy and complex nature of this data, an on-going challenge involves devising statistical techniques that capture clear and meaningful aspects of students' click patterns.
+method_label: In this paper, we utilize statistical change detection techniques to investigate students' online behaviors.
+method_label: Using clickstream data from two large university courses, one face-to-face and one online, we illustrate how this methodology can be used to detect when students change their previewing and reviewing behavior, and how these changes can be related to other aspects of students' activity and performance.
+
+===================================
+paper_id: 52197943; YEAR: 2018
+adju relevance: Similar (+2)
+difference: 2; annotator2: 2; annotator3: 0
+sources: abs_tfidf - specter - title_tfidf
+TITLE: Time Series Analysis of Clickstream Logs from Online Courses
+ABSTRACT: background_label: Due to the rapidly rising popularity of Massive Open Online Courses (MOOCs), there is a growing demand for scalable automated support technologies for student learning.
+background_label: Transferring traditional educational resources to online contexts has become an increasingly relevant problem in recent years.
+background_label: For learning science theories to be applicable, educators need a way to identify learning behaviors of students which contribute to learning outcomes, and use them to design and provide personalized intervention support to the students.
+background_label: Click logs are an important source of information about students' learning behaviors, however current literature has limited understanding of how these behaviors are represented within click logs.
+method_label: In this project, we have exploited the temporal dynamics of student behaviors both to do behavior modeling via graphical modeling approaches and to do performance prediction via recurrent neural network approaches in order to first identify student behaviors and then use them to predict their final outcome in the course.
+result_label: Our experiments showed that the long short-term memory (LSTM) model is capable of learning long-term dependencies in a sequence and outperforms other strong baselines in the prediction task.
+result_label: Further, these sequential approaches to click log analysis can be successfully imported to other courses when used with results obtained from graphical model behavior modeling.
+
+===================================
+paper_id: 10875262; YEAR: 2014
+adju relevance: Similar (+2)
+difference: 2; annotator2: 2; annotator3: 0
+sources: specter
+TITLE: Predicting student success using fine grain clicker data
+ABSTRACT: background_label: Recent research suggests that the first weeks of a CS1 course have a strong influence on end-of-course student performance.
+objective_label: The present work aims to refine the understanding of this phenomenon by using in-class clicker questions as a source of student performance.
+method_label: Clicker questions generate per-lecture and per-question data with which to assess student understanding.
+method_label: This work demonstrates that clicker question performance early in the term predicts student outcomes at the end of the term.
+method_label: The predictive nature of these questions applies to code-writing questions, multiple choice questions, and the final exam as a whole.
+result_label: The most predictive clicker questions are identified and the relationships between these questions and final exam performance are examined.
+
+===================================
+paper_id: 17298850; YEAR: 2014
+adju relevance: Similar (+2)
+difference: 2; annotator2: 2; annotator3: 0
+sources: specter
+TITLE: Shared Task on Prediction of Dropout Over Time in Massively Open Online Courses
+ABSTRACT: background_label: The shared task on Prediction of Dropout Over Time in MOOCs involves analysis of data from 6 MOOCs offered through Coursera.
+method_label: Data from one MOOC with approximately 30K students was distributed as training data and consisted of discussion forum data (in SQL) and clickstream data (in JSON format).
+method_label: The prediction task was Predicting Attrition Over Time.
+method_label: Based on behavioral data from a week’s worth of activity in a MOOC for a student, predict whether the student will cease to actively participate after that week.
+method_label: This paper describes the task.
+result_label: A full write up of the results is published separately (Rose & Siemens, 2014).
+
+===================================
+paper_id: 52154449; YEAR: 2018
+adju relevance: Similar (+2)
+difference: 2; annotator2: 2; annotator3: 0
+sources: title_tfidfcbow200 - title_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Your Actions or Your Associates? Predicting Certification and Dropout in MOOCs with Behavioral and Social Features
+ABSTRACT: background_label: The high level of attrition and low rate of certification in Massive Open Online Courses (MOOCs) has prompted a great deal of research.
+background_label: Prior researchers have focused on predicting dropout based upon behavioral features such as student confusion, click-stream patterns, and social interactions.
+background_label: However, few studies have focused on combining student logs with forum data.
+method_label: In this work, we use data from two different offerings of the same MOOC.
+method_label: We conduct a survival analysis to identify likely dropouts.
+method_label: We then examine two classes of features, social and behavioral, and apply a combination of modeling and feature-selection methods to identify the most relevant features to predict both dropout and certification.
+method_label: We examine the utility of three different model types and we consider the impact of different definitions of dropout on the predictors.
+result_label: Finally, we assess the reliability of the models over time by evaluating whether or not models from week 1 can predict dropout in week 2, and so on.
+result_label: The outcomes of this study will help instructors identify students likely to fail or dropout as soon as the first two weeks and provide them with more support.
+
+===================================
+paper_id: 16049672; YEAR: 2014
+adju relevance: Similar (+2)
+difference: 0; annotator2: 2; annotator3: 2
+sources: specter
+TITLE: Predicting Attrition Along the Way: The UIUC Model
+ABSTRACT: background_label: Discussion forum and clickstream are two primary data streams that enable mining of student behavior in a massively open online course.
+background_label: A student’s participation in the discussion forum gives direct access to the opinions and concerns of the student.
+background_label: However, the low participation (5-10%) in discussion forums, prompts the modeling of user behavior based on clickstream information.
+method_label: Here we study a predictive model for learner attrition on a given week using information mined just from the clickstream.
+result_label: Features that are related to the quiz attempt/submission and those that capture interaction with various course components are found to be reasonable predictors of attrition in a given week.
+
+===================================
+paper_id: 16093477; YEAR: 2015
+adju relevance: Similar (+2)
+difference: 1; annotator2: 2; annotator3: 1
+sources: specter
+TITLE: Mining MOOC Clickstreams: On the Relationship Between Learner Behavior and Performance
+ABSTRACT: background_label: We study student behavior and performance in two Massive Open Online Courses (MOOCs).
+background_label: In doing so, we present two frameworks by which video-watching clickstreams can be represented: one based on the sequence of events created, and another on the sequence of positions visited.
+method_label: With the event-based framework, we extract recurring subsequences of student behavior, which contain fundamental characteris- tics such as reflecting (i.e., repeatedly playing and pausing) and revising (i.e., plays and skip backs).
+result_label: We find that some of these behaviors are significantly associated with whether a user will be Correct on First Attempt (CFA) or not in answering quiz questions.
+method_label: With the position-based framework, we then devise models for performance.
+result_label: In evaluating these through CFA prediction, we find that three of them can substantially improve prediction quality in terms of accuracy and F1, which underlines the ability to relate behavior to performance.
+result_label: Since our prediction considers videos individually, these benefits also suggest that our models are useful in situations where there is limited training data, e.g., for early detection or in short courses.
+
+===================================
+paper_id: 4350847; YEAR: 2016
+adju relevance: Similar (+2)
+difference: 1; annotator2: 2; annotator3: 1
+sources: specter - abs_tfidfcbow200 - abs_tfidf
+TITLE: Modeling and Predicting Learning Behavior in MOOCs
+ABSTRACT: background_label: Massive Open Online Courses (MOOCs), which collect complete records of all student interactions in an online learning environment, offer us an unprecedented opportunity to analyze students' learning behavior at a very fine granularity than ever before.
+objective_label: Using dataset from xuetangX, one of the largest MOOCs from China, we analyze key factors that influence students' engagement in MOOCs and study to what extent we could infer a student's learning effectiveness.
+method_label: We observe significant behavioral heterogeneity in students' course selection as well as their learning patterns.
+method_label: For example, students who exert higher effort and ask more questions are not necessarily more likely to get certificates.
+method_label: Additionally, the probability that a student obtains the course certificate increases dramatically (3 x higher) when she has one or more "certificate friends".
+method_label: Moreover, we develop a unified model to predict students' learning effectiveness, by incorporating user demographics, forum activities, and learning behavior.
+result_label: We demonstrate that the proposed model significantly outperforms (+2.03-9.03% by F1-score) several alternative methods in predicting students' performance on assignments and course certificates.
+result_label: The model is flexible and can be applied to various settings.
+result_label: For example, we are deploying a new feature into xuetangX to help teachers dynamically optimize the teaching process.
+
+===================================
+paper_id: 22770103; YEAR: 2017
+adju relevance: Similar (+2)
+difference: 2; annotator2: 0; annotator3: 2
+sources: abs_tfidf - specter
+TITLE: Behavior-Based Grade Prediction for MOOCs Via Time Series Neural Networks
+ABSTRACT: background_label: We present a novel method for predicting the evolution of a student's grade in massive open online courses (MOOCs).
+background_label: Performance prediction is particularly challenging in MOOC settings due to per-student assessment response sparsity and the need for personalized models.
+method_label: Our method overcomes these challenges by incorporating another, richer form of data collected from each student—lecture video-watching clickstreams—into the machine learning feature set, and using that to train a time series neural network that learns from both prior performance and clickstream data.
+result_label: Through evaluation on two MOOC datasets, we find that our algorithm outperforms a baseline of average past performance by more than 60% on average, and a lasso regression baseline by more than 15%.
+result_label: Moreover, the gains are higher when the student has answered fewer questions, underscoring their ability to provide instructors with early detection of struggling and/or advanced students.
+result_label: We also show that despite these gains, when taken alone, none of the behavioral features are particularly correlated with performance, emphasizing the need to consider their combined effect and nonlinear predictors.
+result_label: Finally, we discuss how course instructors can use these predictive learning analytics to stage student interventions.
+
+===================================
+paper_id: 15329946; YEAR: 2015
+adju relevance: Similar (+2)
+difference: 1; annotator2: 2; annotator3: 1
+sources: specter - title_cbow200 - title_tfidf
+TITLE: Mining MOOC Clickstreams: On the Relationship Between Learner Video-Watching Behavior and Performance
+ABSTRACT: background_label: ABSTRACTWe study student behavior and performance in two Massive Open Online Courses (MOOCs).
+background_label: In doing so, we present two frameworks by which video-watching clickstreams can be represented: one based on the sequence of events created, and another on the sequence of positions visited.
+method_label: With the event-based framework, we extract recurring subsequences of student behavior, which contain fundamental characteristics such as reflecting (i.e., repeatedly playing and pausing) and revising (i.e., plays and skip backs).
+method_label: We find that some of these behaviors are significantly associated with whether a user will be Correct on First Attempt (CFA) or not in answering quiz questions.
+method_label: With the position-based framework, we then devise models for performance.
+result_label: In evaluating these through CFA prediction, we find that three of them can substantially improve prediction quality in terms of accuracy and F1, which underlines the ability to relate behavior to performance.
+result_label: Since our prediction considers videos individually, these benefits also suggest that our models are useful in situations where there is limited training data, e.g., for early detection or in short courses.
+
+===================================
+paper_id: 6275901; YEAR: 2014
+adju relevance: Related (+1)
+difference: 1; annotator2: 1; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Building engagement for MOOC students: introducing support for time management on online learning platforms
+ABSTRACT: objective_label: The main objectives of massive open online courses (MOOC) are to foster knowledge through free high quality learning materials procurement; to create new knowledge through diverse users' interactions with the providing platform; and to empower research on learning.
+background_label: However, MOOC providers are also businesses (either profit or not-for-profit).
+background_label: They are still in the early stages of their development, but sooner or later, in order to secure their existence and assure their longterm growth, they will have to adapt a business model and monetize the services they provide.
+background_label: Nevertheless, despite their popularity MOOCs are characterized by a very high drop-out rate (about 90%), which may turn out to be a problem regardless of the adapted business model.
+result_label: Hence, MOOC providers can either assume the scale benefits to be sufficiently high to ignore the problem of low MOOC completion rate or tackle this problem.
+objective_label: In this paper we explore the problem of the high drop-out rate in massive open online courses.
+method_label: First, we identify its main cause by conducting an online survey, namely bad time organization.
+objective_label: Secondly, we provide suggestions to reduce the rate.
+method_label: Specifically, we argue that MOOC platforms should not only provide their users with high quality educational materials and interaction facilities.
+method_label: But they should also support and assist the users in their quest for knowledge.
+result_label: Thus, MOOC platforms should provide tools helping them optimize their time usage and subsequently develop metacognitive skills indispensable in proper time management of learning processes.
+
+===================================
+paper_id: 2946395; YEAR: 2014
+adju relevance: Related (+1)
+difference: 1; annotator2: 1; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Supporting MOOC Instruction with Social Network Analysis
+ABSTRACT: background_label: With an expansive and ubiquitously available gold mine of educational data, Massive Open Online courses (MOOCs) have become the an important foci of learning analytics research.
+objective_label: In this paper, we investigate potential reasons as to why are these digitalized learning repositories being plagued with huge attrition rates.
+objective_label: We analyze an ongoing online course offered in Coursera using a social network perspective, with an objective to identify students who are actively participating in course discussions and those who are potentially at a risk of dropping off.
+method_label: We additionally perform extensive forum analysis to visualize student's posting patterns longitudinally.
+result_label: Our results provide insights that can assist educational designers in establishing a pedagogical basis for decision-making while designing MOOCs.
+result_label: We infer prominent characteristics about the participation patterns of distinct groups of students in the networked learning community, and effectively discover important discussion threads.
+result_label: These methods can, despite the otherwise prohibitive number of students involved, allow an instructor to leverage forum behavior to identify opportunities for support.
+
+===================================
+paper_id: 8742108; YEAR: 2014
+adju relevance: Related (+1)
+difference: 1; annotator2: 1; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Should your MOOC forum use a reputation system?
+ABSTRACT: background_label: Massive open online courses (MOOCs) rely primarily on discussion forums for interaction among students.
+objective_label: We investigate how forum design affects student activity and learning outcomes through a field experiment with 1101 participants on the edX platform.
+method_label: We introduce a reputation system, which gives students points for making useful posts.
+method_label: We show that, as in other settings, use of forums in MOOCs is correlated with better grades and higher retention.
+method_label: Reputation systems additionally produce faster response times and larger numbers of responses per post, as well as differences in how students ask questions.
+result_label: However, reputation systems have no significant impact on grades, retention, or the students' subjective sense of community.
+result_label: This suggests that forums are essential for MOOCs, and reputation systems can improve the forum experience, but other techniques are needed to improve student outcomes and community formation.
+result_label: We also contribute a set of guidelines for running field experiments on MOOCs.
+
+===================================
+paper_id: 56077916; YEAR: 2009
+adju relevance: Related (+1)
+difference: 1; annotator2: 1; annotator3: 0
+sources: abs_cbow200 - abs_tfidfcbow200
+TITLE: The Technological Dimension of a Massive Open Online Course: The Case of the CCK08 Course Tools
+ABSTRACT: background_label: In 2008, a new term emerged in the already crowded e-learning landscape: MOOC, or massive open online course.
+background_label: Lifelong learners can now use various tools to build and manage their own learning networks, and MOOCs may provide opportunities to test such networks.
+objective_label: This paper focuses on the technological aspects of one MOOC, the Connectivism and Connective Knowledge (CCK08) course, in order to investigate lifelong learners’ attitudes towards learning network technologies.
+method_label: The research framework is represented by three perspectives: (a) lifelong learning in relation to open education, with a focus on the effective use of learning tools; (b) the more recent personal knowledge management (PKM) skills approach; and (c) the usability of web-based learning tools.
+result_label: Findings from a survey of CCK08 participants show that the course attracted mainly adult, informal learners, who were unconcerned about course completion and who cited a lack of time as the main reason for incompletion.
+result_label: Time constraints, language barriers, and ICT skills affected the participants’ choice of tools; for example, learners favoured the passive, filtered mailing list over interactive but time-consuming discussion forums and blogs.
+method_label: Some recommendations for future MOOCs include highlighting the pedagogical purpose of the tools offered (e.g., learning network skill-building) and stating clearly that the learners can choose which tools they prefer to use.
+result_label: Further research on sustainability and instructor workload issues should be conducted to determine the cost and effectiveness of MOOCs.
+result_label: Investigation is also necessary to understand whether such terms as course , drop-out , and attrition are appropriate in relation to MOOCs.
+
+===================================
+paper_id: 1316839; YEAR: 2010
+adju relevance: Related (+1)
+difference: 1; annotator2: 1; annotator3: 0
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: Ready to buy or just browsing?: detecting web searcher goals from interaction data
+ABSTRACT: background_label: An improved understanding of the relationship between search intent, result quality, and searcher behavior is crucial for improving the effectiveness of web search.
+objective_label: While recent progress in user behavior mining has been largely focused on aggregate server-side click logs, we present a new class of search behavior models that also exploit fine-grained user interactions with the search results.
+method_label: We show that mining these interactions, such as mouse movements and scrolling, can enable more effective detection of the user's search goals.
+method_label: Potential applications include automatic search evaluation, improving search ranking, result presentation, and search advertising.
+method_label: We describe extensive experimental evaluation over both controlled user studies, and logs of interaction data collected from hundreds of real users.
+result_label: The results show that our method is more effective than the current state-of-the-art techniques, both for detection of searcher goals, and for an important practical application of predicting ad clicks for a given search session.
+
+===================================
+paper_id: 157148963; YEAR: 2014
+adju relevance: Related (+1)
+difference: 1; annotator2: 1; annotator3: 0
+sources: abs_cbow200
+TITLE: Postsecondary Play: The Role of Games and Social Media in Higher Education
+ABSTRACT: background_label: The college application processwhich entails multiple forms, essays, test scores, and deadlinescan be intimidating.
+background_label: For students without substantial school and family support, the complexity of this process can become a barrier to access.
+background_label: William G. Tierney and his team at the University of Southern California approach this challenge innovatively.
+background_label: Using the tools of online games and social media, they have developed ways to make applying for college much less intimidating.
+background_label: While the vast majority of college students use social media and gaming in their everyday lives, colleges and universities have been slow to recognize and harness the power of either.
+method_label: Postsecondary Play explores the significance of games and social media in higher education, and particularly how they can be used to attract, retain, educate, and socialize students.
+method_label: Tierney, a past president of the American Educational Research Association, has gathered some of the best research on the emerging role of multiplayer games in the classroom and how these tools can boost student confidence and increase college access.
+method_label: Scholars writing from a wide variety of disciplinescollege access, social media, game studies, and learning sciencesprovide concrete examples to illustrate the new and complex ways in which students learn in response to social media and games.
+result_label: Tierney and the contributors find that, although games can be powerful tools for encouraging underserved students, quality game design and mastering the concept of playthe ability to develop skills while engaging in the gameare essential in the effective use of serious games in teaching and learning.
+result_label: Summarizing a decade of research in game design and learning, Postsecondary Play will appeal to higher education scholars and students of learning, online gaming, education, and the media.
+
+===================================
+paper_id: 28636490; YEAR: 2015
+adju relevance: Related (+1)
+difference: 1; annotator2: 1; annotator3: 0
+sources: specter - abs_tfidf
+TITLE: Beyond Prediction: First Steps Toward Automatic Intervention in MOOC Student Stopout
+ABSTRACT: background_label: High attrition rates in massive open online courses (MOOCs) have motivated growing interest in the automatic detection of student "stopout".
+background_label: Stopout classifiers can be used to orchestrate an intervention before students quit, and to survey students dynamically about why they ceased participation.
+method_label: In this paper we expand on existing stop-out detection research by (1) exploring important elements of classifier design such as generalizability to new courses; (2) developing a novel framework inspired by control theory for how to use a classifier's outputs to make intelligent decisions; and (3) presenting results from a "dynamic survey intervention" conducted on 2 HarvardX MOOCs, containing over 40,000 students, in early 2015.
+result_label: Our results suggest that surveying students based on an automatic stopout classifier achieves higher response rates compared to traditional post-course surveys, and may boost students' propensity to "come back" into the course.
+
+===================================
+paper_id: 26268469; YEAR: 2017
+adju relevance: Related (+1)
+difference: 1; annotator2: 1; annotator3: 0
+sources: title_tfidf
+TITLE: Clickstream User Behavior Models
+ABSTRACT: background_label: The next generation of Internet services is driven by users and user-generated content.
+background_label: The complex nature of user behavior makes it highly challenging to manage and secure online services.
+background_label: On one hand, service providers cannot effectively prevent attackers from creating large numbers of fake identities to disseminate unwanted content (e.g., spam).
+background_label: On the other hand, abusive behavior from real users also poses significant threats (e.g., cyberbullying).
+objective_label: In this article, we propose clickstream models to characterize user behavior in large online services.
+method_label: By analyzing clickstream traces (i.e., sequences of click events from users), we seek to achieve two goals: (1) detection: to capture distinct user groups for the detection of malicious accounts, and (2) understanding: to extract semantic information from user groups to understand the captured behavior.
+result_label: To achieve these goals, we build two related systems.
+background_label: The first one is a semisupervised system to detect malicious user accounts (Sybils).
+objective_label: The core idea is to build a clickstream similarity graph where each node is a user and an edge captures the similarity of two users’ clickstreams.
+method_label: Based on this graph, we propose a coloring scheme to identify groups of malicious accounts without relying on a large labeled dataset.
+method_label: We validate the system using ground-truth clickstream traces of 16,000 real and Sybil users from Renren, a large Chinese social network.
+method_label: The second system is an unsupervised system that aims to capture and understand the fine-grained user behavior.
+method_label: Instead of binary classification (malicious or benign), this model identifies the natural groups of user behavior and automatically extracts features to interpret their semantic meanings.
+method_label: Applying this system to Renren and another online social network, Whisper (100K users), we help service providers identify unexpected user behaviors and even predict users’ future actions.
+result_label: Both systems received positive feedback from our industrial collaborators including Renren, LinkedIn, and Whisper after testing on their internal clickstream data.
+
+===================================
+paper_id: 16320827; YEAR: 2015
+adju relevance: Related (+1)
+difference: 1; annotator2: 1; annotator3: 0
+sources: abs_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf
+TITLE: Unsupervised modeling for understanding MOOC discussion forums: a learning analytics approach
+ABSTRACT: background_label: Massively Open Online Courses (MOOCs) have gained attention recently because of their great potential to reach learners.
+background_label: Substantial empirical study has focused on student persistence and their interactions with the course materials.
+background_label: However, most MOOCs include a rich textual dialogue forum, and these textual interactions are largely unexplored.
+background_label: Automatically understanding the nature of discussion forum posts holds great promise for providing adaptive support to individual students and to collaborative groups.
+objective_label: This paper presents a study that applies unsupervised student understanding models originally developed for synchronous tutorial dialogue to MOOC forums.
+method_label: We use a clustering approach to group similar posts, compare the clusters with manual annotations by MOOC researchers, and further investigate clusters qualitatively.
+result_label: This paper constitutes a step toward applying unsupervised models to asynchronous communication, which can enable massive-scale automated discourse analysis and mining to better support students' learning.
+
+===================================
+paper_id: 11829358; YEAR: 2014
+adju relevance: Related (+1)
+difference: 1; annotator2: 1; annotator3: 0
+sources: specter - abs_tfidf
+TITLE: Uncovering hidden engagement patterns for predicting learner performance in MOOCs
+ABSTRACT: background_label: Maintaining and cultivating student engagement is a prerequisite for MOOCs to have broad educational impact.
+background_label: Understanding student engagement as a course progresses helps characterize student learning patterns and can aid in minimizing dropout rates, initiating instructor intervention.
+method_label: In this paper, we construct a probabilistic model connecting student behavior and class performance, formulating student engagement types as latent variables.
+result_label: We show that our model identifies course success indicators that can be used by instructors to initiate interventions and assist students.
+
+===================================
+paper_id: 16120936; YEAR: 2006
+adju relevance: Related (+1)
+difference: 1; annotator2: 0; annotator3: 1
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Student engagement and student learning: Testing the linkages
+ABSTRACT: objective_label: This study examines (1) the extent to which student engagement is associated with experimental and traditional measures of academic performance, (2) whether the relationships between engagement and academic performance are conditional, and (3) whether institutions differ in terms of their ability to convert student engagement into academic performance.
+background_label: The sample consisted of 1058 students at 14 four-year colleges and universities that completed several instruments during 2002.
+result_label: Many measures of student engagement were linked positively with such desirable learning outcomes as critical thinking and grades, although most of the relationships were weak in strength.
+result_label: The results suggest that the lowest-ability students benefit more from engagement than classmates, first-year students and seniors convert different forms of engagement into academic achievement, and certain institutions more effectively convert student engagement into higher performance on critical thinking tests.
+
+===================================
+paper_id: 41086329; YEAR: 2013
+adju relevance: Related (+1)
+difference: 1; annotator2: 1; annotator3: 0
+sources: abs_cbow200 - specter
+TITLE: An overview of using academic analytics to predict and improve students' achievement: A proposed proactive intelligent intervention
+ABSTRACT: background_label: This paper presents a literature review on the use of a large array of data about students and courses that was collected by institutions and learning analytics to improve students success and retention.
+background_label: Academic analytics is getting notable attention, because it assists educational institutions in improving student achievement and success, increasing student retention, and reduce the load of liability and accountability.
+objective_label: The purpose of this paper is to provide a brief overview of how academic analytics has been used in educational institutions, what tools are available, and how institution can predict student performance and achievement.
+method_label: In addition, the study will discuss its applications, goals, examples, and why instructors want to make use of academic analytics.
+result_label: Finally, this paper will propose an intelligent recommendation intervention to improve students' achievement that will be based on two outcomes; performance as measured by final grade, and students' information data such as attendance, prerequisite subject, English and Mathematics marks, and suggests the use of Artificial Neural Network and Decision Tree for predictive modeling.
+
+===================================
+paper_id: 14929576; YEAR: 2013
+adju relevance: Related (+1)
+difference: 1; annotator2: 1; annotator3: 0
+sources: abs_tfidfcbow200 - abs_cbow200
+TITLE: Engaging Computer Science Students through Gamification in an Online Social Network Based Collaborative Learning Environment
+ABSTRACT: background_label: voluntary and active as was hoped for.
+background_label: Even though there is a group of students actively participating social activities in PeerSpace by posting helpful, useful, and/or insightful posts, and join in discussions, there are also students who participate PeerSpace activities mainly because they are required as part of the class assignments.
+background_label: Analysis of data collected from controlled experiments show that there is a direct, positive relationship between the amount of usage of PeerSpace and the benefit gained from this learning community (4).
+objective_label: The question for us is "How to better engage the students in PeerSpace social and learning activities?".
+objective_label: This paper describes our approach to this question by introducing game mechanics to promote the students" learning by encouraging them to:  participate more in social and learning activities,  develop a stronger sense of community, and  be more willing to help each other on academic and social matters.
+method_label: The approach we took is called "gamification".
+method_label: Gamification uses game mechanics, dynamics, and frameworks to promote desired behaviors.
+result_label: Gamification attempts to harness the motivational power of games and apply it to real-world problems (5).
+background_label: It is a new concept but has received very warm welcome by many companies, such as Google, Groupon, Photoshop, Pandora, FourSquare, Zipcar, Steam, etc.
+background_label: These companies used gamification features in their web sites to better engage their loyal customers and to attract new customers to their sites (6)-(5).
+objective_label: In this work, we present how gamification may be applied for education purposes to better engage Computer Science students to participate in social and learning activities in an online learning environment.
+method_label: A number of gamification features were added to PeerSpace to reward the students for performing social activities, help them make new friends by playing turn-based games with different students, and to engage in peer-learning and peer-tutoring activities.
+method_label: Section II presents the background information of PeerSpace and gamification used for education.
+method_label: Section III discusses the various gamification features that have been implemented in PeerSpace.
+result_label: Section IV discusses the preliminary experiments and results obtained in assessing the effects of the gamification features in engaging students.
+result_label: Section V presents the conclusions of this work.
+
+===================================
+paper_id: 418493; YEAR: 2015
+adju relevance: Related (+1)
+difference: 1; annotator2: 1; annotator3: 0
+sources: abs_tfidfcbow200 - abs_tfidf
+TITLE: Examining engagement: analysing learner subpopulations in massive open online courses (MOOCs)
+ABSTRACT: background_label: Massive open online courses (MOOCs) are now being used across the world to provide millions of learners with access to education.
+background_label: Many learners complete these courses successfully, or to their own satisfaction, but the high numbers who do not finish remain a subject of concern for platform providers and educators.
+background_label: In 2013, a team from Stanford University analysed engagement patterns on three MOOCs run on the Coursera platform.
+background_label: They found four distinct patterns of engagement that emerged from MOOCs based on videos and assessments.
+background_label: However, not all platforms take this approach to learning design.
+method_label: Courses on the FutureLearn platform are underpinned by a social-constructivist pedagogy, which includes discussion as an important element.
+method_label: In this paper, we analyse engagement patterns on four FutureLearn MOOCs and find that only two clusters identified previously apply in this case.
+result_label: Instead, we see seven distinct patterns of engagement: Samplers, Strong Starters, Returners, Mid-way Dropouts, Nearly There, Late Completers and Keen Completers.
+result_label: This suggests that patterns of engagement in these massive learning environments are influenced by decisions about pedagogy.
+result_label: We also make some observations about approaches to clustering in this context.
+
+===================================
+paper_id: 18068483; YEAR: 2014
+adju relevance: Related (+1)
+difference: 1; annotator2: 1; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: To Adapt MOOCS, or Not? That is No Longer the Question
+ABSTRACT: background_label: Massive Open Online Courses (MOOCs) are the next logical phase of distance learning rapidly appearing on the horizon.
+background_label: A recent worldwide survey shows that the adoption of MOOCs is on the rise.
+objective_label: This study focuses on identifying and emphasizing the unique advantages of MOOCs and provides possible insights to better understanding of MOOCs as an evolutionary product of classical distance learning.
+method_label: Two simple preliminary experiments were designed and conducted to investigate approaches for strengthening trust in MOOCs adaptation.
+result_label: While this is a work-in-progress, the authors provide several preliminary recommendations to assist in the decision making process for gradual adaptation of MOOCs in conjunction with complementary in-house components.
+
+===================================
+paper_id: 14910737; YEAR: 2014
+adju relevance: Related (+1)
+difference: 1; annotator2: 1; annotator3: 0
+sources: abs_tfidf - specter
+TITLE: How video production affects student engagement: an empirical study of MOOC videos
+ABSTRACT: background_label: Videos are a widely-used kind of resource for online learning.
+background_label: This paper presents an empirical study of how video production decisions affect student engagement in online educational videos.
+background_label: To our knowledge, ours is the largest-scale study of video engagement to date, using data from 6.9 million video watching sessions across four courses on the edX MOOC platform.
+method_label: We measure engagement by how long students are watching each video, and whether they attempt to answer post-video assessment problems.
+result_label: Our main findings are that shorter videos are much more engaging, that informal talking-head videos are more engaging, that Khan-style tablet drawings are more engaging, that even high-quality pre-recorded classroom lectures might not make for engaging online videos, and that students engage differently with lecture and tutorial videos.
+result_label: Based upon these quantitative findings and qualitative insights from interviews with edX staff, we developed a set of recommendations to help instructors and video producers take better advantage of the online video format.
+result_label: Finally, to enable researchers to reproduce and build upon our findings, we have made our anonymized video watching data set and analysis scripts public.
+result_label: To our knowledge, ours is one of the first public data sets on MOOC resource usage.
+
+===================================
+paper_id: 6286915; YEAR: 2017
+adju relevance: Related (+1)
+difference: 1; annotator2: 0; annotator3: 1
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: Fostering User Engagement: Rhetorical Devices for Applause Generation Learnt from TED Talks
+ABSTRACT: background_label: One problem that every presenter faces when delivering a public discourse is how to hold the listeners' attentions or to keep them involved.
+background_label: Therefore, many studies in conversation analysis work on this issue and suggest qualitatively con-structions that can effectively lead to audience's applause.
+method_label: To investigate these proposals quantitatively, in this study we an-alyze the transcripts of 2,135 TED Talks, with a particular fo-cus on the rhetorical devices that are used by the presenters for applause elicitation.
+method_label: Through conducting regression anal-ysis, we identify and interpret 24 rhetorical devices as triggers of audience applauding.
+result_label: We further build models that can rec-ognize applause-evoking sentences and conclude this work with potential implications.
+
+===================================
+paper_id: 5828849; YEAR: 2014
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_tfidf - abs_tfidfcbow200 - specter
+TITLE: Demographic differences in how students navigate through MOOCs
+ABSTRACT: background_label: The current generation of Massive Open Online Courses (MOOCs) attract a diverse student audience from all age groups and over 196 countries around the world.
+background_label: Researchers, educators, and the general public have recently become interested in how the learning experience in MOOCs differs from that in traditional courses.
+background_label: A major component of the learning experience is how students navigate through course content.
+objective_label: This paper presents an empirical study of how students navigate through MOOCs, and is, to our knowledge, the first to investigate how navigation strategies differ by demographics such as age and country of origin.
+method_label: We performed data analysis on the activities of 140,546 students in four edX MOOCs and found that certificate earners skip on average 22% of the course content, that they frequently employ non-linear navigation by jumping backward to earlier lecture sequences, and that older students and those from countries with lower student-teacher ratios are more comprehensive and non-linear when navigating through the course.
+result_label: From these findings, we suggest design recommendations such as for MOOC platforms to develop more detailed forms of certification that incentivize students to deeply engage with the content rather than just doing the minimum necessary to earn a passing grade.
+result_label: Finally, to enable other researchers to reproduce and build upon our findings, we have made our data set and analysis scripts publicly available.
+
+===================================
+paper_id: 10352779; YEAR: 2014
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Superposter behavior in MOOC forums
+ABSTRACT: background_label: Discussion forums, employed by MOOC providers as the primary mode of interaction among instructors and students, have emerged as one of the important components of online courses.
+background_label: We empirically study contribution behavior in these online collaborative learning forums using data from 44 MOOCs hosted on Coursera, focusing primarily on the highest-volume contributors---"superposters"---in a forum.
+objective_label: We explore who these superposters are and study their engagement patterns across the MOOC platform, with a focus on the following question---to what extent is superposting a positive phenomenon for the forum?
+objective_label: Specifically, while superposters clearly contribute heavily to the forum in terms of quantity, how do these contributions rate in terms of quality, and does this prolific posting behavior negatively impact contribution from the large remainder of students in the class?
+result_label: We analyze these questions across the courses in our dataset, and find that superposters display above-average engagement across Coursera, enrolling in more courses and obtaining better grades than the average forum participant; additionally, students who are superposters in one course are significantly more likely to be superposters in other courses they take.
+result_label: In terms of utility, our analysis indicates that while being neither the fastest nor the most upvoted, superposters' responses are speedier and receive more upvotes than the average forum user's posts; a manual assessment of quality on a subset of this content supports this conclusion that a large fraction of superposter contributions indeed constitute useful content.
+result_label: Finally, we find that superposters' prolific contribution behavior does not `drown out the silent majority'---high superposter activity correlates positively and significantly with higher overall activity and forum health, as measured by total contribution volume, higher average perceived utility in terms of received votes, and a smaller fraction of orphaned threads.
+
+===================================
+paper_id: 62727671; YEAR: 2011
+adju relevance: Irrelevant (0)
+difference: 1; annotator2: 1; annotator3: 0
+sources: abs_cbow200
+TITLE: Cloud Computing and Creativity: Learning on a Massive Open Online Course
+ABSTRACT: background_label: This paper explores cloud computing and how it might advance learning and teaching, particularly in terms of social creativity and collaborative learning.
+objective_label: We present a study of a Massive Open Online Course (MOOC) – a semi-autonomous learning environment mainly distributed on the cloud – in which Open Educational Resources were produced, researched and shared by participants worldwide.
+objective_label: The objective of this research was to explore the level of importance of creativity for learning and then to closely investigate how this creativity might be fostered in such a ‘vast’ educational setting and what factors might be of importance to enhance creativity in open networked learning.
+method_label: Through the participants’ experiences, we discuss the various dynamics and profiles of the participants as they move from being consumers on the environment to becoming ‘producers’ and take creative steps in their learning.
+method_label: More importantly, we identify the elements of the course that need to be in place to encourage and support this move towards more effective creativity and learning.
+result_label: Finally further discussions and conclusions are presented.
+
+===================================
+paper_id: 18444844; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 1; annotator2: 0; annotator3: 1
+sources: abs_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf
+TITLE: Ask the Instructors: Motivations and Challenges of Teaching Massive Open Online Courses
+ABSTRACT: background_label: Massive Open Online Courses (MOOCs) have experienced rapid growth and attracted significant attention within aca-demia.
+background_label: However, despite widespread acceptance of MOOCs as a unique opportunity to transform educational practices, many questions remain regarding their sustainability, given the high dropout rates and challenges related to collabora-tive learning support [12].
+background_label: Recent research has attempted to address these concerns by analyzing studentsâ MOOC expe-riences and how MOOCs may fall short in meeting stu-dentsâ learning needs [41].
+background_label: However, very little research has approached the problem from an instructor perspective.
+method_label: We report an interview study of 14 MOOC instructors in which we used grounded theory to uncover the complex processes, motivations, and challenges associated with teaching a MOOC.
+result_label: A key finding is that we should provide support through the whole instruction process.
+result_label: By enhancing sup-port for instructors and their MOOC collaborators, we may improve outcomes for all MOOC stakeholders, including students.
+
+===================================
+paper_id: 55668777; YEAR: 2006
+adju relevance: Irrelevant (0)
+difference: 1; annotator2: 1; annotator3: 0
+sources: abs_cbow200 - abs_tfidfcbow200
+TITLE: Re-conceptualizing Emotion and Motivation to Learn in Classroom Contexts
+ABSTRACT: background_label: To better inform and improve classroom teaching and learning, now more than ever before, educational researchers need to effectively and efficiently describe essential components of positive learning environments.
+objective_label: In this article, we discuss how our research findings about motivation in classrooms have led to a closer examination of emotions.
+method_label: We describe how motivation theories such as Academic Risk Taking, Flow Theory, and Goal Theory have helped us better understand emotions in our classroom research.
+result_label: Our findings suggest that engaging students in learning requires consistently positive emotional experiences, which contribute to a classroom climate that forms the foundation for teacher–student relationships and interactions necessary for motivation to learn.
+result_label: We conclude that we need to integrate emotion, motivation, and cognition theoretically and methodologically to move our research forward.
+method_label: New theories and methods, even new forms of intellectual discourse, are required.
+result_label: Therefore, we end this article by beginning a discussion of new directions for conceptualizing and researching classrooms in ways that will involve examining the emotions of students and teachers.
+
+===================================
+paper_id: 59844468; YEAR: 2013
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidf
+TITLE: Your Password is Your New PIN
+ABSTRACT: objective_label: This chapter will describe a method of deriving new PINs from existing passwords.
+background_label: This method is useful for obtaining friction-free user onboarding to mobile platforms.
+background_label: It has significant business benefits for organizations that wish to introduce mobile apps to existing users who already have passwords, but are reluctant to authenticate the users with the existing passwords.
+method_label: From the user’s perspective, a PIN is easier to enter than a password, and a derived PIN does not need to be remembered—assuming the user has a password and can recall it.
+method_label: In addition, even though the PINs are derived from passwords, they do not contain sufficient information to make the passwords easy to infer from compromised PINs.
+method_label: This, along with different transaction limits for PINs and passwords, makes the derived PINs more useful in a situation where users have to enter their PINs in public.
+method_label: We describe real-life password distributions to quantify exactly how much information about the passwords the derived PINs contain, and how much information is lost during the derivation.
+result_label: We also describe experiments with human subjects to qualitatively and quantitatively show that the user-side derivation method is easy to use.
+
+===================================
+paper_id: 517240; YEAR: 2013
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_tfidfcbow200 - abs_cbow200 - abs_tfidf
+TITLE: ARTFul: adaptive review technology for flipped learning
+ABSTRACT: background_label: Internet technology is revolutionizing education.
+background_label: Teachers are developing massive open online courses (MOOCs) and using innovative practices such as flipped learning in which students watch lectures at home and engage in hands-on, problem solving activities in class.
+objective_label: This work seeks to explore the design space afforded by these novel educational paradigms and to develop technology for improving student learning.
+method_label: Our design, based on the technique of adaptive content review, monitors student attention during educational presentations and determines which lecture topic students might benefit the most from reviewing.
+result_label: An evaluation of our technology within the context of an online art history lesson demonstrated that adaptively reviewing lesson content improved student recall abilities 29% over a baseline system and was able to match recall gains achieved by a full lesson review in less time.
+result_label: Our findings offer guidelines for a novel design space in dynamic educational technology that might support both teachers and online tutoring systems.
+
+===================================
+paper_id: 36117198; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidf
+TITLE: DeepMind_Commentary
+ABSTRACT: background_label: We agree with Lake and colleagues on their list of key ingredients for building humanlike intelligence, including the idea that model-based reasoning is essential.
+background_label: However, we favor an approach that centers on one additional ingredient: autonomy.
+objective_label: In particular, we aim toward agents that can both build and exploit their own internal models, with minimal human hand-engineering.
+method_label: We believe an approach centered on autonomous learning has the greatest chance of success as we scale toward real-world complexity, tackling domains for which ready-made formal models are not available.
+result_label: Here we survey several important examples of the progress that has been made toward building autonomous agents with humanlike abilities, and highlight some outstanding challenges.
+
+===================================
+paper_id: 118988729; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidf
+TITLE: A Microphotonic Astrocomb
+ABSTRACT: background_label: One of the essential prerequisites for detection of Earth-like extra-solar planets or direct measurements of the cosmological expansion is the accurate and precise wavelength calibration of astronomical spectrometers.
+background_label: It has already been realized that the large number of exactly known optical frequencies provided by laser frequency combs ('astrocombs') can significantly surpass conventionally used hollow-cathode lamps as calibration light sources.
+background_label: A remaining challenge, however, is generation of frequency combs with lines resolvable by astronomical spectrometers.
+method_label: Here we demonstrate an astrocomb generated via soliton formation in an on-chip microphotonic resonator ('microresonator') with a resolvable line spacing of 23.7 GHz.
+method_label: This comb is providing wavelength calibration on the 10 cm/s radial velocity level on the GIANO-B high-resolution near-infrared spectrometer.
+result_label: As such, microresonator frequency combs have the potential of providing broadband wavelength calibration for the next-generation of astronomical instruments in planet-hunting and cosmological research.
+
+===================================
+paper_id: 102352711; YEAR: 2019
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_tfidfcbow200 - abs_cbow200
+TITLE: AI Meets Austen: Towards Human-Robot Discussions of Literary Metaphor
+ABSTRACT: background_label: Artificial intelligence is revolutionizing formal education, fueled by innovations in learning assessment, content generation, and instructional delivery.
+background_label: Informal, lifelong learning settings have been the subject of less attention.
+objective_label: We provide a proof-of-concept for an embodied book discussion companion, designed to stimulate conversations with readers about particularly creative metaphors in fiction literature.
+result_label: We collect ratings from 26 participants, each of whom discuss Jane Austen's"Pride and Prejudice"with the robot across one or more sessions, and find that participants rate their interactions highly.
+result_label: This suggests that companion robots could be an interesting entryway for the promotion of lifelong learning and cognitive exercise in future applications.
+
+===================================
+paper_id: 56515031; YEAR: 2011
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidf
+TITLE: Trust Your Science? Open Your Data and Code
+ABSTRACT: background_label: Reproducibility in the computational sciences seems to be capturing everyone’s attention.
+background_label: Movements to address the reliability of published computational results are arising in fields as disparate as geophysics, political science, fluid dynamics, computational harmonic analysis, fMRI research, and bioinformatics.
+background_label: Open data and code in climate modeling has taken on a new priority since ClimateGate in 2009 (i.e., www.nature.com/ news/2010/101013/full/467753a.html), and Amstat News has recounted efforts to ensure reproducibility in genomics research in the wake of the termination of clinical trials at Duke University in December of 2010 (see http://magazine.amstat.org/blog/2011/01/01/ scipolicyjan11).
+background_label: These efforts are essential to addressing the “credibility crisis” in science.
+background_label: It is impossible to believe most of the computational results presented at conferences and in published papers today.
+result_label: Even mature branches of science, despite all their efforts, suffer severely from the problem of errors in final published conclusions.
+result_label: Traditional scientific publication is incapable of finding and rooting out errors in scientific computation, and standards of verifiability must be developed.
+result_label: A smattering of these efforts will give a sense of the scope at which the community is addressing this issue.
+other_label: The Institute of Medicine of the National Academies is undertaking a consensus study titled “Review of Omics-Based Tests for Predicting Patient Outcome in Clinical Trials,” (see www.iom.edu/Activities/Research/OmicsBasedTests.
+background_label: aspx), and sessions on reproducibility were held at SIAM Geosciences 2011, this year’s AAAS annual meeting, and SIAM Computing in Science and Engineering 2011.
+background_label: Also, a three-day workshop is to be held at Applied Mathematics Perspectives this month.
+background_label: In 2009, stakeholders from biology, computational chemistry, geophysics, law, astronomy, and other fields collectively drafted a declaration on data and code sharing in the computational sciences (www.computer.org/portal/web/csdl/doi/10.1109/ MCSE.2010.113 and www.stanford.edu/~vcs/ Conferences/RoundtableNov212009).
+method_label: Since January of this year, the National Science Foundation has required data management plans to be peer reviewed with every grant application.
+result_label: Open access to data and software are relevant to advancing trustworthy science and are discussed in the 2010 reauthorization of the America Competes Act (see http://blog.stodden.net/2011/05/27/regulatory-steps-toward-open-science-and-reproducibility-weneed-a-science-cloud).
+result_label: As we embrace and tackle this issue across the computational sciences, concepts are inevitably labeled with different terms and different concepts are emphasized.
+result_label: I will touch on the semantic and substantive differences in the various approaches to reliability in computational and dataenabled sciences.
+
+===================================
+paper_id: 141021179; YEAR: 1994
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Multiple Resource Theory I Application to Television Viewing
+ABSTRACT: background_label: Comprehending television is a complex process.
+background_label: Multiple resource theory proposes that the necessary resources are limited.
+background_label: Limitations, however, depend on four separate factors.
+background_label: First, resources are used by three different tasks—attention, meaning-level processing, and memory.
+background_label: Demands arise from individual tasks and combinations.
+result_label: The consequences of reaching limitations are different for each task.
+background_label: Second, television's auditory and visual modalities use different symbol systems.
+background_label: Audio information might be more difficult to process and requires more resources.
+background_label: Third, television stimuli might contain the meaningful information in either the auditory or visual modality.
+background_label: Meaningful information might require more processing and resources and should result in resource shifts.
+background_label: Fourth, television programs use varying levels of redundancy.
+method_label: Whereas processing two modalities generally requires additional resources, actual demands depend on the level and nature of the redundancy.
+result_label: As a result of these four factors, re...
+
+===================================
+paper_id: 4889237; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_cbow200 - abs_tfidfcbow200 - abs_tfidf
+TITLE: The role of pedagogical tools in active learning: a case for sense-making
+ABSTRACT: background_label: Background Evidence from the research literature indicates that both audience response systems (ARS) and guided inquiry worksheets (GIW) can lead to greater student engagement, learning, and equity in the STEM classroom.
+background_label: We compare the use of these two tools in large enrollment STEM courses delivered in different contexts, one in biology and one in engineering.
+background_label: Typically, the research literature contains studies that compare student performance for a group where the given active learning tool is used to a control group where it is not used.
+background_label: While such studies are valuable, they do not necessarily provide thick descriptions that allow instructors to understand how to effectively use the tool in their instructional practice.
+result_label: Investigations on the intended student thinking processes using these tools are largely missing.
+result_label: In the present article, we fill this gap by foregrounding the intended student thinking and sense-making processes of such active learning tools by comparing their enactment in two large-enrollment courses in different contexts.
+background_label: Results The instructors studied utilized each of the active learning tools differently.
+background_label: In the biology course, ARS questions were used mainly to "check in" with students and assess if they were correctly interpreting and understanding worksheet questions.
+method_label: The engineering course presented ARS questions that afforded students the opportunity to apply learned concepts to new scenarios towards improving students' conceptual understanding.
+method_label: In the biology course, the GIWs were primarily used in stand-alone activities, and most of the information necessary for students to answer the questions was contained within the worksheet in a context that aligned with a disciplinary model.
+method_label: In the engineering course, the instructor intended for students to reference their lecture notes and rely on their conceptual knowledge of fundamental principles from the previous ARS class session in order to successfully answer the GIW questions.
+result_label: However, while their specific implementation structures and practices differed, both instructors used these tools to build towards the same basic disciplinary thinking and sense-making processes of conceptual reasoning, quantitative reasoning, and metacognitive thinking.
+result_label: Conclusions This study led to four specific recommendations for post-secondary instructors seeking to integrate active learning tools into STEM courses.
+
+===================================
+paper_id: 259821; YEAR: 2014
+adju relevance: Irrelevant (0)
+difference: 1; annotator2: 1; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Understanding in-video dropouts and interaction peaks inonline lecture videos
+ABSTRACT: background_label: With thousands of learners watching the same online lecture videos, analyzing video watching patterns provides a unique opportunity to understand how students learn with videos.
+background_label: This paper reports a large-scale analysis of in-video dropout and peaks in viewership and student activity, using second-by-second user interaction data from 862 videos in four Massive Open Online Courses (MOOCs) on edX.
+background_label: We find higher dropout rates in longer videos, re-watching sessions (vs first-time), and tutorials (vs lectures).
+method_label: Peaks in re-watching sessions and play events indicate points of interest and confusion.
+result_label: Results show that tutorials (vs lectures) and re-watching sessions (vs first-time) lead to more frequent and sharper peaks.
+method_label: In attempting to reason why peaks occur by sampling 80 videos, we observe that 61% of the peaks accompany visual transitions in the video, e.g., a slide view to a classroom view.
+result_label: Based on this observation, we identify five student activity patterns that can explain peaks: starting from the beginning of a new material, returning to missed content, following a tutorial step, replaying a brief segment, and repeating a non-visual explanation.
+result_label: Our analysis has design implications for video authoring, editing, and interface design, providing a richer understanding of video learning on MOOCs.
+
+===================================
+paper_id: 16324795; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_tfidfcbow200 - abs_cbow200
+TITLE: Flipping a Graduate-Level Software Engineering Foundations Course
+ABSTRACT: background_label: Creating a graduate-level software engineering breadth course is challenging.
+background_label: The scope is wide.
+background_label: Students prefer hands-on work over theory.
+background_label: Industry increasingly values soft skills.
+background_label: Changing software technology requires the syllabus to be technology-agnostic, yet abstracting away technology compromises realism.
+background_label: Instructors must balance scope with depth of learning.
+method_label: At Carnegie Mellon University, we designed a flipped-classroom course that tackles these tradeoffs.
+background_label: The course has been offered since Fall 2014 in the Silicon Valley campus.
+background_label: In this paper, we describe the course's key features and summarize our experiences and lessons learned while designing, teaching, and maintaining it.
+background_label: We found that the pure flipped-classroom format was not optimal in ensuring sufficient transfer of knowledge, especially in remote settings.
+background_label: We initially underestimated teaching assistantship resources.
+method_label: We gradually complemented video lectures and hands-on live sessions with additional live components: easily replaceable recitations that focus on current technology and mini lectures that address application of theory and common wisdom.
+method_label: We also provided the students with more opportunities to share their successes and experiments with their peers.
+result_label: We achieved scalability by increasing the number of teaching assistants, paying attention to teaching assistant recruitment, and fostering a culture of mentoring among the teaching team.
+
+===================================
+paper_id: 16037980; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_cbow200
+TITLE: Student Experiences Using GitHub in Software Engineering Courses: A Case Study
+ABSTRACT: background_label: GitHub has been embraced by the software development community as an important social platform for managing software projects and to support collaborative development.
+background_label: More recently, educators have begun to adopt it for hosting course content and student assignments.
+background_label: From our previous research, we found that educators leverage GitHub’s collaboration and transparency features to create, reuse and remix course materials, and to encourage student contributions and monitor student activity on assignments and projects.
+background_label: However, our previous research did not consider the student perspective.
+method_label: In this paper, we present a case study where GitHub is used as a learning platform for two software engineering courses.
+method_label: We gathered student perspectives on how the use of GitHub in their courses might benefit them and to identify the challenges they may face.
+result_label: The findings from our case study indicate that software engineering students do benefit from GitHub’s transparent and open workflow.
+result_label: However, students were concerned that since GitHub is not inherently an educational tool, it lacks key features important for education and poses learning and privacy concerns.
+result_label: Our findings provide recommendations for designers on how tools such as GitHub can be used to improve software engineering education, and also point to recommendations for instructors on how to use it more effectively in their courses.
+
+===================================
+paper_id: 9370728; YEAR: 2015
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidf
+TITLE: Exascaling Your Library: Will Your Implementation Meet Your Expectations?
+ABSTRACT: background_label: Many libraries in the HPC field encapsulate sophisticated algorithms with clear theoretical scalability expectations.
+background_label: However, hardware constraints or programming bugs may sometimes render these expectations inaccurate or even plainly wrong.
+background_label: While algorithm engineers have already been advocating the systematic combination of analytical performance models with practical measurements for a very long time, we go one step further and show how this comparison can become part of automated testing procedures.
+method_label: The most important applications of our method include initial validation, regression testing, and benchmarking to compare implementation and platform alternatives.
+method_label: Advancing the concept of performance assertions, we verify asymptotic scaling trends rather than precise analytical expressions, relieving the developer from the burden of having to specify and maintain very fine grained and potentially non-portable expectations.
+method_label: In this way, scalability validation can be continuously applied throughout the whole development cycle with very little effort.
+result_label: Using MPI as an example, we show how our method can help uncover non-obvious limitations of both libraries and underlying platforms.
+
+===================================
+paper_id: 7392582; YEAR: 2015
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidfcbow200 - title_cbow200
+TITLE: Locked Your Phone? Buy a New One? From Tales of Fallback Authentication on Smartphones to Actual Concepts
+ABSTRACT: background_label: We describe three scenarios in which fallback authentication on smartphones can occur and evaluate their real-life occurrences in an online survey (n=244) and complementing interviews (n=12).
+background_label: The results provide first insights into frequencies, reasons, countermeasures taken and problems of lockout experiences.
+method_label: Overall, study participants were satisfied with current fallback schemes, but at the same time, fallback authentication was aggravated when special circumstances applied and thus, leave room for improvements.
+method_label: Based on this, we propose an alternative concept for fallback authentication that quizzes users about installed and not installed apps on their device.
+method_label: Authentication succeeds, when users identify a certain number of apps correctly.
+result_label: Our evaluation showed that the concept yields an overall accuracy of 95%.
+
+===================================
+paper_id: 2944779; YEAR: 2002
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: to the source. The Role of Information and Social Interactions in Retirement Plan Decisions: Evidence from a Randomized Experiment
+ABSTRACT: objective_label: This paper analyzes a randomized experiment to shed light on the role of information and social interactions in employees' decisions to enroll in a Tax Deferred Account (TDA) retirement plan within a large university.
+method_label: The experiment encouraged a random sample of employees in a subset of departments to attend a benefits information fair organized by the university, by promising a monetary reward for attendance.
+method_label: The experiment more than tripled the attendance rate of these treated individuals (relative to controls), and doubled that of untreated individuals within departments where some individuals were treated.
+result_label: TDA enrollment 5 and 11 months after the fair was significantly higher in departments where some individuals were treated than in departments where nobody was treated.
+result_label: However, the effect on TDA enrollment is almost as large for individuals in treated departments who did not receive the encouragement as for those who did.
+result_label: We provide three interpretations, differential treatment effects, social network effects, and motivational reward effects, to account for these results.
+
+===================================
+paper_id: 16937234; YEAR: 2013
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_cbow200
+TITLE: TiNYARM: Awareness of Research Papers in a Community of Practice
+ABSTRACT: background_label: Reading scientific papers is a core research activity, and helps researchers to be aware of fundamental contributions and latest trends.
+background_label: However, the exponential growth of scientific literature increases the complexity of evaluating what is relevant to read and why.
+method_label: To research how this issue can be tackled, we designed, implemented, and evaluated TiNYARM, a Science 2.0 web-based tool that leverages a social network approach to make researchers aware of what their peers are reading.
+method_label: We investigate how activity streams, Personal Information Management, and Gamification concepts can be leveraged to support awareness, increase collaboration, and engage users.
+result_label: We present an evaluation of our approach with different communities, including students with no research experience, early stage researchers, and experienced researchers.
+result_label: Each group found certain system aspects more relevant.
+
+===================================
+paper_id: 3365953; YEAR: 2013
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Learning about social learning in MOOCs: From statistical analysis to generative model
+ABSTRACT: background_label: We study user behavior in the courses offered by a major Massive Online Open Course (MOOC) provider during the summer of 2013.
+objective_label: Since social learning is a key element of scalable education in MOOCs and is done via online discussion forums, our main focus is in understanding forum activities.
+background_label: Two salient features of MOOC forum activities drive our research: 1.
+result_label: High decline rate: for all courses studied, the volume of discussions in the forum declines continuously throughout the duration of the course.
+result_label: 2.
+result_label: High-volume, noisy discussions: at least 30% of the courses produce new discussion threads at rates that are infeasible for students or teaching staff to read through.
+background_label: Furthermore, a substantial portion of the discussions are not directly course-related.
+objective_label: We investigate factors that correlate with the decline of activity in the online discussion forums and find effective strategies to classify threads and rank their relevance.
+method_label: Specifically, we use linear regression models to analyze the time series of the count data for the forum activities and make a number of observations, e.g., the teaching staff's active participation in the discussion increases the discussion volume but does not slow down the decline rate.
+method_label: We then propose a unified generative model for the discussion threads, which allows us both to choose efficient thread classifiers and design an effective algorithm for ranking thread relevance.
+method_label: Our ranking algorithm is further compared against two baseline algorithms, using human evaluation from Amazon Mechanical Turk.
+method_label: The authors on this paper are listed in alphabetical order.
+other_label: For media and press coverage, please refer to us collectively, as"researchers from the EDGE Lab at Princeton University, together with collaborators at Boston University and Microsoft Corporation."
+
+===================================
+paper_id: 10996997; YEAR: 2013
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: Holiday Pictures or Blockbuster Movies? Insights into Copyright Infringement in User Uploads to One-Click File Hosters
+ABSTRACT: other_label: Abstract.
+background_label: According to copyright holders, One-Click Hosters (OCHs) such as Megaupload are frequently used to host and distribute copyright infringing content.
+background_label: This has spurred numerous initiatives by legislators, law enforcement and content producers.
+background_label: Due to a lack of representative data sets that properly capture private uses of OCHs (such as sharing holiday pictures among friends), to date, there are no reliable estimates of the proportion of legitimate and infringing files being uploaded to OCHs.
+background_label: This situation leaves the field to the partisan arguments brought forward by copyright owners and OCHs.
+method_label: In this paper, we provide empirical data about the uses and misuses of OCHs by analysing six large data sets containing file metadata that we extracted from a range of popular OCHs.
+method_label: We assess the status of these files with regard to copyright infringement and show that at least 26 % to 79 % of them are potentially infringing.
+result_label: Perhaps surprising after the shutdown by the FBI for alleged copyright infringement, we found Megaupload to have the second highest proportion of legitimate files in our study.
+
+===================================
+paper_id: 82456167; YEAR: 2007
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidf
+TITLE: Janeway's Immunobiology
+ABSTRACT: background_label: Part I An Introduction to Immunobiology and Innate Immunity 1.
+background_label: Basic Concepts in Immunology 2.
+background_label: Innate Immunity Part II The Recognition of Antigen 3.
+background_label: Antigen Recognition by B-cell and T-cell Receptors 4.
+method_label: The Generation of Lymphocyte Antigen Receptors 5.
+method_label: Antigen Presentation to T Lymphocytes Part III The Development of Mature Lymphocyte Receptor Repertoires 6.
+method_label: Signaling Through Immune System Receptors 7.
+result_label: The Development and Survival of Lymphocytes Part IV The Adaptive Immune Response 8.
+background_label: T Cell-Mediated Immunity 9.
+background_label: The Humoral Immune Response 10.
+background_label: Dynamics of Adaptive Immunity 11.
+other_label: The Mucosal Immune System Part V The Immune System in Health and Disease 12.
+background_label: Failures of Host Defense Mechanism 13.
+other_label: Allergy and Hypersensitivity 14.
+other_label: Autoimmunity and Transplantation 15.
+other_label: Manipulation of the Immune Response Part VI The Origins of Immune Responses 16.
+other_label: Evolution of the Immune System Appendix I Immunologists' Toolbox Appendix II CD Antigens Appendix III Cytokines and their Receptors Appendix IV Chemokines and their Receptors Appendix V Immunological Constants
+
+===================================
+paper_id: 27047976; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidfcbow200 - title_cbow200 - title_tfidf
+TITLE: Show Me Your App Usage and I Will Tell Who Your Close Friends Are: Predicting User's Context from Simple Cellphone Activity
+ABSTRACT: background_label: Personal interactions using cell phones are so embedded in our everyday lives that they go almost unnoticed.
+objective_label: We may try to protect ourselves from releasing sensitive information by increasing privacy protections, but how much can be inferred from our most basic phone usage?
+method_label: Using a large-scale annotated dataset of cell phone usage, we build a predictor to determine location context (home, work, commute) and social relationships (with close friend, with family) based on the clock of the phone and sequences of apps executed.
+method_label: Surprisingly, we show that just using this basic information we can accurately predict whether someone is at home, at work, and/or with close friends, family.
+method_label: We note that this is almost inevitable because it only depends on using the phone and not the privacy settings.
+result_label: Our results suggest that our relationship with technology gives away more than we might suspect.
+result_label: This presents opportunities and challenges discussed in this paper.
+
+===================================
+paper_id: 23192411; YEAR: 2013
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_cbow200 - abs_tfidf
+TITLE: GradeCraft: what can we learn from a game-inspired learning management system?
+ABSTRACT: background_label: The "gamification" of courses (i.e., designing courses that leverage motivational mechanisms found in videogames) is a movement that is gaining traction in educational research communities and universities.
+background_label: Two game-inspired courses were developed at a high-enrollment public university in an effort to increase student engagement, and to provide students with more personalized learning experiences.
+method_label: We designed a learning management system, GradeCraft, to foreground the affordances of these grading systems, and to enhance the "game-like" experience for students.
+method_label: Along with serving as a translation layer for the grading systems of these courses, GradeCraft is also designed with an eye towards learning analytics, and captures information that can be described as student "process" data.
+method_label: Currently this data includes what types of assignments students choose to complete; how students assign percentage weights to their chosen assignments; how often and how accurately students check or model their course grades; and how successfully assignments are completed by students individually and the class as a whole across a structured grading rubric.
+result_label: We hope GradeCraft will give instructors new insight into student engagement, and provide data-driven ideas about how to tailor courses to student needs.
+
+===================================
+paper_id: 73724708; YEAR: 2019
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidfcbow200 - abs_cbow200
+TITLE: Can Your Phone Be Your Therapist? Young People’s Ethical Perspectives on the Use of Fully Automated Conversational Agents (Chatbots) in Mental Health Support
+ABSTRACT: background_label: Over the last decade, there has been an explosion of digital interventions that aim to either supplement or replace face-to-face mental health services.
+background_label: More recently, a number of automated conversational agents have also been made available, which respond to users in ways that mirror a real-life interaction.
+background_label: What are the social and ethical concerns that arise from these advances?
+objective_label: In this article, we discuss, from a young person's perspective, the strengths and limitations of using chatbots in mental health support.
+method_label: We also outline what we consider to be minimum ethical standards for these platforms, including issues surrounding privacy and confidentiality, efficacy, and safety, and review three existing platforms (Woebot, Joy, and Wysa) according to our proposed framework.
+result_label: It is our hope that this article will stimulate ethical debate among app developers, practitioners, young people, and other stakeholders, and inspire ethically responsible practice in digital mental health.
+
+===================================
+paper_id: 12897494; YEAR: 2015
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: Hup-me: inferring and reconciling a timeline of user activity from rich smartphone data
+ABSTRACT: background_label: We designed a system to infer multimodal itineraries traveled by a user from a combination of smartphone sensor data (e.g., GPS, Wi-Fi, accelerometer) and knowledge of the transport network infrastructure (e.g., road and rail maps, public transportation timetables).
+method_label: The system uses a Transportation network that captures the set of possible paths of this network for the modes, e.g., foot, bicycle, road_vehicle, and rail.
+method_label: This Transportation network is constructed from OpenStreetMap data and public transportation routes published online by transportation agencies in GTFS format.
+method_label: The system infers itineraries from a sequence of smartphone observations in two phases.
+method_label: The first phase uses a dynamic Bayesian network that models the probabilistic relationship between paths in Transportation network and sensor data.
+method_label: The second phase attempts to match portions recognized as road_vehicle or rail with possible public transportation routes of type bus, train, metro, or tram extracted from the GTFS source.
+result_label: We evaluated the performance of our system with data from users traveling over the Paris area who were asked to record data for different trips via an Android application.
+result_label: Itineraries were annotated with modes and public transportation routes taken and we report on the results of the recognition.
+
+===================================
+paper_id: 52187757; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidf
+TITLE: How Old Do You Look? Inferring Your Age from Your Gaze
+ABSTRACT: background_label: The visual exploration of a scene, represented by a visual scanpath, depends on a number of factors.
+background_label: Among them, the age of the observer plays a significant role.
+background_label: For instance, young kids are making shorter saccades and longer fixations than adults.
+objective_label: In the light of these observations, we propose a new method for inferring the age of the observer from its scanpath.
+method_label: The proposed method is based on a 1D CNN network which is trained by real eye tracking data collected on five age groups.
+method_label: In order to boost the performance, the training dataset is augmented by predicting a high number of scan-paths thanks to the use of an age-dependent computational saccadic model.
+result_label: The proposed method brings a new momentum in this field not only by significantly outperforming existing method but also by being robust to noise and data erasure.
+
+===================================
+paper_id: 53015979; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 2; annotator2: 2; annotator3: 0
+sources: abs_tfidf - specter
+TITLE: Interaction and Student Dropout in Massive Open Online Courses
+ABSTRACT: background_label: Massive Open Online Courses (MOOC) are seen as a next step in distance online learning.
+background_label: In the MOOC vision, large numbers of students can access the course content over the Internet and complete courses at their own pace while interacting with their peers and instructors online.
+background_label: Despite the initial enthusiasm about MOOCs, large number of students were observed dropping out of the online courses.
+result_label: In this paper, we pinpoint the reasons behind the high student dropout rate and discuss how the interaction capabilities of MOOCs contributed towards the low completion rate.
+
+===================================
+paper_id: 9074581; YEAR: 2014
+adju relevance: Irrelevant (0)
+difference: 1; annotator2: 1; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Together we stand, Together we fall, Together we win: Dynamic Team Formation in Massive Open Online Courses
+ABSTRACT: background_label: Massive Open Online Courses (MOOCs) offer a new scalable paradigm for e-learning by providing students with global exposure and opportunities for connecting and interacting with millions of people all around the world.
+background_label: Very often, students work as teams to effectively accomplish course related tasks.
+background_label: However, due to lack of face to face interaction, it becomes difficult for MOOC students to collaborate.
+background_label: Additionally, the instructor also faces challenges in manually organizing students into teams because students flock to these MOOCs in huge numbers.
+method_label: Thus, the proposed research is aimed at developing a robust methodology for dynamic team formation in MOOCs, the theoretical framework for which is grounded at the confluence of organizational team theory, social network analysis and machine learning.
+method_label: A prerequisite for such an undertaking is that we understand the fact that, each and every informal tie established among students offers the opportunities to influence and be influenced.
+objective_label: Therefore, we aim to extract value from the inherent connectedness of students in the MOOC.
+objective_label: These connections carry with them radical implications for the way students understand each other in the networked learning community.
+result_label: Our approach will enable course instructors to automatically group students in teams that have fairly balanced social connections with their peers, well defined in terms of appropriately selected qualitative and quantitative network metrics.
+
+===================================
+paper_id: 11642442; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: When Bitcoin encounters information in an online forum: Using text mining to analyse user opinions and predict value fluctuation
+ABSTRACT: background_label: Bitcoin is an online currency that is used worldwide to make online payments.
+background_label: It has consequently become an investment vehicle in itself and is traded in a way similar to other open currencies.
+background_label: The ability to predict the price fluctuation of Bitcoin would therefore facilitate future investment and payment decisions.
+method_label: In order to predict the price fluctuation of Bitcoin, we analyse the comments posted in the Bitcoin online forum.
+method_label: Unlike most research on Bitcoin-related online forums, which is limited to simple sentiment analysis and does not pay sufficient attention to note-worthy user comments, our approach involved extracting keywords from Bitcoin-related user comments posted on the online forum with the aim of analytically predicting the price and extent of transaction fluctuation of the currency.
+result_label: The effectiveness of the proposed method is validated based on Bitcoin online forum data ranging over a period of 2.8 years from December 2013 to September 2016.
+
+===================================
+paper_id: 6638462; YEAR: 2013
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidfcbow200 - title_tfidf
+TITLE: Ally Friendly Jamming: How to Jam Your Enemy and Maintain Your Own Wireless Connectivity at the Same Time
+ABSTRACT: objective_label: This paper presents a novel mechanism, called Ally Friendly Jamming, which aims at providing an intelligent jamming capability that can disable unauthorized (enemy) wireless communication but at the same time still allow authorized wireless devices to communicate, even if all these devices operate at the same frequency.
+method_label: The basic idea is to jam the wireless channel continuously but properly control the jamming signals with secret keys, so that the jamming signals are unpredictable interference to unauthorized devices, but are recoverable by authorized ones equipped with the secret keys.
+method_label: To achieve the ally friendly jamming capability, we develop new techniques to generate ally jamming signals, to identify and synchronize with multiple ally jammers.
+result_label: This paper also reports the analysis, implementation, and experimental evaluation of ally friendly jamming on a software defined radio platform.
+result_label: Both the analytical and experimental results indicate that the proposed techniques can effectively disable enemy wireless communication and at the same time maintain wireless communication between authorized devices.
+
+===================================
+paper_id: 8895388; YEAR: 2010
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidfcbow200 - title_cbow200
+TITLE: Spying the World from your Laptop -- Identifying and Profiling Content Providers and Big Downloaders in BitTorrent
+ABSTRACT: background_label: This paper presents a set of exploits an adversary can use to continuously spy on most BitTorrent users of the Internet from a single machine and for a long period of time.
+background_label: Using these exploits for a period of 103 days, we collected 148 million IPs downloading 2 billion copies of contents.
+method_label: We identify the IP address of the content providers for 70% of the BitTorrent contents we spied on.
+method_label: We show that a few content providers inject most contents into BitTorrent and that those content providers are located in foreign data centers.
+result_label: We also show that an adversary can compromise the privacy of any peer in BitTorrent and identify the big downloaders that we define as the peers who subscribe to a large number of contents.
+result_label: This infringement on users' privacy poses a significant impediment to the legal adoption of BitTorrent.
+
+===================================
+paper_id: 26478116; YEAR: 2014
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidfcbow200 - title_cbow200 - title_tfidf
+TITLE: You Are Your Check-In: Understanding the Behavior of Tourists and Residents Using Data from Foursquare
+ABSTRACT: background_label: Currently the use of location-based social networks are becoming quite popular.
+background_label: For example, Foursquare reported 50 million users in 2014.
+background_label: Data from this type of system can be viewed as a source of sensing, in which the sensors are users with their mobile devices sharing data on various aspects of the city.
+background_label: This source of data enables large-scale study of urban social behavior and city dynamics.
+method_label: In this paper we show how we can use the signals emitted by Foursquare users to better understand the differences between the behavior of tourists and residents.
+method_label: We analyze tourists and residents in four popular cities around the world: London, New York, Rio de Janeiro and Tokyo.
+objective_label: One of the contributions of this work is the spatio-temporal study of properties of the behavior of these two classes of users (tourists and residents).
+method_label: We have identified, for example, that some locations have features that are more correlated with the tourists' behavior, and also that even in places frequented by tourists as well as residents there are clear differences in the patterns of behavior of these classes.
+result_label: Our results could be useful in several cases, for example, to help in the development of new recommendation systems specific for tourists.
+
+===================================
+paper_id: 15845659; YEAR: 1997
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_cbow200
+TITLE: Audience engagement in multimedia presentations
+ABSTRACT: background_label: Engagement in training and educational presentations facilitates learning.
+objective_label: This paper describes engagement and proposes that it is conceptually similar to the state of playfulness, a construct increasingly applied to studies of human-computer interactions.
+method_label: It then describes how multimedia technologies can influence listeners' engagement during presentations.
+result_label: Results from pilot and main studies suggest that students' engagement in multimedia presentations can be increased by developing presentations that provide more challenge, feedback, presenter control, and variety.
+result_label: The paper concludes by discussing implications for research and practice.
+
+===================================
+paper_id: 18672684; YEAR: 2008
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidfcbow200
+TITLE: Revealing the 'real' me, searching for the 'actual' you: Presentations of self on an internet dating site
+ABSTRACT: other_label: Whitty, M.T.
+background_label: (2008).Revealing the 'real' me, searching for the 'actual' you: Presentations of self on an internet dating site.
+background_label: Behavior, 24, 1707Behavior, 24, -1723 Revealing the 'real' me, searching for the 'actual' you: Presentations of self on an internet dating site
+background_label: Computers in Human
+objective_label: Monica T WhittyThis paper considers the presentation of self on an internet dating site.
+background_label: Thirty men and thirty women were interviewed about their online dating experiences.
+background_label: They were asked about how they constructed their profiles and how they viewed other individuals' profiles.
+method_label: What types of presentations of self led to more successful offline romantic relationships were also investigated.
+method_label: Additionally, gender differences were examined.
+result_label: In line with previous research on presentation of self online, individuals were quite strategic in their online presentations.
+result_label: However, important differences between initiating a relationship on an internet dating site and other spaces (online and offline) included the type of self disclosed as well as the depth of breadth of information individuals self-disclosed about themselves before any one-on-one conversations took place.
+
+===================================
+paper_id: 16090982; YEAR: 2014
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidf
+TITLE: MobileMiner: mining your frequent patterns on your phone
+ABSTRACT: background_label: Smartphones can collect considerable context data about the user, ranging from apps used to places visited.
+background_label: Frequent user patterns discovered from longitudinal, multi-modal context data could help personalize and improve overall user experience.
+objective_label: Our long term goal is to develop novel middleware and algorithms to efficiently mine user behavior patterns entirely on the phone by utilizing idle processor cycles.
+objective_label: Mining patterns on the mobile device provides better privacy guarantees to users, and reduces dependency on cloud connectivity.
+method_label: As an important step in this direction, we develop a novel general-purpose service called MobileMiner that runs on the phone and discovers frequent co-occurrence patterns indicating which context events frequently occur together.
+method_label: Using longitudinal context data collected from 106 users over 1--3 months, we show that MobileMiner efficiently generates patterns using limited phone resources.
+result_label: Further, we find interesting behavior patterns for individual users and across users, ranging from calling patterns to place visitation patterns.
+result_label: Finally, we show how our co-occurrence patterns can be used by developers to improve the phone UI for launching apps or calling contacts.
+
+===================================
+paper_id: 14357036; YEAR: 2008
+adju relevance: Irrelevant (0)
+difference: 1; annotator2: 1; annotator3: 0
+sources: abs_tfidfcbow200 - abs_cbow200
+TITLE: Biology in bloom: implementing Bloom's Taxonomy to enhance student learning in biology.
+ABSTRACT: background_label: We developed the Blooming Biology Tool (BBT), an assessment tool based on Bloom's Taxonomy, to assist science faculty in better aligning their assessments with their teaching activities and to help students enhance their study skills and metacognition.
+objective_label: The work presented here shows how assessment tools, such as the BBT, can be used to guide and enhance teaching and student learning in a discipline-specific manner in postsecondary education.
+method_label: The BBT was first designed and extensively tested for a study in which we ranked almost 600 science questions from college life science exams and standardized tests.
+method_label: The BBT was then implemented in three different collegiate settings.
+method_label: Implementation of the BBT helped us to adjust our teaching to better enhance our students' current mastery of the material, design questions at higher cognitive skills levels, and assist students in studying for college-level exams and in writing study questions at higher levels of Bloom's Taxonomy.
+result_label: From this work we also created a suite of complementary tools that can assist biology faculty in creating classroom materials and exams at the appropriate level of Bloom's Taxonomy and students to successfully develop and answer questions that require higher-order cognitive skills.
+
+===================================
+paper_id: 14191893; YEAR: 2014
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: MOOCs for Universities and Learners - An Analysis of Motivating Factors
+ABSTRACT: background_label: Abstract:Massively Open Online Courses (MOOCs) are a recent introduction to the palette of educational offerings yet in a short time they have become the subject of massive interest and hype.
+background_label: There are those that predict that these free courses are the first ripple in the coming wave of disruption that the web and on-line education will cause to traditional universities.
+background_label: However University investments in producing MOOCs are increasing exponentially and at the same time learners are enthusiastically registering in their tens of thousands for these courses.
+objective_label: This paper describes some research into the motivations for universities to create MOOCs and the motivations of learners in registering and completing them.
+result_label: Our results show a spectrum of motivations for universities, and suggest a need for individual universities to be clear of where they sit in that spectrum.
+result_label: For students we see that motivations can vary significantly across cultures.
+
+===================================
+paper_id: 1853680; YEAR: 2003
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_tfidf
+TITLE: The Laptop and the Lecture : The Effects of Multitasking in Learning Environments
+ABSTRACT: background_label: THE EFFECTS OF MULTITASKING IN THE CLASSROOM were investigated in students in an upper level Communications course.
+background_label: Two groups of students heard the same exact lecture and tested immediately following the lecture.
+method_label: One group of students was allowed to use their laptops to engage in browsing, search, and/or social computing behaviors during the lecture.
+method_label: Students in the second condition were asked to keep their laptops closed for the duration of the lecture.
+result_label: Students in the open laptop condition suffered decrements on traditional measures of memory for lecture content.
+result_label: A second experiment replicated the results of the first.
+result_label: Data were further analyzed by “browsing style.” Results are discussed from Lang’s Limited Process Capacity model in an attempt to better understand the mechanisms involved in the decrement.
+
+===================================
+paper_id: 45207435; YEAR: 2015
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf
+TITLE: M-CAFE: Managing MOOC Student Feedback with Collaborative Filtering
+ABSTRACT: background_label: Ongoing student feedback on course content and assignments can be valuable for MOOC instructors in the absence of face-to-face-interaction.
+method_label: To collect ongoing feedback and scalably identify valuable suggestions, we built the MOOC Collaborative Assessment and Feedback Engine (M-CAFE).
+method_label: This mobile platform allows MOOC students to numerically assess the course, their own performance, and provide textual suggestions about how the course could be improved on a weekly basis.
+method_label: M-CAFE allows students to visualize how they compare with their peers and read and evaluate what others have suggested, providing peer-to-peer collaborative filtering.
+result_label: We evaluate M-CAFE based on data from two EdX MOOCs.
+
+===================================
+paper_id: 1479907; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidfcbow200 - title_cbow200
+TITLE: "Control your emotions, Potter":: An Analysis of Grief Policing on Facebook in Response to Celebrity Death
+ABSTRACT: background_label: As social media platforms become a larger part of sharing life, they have by necessity become a part of sharing death.
+background_label: In life, pop culture fans can have parasocial (one-sided, mediated) relationships with celebrities.
+background_label: Yet when fans of departed celebrities express their grief in public comment threads, conversations often result in disagreements about how to grieve.
+background_label: These disagreements consistently appear in response to the deaths of public figures, and have been broadly labeled "grief policing."
+method_label: We performed a thematic analysis of public Facebook comments responding to the deaths of Alan Rickman, David Bowie, and Prince.
+result_label: Our findings describe prominent grief policing practices and explain how commenters may be importing norms from other contexts when shared spaces consist of transient interactions that make norm formation difficult.
+result_label: Our findings contribute to a broader understanding of how conflicting norms affect discourse in transient online spaces.
+result_label: Approaching online incivility through a lens of conflicting social norm enforcement may open doors for improvements in public discourse online.
+
+===================================
+paper_id: 52054285; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: Learning from #Barcelona Instagram data what Locals and Tourists post about its Neighbourhoods
+ABSTRACT: background_label: Massive tourism is becoming a big problem for some cities, such as Barcelona, due to its concentration in some neighborhoods.
+objective_label: In this work we gather Instagram data related to Barcelona consisting on images-captions pairs and, using the text as a supervisory signal, we learn relations between images, words and neighborhoods.
+objective_label: Our goal is to learn which visual elements appear in photos when people is posting about each neighborhood.
+method_label: We perform a language separate treatment of the data and show that it can be extrapolated to a tourists and locals separate analysis, and that tourism is reflected in Social Media at a neighborhood level.
+method_label: The presented pipeline allows analyzing the differences between the images that tourists and locals associate to the different neighborhoods.
+method_label: The proposed method, which can be extended to other cities or subjects, proves that Instagram data can be used to train multi-modal (image and text) machine learning models that are useful to analyze publications about a city at a neighborhood level.
+result_label: We publish the collected dataset, InstaBarcelona and the code used in the analysis.
+
+===================================
+paper_id: 56213898; YEAR: 2015
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_tfidfcbow200 - abs_cbow200 - abs_tfidf
+TITLE: Virtually unlimited classrooms: Pedagogical practices in massive open online courses
+ABSTRACT: background_label: Abstract Massive open online courses (MOOCs) have become a prominent feature of the higher education discourse in recent years.
+background_label: Yet, little is known about the effectiveness of these online courses in engaging participants in the learning process.
+objective_label: This study explores the range of pedagogical tools used in 24 MOOCs, including the epistemological and social dimensions of instruction, to consider the extent to which these courses provide students with high-quality, collaborative learning experiences.
+method_label: Findings suggest that the range of pedagogical practices currently used in MOOCs tends toward an objectivist-individual approach, with some efforts to incorporate more constructivist and group-oriented approaches.
+result_label: By examining MOOCs through the lens of engaged teaching and learning, this study raises concerns about the degree to which MOOCs are actually revolutionizing higher education by using technology to improve quality, and challenges educators to strive for more creative and empowering forms of open online learning.
+
+===================================
+paper_id: 62068147; YEAR: 2000
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: The Limited Capacity Model of Mediated Message Processing
+ABSTRACT: background_label: This paper presents an information-processing model that is directly applicable to the investigation of how mediated messages are processed.
+method_label: It applies the model to the case of television viewing to demonstrate its applicability.
+method_label: It provides a measure for each part of the model.
+method_label: It presents evidence that supports the model in the television-viewing situation.
+method_label: Finally, it demonstrates how the model may be used to further research and understanding in well-known theoretical traditions.
+method_label: This model is not meant to stand in opposition to any of these theories but, rather, should work well with them by providing hypothesized mechanisms that may underlie well-known effects.
+method_label: This model should prove useful both to researchers and, eventually, to message producers.
+result_label: To the extent that we can better understand how the content and structure of messages interact with a viewer's information-processing system to determine which parts and how much of a communication message is remembered, we will make great strides in understanding how people communicate.
+
+===================================
+paper_id: 1249621; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: Finding Your Way from the Bed to the Kitchen: Reenacting and Recombining Sensorimotor Episodes Learned from Human Demonstration
+ABSTRACT: background_label: Several simulation theories have been proposed as an explanation for how humans and other agents internalize an "inner world" that allows them to simulate interactions with the external real world -prospectively and retrospectively.
+background_label: Such internal simulation of interaction with the environment has been argued to be a key mechanism behind mentalizing and planning.
+objective_label: In the present work, we study internal simulations in a robot acting in a simulated human environment.
+method_label: A model of sensory-motor interactions with the environment is generated from human demonstrations and tested on a Robosoft Kompaï robot.
+method_label: The model is used as a controller for the robot, reproducing the demonstrated behavior.
+method_label: Information from several different demonstrations is mixed, allowing the robot to produce novel paths through the environment, toward a goal specified by top-down contextual information.
+result_label: The robot model is also used in a covert mode, where the execution of actions is inhibited and perceptions are generated by a forward model.
+background_label: As a result, the robot generates an internal simulation of the sensory-motor interactions with the environment.
+background_label: Similar to the overt mode, the model is able to reproduce the demonstrated behavior as internal simulations.
+method_label: When experiences from several demonstrations are combined with a top-down goal signal, the system produces internal simulations of novel paths through the environment.
+method_label: These results can be understood as the robot imagining an "inner world" generated from previous experience, allowing it to try out different possible futures without executing actions overtly.
+result_label: We found that the success rate in terms of reaching the specified goal was higher during internal simulation, compared to overt action.
+result_label: These results are linked to a reduction in prediction errors generated during covert action.
+result_label: Despite the fact that the model is quite successful in terms of generating covert behavior toward specified goals, internal simulations display different temporal distributions compared to their overt counterparts.
+result_label: Links to human cognition and specifically mental imagery are discussed.
+
+===================================
+paper_id: 52264549; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidfcbow200 - title_cbow200
+TITLE: "Let Me Tell You About Your Mental Health!": Contextualized Classification of Reddit Posts to DSM-5 for Web-based Intervention
+ABSTRACT: background_label: Social media platforms are increasingly being used to share and seek advice on mental health issues.
+background_label: In particular, Reddit users freely discuss such issues on various subreddits, whose structure and content can be leveraged to formally interpret and relate subreddits and their posts in terms of mental health diagnostic categories.
+method_label: There is prior research on the extraction of mental health-related information, including symptoms, diagnosis, and treatments from social media; however, our approach can additionally provide actionable information to clinicians about the mental health of a patient in diagnostic terms for web-based intervention.
+method_label: Specifically, we provide a detailed analysis of the nature of subreddit content from domain expert's perspective and introduce a novel approach to map each subreddit to the best matching DSM-5 (Diagnostic and Statistical Manual of Mental Disorders - 5th Edition) category using multi-class classifier.
+method_label: Our classification algorithm analyzes all the posts of a subreddit by adapting topic modeling and word-embedding techniques, and utilizing curated medical knowledge bases to quantify relationship to DSM-5 categories.
+result_label: Our semantic encoding-decoding optimization approach reduces the false-alarm-rate from 30% to 2.5% over a comparable heuristic baseline, and our mapping results have been verified by domain experts achieving a kappa score of 0.84.
+
+===================================
+paper_id: 144197698; YEAR: 1996
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Negative Video as Structure: Emotion, Attention, Capacity, and Memory.
+ABSTRACT: background_label: This paper uses a limited capacity information processing theory of television viewing to investigate the effects of graphic negative video at four levels of processing (attention, capacity, encoding, and retrieval) and on two dimensions of emotional experience (arousal and valence).
+result_label: Results indicate that the presence of negative video in news stories increases attention, increases the amount of capacity required to process the message, increases the ability to retrieve the story, facilitates recognition of information presented during the negative video and inhibits recognition for information presented before the negative video.
+result_label: Results also indicate that the introduction of negative video increases the self‐reported negative emotional impact of the story — making it more arousing and more negative.
+
+===================================
+paper_id: 15319907; YEAR: 2014
+adju relevance: Irrelevant (0)
+difference: 2; annotator2: 2; annotator3: 0
+sources: abs_tfidf - abs_tfidfcbow200 - abs_cbow200 - specter
+TITLE: Who negatively influences me? Formalizing diffusion dynamics of negative exposure leading to student attrition in MOOCs
+ABSTRACT: objective_label: In this work, we explain the underlying interaction mechanisms which govern students' influence on each other in Massive Open Online Courses (MOOCs).
+method_label: Specifically, we outline different ways in which students can be negatively exposed to their peers on MOOC forums and discuss a simple formulation of learning network diffusion, which formalizes the essence of how such an influence spreads and can potentially lead to student attrition over time.
+method_label: We also view the limitations of our student modeling in the light of real world MOOC behavior and consequently suggest ways of extending the diffusion model to handle more complex assumptions.
+result_label: Such an understanding is very beneficial for MOOC designers and instructors to create a conducive learning environment that supports students' growth and increases their engagement in the course.
+
+===================================
+paper_id: 5692579; YEAR: 2015
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidf
+TITLE: ActivPass: Your Daily Activity is Your Password
+ABSTRACT: background_label: This paper explores the feasibility of automatically extracting passwords from a user's daily activity logs, such as her Facebook activity, phone activity etc.
+background_label: As an example, a smartphone might ask the user: "Today morning from whom did you receive an SMS?"
+background_label: In this paper, we observe that infrequent activities (i.e., outliers) can be memorable and unpredictable.
+method_label: Building on this observation, we have developed an end to end system ActivPass and experimented with 70 users.
+result_label: With activity logs from Facebook, browsing history, call logs, and SMSs, the system achieves 95% success (authenticates legitimate users) and is compromised in 5.5% cases (authenticates impostors).
+result_label: While this level of security is obviously inadequate for serious authentication systems, certain practices such as password sharing can immediately be thwarted from the dynamic nature of passwords.
+result_label: With security improvements in the future, activity-based authentication could fill in for the inadequacies in today's password-based systems.
+
+===================================
+paper_id: 20356845; YEAR: 2007
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_tfidfcbow200
+TITLE: Assessing Higher Order Thinking in Video Games
+ABSTRACT: background_label: Computer video games have become highly interesting to educators and researchers since their sophistication has improved considerably over the last decade.
+background_label: Studies indicate simple video games touting educational benefits are common in classrooms.
+background_label: However, a need for identifying truly useful games for educational purposes exists.
+objective_label: This article begins with an examination of lower level learning in so-called edutainment products and concludes with an example of an advanced social studies simulation that fosters higher order thinking.
+result_label: The article identifies characteristics of highly cognitive virtual interactive environments and offers a detailed index and scoring rubric as a tool for teachers and preservice teachers to use when evaluating the tendencies a video game demonstrates toward encouraging higher order thinking in its participants.
+
+===================================
+paper_id: 7278911; YEAR: 1998
+adju relevance: Irrelevant (0)
+difference: 1; annotator2: 0; annotator3: -1
+sources: abs_cbow200
+TITLE: GAME DESIGN AS AN INTERACTIVE LEARNING ENVIRONMENT FOR FOSTERING STUDENTS ’ AND TEACHERS’ MATHEMATICAL INQUIRY
+ABSTRACT: background_label: Many learning environments, computer-based or not, have been developed for either students or teachers alone to engage them in mathematical inquiry.
+background_label: While some headway has been made in both directions, few efforts have concentrated on creating learning environments that bring both teachers and students together in their teaching and learning.
+objective_label: In the following paper, we propose game design as such a learning environment for students and teachers to build on and challenge their existing understandings of mathematics, engage in relevant and meaningful learning contexts, and develop connections among their mathematical ideas and their real world contexts.
+method_label: To examine the potential of this approach, we conducted and analyzed two studies: Study I focused on a team of four elementary school students designing games to teach fractions to younger students, Study II focused on teams of pre-service teachers engaged in the same task.
+method_label: We analyzed the various games designed by the different teams to understand how teachers and students conceptualize the task of creating virtual game learning environment for others, in which ways they integrate their understanding of fractions and develop notions about students' thinking in fractions, and how conceptual design tools can provide a common platform to develop meaningful fraction contexts.
+method_label: In our analysis, we found that most teachers and students, when left to their own devices, create instructional games to teach fractions that incorporate little of their knowledge.
+result_label: We found that when we provided teachers and students with conceptual design tools such as game screens and design directives that facilitated an integration of content and game context, the games as well as teachers' and students' thinking increased in their sophistication.
+result_label: In the discussion, we elaborate on how the design activities helped to integrate rarely used informal knowledge of students and teachers, how the conceptual design tools improved the instructional design process, and how students and teachers benefit in their mathematical inquiry from each others' perspectives.
+result_label: In the outlook, we discuss features for computational design learning environments.
+
+===================================
+paper_id: 5327471; YEAR: 2013
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_tfidfcbow200 - abs_cbow200 - specter
+TITLE: A pilot study of using crowds in the classroom
+ABSTRACT: background_label: Industry relies on higher education to prepare students for careers in innovation.
+background_label: Fulfilling this obligation is especially difficult in classroom settings, which often lack authentic interaction with the outside world.
+background_label: Online crowdsourcing has the potential to change this.
+objective_label: Our research explores if and how online crowds can support student learning in the classroom.
+objective_label: We explore how scalable, diverse, immediate (and often ambiguous and conflicting) input from online crowds affects student learning and motivation for project-based innovation work.
+method_label: In a pilot study with three classrooms, we explore interactions with the crowd at four key stages of the innovation process: needfinding, ideating, testing, and pitching.
+result_label: Students reported that online crowds helped them quickly and inexpensively identify needs and uncover issues with early-stage prototypes, although they favored face-to-face interactions for more contextual feed-back.
+result_label: We share early evidence and discuss implications for creating a socio-technical infrastructure to more effectively use crowdsourcing in education.
+
+===================================
+paper_id: 15973259; YEAR: 2009
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidfcbow200 - title_cbow200
+TITLE: On the internet, everybody knows you're a dog: the human-pet relationship in online social networks
+ABSTRACT: background_label: The benefits of pet ownership to physical and mental health are extensive and well documented.
+background_label: Online social networks have the potential to strengthen these relationships and build community among pet owners.
+objective_label: In this work, we present several results on the difference in behavior between dog and cat owners in pet-oriented social networks.
+method_label: We extend this analysis to divisions between urban and rural users.
+result_label: Our results show that there are significant differences among these groups.
+method_label: We propose a theory for future testing that more socially isolated the owners are from real-world communities of similar pet owners, the more active they are in forming social connections on these websites, and we offer initial evidence to support this.
+result_label: These results show that these pet social networks are already being used to help support the human-animal bond online, and that different types of pet owners would benefit from different types of support within the systems.
+
+===================================
+paper_id: 117655; YEAR: 2013
+adju relevance: Irrelevant (0)
+difference: 1; annotator2: 1; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: MOOCs and the funnel of participation
+ABSTRACT: background_label: Massive Online Open Courses (MOOCs) are growing substantially in numbers, and also in interest from the educational community.
+background_label: MOOCs offer particular challenges for what is becoming accepted as mainstream practice in learning analytics.
+background_label: Partly for this reason, and partly because of the relative newness of MOOCs as a widespread phenomenon, there is not yet a substantial body of literature on the learning analytics of MOOCs.
+background_label: However, one clear finding is that drop-out/non-completion rates are substantially higher than in more traditional education.
+objective_label: This paper explores these issues, and introduces the metaphor of a 'funnel of participation' to reconceptualise the steep drop-off in activity, and the pattern of steeply unequal participation, which appear to be characteristic of MOOCs and similar learning environments.
+result_label: Empirical data to support this funnel of participation are presented from three online learning sites: iSpot (observations of nature), Cloudworks ('a place to share, find and discuss learning and teaching ideas and experiences'), and openED 2.0, a MOOC on business and management that ran between 2010--2012.
+result_label: Implications of the funnel for MOOCs, formal education, and learning analytics practice are discussed.
+
+===================================
+paper_id: 15712673; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_cbow200
+TITLE: Skip or Stay: Users' Behavior in Dealing with Onsite Information Interaction Crowd-Bias
+ABSTRACT: background_label: Mobile devices and the internet of things blend our virtual online behavior with our actions in the real-world.
+background_label: The physical context creates numerous external factors that play a role in the user's online interactions, thus creating new external biases in the collected information interaction logs.
+objective_label: Our general aim is to improve our understanding of onsite users' behavior, which allow us to create better online and onsite contextual suggestion systems.
+objective_label: We focus on the cultural heritage domain and have collected onsite users' information interaction logs of visits in a museum.
+method_label: This prompts the question: How to understand users' behavior in order to be able to predict their onsite behaviors?
+result_label: Our main findings are the following: First, users behave differently in different onsite contextual situations.
+result_label: Second, there is a significant dependency between users' onsite behaviors and other users, who are interacting with next point of interests (POIs).
+method_label: Third, we have proposed a contextual Skip-Or-Stay behavior classifier based on four different pairwise contextual features that significantly improves a defined baseline based on all the considered evaluation metrics.
+result_label: Fourth, we have analyzed the importance of different contexts in the Skip-or-Stay behavior predictions.
+
+===================================
+paper_id: 129676430; YEAR: 2013
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: Social Media Location Intelligence: The Next Privacy Battle - An ArcGIS add-in and Analysis of Geospatial Data Collected from Twitter.com
+ABSTRACT: background_label: While GIScience professionals are spatially aware and literate to geospatial terminology and options of use, the majority of the general public is not conscious of the location intelligence they disclose when using social media outlets.
+objective_label: This article outlines the integration of a unique technical application with GIScience and the subsequent effect location-based data can have on one’s personal privacy, security, and web-presence.
+method_label: A innovative new ArcGIS add-in is introduced that captures location data from Twitter, harvests ambient location information, analyzes the captured data to provide personal location intelligence, and visualizes possible areas of interest.
+method_label: In addition, the article examines the results and trends discovered through use of this add-in and how these same techniques can be applied to other social media outlets and analytical intents.
+result_label: Finally this article discusses potential opportunities to educate and inform the general public more about their social media location privacy.
+
+===================================
+paper_id: 50786102; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_cbow200
+TITLE: Does putting your emotions into words make you feel better? Measuring the minute-scale dynamics of emotions from online data
+ABSTRACT: background_label: Studies of affect labeling, i.e.
+background_label: putting your feelings into words, indicate that it can attenuate positive and negative emotions.
+method_label: Here we track the evolution of individual emotions for tens of thousands of Twitter users by analyzing the emotional content of their tweets before and after they explicitly report having a strong emotion.
+result_label: Our results reveal how emotions and their expression evolve at the temporal resolution of one minute.
+result_label: While the expression of positive emotions is preceded by a short but steep increase in positive valence and followed by short decay to normal levels, negative emotions build up more slowly, followed by a sharp reversal to previous levels, matching earlier findings of the attenuating effects of affect labeling.
+result_label: We estimate that positive and negative emotions last approximately 1.25 and 1.5 hours from onset to evanescence.
+result_label: A separate analysis for male and female subjects is suggestive of possible gender-specific differences in emotional dynamics.
+
+===================================
+paper_id: 119425731; YEAR: 1972
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidf
+TITLE: Unzerlegbare Darstellungen I
+ABSTRACT: background_label: LetK be the structure got by forgetting the composition law of morphisms in a given category.
+background_label: A linear representation ofK is given by a map V associating with any morphism ϕ: a→e ofK a linear vector space map V(ϕ): V(a)→V(e).
+method_label: We classify thoseK having only finitely many isomorphy classes of indecomposable linear representations.
+other_label: This classification is related to an old paper by Yoshii [3].
+
+===================================
+paper_id: 3330539; YEAR: 2014
+adju relevance: Irrelevant (0)
+difference: 1; annotator2: 1; annotator3: 0
+sources: abs_tfidf - abs_cbow200 - specter
+TITLE: Visualizing patterns of student engagement and performance in MOOCs
+ABSTRACT: background_label: In the last five years, the world has seen a remarkable level of interest in Massive Open Online Courses, or MOOCs.
+background_label: A consistent message from universities participating in MOOC delivery is their eagerness to understand students' online learning processes.
+objective_label: This paper reports on an exploratory investigation of students' learning processes in two MOOCs which have different curriculum and assessment designs.
+objective_label: When viewed through the lens of common MOOC learning analytics, the high level of initial student interest and, ultimately, the high level of attrition, makes these two courses appear very similar to each other, and to MOOCs in general.
+method_label: With the goal of developing a greater understanding of students' patterns of learning behavior in these courses, we investigated alternative learning analytic approaches and visual representations of the output of these analyses.
+method_label: Using these approaches we were able to meaningfully classify student types and visualize patterns of student engagement which were previously unclear.
+result_label: The findings from this research contribute to the educational community's understanding of students' engagement and performance in MOOCs, and also provide the broader learning analytics community with suggestions of new ways to approach learning analytic data analysis and visualization.
+
+===================================
+paper_id: 5437383; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_cbow200 - specter
+TITLE: Deconstructing the Discussion Forum: Student Questions and Computer Science Learning
+ABSTRACT: background_label: Online discussion forums are widely used and hold great promise for supporting students in learning computer science.
+background_label: Understanding how we can best support students in learning computer science through online discussion forums is an important open question for the CS Ed community.
+objective_label: This paper analyzes discussion forum posts from 395 students enrolled in CS2 across two different universities.
+result_label: The results demonstrate that students use the discussion forums often for logistical and relatively shallow questions.
+result_label: However, the largest portion of questions reflect some level of constructive problem-solving activity, and are positively correlated with course grades.
+result_label: Questions that neither describe students' reasoning nor their attempts to solve the problem constitute the smallest percentage of questions, but these questions may be particularly important to attend to because of their relationship to students' prior experience.
+
+===================================
+paper_id: 2061187; YEAR: 2009
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidf
+TITLE: ClubADSL: When your neighbors are your friends
+ABSTRACT: background_label: ADSL is becoming the standard form of residential and small-business broadband Internet access due to, primarily, its low deployment cost.
+background_label: These ADSL residential lines are often deployed with 802.11 Access Points (AP) that provide wireless connectivity.
+background_label: Given the density of ADSL deployment, it is often possible for a residential wireless client to be in range of several other APs, belonging to neighbors, with ADSL connectivity.
+background_label: While the ADSL technology has showed evident limits in terms of capacity (with speeds ranging 1-10 Mbps), the short-range wireless communication can guarantee a much higher capacity (up to 20 Mbps).
+background_label: Furthermore, the ADSL links in the neighborhood are generally under-utilized, since ADSL subscribers do not connect 100% of the time.
+method_label: Therefore, it is possible for a wireless client to simultaneously connect to several APs in range and effectively aggregate their available ADSL bandwidth.In this paper, we introduce ClubADSL, a wireless client that can simultaneously connect to several APs in range on different frequencies and aggregate both their downlink and uplink capacity.
+method_label: ClubADSL is a software that runs locally on the client-side, and it requires neither modification to the existing Internet infrastructure, nor any hardware/protocol upgrades to the 802.11 local area network.
+method_label: We show the feasibility of ClubADSL in seamlessly transmitting TCP traffic, and validate its implementation both in controlled scenarios and with current applications over real ADSL lines.
+result_label: In particular we show that a ClubADSL client can greatly benefit from the aggregated download bandwidth in the case of server-client applications such as video streaming, but can also take advantage of the increased upload bandwidth greatly reducing download times with incentive-based P2P applications such as BitTorrent.
+
+===================================
+paper_id: 7388023; YEAR: 2014
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: specter
+TITLE: Predicting Instructor's Intervention in MOOC forums
+ABSTRACT: background_label: Instructor intervention in student discussion forums is a vital component in Massive Open Online Courses (MOOCs), where personalized interaction is limited.
+objective_label: This paper introduces the problem of predicting instructor interventions in MOOC forums.
+objective_label: We propose several prediction models designed to capture unique aspects of MOOCs, combining course information, forum structure and posts content.
+method_label: Our models abstract contents of individual posts of threads using latent categories, learned jointly with the binary intervention prediction problem.
+result_label: Experiments over data from two Coursera MOOCs demonstrate that incorporating the structure of threads into the learning problem leads to better predictive performance.
+
+===================================
+paper_id: 21791234; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_tfidf
+TITLE: MOOC student dropout: pattern and prevention
+ABSTRACT: background_label: Massive Open Online Course (MOOC) is a completely new education method which appeared in 2012.
+background_label: MOOC is great for life-long learning and educational resource sharing.
+background_label: Until now, there are more than twenty MOOC platforms online.
+background_label: Some studies pointed out that students, however, can hardly follow a course till the end on MOOCs.
+background_label: For most courses, less than 13% of students could follow.
+result_label: Such a high dropout rate will restrict development of MOOCs in the future.
+result_label: This paper shows an observation of MOOC data.
+background_label: A statistic analysis is applied to students' behavioral data.
+background_label: The result is discussed in the perspective of course design on MOOC platform.
+method_label: A general system for predicting students' dropout is developed.
+method_label: With unsupervised learning, the system can fit on different on-going courses.
+method_label: A discussion of this system with Data Structures and Algorithms course is conducted.
+method_label: We also apply the system to Introduction to Computing course to test scalability.
+method_label: Additionally, based on the research above, some suggestions for instructing students on MOOC are given.
+
+===================================
+paper_id: 13065823; YEAR: 2013
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Producing and delivering a coursera MOOC on pattern-oriented software architecture for concurrent and networked software
+ABSTRACT: background_label: A massive open online course (MOOC) is a web-based class environment aimed at large-scale global participation and open access via the Internet.
+background_label: MOOCs are also a disruptive trend changing how education is delivered and funded throughout the world.
+background_label: In the spring of 2013, we developed and taught Vanderbilt's first MOOC, entitled "Pattern-Oriented Software Architecture for Concurrent and Networked Software" (known as the POSA MOOC).
+method_label: This ten-week MOOC was an amalgamation of several courses on software design and programming taken by ~600 undergraduate and graduate students at Vanderbilt during the past decade.
+result_label: Enrollment in our POSA MOOC was more than 50 times (31,000+) that number, consisting of students with a wide range of backgrounds, interests, and expertise from scores of countries around the world.
+objective_label: This paper describes our experiences producing and delivering the POSA MOOC.
+method_label: Where possible, we ground our observations in data from statistics collected via Coursera, which was the delivery platform we used for the POSA MOOC.
+result_label: We also discuss the broader implications of MOOCs on life-long learning and the role they play in improving the quality and productivity of software professionals in academia and industry.
+
+===================================
+paper_id: 32687704; YEAR: 2013
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: What can Social Media teach us about protests? Analyzing the Chilean 2011-12 Student Movement's Network evolution through Twitter data
+ABSTRACT: background_label: Using social media data -specially twitter -of the Chilean 2011-12 student movement, we study their social network evolution over time to analyze how leaders and participants self-organize and spread information.
+method_label: Based on a few key events of the student movement's timeline, we visualize the student network trajectory and analyze their structural and semantic properties.
+method_label: Therefore, in this paper we: i) describe the basic network topology of the 2011-12 Chilean massive student movement; ii) explore how the 180 key central nodes of the movement are connected, self-organize and spread information.
+result_label: We contend that this social media enabled massive movement is yet another manifestation of the network era, which leverages agents' socio-technical networks, and thus accelerates how agents coordinate, mobilize resources and enact collective intelligence.
+
+===================================
+paper_id: 3172352; YEAR: 2012
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: The Goldilocks Effect: Human Infants Allocate Attention to Visual Sequences That Are Neither Too Simple Nor Too Complex
+ABSTRACT: background_label: Human infants, like immature members of any species, must be highly selective in sampling information from their environment to learn efficiently.
+background_label: Failure to be selective would waste precious computational resources on material that is already known (too simple) or unknowable (too complex).
+method_label: In two experiments with 7- and 8-month-olds, we measure infants' visual attention to sequences of events varying in complexity, as determined by an ideal learner model.
+method_label: Infants' probability of looking away was greatest on stimulus items whose complexity (negative log probability) according to the model was either very low or very high.
+result_label: These results suggest a principle of infant attention that may have broad applicability: infants implicitly seek to maintain intermediate rates of information absorption and avoid wasting cognitive resources on overly simple or overly complex events.
+
+===================================
+paper_id: 55957157; YEAR: 2008
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidfcbow200 - title_cbow200
+TITLE: You Stab My Back, I'll Stab Yours: Management Experience and Perceptions of Organization Political Behaviour
+ABSTRACT: background_label: This paper reports the findings of a survey of 250 British managers, exploring their experience and perceptions of organization politics.
+background_label: Political behaviour appeared to be common.
+background_label: Most managers viewed political behaviour as ethical and necessary, and aspects of organizational effectiveness, change, resourcing and reputation were attributed to political tactics, although 80% had no training in this area.
+method_label: Tactics experienced frequently included networking, using ‘key players’ to support initiatives, making friends with power brokers, bending the rules, and self-promotion.
+method_label: Tactics experienced as rare, but not unknown, included misinformation, spreading rumours, and keeping ‘dirt files’ for blackmail.
+result_label: A consistent pattern of responses concerning willingness to engage in politics, the need to act ruthlessly and the appropriateness of reciprocity when faced with political behaviour implies an attitude of ‘you stab my back, I’ll stab yours’.
+result_label: Findings are discussed using an ‘antecedents–behaviours–consequences’ framework of perceived organization politics to guide research.
+
+===================================
+paper_id: 12999574; YEAR: 2014
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Scaling short-answer grading by combining peer assessment with algorithmic scoring
+ABSTRACT: background_label: Peer assessment helps students reflect and exposes them to different ideas.
+background_label: It scales assessment and allows large online classes to use open-ended assignments.
+background_label: However, it requires students to spend significant time grading.
+background_label: How can we lower this grading burden while maintaining quality?
+objective_label: This paper integrates peer and machine grading to preserve the robustness of peer assessment and lower grading burden.
+method_label: In the identify-verify pattern, a grading algorithm first predicts a student grade and estimates confidence, which is used to estimate the number of peer raters required.
+method_label: Peers then identify key features of the answer using a rubric.
+background_label: Finally, other peers verify whether these feature labels were accurately applied.
+background_label: This pattern adjusts the number of peers that evaluate an answer based on algorithmic confidence and peer agreement.
+method_label: We evaluated this pattern with 1370 students in a large, online design class.
+method_label: With only 54% of the student grading time, the identify-verify pattern yields 80-90% of the accuracy obtained by taking the median of three peer scores, and provides more detailed feedback.
+result_label: A second experiment found that verification dramatically improves accuracy with more raters, with a 20% gain over the peer-median with four raters.
+result_label: However, verification also leads to lower initial trust in the grading system.
+result_label: The identify-verify pattern provides an example of how peer work and machine learning can combine to improve the learning experience.
+

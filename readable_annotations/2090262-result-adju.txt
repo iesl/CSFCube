@@ -1,0 +1,1221 @@
+======================================================================
+paper_id: 2090262; YEAR: 1996
+TITLE: Minimizing Manual Annotation Cost In Supervised Training From Corpora
+ABSTRACT: background_label: Corpus-based methods for natural language processing often use supervised training, requiring expensive manual annotation of training corpora.
+objective_label: This paper investigates methods for reducing annotation cost by {\it sample selection}.
+method_label: In this approach, during training the learning program examines many unlabeled examples and selects for labeling (annotation) only those that are most informative at each stage.
+method_label: This avoids redundantly annotating examples that contribute little new information.
+method_label: This paper extends our previous work on {\it committee-based sample selection} for probabilistic classifiers.
+method_label: We describe a family of methods for committee-based sample selection, and report experimental results for the task of stochastic part-of-speech tagging.
+result_label: We find that all variants achieve a significant reduction in annotation cost, though their computational efficiency differs.
+result_label: In particular, the simplest method, which has no parameters to tune, gives excellent results.
+result_label: We also show that sample selection yields a significant reduction in the size of the model used by the tagger.
+===================================
+paper_id: 5789309; YEAR: 2002
+adju relevance: Identical (+3)
+difference: 1; annotator1: 2; annotator3: 3
+sources: specter - abs_tfidfcbow200 - abs_tfidf
+TITLE: Active Learning for Statistical Natural Language Parsing
+ABSTRACT: background_label: It is necessary to have a (large) annotated corpus to build a statistical parser.
+background_label: Acquisition of such a corpus is costly and time-consuming.
+method_label: This paper presents a method to reduce this demand using active learning, which selects what samples to annotate, instead of annotating blindly the whole training corpus.Sample selection for annotation is based upon "representativeness" and "usefulness".
+method_label: A model-based distance is proposed to measure the difference of two sentences and their most likely parse trees.
+method_label: Based on this distance, the active learning process analyzes the sample distribution by clustering and calculates the density of each sample to quantify its representativeness.
+method_label: Further more, a sentence is deemed as useful if the existing model is highly uncertain about its parses, where uncertainty is measured by various entropy-based scores.Experiments are carried out in the shallow semantic parser of an air travel dialog system.
+result_label: Our result shows that for about the same parsing accuracy, we only need to annotate a third of the samples as compared to the usual random selection method.
+
+===================================
+paper_id: 10892928; YEAR: 2004
+adju relevance: Identical (+3)
+difference: 1; annotator1: 2; annotator3: 3
+sources: specter - abs_tfidfcbow200 - abs_tfidf
+TITLE: Sample Selection For Statistical Parsing
+ABSTRACT: background_label: Corpus-based statistical parsing relies on using large quantities of annotated text as training examples.
+background_label: Building this kind of resource is expensive and labor-intensive.
+objective_label: This work proposes to use sample selection to find helpful training examples and reduce human effort spent on annotating less informative ones.
+method_label: We consider several criteria for predicting whether unlabeled data might be a helpful training example.
+method_label: Experiments are performed across two syntactic learning tasks and within the single task of parsing across two learning models to compare the effect of different predictive criteria.
+result_label: We find that sample selection can significantly reduce the size of annotated training corpora and that uncertainty is a robust predictive criterion that can be easily applied to different learning models.
+
+===================================
+paper_id: 10854509; YEAR: 2011
+adju relevance: Identical (+3)
+difference: 3; annotator1: 0; annotator3: 3
+sources: abs_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf
+TITLE: Committee-Based Sample Selection for Probabilistic Classifiers
+ABSTRACT: background_label: In many real-world learning tasks, it is expensive to acquire a sufficient number of labeled examples for training.
+objective_label: This paper investigates methods for reducing annotation cost by `sample selection'.
+method_label: In this approach, during training the learning program examines many unlabeled examples and selects for labeling only those that are most informative at each stage.
+method_label: This avoids redundantly labeling examples that contribute little new information.
+result_label: Our work follows on previous research on Query By Committee, extending the committee-based paradigm to the context of probabilistic classification.
+background_label: We describe a family of empirical methods for committee-based sample selection in probabilistic classification models, which evaluate the informativeness of an example by measuring the degree of disagreement between several model variants.
+method_label: These variants (the committee) are drawn randomly from a probability distribution conditioned by the training set labeled so far.
+method_label: The method was applied to the real-world natural language processing task of stochastic part-of-speech tagging.
+result_label: We find that all variants of the method achieve a significant reduction in annotation cost, although their computational efficiency differs.
+method_label: In particular, the simplest variant, a two member committee with no parameters to tune, gives excellent results.
+result_label: We also show that sample selection yields a significant reduction in the size of the model used by the tagger.
+
+===================================
+paper_id: 18610106; YEAR: 1995
+adju relevance: Similar (+2)
+difference: 1; annotator1: 1; annotator3: 2
+sources: abs_cbow200 - abs_tfidfcbow200 - specter - abs_tfidf
+TITLE: Selective Sampling In Natural Language Learning
+ABSTRACT: background_label: Many corpus-based methods for natural language processing are based on supervised training, requiring expensive manual annotation of training corpora.
+objective_label: This paper investigates reducing annotation cost by selective sampling.
+method_label: In this approach, the learner examines many unlabeled examples and selects for labeling only those that are most informative at each stage of training.
+method_label: In this way it is possible to avoid redundantly annotating examples that contribute little new information.
+method_label: The paper first analyzes the issues that need to be addressed when constructing a selective sampling algorithm, arguing for the attractiveness of committee-based sampling methods.
+method_label: We then focus on selective sampling for training probabilistic classifiers, which are commonly applied to problems in statistical natural language processing.
+result_label: We report experimental results of applying a specific type of committee-based sampling during training of a stochastic part-of-speech tagger, and demonstrate substantially improved learning rates over sequential training using all of the text.
+result_label: We are currently implementing and evaluating other variants of committee-based sampling, as discussed in the paper, in order to obtain further insight on optimal design of selective sampling methods.
+
+===================================
+paper_id: 18357997; YEAR: 2015
+adju relevance: Similar (+2)
+difference: 1; annotator1: 2; annotator3: 1
+sources: abs_tfidf - abs_tfidfcbow200 - title_tfidfcbow200 - abs_cbow200 - specter
+TITLE: Combining Active Learning and Partial Annotation for Domain Adaptation of a Japanese Dependency Parser
+ABSTRACT: background_label: AbstractThe machine learning-based approaches that dominate natural language processing research require massive amounts of labeled training data.
+background_label: Active learning has the potential to substantially reduce the human effort needed to prepare this data by allowing annotators to focus on only the most informative training examples.
+objective_label: This paper shows that active learning can be used for domain adaptation of dependency parsers, not just in single-domain settings.
+method_label: We also show that entropy-based query selection strategies can be combined with partial annotation to annotate informative examples in the new domain without annotating full sentences.
+method_label: Simulations are common in work on active learning, but we measured the actual time needed for manual annotation of data to better frame the results obtained in our simulations.
+result_label: We evaluate query strategies based on both full and partial annotation in several domains, and find that they reduce the amount of in-domain training data needed for domain adaptation by up to 75% compared to random selection.
+result_label: We found that partial annotation delivers better indomain performance for the same amount of human effort than full annotation.
+
+===================================
+paper_id: 44176413; YEAR: 2018
+adju relevance: Similar (+2)
+difference: 1; annotator1: 1; annotator3: 2
+sources: abs_cbow200 - abs_tfidfcbow200
+TITLE: Pool-Based Sequential Active Learning for Regression
+ABSTRACT: background_label: Active learning is a machine learning approach for reducing the data labeling effort.
+background_label: Given a pool of unlabeled samples, it tries to select the most useful ones to label so that a model built from them can achieve the best possible performance.
+objective_label: This paper focuses on pool-based sequential active learning for regression (ALR).
+method_label: We first propose three essential criteria that an ALR approach should consider in selecting the most useful unlabeled samples: informativeness, representativeness, and diversity, and compare four existing ALR approaches against them.
+method_label: We then propose a new ALR approach using passive sampling, which considers both the representativeness and the diversity in both the initialization and subsequent iterations.
+method_label: Remarkably, this approach can also be integrated with other existing ALR approaches in the literature to further improve the performance.
+result_label: Extensive experiments on 11 UCI, CMU StatLib, and UFL Media Core datasets from various domains verified the effectiveness of our proposed ALR approaches.
+
+===================================
+paper_id: 14244540; YEAR: 2008
+adju relevance: Similar (+2)
+difference: 1; annotator1: 2; annotator3: 1
+sources: specter - title_tfidfcbow200 - abs_tfidf
+TITLE: Assessing the Costs of Sampling Methods in Active Learning for Annotation
+ABSTRACT: background_label: Traditional Active Learning (AL) techniques assume that the annotation of each datum costs the same.
+background_label: This is not the case when annotating sequences; some sequences will take longer than others.
+method_label: We show that the AL technique which performs best depends on how cost is measured.
+method_label: Applying an hourly cost model based on the results of an annotation user study, we approximate the amount of time necessary to annotate a given sentence.
+method_label: This model allows us to evaluate the effectiveness of AL sampling methods in terms of time spent in annotation.
+result_label: We acheive a 77% reduction in hours from a random baseline to achieve 96.5% tag accuracy on the Penn Treebank.
+result_label: More significantly, we make the case for measuring cost in assessing AL methods.
+
+===================================
+paper_id: 20458388; YEAR: 2008
+adju relevance: Similar (+2)
+difference: 1; annotator1: 1; annotator3: 2
+sources: abs_tfidf
+TITLE: Localized generalization error based active learning for image annotation
+ABSTRACT: background_label: Content-based image auto-annotation becomes a hot research topic owing to the development of image retrieval system and the storing technology of multimedia information.
+background_label: It is a key step in most of those image processing applications.
+objective_label: In this work, we adopt active learning to image annotation for reducing the number of labeled images required for supervised learning procedure.
+method_label: Localized Generalization Error Model (L-GEM) based active learning uses localized generalization error bound as the sample selection criterion.
+method_label: In each turn, the most informative sample from a set of unlabeled samples is selected by the L-GEM based active learning will be labeled and added to the training dataset.
+method_label: A heuristic and a Q value selection improvement methods are introduced in this paper.
+result_label: The experimental results show that the proposed active learning efficiently reduces the number of labeled training samples.
+result_label: Moreover, the improvement method improve the performances in both testing accuracy and training time which are both essential in image annotation applications.
+
+===================================
+paper_id: 199543596; YEAR: 2019
+adju relevance: Similar (+2)
+difference: 2; annotator1: 2; annotator3: 0
+sources: title_tfidfcbow200 - title_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Active Annotation: bootstrapping annotation lexicon and guidelines for supervised NLU learning
+ABSTRACT: background_label: Natural Language Understanding (NLU) models are typically trained in a supervised learning framework.
+background_label: In the case of intent classification, the predicted labels are predefined and based on the designed annotation schema while the labelling process is based on a laborious task where annotators manually inspect each utterance and assign the corresponding label.
+method_label: We propose an Active Annotation (AA) approach where we combine an unsupervised learning method in the embedding space, a human-in-the-loop verification process, and linguistic insights to create lexicons that can be open categories and adapted over time.
+method_label: In particular, annotators define the y-label space on-the-fly during the annotation using an iterative process and without the need for prior knowledge about the input data.
+result_label: We evaluate the proposed annotation paradigm in a real use-case NLU scenario.
+result_label: Results show that our Active Annotation paradigm achieves accurate and higher quality training data, with an annotation speed of an order of magnitude higher with respect to the traditional human-only driven baseline annotation methodology.
+
+===================================
+paper_id: 6526716; YEAR: 2015
+adju relevance: Similar (+2)
+difference: 2; annotator1: 2; annotator3: 0
+sources: abs_tfidfcbow200 - abs_tfidf
+TITLE: An Active Learning Based Approach For Effective Video Annotation And Retrieval
+ABSTRACT: background_label: Conventional multimedia annotation/retrieval systems such as Normalized Continuous Relevance Model (NormCRM) [16] require a fully labeled training data for a good performance.
+background_label: Active Learning, by determining an order for labeling the training data, allows for a good performance even before the training data is fully annotated.
+method_label: In this work we propose an active learning algorithm, which combines a novel measure of sample uncertainty with a novel clustering-based approach for determining sample density and diversity and integrate it with NormCRM.
+method_label: The clusters are also iteratively refined to ensure both feature and label-level agreement among samples.
+result_label: We show that our approach outperforms multiple baselines both on a recent, open character animation dataset and on the popular TRECVID corpus at both the tasks of annotation and text-based retrieval of videos.
+
+===================================
+paper_id: 201698255; YEAR: 2019
+adju relevance: Similar (+2)
+difference: 1; annotator1: 2; annotator3: 1
+sources: abs_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf
+TITLE: Active Learning for Domain Classification in a Commercial Spoken Personal Assistant
+ABSTRACT: background_label: We describe a method for selecting relevant new training data for the LSTM-based domain selection component of our personal assistant system.
+background_label: Adding more annotated training data for any ML system typically improves accuracy, but only if it provides examples not already adequately covered in the existing data.
+background_label: However, obtaining, selecting, and labeling relevant data is expensive.
+objective_label: This work presents a simple technique that automatically identifies new helpful examples suitable for human annotation.
+result_label: Our experimental results show that the proposed method, compared with random-selection and entropy-based methods, leads to higher accuracy improvements given a fixed annotation budget.
+result_label: Although developed and tested in the setting of a commercial intelligent assistant, the technique is of wider applicability.
+
+===================================
+paper_id: 41317619; YEAR: 2002
+adju relevance: Similar (+2)
+difference: 1; annotator1: 2; annotator3: 1
+sources: abs_tfidf
+TITLE: Effective image annotation via active learning
+ABSTRACT: background_label: Images must be annotated to support keyword searches.
+background_label: Sometimes, annotation can be extracted from the surrounding text, but often times, laborious manual annotation cannot be avoided.
+objective_label: To minimize effort in manual annotation, we propose using active learning.
+method_label: Active learning selects the most semantically ambiguous images for users to label, and then propagates these labels to the rest of the images.
+result_label: Our experiments on a sample image-dataset show that active learning can drastically reduce manual annotation effort (by as much as 70%) to achieve high annotation accuracy.
+
+===================================
+paper_id: 10334717; YEAR: 2012
+adju relevance: Similar (+2)
+difference: 2; annotator1: 2; annotator3: 0
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: Annotating handwritten characters with minimal human involvement in a semi-supervised learning strategy
+ABSTRACT: background_label: One obstacle in the automatic analysis of handwritten documents is the huge amount of labeled data typically needed for classifier training.
+background_label: This is especially true when the document scans are of bad quality and different writers and writing styles have to be covered.
+background_label: Consequently, the considerable human effort required in the process currently prohibits the automatic transcription of large document collections.
+method_label: In this paper, two semi-supervised multiview learning approaches are presented, reducing the manual burden by robustly deriving a large number of labels from relatively few manual annotations.
+method_label: The first is based on cluster-level annotation followed by a majority decision, whereas the second casts the labeling process as a retrieval task and derives labels by voting among ranked lists.
+method_label: Both methods are thoroughly evaluated in a handwritten character recognition scenario using realistic document data.
+result_label: It is demonstrated that competitive recognition performance can be maintained by labeling only a fraction of the data.
+
+===================================
+paper_id: 14021373; YEAR: 2016
+adju relevance: Related (+1)
+difference: 2; annotator1: 2; annotator3: 0
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: Extracting PICO Sentences from Clinical Trial Reports using Supervised Distant Supervision.
+ABSTRACT: background_label: Systematic reviews underpin Evidence Based Medicine (EBM) by addressing precise clinical questions via comprehensive synthesis of all relevant published evidence.
+background_label: Authors of systematic reviews typically define a Population/Problem, Intervention, Comparator, and Outcome (a PICO criteria) of interest, and then retrieve, appraise and synthesize results from all reports of clinical trials that meet these criteria.
+background_label: Identifying PICO elements in the full-texts of trial reports is thus a critical yet time-consuming step in the systematic review process.
+objective_label: We seek to expedite evidence synthesis by developing machine learning models to automatically extract sentences from articles relevant to PICO elements.
+method_label: Collecting a large corpus of training data for this task would be prohibitively expensive.
+method_label: Therefore, we derive distant supervision (DS) with which to train models using previously conducted reviews.
+method_label: DS entails heuristically deriving 'soft' labels from an available structured resource.
+method_label: However, we have access only to unstructured, free-text summaries of PICO elements for corresponding articles; we must derive from these the desired sentence-level annotations.
+method_label: To this end, we propose a novel method - supervised distant supervision (SDS) - that uses a small amount of direct supervision to better exploit a large corpus of distantly labeled instances by learning to pseudo-annotate articles using the available DS.
+result_label: We show that this approach tends to outperform existing methods with respect to automated PICO extraction.
+
+===================================
+paper_id: 7436244; YEAR: 2007
+adju relevance: Related (+1)
+difference: 1; annotator1: 1; annotator3: 2
+sources: specter
+TITLE: Semi-Supervised Learning for Part-of-Speech Tagging of Mandarin Transcribed Speech
+ABSTRACT: background_label: In this paper, we investigate bootstrapping part-of-speech (POS) taggers for Mandarin broadcast news (BN) transcripts using co-training, by iteratively retraining two competitive POS taggers from a small set of labeled training data and a large set of unlabeled data.
+method_label: We compare co-training with self-training and our results show that the performance using co-training is significantly better than that from self-training and these semi-supervised learning methods significantly improve tagging accuracy over training only on the small labeled seed corpus.
+method_label: We also investigate a variety of example selection approaches for co-training and find that the computationally expensive, agreement-based selection approach and a more efficient selection approach based on maximizing training utility produce comparable tagging performance from resulting POS taggers.
+result_label: By applying co-training, we are able to build effective POS taggers for Mandarin transcribed speech with the tagging accuracy comparable to that obtained on newswire text.
+
+===================================
+paper_id: 3383786; YEAR: 2017
+adju relevance: Related (+1)
+difference: 2; annotator1: 0; annotator3: 2
+sources: abs_cbow200 - abs_tfidfcbow200
+TITLE: Active Learning for Convolutional Neural Networks: A Core-Set Approach
+ABSTRACT: background_label: Convolutional neural networks (CNNs) have been successfully applied to many recognition and learning tasks using a universal recipe; training a deep model on a very large dataset of supervised examples.
+background_label: However, this approach is rather restrictive in practice since collecting a large set of labeled images is very expensive.
+background_label: One way to ease this problem is coming up with smart ways for choosing images to be labelled from a very large collection (ie.
+background_label: active learning).
+method_label: Our empirical study suggests that many of the active learning heuristics in the literature are not effective when applied to CNNs in batch setting.
+method_label: Inspired by these limitations, we define the problem of active learning as core-set selection, ie.
+method_label: choosing set of points such that a model learned over the selected subset is competitive for the remaining data points.
+method_label: We further present a theoretical result characterizing the performance of any selected subset using the geometry of the datapoints.
+method_label: As an active learning algorithm, we choose the subset which is expected to yield best result according to our characterization.
+result_label: Our experiments show that the proposed method significantly outperforms existing approaches in image classification experiments by a large margin.
+
+===================================
+paper_id: 15819455; YEAR: 1992
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator3: 1
+sources: cited
+TITLE: Information-Based Objective Functions for Active Data Selection
+ABSTRACT: background_label: Learning can be made more efficient if we can actively select particularly salient data points.
+method_label: Within a Bayesian learning framework, objective functions are discussed that measure the expected informativeness of candidate measurements.
+method_label: Three alternative specifications of what we want to gain information about lead to three different criteria for data selection.
+result_label: All these criteria depend on the assumption that the hypothesis space is correct, which may prove to be their main weakness.
+
+===================================
+paper_id: 14971828; YEAR: 2015
+adju relevance: Related (+1)
+difference: 3; annotator1: 3; annotator3: 0
+sources: specter - abs_cbow200 - abs_tfidf
+TITLE: Knowledge Base Population using Semantic Label Propagation
+ABSTRACT: background_label: A crucial aspect of a knowledge base population system that extracts new facts from text corpora, is the generation of training data for its relation extractors.
+method_label: In this paper, we present a method that maximizes the effectiveness of newly trained relation extractors at a minimal annotation cost.
+method_label: Manual labeling can be significantly reduced by Distant Supervision, which is a method to construct training data automatically by aligning a large text corpus with an existing knowledge base of known facts.
+method_label: For example, all sentences mentioning both 'Barack Obama' and 'US' may serve as positive training instances for the relation born_in(subject,object).
+background_label: However, distant supervision typically results in a highly noisy training set: many training sentences do not really express the intended relation.
+method_label: We propose to combine distant supervision with minimal manual supervision in a technique called feature labeling, to eliminate noise from the large and noisy initial training set, resulting in a significant increase of precision.
+method_label: We further improve on this approach by introducing the Semantic Label Propagation method, which uses the similarity between low-dimensional representations of candidate training instances, to extend the training set in order to increase recall while maintaining high precision.
+method_label: Our proposed strategy for generating training data is studied and evaluated on an established test collection designed for knowledge base population tasks.
+result_label: The experimental results show that the Semantic Label Propagation strategy leads to substantial performance gains when compared to existing approaches, while requiring an almost negligible manual annotation effort.
+
+===================================
+paper_id: 8295935; YEAR: 2011
+adju relevance: Related (+1)
+difference: 1; annotator1: 1; annotator3: 0
+sources: abs_tfidf
+TITLE: Active learning in multimedia annotation and retrieval: A survey
+ABSTRACT: background_label: Active learning is a machine learning technique that selects the most informative samples for labeling and uses them as training data.
+background_label: It has been widely explored in multimedia research community for its capability of reducing human annotation effort.
+objective_label: In this article, we provide a survey on the efforts of leveraging active learning in multimedia annotation and retrieval.
+objective_label: We mainly focus on two application domains: image/video annotation and content-based image retrieval.
+method_label: We first briefly introduce the principle of active learning and then we analyze the sample selection criteria.
+method_label: We categorize the existing sample selection strategies used in multimedia annotation and retrieval into five criteria: risk reduction, uncertainty, diversity, density and relevance.
+method_label: We then introduce several classification models used in active learning-based multimedia annotation and retrieval, including semi-supervised learning, multilabel learning and multiple instance learning.
+result_label: We also provide a discussion on several future trends in this research direction.
+result_label: In particular, we discuss cost analysis of human annotation and large-scale interactive multimedia annotation.
+
+===================================
+paper_id: 2172502; YEAR: 2011
+adju relevance: Related (+1)
+difference: 2; annotator1: 2; annotator3: 0
+sources: title_tfidfcbow200 - title_cbow200
+TITLE: Semi-Automatic Labeling of Training Data Sets in Text Classification
+ABSTRACT: background_label: AbstractWeb includes digital libraries and billions of text documents.
+background_label: A fast and simple search through this sizeable set is important for users and researchers.
+background_label: Since manual or rule based document classification is a difficult, time consuming process, automatic classification systems are absolutely needed.
+background_label: Automatic text classification systems demand extensive and proper training data sets.
+background_label: To provide these data sets, usually, numerous unlabeled documents are labeled manually by experts.
+background_label: Manual labeling of documents is a difficult and time consuming process.
+method_label: Moreover, in manual labeling, due to human exhaustion and carelessness, there is the possibility of mistakes.In this study, semi-automatic creation of training data set has been proposed in a way that only a small percentage of this extensive set's documents is labeled manually and the remaining percentage is done automatically.
+result_label: Results show that by labeling only ten percent of the training set, remaining documents can be automatically labeled with 98 percent of accuracy.
+result_label: It is worth mentioning that this reduction in accuracy only occurs in standard data sets, while for large practical data sets, this reduction is trivial compared to the accuracy reduction resulted by human exhaustion and carelessness.
+
+===================================
+paper_id: 49558518; YEAR: 2018
+adju relevance: Related (+1)
+difference: 1; annotator1: 2; annotator3: 1
+sources: abs_tfidf
+TITLE: Deep Learning Based Instance Segmentation in 3D Biomedical Images Using Weak Annotation
+ABSTRACT: background_label: Instance segmentation in 3D images is a fundamental task in biomedical image analysis.
+background_label: While deep learning models often work well for 2D instance segmentation, 3D instance segmentation still faces critical challenges, such as insufficient training data due to various annotation difficulties in 3D biomedical images.
+background_label: Common 3D annotation methods (e.g., full voxel annotation) incur high workloads and costs for labeling enough instances for training deep learning 3D instance segmentation models.
+objective_label: In this paper, we propose a new weak annotation approach for training a fast deep learning 3D instance segmentation model without using full voxel mask annotation.
+method_label: Our approach needs only 3D bounding boxes for all instances and full voxel annotation for a small fraction of the instances, and uses a novel two-stage 3D instance segmentation model utilizing these two kinds of annotation, respectively.
+result_label: We evaluate our approach on several biomedical image datasets, and the experimental results show that (1) with full annotated boxes and a small amount of masks, our approach can achieve similar performance as the best known methods using full annotation, and (2) with similar annotation time, our approach outperforms the best known methods that use full annotation.
+
+===================================
+paper_id: 5836814; YEAR: 2016
+adju relevance: Related (+1)
+difference: 1; annotator1: 1; annotator3: 0
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: Generating Training Data for Semantic Role Labeling based on Label Transfer from Linked Lexical Resources
+ABSTRACT: objective_label: We present a new approach for generating role-labeled training data using Linked Lexical Resources, i.e., integrated lexical resources that combine several resources (e.g., Word-Net, FrameNet, Wiktionary) by linking them on the sense or on the role level.
+objective_label: Unlike resource-based supervision in relation extraction, we focus on complex linguistic annotations, more specifically FrameNet senses and roles.
+result_label: The automatically labeled training data (www.ukp.tu-darmstadt.de/knowledge-based-srl/) are evaluated on four corpora from different domains for the tasks of word sense disambiguation and semantic role classification.
+result_label: Results show that classifiers trained on our generated data equal those resulting from a standard supervised setting.
+
+===================================
+paper_id: 17165137; YEAR: 2015
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator3: 1
+sources: abs_tfidfcbow200 - abs_cbow200 - abs_tfidf
+TITLE: Joint Active Learning with Feature Selection via CUR Matrix Decomposition
+ABSTRACT: background_label: This paper presents an unsupervised learning approach for simultaneous sample and feature selection, which is in contrast to existing works which mainly tackle these two problems separately.
+background_label: In fact the two tasks are often interleaved with each other: noisy and high-dimensional features will bring adverse effect on sample selection, while informative or representative samples will be beneficial to feature selection.
+objective_label: Specifically, we propose a framework to jointly conduct active learning and feature selection based on the CUR matrix decomposition.
+method_label: From the data reconstruction perspective, both the selected samples and features can best approximate the original dataset respectively, such that the selected samples characterized by the features are highly representative.
+method_label: In particular, our method runs in one-shot without the procedure of iterative sample selection for progressive labeling.
+method_label: Thus, our model is especially suitable when there are few labeled samples or even in the absence of supervision, which is a particular challenge for existing methods.
+method_label: As the joint learning problem is NP-hard, the proposed formulation involves a convex but non-smooth optimization problem.
+method_label: We solve it efficiently by an iterative algorithm, and prove its global convergence.
+result_label: Experimental results on publicly available datasets corroborate the efficacy of our method compared with the state-of-the-art.
+
+===================================
+paper_id: 14509765; YEAR: 2007
+adju relevance: Related (+1)
+difference: 1; annotator1: 1; annotator3: 0
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: Reducing correspondence ambiguity in loosely labeled training data
+ABSTRACT: background_label: We develop an approach to reduce correspondence ambiguity in training data where data items are associated with sets of plausible labels.
+background_label: Our domain is images annotated with keywords where it is not known which part of the image a keyword refers to.
+background_label: In contrast to earlier approaches that build predictive models or classifiers despite the ambiguity, we argue that that it is better to first address the correspondence ambiguity, and then build more complex models from the improved training data.
+method_label: This addresses difficulties of fitting complex models in the face of ambiguity while exploiting all the constraints available from the training data.
+result_label: We contribute a simple and flexible formulation of the problem, and show results validated by a recently developed comprehensive evaluation data set and corresponding evaluation methodology.
+
+===================================
+paper_id: 195665523; YEAR: 2019
+adju relevance: Related (+1)
+difference: 1; annotator1: 1; annotator3: 0
+sources: abs_tfidfcbow200 - abs_cbow200 - abs_tfidf
+TITLE: Joint Active Learning with Feature Selection via CUR Matrix Decomposition.
+ABSTRACT: background_label: This paper presents an unsupervised learning approach for simultaneous sample and feature selection, which is in contrast to existing works which mainly tackle these two problems separately.
+background_label: In fact the two tasks are often interleaved with each other: noisy and high-dimensional features will bring adverse effect on sample selection, while informative or representative samples will be beneficial to feature selection.
+objective_label: Specifically, we propose a framework to jointly conduct active learning and feature selection based on the CUR matrix decomposition.
+method_label: From the data reconstruction perspective, both the selected samples and features can best approximate the original dataset respectively, such that the selected samples characterized by the features are highly representative.
+method_label: In particular, our method runs in one-shot without the procedure of iterative sample selection for progressive labeling.
+method_label: Thus, our model is especially suitable when there are few labeled samples or even in the absence of supervision, which is a particular challenge for existing methods.
+method_label: As the joint learning problem is NP-hard, the proposed formulation involves a convex but non-smooth optimization problem.
+method_label: We solve it efficiently by an iterative algorithm, and prove its global convergence.
+result_label: Experimental results on publicly available datasets corroborate the efficacy of our method compared with the state-of-the-art.
+
+===================================
+paper_id: 13502768; YEAR: 2007
+adju relevance: Related (+1)
+difference: 1; annotator1: 1; annotator3: 0
+sources: specter - title_cbow200 - title_tfidfcbow200 - abs_tfidf
+TITLE: An Approach to Text Corpus Construction which Cuts Annotation Costs and Maintains Reusability of Annotated Data
+ABSTRACT: background_label: AbstractWe consider the impact Active Learning (AL) has on effective and efficient text corpus annotation, and report on reduction rates for annotation efforts ranging up until 72%.
+method_label: We also address the issue whether a corpus annotated by means of AL -using a particular classifier and a particular feature set -can be re-used to train classifiers different from the ones employed by AL, supplying alternative feature sets as well.
+result_label: We, finally, report on our experience with the AL paradigm under real-world conditions, i.e., the annotation of large-scale document corpora for the life sciences.
+
+===================================
+paper_id: 15488203; YEAR: 2014
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator3: 1
+sources: abs_tfidfcbow200 - abs_tfidf
+TITLE: An Active Learning Approach for Jointly Estimating Worker Performance and Annotation Reliability with Crowdsourced Data
+ABSTRACT: background_label: Crowdsourcing platforms offer a practical solution to the problem of affordably annotating large datasets for training supervised classifiers.
+background_label: Unfortunately, poor worker performance frequently threatens to compromise annotation reliability, and requesting multiple labels for every instance can lead to large cost increases without guaranteeing good results.
+background_label: Minimizing the required training samples using an active learning selection procedure reduces the labeling requirement but can jeopardize classifier training by focusing on erroneous annotations.
+method_label: This paper presents an active learning approach in which worker performance, task difficulty, and annotation reliability are jointly estimated and used to compute the risk function guiding the sample selection procedure.
+result_label: We demonstrate that the proposed approach, which employs active learning with Bayesian networks, significantly improves training accuracy and correctly ranks the expertise of unknown labelers in the presence of annotation noise.
+
+===================================
+paper_id: 17449944; YEAR: 2010
+adju relevance: Related (+1)
+difference: 1; annotator1: 1; annotator3: 0
+sources: specter - abs_tfidfcbow200 - abs_tfidf
+TITLE: A Comparison of Models for Cost-Sensitive Active Learning
+ABSTRACT: background_label: AbstractActive Learning (AL) is a selective sampling strategy which has been shown to be particularly cost-efficient by drastically reducing the amount of training data to be manually annotated.
+background_label: For the annotation of natural language data, cost efficiency is usually measured in terms of the number of tokens to be considered.
+background_label: This measure, assuming uniform costs for all tokens involved, is, from a linguistic perspective at least, intrinsically inadequate and should be replaced by a more adequate cost indicator, viz.
+background_label: the time it takes to manually label selected annotation examples.
+method_label: We here propose three different approaches to incorporate costs into the AL selection mechanism and evaluate them on the MUC7 T corpus, an extension of the MUC7 newspaper corpus that contains such annotation time information.
+result_label: Our experiments reveal that using a costsensitive version of semi-supervised AL, up to 54% of true annotation time can be saved compared to random selection.
+
+===================================
+paper_id: 17684915; YEAR: 2006
+adju relevance: Related (+1)
+difference: 1; annotator1: 1; annotator3: 0
+sources: abs_cbow200 - abs_tfidfcbow200
+TITLE: Large scale semi-supervised linear SVMs
+ABSTRACT: background_label: Large scale learning is often realistic only in a semi-supervised setting where a small set of labeled examples is available together with a large collection of unlabeled data.
+background_label: In many information retrieval and data mining applications, linear classifiers are strongly preferred because of their ease of implementation, interpretability and empirical performance.
+objective_label: In this work, we present a family of semi-supervised linear support vector classifiers that are designed to handle partially-labeled sparse datasets with possibly very large number of examples and features.
+method_label: At their core, our algorithms employ recently developed modified finite Newton techniques.
+method_label: Our contributions in this paper are as follows: (a) We provide an implementation of Transductive SVM (TSVM) that is significantly more efficient and scalable than currently used dual techniques, for linear classification problems involving large, sparse datasets.
+method_label: (b) We propose a variant of TSVM that involves multiple switching of labels.
+method_label: Experimental results show that this variant provides an order of magnitude further improvement in training efficiency.
+method_label: (c) We present a new algorithm for semi-supervised learning based on a Deterministic Annealing (DA) approach.
+method_label: This algorithm alleviates the problem of local minimum in the TSVM optimization procedure while also being computationally attractive.
+result_label: We conduct an empirical study on several document classification tasks which confirms the value of our methods in large scale semi-supervised settings.
+
+===================================
+paper_id: 8301381; YEAR: 2011
+adju relevance: Related (+1)
+difference: 1; annotator1: 1; annotator3: 0
+sources: abs_cbow200 - abs_tfidfcbow200 - specter
+TITLE: Toward interactive training and evaluation
+ABSTRACT: background_label: Machine learning often relies on costly labeled data, and this impedes its application to new classification and information extraction problems.
+background_label: This has motivated the development of methods for leveraging abundant prior knowledge about these problems, including methods for lightly supervised learning using model expectation constraints.
+method_label: Building on this work, we envision an interactive training paradigm in which practitioners perform evaluation, analyze errors, and provide and refine expectation constraints in a closed loop.
+method_label: In this paper, we focus on several key subproblems in this paradigm that can be cast as selecting a representative sample of the unlabeled data for the practitioner to inspect.
+method_label: To address these problems, we propose stratified sampling methods that use model expectations as a proxy for latent output variables.
+result_label: In classification and sequence labeling experiments, these sampling strategies reduce accuracy evaluation effort by as much as 53%, provide more reliable estimates of $F_1$ for rare labels, and aid in the specification and refinement of constraints.
+
+===================================
+paper_id: 17158052; YEAR: 2014
+adju relevance: Related (+1)
+difference: 1; annotator1: 1; annotator3: 0
+sources: abs_cbow200
+TITLE: Learning on Probabilistic Labels
+ABSTRACT: background_label: AbstractClassification is a fundamental topic in the literature of data mining and all recent hot topics like active learning and transfer learning all rely on the concept of classification.
+background_label: Probabilistic information becomes more prevalent nowadays and can be found easily in many applications like crowdsourcing and pattern recognition.
+objective_label: In this paper, we focus on a dataset which contains probabilistic information for classification.
+method_label: Based on this probabilistic dataset, we propose a classifier and give a theoretical bound linking the error rate of our classifier and the number of instances needed for training.
+method_label: Interestingly, we find that our theoretical bound is asymptotically at least no worse than the previously best-known bounds developed based on the traditional dataset.
+method_label: Furthermore, our classifier guarantees a fast rate of convergence compared with traditional classifiers.
+result_label: Experimental results show that our proposed algorithm has a higher accuracy than the traditional algorithm.
+result_label: We believe that this work is influential since it opens a new topic on the probabilistic dataset, allowing researchers to study all topics related to classification like active learning and transfer learning under this new probabilistic setting.
+
+===================================
+paper_id: 15656809; YEAR: 2008
+adju relevance: Related (+1)
+difference: 1; annotator1: 1; annotator3: 0
+sources: abs_tfidf - specter
+TITLE: Assessing the Costs of Machine-Assisted Corpus Annotation through a User Study
+ABSTRACT: background_label: AbstractFixed, limited budgets often constrain the amount of expert annotation that can go into the construction of annotated corpora.
+background_label: Estimating the cost of annotation is the first step toward using annotation resources wisely.
+objective_label: We present here a study of the cost of annotation.
+method_label: This study includes the participation of annotators at various skill levels and with varying backgrounds.
+method_label: Conducted over the web, the study consists of tests that simulate machine-assisted pre-annotation, requiring correction by the annotator rather than annotation from scratch.
+method_label: The study also includes tests representative of an annotation scenario involving Active Learning as it progresses from a naïve model to a knowledgeable model; in particular, annotators encounter pre-annotation of varying degrees of accuracy.
+method_label: The annotation interface lists tags considered likely by the annotation model in preference to other tags.
+result_label: We present the experimental parameters of the study and report both descriptive and inferential statistics on the results of the study.
+result_label: We conclude with a model for estimating the hourly cost of annotation for annotators of various skill levels.
+result_label: We also present models for two granularities of annotation: sentence at a time and word at a time.
+
+===================================
+paper_id: 53980344; YEAR: 2019
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator3: 1
+sources: abs_tfidfcbow200 - abs_tfidf
+TITLE: Learning From Less Data: A Unified Data Subset Selection and Active Learning Framework for Computer Vision
+ABSTRACT: background_label: Supervised machine learning based state-of-the-art computer vision techniques are in general data hungry.
+background_label: Their data curation poses the challenges of expensive human labeling, inadequate computing resources and larger experiment turn around times.
+background_label: Training data subset selection and active learning techniques have been proposed as possible solutions to these challenges.
+background_label: A special class of subset selection functions naturally model notions of diversity, coverage and representation and can be used to eliminate redundancy thus lending themselves well for training data subset selection.
+method_label: They can also help improve the efficiency of active learning in further reducing human labeling efforts by selecting a subset of the examples obtained using the conventional uncertainty sampling based techniques.
+method_label: In this work, we empirically demonstrate the effectiveness of two diversity models, namely the Facility-Location and Dispersion models for training-data subset selection and reducing labeling effort.
+method_label: We demonstrate this across the board for a variety of computer vision tasks including Gender Recognition, Face Recognition, Scene Recognition, Object Detection and Object Recognition.
+result_label: Our results show that diversity based subset selection done in the right way can increase the accuracy by upto 5 - 10% over existing baselines, particularly in settings in which less training data is available.
+result_label: This allows the training of complex machine learning models like Convolutional Neural Networks with much less training data and labeling costs while incurring minimal performance loss.
+
+===================================
+paper_id: 216772; YEAR: 2014
+adju relevance: Related (+1)
+difference: 1; annotator1: 1; annotator3: 0
+sources: abs_tfidfcbow200 - abs_cbow200
+TITLE: Rediscovering Annotation Projection for Cross-Lingual Parser Induction
+ABSTRACT: background_label: AbstractPrevious research on annotation projection for parser induction across languages showed only limited success and often required substantial language-specific post-processing to fix inconsistencies and to lift the performance onto a useful level.
+background_label: Model transfer was introduced as another quite successful alternative and much research has been devoted to this paradigm recently.
+background_label: In this paper, we revisit annotation projection and show that the previously reported results are mainly spoiled by the flaws of evaluation with incompatible annotation schemes.
+background_label: Lexicalized parsers created on projected data are especially harmed by such discrepancies.
+method_label: However, recently developed cross-lingually harmonized annotation schemes remove this obstacle and restore the abilities of syntactic annotation projection.
+method_label: We demonstrate this by applying projection strategies to a number of European languages and a selection of human and machine-translated data.
+result_label: Our results outperform the simple direct transfer approach by a large margin and also pave the road to cross-lingual parsing without gold POS labels.
+
+===================================
+paper_id: 62249525; YEAR: 1994
+adju relevance: Related (+1)
+difference: 1; annotator1: 0; annotator3: 1
+sources: cited
+TITLE: Improving Generalization with Active Learning
+ABSTRACT: background_label: Active learning differs from “learning from examples” in that the learning algorithm assumes at least some control over what part of the input domain it receives information about.
+objective_label: In some situations, active learning is provably more powerful than learning from examples alone, giving better generalization for a fixed number of training examples.In this article, we consider the problem of learning a binary concept in the absence of noise.
+method_label: We describe a formalism for active concept learning called selective sampling and show how it may be approximately implemented by a neural network.
+result_label: In selective sampling, a learner receives distribution information from the environment and queries an oracle on parts of the domain it considers “useful.” We test our implementation, called an SG-network, on three domains and observe significant improvement in generalization.
+
+===================================
+paper_id: 12789986; YEAR: 2015
+adju relevance: Related (+1)
+difference: 1; annotator1: 1; annotator3: 0
+sources: specter
+TITLE: Model Selection for Type-Supervised Learning with Application to POS Tagging
+ABSTRACT: background_label: Model selection (picking, for example, the feature set and the regularization strength) is crucial for building high-accuracy NLP models.
+background_label: In supervised learning, we can estimate the accuracy of a model on a subset of the labeled data and choose the model with the highest accuracy.
+objective_label: In contrast, here we focus on type-supervised learning, which uses constraints over the possible labels for word types for supervision, and labeled data is either not available or very small.
+method_label: For the setting where no labeled data is available, we perform a comparative study of previously proposed and one novel model selection criterion on type-supervised POS-tagging in nine languages.
+result_label: For the setting where a small labeled set is available, we show that the set should be used for semi-supervised learning rather than for model selection only ‐ using it for model selection reduces the error by less than 5%, whereas using it for semi-supervised learning reduces the error by 44%.
+
+===================================
+paper_id: 9197086; YEAR: 2010
+adju relevance: Related (+1)
+difference: 1; annotator1: 1; annotator3: 0
+sources: title_tfidfcbow200 - title_cbow200 - title_tfidf
+TITLE: Connecting modalities: Semi-supervised segmentation and annotation of images using unaligned text corpora
+ABSTRACT: objective_label: We propose a semi-supervised model which segments and annotates images using very few labeled images and a large unaligned text corpus to relate image regions to text labels.
+background_label: Given photos of a sports event, all that is necessary to provide a pixel-level labeling of objects and background is a set of newspaper articles about this sport and one to five labeled images.
+objective_label: Our model is motivated by the observation that words in text corpora share certain context and feature similarities with visual objects.
+method_label: We describe images using visual words, a new region-based representation.
+method_label: The proposed model is based on kernelized canonical correlation analysis which finds a mapping between visual and textual words by projecting them into a latent meaning space.
+method_label: Kernels are derived from context and adjective features inside the respective visual and textual domains.
+method_label: We apply our method to a challenging dataset and rely on articles of the New York Times for textual features.
+method_label: Our model outperforms the state-of-the-art in annotation.
+result_label: In segmentation it compares favorably with other methods that use significantly more labeled training data.
+
+===================================
+paper_id: 145990252; YEAR: 2019
+adju relevance: Irrelevant (0)
+difference: 2; annotator1: 2; annotator3: 0
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: Learning discriminative features in sequence training without requiring framewise labelled data
+ABSTRACT: objective_label: In this work, we try to answer two questions: Can deeply learned features with discriminative power benefit an ASR system's robustness to acoustic variability?
+background_label: And how to learn them without requiring framewise labelled sequence training data?
+background_label: As existing methods usually require knowing where the labels occur in the input sequence, they have so far been limited to many real-world sequence learning tasks.
+method_label: We propose a novel method which simultaneously models both the sequence discriminative training and the feature discriminative learning within a single network architecture, so that it can learn discriminative deep features in sequence training that obviates the need for presegmented training data.
+result_label: Our experiment in a realistic industrial ASR task shows that, without requiring any specific fine-tuning or additional complexity, our proposed models have consistently outperformed state-of-the-art models and significantly reduced Word Error Rate (WER) under all test conditions, and especially with highest improvements under unseen noise conditions, by relative 12.94%, 8.66% and 5.80%, showing our proposed models can generalize better to acoustic variability.
+
+===================================
+paper_id: 1240000; YEAR: 2007
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator3: 0
+sources: abs_tfidf
+TITLE: Web-based Annotation of Anaphoric Relations and Lexical Chains
+ABSTRACT: background_label: Annotating large text corpora is a time-consuming effort.
+background_label: Although single-user annotation tools are available, web-based annotation applications allow for distributed annotation and file access from different locations.
+objective_label: In this paper we present the web-based annotation application Serengeti for annotating anaphoric relations which will be extended for the annotation of lexical chains.
+
+===================================
+paper_id: 7008675; YEAR: 2008
+adju relevance: Irrelevant (0)
+difference: 2; annotator1: 2; annotator3: 0
+sources: specter
+TITLE: Cheap and Fast – But is it Good? Evaluating Non-Expert Annotations for Natural Language Tasks
+ABSTRACT: background_label: Human linguistic annotation is crucial for many natural language processing tasks but can be expensive and time-consuming.
+objective_label: We explore the use of Amazon's Mechanical Turk system, a significantly cheaper and faster method for collecting annotations from a broad base of paid non-expert contributors over the Web.
+method_label: We investigate five tasks: affect recognition, word similarity, recognizing textual entailment, event temporal ordering, and word sense disambiguation.
+method_label: For all five, we show high agreement between Mechanical Turk non-expert annotations and existing gold standard labels provided by expert labelers.
+method_label: For the task of affect recognition, we also show that using non-expert labels for training machine learning algorithms can be as effective as using gold standard annotations from experts.
+method_label: We propose a technique for bias correction that significantly improves annotation quality on two tasks.
+result_label: We conclude that many large labeling tasks can be effectively designed and carried out in this method at a fraction of the usual expense.
+
+===================================
+paper_id: 647664; YEAR: 2008
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 1; annotator3: 0
+sources: title_tfidfcbow200 - title_cbow200 - specter
+TITLE: Semi-Supervised Sequential Labeling and Segmentation Using Giga-Word Scale Unlabeled Data
+ABSTRACT: background_label: AbstractThis paper provides evidence that the use of more unlabeled data in semi-supervised learning can improve the performance of Natural Language Processing (NLP) tasks, such as part-of-speech tagging, syntactic chunking, and named entity recognition.
+method_label: We first propose a simple yet powerful semi-supervised discriminative model appropriate for handling large scale unlabeled data.
+method_label: Then, we describe experiments performed on widely used test collections, namely, PTB III data, CoNLL'00 and '03 shared task data for the above three NLP tasks, respectively.
+method_label: We incorporate up to 1G-words (one billion tokens) of unlabeled data, which is the largest amount of unlabeled data ever used for these tasks, to investigate the performance improvement.
+result_label: In addition, our results are superior to the best reported results for all of the above test collections.
+
+===================================
+paper_id: 17940187; YEAR: 2015
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator3: 0
+sources: title_tfidf
+TITLE: Minimizing Total Calibration Cost
+ABSTRACT: background_label: Bender et al.
+background_label: (SPAA 2013) have proposed a theoretical framework for testing in contexts where safety mistakes must be avoided.
+background_label: Testing in such a context is made by machines that need to be often calibrated.
+background_label: Given that calibration costs, it is important to study policies minimizing the calibration cost while performing all the necessary tests.
+objective_label: We focus on the single-machine setting and we extend the model proposed by Bender et al.
+method_label: by considering that the jobs have arbitrary processing times and that the preemption of jobs is allowed.
+method_label: For this case, we propose an optimal polynomial time algorithm.
+method_label: Then, we study the case where there are several types of calibrations with different lengths and costs.
+method_label: We first prove that the problem becomes NP-hard for arbitrary processing times even when the preemption of the jobs is allowed.
+result_label: Finally, we focus on the case of unit-time jobs and we show that a more general problem, where the recalibration of the machine is not instantaneous but takes time, can be solved in polynomial time.
+
+===================================
+paper_id: 15197229; YEAR: 1999
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator3: 0
+sources: title_tfidf
+TITLE: Virtual Training for a Manual Assembly Task
+ABSTRACT: objective_label: This paper describes an experiment conducted to investigate the benefits of force feedback for virtual reality training of a real task.
+background_label: Three groups of subjects received different levels of training before completing a manual task, the construction of a LEGO biplane model.
+method_label: One group trained on a Virtual Building Block (VBB) simulation, which emulated the real task in a virtual environment, including haptic feedback.
+method_label: A second group was also trained on the VBB system, but without the force feedback.
+method_label: The last group received no virtual reality training.
+result_label: Completion times were compared for these different groups in building the actual biplane model in the real world ANOVA analysis showed a significant change in performance due to training level.
+
+===================================
+paper_id: 63708941; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 1; annotator3: 0
+sources: title_tfidfcbow200 - title_cbow200 - title_tfidf
+TITLE: Semi-supervised hyperspectral classification from a small number of training samples using a co-training approach
+ABSTRACT: objective_label: Abstract We present a novel semi-supervised algorithm for classification of hyperspectral data from remote sensors.
+method_label: Our method is inspired by the Tracking-Learning-Detection (TLD) framework, originally applied for tracking objects in a video stream.
+method_label: TLD introduced the co-training approach called P-N learning, making use of two independent ‘experts’ (or learners) that scored samples in different feature spaces.
+method_label: In a similar fashion, we formulated the hyperspectral classification task as a co-training problem, that can be solved with the P-N learning scheme.
+method_label: Our method uses both spatial and spectral features of data, extending a small set of initial labelled samples during the process of region growing.
+method_label: We show that this approach is stable and achieves very good accuracy even for small training sets.
+result_label: We analyse the algorithm’s performance on several publicly available hyperspectral data sets.
+
+===================================
+paper_id: 54443011; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 1; annotator3: 0
+sources: title_tfidfcbow200 - title_cbow200
+TITLE: Learning from a tiny dataset of manual annotations: a teacher/student approach for surgical phase recognition
+ABSTRACT: background_label: Vision algorithms capable of interpreting scenes from a real-time video stream are necessary for computer-assisted surgery systems to achieve context-aware behavior.
+background_label: In laparoscopic procedures one particular algorithm needed for such systems is the identification of surgical phases, for which the current state of the art is a model based on a CNN-LSTM.
+background_label: A number of previous works using models of this kind have trained them in a fully supervised manner, requiring a fully annotated dataset.
+objective_label: Instead, our work confronts the problem of learning surgical phase recognition in scenarios presenting scarce amounts of annotated data (under 25% of all available video recordings).
+method_label: We propose a teacher/student type of approach, where a strong predictor called the teacher, trained beforehand on a small dataset of ground truth-annotated videos, generates synthetic annotations for a larger dataset, which another model - the student - learns from.
+method_label: In our case, the teacher features a novel CNN-biLSTM-CRF architecture, designed for offline inference only.
+method_label: The student, on the other hand, is a CNN-LSTM capable of making real-time predictions.
+result_label: Results for various amounts of manually annotated videos demonstrate the superiority of the new CNN-biLSTM-CRF predictor as well as improved performance from the CNN-LSTM trained using synthetic labels generated for unannotated videos.
+result_label: For both offline and online surgical phase recognition with very few annotated recordings available, this new teacher/student strategy provides a valuable performance improvement by efficiently leveraging the unannotated data.
+
+===================================
+paper_id: 3166885; YEAR: 1988
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator3: 0
+sources: cited
+TITLE: A Stochastic Parts Program and Noun Phrase Parser for Unrestricted Text
+ABSTRACT: background_label: A program that tags each word in an input sentence with the most likely part of speech has been written.
+method_label: The program uses a linear-time dynamic programming algorithm to find an assignment of parts of speech to words that optimizes the product of (a) lexical probabilities (probability of observing part of speech i given word i) and (b) contextual probabilities (probability of observing part of speech i given n following parts of speech).
+other_label: Program performance is encouraging; a 400-word sample is presented and is judged to be 99.5% correct.<<ETX>>
+
+===================================
+paper_id: 13993231; YEAR: 2010
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 1; annotator3: 0
+sources: specter - title_tfidfcbow200
+TITLE: Influence of Pre-Annotation on POS-Tagged Corpus Development
+ABSTRACT: background_label: AbstractThis article details a series of carefully designed experiments aiming at evaluating the influence of automatic pre-annotation on the manual part-of-speech annotation of a corpus, both from the quality and the time points of view, with a specific attention drawn to biases.
+method_label: For this purpose, we manually annotated parts of the Penn Treebank corpus (Marcus et al., 1993) under various experimental setups, either from scratch or using various pre-annotations.
+result_label: These experiments confirm and detail the gain in quality observed before (Marcus et al., 1993; Dandapat et al., 2009; Rehbein et al., 2009) , while showing that biases do appear and should be taken into account.
+result_label: They finally demonstrate that even a not so accurate tagger can help improving annotation speed.
+
+===================================
+paper_id: 118988729; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator3: 0
+sources: title_tfidf
+TITLE: A Microphotonic Astrocomb
+ABSTRACT: background_label: One of the essential prerequisites for detection of Earth-like extra-solar planets or direct measurements of the cosmological expansion is the accurate and precise wavelength calibration of astronomical spectrometers.
+background_label: It has already been realized that the large number of exactly known optical frequencies provided by laser frequency combs ('astrocombs') can significantly surpass conventionally used hollow-cathode lamps as calibration light sources.
+background_label: A remaining challenge, however, is generation of frequency combs with lines resolvable by astronomical spectrometers.
+method_label: Here we demonstrate an astrocomb generated via soliton formation in an on-chip microphotonic resonator ('microresonator') with a resolvable line spacing of 23.7 GHz.
+method_label: This comb is providing wavelength calibration on the 10 cm/s radial velocity level on the GIANO-B high-resolution near-infrared spectrometer.
+result_label: As such, microresonator frequency combs have the potential of providing broadband wavelength calibration for the next-generation of astronomical instruments in planet-hunting and cosmological research.
+
+===================================
+paper_id: 776812; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 1; annotator3: 0
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: Deep Learning with Minimal Training Data: TurkuNLP Entry in the BioNLP Shared Task 2016
+ABSTRACT: background_label: AbstractWe present the TurkuNLP entry to the BioNLP Shared Task 2016 Bacteria Biotopes event extraction (BB3-event) subtask.
+method_label: We propose a deep learningbased approach to event extraction using a combination of several Long Short-Term Memory (LSTM) networks over syntactic dependency graphs.
+method_label: Features for the proposed neural network are generated based on the shortest path connecting the two candidate entities in the dependency graph.
+method_label: We further detail how this network can be efficiently trained to have good generalization performance even when only a very limited number of training examples are available and part-of-speech (POS) and dependency type feature representations must be learned from scratch.
+result_label: Our method ranked second among the entries to the shared task, achieving an F-score of 52.1% with 62.3% precision and 44.8% recall.
+
+===================================
+paper_id: 44094512; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 2; annotator1: 0; annotator3: 2
+sources: abs_cbow200
+TITLE: Effective Unsupervised Author Disambiguation with Relative Frequencies
+ABSTRACT: objective_label: This work addresses the problem of author name homonymy in the Web of Science.
+method_label: Aiming for an efficient, simple and straightforward solution, we introduce a novel probabilistic similarity measure for author name disambiguation based on feature overlap.
+method_label: Using the researcher-ID available for a subset of the Web of Science, we evaluate the application of this measure in the context of agglomeratively clustering author mentions.
+method_label: We focus on a concise evaluation that shows clearly for which problem setups and at which time during the clustering process our approach works best.
+method_label: In contrast to most other works in this field, we are sceptical towards the performance of author name disambiguation methods in general and compare our approach to the trivial single-cluster baseline.
+result_label: Our results are presented separately for each correct clustering size as we can explain that, when treating all cases together, the trivial baseline and more sophisticated approaches are hardly distinguishable in terms of evaluation results.
+result_label: Our model shows state-of-the-art performance for all correct clustering sizes without any discriminative training and with tuning only one convergence parameter.
+
+===================================
+paper_id: 2729729; YEAR: 1993
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator3: 0
+sources: title_tfidfcbow200 - title_cbow200
+TITLE: Automatic Acquisition of a Large Subcategorization Dictionary from Corpora
+ABSTRACT: background_label: This paper presents a new method for producing a dictionary of subcategorization frames from unlabelled text corpora.
+method_label: It is shown that statistical filtering of the results of a finite state parser running on the output of a stochastic tagger produces high quality results, despite the error rates of the tagger and the parser.
+method_label: Further, it is argued that this method can be used to learn all subcategorization frames, whereas previous methods are not extensible to a general solution to the problem.
+
+===================================
+paper_id: 2498421; YEAR: 2009
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator3: 0
+sources: abs_tfidfcbow200 - abs_cbow200 - specter
+TITLE: Likelihood-based semi-supervised model selection with applications to speech processing
+ABSTRACT: background_label: In conventional supervised pattern recognition tasks, model selection is typically accomplished by minimizing the classification error rate on a set of so-called development data, subject to ground-truth labeling by human experts or some other means.
+background_label: In the context of speech processing systems and other large-scale practical applications, however, such labeled development data are typically costly and difficult to obtain.
+method_label: This article proposes an alternative semi-supervised framework for likelihood-based model selection that leverages unlabeled data by using trained classifiers representing each model to automatically generate putative labels.
+method_label: The errors that result from this automatic labeling are shown to be amenable to results from robust statistics, which in turn provide for minimax-optimal censored likelihood ratio tests that recover the nonparametric sign test as a limiting case.
+method_label: This approach is then validated experimentally using a state-of-the-art automatic speech recognition system to select between candidate word pronunciations using unlabeled speech data that only potentially contain instances of the words under test.
+result_label: Results provide supporting evidence for the utility of this approach, and suggest that it may also find use in other applications of machine learning.
+
+===================================
+paper_id: 3084076; YEAR: 2010
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 1; annotator3: 0
+sources: title_tfidfcbow200 - title_cbow200 - title_tfidf
+TITLE: Cross-Lingual Validity of PropBank in the Manual Annotation of French
+ABSTRACT: background_label: AbstractMethods that re-use existing mono-lingual semantic annotation resources to annotate a new language rely on the hypothesis that the semantic annotation scheme used is cross-lingually valid.
+method_label: We test this hypothesis in an annotation agreement study.
+result_label: We show that the annotation scheme can be applied cross-lingually.
+
+===================================
+paper_id: 16421850; YEAR: 2011
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 1; annotator3: 0
+sources: abs_cbow200 - specter - abs_tfidf
+TITLE: A pairwise ranking based approach to learning with positive and unlabeled examples
+ABSTRACT: background_label: A large fraction of binary classification problems arising in web applications are of the type where the positive class is well defined and compact while the negative class comprises everything else in the distribution for which the classifier is developed; it is hard to represent and sample from such a broad negative class.
+background_label: Classifiers based only on positive and unlabeled examples reduce human annotation effort significantly by removing the burden of choosing a representative set of negative examples.
+method_label: Various methods have been proposed in the literature for building such classifiers.
+method_label: Of these, the state of the art methods are Biased SVM and Elkan & Noto's methods.
+method_label: While these methods often work well in practice, they are computationally expensive since hyperparameter tuning is very important, particularly when the size of labeled positive examples set is small and class imbalance is high.
+result_label: In this paper we propose a pairwise ranking based approach to learn from positive and unlabeled examples (LPU) and we give a theoretical justification for it.
+method_label: We present a pairwise RankSVM (RSVM) based method for our approach.
+method_label: The method is simple, efficient, and its hyperparameters are easy to tune.
+method_label: A detailed experimental study using several benchmark datasets shows that the proposed method gives competitive classification performance compared to the mentioned state of the art methods, while training 3-10 times faster.
+method_label: We also propose an efficient AUC based feature selection technique in the LPU setting and demonstrate its usefulness on the datasets.
+method_label: To get an idea of the goodness of the LPU methods we compare them against supervised learning (SL) methods that also make use of negative examples in training.
+result_label: SL methods give a slightly better performance than LPU methods when there is a rich set of negative examples; however, they are inferior when the number of negative training examples is not large enough.
+
+===================================
+paper_id: 61014458; YEAR: 1991
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator3: 0
+sources: cited
+TITLE: Tagging text with a probabilistic model
+ABSTRACT: background_label: Experiments on the use of a probabilistic model to tag English text, that is, to assign to each word the correct tag (part of speech) in the context of the sentence, are presented.
+method_label: A simple triclass Markov model is used, and the best way to estimate the parameters of this model, depending on the kind and amount of training data that is provided, is found.
+method_label: Two approaches are compared: the use of text that has been tagged by hand and comparing relative frequency counts; and use text without tags and training the model as a hidden Markov process, according to a maximum likelihood principle.
+other_label: Experiments show that the best training is obtained by using as much tagged text as is available, a maximum likelihood training may improve the accuracy of the tagging.<<ETX>>
+
+===================================
+paper_id: 9584295; YEAR: 1974
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator3: 0
+sources: title_tfidfcbow200 - title_cbow200
+TITLE: Statistical Machine Translation with a Small Amount of Bilingual Training Data
+ABSTRACT: background_label: The performance of a statistical machine translation system depends on the size of the available task-specific bilingual training corpus.
+background_label: On the other hand, acquisition of a large high-quality bilingual parallel text for the desired domain and language pair requires a lot of time and effort, and, for some language pairs, is not even possible.
+background_label: Besides, small corpora have certain advantages like low memory and time requirements for the training of a translation system, the possibility of manual corrections and even manual creation.
+background_label: Therefore, investigation of statistical machine translation with small amounts of bilingual training data is receiving more and more attention.
+result_label: This paper gives an overview of the state of the art and presents the most recent results of translation systems trained on sparse bilingual data for two language pairs: Spanish-English, already widely explored with a number of (large) bilingual training corpora available, and Serbian-English a rarely investigated language pair with restricted bilingual resources.
+
+===================================
+paper_id: 118860816; YEAR: 2011
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator3: 0
+sources: title_tfidf
+TITLE: FastJet user manual
+ABSTRACT: background_label: FastJet is a C++ package that provides a broad range of jet finding and analysis tools.
+background_label: It includes efficient native implementations of all widely used 2-to-1 sequential recombination jet algorithms for pp and e+e- collisions, as well as access to 3rd party jet algorithms through a plugin mechanism, including all currently used cone algorithms.
+result_label: FastJet also provides means to facilitate the manipulation of jet substructure, including some common boosted heavy-object taggers, as well as tools for estimation of pileup and underlying-event noise levels, determination of jet areas and subtraction or suppression of noise in jets.
+
+===================================
+paper_id: 62560700; YEAR: 1992
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator3: 0
+sources: cited
+TITLE: Towards history-based grammars: using richer models for probabilistic parsing
+ABSTRACT: background_label: We describe a generative probabilistic model of natural language, which we call HBG, that takes advantage of detailed linguistic information to resolve ambiguity.
+background_label: HBG incorporates lexical, syntactic, semantic, and structural information from the parse tree into the disambiguation process in a novel way.
+method_label: We use a corpus of bracketed sentences, called a Tree-bank, in combination with decision tree building to tease out the relevant aspects of a parse tree that will determine the correct parse of a sentence.
+method_label: This stands in contrast to the usual approach of further grammar tailoring via the usual linguistic introspection in the hope of generating the correct parse.
+result_label: In head-to-head tests against one of the best existing robust probabilistic parsing models, which we call P-CFG, the HBG model significantly outperforms P-CFG, increasing the parsing accuracy rate from 60% to 75%, a 37% reduction in error.
+
+===================================
+paper_id: 6300554; YEAR: 1997
+adju relevance: Irrelevant (0)
+difference: 2; annotator1: 2; annotator3: 0
+sources: title_tfidfcbow200 - title_cbow200 - title_tfidf
+TITLE: The TreeBanker: a Tool for Supervised Training of Parsed Corpora
+ABSTRACT: background_label: I describe the TreeBanker, a graphical tool for the supervised training involved in domain customization of the disambiguation component of a speech- or language-understanding system.
+background_label: The TreeBanker presents a user, who need not be a system expert, with a range of properties that distinguish competing analyses for an utterance and that are relatively easy to judge.
+result_label: This allows training on a corpus to be completed in far less time, and with far less expertise, than would be needed if analyses were inspected directly: it becomes possible for a corpus of about 20,000 sentences of the complexity of those in the ATIS corpus to be judged in around three weeks of work by a linguistically aware non-expert.
+
+===================================
+paper_id: 457652; YEAR: 2012
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 1; annotator3: 0
+sources: abs_tfidf
+TITLE: Interactive object detection
+ABSTRACT: background_label: In recent years, the rise of digital image and video data available has led to an increasing demand for image annotation.
+method_label: In this paper, we propose an interactive object annotation method that incrementally trains an object detector while the user provides annotations.
+method_label: In the design of the system, we have focused on minimizing human annotation time rather than pure algorithm learning performance.
+method_label: To this end, we optimize the detector based on a realistic annotation cost model based on a user study.
+method_label: Since our system gives live feedback to the user by detecting objects on the fly and predicts the potential annotation costs of unseen images, data can be efficiently annotated by a single user without excessive waiting time.
+method_label: In contrast to popular tracking-based methods for video annotation, our method is suitable for both still images and video.
+result_label: We have evaluated our interactive annotation approach on three datasets, ranging from surveillance, television, to cell microscopy.
+
+===================================
+paper_id: 82456167; YEAR: 2007
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator3: 0
+sources: title_tfidf
+TITLE: Janeway's Immunobiology
+ABSTRACT: background_label: Part I An Introduction to Immunobiology and Innate Immunity 1.
+background_label: Basic Concepts in Immunology 2.
+background_label: Innate Immunity Part II The Recognition of Antigen 3.
+background_label: Antigen Recognition by B-cell and T-cell Receptors 4.
+method_label: The Generation of Lymphocyte Antigen Receptors 5.
+method_label: Antigen Presentation to T Lymphocytes Part III The Development of Mature Lymphocyte Receptor Repertoires 6.
+method_label: Signaling Through Immune System Receptors 7.
+result_label: The Development and Survival of Lymphocytes Part IV The Adaptive Immune Response 8.
+background_label: T Cell-Mediated Immunity 9.
+background_label: The Humoral Immune Response 10.
+background_label: Dynamics of Adaptive Immunity 11.
+other_label: The Mucosal Immune System Part V The Immune System in Health and Disease 12.
+background_label: Failures of Host Defense Mechanism 13.
+other_label: Allergy and Hypersensitivity 14.
+other_label: Autoimmunity and Transplantation 15.
+other_label: Manipulation of the Immune Response Part VI The Origins of Immune Responses 16.
+other_label: Evolution of the Immune System Appendix I Immunologists' Toolbox Appendix II CD Antigens Appendix III Cytokines and their Receptors Appendix IV Chemokines and their Receptors Appendix V Immunological Constants
+
+===================================
+paper_id: 14383018; YEAR: 2015
+adju relevance: Irrelevant (0)
+difference: 2; annotator1: 2; annotator3: 0
+sources: abs_tfidfcbow200 - abs_cbow200
+TITLE: Semi-supervised Learning for Phenotyping Tasks.
+ABSTRACT: background_label: Supervised learning is the dominant approach to automatic electronic health records-based phenotyping, but it is expensive due to the cost of manual chart review.
+background_label: Semi-supervised learning takes advantage of both scarce labeled and plentiful unlabeled data.
+objective_label: In this work, we study a family of semi-supervised learning algorithms based on Expectation Maximization (EM) in the context of several phenotyping tasks.
+method_label: We first experiment with the basic EM algorithm.
+method_label: When the modeling assumptions are violated, basic EM leads to inaccurate parameter estimation.
+method_label: Augmented EM attenuates this shortcoming by introducing a weighting factor that downweights the unlabeled data.
+method_label: Cross-validation does not always lead to the best setting of the weighting factor and other heuristic methods may be preferred.
+result_label: We show that accurate phenotyping models can be trained with only a few hundred labeled (and a large number of unlabeled) examples, potentially providing substantial savings in the amount of the required manual chart review.
+
+===================================
+paper_id: 202237432; YEAR: 2019
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator3: 0
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: Deep learning with sentence embeddings pre-trained on biomedical corpora improves the performance of finding similar sentences in electronic medical records
+ABSTRACT: background_label: Capturing sentence semantics plays a vital role in a range of text mining applications.
+background_label: Despite continuous efforts on the development of related datasets and models in the general domain, both datasets and models are limited in biomedical and clinical domains.
+background_label: The BioCreative/OHNLP organizers have made the first attempt to annotate 1,068 sentence pairs from clinical notes and have called for a community effort to tackle the Semantic Textual Similarity (BioCreative/OHNLP STS) challenge.
+method_label: We developed models using traditional machine learning and deep learning approaches.
+method_label: For the post challenge, we focus on two models: the Random Forest and the Encoder Network.
+method_label: We applied sentence embeddings pre-trained on PubMed abstracts and MIMIC-III clinical notes and updated the Random Forest and the Encoder Network accordingly.
+background_label: The official results demonstrated our best submission was the ensemble of eight models.
+background_label: It achieved a Person correlation coefficient of 0.8328, the highest performance among 13 submissions from 4 teams.
+result_label: For the post challenge, the performance of both Random Forest and the Encoder Network was improved; in particular, the correlation of the Encoder Network was improved by ~13%.
+method_label: During the challenge task, no end-to-end deep learning models had better performance than machine learning models that take manually-crafted features.
+method_label: In contrast, with the sentence embeddings pre-trained on biomedical corpora, the Encoder Network now achieves a correlation of ~0.84, which is higher than the original best model.
+result_label: The ensembled model taking the improved versions of the Random Forest and Encoder Network as inputs further increased performance to 0.8528.
+result_label: Deep learning models with sentence embeddings pre-trained on biomedical corpora achieve the highest performance on the test set.
+
+===================================
+paper_id: 11353077; YEAR: 2005
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 1; annotator3: 0
+sources: abs_tfidf
+TITLE: Detecting Errors in Discontinuous Structural Annotation
+ABSTRACT: background_label: Consistency of corpus annotation is an essential property for the many uses of annotated corpora in computational and theoretical linguistics.
+background_label: While some research addresses the detection of inconsistencies in positional annotation (e.g., part-of-speech) and continuous structural annotation (e.g., syntactic constituency), no approach has yet been developed for automatically detecting annotation errors in discontinuous structural annotation.
+objective_label: This is significant since the annotation of potentially discontinuous stretches of material is increasingly relevant, from tree-banks for free-word order languages to semantic and discourse annotation.In this paper we discuss how the variation n-gram error detection approach (Dickinson and Meurers, 2003a) can be extended to discontinuous structural annotation.
+result_label: We exemplify the approach by showing how it successfully detects errors in the syntactic annotation of the German TIGER corpus (Brants et al., 2002).
+
+===================================
+paper_id: 10813925; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 1; annotator3: 0
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: Generative Adversarial Learning for Reducing Manual Annotation in Semantic Segmentation on Large Scale Miscroscopy Images: Automated Vessel Segmentation in Retinal Fundus Image as Test Case
+ABSTRACT: background_label: Convolutional Neural Network(CNN) based semantic segmentation require extensive pixel level manual annotation which is daunting for large microscopic images.
+objective_label: The paper is aimed towards mitigating this labeling effort by leveraging the recent concept of generative adversarial network(GAN) wherein a generator maps latent noise space to realistic images while a discriminator differentiates between samples drawn from database and generator.
+method_label: We extend this concept to a multi task learning wherein a discriminator-classifier network differentiates between fake/real examples and also assigns correct class labels.
+method_label: Though our concept is generic, we applied it for the challenging task of vessel segmentation in fundus images.
+method_label: We show that proposed method is more data efficient than a CNN.
+result_label: Specifically, with 150K, 30K and 15K training examples, proposed method achieves mean AUC of 0.962, 0.945 and 0.931 respectively, whereas the simple CNN achieves AUC of 0.960, 0.921 and 0.916 respectively.
+
+===================================
+paper_id: 5261517; YEAR: 2008
+adju relevance: Irrelevant (0)
+difference: 2; annotator1: 2; annotator3: 0
+sources: abs_tfidf
+TITLE: Corpus annotation for mining biomedical events from literature
+ABSTRACT: background_label: BACKGROUND Advanced Text Mining (TM) such as semantic enrichment of papers, event or relation extraction, and intelligent Question Answering have increasingly attracted attention in the bio-medical domain.
+background_label: For such attempts to succeed, text annotation from the biological point of view is indispensable.
+background_label: However, due to the complexity of the task, semantic annotation has never been tried on a large scale, apart from relatively simple term annotation.
+result_label: RESULTS We have completed a new type of semantic annotation, event annotation, which is an addition to the existing annotations in the GENIA corpus.
+result_label: The corpus has already been annotated with POS (Parts of Speech), syntactic trees, terms, etc.
+background_label: The new annotation was made on half of the GENIA corpus, consisting of 1,000 Medline abstracts.
+background_label: It contains 9,372 sentences in which 36,114 events are identified.
+objective_label: The major challenges during event annotation were (1) to design a scheme of annotation which meets specific requirements of text annotation, (2) to achieve biology-oriented annotation which reflect biologists' interpretation of text, and (3) to ensure the homogeneity of annotation quality across annotators.
+method_label: To meet these challenges, we introduced new concepts such as Single-facet Annotation and Semantic Typing, which have collectively contributed to successful completion of a large scale annotation.
+result_label: CONCLUSION The resulting event-annotated corpus is the largest and one of the best in quality among similar annotation efforts.
+result_label: We expect it to become a valuable resource for NLP (Natural Language Processing)-based TM in the bio-medical domain.
+
+===================================
+paper_id: 15697654; YEAR: 2009
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 1; annotator3: 0
+sources: abs_tfidfcbow200 - abs_cbow200 - specter
+TITLE: Statistical learning techniques for text categorization with sparse labeled data
+ABSTRACT: background_label: Many applications involve learning a supervised classifier from very few explicitly labeled training examples, since the cost of manually labeling the training data is often prohibitively high.
+background_label: For instance, we expect a good classifier to learn our interests from a few example books or movies we like, and recommend similar ones in the future, or we expect a search engine to give more personalized search results based on whatever little it learned about our past queries and clicked documents.
+background_label: There is thus a need for classification techniques capable of learning from sparse labeled data, by exploiting additional information about the classification task at hand (e.g., background knowledge) or by employing more sophisticated features (e.g., n-gram sequences, trees, graphs).
+objective_label: In this thesis, we focus on two approaches for overcoming the bottleneck of sparse labeled data.
+method_label: We first propose the Inductive/Transductive Latent Model (ILM/TLM), which is a new generative model for text documents.
+background_label: ILM/TLM has various building blocks designed to facilitate the integration of background knowledge (e.g., unlabeled documents, ontologies of concepts, encyclopedia) into the process of learning from small training data.
+method_label: Our method can be used for inductive and transductive learning and achieves significant gains over state-of-the-art methods for very small training sets.
+method_label: Second, we propose Structured Logistic Regression (SLR), which is a new coordinate-wise gradient ascent technique for learning logistic regression in the space of all (word or character) sequences in the training data.
+method_label: SLR exploits the inherent structure of the n-gram feature space in order to automatically provide a compact set of highly discriminative n-gram features.
+result_label: Our detailed experimental study shows that while SLR achieves similar classification results to those of the state-of-the-art methods (which use all n-gram features given explicitly), it is more than an order of magnitude faster than its opponents.
+result_label: The techniques presented in this thesis can be used to advance the technologies for automatically and efficiently building large training sets, therefore reducing the need for spending human computation on this task.
+
+===================================
+paper_id: 1766512; YEAR: 2002
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 1; annotator3: 0
+sources: specter - abs_tfidfcbow200 - title_tfidfcbow200
+TITLE: The use of unlabeled data to improve supervised learning for text summarization
+ABSTRACT: background_label: With the huge amount of information available electronically, there is an increasing demand for automatic text summarization systems.
+background_label: The use of machine learning techniques for this task allows one to adapt summaries to the user needs and to the corpus characteristics.
+background_label: These desirable properties have motivated an increasing amount of work in this field over the last few years.
+method_label: Most approaches attempt to generate summaries by extracting sentence segments and adopt the supervised learning paradigm which requires to label documents at the text span level.
+method_label: This is a costly process, which puts strong limitations on the applicability of these methods.
+method_label: We investigate here the use of semi-supervised algorithms for summarization.
+method_label: These techniques make use of few labeled data together with a larger amount of unlabeled data.
+method_label: We propose new semi-supervised algorithms for training classification models for text summarization.
+result_label: We analyze their performances on two data sets - the Reuters news-wire corpus and the Computation and Language (cmp_lg) collection of TIPSTER SUMMAC.
+result_label: We perform comparisons with a baseline - non learning - system, and a reference trainable summarizer system.
+
+===================================
+paper_id: 383404; YEAR: 2009
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 1; annotator3: 0
+sources: title_tfidfcbow200 - title_cbow200 - specter
+TITLE: Coupling an Annotated Corpus and a Morphosyntactic Lexicon for State-of-the-Art POS Tagging with Less Human Effort
+ABSTRACT: other_label: Abstract.
+objective_label: This paper investigates how to best couple hand-annotated data with information extracted from an external lexical resource to improve POS tagging performance.
+method_label: Focusing on French tagging, we introduce a maximum entropy conditional sequence tagging system that is enriched with information extracted from a morphological resource.
+method_label: This system gives a 97.7% accuracy on the French Treebank, an error reduction of 23% (28% on unknown words) over the same tagger without lexical information.
+method_label: We also conduct experiments on datasets and lexicons of varying sizes in order to assess the best trade-off between annotating data vs. developing a lexicon.
+result_label: We find that the use of a lexicon improves the quality of the tagger at any stage of development of either resource, and that for fixed performance levels the availability of the full lexicon consistently reduces the need for supervised data by at least one half.
+
+===================================
+paper_id: 119425731; YEAR: 1972
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator3: 0
+sources: title_tfidf
+TITLE: Unzerlegbare Darstellungen I
+ABSTRACT: background_label: LetK be the structure got by forgetting the composition law of morphisms in a given category.
+background_label: A linear representation ofK is given by a map V associating with any morphism ϕ: a→e ofK a linear vector space map V(ϕ): V(a)→V(e).
+method_label: We classify thoseK having only finitely many isomorphy classes of indecomposable linear representations.
+other_label: This classification is related to an old paper by Yoshii [3].
+
+===================================
+paper_id: 2820373; YEAR: 2013
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 1; annotator3: 0
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: Exploring Representations from Unlabeled Data with Co-training for Chinese Word Segmentation
+ABSTRACT: background_label: AbstractNowadays supervised sequence labeling models can reach competitive performance on the task of Chinese word segmentation.
+background_label: However, the ability of these models is restricted by the availability of annotated data and the design of features.
+objective_label: We propose a scalable semi-supervised feature engineering approach.
+method_label: In contrast to previous works using pre-defined taskspecific features with fixed values, we dynamically extract representations of label distributions from both an in-domain corpus and an out-of-domain corpus.
+method_label: We update the representation values with a semi-supervised approach.
+result_label: Experiments on the benchmark datasets show that our approach achieve good results and reach an f-score of 0.961.
+result_label: The feature engineering approach proposed here is a general iterative semi-supervised method and not limited to the word segmentation task.
+
+===================================
+paper_id: 5409545; YEAR: 2011
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator3: 0
+sources: abs_cbow200 - abs_tfidfcbow200
+TITLE: Predicting speculation: a simple disambiguation approach to hedge detection in biomedical literature
+ABSTRACT: background_label: BACKGROUND This paper presents a novel approach to the problem of hedge detection, which involves identifying so-called hedge cues for labeling sentences as certain or uncertain.
+background_label: This is the classification problem for Task 1 of the CoNLL-2010 Shared Task, which focuses on hedging in the biomedical domain.
+objective_label: We here propose to view hedge detection as a simple disambiguation problem, restricted to words that have previously been observed as hedge cues.
+method_label: As the feature space for the classifier is still very large, we also perform experiments with dimensionality reduction using the method of random indexing.
+method_label: RESULTS The SVM-based classifiers developed in this paper achieves the best published results so far for sentence-level uncertainty prediction on the CoNLL-2010 Shared Task test data.
+method_label: We also show that the technique of random indexing can be successfully applied for reducing the dimensionality of the original feature space by several orders of magnitude, without sacrificing classifier performance.
+result_label: CONCLUSIONS This paper introduces a simplified approach to detecting speculation or uncertainty in text, focusing on the biomedical domain.
+result_label: Evaluated at the sentence-level, our SVM-based classifiers achieve the best published results so far.
+result_label: We also show that the feature space can be aggressively compressed using random indexing while still maintaining comparable classifier performance.
+
+===================================
+paper_id: 52078335; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 1; annotator3: 0
+sources: abs_cbow200 - abs_tfidfcbow200
+TITLE: SwitchOut: an Efficient Data Augmentation Algorithm for Neural Machine Translation
+ABSTRACT: background_label: In this work, we examine methods for data augmentation for text-based tasks such as neural machine translation (NMT).
+method_label: We formulate the design of a data augmentation policy with desirable properties as an optimization problem, and derive a generic analytic solution.
+method_label: This solution not only subsumes some existing augmentation schemes, but also leads to an extremely simple data augmentation strategy for NMT: randomly replacing words in both the source sentence and the target sentence with other random words from their corresponding vocabularies.
+method_label: We name this method SwitchOut.
+result_label: Experiments on three translation datasets of different scales show that SwitchOut yields consistent improvements of about 0.5 BLEU, achieving better or comparable performances to strong alternatives such as word dropout (Sennrich et al., 2016a).
+result_label: Code to implement this method is included in the appendix.
+
+===================================
+paper_id: 378225; YEAR: 2015
+adju relevance: Irrelevant (0)
+difference: 2; annotator1: 2; annotator3: 0
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: Semi-supervised training in low-resource ASR and KWS
+ABSTRACT: background_label: In particular for “low resource” Keyword Search (KWS) and Speech-to-Text (STT) tasks, more untranscribed test data may be available than training data.
+background_label: Several approaches have been proposed to make this data useful during system development, even when initial systems have Word Error Rates (WER) above 70%.
+method_label: In this paper, we present a set of experiments on low-resource languages in telephony speech quality in Assamese, Bengali, Lao, Haitian, Zulu, and Tamil, demonstrating the impact that such techniques can have, in particular learning robust bottle-neck features on the test data.
+result_label: In the case of Tamil, when significantly more test data than training data is available, we integrated semi-supervised training and speaker adaptation on the test data, and achieved significant additional improvements in STT and KWS.
+
+===================================
+paper_id: 4875760; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 1; annotator3: 0
+sources: title_tfidf
+TITLE: Best Practices in Manual Annotation with the Gene Ontology.
+ABSTRACT: background_label: The Gene Ontology (GO) is a framework designed to represent biological knowledge about gene products' biological roles and the cellular location in which they act.
+background_label: Biocuration is a complex process: the body of scientific literature is large and selection of appropriate GO terms can be challenging.
+background_label: Both these issues are compounded by the fact that our understanding of biology is still incomplete; hence it is important to appreciate that GO is inherently an evolving model.
+objective_label: In this chapter, we describe how biocurators create GO annotations from experimental findings from research articles.
+method_label: We describe the current best practices for high-quality literature curation and how GO curators succeed in modeling biology using a relatively simple framework.
+result_label: We also highlight a number of difficulties when translating experimental assays into GO annotations.
+
+===================================
+paper_id: 14325689; YEAR: 2011
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 1; annotator3: 0
+sources: title_cbow200 - title_tfidfcbow200 - title_tfidf
+TITLE: Label-Specific Training Set Construction from Web Resource for Image Annotation
+ABSTRACT: background_label: Recently many research efforts have been devoted to image annotation by leveraging on the associated tags/keywords of web images as training labels.
+background_label: A key issue to resolve is the relatively low accuracy of the tags.
+objective_label: In this paper, we propose a novel semi-automatic framework to construct a more accurate and effective training set from these web media resources for each label that we want to learn.
+result_label: Experiments conducted on a real-world dataset demonstrate that the constructed training set can result in higher accuracy for image annotation.
+
+===================================
+paper_id: 15297970; YEAR: 2015
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator3: 0
+sources: title_tfidf
+TITLE: IAT - Image Annotation Tool: Manual
+ABSTRACT: background_label: The annotation of image and video data of large datasets is a fundamental task in multimedia information retrieval and computer vision applications.
+background_label: In order to support the users during the image and video annotation process, several software tools have been developed to provide them with a graphical environment which helps drawing object contours, handling tracking information and specifying object metadata.
+method_label: Here we introduce a preliminary version of the image annotation tools developed at the Imaging and Vision Laboratory.
+
+===================================
+paper_id: 53519983; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 1; annotator3: 0
+sources: title_tfidf
+TITLE: Functional Text Dimensions for the annotation of web corpora
+ABSTRACT: objective_label: This paper presents an approach to classifying large web corpora into genres by means of Functional Text Dimensions (FTDs).
+objective_label: This offers a topological approach to text typology in which the texts are described in terms of their similarity to prototype genres.
+method_label: The suggested set of categories is designed to be applicable to any text on the web and to be reliable in annotation practice.
+result_label: Interannotator agreement results show that the suggested categories produce Krippendorff's α at above 0.76.
+method_label: In addition to the functional space of eighteen dimensions, similarity between annotated documents can be described visually within a space of reduced dimensions obtained through t-distributed Statistical Neighbour Embedding.
+method_label: Reliably annotated texts also provide the basis for automatic genre classification, which can be done in each FTD, as well as as within the space of reduced dimensions.
+result_label: An example comparing texts from the Brown Corpus, the BNC and ukWac, a large web corpus, is provided.
+
+===================================
+paper_id: 16314783; YEAR: 2012
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 1; annotator3: 0
+sources: title_tfidf
+TITLE: Noisemes: Manual Annotation of Environmental Noise in Audio Streams
+ABSTRACT: background_label: Audio information retrieval is a difficult problem due to the highly unstructured nature of the data.
+background_label: A general labeling system for identifying audio patterns could unite research efforts in the field.
+objective_label: This paper introduces 42 distinct labels, the “noisemes”, developed for the manual annotation of noise segments as they occur in audio streams of consumer captured and semiprofessionally produced videos.
+method_label: The labels describe distinct noise units based on audio concepts, independent of visual concepts as much as possible.
+result_label: We trained a recognition system using 5.6 hours of manually labeled data, and present recognition results.
+
+===================================
+paper_id: 20255210; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator3: 0
+sources: title_tfidfcbow200 - title_cbow200 - title_tfidf
+TITLE: Train-O-Matic: Large-Scale Supervised Word Sense Disambiguation in Multiple Languages without Manual Training Data
+ABSTRACT: background_label: AbstractAnnotating large numbers of sentences with senses is the heaviest requirement of current Word Sense Disambiguation.
+method_label: We present Train-O-Matic, a languageindependent method for generating millions of sense-annotated training instances for virtually all meanings of words in a language's vocabulary.
+method_label: The approach is fully automatic: no human intervention is required and the only type of human knowledge used is a WordNet-like resource.
+method_label: Train-O-Matic achieves consistently state-of-the-art performance across gold standard datasets and languages, while at the same time removing the burden of manual annotation.
+other_label: All the training data is available for research purposes at http://trainomatic.org.
+
+===================================
+paper_id: 36117198; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator3: 0
+sources: title_tfidf
+TITLE: DeepMind_Commentary
+ABSTRACT: background_label: We agree with Lake and colleagues on their list of key ingredients for building humanlike intelligence, including the idea that model-based reasoning is essential.
+background_label: However, we favor an approach that centers on one additional ingredient: autonomy.
+objective_label: In particular, we aim toward agents that can both build and exploit their own internal models, with minimal human hand-engineering.
+method_label: We believe an approach centered on autonomous learning has the greatest chance of success as we scale toward real-world complexity, tackling domains for which ready-made formal models are not available.
+result_label: Here we survey several important examples of the progress that has been made toward building autonomous agents with humanlike abilities, and highlight some outstanding challenges.
+
+===================================
+paper_id: 9279989; YEAR: 2011
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator3: 0
+sources: abs_tfidfcbow200
+TITLE: Generalizability and Simplicity as Criteria in Feature Selection: Application to Mood Classification in Music
+ABSTRACT: background_label: Classification of musical audio signals according to expressed mood or emotion has evident applications to content-based music retrieval in large databases.
+background_label: Wrapper selection is a dimension reduction method that has been proposed for improving classification performance.
+background_label: However, the technique is prone to lead to overfitting of the training data, which decreases the generalizability of the obtained results.
+method_label: We claim that previous attempts to apply wrapper selection in the field of music information retrieval (MIR) have led to disputable conclusions about the used methods due to inadequate analysis frameworks, indicative of overfitting, and biased results.
+method_label: This paper presents a framework based on cross-indexing for obtaining realistic performance estimate of wrapper selection by taking into account the simplicity and generalizability of the classification models.
+method_label: The framework is applied on sets of film soundtrack excerpts that are consensually associated with particular basic emotions, comparing Naive Bayes, k-NN, and SVM classifiers using both forward selection (FS) and backward elimination (BE).
+result_label: K-NN with BE yields the most promising results - 56.5% accuracy with only four features.
+result_label: The most useful feature subset for k-NN contains mode majorness and key clarity, combined with dynamical, rhythmical, and structural features.
+
+===================================
+paper_id: 1252786; YEAR: 2007
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator3: 0
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: Transductive SVM for reducing the training effort in BCI.
+ABSTRACT: background_label: A brain-computer interface (BCI) provides a communication channel that translates human intention reflected by a brain signal such as electroencephalogram (EEG) into a control signal for an output device.
+objective_label: In this work, the main concern is to reduce the training effort for BCI, which is often tedious and time consuming.
+objective_label: Here we introduce a transductive support vector machines (TSVM) algorithm for the classification of EEG signals associated with mental tasks.
+method_label: TSVM possess the property of using both labeled and unlabeled data for reducing the calibration time in BCI and achieving good performance in classification accuracy.
+result_label: The advantages of the proposed method over the traditional supervised support vector machines (SVM) method are confirmed by about 2%-9% higher classification accuracies on a set of EEG recordings of three subjects from three-tasks-based mental imagery experiments.
+
+===================================
+paper_id: 19504559; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 1; annotator3: 0
+sources: abs_cbow200
+TITLE: Neural Program Meta-Induction
+ABSTRACT: background_label: Most recently proposed methods for Neural Program Induction work under the assumption of having a large set of input/output (I/O) examples for learning any underlying input-output mapping.
+objective_label: This paper aims to address the problem of data and computation efficiency of program induction by leveraging information from related tasks.
+objective_label: Specifically, we propose two approaches for cross-task knowledge transfer to improve program induction in limited-data scenarios.
+method_label: In our first proposal, portfolio adaptation, a set of induction models is pretrained on a set of related tasks, and the best model is adapted towards the new task using transfer learning.
+method_label: In our second approach, meta program induction, a $k$-shot learning approach is used to make a model generalize to new tasks without additional training.
+result_label: To test the efficacy of our methods, we constructed a new benchmark of programs written in the Karel programming language.
+background_label: Using an extensive experimental evaluation on the Karel benchmark, we demonstrate that our proposals dramatically outperform the baseline induction method that does not use knowledge transfer.
+method_label: We also analyze the relative performance of the two approaches and study conditions in which they perform best.
+method_label: In particular, meta induction outperforms all existing approaches under extreme data sparsity (when a very small number of examples are available), i.e., fewer than ten.
+method_label: As the number of available I/O examples increase (i.e.
+result_label: a thousand or more), portfolio adapted program induction becomes the best approach.
+result_label: For intermediate data sizes, we demonstrate that the combined method of adapted meta program induction has the strongest performance.
+
+===================================
+paper_id: 18583839; YEAR: 2011
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 1; annotator3: 0
+sources: title_tfidf
+TITLE: Classification and annotation in social corpora using multiple relations
+ABSTRACT: background_label: We consider the problem of learning to annotate documents with concepts or keywords in content information networks, where the documents may share multiple relations.
+background_label: The concepts associated to a document will depend both on its content and on its neighbors in the network through the different relations.
+method_label: We formalize this problem as single and multi-label classification in a multi-graph, the nodes being the documents and the edges representing the different relations.
+method_label: The proposed algorithm learns to weight the different relations according to their importance for the annotation task.
+result_label: We perform experiments on different corpora corresponding to different annotation tasks on scientific articles, emails and Flickr images and show how the model may take advantage of the rich relational information.
+
+===================================
+paper_id: 11390483; YEAR: 2014
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 1; annotator3: 0
+sources: specter - title_tfidf
+TITLE: Segmentation for Efficient Supervised Language Annotation with an Explicit Cost-Utility Tradeoff
+ABSTRACT: background_label: In this paper, we study the problem of manually correcting automatic annotations of natural language in as efficient a manner as possible.
+method_label: We introduce a method for automatically segmenting a corpus into chunks such that many uncertain labels are grouped into the same chunk, while human supervision can be omitted altogether for other segments.
+method_label: A tradeoff must be found for segment sizes.
+method_label: Choosing short segments allows us to reduce the number of highly confident labels that are supervised by the annotator, which is useful because these labels are often already correct and supervising correct labels is a waste of effort.
+method_label: In contrast, long segments reduce the cognitive effort due to context switches.
+method_label: Our method helps find the segmentation that optimizes supervision efficiency by defining user models to predict the cost and utility of supervising each segment and solving a constrained optimization problem balancing these contradictory objectives.
+result_label: A user study demonstrates noticeable gains over pre-segmented, confidence-ordered baselines on two natural language processing tasks: speech transcription and word segmentation.
+
+===================================
+paper_id: 850965; YEAR: 2015
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator3: 0
+sources: abs_cbow200 - abs_tfidfcbow200
+TITLE: Improving Named Entity Recognition in Tweets via Detecting Non-Standard Words
+ABSTRACT: background_label: Most previous work of text normalization on informal text made a strong assumption that the system has already known which tokens are non-standard words (NSW) and thus need normalization.
+background_label: However, this is not realistic.
+method_label: In this paper, we propose a method for NSW detection.
+method_label: In addition to the information based on the dictionary, e.g., whether a word is out-ofvocabulary (OOV), we leverage novel information derived from the normalization results for OOV words to help make decisions.
+method_label: Second, this paper investigates two methods using NSW detection results for named entity recognition (NER) in social media data.
+method_label: One adopts a pipeline strategy, and the other uses a joint decoding fashion.
+method_label: We also create a new data set with newly added normalization annotation beyond the existing named entity labels.
+method_label: This is the first data set with such annotation and we release it for research purpose.
+result_label: Our experiment results demonstrate the effectiveness of our NSW detection method and the benefit of NSW detection for NER.
+result_label: Our proposed methods perform better than the state-of-the-art NER system.
+
+===================================
+paper_id: 7869993; YEAR: 1992
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 1; annotator3: 0
+sources: cited
+TITLE: Query by committee
+ABSTRACT: background_label: We propose an algorithm called query by commitee, in which a committee of students is trained on the same data set.
+method_label: The next query is chosen according to the principle of maximal disagreement.
+method_label: The algorithm is studied for two toy models: the high-low game and perceptron learning of another perceptron.
+method_label: As the number of queries goes to infinity, the committee algorithm yields asymptotically finite information gain.
+method_label: This leads to generalization error that decreases exponentially with the number of examples.
+method_label: This in marked contrast to learning from randomly chosen inputs, for which the information gain approaches zero and the generalization error decreases with a relatively slow inverse power law.
+result_label: We suggest that asymptotically finite information gain may be an important characteristic of good query algorithms.
+
