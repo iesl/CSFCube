@@ -1,0 +1,51 @@
+pid,facet,year,title,paper type
+10695055,background,2017,Naturalizing a Programming Language via Interactive Learning,data-driven approach
+10014168,background,2002,Unsupervised Learning of Morphology without Morphemes,data-driven approach
+11310392,method,2017,The BURCHAK corpus: a Challenge Data Set for Interactive Learning of Visually Grounded Word Meanings,resources/evaluation
+10010426,method,2017,And That's A Fact: Distinguishing Factual and Emotional Argumentation in Online Dialogue,data-driven approach
+11629674,result,2016,Characterizing the Language of Online Communities and its Relation to Community Reception,resources/evaluation
+1198964,result,2015,Edge-Linear First-Order Dependency Parsing with Undirected Minimum Spanning Tree Inference,data-driven approach
+1198964,method,2015,Edge-Linear First-Order Dependency Parsing with Undirected Minimum Spanning Tree Inference,data-driven approach
+10052042,result,2017,Learning Topic-Sensitive Word Representations,data-driven approach
+53080736,method,2018,FewRel: A Large-Scale Supervised Few-Shot Relation Classification Dataset with State-of-the-Art Evaluation,resources/evaluation
+53080736,result,2018,FewRel: A Large-Scale Supervised Few-Shot Relation Classification Dataset with State-of-the-Art Evaluation,resources/evaluation
+1587,result,2006,Get out the vote: Determining support or opposition from Congressional floor-debate transcripts,data-driven approach
+1587,background,2006,Get out the vote: Determining support or opposition from Congressional floor-debate transcripts,data-driven approach
+2468783,method,2006,Similarity of Semantic Relations,data-driven approach
+2468783,result,2006,Similarity of Semantic Relations,data-driven approach
+1936997,background,2013,"""Not not bad""is not""bad"": A distributional account of negation",data-driven approach
+1936997,method,2013,"""Not not bad""is not""bad"": A distributional account of negation",data-driven approach
+8781666,background,2014,Learning to Win by Reading Manuals in a Monte-Carlo Framework,data-driven approach
+8781666,result,2014,Learning to Win by Reading Manuals in a Monte-Carlo Framework,data-driven approach
+929877,background,2017,Modelling Protagonist Goals and Desires in First-Person Narrative,resources/evaluation
+929877,method,2017,Modelling Protagonist Goals and Desires in First-Person Narrative,resources/evaluation
+174799296,method,2019,From Balustrades to Pierre Vinken: Looking for Syntax in Transformer Self-Attentions,resources/evaluation
+174799296,result,2019,From Balustrades to Pierre Vinken: Looking for Syntax in Transformer Self-Attentions,resources/evaluation
+189897839,background,2019,Sentiment analysis is not solved! Assessing and probing sentiment classification,resources/evaluation
+189897839,method,2019,Sentiment analysis is not solved! Assessing and probing sentiment classification,resources/evaluation
+11844559,background,2014,Unsupervised Induction of Semantic Roles within a Reconstruction-Error Minimization Framework,data-driven approach
+11844559,result,2014,Unsupervised Induction of Semantic Roles within a Reconstruction-Error Minimization Framework,data-driven approach
+5052952,method,2016,Veracity Computing from Lexical Cues and Perceived Certainty Trends,data-driven approach
+5052952,result,2016,Veracity Computing from Lexical Cues and Perceived Certainty Trends,data-driven approach
+1791179,background,2001,A Sequential Model for Multi-Class Classification,data-driven approach
+1791179,method,2001,A Sequential Model for Multi-Class Classification,data-driven approach
+3264891,background,2001,Stacking classifiers for anti-spam filtering of e-mail,data-driven approach
+3264891,result,2001,Stacking classifiers for anti-spam filtering of e-mail,data-driven approach
+52194540,background,2018,Hate Speech Dataset from a White Supremacy Forum,resources/evaluation
+52194540,method,2018,Hate Speech Dataset from a White Supremacy Forum,resources/evaluation
+6431039,background,2009,Language Diversity across the Consonant Inventories: A Study in the Framework of Complex Networks,theoretical
+6431039,result,2009,Language Diversity across the Consonant Inventories: A Study in the Framework of Complex Networks,theoretical
+80628431,method,2019,Studying the Inductive Biases of RNNs with Synthetic Variations of Natural Languages,theoretical
+80628431,result,2019,Studying the Inductive Biases of RNNs with Synthetic Variations of Natural Languages,theoretical
+5764728,background,2003,Embedding Web-based Statistical Translation Models in Cross-Language Information Retrieval,data-driven approach
+51977123,background,2008,Methods to integrate a language model with semantic information for a word prediction component,data-driven approach
+53082542,method,2018,Compact Personalized Models for Neural Machine Translation,data-driven approach
+6173686,background,2001,ABL: Alignment-Based Learning,data-driven approach
+2090262,result,1996,Minimizing Manual Annotation Cost In Supervised Training From Corpora,data-driven approach
+7898033,background,2008,"A Uniform Approach to Analogies, Synonyms, Antonyms, and Associations",data-driven approach
+102353905,method,2019,Document-Level $N$-ary Relation Extraction with Multiscale Representation Learning,data-driven approach
+2360770,result,2014,Your click decides your fate: Inferring Information Processing and Attrition Behavior from MOOC Video Clickstream Interactions,theoretical
+1306065,result,2014,A Convolutional Neural Network for Modelling Sentences,data-driven approach
+13949438,method,2013,Robust Logistic Regression using Shift Parameters (Long Version),data-driven approach
+2865563,result,2014,Improving Statistical Machine Translation for a Resource-Poor Language Using Related Resource-Rich Languages,data-driven approach
+5270848,method,2014,Incremental Adaptation Strategies for Neural Network Language Models,data-driven approach
