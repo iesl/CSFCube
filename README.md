@@ -1,11 +1,13 @@
-## Description of dataset:
+### Description of dataset:
 This dataset accompanies a paper under review at the [SIGIR 2021 Resource Track](http://sigir.org/sigir2021/call-for-resource-papers/index.html).
 
-> Title: "CSFCube -- A Test Collection of Computer Science Papers for Faceted Query by Example"
-> Authors: Sheshera Mysore, Tim O'Gorman, Andrew McCallum, Hamed Zamani
-> Abstract: Query by example is a well-known information retrieval task in which a document is chosen by the user as the search query and the goal is to retrieve relevan documents from a large collection. However, a document often covers multipl aspects of a topic. In this paper, we introduce the task offaceted query by example in which users can also provide a facet in addition to the input document. We focuses on the application of this task in scientific literature search. We envision models which are able to retrieve scientific papers analogous to a query scientific paper along specifically chosen rhetorical structure elements as one solution to this problem. In this work, the rhetorical structure elements, which we refer to as \emph{facets},  indicate background, method, or results aspects of a scientific paper. In this work we introduce and describe an expert annotated test collection to evaluate models trained to perform this task. Our test collection consists of a diverse set of 50 query documents, drawn from computational linguistics and machine learning venues. We carefully followed the annotation guideline used by TREC for depth-k pooling (k = 100 or 250) and the resulting data collection consists of graded relevance scores with high annotation agreement. The data is freely available for research purposes.
+**Title**: "CSFCube -- A Test Collection of Computer Science Papers for Faceted Query by Example"
 
-## Contents:
+**Authors**: Sheshera Mysore, Tim O'Gorman, Andrew McCallum, Hamed Zamani
+
+**Abstract**: Query by example is a well-known information retrieval task in which a document is chosen by the user as the search query and the goal is to retrieve relevan documents from a large collection. However, a document often covers multipl aspects of a topic. In this paper, we introduce the task offaceted query by example in which users can also provide a facet in addition to the input document. We focuses on the application of this task in scientific literature search. We envision models which are able to retrieve scientific papers analogous to a query scientific paper along specifically chosen rhetorical structure elements as one solution to this problem. In this work, the rhetorical structure elements, which we refer to as facets,  indicate background, method, or results aspects of a scientific paper. In this work we introduce and describe an expert annotated test collection to evaluate models trained to perform this task. Our test collection consists of a diverse set of 50 query documents, drawn from computational linguistics and machine learning venues. We carefully followed the annotation guideline used by TREC for depth-k pooling (k = 100 or 250) and the resulting data collection consists of graded relevance scores with high annotation agreement. The data is freely available for research purposes.
+
+### Contents:
 
 		├── abstracts-csfcube-preds.jsonl
 		├── ann_guidelines.pdf
@@ -34,7 +36,7 @@ This dataset accompanies a paper under review at the [SIGIR 2021 Resource Track]
 
 `test-pid2pool-csfcube.json`: JSON file query paper-id, candidate paper-ids and the methods which caused the candidate to be included in the pool. The methods are one among `{abs_tfidf, abs_cbow200, abs_tfidfcbow200, title_tfidf, title_cbow200, title_tfidfcbow200, specter, cited}`. This file is included to facilitate further analysis of the dataset.
 
-## Forthcoming:
+### Forthcoming:
 1. Datasheet.
 2. Script to generate test and development scripts for the dataset. 
 3. License for dataset.
