@@ -1,5 +1,5 @@
 ### Description of dataset:
-This dataset accompanies a paper under review at the [SIGIR 2021 Resource Track](http://sigir.org/sigir2021/call-for-resource-papers/index.html).
+This dataset accompanies the following paper under review at the [SIGIR 2021 Resource Track](http://sigir.org/sigir2021/call-for-resource-papers/index.html).
 
 **Title**: "CSFCube -- A Test Collection of Computer Science Papers for Faceted Query by Example"
 
@@ -40,4 +40,4 @@ This dataset accompanies a paper under review at the [SIGIR 2021 Resource Track]
 1. Datasheet.
 2. Script to generate test and development scripts for the dataset. 
 3. License for dataset.
-
+4. arXiv Link to paper.
