@@ -130,7 +130,7 @@ Q: Will the dataset be distributed to third parties outside of the entity (e.g.,
 A: Yes.     
 
 Q: How will the dataset will be distributed (e.g., tarball on website, API, GitHub)?      
-A: GitHub. Please use the appropriate [release](https://github.com/iesl/CSFCube/releases) to download salient releases of the dataset.      s
+A: GitHub. Please use the appropriate [release](https://github.com/iesl/CSFCube/releases) to download salient releases of the dataset.      
 
 Q: When will the dataset be distributed?     
 A: The dataset has been publicly available since March 3rd 2021.
