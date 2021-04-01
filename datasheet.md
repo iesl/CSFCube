@@ -29,7 +29,20 @@ Q: Are relationships between individual instances made explicit (e.g., users mov
 A: Individual papers (abstracts of which are in the dataset) are part of the citation network, this information is missing from this dataset but it could be obtained from the S2ORC corpus.
 
 Q: Are there recommended data splits (e.g., training, development/validation, testing)?     
-A: The dataset only represents an evaluation set for the tasks it was developed for. Therefore it only consists of development and test splits. We recommend reporting results for each of the facets in the dataset (background, method, result) separately. For each split per facet we follow a 2-fold cross validation approach where half the queries are considered dev and a the other half test, this is done 2 times. Results per query are averaged across the development splits in the 2 folds to obtain the development metric and the scores across the test splits in the two folds give the test score metric.
+A: The dataset only represents an evaluation set for the tasks it was developed for. Therefore it only consists of development and test splits. We recommend reporting results for each of the facets in the dataset (background, method, result) separately along side a facet combined 'all' split. For each split per facet we follow a 2-fold cross validation approach where half the queries are considered dev and a the other half test, this is done 2 times. Results per query are averaged across the development splits in the 2 folds to obtain the development metric and the scores across the test splits in the two folds give the test score metric. The splits are illustrated below for a specific facet where q_1 to q_16 represents queries in a list of 16 queries:
+
+	===============================================================
+	|           |                        |                        |
+	|  fold 1	|   dev1: q_1, ..., q_8  |  test1: q_8, ..., q_16 |
+	|           |                        |                        |
+	===============================================================
+	|           |                        |                        |
+	|  fold 2	|  test2: q_1, ..., q_8  |  dev2: q_8, ..., q_16  |
+	|           |                        |                        |
+	===============================================================
+
+We recommend using the development split of a single fold (1 or 2) for model development to avoid model development on the test metrics. If 
+training a single model for all facets for the task we recommend using a single dev fold for the 'all' set of the data which contains the three facets combined into one. For computing statistical significance of results we recommend using metrics on all the queries, per facet and in the 'all' set.
 
 Q: Are there any errors, sources of noise, or redundancies in the dataset?      
 A: The dataset was built from abstracts, titles, metadata, and the citation network included as part of the S2ORC corpus. Several elements of this corpus were constructed using automatic tools to obtain paper metadata, abstracts, citation span information and so on. This introduces an element of noise in our dataset, for example some candidate abstracts can be noisy (query abstracts were filtered for noise manually). Further the query and candidate abstracts sentences have a label indicating the facet for the sentence, this label was automatically predicted (using this model: [link](https://github.com/allenai/sequential_sentence_classification)) and corrected for the query abstracts but not for the candidate abstracts. Incorrect predictions persist in the dataset.
@@ -65,6 +78,7 @@ Gender Identity- Man: 3, Woman: 1
 National Identity- Indian: 3, USA: 1       
 Race- Asian: 3, White: 1       
 Languages spoken, read or otherwise understood by annotators- English: 4, Hindi: 3, Arabic: 1, Tamil: 1, Telugu: 1, Malayalam: 1, Kannada: 1, Marathi: 1      
+Academic Qualifications obtained of pursuing: PhD in Computer Science: 1, PhD in Linguistics: 1, MS in Computer Science: 3, Bachelors in Computer Science and Engineering: 1, Bachelors in Electronics and Telecommunications Engineering: 1       
 
 ### Collection Process
 
