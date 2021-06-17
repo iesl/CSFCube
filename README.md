@@ -53,6 +53,10 @@ Please use the appropriate [release](https://github.com/iesl/CSFCube/releases) t
 
 `LICENSE.md`: The dataset is released under the [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) license. 
 
+`abstracts-preds.zip`: Hosted separately, here: https://figshare.com/articles/dataset/abstracts-preds_zip/14796339  contains the roughly 800k abstracts from which the pool was built.
+
+
 ### Acknowledgments: 
 
 This dataset was built using the [Semantic Scholar Open Research Corpus](https://github.com/allenai/s2orc)(S2ORC). This dataset also uses the pre-trained models of [sequential_sentence_classification](https://github.com/allenai/sequential_sentence_classification) and [SPECTER](https://github.com/allenai/specter).
+
