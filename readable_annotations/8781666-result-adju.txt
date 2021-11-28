@@ -1,0 +1,1385 @@
+======================================================================
+paper_id: 8781666; YEAR: 2014
+TITLE: Learning to Win by Reading Manuals in a Monte-Carlo Framework
+ABSTRACT: background_label: Domain knowledge is crucial for effective performance in autonomous control systems.
+background_label: Typically, human effort is required to encode this knowledge into a control algorithm.
+objective_label: In this paper, we present an approach to language grounding which automatically interprets text in the context of a complex control application, such as a game, and uses domain knowledge extracted from the text to improve control performance.
+method_label: Both text analysis and control strategies are learned jointly using only a feedback signal inherent to the application.
+method_label: To effectively leverage textual information, our method automatically extracts the text segment most relevant to the current game state, and labels it with a task-centric predicate structure.
+method_label: This labeled text is then used to bias an action selection policy for the game, guiding it towards promising regions of the action space.
+method_label: We encode our model for text analysis and game playing in a multi-layer neural network, representing linguistic decisions via latent variables in the hidden layers, and game action quality via the output layer.
+method_label: Operating within the Monte-Carlo Search framework, we estimate model parameters using feedback from simulated games.
+method_label: We apply our approach to the complex strategy game Civilization II using the official game manual as the text guide.
+result_label: Our results show that a linguistically-informed game-playing agent significantly outperforms its language-unaware counterpart, yielding a 34% absolute improvement and winning over 65% of games when playing against the built-in AI of Civilization.
+===================================
+paper_id: 8781666; YEAR: 2014
+adju relevance: Identical (+3)
+difference: 0; annotator4: 3; annotator3: 3
+sources: cited - abs_tfidfcbow200 - abs_cbow200 - specter
+TITLE: Learning to Win by Reading Manuals in a Monte-Carlo Framework
+ABSTRACT: background_label: Domain knowledge is crucial for effective performance in autonomous control systems.
+background_label: Typically, human effort is required to encode this knowledge into a control algorithm.
+objective_label: In this paper, we present an approach to language grounding which automatically interprets text in the context of a complex control application, such as a game, and uses domain knowledge extracted from the text to improve control performance.
+method_label: Both text analysis and control strategies are learned jointly using only a feedback signal inherent to the application.
+method_label: To effectively leverage textual information, our method automatically extracts the text segment most relevant to the current game state, and labels it with a task-centric predicate structure.
+method_label: This labeled text is then used to bias an action selection policy for the game, guiding it towards promising regions of the action space.
+method_label: We encode our model for text analysis and game playing in a multi-layer neural network, representing linguistic decisions via latent variables in the hidden layers, and game action quality via the output layer.
+method_label: Operating within the Monte-Carlo Search framework, we estimate model parameters using feedback from simulated games.
+method_label: We apply our approach to the complex strategy game Civilization II using the official game manual as the text guide.
+result_label: Our results show that a linguistically-informed game-playing agent significantly outperforms its language-unaware counterpart, yielding a 34% absolute improvement and winning over 65% of games when playing against the built-in AI of Civilization.
+
+===================================
+paper_id: 52985864; YEAR: 2018
+adju relevance: Similar (+2)
+difference: 1; annotator4: 1; annotator3: 2
+sources: abs_cbow200 - abs_tfidfcbow200 - abs_tfidf
+TITLE: Forward Model Approximation for General Video Game Learning
+ABSTRACT: background_label: This paper proposes a novel learning agent model for a General Video Game Playing agent.
+background_label: Our agent learns an approximation of the forward model from repeatedly playing a game and subsequently adapting its behavior to previously unseen levels.
+method_label: To achieve this, it first learns the game mechanics through machine learning techniques and then extracts rule-based symbolic knowledge on different levels of abstraction.
+method_label: When being confronted with new levels of a game, the agent is able to revise its knowledge by a novel belief revision approach.
+method_label: Using methods such as Monte Carlo Tree Search and Breadth First Search, it searches for the best possible action using simulated game episodes.
+method_label: Those simulations are only possible due to reasoning about future states using the extracted rule-based knowledge from random episodes during the learning phase.
+result_label: The developed agent outperforms previous agents by a large margin, while still being limited in its prediction capabilities.
+result_label: The proposed forward model approximation opens a new class of solutions in the context of General Video Game Playing, which do not try to learn a value function, but try to increase their accuracy in modelling the game.
+
+===================================
+paper_id: 52185870; YEAR: 2018
+adju relevance: Similar (+2)
+difference: 2; annotator4: 0; annotator3: 2
+sources: specter - abs_cbow200
+TITLE: Jointly Learning to See, Ask, and GuessWhat
+ABSTRACT: background_label: AbstractWe are interested in understanding how the ability to ground language in vision interacts with other abilities at play in dialogue, such as asking a series of questions to obtain the necessary information to perform a certain task.
+objective_label: With this aim, we develop a Questioner agent in the context of the GuessWhat?!
+objective_label: game.
+method_label: Our model exploits a neural network architecture to build a continuous representation of the dialogue state that integrates information from the visual and linguistic modalities and conditions future action.
+other_label: To play the GuessWhat?!
+background_label: game, the Questioner agent has to be able to do both, ask questions and guess a target object in the visual environment.
+background_label: In our architecture, these two capabilities are considered jointly as a supervised multi-task learning problem, to which cooperative learning can be further applied.
+method_label: We show that the introduction of our new architecture combined with these learning regimes yields an increase of 19.5% in task success accuracy with respect to a baseline model that treats submodules independently.
+result_label: With this increase, we reach an accuracy comparable to state-of-the-art models that use reinforcement learning, with the advantage that our architecture is entirely differentiable and thus easier to train.
+result_label: This suggests that combining our approach with reinforcement learning could lead to further improvements in the future.
+result_label: Finally, we present a range of analyses that examine the quality of the dialogues and shed light on the internal dynamics of the model.
+
+===================================
+paper_id: 1030020; YEAR: 2015
+adju relevance: Similar (+2)
+difference: 0; annotator4: 2; annotator3: 2
+sources: abs_tfidfcbow200 - abs_tfidf
+TITLE: Online learning and mining human play in complex games
+ABSTRACT: background_label: We propose a hybrid model for automatically acquiring a policy for a complex game, which combines online learning with mining knowledge from a corpus of human game play.
+method_label: Our hypothesis is that a player that learns its policies by combining (online) exploration with biases towards human behaviour that's attested in a corpus of humans playing the game will outperform any agent that uses only one of the knowledge sources.
+method_label: During game play, the agent extracts similar moves made by players in the corpus in similar situations, and approximates their utility alongside other possible options by performing simulations from its current state.
+method_label: We implement and assess our model in an agent playing the complex win-lose board game Settlers of Catan, which lacks an implementation that would challenge a human expert.
+result_label: The results from the preliminary set of experiments illustrate the potential of such a joint model.
+
+===================================
+paper_id: 12189893; YEAR: 2014
+adju relevance: Similar (+2)
+difference: 1; annotator4: 1; annotator3: 2
+sources: title_tfidfcbow200
+TITLE: Heuristic move pruning in Monte Carlo Tree Search for the strategic card game Lords of War
+ABSTRACT: background_label: Move pruning is a technique used in game tree search which incorporates heuristic knowledge to reduce the number of moves under consideration from a particular game state.
+objective_label: This paper investigates Heuristic Move Pruning on the strategic card game Lords of War.
+method_label: We use heuristics to guide our pruning and experiment with different techniques of applying pruning and their relative effectiveness.
+method_label: We also present a technique of artificially rolling forward a game state in an attempt to more accurately determine which moves are appropriate to prune from the decision tree.
+result_label: We demonstrate that heuristic move pruning is effective in Lords of War, and also that artificially rolling forward the game state can increase the effectiveness of heuristic move pruning.
+
+===================================
+paper_id: 238873; YEAR: 2009
+adju relevance: Similar (+2)
+difference: 2; annotator4: 0; annotator3: 2
+sources: cited - abs_tfidfcbow200 - abs_cbow200 - specter
+TITLE: Learning Semantic Correspondences with Less Supervision
+ABSTRACT: background_label: A central problem in grounded language acquisition is learning the correspondences between a rich world state and a stream of text which references that world state.
+method_label: To deal with the high degree of ambiguity present in this setting, we present a generative model that simultaneously segments the text into utterances and maps each utterance to a meaning representation grounded in the world state.
+result_label: We show that our model generalizes across three domains of increasing difficulty---Robocup sportscasting, weather forecasts (a new domain), and NFL recaps.
+
+===================================
+paper_id: 2872916; YEAR: 2017
+adju relevance: Similar (+2)
+difference: 1; annotator4: 1; annotator3: 2
+sources: abs_tfidfcbow200
+TITLE: Text-based Adventures of the Golovin AI Agent
+ABSTRACT: background_label: The domain of text-based adventure games has been recently established as a new challenge of creating the agent that is both able to understand natural language, and acts intelligently in text-described environments.
+objective_label: In this paper, we present our approach to tackle the problem.
+objective_label: Our agent, named Golovin, takes advantage of the limited game domain.
+method_label: We use genre-related corpora (including fantasy books and decompiled games) to create language models suitable to this domain.
+method_label: Moreover, we embed mechanisms that allow us to specify, and separately handle, important tasks as fighting opponents, managing inventory, and navigating on the game map.
+method_label: We validated usefulness of these mechanisms, measuring agent's performance on the set of 50 interactive fiction games.
+result_label: Finally, we show that our agent plays on a level comparable to the winner of the last year Text-Based Adventure AI Competition.
+
+===================================
+paper_id: 11357932; YEAR: 2016
+adju relevance: Related (+1)
+difference: 2; annotator4: -1; annotator3: 1
+sources: specter
+TITLE: Learning to Play Guess Who? and Inventing a Grounded Language as a Consequence
+ABSTRACT: background_label: Acquiring your first language is an incredible feat and not easily duplicated.
+background_label: Learning to communicate using nothing but a few pictureless books, a corpus, would likely be impossible even for humans.
+background_label: Nevertheless, this is the dominating approach in most natural language processing today.
+objective_label: As an alternative, we propose the use of situated interactions between agents as a driving force for communication, and the framework of Deep Recurrent Q-Networks for evolving a shared language grounded in the provided environment.
+method_label: We task the agents with interactive image search in the form of the game Guess Who?.
+method_label: The images from the game provide a non trivial environment for the agents to discuss and a natural grounding for the concepts they decide to encode in their communication.
+result_label: Our experiments show that the agents learn not only to encode physical concepts in their words, i.e.
+result_label: grounding, but also that the agents learn to hold a multi-step dialogue remembering the state of the dialogue from step to step.
+
+===================================
+paper_id: 10395192; YEAR: 2010
+adju relevance: Related (+1)
+difference: 1; annotator4: 0; annotator3: 1
+sources: cited - abs_tfidfcbow200 - abs_cbow200 - specter
+TITLE: Learning to Follow Navigational Directions
+ABSTRACT: background_label: AbstractWe present a system that learns to follow navigational natural language directions.
+background_label: Where traditional models learn from linguistic annotation or word distributions, our approach is grounded in the world, learning by apprenticeship from routes through a map paired with English descriptions.
+background_label: Lacking an explicit alignment between the text and the reference path makes it difficult to determine what portions of the language describe which aspects of the route.
+method_label: We learn this correspondence with a reinforcement learning algorithm, using the deviation of the route we follow from the intended path as a reward signal.
+result_label: We demonstrate that our system successfully grounds the meaning of spatial terms like above and south into geometric properties of paths.
+
+===================================
+paper_id: 5902718; YEAR: 2010
+adju relevance: Related (+1)
+difference: 1; annotator4: 0; annotator3: 1
+sources: cited - abs_tfidfcbow200 - abs_cbow200 - specter
+TITLE: Reading between the Lines: Learning to Map High-Level Instructions to Commands
+ABSTRACT: objective_label: AbstractIn this paper, we address the task of mapping high-level instructions to sequences of commands in an external environment.
+objective_label: Processing these instructions is challenging-they posit goals to be achieved without specifying the steps required to complete them.
+method_label: We describe a method that fills in missing information using an automatically derived environment model that encodes states, transitions, and commands that cause these transitions to happen.
+method_label: We present an efficient approximate approach for learning this environment model as part of a policygradient reinforcement learning algorithm for text interpretation.
+method_label: This design enables learning for mapping high-level instructions, which previous statistical methods cannot handle.
+method_label: 1
+
+===================================
+paper_id: 37390552; YEAR: 2017
+adju relevance: Related (+1)
+difference: 1; annotator4: 0; annotator3: 1
+sources: specter
+TITLE: Learning with Latent Language
+ABSTRACT: background_label: The named concepts and compositional operators present in natural language provide a rich source of information about the kinds of abstractions humans use to navigate the world.
+background_label: Can this linguistic background knowledge improve the generality and efficiency of learned classifiers and control policies?
+objective_label: This paper aims to show that using the space of natural language strings as a parameter space is an effective way to capture natural task structure.
+other_label: In a pretraining phase, we learn a language interpretation model that transforms inputs (e.g.
+method_label: images) into outputs (e.g.
+method_label: labels) given natural language descriptions.
+method_label: To learn a new concept (e.g.
+method_label: a classifier), we search directly in the space of descriptions to minimize the interpreter's loss on training examples.
+method_label: Crucially, our models do not require language data to learn these concepts: language is used only in pretraining to impose structure on subsequent learning.
+result_label: Results on image classification, text editing, and reinforcement learning show that, in all settings, models with a linguistic parameterization outperform those without.
+
+===================================
+paper_id: 5059949; YEAR: 2018
+adju relevance: Related (+1)
+difference: 1; annotator4: 0; annotator3: 1
+sources: abs_cbow200 - specter
+TITLE: Attention Based Natural Language Grounding by Navigating Virtual Environment
+ABSTRACT: objective_label: In this work, we focus on the problem of grounding language by training an agent to follow a set of natural language instructions and navigate to a target object in an environment.
+background_label: The agent receives visual information through raw pixels and a natural language instruction telling what task needs to be achieved and is trained in an end-to-end way.
+method_label: We develop an attention mechanism for multi-modal fusion of visual and textual modalities that allows the agent to learn to complete the task and achieve language grounding.
+result_label: Our experimental results show that our attention mechanism outperforms the existing multi-modal fusion mechanisms proposed for both 2D and 3D environments in order to solve the above-mentioned task in terms of both speed and success rate.
+method_label: We show that the learnt textual representations are semantically meaningful as they follow vector arithmetic in the embedding space.
+method_label: The effectiveness of our attention approach over the contemporary fusion mechanisms is also highlighted from the textual embeddings learnt by the different approaches.
+result_label: We also show that our model generalizes effectively to unseen scenarios and exhibit zero-shot generalization capabilities both in 2D and 3D environments.
+other_label: The code for our 2D environment as well as the models that we developed for both 2D and 3D are available at https://github.com/rl-lang-grounding/rl-lang-ground.
+
+===================================
+paper_id: 146808452; YEAR: 2019
+adju relevance: Related (+1)
+difference: 0; annotator4: 1; annotator3: 1
+sources: specter
+TITLE: Comprehensible Context-driven Text Game Playing
+ABSTRACT: background_label: In order to train a computer agent to play a text-based computer game, we must represent each hidden state of the game.
+background_label: A Long Short-Term Memory (LSTM) model running over observed texts is a common choice for state construction.
+background_label: However, a normal Deep Q-learning Network (DQN) for such an agent requires millions of steps of training or more to converge.
+background_label: As such, an LSTM-based DQN can take tens of days to finish the training process.
+method_label: Though we can use a Convolutional Neural Network (CNN) as a text-encoder to construct states much faster than the LSTM, doing so without an understanding of the syntactic context of the words being analyzed can slow convergence.
+method_label: In this paper, we use a fast CNN to encode position- and syntax-oriented structures extracted from observed texts as states.
+method_label: We additionally augment the reward signal in a universal and practical manner.
+result_label: Together, we show that our improvements can not only speed up the process by one order of magnitude but also learn a superior agent.
+
+===================================
+paper_id: 174802906; YEAR: 2019
+adju relevance: Related (+1)
+difference: 0; annotator4: 1; annotator3: 1
+sources: abs_cbow200 - specter
+TITLE: Towards Interpretable Reinforcement Learning Using Attention Augmented Agents
+ABSTRACT: background_label: Inspired by recent work in attention models for image captioning and question answering, we present a soft attention model for the reinforcement learning domain.
+method_label: This model uses a soft, top-down attention mechanism to create a bottleneck in the agent, forcing it to focus on task-relevant information by sequentially querying its view of the environment.
+method_label: The output of the attention mechanism allows direct observation of the information used by the agent to select its actions, enabling easier interpretation of this model than of traditional models.
+method_label: We analyze different strategies that the agents learn and show that a handful of strategies arise repeatedly across different games.
+method_label: We also show that the model learns to query separately about space and content (`where' vs. `what').
+result_label: We demonstrate that an agent using this mechanism can achieve performance competitive with state-of-the-art models on ATARI tasks while still being interpretable.
+
+===================================
+paper_id: 3827692; YEAR: 2018
+adju relevance: Related (+1)
+difference: 0; annotator4: 1; annotator3: 1
+sources: abs_cbow200 - abs_tfidfcbow200
+TITLE: Learning to Play General Video-Games via an Object Embedding Network
+ABSTRACT: background_label: Deep reinforcement learning (DRL) has proven to be an effective tool for creating general video-game AI.
+background_label: However most current DRL video-game agents learn end-to-end from the video-output of the game, which is superfluous for many applications and creates a number of additional problems.
+method_label: More importantly, directly working on pixel-based raw video data is substantially distinct from what a human player does.In this paper, we present a novel method which enables DRL agents to learn directly from object information.
+method_label: This is obtained via use of an object embedding network (OEN) that compresses a set of object feature vectors of different lengths into a single fixed-length unified feature vector representing the current game-state and fulfills the DRL simultaneously.
+method_label: We evaluate our OEN-based DRL agent by comparing to several state-of-the-art approaches on a selection of games from the GVG-AI Competition.
+result_label: Experimental results suggest that our object-based DRL agent yields performance comparable to that of those approaches used in our comparative study.
+
+===================================
+paper_id: 201070814; YEAR: 2019
+adju relevance: Related (+1)
+difference: 0; annotator4: 1; annotator3: 1
+sources: specter - abs_tfidf
+TITLE: Transfer in Deep Reinforcement Learning using Knowledge Graphs
+ABSTRACT: background_label: Text adventure games, in which players must make sense of the world through text descriptions and declare actions through text descriptions, provide a stepping stone toward grounding action in language.
+background_label: Prior work has demonstrated that using a knowledge graph as a state representation and question-answering to pre-train a deep Q-network facilitates faster control policy transfer.
+objective_label: In this paper, we explore the use of knowledge graphs as a representation for domain knowledge transfer for training text-adventure playing reinforcement learning agents.
+result_label: Our methods are tested across multiple computer generated and human authored games, varying in domain and complexity, and demonstrate that our transfer learning methods let us learn a higher-quality control policy faster.
+
+===================================
+paper_id: 182952502; YEAR: 2019
+adju relevance: Related (+1)
+difference: 1; annotator4: 0; annotator3: 1
+sources: specter
+TITLE: A Survey of Reinforcement Learning Informed by Natural Language
+ABSTRACT: background_label: To be successful in real-world tasks, Reinforcement Learning (RL) needs to exploit the compositional, relational, and hierarchical structure of the world, and learn to transfer it to the task at hand.
+background_label: Recent advances in representation learning for language make it possible to build models that acquire world knowledge from text corpora and integrate this knowledge into downstream decision making problems.
+objective_label: We thus argue that the time is right to investigate a tight integration of natural language understanding into RL in particular.
+method_label: We survey the state of the field, including work on instruction following, text games, and learning from textual domain knowledge.
+result_label: Finally, we call for the development of new environments as well as further investigation into the potential uses of recent Natural Language Processing (NLP) techniques for such tasks.
+
+===================================
+paper_id: 6026836; YEAR: 2016
+adju relevance: Related (+1)
+difference: 2; annotator4: 0; annotator3: 2
+sources: title_cbow200
+TITLE: Learning to Poke by Poking: Experiential Learning of Intuitive Physics
+ABSTRACT: background_label: We investigate an experiential learning paradigm for acquiring an internal model of intuitive physics.
+background_label: Our model is evaluated on a real-world robotic manipulation task that requires displacing objects to target locations by poking.
+background_label: The robot gathered over 400 hours of experience by executing more than 100K pokes on different objects.
+method_label: We propose a novel approach based on deep neural networks for modeling the dynamics of robot's interactions directly from images, by jointly estimating forward and inverse models of dynamics.
+method_label: The inverse model objective provides supervision to construct informative visual features, which the forward model can then predict and in turn regularize the feature space for the inverse model.
+method_label: The interplay between these two objectives creates useful, accurate models that can then be used for multi-step decision making.
+method_label: This formulation has the additional benefit that it is possible to learn forward models in an abstract feature space and thus alleviate the need of predicting pixels.
+result_label: Our experiments show that this joint modeling approach outperforms alternative methods.
+
+===================================
+paper_id: 2047201; YEAR: 2015
+adju relevance: Related (+1)
+difference: 0; annotator4: 1; annotator3: 1
+sources: abs_tfidfcbow200 - abs_cbow200 - specter
+TITLE: Deep Reinforcement Learning with an Unbounded Action Space
+ABSTRACT: objective_label: ABSTRACTIn this paper, we propose the deep reinforcement relevance network (DRRN), a novel deep architecture, to design a better model for handling an unbounded action space with applications to language understanding for text-based games.
+background_label: For a particular class of games, a user must choose among a variable number of actions described by text, with the goal of maximizing long-term reward.
+background_label: In these games, the best action is typically that which best fits to the current situation (modeled as a state in the DRRN), also described by text.
+background_label: Because of the exponential complexity of natural language with respect to sentence length, there is typically an unbounded set of unique actions.
+background_label: Therefore, it is difficult to pre-define the action set.
+method_label: To address this challenge, the DRRN extracts separate high-level embedding vectors from the texts that describe states and actions, respectively, using a general interaction function, exploring inner product, bilinear, and DNN interaction, between these embedding vectors to approximate the Q-function.
+result_label: We evaluate the DRRN on two popular text games, showing superior performance over other deep Q-learning architectures.
+
+===================================
+paper_id: 8395799; YEAR: 2015
+adju relevance: Related (+1)
+difference: 0; annotator4: 1; annotator3: 1
+sources: abs_tfidf - specter
+TITLE: Language Understanding for Text-based Games Using Deep Reinforcement Learning
+ABSTRACT: background_label: In this paper, we consider the task of learning control policies for text-based games.
+background_label: In these games, all interactions in the virtual world are through text and the underlying state is not observed.
+background_label: The resulting language barrier makes such environments challenging for automatic game players.
+method_label: We employ a deep reinforcement learning framework to jointly learn state representations and action policies using game rewards as feedback.
+method_label: This framework enables us to map text descriptions into vector representations that capture the semantics of the game states.
+result_label: We evaluate our approach on two game worlds, comparing against baselines using bag-of-words and bag-of-bigrams for state representations.
+result_label: Our algorithm outperforms the baselines on both worlds demonstrating the importance of learning expressive representations.
+
+===================================
+paper_id: 2488088; YEAR: 2008
+adju relevance: Related (+1)
+difference: 1; annotator4: 0; annotator3: 1
+sources: cited - abs_tfidfcbow200 - abs_cbow200 - specter
+TITLE: Learning to sportscast: a test of grounded language acquisition
+ABSTRACT: background_label: We present a novel commentator system that learns language from sportscasts of simulated soccer games.
+method_label: The system learns to parse and generate commentaries without any engineered knowledge about the English language.
+method_label: Training is done using only ambiguous supervision in the form of textual human commentaries and simulation states of the soccer games.
+method_label: The system simultaneously tries to establish correspondences between the commentaries and the simulation states as well as build a translation model.
+method_label: We also present a novel algorithm, Iterative Generation Strategy Learning (IGSL), for deciding which events to comment on.
+result_label: Human evaluations of the generated commentaries indicate they are of reasonable quality compared to human commentaries.
+
+===================================
+paper_id: 166227837; YEAR: 2019
+adju relevance: Related (+1)
+difference: 1; annotator4: 0; annotator3: 1
+sources: specter
+TITLE: Learning Policies from Human Data for Skat
+ABSTRACT: background_label: Decision-making in large imperfect information games is difficult.
+background_label: Thanks to recent success in Poker, Counterfactual Regret Minimization (CFR) methods have been at the forefront of research in these games.
+background_label: However, most of the success in large games comes with the use of a forward model and powerful state abstractions.
+background_label: In trick-taking card games like Bridge or Skat, large information sets and an inability to advance the simulation without fully determinizing the state make forward search problematic.
+background_label: Furthermore, state abstractions can be especially difficult to construct because the precise holdings of each player directly impact move values.
+objective_label: In this paper we explore learning model-free policies for Skat from human game data using deep neural networks (DNN).
+method_label: We produce a new state-of-the-art system for bidding and game declaration by introducing methods to a) directly vary the aggressiveness of the bidder and b) declare games based on expected value while mitigating issues with rarely observed state-action pairs.
+method_label: Although cardplay policies learned through imitation are slightly weaker than the current best search-based method, they run orders of magnitude faster.
+result_label: We also explore how these policies could be learned directly from experience in a reinforcement learning setting and discuss the value of incorporating human data for this task.
+
+===================================
+paper_id: 9772678; YEAR: 2014
+adju relevance: Irrelevant (0)
+difference: 1; annotator4: 0; annotator3: 1
+sources: abs_tfidf
+TITLE: Applications of Genetic Algorithm on Optimal Sequence for Parrondo Games
+ABSTRACT: background_label: Abstract:Parrondo game, which introduction is inspired by the flashing Brownian ratchet, presents an apparently paradoxical situation where there are ways to combine two losing games into a winning one.
+background_label: The original Parrondo game consists of two individual games, game A and game B.
+background_label: Game A is a slightly losing coin-tossing game.
+method_label: Game B has two coins, with an integer parameter M. If the current cumulative capital (in discrete unit) is a multiple of M, an unfavorable coin p b is used, otherwise a favorable p g coin is used.
+background_label: Game B is also a losing game if played alone.
+method_label: Paradoxically, combination of game A and game B could lead to a winning game, either through random mixture, or deterministic switching.
+method_label: In deterministic switching, one plays according to a sequence such as ABABB.
+method_label: Exhaustive search and backward induction have been applied to the search for optimal finite game sequence.
+method_label: In this paper, we apply genetic algorithm (GA) to search for optimal game sequences with a given length N for large N. Based on results obtained through a problem-independent GA, we adapt the point mutation operator and one-point crossover operator to exploit the structure of the optimal game sequences.
+result_label: We show by numerical results the adapted problem-dependent GA has great improvement in performance.
+
+===================================
+paper_id: 82456167; YEAR: 2007
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: title_tfidf
+TITLE: Janeway's Immunobiology
+ABSTRACT: background_label: Part I An Introduction to Immunobiology and Innate Immunity 1.
+background_label: Basic Concepts in Immunology 2.
+background_label: Innate Immunity Part II The Recognition of Antigen 3.
+background_label: Antigen Recognition by B-cell and T-cell Receptors 4.
+method_label: The Generation of Lymphocyte Antigen Receptors 5.
+method_label: Antigen Presentation to T Lymphocytes Part III The Development of Mature Lymphocyte Receptor Repertoires 6.
+method_label: Signaling Through Immune System Receptors 7.
+result_label: The Development and Survival of Lymphocytes Part IV The Adaptive Immune Response 8.
+background_label: T Cell-Mediated Immunity 9.
+background_label: The Humoral Immune Response 10.
+background_label: Dynamics of Adaptive Immunity 11.
+other_label: The Mucosal Immune System Part V The Immune System in Health and Disease 12.
+background_label: Failures of Host Defense Mechanism 13.
+other_label: Allergy and Hypersensitivity 14.
+other_label: Autoimmunity and Transplantation 15.
+other_label: Manipulation of the Immune Response Part VI The Origins of Immune Responses 16.
+other_label: Evolution of the Immune System Appendix I Immunologists' Toolbox Appendix II CD Antigens Appendix III Cytokines and their Receptors Appendix IV Chemokines and their Receptors Appendix V Immunological Constants
+
+===================================
+paper_id: 62672787; YEAR: 2011
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: title_tfidfcbow200 - title_cbow200
+TITLE: Transport appraisal and Monte Carlo simulation by use of the CBA-DK model
+ABSTRACT: background_label: This paper presents the Danish CBA-DK software model for assessment of transport infrastructure projects.
+method_label: The assessment model is based on both a deterministic calculation following the cost-benefit analysis (CBA) methodology in a Danish manual from the Ministry of Transport and on a stochastic calculation, where risk analysis is carried out using Monte Carlo simulation.
+method_label: Special emphasis has been placed on the separation between inherent randomness in the modeling system and lack of knowledge.
+method_label: These two concepts have been defined in terms of variability (ontological uncertainty) and uncertainty (epistemic uncertainty).
+method_label: After a short introduction to deterministic calculation resulting in some evaluation criteria a more comprehensive evaluation of the stochastic calculation is made.
+method_label: Especially, the risk analysis part of CBA-DK, with considerations about which probability distributions should be used, is explained.
+method_label: Furthermore, comprehensive assessments based on the set of distributions are made and implemented by use of a Danish case example.
+result_label: Finally, conclusions and a perspective are presented.
+
+===================================
+paper_id: 14377964; YEAR: 2014
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: abs_cbow200
+TITLE: Natural Language Generation as Incremental Planning Under Uncertainty: Adaptive Information Presentation for Statistical Dialogue Systems
+ABSTRACT: background_label: We present and evaluate a novel approach to natural language generation (NLG) in statistical spoken dialogue systems (SDS) using a data-driven statistical optimization framework for incremental information presentation (IP), where there is a trade-off to be solved between presenting “enough" information to the user while keeping the utterances short and understandable.
+background_label: The trained IP model is adaptive to variation from the current generation context (e.g.
+method_label: a user and a non-deterministic sentence planner), and it incrementally adapts the IP policy at the turn level.
+method_label: Reinforcement learning is used to automatically optimize the IP policy with respect to a data-driven objective function.
+method_label: In a case study on presenting restaurant information, we show that an optimized IP strategy trained on Wizard-of-Oz data outperforms a baseline mimicking the wizard behavior in terms of total reward gained.
+method_label: The policy is then also tested with real users, and improves on a conventional hand-coded IP strategy used in a deployed SDS in terms of overall task success.
+result_label: The evaluation found that the trained IP strategy significantly improves dialogue task completion for real users, with up to a 8.2% increase in task success.
+result_label: This methodology also provides new insights into the nature of the IP problem, which has previously been treated as a module following dialogue management with no access to lower-level context features (e.g.
+result_label: from a surface realizer and/or speech synthesizer).
+
+===================================
+paper_id: 1174836; YEAR: 2009
+adju relevance: Irrelevant (0)
+difference: 1; annotator4: 1; annotator3: 0
+sources: cited - abs_tfidfcbow200 - abs_cbow200 - specter
+TITLE: Reading to Learn: Constructing Features from Semantic Abstracts
+ABSTRACT: background_label: Machine learning offers a range of tools for training systems from data, but these methods are only as good as the underlying representation.
+objective_label: This paper proposes to acquire representations for machine learning by reading text written to accommodate human learning.
+objective_label: We propose a novel form of semantic analysis called reading to learn, where the goal is to obtain a high-level semantic abstract of multiple documents in a representation that facilitates learning.
+method_label: We obtain this abstract through a generative model that requires no labeled data, instead leveraging repetition across multiple documents.
+method_label: The semantic abstract is converted into a transformed feature space for learning, resulting in improved generalization on a relational learning task.
+
+===================================
+paper_id: 52074264; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: abs_cbow200 - abs_tfidfcbow200
+TITLE: Playing 20 Question Game with Policy-Based Reinforcement Learning
+ABSTRACT: background_label: The 20 Questions (Q20) game is a well known game which encourages deductive reasoning and creativity.
+background_label: In the game, the answerer first thinks of an object such as a famous person or a kind of animal.
+method_label: Then the questioner tries to guess the object by asking 20 questions.
+method_label: In a Q20 game system, the user is considered as the answerer while the system itself acts as the questioner which requires a good strategy of question selection to figure out the correct object and win the game.
+background_label: However, the optimal policy of question selection is hard to be derived due to the complexity and volatility of the game environment.
+method_label: In this paper, we propose a novel policy-based Reinforcement Learning (RL) method, which enables the questioner agent to learn the optimal policy of question selection through continuous interactions with users.
+method_label: To facilitate training, we also propose to use a reward network to estimate the more informative reward.
+method_label: Compared to previous methods, our RL method is robust to noisy answers and does not rely on the Knowledge Base of objects.
+result_label: Experimental results show that our RL method clearly outperforms an entropy-based engineering system and has competitive performance in a noisy-free simulation environment.
+
+===================================
+paper_id: 2634828; YEAR: 2011
+adju relevance: Irrelevant (0)
+difference: 1; annotator4: 1; annotator3: 0
+sources: title_tfidfcbow200 - title_cbow200
+TITLE: Applying Monte-Carlo Tree Search to collaboratively controlling of a Ghost Team in Ms Pac-Man
+ABSTRACT: background_label: We present an application of Monte-Carlo Tree Search (MCTS) to controlling ghosts in the game of Ms Pac-Man.
+method_label: We approach the problem by performing MCTS on each ghost's tree that represents the game state from the ghost's perspective.
+objective_label: Our goal is to create a strong ghost team that is adaptable to a variety of Ms Pac-Man's play styles.
+result_label: This ghost team (ICE gUCT) won the CEC 2011 Ms Pac-Man vs Ghost Team Competition for the ghost side.
+
+===================================
+paper_id: 31693386; YEAR: 1986
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: title_tfidf
+TITLE: Quantum monte carlo.
+ABSTRACT: background_label: An outline of a random walk computational method for solving the Schrödinger equation for many interacting particles is given, together with a survey of results achieved so far and of applications that remain to be explored.
+method_label: Monte Carlo simulations can be used to calculate accurately the bulk properties of the light elements hydrogen, helium, and lithium as well as the properties of the isolated atoms and of molecules made up from these elements.
+method_label: It is now possible to make reliable predictions of the behavior of these substances under experimentally difficult conditions, such as high pressure, and of properties that are difficult to measure experimentally, such as the momentum distribution in superfluid helium.
+result_label: For chemical systems, the stochastic method has a number of advantages over the widely used variational approach to determine ground-state properties, namely fast convergence to the exact result within objectively established error bounds.
+
+===================================
+paper_id: 52840590; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: abs_cbow200
+TITLE: Learning to dress: synthesizing human dressing motion via deep reinforcement learning
+ABSTRACT: background_label: Creating animation of a character putting on clothing is challenging due to the complex interactions between the character and the simulated garment.
+background_label: We take a model-free deep reinforcement learning (deepRL) approach to automatically discovering robust dressing control policies represented by neural networks.
+background_label: While deepRL has demonstrated several successes in learning complex motor skills, the data-demanding nature of the learning algorithms is at odds with the computationally costly cloth simulation required by the dressing task.
+objective_label: This paper is the first to demonstrate that, with an appropriately designed input state space and a reward function, it is possible to incorporate cloth simulation in the deepRL framework to learn a robust dressing control policy.
+method_label: We introduce a salient representation of haptic information to guide the dressing process and utilize it in the reward function to provide learning signals during training.
+method_label: In order to learn a prolonged sequence of motion involving a diverse set of manipulation skills, such as grasping the edge of the shirt or pulling on a sleeve, we find it necessary to separate the dressing task into several subtasks and learn a control policy for each subtask.
+method_label: We introduce a policy sequencing algorithm that matches the distribution of output states from one task to the input distribution for the next task in the sequence.
+method_label: We have used this approach to produce character controllers for several dressing tasks: putting on a t-shirt, putting on a jacket, and robot-assisted dressing of a sleeve.
+
+===================================
+paper_id: 1950452; YEAR: 2009
+adju relevance: Irrelevant (0)
+difference: 1; annotator4: 0; annotator3: 1
+sources: cited - abs_tfidfcbow200 - abs_cbow200 - specter
+TITLE: Learning Context-Dependent Mappings from Sentences to Logical Form
+ABSTRACT: background_label: We consider the problem of learning context-dependent mappings from sentences to logical form.
+background_label: The training examples are sequences of sentences annotated with lambda-calculus meaning representations.
+method_label: We develop an algorithm that maintains explicit, lambda-calculus representations of salient discourse entities and uses a context-dependent analysis pipeline to recover logical forms.
+method_label: The method uses a hidden-variable variant of the perception algorithm to learn a linear model used to select the best analysis.
+result_label: Experiments on context-dependent utterances from the ATIS corpus show that the method recovers fully correct logical forms with 83.7% accuracy.
+
+===================================
+paper_id: 57189370; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: title_tfidfcbow200 - title_cbow200
+TITLE: StarAlgo: A Squad Movement Planning Library for StarCraft using Monte Carlo Tree Search and Negamax
+ABSTRACT: background_label: Real-Time Strategy (RTS) games have recently become a popular testbed for artificial intelligence research.
+background_label: They represent a complex adversarial domain providing a number of interesting AI challenges.
+background_label: There exists a wide variety of research-supporting software tools, libraries and frameworks for one RTS game in particular -- StarCraft: Brood War.
+objective_label: These tools are designed to address various specific sub-problems, such as resource allocation or opponent modelling so that researchers can focus exclusively on the tasks relevant to them.
+method_label: We present one such tool -- a library called StarAlgo that produces plans for the coordinated movement of squads (groups of combat units) within the game world.
+method_label: StarAlgo library can solve the squad movement planning problem using one of two algorithms: Monte Carlo Tree Search Considering Durations (MCTSCD) and a slightly modified version of Negamax.
+result_label: We evaluate both the algorithms, compare them, and demonstrate their usage.
+result_label: The library is implemented as a static C++ library that can be easily plugged into most StarCraft AI bots.
+
+===================================
+paper_id: 37163636; YEAR: 2011
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: abs_tfidfcbow200 - abs_tfidf
+TITLE: Eliciting and modelling expertise for serious games in project management
+ABSTRACT: background_label: AbstractWithout achieving a clear understanding of the learning domain, it is difficult to develop a successful serious game that enables users to achieve the desired learning outcomes.
+background_label: Thus, the first step in serious game design is to establish an understandding of the particular learning domain, usually through consultation with domain experts.
+method_label: Whilst game design is inherently a creative process, we believe the capturing of the knowledge domain can be systematised and we present a structured approach to knowledge elicitation and representation as a basis for serious game design.
+method_label: We have adapted and extended the applied cognitive task analysis (ACTA) method and have combined it with additional knowledge representation frameworks.
+method_label: We explain how the outputs of this approach can inform the game mechanic and the development of non-player characters, and apply it to the design of a serious game aimed at reducing time-to-competence in soft project management skills for professionals working in corporate environments.
+method_label: A total of 26 domain experts from five different countries were involved in a two-stage interview process.
+result_label: The interviews yielded more than 300 task elements, and information about the cognition underlying the more challenging tasks.
+result_label: This data was incorporated into several representation frameworks and used to indicate features to be implemented in the game and the game mechanics of the supported features.
+
+===================================
+paper_id: 6297134; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: abs_cbow200 - specter
+TITLE: Adversarial Bandit for online interactive active learning of zero-shot spoken language understanding
+ABSTRACT: background_label: Many state-of-the-art solutions for the understanding of speech data have in common to be probabilistic and to rely on machine learning algorithms to train their models from large amount of data.
+background_label: The difficulty remains in the cost of collecting and annotating such data.
+background_label: Another point is the time for updating an existing model to a new domain.
+method_label: Recent works showed that a zero-shot learning method allows to bootstrap a model with good initial performance.
+method_label: To do so, this method relies on exploiting both a small-sized ontological description of the target domain and a generic word-embedding semantic space for generalization.
+method_label: Then, this framework has been extended to exploit user feedbacks to refine the zero-shot semantic parser parameters and increase its performance online.
+method_label: In this paper, we propose to drive this online adaptive process with a policy learnt using the Adversarial Bandit algorithm Exp3.
+result_label: We show, on the second Dialog State Tracking Challenge (DSTC2) datasets, that this proposition can optimally balance the cost of gathering valuable user feedbacks and the overall performance of the spoken language understanding module.
+
+===================================
+paper_id: 124115275; YEAR: 2011
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: title_tfidf
+TITLE: Monte Carlo Methods
+ABSTRACT: background_label: Each function value in a stochastic program can involve a multidimensional integral in extremely high dimensions.
+background_label: Because Monte Carlo simulation appears to offer the best possibilities for higher dimensions (see, e.g., Deak [1988] and Asmussen and Glynn [2007]), it seems to be the natural choice for use in stochastic programs.
+method_label: In this chapter, we describe some of the basic approaches built on sampling methods.
+method_label: The key feature is the use of statistical estimates to obtain confidence intervals on results.
+method_label: Some of the material uses probability measure theory which is necessary to develop the analytical results.
+
+===================================
+paper_id: 49552345; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: specter
+TITLE: TextWorld: A Learning Environment for Text-based Games
+ABSTRACT: background_label: We introduce TextWorld, a sandbox learning environment for the training and evaluation of RL agents on text-based games.
+background_label: TextWorld is a Python library that handles interactive play-through of text games, as well as backend functions like state tracking and reward assignment.
+method_label: It comes with a curated list of games whose features and challenges we have analyzed.
+method_label: More significantly, it enables users to handcraft or automatically generate new games.
+method_label: Its generative mechanisms give precise control over the difficulty, scope, and language of constructed games, and can be used to relax challenges inherent to commercial text games like partial observability and sparse rewards.
+method_label: By generating sets of varied but similar games, TextWorld can also be used to study generalization and transfer learning.
+result_label: We cast text-based games in the Reinforcement Learning formalism, use our framework to develop a set of benchmark games, and evaluate several baseline agents on this set and the curated list.
+
+===================================
+paper_id: 9111381; YEAR: 2011
+adju relevance: Irrelevant (0)
+difference: 1; annotator4: 0; annotator3: 1
+sources: cited - abs_tfidfcbow200 - abs_cbow200 - specter
+TITLE: Confidence Driven Unsupervised Semantic Parsing
+ABSTRACT: background_label: AbstractCurrent approaches for semantic parsing take a supervised approach requiring a considerable amount of training data which is expensive and difficult to obtain.
+objective_label: This supervision bottleneck is one of the major difficulties in scaling up semantic parsing.We argue that a semantic parser can be trained effectively without annotated data, and introduce an unsupervised learning algorithm.
+method_label: The algorithm takes a self training approach driven by confidence estimation.
+result_label: Evaluated over Geoquery, a standard dataset for this task, our system achieved 66% accuracy, compared to 80% of its fully supervised counterpart, demonstrating the promise of unsupervised approaches for this task.
+
+===================================
+paper_id: 2344486; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 1; annotator4: 1; annotator3: 0
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: Learning to Shoot in First Person Shooter Games by Stabilizing Actions and Clustering Rewards for Reinforcement Learning
+ABSTRACT: background_label: While reinforcement learning (RL) has been applied to turn-based board games for many years, more complex games involving decision-making in real-time are beginning to receive more attention.
+background_label: A challenge in such environments is that the time that elapses between deciding to take an action and receiving a reward based on its outcome can be longer than the interval between successive decisions.
+method_label: We explore this in the context of a non-player character (NPC) in a modern first-person shooter game.
+objective_label: Such games take place in 3D environments where players, both human and computer-controlled, compete by engaging in combat and completing task objectives.
+objective_label: We investigate the use of RL to enable NPCs to gather experience from game-play and improve their shooting skill over time from a reward signal based on the damage caused to opponents.
+result_label: We propose a new method for RL updates and reward calculations, in which the updates are carried out periodically, after each shooting encounter has ended, and a new weighted-reward mechanism is used which increases the reward applied to actions that lead to damaging the opponent in successive hits in what we term"hit clusters".
+
+===================================
+paper_id: 1527659; YEAR: 2007
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - abs_cbow200 - specter
+TITLE: On the role of tracking in stationary environments
+ABSTRACT: background_label: It is often thought that learning algorithms that track the best solution, as opposed to converging to it, are important only on nonstationary problems.
+background_label: We present three results suggesting that this is not so.
+method_label: First we illustrate in a simple concrete example, the Black and White problem, that tracking can perform better than any converging algorithm on a stationary problem.
+method_label: Second, we show the same point on a larger, more realistic problem, an application of temporal difference learning to computer Go.
+method_label: Our third result suggests that tracking in stationary problems could be important for metalearning research (e.g., learning to learn, feature selection, transfer).
+method_label: We apply a metalearning algorithm for step-size adaptation, IDBD (Sutton, 1992a), to the Black and White problem, showing that meta-learning has a dramatic long-term effect on performance whereas, on an analogous converging problem, meta-learning has only a small second-order effect.
+result_label: This small result suggests a way of eventually overcoming a major obstacle to meta-learning research: the lack of an independent methodology for task selection.
+
+===================================
+paper_id: 8323579; YEAR: 2010
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: title_tfidfcbow200
+TITLE: Fuego—An Open-Source Framework for Board Games and Go Engine Based on Monte Carlo Tree Search
+ABSTRACT: background_label: FUEGO is both an open-source software framework and a state-of-the-art program that plays the game of Go.
+background_label: The framework supports developing game engines for full-information two-player board games, and is used successfully in a substantial number of projects.
+background_label: The FUEGO Go program became the first program to win a game against a top professional player in 9 × 9 Go.
+background_label: It has won a number of strong tournaments against other programs, and is competitive for 19 × 19 as well.
+objective_label: This paper gives an overview of the development and current state of the FUEGO project.
+result_label: It describes the reusable components of the software framework and specific algorithms used in the Go engine.
+
+===================================
+paper_id: 18001715; YEAR: 2013
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: title_cbow200
+TITLE: When and how to help: An iterative probabilistic model for learning assistance by demonstration
+ABSTRACT: background_label: Crafting a proper assistance policy is a difficult endeavour but essential for the development of robotic assistants.
+background_label: Indeed, assistance is a complex issue that depends not only on the task-at-hand, but also on the state of the user, environment and competing objectives.
+objective_label: As a way forward, this paper proposes learning the task of assistance through observation; an approach we term Learning Assistance by Demonstration (LAD).
+method_label: Our methodology is a subclass of Learning-by-Demonstration (LbD), yet directly addresses difficult issues associated with proper assistance such as when and how to appropriately assist.
+method_label: To learn assistive policies, we develop a probabilistic model that explicitly captures these elements and provide efficient, online, training methods.
+result_label: Experimental results on smart mobility assistance - using both simulation and a real-world smart wheelchair platform - demonstrate the effectiveness of our approach; the LAD model quickly learns when to assist (achieving an AUC score of 0.95 after only one demonstration) and improves with additional examples.
+result_label: Results show that this translates into better task-performance; our LAD-enabled smart wheelchair improved participant driving performance (measured in lap seconds) by 20.6s (a speedup of 137%), after a single teacher demonstration.
+
+===================================
+paper_id: 12009631; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: abs_cbow200 - specter
+TITLE: Affordance-based Active Belief: Recognition using visual and manual actions
+ABSTRACT: background_label: This paper presents an active, model-based recognition system.
+method_label: It applies information theoretic measures in a belief-driven planning framework to recognize objects using the history of visual and manual interactions and to select the most informative actions.
+method_label: A generalization of the aspect graph is used to construct forward models of objects that account for visual transitions.
+method_label: We use populations of these models to define the belief state of the recognition problem.
+objective_label: This paper focuses on the impact of the belief-space and object model representations on recognition efficiency and performance.
+method_label: A benchmarking system is introduced to execute controlled experiments in a challenging mobile manipulation domain.
+method_label: It offers a large population of objects that remain ambiguous from single sensor geometry or from visual or manual actions alone.
+result_label: Results are presented for recognition performance on this dataset using locomotive, pushing, and lifting controllers as the basis for active information gathering on single objects.
+result_label: An information theoretic approach that is greedy over the expected information gain is used to select informative actions, and its performance is compared to a sequence of random actions.
+
+===================================
+paper_id: 66065; YEAR: 2010
+adju relevance: Irrelevant (0)
+difference: 1; annotator4: 1; annotator3: 0
+sources: title_cbow200
+TITLE: A Monte-Carlo approach for ghost avoidance in the Ms. Pac-Man game
+ABSTRACT: background_label: Ms. Pac-Man is a challenging, classic arcade game that provides an interesting platform for Artificial Intelligence (AI) research.
+objective_label: This paper reports the first Monte-Carlo approach to develop a ghost avoidance module of an intelligent agent that plays the game.
+result_label: Our experimental results show that the look-ahead ability of Monte-Carlo simulation often prevents Ms. Pac-Man being trapped by ghosts and reduces the chance of losing Ms. Pac-Man's life significantly.
+result_label: Our intelligent agent has achieved a high score of around 21,000.
+result_label: It is sometimes capable of clearing the first three stages and playing at the level of a novice human player.
+
+===================================
+paper_id: 195584389; YEAR: 2019
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: title_cbow200
+TITLE: SampleFix: Learning to Correct Programs by Sampling Diverse Fixes
+ABSTRACT: background_label: Automatic program correction is an active topic of research, which holds the potential of dramatically improving productivity of programmers during the software development process and correctness of software in general.
+background_label: Recent advances in machine learning, deep learning and NLP have rekindled the hope to eventually fully automate the process of repairing programs.
+background_label: A key challenge is ambiguity, as multiple codes -- or fixes -- can implement the same functionality.
+background_label: In addition, datasets by nature fail to capture the variance introduced by such ambiguities.
+method_label: Therefore, we propose a deep generative model to automatically correct programming errors by learning a distribution of potential fixes.
+method_label: Our model is formulated as a deep conditional variational autoencoder that samples diverse fixes for the given erroneous programs.
+method_label: In order to account for ambiguity and inherent lack of representative datasets, we propose a novel regularizer to encourage the model to generate diverse fixes.
+result_label: Our evaluations on common programming errors show for the first time the generation of diverse fixes and strong improvements over the state-of-the-art approaches by fixing up to 65% of the mistakes.
+
+===================================
+paper_id: 118988729; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: title_tfidf
+TITLE: A Microphotonic Astrocomb
+ABSTRACT: background_label: One of the essential prerequisites for detection of Earth-like extra-solar planets or direct measurements of the cosmological expansion is the accurate and precise wavelength calibration of astronomical spectrometers.
+background_label: It has already been realized that the large number of exactly known optical frequencies provided by laser frequency combs ('astrocombs') can significantly surpass conventionally used hollow-cathode lamps as calibration light sources.
+background_label: A remaining challenge, however, is generation of frequency combs with lines resolvable by astronomical spectrometers.
+method_label: Here we demonstrate an astrocomb generated via soliton formation in an on-chip microphotonic resonator ('microresonator') with a resolvable line spacing of 23.7 GHz.
+method_label: This comb is providing wavelength calibration on the 10 cm/s radial velocity level on the GIANO-B high-resolution near-infrared spectrometer.
+result_label: As such, microresonator frequency combs have the potential of providing broadband wavelength calibration for the next-generation of astronomical instruments in planet-hunting and cosmological research.
+
+===================================
+paper_id: 54457345; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 1; annotator4: 1; annotator3: 0
+sources: abs_tfidfcbow200 - abs_tfidf
+TITLE: Taking the Scenic Route: Automatic Exploration for Videogames
+ABSTRACT: background_label: Machine playtesting tools and game moment search engines require exposure to the diversity of a game's state space if they are to report on or index the most interesting moments of possible play.
+background_label: Meanwhile, mobile app distribution services would like to quickly determine if a freshly-uploaded game is fit to be published.
+background_label: Having access to a semantic map of reachable states in the game would enable efficient inference in these applications.
+background_label: However, human gameplay data is expensive to acquire relative to the coverage of a game that it provides.
+method_label: We show that off-the-shelf automatic exploration strategies can explore with an effectiveness comparable to human gameplay on the same timescale.
+method_label: We contribute generic methods for quantifying exploration quality as a function of time and demonstrate our metric on several elementary techniques and human players on a collection of commercial games sampled from multiple game platforms (from Atari 2600 to Nintendo 64).
+result_label: Emphasizing the diversity of states reached and the semantic map extracted, this work makes productive contrast with the focus on finding a behavior policy or optimizing game score used in most automatic game playing research.
+
+===================================
+paper_id: 49870586; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 1; annotator4: 1; annotator3: 0
+sources: title_cbow200
+TITLE: Traditional Wisdom and Monte Carlo Tree Search Face-to-Face in the Card Game Scopone
+ABSTRACT: background_label: We present the design of a competitive artificial intelligence for Scopone, a popular Italian card game.
+method_label: We compare rule-based players using the most established strategies (one for beginners and two for advanced players) against players using Monte Carlo Tree Search (MCTS) and Information Set Monte Carlo Tree Search (ISMCTS) with different reward functions and simulation strategies.
+method_label: MCTS requires complete information about the game state and thus implements a cheating player while ISMCTS can deal with incomplete information and thus implements a fair player.
+result_label: Our results show that, as expected, the cheating MCTS outperforms all the other strategies; ISMCTS is stronger than all the rule-based players implementing well-known and most advanced strategies and it also turns out to be a challenging opponent for human players.
+
+===================================
+paper_id: 18965413; YEAR: 2011
+adju relevance: Irrelevant (0)
+difference: 1; annotator4: 1; annotator3: 0
+sources: abs_tfidf
+TITLE: Dynamic Game Difficulty Scaling Using Adaptive Behavior-Based AI
+ABSTRACT: background_label: Games are played by a wide variety of audiences.
+background_label: Different individuals will play with different gaming styles and employ different strategic approaches.
+background_label: This often involves interacting with nonplayer characters that are controlled by the game AI.
+background_label: From a developer's standpoint, it is important to design a game AI that is able to satisfy the variety of players that will interact with the game.
+background_label: Thus, an adaptive game AI that can scale the difficulty of the game according to the proficiency of the player has greater potential to customize a personalized and entertaining game experience compared to a static game AI.
+method_label: In particular, dynamic game difficulty scaling refers to the use of an adaptive game AI that performs game adaptations in real time during the game session.
+method_label: This paper presents two adaptive algorithms that use ideas from reinforcement learning and evolutionary computation to improve player satisfaction by scaling the difficulty of the game AI while the game is being played.
+method_label: The effects of varying the learning and mutation rates are examined and a general rule of thumb for the parameters is proposed.
+method_label: The proposed algorithms are demonstrated to be capable of matching its opponents in terms of mean scores and winning percentages.
+result_label: Both algorithms are able to generalize well to a variety of opponents.
+
+===================================
+paper_id: 4321415; YEAR: 1986
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - abs_cbow200 - specter
+TITLE: Learning representations by back-propagating errors
+ABSTRACT: background_label: We describe a new learning procedure, back-propagation, for networks of neurone-like units.
+method_label: The procedure repeatedly adjusts the weights of the connections in the network so as to minimize a measure of the difference between the actual output vector of the net and the desired output vector.
+method_label: As a result of the weight adjustments, internal ‘hidden’ units which are not part of the input or output come to represent important features of the task domain, and the regularities in the task are captured by the interactions of these units.
+result_label: The ability to create useful new features distinguishes back-propagation from earlier, simpler methods such as the perceptron-convergence procedure1.
+
+===================================
+paper_id: 15738746; YEAR: 2011
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - abs_cbow200 - specter
+TITLE: Grounding the Lexical Semantics of Verbs in Visual Perception using Force Dynamics and Event Logic
+ABSTRACT: background_label: This paper presents an implemented system for recognizing the occurrence of events described by simple spatial-motion verbs in short image sequences.
+method_label: The semantics of these verbs is specified with event-logic expressions that describe changes in the state of force-dynamic relations between the participants of the event.
+method_label: An efficient finite representation is introduced for the infinite sets of intervals that occur when describing liquid and semi-liquid events.
+method_label: Additionally, an efficient procedure using this representation is presented for inferring occurrences of compound events, described with event-logic expressions, from occurrences of primitive events.
+method_label: Using force dynamics and event logic to specify the lexical semantics of events allows the system to be more robust than prior systems based on motion profile.
+
+===================================
+paper_id: 5881871; YEAR: 2005
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - abs_cbow200 - specter
+TITLE: Intentional Context in Situated Natural Language Learning
+ABSTRACT: background_label: Natural language interfaces designed for situationally embedded domains (e.g.
+background_label: cars, videogames) must incorporate knowledge about the users' context to address the many ambiguities of situated language use.
+method_label: We introduce a model of situated language acquisition that operates in two phases.
+method_label: First, intentional context is represented and inferred from user actions using probabilistic context free grammars.
+method_label: Then, utterances are mapped onto this representation in a noisy channel framework.
+method_label: The acquisition model is trained on unconstrained speech collected from subjects playing an interactive game, and tested on an understanding task.
+
+===================================
+paper_id: 14134772; YEAR: 2005
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: title_tfidfcbow200 - title_cbow200
+TITLE: Photos monte carlo: A precision tool for qed corrections in z and w decays, Eur
+ABSTRACT: background_label: We present a discussion of the precision for the PHOTOS Monte Carlo algorithm, with improved implementation of QED interference and multiple-photon radiation.
+method_label: The main application of PHOTOS is the generation of QED radiative corrections in decays of any resonances, simulated by a"host"Monte Carlo generator.
+result_label: By careful comparisons automated with the help of the MC-TESTER tool specially tailored for that purpose, we found that the precision of the current version of PHOTOS is of 0.1% in the case of Z and W decays.
+result_label: In the general case, the precision of PHOTOS was also improved, but this will not be quantified here.
+
+===================================
+paper_id: 198986427; YEAR: 2019
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: title_tfidfcbow200 - title_cbow200
+TITLE: "Deep reinforcement learning for search, recommendation, and online advertising: a survey" by Xiangyu Zhao, Long Xia, Jiliang Tang, and Dawei Yin with Martin Vesely as coordinator
+ABSTRACT: background_label: Search, recommendation, and online advertising are the three most important information-providing mechanisms on the web.
+background_label: These information seeking techniques, satisfying users' information needs by suggesting users personalized objects (information or services) at the appropriate time and place, play a crucial role in mitigating the information overload problem.
+background_label: With recent great advances in deep reinforcement learning (DRL), there have been increasing interests in developing DRL based information seeking techniques.
+method_label: These DRL based techniques have two key advantages - (1) they are able to continuously update information seeking strategies according to users' real-time feedback, and (2) they can maximize the expected cumulative long-term reward from users where reward has different definitions according to information seeking applications such as click-through rate, revenue, user satisfaction and engagement.
+result_label: In this paper, we give an overview of deep reinforcement learning for search, recommendation, and online advertising from methodologies to applications, review representative algorithms, and discuss some appealing research directions.
+
+===================================
+paper_id: 26682733; YEAR: 2013
+adju relevance: Irrelevant (0)
+difference: 1; annotator4: 1; annotator3: 0
+sources: abs_tfidf
+TITLE: The International General Game Playing Competition
+ABSTRACT: background_label: Games have played a prominent role as a test-bed for advancements in the field of Artificial Intelligence ever since its foundation over half a century ago, resulting in highly specialized world-class game-playing systems being developed for various games.
+background_label: The establishment of the International General Game Playing Competition in 2005, however, resulted in a renewed interest in more general problem solving approaches to game playing.
+objective_label: In general game playing (GGP) the goal is to create game-playing systems that autonomously learn how to skillfully play a wide variety of games, given only the descriptions of the game rules.
+result_label: In this paper we review the history of the competition, discuss progress made so far, and list outstanding research challenges.
+
+===================================
+paper_id: 49391024; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: abs_tfidf
+TITLE: Game AI Research with Fast Planet Wars Variants
+ABSTRACT: background_label: This paper describes a new implementation of Planet Wars, designed from the outset for Game AI research.
+background_label: The skill-depth of the game makes it a challenge for game-playing agents, and the speed of more than 1 million game ticks per second enables rapid experimentation and prototyping.
+method_label: The parameterised nature of the game together with an interchangeable actuator model make it well suited to automated game tuning.
+method_label: The game is designed to be fun to play for humans, and is directly playable by General Video Game AI agents.
+
+===================================
+paper_id: 16532611; YEAR: 2008
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - abs_cbow200 - specter
+TITLE: Sample-based learning and search with permanent and transient memories
+ABSTRACT: background_label: We present a reinforcement learning architecture, Dyna-2, that encompasses both sample-based learning and sample-based search, and that generalises across states during both learning and search.
+method_label: We apply Dyna-2 to high performance Computer Go.
+method_label: In this domain the most successful planning methods are based on sample-based search algorithms, such as UCT, in which states are treated individually, and the most successful learning methods are based on temporal-difference learning algorithms, such as Sarsa, in which linear function approximation is used.
+method_label: In both cases, an estimate of the value function is formed, but in the first case it is transient, computed and then discarded after each move, whereas in the second case it is more permanent, slowly accumulating over many moves and games.
+method_label: The idea of Dyna-2 is for the transient planning memory and the permanent learning memory to remain separate, but for both to be based on linear function approximation and both to be updated by Sarsa.
+method_label: To apply Dyna-2 to 9x9 Computer Go, we use a million binary features in the function approximator, based on templates matching small fragments of the board.
+method_label: Using only the transient memory, Dyna-2 performed at least as well as UCT.
+result_label: Using both memories combined, it significantly outperformed UCT.
+result_label: Our program based on Dyna-2 achieved a higher rating on the Computer Go Online Server than any handcrafted or traditional search based program.
+
+===================================
+paper_id: 15587115; YEAR: 2011
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: Catching Up Faster by Switching Sooner: A predictive approach to adaptive estimation with an application to the AIC-BIC Dilemma
+ABSTRACT: other_label: Summary.
+background_label: Prediction and estimation based on Bayesian model selection and model averaging, and derived methods such as the Bayesian information criterion BIC, do not always converge at the fastest possible rate.
+method_label: We identify the catch-up phenomenon as a novel explanation for the slow convergence of Bayesian methods, which inspires a modification of the Bayesian predictive distribution, called the switch distribution.
+method_label: When used as an adaptive estimator, the switch distribution does achieve optimal cumulative risk convergence rates in non-parametric density estimation and Gaussian regression problems.
+method_label: We show that the minimax cumulative risk is obtained under very weak conditions and without knowledge of the underlying degree of smoothness.
+method_label: Unlike other adaptive model selection procedures such as the Akaike information criterion AIC and leave-one-out cross-validation, BIC and Bayes factor model selection are typically statistically consistent.
+result_label: We show that this property is retained by the switch distribution, which thus solves the AIC–BIC dilemma for cumulative risk.
+result_label: The switch distribution has an efficient implementation.
+result_label: We compare its performance with AIC, BIC and Bayesian model selection and averaging on a regression problem with simulated data.
+
+===================================
+paper_id: 5249151; YEAR: 2009
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - abs_cbow200 - specter
+TITLE: Reinforcement Learning for Mapping Instructions to Actions
+ABSTRACT: background_label: In this paper, we present a reinforcement learning approach for mapping natural language instructions to sequences of executable actions.
+method_label: We assume access to a reward function that defines the quality of the executed actions.
+method_label: During training, the learner repeatedly constructs action sequences for a set of documents, executes those actions, and observes the resulting reward.
+method_label: We use a policy gradient algorithm to estimate the parameters of a log-linear model for action selection.
+method_label: We apply our method to interpret instructions in two domains --- Windows troubleshooting guides and game tutorials.
+result_label: Our results demonstrate that this method can rival supervised learning techniques while requiring few or no annotated training examples.
+
+===================================
+paper_id: 59419648; YEAR: 2015
+adju relevance: Irrelevant (0)
+difference: 1; annotator4: 1; annotator3: 0
+sources: title_tfidfcbow200 - title_cbow200 - abs_tfidf
+TITLE: Biasing Monte-Carlo Rollouts with Potential Field in General Video Game Playing
+ABSTRACT: objective_label: This paper proposes the use of potential field and biased Monte Carlo rollout in General Video Game Playing (GVGP).
+background_label: Monte-Carlo Tree Search is a famous technique for General Video Game Playing, thanks to its adaptability.
+background_label: However, since the rollouts are performed randomly, it may not be able to search the game state efficiently.
+method_label: Existing research has attempted to bias the rollout by using Euclidean distances to the closest sprites as features, and training the bias weights with Evolutionary Strategy.
+result_label: In this paper, we propose the use of potential field features instead of Euclidean distances as the rollout bias, so as to further improve the performance of Monte-Carlo Tree Search in General Video Game Playing.
+
+===================================
+paper_id: 5313412; YEAR: 2010
+adju relevance: Irrelevant (0)
+difference: 1; annotator4: 0; annotator3: 1
+sources: abs_tfidfcbow200
+TITLE: Variations Forever: Flexibly generating rulesets from a sculptable design space of mini-games
+ABSTRACT: background_label: Variations Forever is a novel game in which the player explores a vast design space of mini-games.
+objective_label: In this paper, we present the procedural content generation research which makes the automatic generation of suitable game rulesets possible.
+method_label: Our generator, operating in the domain of code-like game content exploits answer-set programming as a means to declaratively represent a generative space as distinct from the domain-independent solvers which we use to enumerate it.
+result_label: Our generative spaces are powerfully sculptable using concise, declarative rules, allowing us to embed significant design knowledge into our ruleset generator as an important step towards a more serious automation of whole game design process.
+
+===================================
+paper_id: 115824604; YEAR: 2013
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: title_tfidf
+TITLE: Monte Carlo and Quasi-Monte Carlo Methods
+ABSTRACT: background_label: Chapter 12 discusses Monte Carlo and quasi-Monte Carlo methods and demonstrates how these techniques can be used to compute functionals of multidimensional diffusions.
+method_label: Monte Carlo methods feature prominently in this book, in particular we discuss how to use Lie Symmetry methods to construct unbiased Monte Carlo estimators in Chap.
+method_label: 6, and we discuss how to construct unbiased Monte Carlo estimators for Wishart processes in Chap.
+method_label: 11.
+method_label: In Chap.
+method_label: 12, we focus on two novel themes which have recently emerged in the context of Monte Carlo methods, namely the exact simulation of general stochastic differential equations and multilevel methods.
+background_label: In the second part of the chapter we discuss quasi-Monte Carlo methods.
+background_label: The focus of this part is on scrambled nets, and we show how they can produce faster convergence rates than standard Monte Carlo methods.
+method_label: The chapter concludes by illustrating how to apply quasi-Monte Carlo methods under the benchmark approach introduced in Chap.
+method_label: 1.
+method_label: We recall the Minimal Market Model from Chap.
+method_label: 3 and price financial derivatives on realized variance in this model.
+
+===================================
+paper_id: 88519926; YEAR: 2014
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: title_tfidf
+TITLE: A Framework for Monte Carlo based Multiple Testing
+ABSTRACT: background_label: We are concerned with a situation in which we would like to test multiple hypotheses with tests whose p-values cannot be computed explicitly but can be approximated using Monte Carlo simulation.
+background_label: This scenario occurs widely in practice.
+background_label: We are interested in obtaining the same rejections and non-rejections as the ones obtained if the p-values for all hypotheses had been available.
+objective_label: The present article introduces a framework for this scenario by providing a generic algorithm for a general multiple testing procedure.
+method_label: We establish conditions which guarantee that the rejections and non-rejections obtained through Monte Carlo simulations are identical to the ones obtained with the p-values.
+method_label: Our framework is applicable to a general class of step-up and step-down procedures which includes many established multiple testing corrections such as the ones of Bonferroni, Holm, Sidak, Hochberg or Benjamini-Hochberg.
+method_label: Moreover, we show how to use our framework to improve algorithms available in the literature in such a way as to yield theoretical guarantees on their results.
+result_label: These modifications can easily be implemented in practice and lead to a particular way of reporting multiple testing results as three sets together with an error bound on their correctness, demonstrated exemplarily using a real biological dataset.
+
+===================================
+paper_id: 298414; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 1; annotator4: 1; annotator3: 0
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: Deep Learning for Reward Design to Improve Monte Carlo Tree Search in ATARI Games
+ABSTRACT: background_label: Monte Carlo Tree Search (MCTS) methods have proven powerful in planning for sequential decision-making problems such as Go and video games, but their performance can be poor when the planning depth and sampling trajectories are limited or when the rewards are sparse.
+method_label: We present an adaptation of PGRD (policy-gradient for reward-design) for learning a reward-bonus function to improve UCT (a MCTS algorithm).
+method_label: Unlike previous applications of PGRD in which the space of reward-bonus functions was limited to linear functions of hand-coded state-action-features, we use PGRD with a multi-layer convolutional neural network to automatically learn features from raw perception as well as to adapt the non-linear reward-bonus function parameters.
+method_label: We also adopt a variance-reducing gradient method to improve PGRD's performance.
+method_label: The new method improves UCT's performance on multiple ATARI games compared to UCT without the reward bonus.
+result_label: Combining PGRD and Deep Learning in this way should make adapting rewards for MCTS algorithms far more widely and practically applicable than before.
+
+===================================
+paper_id: 63858579; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: Retrospective Causal Inference with Machine Learning Ensembles: An Application to Anti-Recidivism Policies in Colombia
+ABSTRACT: background_label: We present new methods to estimate causal effects retrospectively from micro data with the assistance of a machine learning ensemble.
+method_label: This approach overcomes two important limitations in conventional methods like regression modeling or matching: (i) ambiguity about the pertinent retrospective counterfactuals and (ii) potential misspecification, overfitting, and otherwise bias-prone or inefficient use of a large identifying covariate set in the estimation of causal effects.
+method_label: Our method targets the analysis toward a well defined ``retrospective intervention effect'' (RIE) based on hypothetical population interventions and applies a machine learning ensemble that allows data to guide us, in a controlled fashion, on how to use a large identifying covariate set.
+result_label: We illustrate with an analysis of policy options for reducing ex-combatant recidivism in Colombia.
+
+===================================
+paper_id: 340852; YEAR: 2011
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - abs_cbow200 - specter
+TITLE: Learning Dependency-Based Compositional Semantics
+ABSTRACT: background_label: Suppose we want to build a system that answers a natural language question by representing its semantics as a logical form and computing the answer given a structured database of facts.
+background_label: The core part of such a system is the semantic parser that maps questions to logical forms.
+background_label: Semantic parsers are typically trained from examples of questions annotated with their target logical forms, but this type of annotation is expensive.
+objective_label: Our goal is to learn a semantic parser from question-answer pairs instead, where the logical form is modeled as a latent variable.
+method_label: Motivated by this challenging learning problem, we develop a new semantic formalism, dependency-based compositional semantics (DCS), which has favorable linguistic, statistical, and computational properties.
+method_label: We define a log-linear distribution over DCS logical forms and estimate the parameters using a simple procedure that alternates between beam search and numerical optimization.
+result_label: On two standard semantic parsing benchmarks, our system outperforms all existing state-of-the-art systems, despite using no annotated logical forms.
+
+===================================
+paper_id: 564377; YEAR: 2007
+adju relevance: Irrelevant (0)
+difference: 1; annotator4: 1; annotator3: 0
+sources: abs_tfidf
+TITLE: Lossless abstraction of imperfect information games
+ABSTRACT: background_label: Finding an equilibrium of an extensive form game of imperfect information is a fundamental problem in computational game theory, but current techniques do not scale to large games.
+method_label: To address this, we introduce the ordered game isomorphism and the related ordered game isomorphic abstraction transformation.
+method_label: For a multi-player sequential game of imperfect information with observable actions and an ordered signal space, we prove that any Nash equilibrium in an abstracted smaller game, obtained by one or more applications of the transformation, can be easily converted into a Nash equilibrium in the original game.
+method_label: We present an algorithm, GameShrink, for abstracting the game using our isomorphism exhaustively.
+method_label: Its complexity is õ(n2), where n is the number of nodes in a structure we call the signal tree.
+method_label: It is no larger than the game tree, and on nontrivial games it is drastically smaller, so GameShrink has time and space complexity sublinear in the size of the game tree.
+result_label: Using GameShrink, we find an equilibrium to a poker game with 3.1 billion nodes—over four orders of magnitude more than in the largest poker game solved previously.
+result_label: To address even larger games, we introduce approximation methods that do not preserve equilibrium, but nevertheless yield (ex post) provably close-to-optimal strategies.
+
+===================================
+paper_id: 14674467; YEAR: 2012
+adju relevance: Irrelevant (0)
+difference: 1; annotator4: 1; annotator3: 0
+sources: title_tfidfcbow200 - title_cbow200
+TITLE: Ensemble Determinization in Monte Carlo Tree Search for the Imperfect Information Card Game Magic: The Gathering
+ABSTRACT: background_label: In this paper, we examine the use of Monte Carlo tree search (MCTS) for a variant of one of the most popular and profitable games in the world: the card game Magic: The Gathering (M:TG).
+background_label: The game tree for M:TG has a range of distinctive features, which we discuss here; it has incomplete information through the opponent's hidden cards and randomness through card drawing from a shuffled deck.
+method_label: We investigate a wide range of approaches that use determinization, where all hidden and random information is assumed known to all players, alongside MCTS.
+method_label: We consider a number of variations to the rollout strategy using a range of levels of sophistication and expert knowledge, and decaying reward to encourage play urgency.
+method_label: We examine the effect of utilizing various pruning strategies in order to increase the information gained from each determinization, alongside methods that increase the relevance of random choices.
+method_label: Additionally, we deconstruct the move generation procedure into a binary yes/no decision tree and apply MCTS to this finer grained decision process.
+result_label: We compare our modifications to a basic MCTS approach for M:TG using fixed decks, and show that significant improvements in playing strength can be obtained.
+
+===================================
+paper_id: 10161834; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: title_cbow200
+TITLE: Using Reinforcement Learning to Model Incrementality in a Fast-Paced Dialogue Game
+ABSTRACT: background_label: AbstractWe apply Reinforcement Learning (RL) to the problem of incremental dialogue policy learning in the context of a fast-paced dialogue game.
+method_label: We compare the policy learned by RL with a high performance baseline policy which has been shown to perform very efficiently (nearly as well as humans) in this dialogue game.
+method_label: The RL policy outperforms the baseline policy in offline simulations (based on real user data).
+method_label: We provide a detailed comparison of the RL policy and the baseline policy, including information about how much effort and time it took to develop each one of them.
+result_label: We also highlight the cases where the RL policy performs better, and show that understanding the RL policy can provide valuable insights which can inform the creation of an even better rule-based policy.
+
+===================================
+paper_id: 2899486; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: abs_cbow200
+TITLE: Deep Reinforcement Learning-based Image Captioning with Embedding Reward
+ABSTRACT: background_label: Image captioning is a challenging problem owing to the complexity in understanding the image content and diverse ways of describing it in natural language.
+background_label: Recent advances in deep neural networks have substantially improved the performance of this task.
+background_label: Most state-of-the-art approaches follow an encoder-decoder framework, which generates captions using a sequential recurrent prediction model.
+objective_label: However, in this paper, we introduce a novel decision-making framework for image captioning.
+method_label: We utilize a"policy network"and a"value network"to collaboratively generate captions.
+method_label: The policy network serves as a local guidance by providing the confidence of predicting the next word according to the current state.
+method_label: Additionally, the value network serves as a global and lookahead guidance by evaluating all possible extensions of the current state.
+method_label: In essence, it adjusts the goal of predicting the correct words towards the goal of generating captions similar to the ground truth captions.
+method_label: We train both networks using an actor-critic reinforcement learning model, with a novel reward defined by visual-semantic embedding.
+result_label: Extensive experiments and analyses on the Microsoft COCO dataset show that the proposed framework outperforms state-of-the-art approaches across different evaluation metrics.
+
+===================================
+paper_id: 2937525; YEAR: 2011
+adju relevance: Irrelevant (0)
+difference: 1; annotator4: 0; annotator3: 1
+sources: abs_cbow200
+TITLE: Individual and Domain Adaptation in Sentence Planning for Dialogue
+ABSTRACT: background_label: One of the biggest challenges in the development and deployment of spoken dialogue systems is the design of the spoken language generation module.
+background_label: This challenge arises from the need for the generator to adapt to many features of the dialogue domain, user population, and dialogue context.
+method_label: A promising approach is trainable generation, which uses general-purpose linguistic knowledge that is automatically adapted to the features of interest, such as the application domain, individual user, or user group.
+method_label: In this paper we present and evaluate a trainable sentence planner for providing restaurant information in the MATCH dialogue system.
+method_label: We show that trainable sentence planning can produce complex information presentations whose quality is comparable to the output of a template-based generator tuned to this domain.
+method_label: We also show that our method easily supports adapting the sentence planner to individuals, and that the individualized sentence planners generally perform better than models trained and tested on a population of individuals.
+result_label: Previous work has documented and utilized individual preferences for content selection, but to our knowledge, these results provide the first demonstration of individual preferences for sentence planning operations, affecting the content order, discourse structure and sentence structure of system responses.
+result_label: Finally, we evaluate the contribution of different feature sets, and show that, in our application, n-gram features often do as well as features based on higher-level linguistic representations.
+
+===================================
+paper_id: 8618081; YEAR: 2010
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: abs_tfidfcbow200
+TITLE: Gameplay Analysis through State Projection
+ABSTRACT: background_label: Analysis of gameplay data is crucial for evaluating design decisions and refining a game experience.
+background_label: However, identifying player strategies and finding areas of confusion is difficult because a designer may not know what queries to ask or what patterns to look for in the data.
+method_label: To make this task easier, we present Playtracer, a method for visually analyzing play traces that is independent of a specific game's structure.
+method_label: Playtracer applies multidimensional scaling to cluster players and game states, providing a detailed visual representation of the paths the players take through a game.
+method_label: We evaluate our method by analyzing an educational puzzle game and highlighting common hypotheses, pitfalls, confusing elements, and anomalies.
+result_label: Our results suggest that Playtracer can be an effective tool for game analysis and improvement.
+
+===================================
+paper_id: 28808621; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 1; annotator4: 1; annotator3: 0
+sources: abs_cbow200 - abs_tfidfcbow200 - specter
+TITLE: StarCraft II: A New Challenge for Reinforcement Learning
+ABSTRACT: background_label: This paper introduces SC2LE (StarCraft II Learning Environment), a reinforcement learning environment based on the StarCraft II game.
+background_label: This domain poses a new grand challenge for reinforcement learning, representing a more difficult class of problems than considered in most prior work.
+background_label: It is a multi-agent problem with multiple players interacting; there is imperfect information due to a partially observed map; it has a large action space involving the selection and control of hundreds of units; it has a large state space that must be observed solely from raw input feature planes; and it has delayed credit assignment requiring long-term strategies over thousands of steps.
+method_label: We describe the observation, action, and reward specification for the StarCraft II domain and provide an open source Python-based interface for communicating with the game engine.
+result_label: In addition to the main game maps, we provide a suite of mini-games focusing on different elements of StarCraft II gameplay.
+background_label: For the main game maps, we also provide an accompanying dataset of game replay data from human expert players.
+method_label: We give initial baseline results for neural networks trained from this data to predict game outcomes and player actions.
+method_label: Finally, we present initial baseline results for canonical deep reinforcement learning agents applied to the StarCraft II domain.
+method_label: On the mini-games, these agents learn to achieve a level of play that is comparable to a novice player.
+result_label: However, when trained on the main game, these agents are unable to make significant progress.
+result_label: Thus, SC2LE offers a new and challenging environment for exploring deep reinforcement learning algorithms and architectures.
+
+===================================
+paper_id: 173188489; YEAR: 2019
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: abs_tfidfcbow200
+TITLE: Multimodal Joint Emotion and Game Context Recognition in League of Legends Livestreams
+ABSTRACT: background_label: Video game streaming provides the viewer with a rich set of audio-visual data, conveying information both with regards to the game itself, through game footage and audio, as well as the streamer's emotional state and behaviour via webcam footage and audio.
+background_label: Analysing player behaviour and discovering correlations with game context is crucial for modelling and understanding important aspects of livestreams, but comes with a significant set of challenges - such as fusing multimodal data captured by different sensors in uncontrolled ('in-the-wild') conditions.
+method_label: Firstly, we present, to our knowledge, the first data set of League of Legends livestreams, annotated for both streamer affect and game context.
+method_label: Secondly, we propose a method that exploits tensor decompositions for high-order fusion of multimodal representations.
+result_label: The proposed method is evaluated on the problem of jointly predicting game context and player affect, compared with a set of baseline fusion approaches such as late and early fusion.
+
+===================================
+paper_id: 118377368; YEAR: 1977
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: title_tfidf
+TITLE: Monte Carlo Method
+ABSTRACT: background_label: The Monte Carlo technique makes use of so-called random numbers which can be defined as follows.
+background_label: Consider a random variable ρ, which is equally distributed over the interval (0, 1).
+method_label: Its distribution function is:    $$R(r) = \left\{ {\begin{array}{*{20}{c}} {0 for \leqq 0} \\ {r for 0 1} \\ \end{array} } \right.$$    and the distribution is called rectangular owing to the shape of its frequency function.
+method_label: A sample of s observed values of ρ is assumed to be taken in some way or another, for example by means of a lottery, and so a sequence of numbers (r1 r2, … , r s ) is obtained.
+method_label: These numbers are called random numbers.
+result_label: They are like the list of winning numbers in a lottery: each number in the interval (rounded to a certain number of decimals) has exactly the same probability of appearing in the sequence.
+
+===================================
+paper_id: 122137669; YEAR: 1988
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: title_tfidf
+TITLE: Hybrid Monte Carlo
+ABSTRACT: background_label: Abstract I discuss the Hybrid Monte Carlo algorithm for performing lattice gauge theory calculations.
+method_label: This is a large step method which has none of the discrete step size errors usually associated with the Molecular Dynamics, Langevin, or Hybrid algorithms.
+method_label: The method allows the inclusion of dynamical fermion fields in a straightforward way.
+
+===================================
+paper_id: 62721879; YEAR: 2012
+adju relevance: Irrelevant (0)
+difference: 1; annotator4: 1; annotator3: 0
+sources: abs_tfidfcbow200 - abs_cbow200 - abs_tfidf
+TITLE: Chatting Pattern Based Game BOT Detection: Do They Talk Like Us?
+ABSTRACT: background_label: Among the various security threats in online games, the use of game bots is the most serious problem.
+background_label: Previous studies on game bot detection have proposed many methods to find out discriminable behaviors of bots from humans based on the fact that a bot"s playing pattern is different from that of a human.
+objective_label: In this paper, we look at the chatting data that reflects gamers’ communication patterns and propose a communication pattern analysis framework for online game bot detection.
+method_label: In massive multi-user online role playing games (MMORPGs), game bots use chatting message in a different way from normal users.
+result_label: We derive four features; a network feature, a descriptive feature, a diversity feature and a text feature.
+background_label: To measure the diversity of communication patterns, we propose lightly summarized indices, which are computationally inexpensive and intuitive.
+method_label: For text features, we derive lexical, syntactic and semantic features from chatting contents using text mining techniques.
+method_label: To build the learning model for game bot detection, we test and compare three classification models: the random forest, logistic regression and lazy learning.
+method_label: We apply the proposed framework to AION operated by NCsoft, a leading online game company in Korea.
+result_label: As a result of our experiments, we found that the random forest outperforms the logistic regression and lazy learning.
+result_label: The model that employs the entire feature sets gives the highest performance with a precision value of 0.893 and a recall value of 0.965.
+
+===================================
+paper_id: 14096841; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: specter
+TITLE: An Actor-Critic Algorithm for Sequence Prediction
+ABSTRACT: objective_label: We present an approach to training neural networks to generate sequences using actor-critic methods from reinforcement learning (RL).
+background_label: Current log-likelihood training methods are limited by the discrepancy between their training and testing modes, as models must generate tokens conditioned on their previous guesses rather than the ground-truth tokens.
+method_label: We address this problem by introducing a \textit{critic} network that is trained to predict the value of an output token, given the policy of an \textit{actor} network.
+method_label: This results in a training procedure that is much closer to the test phase, and allows us to directly optimize for a task-specific score such as BLEU.
+method_label: Crucially, since we leverage these techniques in the supervised learning setting rather than the traditional RL setting, we condition the critic network on the ground-truth output.
+method_label: We show that our method leads to improved performance on both a synthetic task, and for German-English machine translation.
+result_label: Our analysis paves the way for such methods to be applied in natural language generation tasks, such as machine translation, caption generation, and dialogue modelling.
+
+===================================
+paper_id: 13962424; YEAR: 2015
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: abs_tfidfcbow200
+TITLE: Modeling Individual Differences through Frequent Pattern Mining on Role-Playing Game Actions
+ABSTRACT: background_label: There has been much work on player modeling using game behavioral data collected.
+background_label: Many of the previous research projects that targeted this goal used aggregate game statistics as features to develop behavior models using both statistical and machine learning techniques.
+background_label: While existing methods have already led to interesting findings, we suspect that aggregated features discard valuable information such as temporal or sequential patterns, which are important in deciphering information about decision-making, problem solving, or individual differences.
+method_label: Such sequential information is critical to analyze player behaviors especially in role-playing games (RPG) where players face ample choices, experience different contexts, behave freely with individual propensities but possibly end up with similar aggregated statistics (e.g., levels, time spent).
+method_label: Using an RPG with multiple affordances, we designed an experiment collecting granular in-game behaviors of 64 players.
+method_label: Using closed sequential pattern mining and logistic regression, we developed a model that uses gameplay action sequences to predict the real world characteristics, including gender, game play expertise and five personality traits (as defined by psychology).
+result_label: The results show that game expertise is a dominant factor that impacts in-game behaviors.
+result_label: The contributions of this paper are both the algorithms we developed combined with a validation procedure to determine the reliability and validity of the results, and the results themselves.
+
+===================================
+paper_id: 14716222; YEAR: 2009
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: abs_tfidfcbow200 - abs_tfidf
+TITLE: The MOBO City: A Mobile Game Package for Technical Language Learning
+ABSTRACT: background_label: Abstract-In this research we produced a mobile language learning game that is designed within a technical context.
+background_label: After conceptual analysis of the subject matter i.e.
+method_label: computer's motherboard, the game was designed.
+background_label: The action within the game is consistent to the theme.
+background_label: There is a story, simplifying and exaggerating real life.
+method_label: Elements of control, feedback and sense of danger are incorporated into our game.
+method_label: By producing an engaging learning experience, vocabularies were learned incidentally.
+result_label: Deliberate vocabulary learning games were also added to our package to help students solve their common errors.
+
+===================================
+paper_id: 121101759; YEAR: 1987
+adju relevance: Irrelevant (0)
+difference: 1; annotator4: 0; annotator3: 1
+sources: title_tfidf
+TITLE: Hybrid Monte Carlo
+ABSTRACT: method_label: Abstract We present a new method for the numerical simulation of lattice field theory.
+method_label: A hybrid (molecular dynamics/Langevin) algorithm is used to guide a Monte Carlo simulation.
+background_label: There are no discretization errors even for large step sizes.
+method_label: The method is especially efficient for systems such as quantum chromodynamics which contain fermionic degrees of freedom.
+result_label: Detailed results are presented for four-dimensional compact quantum electrodynamics including the dynamical effects of electrons.
+
+===================================
+paper_id: 13121800; YEAR: 2001
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - abs_cbow200 - specter
+TITLE: Learning the semantics of words and pictures
+ABSTRACT: background_label: We present a statistical model for organizing image collections which integrates semantic information provided by associate text and visual information provided by image features.
+method_label: The model is very promising for information retrieval tasks such as database browsing and searching for images based on text and/or image features.
+method_label: Furthermore, since the model learns relationships between text and image features, it can be used for novel applications such as associating words with pictures, and unsupervised learning for object recognition.
+
+===================================
+paper_id: 101871; YEAR: 2002
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: abs_tfidf
+TITLE: Interactive verification of game design and playing strategies
+ABSTRACT: background_label: Reinforcement learning is considered as one of the most suitable and prominent methods for solving game problems due to its capability to discover good strategies by extended se self-training and limited initial knowledge.
+objective_label: In this paper we elaborate on using reinforcement learning for verifying game designs and playing strategies.
+method_label: Specifically, we examine a new strategy game that has been trained on self-playing games and analyze the game performance after human interaction.
+result_label: We demonstrate, through selected game instances, the impact of human interference to the learning process, and eventually the game design.
+
+===================================
+paper_id: 28550920; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: title_tfidf
+TITLE: Self-Learning Monte Carlo Method
+ABSTRACT: background_label: Monte Carlo simulation is an unbiased numerical tool for studying classical and quantum many-body systems.
+background_label: One of its bottlenecks is the lack of general and efficient update algorithm for large size systems close to phase transition or with strong frustrations, for which local updates perform badly.
+method_label: In this work, we propose a new general-purpose Monte Carlo method, dubbed self-learning Monte Carlo (SLMC), in which an efficient update algorithm is first learned from the training data generated in trial simulations and then used to speed up the actual simulation.
+result_label: We demonstrate the efficiency of SLMC in a spin model at the phase transition point, achieving a 10-20 times speedup.
+
+===================================
+paper_id: 36953514; YEAR: 1979
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - abs_cbow200 - specter
+TITLE: Applied Optimal Control: Optimization, Estimation, and Control
+ABSTRACT: background_label: This best-selling text focuses on the analysis and design of complicated dynamics systems.
+background_label: CHOICE called it "a high-level, concise book that could well be used as a reference by engineers, applied mathematicians, and undergraduates.
+other_label: The format is good, the presentation clear, the diagrams instructive, the examples and problems helpful...References and a multiple-choice examination are included."
+
+===================================
+paper_id: 201668540; YEAR: 2019
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: specter
+TITLE: Interactive Language Learning by Question Answering
+ABSTRACT: background_label: Humans observe and interact with the world to acquire knowledge.
+background_label: However, most existing machine reading comprehension (MRC) tasks miss the interactive, information-seeking component of comprehension.
+background_label: Such tasks present models with static documents that contain all necessary information, usually concentrated in a single short substring.
+background_label: Thus, models can achieve strong performance through simple word- and phrase-based pattern matching.
+objective_label: We address this problem by formulating a novel text-based question answering task: Question Answering with Interactive Text (QAit).
+method_label: In QAit, an agent must interact with a partially observable text-based environment to gather information required to answer questions.
+method_label: QAit poses questions about the existence, location, and attributes of objects found in the environment.
+method_label: The data is built using a text-based game generator that defines the underlying dynamics of interaction with the environment.
+method_label: We propose and evaluate a set of baseline models for the QAit task that includes deep reinforcement learning agents.
+result_label: Experiments show that the task presents a major challenge for machine reading systems, while humans solve it with relative ease.
+
+===================================
+paper_id: 15054631; YEAR: 2011
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: title_tfidfcbow200 - abs_tfidfcbow200 - title_cbow200
+TITLE: Determinization and information set Monte Carlo Tree Search for the card game Dou Di Zhu
+ABSTRACT: background_label: Determinization is a technique for making decisions in games with stochasticity and/or imperfect information by sampling instances of the equivalent deterministic game of perfect information.
+background_label: Monte-Carlo Tree Search (MCTS) is an AI technique that has recently proved successful in the domain of deterministic games of perfect information.
+objective_label: This paper studies the strengths and weaknesses of determinization coupled with MCTS on a game of imperfect information, the popular Chinese card game Dou Di Zhu.
+method_label: We compare a “cheating” agent (with access to hidden information) to an agent using determinization with random deals.
+method_label: We investigate the fraction of knowledge that a non-cheating agent could possibly infer about opponents' hidden cards.
+method_label: Furthermore, we show that an important source of error in determinization arises since this approach searches a tree that does not truly resemble the game tree for a game with stochasticity and imperfect information.
+result_label: Hence we introduce a novel variant of MCTS that operates directly on trees of information sets and show that our algorithm performs well in precisely those situations where determinization using random deals performs poorly.
+
+===================================
+paper_id: 5667590; YEAR: 2010
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - abs_cbow200 - specter
+TITLE: Driving Semantic Parsing from the World's Response
+ABSTRACT: background_label: AbstractCurrent approaches to semantic parsing, the task of converting text to a formal meaning representation, rely on annotated training data mapping sentences to logical forms.
+background_label: Providing this supervision is a major bottleneck in scaling semantic parsers.
+objective_label: This paper presents a new learning paradigm aimed at alleviating the supervision burden.
+method_label: We develop two novel learning algorithms capable of predicting complex structures which only rely on a binary feedback signal based on the context of an external world.
+method_label: In addition we reformulate the semantic parsing problem to reduce the dependency of the model on syntactic patterns, thus allowing our parser to scale better using less supervision.
+result_label: Our results surprisingly show that without using any annotated meaning representations learning with a weak feedback signal is capable of producing a parser that is competitive with fully supervised parsers.
+
+===================================
+paper_id: 119425731; YEAR: 1972
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: title_tfidf
+TITLE: Unzerlegbare Darstellungen I
+ABSTRACT: background_label: LetK be the structure got by forgetting the composition law of morphisms in a given category.
+background_label: A linear representation ofK is given by a map V associating with any morphism ϕ: a→e ofK a linear vector space map V(ϕ): V(a)→V(e).
+method_label: We classify thoseK having only finitely many isomorphy classes of indecomposable linear representations.
+other_label: This classification is related to an old paper by Yoshii [3].
+
+===================================
+paper_id: 7775630; YEAR: 2008
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - abs_cbow200 - specter
+TITLE: An analysis of UCT in multi-player games
+ABSTRACT: other_label: Abstract.
+background_label: The UCT algorithm has been exceedingly popular for Go, a two-player game, significantly increasing the playing strength of Go programs in a very short time.
+method_label: This paper provides an analysis of the UCT algorithm in multi-player games, showing that UCT, when run in a multi-player game, is computing a mixed-strategy equilibrium, as opposed to max n , which computes a pure-strategy equilibrium.
+result_label: We analyze the performance of UCT in several known domains and show that it performs as well or better than existing algorithms.
+
+===================================
+paper_id: 64823044; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: Self-learning Monte Carlo method and cumulative update in fermion systems
+ABSTRACT: method_label: We develop the self-learning Monte Carlo (SLMC) method, a general-purpose numerical method recently introduced to simulate many-body systems, for studying interacting fermion systems.
+method_label: Our method uses a highly-efficient update algorithm, which we design and dub "cumulative update", to generate new candidate configurations in the Markov chain based on a self-learned bosonic effective model.
+result_label: From general analysis and numerical study of the double exchange model as an example, we find the SLMC with cumulative update drastically reduces the computational cost of the simulation, while remaining statistically exact.
+result_label: Remarkably, its computational complexity is far less than the conventional algorithm with local updates.
+
+===================================
+paper_id: 1008215; YEAR: 2012
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: title_tfidfcbow200 - title_cbow200
+TITLE: How To Grade a Test Without Knowing the Answers --- A Bayesian Graphical Model for Adaptive Crowdsourcing and Aptitude Testing
+ABSTRACT: objective_label: We propose a new probabilistic graphical model that jointly models the difficulties of questions, the abilities of participants and the correct answers to questions in aptitude testing and crowdsourcing settings.
+method_label: We devise an active learning/adaptive testing scheme based on a greedy minimization of expected model entropy, which allows a more efficient resource allocation by dynamically choosing the next question to be asked based on the previous responses.
+result_label: We present experimental results that confirm the ability of our model to infer the required parameters and demonstrate that the adaptive testing scheme requires fewer questions to obtain the same accuracy as a static test scenario.
+
+===================================
+paper_id: 14811627; YEAR: 2009
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: abs_tfidf - abs_tfidfcbow200
+TITLE: Neural Networks for State Evaluation in General Game Playing
+ABSTRACT: other_label: Abstract.
+background_label: Unlike traditional game playing, General Game Playing is concerned with agents capable of playing classes of games.
+background_label: Given the rules of an unknown game, the agent is supposed to play well without human intervention.
+background_label: For this purpose, agent systems that use deterministic game tree search need to automatically construct a state value function to guide search.
+method_label: Successful systems of this type use evaluation functions derived solely from the game rules, thus neglecting further improvements by experience.
+method_label: In addition, these functions are fixed in their form and do not necessarily capture the game's real state value function.
+method_label: In this work we present an approach for obtaining evaluation functions on the basis of neural networks that overcomes the aforementioned problems.
+method_label: A network initialization extracted from the game rules ensures reasonable behavior without the need for prior training.
+result_label: Later training, however, can lead to significant improvements in evaluation quality, as our results indicate.
+
+===================================
+paper_id: 56494486; YEAR: 2014
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: title_cbow200
+TITLE: The Sense of Ensemble: a Machine Learning Approach to Expressive Performance Modelling in String Quartets
+ABSTRACT: background_label: Computational approaches for modelling expressive music performance have produced systems that emulate music expression, but few steps have been taken in the domain of ensemble performance.
+method_label: In this paper, we propose a novel method for building computational models of ensemble expressive performance and show how this method can be applied for deriving new insights about collaboration among musicians.
+method_label: In order to address the problem of inter-dependence among musicians we propose the introduction of inter-voice contextual attributes.
+method_label: We evaluate the method on data extracted from multi-modal recordings of string quartet performances in two different conditions: solo and ensemble.
+method_label: We used machine-learning algorithms to produce computational models for predicting intensity, timing deviations, vibrato extent, and bowing speed of each note.
+result_label: As a result, the introduced inter-voice contextual attributes generally improved the prediction of the expressive parameters.
+result_label: Furthermore, results on attribute selection show ...
+
+===================================
+paper_id: 6975204; YEAR: 2012
+adju relevance: Irrelevant (0)
+difference: 1; annotator4: 1; annotator3: 0
+sources: abs_tfidfcbow200
+TITLE: Generic Heuristic Approach to General Game Playing
+ABSTRACT: other_label: Abstract.
+background_label: General Game Playing (GGP) is a specially designed environment for creating and testing competitive agents which can play variety of games.
+objective_label: The fundamental motivation is to advance the development of various artificial intelligence methods operating together in a previously unknown environment.
+objective_label: This approach extrapolates better on real world problems and follows artificial intelligence paradigms better than dedicated single-game optimized solutions.
+method_label: This paper presents a universal method of constructing the heuristic evaluation function for any game playable within the GGP framework.
+method_label: The algorithm embraces distinctive discovery of candidate features to be included in the evaluation function and learning their correlations with actions performed by the players and the game score.
+method_label: Our method integrates well with the UCT algorithm which is currently the state-of-the-art approach in GGP.
+
+===================================
+paper_id: 36117198; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: title_tfidf
+TITLE: DeepMind_Commentary
+ABSTRACT: background_label: We agree with Lake and colleagues on their list of key ingredients for building humanlike intelligence, including the idea that model-based reasoning is essential.
+background_label: However, we favor an approach that centers on one additional ingredient: autonomy.
+objective_label: In particular, we aim toward agents that can both build and exploit their own internal models, with minimal human hand-engineering.
+method_label: We believe an approach centered on autonomous learning has the greatest chance of success as we scale toward real-world complexity, tackling domains for which ready-made formal models are not available.
+result_label: Here we survey several important examples of the progress that has been made toward building autonomous agents with humanlike abilities, and highlight some outstanding challenges.
+
+===================================
+paper_id: 52922277; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: specter - abs_cbow200
+TITLE: Zooming Network
+ABSTRACT: background_label: Structural information is important in natural language understanding.
+background_label: Although some current neural net-based models have a limited ability to take local syntactic information, they fail to use high-level and large-scale structures of documents.
+background_label: This information is valuable for text understanding since it contains the author's strategy to express information, in building an effective representation and forming appropriate output modes.
+objective_label: We propose a neural net-based model, Zooming Network, capable of representing and leveraging text structure of long document and developing its own analyzing rhythm to extract critical information.
+method_label: Generally, ZN consists of an encoding neural net that can build a hierarchical representation of a document, and an interpreting neural model that can read the information at multi-levels and issuing labeling actions through a policy-net.
+method_label: Our model is trained with a hybrid paradigm of supervised learning (distinguishing right and wrong decision) and reinforcement learning (determining the goodness among multiple right paths).
+result_label: We applied the proposed model to long text sequence labeling tasks, with performance exceeding baseline model (biLSTM-crf) by 10 F1-measure.
+
+===================================
+paper_id: 52222250; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 1; annotator4: 1; annotator3: 0
+sources: abs_tfidf - abs_tfidfcbow200 - specter
+TITLE: General Win Prediction from Agent Experience
+ABSTRACT: background_label: The question of whether the correct algorithm is used for the problem at hand usually comes at the end of execution, when the algorithm’s ability to solve the problem (or not) can be verified.
+background_label: But what if this question could be answered in advance, with enough notice to make changes in the approach in order for it to be more successful?
+objective_label: This paper proposes a general agent performance prediction system, tested in real time within the context of the General Video Game AI framework.
+method_label: It is solely based on agent features, therefore removing potential human bias produced by game-based features observed in known games.
+method_label: Three different models can be queried while playing the game to determine whether the agent will win or lose, based on the current game state: early, mid and late game feature models.
+method_label: The models are trained on 80 games in the framework and tested on 20 new games, for 14 variations of 3 different methods.
+result_label: Results are positive, indicating that there is great scope for predicting the outcome of any given game.
+
+===================================
+paper_id: 32274875; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: specter - abs_tfidfcbow200 - abs_tfidf
+TITLE: Using reinforcement learning to learn how to play text-based games
+ABSTRACT: background_label: The ability to learn optimal control policies in systems where action space is defined by sentences in natural language would allow many interesting real-world applications such as automatic optimisation of dialogue systems.
+background_label: Text-based games with multiple endings and rewards are a promising platform for this task, since their feedback allows us to employ reinforcement learning techniques to jointly learn text representations and control policies.
+method_label: We present a general text game playing agent, testing its generalisation and transfer learning performance and showing its ability to play multiple games at once.
+result_label: We also present pyfiction, an open-source library for universal access to different text games that could, together with our agent that implements its interface, serve as a baseline for future research.
+
+===================================
+paper_id: 16933934; YEAR: 2009
+adju relevance: Irrelevant (0)
+difference: 1; annotator4: 1; annotator3: 0
+sources: abs_tfidf
+TITLE: General Game Playing: An Overview and Open Problems
+ABSTRACT: background_label: General Game Playing has emerged, in recent years, as a challenging testbed for Artificial Intelligence research.
+objective_label: The premise is to build game players that are able to play any game without prior knowledge about the game.
+objective_label: The purpose of this paper is to give an overview of the open problems in the current form of General Game Playing, along with a short survey of work already done.
+method_label: We also provide a discussion on possible enhancements to the current format to make learning based players more viable in the competition.
+objective_label: The aim of this paper is to highlight some of the key issues in the area of General Game Playing and generate interest amongst the academic community.
+
+===================================
+paper_id: 13976617; YEAR: 2004
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: title_tfidfcbow200 - title_cbow200
+TITLE: Valuation of a CDO and an n th to Default CDS Without Monte Carlo Simulation
+ABSTRACT: background_label: In this paper we develop two fast procedures for valuing tranches of collateralized debt obligations and n th to default swaps.
+method_label: The procedures are based on a factor copula model of times to default and are alternatives to using fast Fourier transforms.
+method_label: One involves calculating the probability distribution of the number of defaults by a certain time using a recurrence relationship; the other involves using a “probability bucketing” numerical procedure to build up the loss distribution.
+method_label: We show how many different copula models can be generated by using different distributional assumptions within the factor model.
+method_label: We examine the impact on valuations of default probabilities, default correlations, the copula model chosen, and a correlation of recovery rates with default probabilities.
+result_label: Finally we look at the market pricing of index tranches and conclude that a “double tdistribution” copula fits the prices reasonably well.
+

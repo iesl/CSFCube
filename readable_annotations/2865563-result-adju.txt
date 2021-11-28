@@ -1,0 +1,1842 @@
+======================================================================
+paper_id: 2865563; YEAR: 2014
+TITLE: Improving Statistical Machine Translation for a Resource-Poor Language Using Related Resource-Rich Languages
+ABSTRACT: background_label: We propose a novel language-independent approach for improving machine translation for resource-poor languages by exploiting their similarity to resource-rich ones.
+method_label: More precisely, we improve the translation from a resource-poor source language X_1 into a resource-rich language Y given a bi-text containing a limited number of parallel sentences for X_1-Y and a larger bi-text for X_2-Y for some resource-rich language X_2 that is closely related to X_1.
+method_label: This is achieved by taking advantage of the opportunities that vocabulary overlap and similarities between the languages X_1 and X_2 in spelling, word order, and syntax offer: (1) we improve the word alignments for the resource-poor language, (2) we further augment it with additional translation options, and (3) we take care of potential spelling differences through appropriate transliteration.
+result_label: The evaluation for Indonesian->English using Malay and for Spanish ->English using Portuguese and pretending Spanish is resource-poor shows an absolute gain of up to 1.35 and 3.37 BLEU points, respectively, which is an improvement over the best rivaling approaches, while using much less additional data.
+result_label: Overall, our method cuts the amount of necessary"real training data by a factor of 2--5.
+===================================
+paper_id: 62762739; YEAR: 2009
+adju relevance: Identical (+3)
+difference: 0; annotator2: 3; annotator3: 3
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Improved Statistical Machine Translation for Resource-Poor Languages Using Related Resource-Rich Languages
+ABSTRACT: objective_label: We propose a novel language-independent approach for improving statistical machine translation for resource-poor languages by exploiting their similarity to resource-rich ones.
+method_label: More precisely, we improve the translation from a resource-poor source language X1 into a resource-rich language Y given a bi-text containing a limited number of parallel sentences for X1-Y and a larger bi-text for X2-Y for some resource-rich language X2 that is closely related to X1.
+result_label: The evaluation for Indonesian→English (using Malay) and Spanish→English (using Portuguese and pretending Spanish is resource-poor) shows an absolute gain of up to 1.35 and 3.37 Bleu points, respectively, which is an improvement over the rivaling approaches, while using much less additional data.
+
+===================================
+paper_id: 9413744; YEAR: 2012
+adju relevance: Identical (+3)
+difference: 2; annotator2: 1; annotator3: 3
+sources: title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Source Language Adaptation for Resource-Poor Machine Translation
+ABSTRACT: objective_label: AbstractWe propose a novel, language-independent approach for improving machine translation from a resource-poor language to X by adapting a large bi-text for a related resource-rich language and X (the same target language).
+method_label: We assume a small bi-text for the resourcepoor language to X pair, which we use to learn word-level and phrase-level paraphrases and cross-lingual morphological variants between the resource-rich and the resource-poor language; we then adapt the former to get closer to the latter.
+result_label: Our experiments for Indonesian/Malay-English translation show that using the large adapted resource-rich bitext yields 6.7 BLEU points of improvement over the unadapted one and 2.6 BLEU points over the original small bi-text.
+result_label: Moreover, combining the small bi-text with the adapted bi-text outperforms the corresponding combinations with the unadapted bi-text by 1.5-3 BLEU points.
+result_label: We also demonstrate applicability to other languages and domains.
+
+===================================
+paper_id: 12959203; YEAR: 2013
+adju relevance: Similar (+2)
+difference: 2; annotator2: 2; annotator3: 0
+sources: title_tfidfcbow200 - title_cbow200 - title_tfidf
+TITLE: Dependency-Based Decipherment for Resource-Limited Machine Translation
+ABSTRACT: background_label: AbstractWe introduce dependency relations into deciphering foreign languages and show that dependency relations help improve the state-ofthe-art deciphering accuracy by over 500%.
+method_label: We learn a translation lexicon from large amounts of genuinely non parallel data with decipherment to improve a phrase-based machine translation system trained with limited parallel data.
+result_label: In experiments, we observe BLEU gains of 1.2 to 1.8 across three different test sets.
+
+===================================
+paper_id: 26392513; YEAR: 2017
+adju relevance: Similar (+2)
+difference: 1; annotator2: 2; annotator3: 1
+sources: title_tfidf - title_cbow200 - specter
+TITLE: Neural machine translation for low-resource languages
+ABSTRACT: background_label: Neural machine translation (NMT) approaches have improved the state of the art in many machine translation settings over the last couple of years, but they require large amounts of training data to produce sensible output.
+method_label: We demonstrate that NMT can be used for low-resource languages as well, by introducing more local dependencies and using word alignments to learn sentence reordering during translation.
+method_label: In addition to our novel model, we also present an empirical evaluation of low-resource phrase-based statistical machine translation (SMT) and NMT to investigate the lower limits of the respective technologies.
+result_label: We find that while SMT remains the best option for low-resource settings, our method can produce acceptable translations with only 70000 tokens of training data, a level where the baseline NMT system fails completely.
+
+===================================
+paper_id: 10921345; YEAR: 2017
+adju relevance: Similar (+2)
+difference: 1; annotator2: 2; annotator3: 1
+sources: title_cbow200 - title_tfidfcbow200 - specter - title_tfidf
+TITLE: Utilizing Lexical Similarity for pivot translation involving resource-poor, related languages
+ABSTRACT: background_label: AbstractWe investigate the use of pivot languages for phrase-based statistical machine translation (PB-SMT) between related languages with limited parallel corpora.
+method_label: We show that subword-level pivot translation via a related pivot language is: (i) highly competitive with the best direct translation model and (ii) better than a pivot model which uses an unrelated pivot language, but has at its disposal large parallel corpora to build the source-pivot (S-P) and pivot-target (P-T) translation models.
+method_label: In contrast, pivot models trained at word and morpheme level are far inferior to their direct counterparts.
+method_label: We also show that using multiple related pivot languages can outperform a direct translation model.
+method_label: Thus, the use of subwords as translation units coupled with the use of multiple related pivot languages can compensate for the lack of a direct parallel corpus.
+result_label: Subword units make pivot models competitive by (i) utilizing lexical similarity to improve the underlying S-P and P-T translation models, and (ii) reducing loss of translation candidates during pivoting.
+
+===================================
+paper_id: 5039697; YEAR: 2018
+adju relevance: Similar (+2)
+difference: 1; annotator2: 1; annotator3: 2
+sources: specter - title_tfidfcbow200 - abs_tfidf
+TITLE: Massively Parallel Cross-Lingual Learning in Low-Resource Target Language Translation
+ABSTRACT: background_label: We work on translation from rich-resource languages to low-resource languages.
+background_label: The main challenges we identify are the lack of low-resource language data, effective methods for cross-lingual transfer, and the variable-binding problem that is common in neural systems.
+method_label: We build a translation system that addresses these challenges using eight European language families as our test ground.
+method_label: Firstly, we add the source and the target family labels and study intra-family and inter-family influences for effective cross-lingual transfer.
+method_label: We achieve an improvement of +9.9 in BLEU score for English-Swedish translation using eight families compared to the single-family multi-source multi-target baseline.
+result_label: Moreover, we find that training on two neighboring families closest to the low-resource language is often enough.
+method_label: Secondly, we construct an ablation study and find that reasonably good results can be achieved even with considerably less target data.
+method_label: Thirdly, we address the variable-binding problem by building an order-preserving named entity translation model.
+result_label: We obtain 60.6% accuracy in qualitative evaluation where our translations are akin to human translations in a preliminary study.
+
+===================================
+paper_id: 182952423; YEAR: 2019
+adju relevance: Similar (+2)
+difference: 0; annotator2: 2; annotator3: 2
+sources: specter - abs_tfidf - title_tfidf
+TITLE: Generalized Data Augmentation for Low-Resource Translation
+ABSTRACT: background_label: Translation to or from low-resource languages LRLs poses challenges for machine translation in terms of both adequacy and fluency.
+background_label: Data augmentation utilizing large amounts of monolingual data is regarded as an effective way to alleviate these problems.
+objective_label: In this paper, we propose a general framework for data augmentation in low-resource machine translation that not only uses target-side monolingual data, but also pivots through a related high-resource language HRL.
+method_label: Specifically, we experiment with a two-step pivoting method to convert high-resource data to the LRL, making use of available resources to better approximate the true data distribution of the LRL.
+method_label: First, we inject LRL words into HRL sentences through an induced bilingual dictionary.
+method_label: Second, we further edit these modified sentences using a modified unsupervised machine translation framework.
+result_label: Extensive experiments on four low-resource datasets show that under extreme low-resource settings, our data augmentation techniques improve translation quality by up to~1.5 to~8 BLEU points compared to supervised back-translation baselines
+
+===================================
+paper_id: 14106458; YEAR: 2007
+adju relevance: Similar (+2)
+difference: 2; annotator2: 0; annotator3: 2
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Improving Word Alignment with Bridge Languages
+ABSTRACT: objective_label: AbstractWe describe an approach to improve Statistical Machine Translation (SMT) performance using multi-lingual, parallel, sentence-aligned corpora in several bridge languages.
+method_label: Our approach consists of a simple method for utilizing a bridge language to create a word alignment system and a procedure for combining word alignment systems from multiple bridge languages.
+method_label: The final translation is obtained by consensus decoding that combines hypotheses obtained using all bridge language word alignments.
+result_label: We present experiments showing that multilingual, parallel text in Spanish, French, Russian, and Chinese can be utilized in this framework to improve translation performance on an Arabic-to-English task.
+
+===================================
+paper_id: 3526501; YEAR: 2017
+adju relevance: Similar (+2)
+difference: 1; annotator2: 2; annotator3: 1
+sources: title_tfidf - title_cbow200 - title_tfidfcbow200 - specter
+TITLE: Transfer Learning across Low-Resource, Related Languages for Neural Machine Translation
+ABSTRACT: method_label: We present a simple method to improve neural translation of a low-resource language pair using parallel data from a related, also low-resource, language pair.
+method_label: The method is based on the transfer method of Zoph et al., but whereas their method ignores any source vocabulary overlap, ours exploits it.
+method_label: First, we split words using Byte Pair Encoding (BPE) to increase vocabulary overlap.
+method_label: Then, we train a model on the first language pair and transfer its parameters, including its source word embeddings, to another model and continue training on the second language pair.
+result_label: Our experiments show that transfer learning helps word-based translation only slightly, but when used on top of a much stronger BPE baseline, it yields larger improvements of up to 4.3 BLEU.
+
+===================================
+paper_id: 1808411; YEAR: 2009
+adju relevance: Similar (+2)
+difference: 2; annotator2: 2; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Improving Arabic-Chinese Statistical Machine Translation using English as Pivot Language
+ABSTRACT: background_label: We present a comparison of two approaches for Arabic-Chinese machine translation using English as a pivot language: sentence pivoting and phrase-table pivoting.
+result_label: Our results show that using English as a pivot in either approach outperforms direct translation from Arabic to Chinese.
+result_label: Our best result is the phrase-pivot system which scores higher than direct translation by 1.1 BLEU points.
+result_label: An error analysis of our best system shows that we successfully handle many complex Arabic-Chinese syntactic variations.
+
+===================================
+paper_id: 24860285; YEAR: 2017
+adju relevance: Similar (+2)
+difference: 0; annotator2: 2; annotator3: 2
+sources: specter - title_cbow200 - abs_cbow200 - abs_tfidf - title_tfidf
+TITLE: Neural machine translation for low-resource languages without parallel corpora
+ABSTRACT: background_label: The problem of a total absence of parallel data is present for a large number of language pairs and can severely detriment the quality of machine translation.
+background_label: We describe a language-independent method to enable machine translation between a low-resource language (LRL) and a third language, e.g.
+background_label: English.
+method_label: We deal with cases of LRLs for which there is no readily available parallel data between the low-resource language and any other language, but there is ample training data between a closely-related high-resource language (HRL) and the third language.
+method_label: We take advantage of the similarities between the HRL and the LRL in order to transform the HRL data into data similar to the LRL using transliteration.
+method_label: The transliteration models are trained on transliteration pairs extracted from Wikipedia article titles.
+method_label: Then, we automatically back-translate monolingual LRL data with the models trained on the transliterated HRL data and use the resulting parallel corpus to train our final models.
+result_label: Our method achieves significant improvements in translation quality, close to the results that can be achieved by a general purpose neural machine translation system trained on a significant amount of parallel data.
+result_label: Moreover, the method does not rely on the existence of any parallel data for training, but attempts to bootstrap already existing resources in a related language.
+
+===================================
+paper_id: 28916303; YEAR: 2017
+adju relevance: Similar (+2)
+difference: 2; annotator2: 2; annotator3: 0
+sources: title_tfidf - title_cbow200 - specter
+TITLE: Multilingual Neural Machine Translation for Low Resource Languages
+ABSTRACT: background_label: In recent years, Neural Machine Translation (NMT) has been shown to be more effective than phrase-based statistical methods, thus quickly becoming the state of the art in machine translation (MT).
+background_label: However, NMT systems are limited in translating low-resourced languages, due to the significant amount of parallel data that is required to learn useful mappings between languages.
+objective_label: In this work, we show how the so-called multilingual NMT can help to tackle the challenges associated with low-resourced language translation.
+objective_label: The underlying principle of multilingual NMT is to force the creation of hidden representations of words in a shared semantic space across multiple languages, thus enabling a positive parameter transfer across languages.
+method_label: Along this direction, we present multilingual translation experiments with three languages (English, Italian, Romanian) covering six translation directions, utilizing both recurrent neural networks and transformer (or self-attentive) neural networks.
+method_label: We then focus on the zero-shot translation problem, that is how to leverage multi-lingual data in order to learn translation directions that are not covered by the available training material.
+method_label: To this aim, we introduce our recently proposed iterative self-training method, which incrementally improves a multilingual NMT on a zero-shot direction by just relying on monolingual data.
+result_label: Our results on TED talks data show that multilingual NMT outperforms conventional bilingual NMT, that the transformer NMT outperforms recurrent NMT, and that zero-shot NMT outperforms conventional pivoting methods and even matches the performance of a fully-trained bilingual system.
+
+===================================
+paper_id: 3681367; YEAR: 2007
+adju relevance: Similar (+2)
+difference: 1; annotator2: 2; annotator3: 3
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Pivot Language Approach for Phrase-Based Statistical Machine Translation
+ABSTRACT: background_label: This paper proposes a novel method for phrase-based statistical machine translation based on the use of a pivot language.
+background_label: To translate between languages Ls and Lt with limited bilingual resources, we bring in a third language, L p, called the pivot language.
+method_label: For the language pairs Ls − L p and L p − Lt, there exist large bilingual corpora.
+method_label: Using only Ls − L p and L p − Lt bilingual corpora, we can build a translation model for Ls − Lt.
+method_label: The advantage of this method lies in the fact that we can perform translation between Ls and Lt even if there is no bilingual corpus available for this language pair.
+method_label: Using BLEU as a metric, our pivot language approach significantly outperforms the standard model trained on a small bilingual corpus.
+result_label: Moreover, with a small Ls − Lt bilingual corpus available, our method can further improve translation quality by using the additional Ls − L p and L p − Lt bilingual corpora.
+
+===================================
+paper_id: 53220272; YEAR: 2018
+adju relevance: Similar (+2)
+difference: 2; annotator2: 2; annotator3: 0
+sources: title_tfidf
+TITLE: Improving Zero-Shot Translation of Low-Resource Languages
+ABSTRACT: background_label: Recent work on multilingual neural machine translation reported competitive performance with respect to bilingual models and surprisingly good performance even on (zeroshot) translation directions not observed at training time.
+background_label: We investigate here a zero-shot translation in a particularly lowresource multilingual setting.
+method_label: We propose a simple iterative training procedure that leverages a duality of translations directly generated by the system for the zero-shot directions.
+method_label: The translations produced by the system (sub-optimal since they contain mixed language from the shared vocabulary), are then used together with the original parallel data to feed and iteratively re-train the multilingual network.
+method_label: Over time, this allows the system to learn from its own generated and increasingly better output.
+method_label: Our approach shows to be effective in improving the two zero-shot directions of our multilingual model.
+result_label: In particular, we observed gains of about 9 BLEU points over a baseline multilingual model and up to 2.08 BLEU over a pivoting mechanism using two bilingual models.
+result_label: Further analysis shows that there is also a slight improvement in the non-zero-shot language directions.
+
+===================================
+paper_id: 53145837; YEAR: 2018
+adju relevance: Related (+1)
+difference: 0; annotator2: 1; annotator3: 1
+sources: title_tfidfcbow200 - title_cbow200 - specter - title_tfidf
+TITLE: Addressing word-order Divergence in Multilingual Neural Machine Translation for extremely Low Resource Languages
+ABSTRACT: background_label: Transfer learning approaches for Neural Machine Translation (NMT) train a NMT model on the assisting-target language pair (parent model) which is later fine-tuned for the source-target language pair of interest (child model), with the target language being the same.
+background_label: In many cases, the assisting language has a different word order from the source language.
+method_label: We show that divergent word order adversely limits the benefits from transfer learning when little to no parallel corpus between the source and target language is available.
+method_label: To bridge this divergence, We propose to pre-order the assisting language sentence to match the word order of the source language and train the parent model.
+result_label: Our experiments on many language pairs show that bridging the word order gap leads to significant improvement in the translation quality.
+
+===================================
+paper_id: 9334744; YEAR: 2007
+adju relevance: Related (+1)
+difference: 1; annotator2: 0; annotator3: 1
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Machine Translation by Triangulation: Making Effective Use of Multi-Parallel Corpora
+ABSTRACT: background_label: AbstractCurrent phrase-based SMT systems perform poorly when using small training sets.
+background_label: This is a consequence of unreliable translation estimates and low coverage over source and target phrases.
+method_label: This paper presents a method which alleviates this problem by exploiting multiple translations of the same source phrase.
+method_label: Central to our approach is triangulation, the process of translating from a source to a target language via an intermediate third language.
+method_label: This allows the use of a much wider range of parallel corpora for training, and can be combined with a standard phrase-table using conventional smoothing methods.
+result_label: Experimental results demonstrate BLEU improvements for triangulated models over a standard phrase-based system.
+
+===================================
+paper_id: 17928569; YEAR: 2009
+adju relevance: Related (+1)
+difference: 0; annotator2: 1; annotator3: 1
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: On the Importance of Pivot Language Selection for Statistical Machine Translation
+ABSTRACT: background_label: Recent research on multilingual statistical machine translation focuses on the usage of pivot languages in order to overcome resource limitations for certain language pairs.
+background_label: Due to the richness of available language resources, English is in general the pivot language of choice.
+objective_label: In this paper, we investigate the appropriateness of languages other than English as pivot languages.
+result_label: Experimental results using state-of-the-art statistical machine translation techniques to translate between twelve languages revealed that the translation quality of 61 out of 110 language pairs improved when a non-English pivot language was chosen.
+
+===================================
+paper_id: 4613136; YEAR: 2018
+adju relevance: Related (+1)
+difference: 0; annotator2: 1; annotator3: 1
+sources: title_cbow200 - title_tfidfcbow200 - abs_tfidf - title_tfidf
+TITLE: Contrastive Learning of Emoji-based Representations for Resource-Poor Languages
+ABSTRACT: background_label: The introduction of emojis (or emoticons) in social media platforms has given the users an increased potential for expression.
+method_label: We propose a novel method called Classification of Emojis using Siamese Network Architecture (CESNA) to learn emoji-based representations of resource-poor languages by jointly training them with resource-rich languages using a siamese network.
+method_label: CESNA model consists of twin Bi-directional Long Short-Term Memory Recurrent Neural Networks (Bi-LSTM RNN) with shared parameters joined by a contrastive loss function based on a similarity metric.
+method_label: The model learns the representations of resource-poor and resource-rich language in a common emoji space by using a similarity metric based on the emojis present in sentences from both languages.
+method_label: The model, hence, projects sentences with similar emojis closer to each other and the sentences with different emojis farther from one another.
+result_label: Experiments on large-scale Twitter datasets of resource-rich languages - English and Spanish and resource-poor languages - Hindi and Telugu reveal that CESNA outperforms the state-of-the-art emoji prediction approaches based on distributional semantics, semantic rules, lexicon lists and deep neural network representations without shared parameters.
+
+===================================
+paper_id: 706384; YEAR: 2011
+adju relevance: Related (+1)
+difference: 0; annotator2: 1; annotator3: 1
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: Enhancing scarce-resource language translation through pivot combinations
+ABSTRACT: background_label: AbstractChinese and Spanish are the most spoken languages in the world.
+background_label: However, there is not much research done in machine translation for this language pair.
+method_label: We experiment with the parallel Chinese-Spanish corpus (United Nations) to explore alternatives of SMT strategies which consist on using a pivot language.
+method_label: Particularly, two well-known alternatives are shown for pivoting: the cascade system and the pseudo-corpus.
+method_label: As Pivot language we use English, Arabic and French.
+result_label: Results show that English is the best pivot language between Chinese and Spanish.
+result_label: As a new strategy, we propose to perform a combination of the pivot strategies which is capable to highly outperform the direct translation strategy.
+
+===================================
+paper_id: 9393879; YEAR: 2008
+adju relevance: Related (+1)
+difference: 1; annotator2: 0; annotator3: 1
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Language and Translation Model Adaptation using Comparable Corpora
+ABSTRACT: background_label: Traditionally, statistical machine translation systems have relied on parallel bi-lingual data to train a translation model.
+background_label: While bi-lingual parallel data are expensive to generate, monolingual data are relatively common.
+background_label: Yet monolingual data have been under-utilized, having been used primarily for training a language model in the target language.
+objective_label: This paper describes a novel method for utilizing monolingual target data to improve the performance of a statistical machine translation system on news stories.
+method_label: The method exploits the existence of comparable text---multiple texts in the target language that discuss the same or similar stories as found in the source language document.
+method_label: For every source document that is to be translated, a large monolingual data set in the target language is searched for documents that might be comparable to the source documents.
+method_label: These documents are then used to adapt the MT system to increase the probability of generating texts that resemble the comparable document.
+result_label: Experimental results obtained by adapting both the language and translation models show substantial gains over the baseline system.
+
+===================================
+paper_id: 24355781; YEAR: 2009
+adju relevance: Related (+1)
+difference: 1; annotator2: 0; annotator3: 1
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Character-based PSMT for Closely Related Languages
+ABSTRACT: background_label: Translating unknown words between related languages using a character-based statistical machine translation model can be beneficial.
+method_label: In this paper, we describe a simple method to combine character-based models with standard word-based models to increase the coverage of a phrase-based SMT system.
+method_label: Using this approach, we can show a modest improvement when translating between Norwegian and Swedish.
+method_label: The potentials of applying character-based models to closely related languages is also illustrated by applying the character model on its own.
+result_label: The performance of such an approach is similar to the word-level baseline and closer to the reference in terms of string similarity.
+
+===================================
+paper_id: 39527059; YEAR: 2016
+adju relevance: Related (+1)
+difference: 1; annotator2: 1; annotator3: 0
+sources: title_tfidf - specter
+TITLE: Statistical Machine Translation between Related Languages
+ABSTRACT: background_label: Abstract:Languageindependent Statistical Machine Translation (SMT) has proven to be very challenging.The diversity of languages makes high accuracy difficult and requires substantial parallel corpus as well as linguistic resources (parsers, morph analyzers, etc.).
+background_label: An interesting observation is that a large chunk of machine translation (MT) requirements involve related languages.
+background_label: They are either : (i) between related languages, or (ii) between a lingua franca (like English) and a set of related languages.
+background_label: For instance, India, the European Union and SouthEast Asia have such translation requirements due to government, business and sociocultural communication needs.Related languages share a lot of linguistic features and the divergences among them are at a lower level of the NLP pipeline.
+result_label: The objective of the tutorial is to discuss how the relatedness among languages can be leveraged to bridge this language divergence thereby achieving some/all of these goals: (i) improving translation quality, (ii) achieving better generalization, (iii) sharing linguistic resources, and (iv) reducing resource requirements.We will look at the existing research in SMT from the perspective of related languages, with the goal to build a toolbox of methods that are useful for translation between related languages.
+background_label: This tutorial would be relevant to Machine Translation researchers and developers, especially those interested in translation between lowresource languages which have resourcerich related languages.
+objective_label: It will also be relevant for researchers interested in multilingual computation.We start with a motivation for looking at the SMT problem from the perspective of related languages.We introduce notions of language relatedness useful for MT.
+method_label: We explore how lexical, morphological and syntactic similarity among related languages can help MT.
+method_label: Lexical similarity will receive special attention since related languages share a significant vocabulary in terms of cognates, loanwords, etc.Then, we look beyond bilingual MT and present how pivotbased and multisource methods incorporate knowledge from multiple languages, and handle language pairs lacking parallel corpora.We present some studies concerning the implications of languages relatedness to pivotbased SMT, and ways of handling language divergence in the pivotbased SMT scenario.
+result_label: Recent advances in deep learning have made it possible to train multilanguage neural MT systems, which we think would be relevant to training between related languages.
+result_label: 17
+
+===================================
+paper_id: 27299562; YEAR: 2001
+adju relevance: Related (+1)
+difference: 0; annotator2: 1; annotator3: 1
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Multipath Translation Lexicon Induction via Bridge Languages
+ABSTRACT: background_label: This paper presents a method for inducing translation lexicons based on transduction models of cognate pairs via bridge languages.
+method_label: Bilingual lexicons within languages families are induced using probabilistic string edit distance models.
+method_label: Translation lexicons for arbitrary distant language pairs are then generated by a combination of these intra-family translation models and one or more cross-family on-line dictionaries.
+method_label: Up to 95% exact match accuracy is achieved on the target vocabulary (30-68% of inter-family test pairs).
+result_label: Thus substantial portions of translation lexicons can be generated accurately for languages where no bilingual dictionary or parallel corpora may exist.
+
+===================================
+paper_id: 3302099; YEAR: 2017
+adju relevance: Related (+1)
+difference: 1; annotator2: 1; annotator3: 0
+sources: title_tfidf - title_cbow200 - title_tfidfcbow200 - specter
+TITLE: Improving a Multi-Source Neural Machine Translation Model with Corpus Extension for Low-Resource Languages
+ABSTRACT: background_label: In machine translation, we often try to collect resources to improve performance.
+background_label: However, most of the language pairs, such as Korean-Arabic and Korean-Vietnamese, do not have enough resources to train machine translation systems.
+objective_label: In this paper, we propose the use of synthetic methods for extending a low-resource corpus and apply it to a multi-source neural machine translation model.
+method_label: We showed the improvement of machine translation performance through corpus extension using the synthetic method.
+method_label: We specifically focused on how to create source sentences that can make better target sentences, including the use of synthetic methods.
+method_label: We found that the corpus extension could also improve the performance of multi-source neural machine translation.
+method_label: We showed the corpus extension and multi-source model to be efficient methods for a low-resource language pair.
+result_label: Furthermore, when both methods were used together, we found better machine translation performance.
+
+===================================
+paper_id: 5552464; YEAR: 2010
+adju relevance: Related (+1)
+difference: 1; annotator2: 1; annotator3: 2
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Local lexical adaptation in Machine Translation through triangulation: SMT helping SMT
+ABSTRACT: background_label: AbstractWe present a framework where auxiliary MT systems are used to provide lexical predictions to a main SMT system.
+method_label: In this work, predictions are obtained by means of pivoting via auxiliary languages, and introduced into the main SMT system in the form of a low order language model, which is estimated on a sentenceby-sentence basis.
+method_label: The linear combination of models implemented by the decoder is thus extended with this additional language model.
+method_label: Experiments are carried out over three different translation tasks using the European Parliament corpus.
+method_label: For each task, nine additional languages are used as auxiliary languages to obtain the triangulated predictions.
+result_label: Translation accuracy results show that improvements in translation quality are obtained, even for large data conditions.
+
+===================================
+paper_id: 80628301; YEAR: 2019
+adju relevance: Related (+1)
+difference: 1; annotator2: 1; annotator3: 0
+sources: abs_cbow200 - abs_tfidfcbow200
+TITLE: EAT2seq: A generic framework for controlled sentence transformation without task-specific training
+ABSTRACT: background_label: We present EAT2seq: a novel method to architect automatic linguistic transformations for a number of tasks, including controlled grammatical or lexical changes, style transfer, text generation, and machine translation.
+method_label: Our approach consists in creating an abstract representation of a sentence's meaning and grammar, which we use as input to an encoder-decoder network trained to reproduce the original sentence.
+method_label: Manipulating the abstract representation allows the transformation of sentences according to user-provided parameters, both grammatically and lexically, in any combination.
+method_label: The same architecture can further be used for controlled text generation, and has additional promise for machine translation.
+method_label: This strategy holds the promise of enabling many tasks that were hitherto outside the scope of NLP techniques for want of sufficient training data.
+result_label: We provide empirical evidence for the effectiveness of our approach by reproducing and transforming English sentences, and evaluating the results both manually and automatically.
+result_label: A single model trained on monolingual data is used for all tasks without any task-specific training.
+result_label: For a model trained on 8.5 million sentences, we report a BLEU score of 74.45 for reproduction, and scores between 55.29 and 81.82 for back-and-forth grammatical transformations across 14 category pairs.
+
+===================================
+paper_id: 1572955; YEAR: 2011
+adju relevance: Related (+1)
+difference: 1; annotator2: 0; annotator3: 1
+sources: abs_cbow200
+TITLE: Together We Can: Bilingual Bootstrapping for WSD
+ABSTRACT: background_label: AbstractRecent work on bilingual Word Sense Disambiguation (WSD) has shown that a resource deprived language (L 1 ) can benefit from the annotation work done in a resource rich language (L 2 ) via parameter projection.
+background_label: However, this method assumes the presence of sufficient annotated data in one resource rich language which may not always be possible.
+method_label: Instead, we focus on the situation where there are two resource deprived languages, both having a very small amount of seed annotated data and a large amount of untagged data.
+method_label: We then use bilingual bootstrapping, wherein, a model trained using the seed annotated data of L 1 is used to annotate the untagged data of L 2 and vice versa using parameter projection.
+method_label: The untagged instances of L 1 and L 2 which get annotated with high confidence are then added to the seed data of the respective languages and the above process is repeated.
+result_label: Our experiments show that such a bilingual bootstrapping algorithm when evaluated on two different domains with small seed sizes using Hindi (L 1 ) and Marathi (L 2 ) as the language pair performs better than monolingual bootstrapping and significantly reduces annotation cost.
+
+===================================
+paper_id: 11160504; YEAR: 2004
+adju relevance: Related (+1)
+difference: 1; annotator2: 2; annotator3: 1
+sources: title_tfidfcbow200 - title_cbow200 - specter
+TITLE: Statistical Machine Translation With Scarce Resources Using Morpho-Syntactic Information
+ABSTRACT: background_label: In statistical machine translation, correspondences between the words in the source and the target language are learned from parallel corpora, and often little or no linguistic knowledge is used to structure the underlying models.
+background_label: In particular, existing statistical systems for machine translation often treat different inflected forms of the same lemma as if they were independent of one another.
+background_label: The bilingual training data can be better exploited by explicitly taking into account the interdependencies of related inflected forms.
+objective_label: We propose the construction of hierarchical lexicon models on the basis of equivalence classes of words.
+method_label: In addition, we introduce sentence-level restructuring transformations which aim at the assimilation of word order in related sentences.
+method_label: We have systematically investigated the amount of bilingual training data required to maintain an acceptable quality of machine translation.
+method_label: The combination of the suggested methods for improving translation quality in frameworks with scarce resources has been successfully tested: We were able to reduce the amount of bilingual training data to less than 10 of the original corpus, while losing only 1.6 in translation quality.
+result_label: The improvement of the translation results is demonstrated on two German-English corpora taken from the Verbmobil task and the Nespole!
+result_label: task.
+
+===================================
+paper_id: 202233100; YEAR: 2019
+adju relevance: Related (+1)
+difference: 1; annotator2: 1; annotator3: 2
+sources: title_tfidfcbow200 - title_cbow200 - specter
+TITLE: A systematic comparison of methods for low-resource dependency parsing on genuinely low-resource languages
+ABSTRACT: background_label: Parsers are available for only a handful of the world's languages, since they require lots of training data.
+background_label: How far can we get with just a small amount of training data?
+objective_label: We systematically compare a set of simple strategies for improving low-resource parsers: data augmentation, which has not been tested before; cross-lingual training; and transliteration.
+result_label: Experimenting on three typologically diverse low-resource languages---North S\'ami, Galician, and Kazah---We find that (1) when only the low-resource treebank is available, data augmentation is very helpful; (2) when a related high-resource treebank is available, cross-lingual training is helpful and complements data augmentation; and (3) when the high-resource treebank uses a different writing system, transliteration into a shared orthographic spaces is also very helpful.
+
+===================================
+paper_id: 22324495; YEAR: 2017
+adju relevance: Related (+1)
+difference: 1; annotator2: 1; annotator3: 0
+sources: specter
+TITLE: Bilingual Words and Phrase Mappings for Marathi and Hindi SMT
+ABSTRACT: background_label: Lack of proper linguistic resources is the major challenges faced by the Machine Translation system developments when dealing with the resource poor languages.
+objective_label: In this paper, we describe effective ways to utilize the lexical resources to improve the quality of statistical machine translation.
+objective_label: Our research on the usage of lexical resources mainly focused on two ways, such as; augmenting the parallel corpus with more vocabulary and to provide various word forms.
+method_label: We have augmented the training corpus with various lexical resources such as lexical words, function words, kridanta pairs and verb phrases.
+method_label: We have described the case studies, evaluations and detailed error analysis for both Marathi to Hindi and Hindi to Marathi machine translation systems.
+result_label: From the evaluations we observed that, there is an incremental growth in the quality of machine translation as the usage of various lexical resources increases.
+result_label: Moreover, usage of various lexical resources helps to improve the coverage and quality of machine translation where limited parallel corpus is available.
+
+===================================
+paper_id: 9223911; YEAR: 2008
+adju relevance: Related (+1)
+difference: 1; annotator2: 1; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Semi-supervised model adaptation for statistical machine translation
+ABSTRACT: background_label: Statistical machine translation systems are usually trained on large amounts of bilingual text (used to learn a translation model), and also large amounts of monolingual text in the target language (used to train a language model).
+objective_label: In this article we explore the use of semi-supervised model adaptation methods for the effective use of monolingual data from the source language in order to improve translation quality.
+method_label: We propose several algorithms with this aim, and present the strengths and weaknesses of each one.
+method_label: We present detailed experimental evaluations on the French–English EuroParl data set and on data from the NIST Chinese–English large-data track.
+result_label: We show a significant improvement in translation quality on both tasks.
+
+===================================
+paper_id: 21707939; YEAR: 2017
+adju relevance: Related (+1)
+difference: 1; annotator2: 1; annotator3: 0
+sources: title_cbow200 - title_tfidfcbow200 - abs_cbow200
+TITLE: Machine Translation of Low-Resource Spoken Dialects: Strategies for Normalizing Swiss German
+ABSTRACT: objective_label: The goal of this work is to design a machine translation (MT) system for a low-resource family of dialects, collectively known as Swiss German, which are widely spoken in Switzerland but seldom written.
+background_label: We collected a significant number of parallel written resources to start with, up to a total of about 60k words.
+method_label: Moreover, we identified several other promising data sources for Swiss German.
+method_label: Then, we designed and compared three strategies for normalizing Swiss German input in order to address the regional diversity.
+result_label: We found that character-based neural MT was the best solution for text normalization.
+result_label: In combination with phrase-based statistical MT, our solution reached 36% BLEU score when translating from the Bernese dialect.
+result_label: This value, however, decreases as the testing data becomes more remote from the training one, geographically and topically.
+result_label: These resources and normalization techniques are a first step towards full MT of Swiss German dialects.
+
+===================================
+paper_id: 11142668; YEAR: 2005
+adju relevance: Related (+1)
+difference: 1; annotator2: 0; annotator3: 1
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Clause Restructuring For Statistical Machine Translation
+ABSTRACT: method_label: We describe a method for incorporating syntactic information in statistical machine translation systems.
+method_label: The first step of the method is to parse the source language string that is being translated.
+method_label: The second step is to apply a series of transformations to the parse tree, effectively reordering the surface string on the source language side of the translation system.
+objective_label: The goal of this step is to recover an underlying word order that is closer to the target language word-order than the original string.
+method_label: The reordering approach is applied as a pre-processing step in both the training and decoding phases of a phrase-based statistical MT system.
+result_label: We describe experiments on translation from German to English, showing an improvement from 25.2% Bleu score for a baseline system to 26.8% Bleu score for the system with reordering, a statistically significant improvement.
+
+===================================
+paper_id: 9862240; YEAR: 2004
+adju relevance: Related (+1)
+difference: 1; annotator2: 2; annotator3: 1
+sources: specter - title_cbow200 - title_tfidfcbow200
+TITLE: Trainable Transfer-based Machine Translation Approach for Languages with Limited Resources
+ABSTRACT: background_label: We describe a Machine Translation (MT) approach that is specifically designed to enable rapid development of MT for languages with limited amounts of online resources.
+background_label: Our approach assumes the availability of a small number of bi-lingual speakers of the two languages, but these need not be linguistic experts.
+method_label: The bi-lingual speakers create a comparatively small corpus of word aligned phrases and sentences (on the order of magnitude of a few thousand sentence pairs) using a specially designed elicitation tool.
+method_label: From this data, the learning module of our system automatically infers hierarchical syntactic transfer rules, which encode how syntactic constituent structures in the source language transfer to the target language.
+method_label: The collection of transfer rules is then used in our run-time system to translate previously unseen source language text into the target language.
+result_label: We describe the general principles underlying our approach, and present results from an experiment, where we developed a basic Hindi-to-English MT system over the course of two months, using extremely limited resources.
+
+===================================
+paper_id: 10531943; YEAR: 2017
+adju relevance: Related (+1)
+difference: 1; annotator2: 1; annotator3: 0
+sources: title_cbow200 - title_tfidfcbow200 - specter - title_tfidf
+TITLE: Word Transduction for Addressing the OOV Problem in Machine Translation for Similar Resource-Scarce Languages
+ABSTRACT: background_label: AbstractSimilar languages have a large number of cognate words which can be exploited to deal with Out-Of-Vocabulary (OOV) words problem.
+background_label: This problem is especially severe for resource-scarce languages.
+objective_label: We propose a method for 'word transduction' for addressing this problem.
+method_label: We take advantage of the fact that, although it is difficult to prepare sentence aligned parallel corpus for such languages, it is much easier to prepare 'parallel' list of word pairs which are cognates and have similar pronunciations.
+method_label: We can try to learn pronunciations (or orthographic representations) of OOV words from such a parallel list.
+method_label: This could be done by using phrase-based machine translation (PBMT).
+result_label: We show that, for small amount of data, a model based on weighted rewrite rules for phoneme chunks outperforms a PBMT-based approach.
+result_label: An additional point that we make is that word transduction can also be used to borrow words from another similar language and adapt them to the phonology of the target language.
+
+===================================
+paper_id: 23832010; YEAR: 2017
+adju relevance: Related (+1)
+difference: 1; annotator2: 1; annotator3: 0
+sources: abs_cbow200 - title_cbow200 - title_tfidfcbow200
+TITLE: Low Resourced Machine Translation via Morpho-syntactic Modeling: The Case of Dialectal Arabic
+ABSTRACT: background_label: We present the second ever evaluated Arabic dialect-to-dialect machine translation effort, and the first to leverage external resources beyond a small parallel corpus.
+background_label: The subject has not previously received serious attention due to lack of naturally occurring parallel data; yet its importance is evidenced by dialectal Arabic's wide usage and breadth of inter-dialect variation, comparable to that of Romance languages.
+result_label: Our results suggest that modeling morphology and syntax significantly improves dialect-to-dialect translation, though optimizing such data-sparse models requires consideration of the linguistic differences between dialects and the nature of available data and resources.
+result_label: On a single-reference blind test set where untranslated input scores 6.5 BLEU and a model trained only on parallel data reaches 14.6, pivot techniques and morphosyntactic modeling significantly improve performance to 17.5.
+
+===================================
+paper_id: 36117198; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidf
+TITLE: DeepMind_Commentary
+ABSTRACT: background_label: We agree with Lake and colleagues on their list of key ingredients for building humanlike intelligence, including the idea that model-based reasoning is essential.
+background_label: However, we favor an approach that centers on one additional ingredient: autonomy.
+objective_label: In particular, we aim toward agents that can both build and exploit their own internal models, with minimal human hand-engineering.
+method_label: We believe an approach centered on autonomous learning has the greatest chance of success as we scale toward real-world complexity, tackling domains for which ready-made formal models are not available.
+result_label: Here we survey several important examples of the progress that has been made toward building autonomous agents with humanlike abilities, and highlight some outstanding challenges.
+
+===================================
+paper_id: 16088175; YEAR: 2001
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Statistical Multi-Source Translation
+ABSTRACT: background_label: We describe methods for translating a text given in multiple source languages into a single target language.
+objective_label: The goal is to improve translation quality in applications where the ultimate goal is to translate the same document into many languages.
+method_label: We describe a statistical approach and two specific statistical models to deal with this problem.
+method_label: Our method is generally applicable as it is independent of specific models, languages or application domains.
+method_label: We evaluate the approach on a multilingual corpus covering all eleven official European Union languages that was collected automatically from the Internet.
+result_label: In various tests we show that these methods can significantly improve translation quality.
+result_label: As a side effect, we also compare the quality of statistical machine translation systems for many European languages in the same domain.
+
+===================================
+paper_id: 1889871; YEAR: 2009
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Improving Translation Lexicon Induction from Monolingual Corpora via Dependency Contexts and Part-of-Speech Equivalences
+ABSTRACT: background_label: This paper presents novel improvements to the induction of translation lexicons from monolingual corpora using multilingual dependency parses.
+method_label: We introduce a dependency-based context model that incorporates long-range dependencies, variable context sizes, and reordering.
+method_label: It provides a 16% relative improvement over the baseline approach that uses a fixed context window of adjacent words.
+method_label: Its Top 10 accuracy for noun translation is higher than that of a statistical translation model trained on a Spanish-English parallel corpus containing 100,000 sentence pairs.
+result_label: We generalize the evaluation to other word-types, and show that the performance can be increased to 18% relative by preserving part-of-speech equivalencies during translation.
+
+===================================
+paper_id: 5921061; YEAR: 2008
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Phrase-based Machine Transliteration
+ABSTRACT: background_label: AbstractThis paper presents a technique for transliteration based directly on techniques developed for phrase-based statistical machine translation.
+objective_label: The focus of our work is in providing a transliteration system that could be used to translate unknown words in a speech-to-speech machine translation system.
+method_label: Therefore the system must be able to generate arbitrary sequence of characters in the target language, rather than words chosen from a pre-determined vocabulary.
+method_label: We evalauted our method automatically relative to a set of human-annotated reference transliterations as well as by assessing it for correctness using human evaluators.
+result_label: Our experimental results demonstrate that for both transliteration and back-transliteration the system is able to produce correct, or phonetically e q u i v a l e n t t o c o r r e c t o u t p u t i n approximately 80% of cases.
+
+===================================
+paper_id: 17678822; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 1; annotator2: 2; annotator3: 3
+sources: title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Source Language Adaptation Approaches for Resource-Poor Machine Translation
+ABSTRACT: background_label: Most of the world languages are resource-poor for statistical machine translation; still, many of them are actually related to some resource-rich language.
+objective_label: Thus, we propose three novel, language-independent approaches to source language adaptation for resource-poor statistical machine translation.
+method_label: Specifically, we build improved statistical machine translation models from a resource-poor language POOR into a target language TGT by adapting and using a large bitext for a related resource-rich language RICH and the same target language TGT.
+method_label: We assume a small POOR–TGT bitext from which we learn word-level and phrase-level paraphrases and cross-lingual morphological variants between the resource-rich and the resource-poor language.
+result_label: Our work is of importance for resource-poor machine translation because it can provide a useful guideline for people building machine translation systems for resource-poor languages.Our experiments for Indonesian/Malay–English translation show that using the large adapted resource-rich bitext yields 7.26 BLEU points of improvement over the unadapted one and 3.09 BLEU points over the original small bitext.
+result_label: Moreover, combining the small POOR–TGT bitext with the adapted bitext outperforms the corresponding combinations with the unadapted bitext by 1.93–3.25 BLEU points.
+result_label: We also demonstrate the applicability of our approaches to other languages and domains.
+
+===================================
+paper_id: 384994; YEAR: 2005
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: A Hierarchical Phrase-Based Model for Statistical Machine Translation
+ABSTRACT: background_label: We present a statistical phrase-based translation model that uses hierarchical phrases---phrases that contain subphrases.
+background_label: The model is formally a synchronous context-free grammar but is learned from a bitext without any syntactic information.
+background_label: Thus it can be seen as a shift to the formal machinery of syntax-based translation systems without any linguistic commitment.
+result_label: In our experiments using BLEU as a metric, the hierarchical phrase-based model achieves a relative improvement of 7.5% over Pharaoh, a state-of-the-art phrase-based system.
+
+===================================
+paper_id: 53096092; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_tfidfcbow200
+TITLE: IIT(BHU)-IIITH at CoNLL-SIGMORPHON 2018 Shared Task on Universal Morphological Reinflection
+ABSTRACT: background_label: AbstractThis paper describes the systems submitted by IIT (BHU), Varanasi/IIIT Hyderabad (IITBHU-IIITH) for Task 1 of CoNLL-SIGMORPHON 2018 Shared Task on Universal Morphological Reinflection (Cotterell et al., 2018).
+objective_label: The task is to generate the inflected form given a lemma and set of morphological features.
+method_label: The systems are evaluated on over 100 distinct languages and three different resource settings (low, medium and high).
+method_label: We formulate the task as a sequence to sequence learning problem.
+method_label: As most of the characters in inflected form are copied from the lemma, we use Pointer-Generator Network (See et al., 2017) which makes it easier for the system to copy characters from the lemma.
+method_label: PointerGenerator Network also helps in dealing with out-of-vocabulary characters during inference.
+result_label: Our best performing system stood 4th among 28 systems, 3rd among 23 systems and 4th among 23 systems for the low, medium and high resource setting respectively.
+
+===================================
+paper_id: 15149849; YEAR: 2013
+adju relevance: Irrelevant (0)
+difference: 1; annotator2: 1; annotator3: 0
+sources: abs_cbow200 - title_cbow200 - specter - title_tfidf
+TITLE: Lexical statistical machine translation for language migration
+ABSTRACT: background_label: Prior research has shown that source code also exhibits naturalness, i.e.
+background_label: it is written by humans and is likely to be repetitive.
+background_label: The researchers also showed that the n-gram language model is useful in predicting the next token in a source file given a large corpus of existing source code.
+objective_label: In this paper, we investigate how well statistical machine translation (SMT) models for natural languages could help in migrating source code from one programming language to another.
+method_label: We treat source code as a sequence of lexical tokens and apply a phrase-based SMT model on the lexemes of those tokens.
+result_label: Our empirical evaluation on migrating two Java projects into C# showed that lexical, phrase-based SMT could achieve high lexical translation accuracy (BLEU from 81.3-82.6%).
+result_label: Users would have to manually edit only 11.9-15.8% of the total number of tokens in the resulting code to correct it.
+result_label: However, a high percentage of total translation methods (49.5-58.6%) is syntactically incorrect.
+result_label: Therefore, our result calls for a more program-oriented SMT model that is capable of better integrating the syntactic and semantic information of a program to support language migration.
+
+===================================
+paper_id: 15782476; YEAR: 2012
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidfcbow200
+TITLE: Evaluation of P2P resource discovery architectures using real-life multi-attribute resource and query characteristics
+ABSTRACT: background_label: Emerging collaborative Peer-to-Peer (P2P) applications rely on resource discovery solutions to aggregate groups of heterogeneous, multi-attribute, and dynamic resources that are distributed.
+background_label: In the absence of data and understanding of real-life resource and query characteristics, design and evaluation of existing solutions have relied on many simplifying assumptions.
+method_label: We first present a summary of resource and query characteristics from PlanetLab.
+method_label: These characteristics are then used to evaluate fundamental design choices for multi-attribute resource discovery based on the cost of advertising/querying resources, index size, and load balancing.
+result_label: Simulation-based analysis indicates that the cost of advertising dynamic attributes is significant and in-creases with the number of attributes.
+method_label: Compared to uniform queries, real-world queries are relatively easier to resolve using unstructured, superpeer, and single-attribute dominated query based structured P2P solutions.
+method_label: However, they cause significant load balancing issues in all the designs where a few nodes are mainly involved in answering majority of queries and/or indexing resources.
+result_label: Moreover, cost of resource discovery in structured P2P systems is effectively O(N) as most range queries are less specific.
+result_label: Thus, many existing design choices are applicable only under specific conditions and their performances tend to degrade under realistic workloads.
+
+===================================
+paper_id: 5474833; YEAR: 2003
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Minimum Error Rate Training in Statistical Machine Translation
+ABSTRACT: background_label: Often, the training procedure for statistical machine translation models is based on maximum likelihood or related criteria.
+background_label: A general problem of this approach is that there is only a loose relation to the final translation quality on unseen text.
+objective_label: In this paper, we analyze various training criteria which directly optimize translation quality.
+method_label: These training criteria make use of recently proposed automatic evaluation metrics.
+method_label: We describe a new algorithm for efficient training an unsmoothed error count.
+result_label: We show that significantly better results can often be obtained if the final evaluation criterion is taken directly into account as part of the training procedure.
+
+===================================
+paper_id: 54748953; YEAR: 2013
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_cbow200
+TITLE: Automatic syllabification using segmental conditional random fields
+ABSTRACT: background_label: In this paper we present a statistical approach for the automatic syllabification of phonetic word transcriptions.
+background_label: A syllable bigram language model forms the core of the system.
+background_label: Given the large number of syllables in non-syllabic languages, sparsity is the main issue, especially since the available syllabified corpora tend to be small.
+background_label: Traditional back-off mechanisms only give a partial solution to the sparsity problem.
+method_label: In this work we use a set of features for back-off purposes: on the one hand probabilities such as consonant cluster probabilities, and on the other hand a set of rules based on generic syllabification principles such as legality, sonority and maximal onset.
+method_label: For the combination of these highly correlated features with the baseline bigram feature we employ segmental conditional random fields (SCRFs) as statistical framework.
+method_label: The resulting method is very versatile and can be used for any amount of data of any language.
+method_label: The method was tested on various datasets in English and Dutch with dictionary sizes varying between 1 and 60 thousand words.
+result_label: We obtained a 97.96% word accuracy for supervised syllabification and a 91.22% word accuracy for unsupervised syllabification for English.
+result_label: When including the top-2 generated syllabifications for a small fraction of the words, virtual perfect syllabification is obtained in supervised mode.
+
+===================================
+paper_id: 7185434; YEAR: 2008
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Learning Bilingual Lexicons from Monolingual Corpora
+ABSTRACT: method_label: AbstractWe present a method for learning bilingual translation lexicons from monolingual corpora.
+background_label: Word types in each language are characterized by purely monolingual features, such as context counts and orthographic substrings.
+method_label: Translations are induced using a generative model based on canonical correlation analysis, which explains the monolingual lexicons in terms of latent matchings.
+result_label: We show that high-precision lexicons can be learned in a variety of language pairs and from a range of corpus types.
+
+===================================
+paper_id: 12235415; YEAR: 2011
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_tfidf
+TITLE: On the Waring problem for polynomial rings
+ABSTRACT: background_label: In this note we discuss an analog of the classical Waring problem for C[x_0, x_1,...,x_n].
+method_label: Namely, we show that a general homogeneous polynomial p \in C[x_0,x_1,...,x_n] of degree divisible by k\ge 2 can be represented as a sum of at most k^n k-th powers of homogeneous polynomials in C[x_0, x_1,...,x_n].
+result_label: Noticeably, k^n coincides with the number obtained by naive dimension count.
+
+===================================
+paper_id: 8030425; YEAR: 2007
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: A Comparison of Pivot Methods for Phrase-Based Statistical Machine Translation
+ABSTRACT: background_label: AbstractWe compare two pivot strategies for phrase-based statistical machine translation (SMT), namely phrase translation and sentence translation.
+method_label: The phrase translation strategy means that we directly construct a phrase translation table (phrase-table) of the source and target language pair from two phrase-tables; one constructed from the source language and English and one constructed from English and the target language.
+method_label: We then use that phrase-table in a phrase-based SMT system.
+method_label: The sentence translation strategy means that we first translate a source language sentence into n English sentences and then translate these n sentences into target language sentences separately.
+method_label: Then, we select the highest scoring sentence from these target sentences.
+result_label: We conducted controlled experiments using the Europarl corpus to evaluate the performance of these pivot strategies as compared to directly trained SMT systems.
+result_label: The phrase translation strategy significantly outperformed the sentence translation strategy.
+result_label: Its relative performance was 0.92 to 0.97 compared to directly trained SMT systems.
+
+===================================
+paper_id: 14370258; YEAR: 2015
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidfcbow200 - title_cbow200
+TITLE: Unicode-based graphemic systems for limited resource languages
+ABSTRACT: background_label: Large vocabulary continuous speech recognition systems require a mapping from words, or tokens, into sub-word units to enable robust estimation of acoustic model parameters, and to model words not seen in the training data.
+method_label: The standard approach to achieve this is to manually generate a lexicon where words are mapped into phones, often with attributes associated with each of these phones.
+method_label: Contextdependent acoustic models are then constructed using decision trees where questions are asked based on the phones and phone attributes.
+background_label: For low-resource languages, it may not be practical to manually generate a lexicon.
+method_label: An alternative approach is to use a graphemic lexicon, where the “pronunciation” for a word is defined by the letters forming that word.
+method_label: This paper proposes a simple approach for building graphemic systems for any language written in unicode.
+method_label: The attributes for graphemes are automatically derived using features from the unicode character descriptions.
+method_label: These attributes are then used in decision tree construction.
+method_label: This approach is examined on the IARPA Babel Option Period 2 languages, and a Levantine Arabic CTS task.
+result_label: The described approach achieves comparable, and complementary, performance to phonetic lexicon-based approaches.
+
+===================================
+paper_id: 165163830; YEAR: 2019
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_tfidfcbow200
+TITLE: k-Spectra of weakly-c-Balanced Words
+ABSTRACT: background_label: A word $u$ is a scattered factor of $w$ if $u$ can be obtained from $w$ by deleting some of its letters.
+background_label: That is, there exist the (potentially empty) words $u_1,u_2,..., u_n$, and $v_0,v_1,..,v_n$ such that $u = u_1u_2...u_n$ and $w = v_0u_1v_1u_2v_2...u_nv_n$.
+method_label: We consider the set of length-$k$ scattered factors of a given word w, called here $k$-spectrum and denoted $\ScatFact_k(w)$.
+result_label: We prove a series of properties of the sets $\ScatFact_k(w)$ for binary strictly balanced and, respectively, $c$-balanced words $w$, i.e., words over a two-letter alphabet where the number of occurrences of each letter is the same, or, respectively, one letter has $c$-more occurrences than the other.
+method_label: In particular, we consider the question which cardinalities $n= |\ScatFact_k(w)|$ are obtainable, for a positive integer $k$, when $w$ is either a strictly balanced binary word of length $2k$, or a $c$-balanced binary word of length $2k-c$.
+result_label: We also consider the problem of reconstructing words from their $k$-spectra.
+
+===================================
+paper_id: 256590; YEAR: 2013
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: specter - abs_cbow200
+TITLE: Substring-based machine translation
+ABSTRACT: background_label: Machine translation is traditionally formulated as the transduction of strings of words from the source to the target language.
+background_label: As a result, additional lexical processing steps such as morphological analysis, transliteration, and tokenization are required to process the internal structure of words to help cope with data-sparsity issues that occur when simply dividing words according to white spaces.
+objective_label: In this paper, we take a different approach: not dividing lexical processing and translation into two steps, but simply viewing translation as a single transduction between character strings in the source and target languages.
+method_label: In particular, we demonstrate that the key to achieving accuracies on a par with word-based translation in the character-based framework is the use of a many-to-many alignment strategy that can accurately capture correspondences between arbitrary substrings.
+method_label: We build on the alignment method proposed in Neubig et al.
+other_label: (Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics.
+other_label: Portland, Oregon, pp.
+method_label: 632–641, 2011), improving its efficiency and accuracy with a focus on character-based translation.
+result_label: Using a many-to-many aligner imbued with these improvements, we demonstrate that the traditional framework of phrase-based machine translation sees large gains in accuracy over character-based translation with more naive alignment methods, and achieves comparable results to word-based translation for two distant language pairs.
+
+===================================
+paper_id: 17104678; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_tfidfcbow200 - abs_cbow200
+TITLE: Part-of-Speech Tagging for Code-mixed Indian Social Media Text at ICON 2015
+ABSTRACT: background_label: This paper discusses the experiments carried out by us at Jadavpur University as part of the participation in ICON 2015 task: POS Tagging for Code-mixed Indian Social Media Text.
+method_label: The tool that we have developed for the task is based on Trigram Hidden Markov Model that utilizes information from dictionary as well as some other word level features to enhance the observation probabilities of the known tokens as well as unknown tokens.
+method_label: We submitted runs for Bengali-English, Hindi-English and Tamil-English Language pairs.
+method_label: Our system has been trained and tested on the datasets released for ICON 2015 shared task: POS Tagging For Code-mixed Indian Social Media Text.
+result_label: In constrained mode, our system obtains average overall accuracy (averaged over all three language pairs) of 75.60% which is very close to other participating two systems (76.79% for IIITH and 75.79% for AMRITA_CEN) ranked higher than our system.
+result_label: In unconstrained mode, our system obtains average overall accuracy of 70.65% which is also close to the system (72.85% for AMRITA_CEN) which obtains the highest average overall accuracy.
+
+===================================
+paper_id: 117979661; YEAR: 1996
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_tfidf
+TITLE: Equations For Modular Curves
+ABSTRACT: background_label: The primary topic of this thesis is the construction of explicit projective equations for the modular curves $X_0(N)$.
+background_label: The techniques may also be used to obtain equations for $X_0^+(p)$ and, more generally, $X_0(N) / W_n$.
+background_label: The thesis contains a number of tables of results.
+method_label: In particular, equations are given for all curves $X_0(N)$ having genus $2 le g le 5$.
+other_label: Equations are also given for all $X_0^+(p)$ having genus 2 or 3, and for the genus 4 and 5 curves $X_0^+(p)$ when $p le 251$.
+background_label: The most successful tool used to obtain these equations is the canonical embedding, combined with the fact that the differentials on a modular curve correspond to the weight 2 cusp forms.
+method_label: A second method, designed specifically for hyperelliptic curves, is given.
+method_label: A method for obtaining equations using weight 1 theta series is also described.
+method_label: Heights of modular curves are studied and a discussion is given of the size of coefficients occurring in equations for $X_0(N)$.
+method_label: Finally, the explicit equations are used to study the rational points on $X_0^+(p)$.
+result_label: Exceptional rational points on $X_0^+(p)$ are exhibited for $p = 73,103,137$ and 191.
+
+===================================
+paper_id: 17225425; YEAR: 2005
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: Multilingual resource sharing across both related and unrelated languages: an implemented, open-source framework for practical natural language generation
+ABSTRACT: background_label: This article reports on our experience with developing multilingual grammar resources for natural language generation (NLG).
+background_label: We employ a strong notion of multilinguality: (i) Grammars for different languages share their overall organization, as well as those descriptions that reflect similarities between languages and (ii) a single realization engine is used to generate with these grammars.
+method_label: This strong notion arises from the functionalist approach we adopt: we hypothesize that languages are likely to share communicative functions, despite possibly differing in how these functions are realized.
+result_label: We discuss the advantages of this view in the development of large-coverage generation grammars for a broad variety of languages.
+
+===================================
+paper_id: 11080756; YEAR: 2002
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Bleu: a Method for Automatic Evaluation of Machine Translation
+ABSTRACT: background_label: Human evaluations of machine translation are extensive but expensive.
+background_label: Human evaluations can take months to finish and involve human labor that can not be reused.
+method_label: We propose a method of automatic machine translation evaluation that is quick, inexpensive, and language-independent, that correlates highly with human evaluation, and that has little marginal cost per run.
+method_label: We present this method as an automated understudy to skilled human judges which substitutes for them when there is need for quick or frequent evaluations.
+
+===================================
+paper_id: 11644259; YEAR: 1996
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: HMM-Based Word Alignment In Statistical Translation
+ABSTRACT: background_label: In this paper, we describe a new model for word alignment in statistical translation and present experimental results.
+objective_label: The idea of the model is to make the alignment probabilities dependent on the differences in the alignment positions rather than on the absolute positions.
+method_label: To achieve this goal, the approach uses a first-order Hidden Markov model (HMM) for the word alignment problem as they are used successfully in speech recognition for the time alignment problem.
+method_label: The difference to the time alignment HMM is that there is no monotony constraint for the possible word orderings.
+result_label: We describe the details of the model and test the model on several bilingual corpora.
+
+===================================
+paper_id: 21714; YEAR: 2013
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_tfidfcbow200
+TITLE: Approximation Algorithms for Movement Repairmen
+ABSTRACT: method_label: In the {\em Movement Repairmen (MR)} problem we are given a metric space $(V, d)$ along with a set $R$ of $k$ repairmen $r_1, r_2, ..., r_k$ with their start depots $s_1, s_2, ..., s_k \in V$ and speeds $v_1, v_2, ..., v_k \geq 0$ respectively and a set $C$ of $m$ clients $c_1, c_2, ..., c_m$ having start locations $s'_1, s'_2, ..., s'_m \in V$ and speeds $v'_1, v'_2, ..., v'_m \geq 0$ respectively.
+method_label: If $t$ is the earliest time a client $c_j$ is collocated with any repairman (say, $r_i$) at a node $u$, we say that the client is served by $r_i$ at $u$ and that its latency is $t$.
+objective_label: The objective in the (\smr{}) problem is to plan the movements for all repairmen and clients to minimize the sum (average) of the clients latencies.
+other_label: The motivation for this problem comes, for example, from Amazon Locker Delivery \cite{amazon} and USPS gopost \cite{gopost}.
+result_label: We give the first $O(\log n)$-approximation algorithm for the \smr{} problem.
+
+===================================
+paper_id: 18811678; YEAR: 2009
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_cbow200 - title_tfidfcbow200 - specter - title_tfidf
+TITLE: Language Model Adaptation Using Machine-Translated Text for Resource-Deficient Languages
+ABSTRACT: background_label: Text corpus size is an important issue when building a language model (LM).
+background_label: This is a particularly important issue for languages where little data is available.
+objective_label: This paper introduces an LM adaptation technique to improve an LM built using a small amount of task-dependent text with the help of a machine-translated text corpus.
+method_label: Icelandic speech recognition experiments were performed using data, machine translated (MT) from English to Icelandic on a word-by-word and sentence-by-sentence basis.
+result_label: LM interpolation using the baseline LM and an LM built from either word-by-word or sentence-by-sentence translated text reduced the word error rate significantly when manually obtained utterances used as a baseline were very sparse.
+
+===================================
+paper_id: 14436338; YEAR: 2014
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_tfidfcbow200 - abs_cbow200
+TITLE: Microtask crowdsourcing for disease mention annotation in PubMed abstracts
+ABSTRACT: background_label: Identifying concepts and relationships in biomedical text enables knowledge to be applied in computational analyses.
+background_label: Many biological natural language process (BioNLP) projects attempt to address this challenge, but the state of the art in BioNLP still leaves much room for improvement.
+background_label: Progress in BioNLP research depends on large, annotated corpora for evaluating information extraction systems and training machine learning models.
+background_label: Traditionally, such corpora are created by small numbers of expert annotators often working over extended periods of time.
+result_label: Recent studies have shown that workers on microtask crowdsourcing platforms such as Amazon's Mechanical Turk (AMT) can, in aggregate, generate high-quality annotations of biomedical text.
+result_label: Here, we investigated the use of the AMT in capturing disease mentions in PubMed abstracts.
+background_label: We used the NCBI Disease corpus as a gold standard for refining and benchmarking our crowdsourcing protocol.
+method_label: After several iterations, we arrived at a protocol that reproduced the annotations of the 593 documents in the training set of this gold standard with an overall F measure of 0.872 (precision 0.862, recall 0.883).
+method_label: The output can also be tuned to optimize for precision (max = 0.984 when recall = 0.269) or recall (max = 0.980 when precision = 0.436).
+method_label: Each document was examined by 15 workers, and their annotations were merged based on a simple voting method.
+method_label: In total 145 workers combined to complete all 593 documents in the span of 1 week at a cost of $.06 per abstract per worker.
+result_label: The quality of the annotations, as judged with the F measure, increases with the number of workers assigned to each task such that the system can be tuned to balance cost against quality.
+result_label: These results demonstrate that microtask crowdsourcing can be a valuable tool for generating well-annotated corpora in BioNLP.
+
+===================================
+paper_id: 52012943; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_cbow200 - abs_tfidfcbow200
+TITLE: A New Approach to Animacy Detection
+ABSTRACT: background_label: AbstractAnimacy is a necessary property for a referent to be an agent, and thus animacy detection is useful for a variety of natural language processing tasks, including word sense disambiguation, co-reference resolution, semantic role labeling, and others.
+background_label: Prior work treated animacy as a word-level property, and has developed statistical classifiers to classify words as either animate or inanimate.
+method_label: We discuss why this approach to the problem is ill-posed, and present a new approach based on classifying the animacy of co-reference chains.
+method_label: We show that simple voting approaches to inferring the animacy of a chain from its constituent words perform relatively poorly, and then present a hybrid system merging supervised machine learning (ML) and a small number of handbuilt rules to compute the animacy of referring expressions and co-reference chains.
+method_label: This method achieves state of the art performance.
+method_label: The supervised ML component leverages features such as word embeddings over referring expressions, parts of speech, and grammatical and semantic roles.
+background_label: The rules take into consideration parts of speech and the hypernymy structure encoded in WordNet.
+background_label: The system achieves an F 1 of 0.88 for classifying the animacy of referring expressions, which is comparable to state of the art results for classifying the animacy of words, and achieves an F 1 of 0.75 for classifying the animacy of coreference chains themselves.
+method_label: We release our training and test dataset, which includes 142 texts (all narratives) comprising 156,154 words, 34,698 referring expressions, and 10,941 co-reference chains.
+method_label: We test the method on a subset of the OntoNotes dataset, showing using manual sampling that animacy classification is 90%±2% accurate for coreference chains, and 92%±1% for referring expressions.
+method_label: The data also contains 46 folktales, which present an interesting challenge because they often involve characters who are members of traditionally inanimate classes (e.g., stoves that walk, trees that talk).
+result_label: We show that our system is able to detect the animacy of these unusual referents with an F 1 of 0.95.
+
+===================================
+paper_id: 651208; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 1; annotator2: 1; annotator3: 0
+sources: title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - title_tfidf
+TITLE: Improving the Performance of Neural Machine Translation Involving Morphologically Rich Languages
+ABSTRACT: background_label: The advent of the attention mechanism in neural machine translation models has improved the performance of machine translation systems by enabling selective lookup into the source sentence.
+background_label: In this paper, the efficiencies of translation using bidirectional encoder attention decoder models were studied with respect to translation involving morphologically rich languages.
+method_label: The English - Tamil language pair was selected for this analysis.
+method_label: First, the use of Word2Vec embedding for both the English and Tamil words improved the translation results by 0.73 BLEU points over the baseline RNNSearch model with 4.84 BLEU score.
+method_label: The use of morphological segmentation before word vectorization to split the morphologically rich Tamil words into their respective morphemes before the translation, caused a reduction in the target vocabulary size by a factor of 8.
+result_label: Also, this model (RNNMorph) improved the performance of neural machine translation by 7.05 BLEU points over the RNNSearch model used over the same corpus.
+result_label: Since the BLEU evaluation of the RNNMorph model might be unreliable due to an increase in the number of matching tokens per sentence, the performances of the translations were also compared by means of human evaluation metrics of adequacy, fluency and relative ranking.
+result_label: Further, the use of morphological segmentation also improved the efficacy of the attention mechanism.
+
+===================================
+paper_id: 15609256; YEAR: 2006
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Tagging Portuguese with a Spanish Tagger Using Cognates
+ABSTRACT: background_label: We describe a knowledge and resource light system for an automatic morphological analysis and tagging of Brazilian Portuguese.
+background_label: We avoid the use of labor intensive resources; particularly, large annotated corpora and lexicons.
+method_label: Instead, we use (i) an annotated corpus of Peninsular Spanish, a language related to Portuguese, (ii) an unannotated corpus of Portuguese, (iii) a description of Portuguese morphology on the level of a basic grammar book.
+method_label: We extend the similar work that we have done (Hana et al., 2004; Feldman et al., 2006) by proposing an alternative algorithm for cognate transfer that effectively projects the Spanish emission probabilities into Portuguese.
+result_label: Our experiments use minimal new human effort and show 21% error reduction over even emissions on a fine-grained tagset.
+
+===================================
+paper_id: 78280; YEAR: 2009
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: NUS at WMT09: Domain Adaptation Experiments for English-Spanish Machine Translation of News Commentary Text
+ABSTRACT: background_label: We describe the system developed by the team of the National University of Singapore for English to Spanish machine translation of News Commentary text for the WMT09 Shared Translation Task.
+method_label: Our approach is based on domain adaptation, combining a small in-domain News Commentary bi-text and a large out-of-domain one from the Europarl corpus, from which we built and combined two separate phrase tables.
+result_label: We further combined two language models (in-domain and out-of-domain), and we experimented with cognates, improved tokenization and recasing, achieving the highest lowercased NIST score of 6.963 and the second best lowercased Bleu score of 24.91% for training without using additional external data for English-to-Spanish translation at the shared task.
+
+===================================
+paper_id: 17639243; YEAR: 2011
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_cbow200 - abs_tfidfcbow200
+TITLE: MeSH: a window into full text for document summarization
+ABSTRACT: background_label: MOTIVATION Previous research in the biomedical text-mining domain has historically been limited to titles, abstracts and metadata available in MEDLINE records.
+background_label: Recent research initiatives such as TREC Genomics and BioCreAtIvE strongly point to the merits of moving beyond abstracts and into the realm of full texts.
+background_label: Full texts are, however, more expensive to process not only in terms of resources needed but also in terms of accuracy.
+background_label: Since full texts contain embellishments that elaborate, contextualize, contrast, supplement, etc., there is greater risk for false positives.
+objective_label: Motivated by this, we explore an approach that offers a compromise between the extremes of abstracts and full texts.
+method_label: Specifically, we create reduced versions of full text documents that contain only important portions.
+objective_label: In the long-term, our goal is to explore the use of such summaries for functions such as document retrieval and information extraction.
+objective_label: Here, we focus on designing summarization strategies.
+background_label: In particular, we explore the use of MeSH terms, manually assigned to documents by trained annotators, as clues to select important text segments from the full text documents.
+method_label: RESULTS Our experiments confirm the ability of our approach to pick the important text portions.
+method_label: Using the ROUGE measures for evaluation, we were able to achieve maximum ROUGE-1, ROUGE-2 and ROUGE-SU4 F-scores of 0.4150, 0.1435 and 0.1782, respectively, for our MeSH term-based method versus the maximum baseline scores of 0.3815, 0.1353 and 0.1428, respectively.
+result_label: Using a MeSH profile-based strategy, we were able to achieve maximum ROUGE F-scores of 0.4320, 0.1497 and 0.1887, respectively.
+result_label: Human evaluation of the baselines and our proposed strategies further corroborates the ability of our method to select important sentences from the full texts.
+other_label: CONTACT sanmitra-bhattacharya@uiowa.edu; padmini-srinivasan@uiowa.edu.
+
+===================================
+paper_id: 8884845; YEAR: 2003
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Statistical Phrase-Based Translation
+ABSTRACT: objective_label: We propose a new phrase-based translation model and decoding algorithm that enables us to evaluate and compare several, previously proposed phrase-based translation models.
+method_label: Within our framework, we carry out a large number of experiments to understand better and explain why phrase-based models out-perform word-based models.
+result_label: Our empirical results, which hold for all examined language pairs, suggest that the highest levels of performance can be obtained through relatively simple means: heuristic learning of phrase translations from word-based alignments and lexical weighting of phrase translations.
+result_label: Surprisingly, learning phrases longer than three words and learning phrases from high-accuracy word-level alignment models does not have a strong impact on performance.
+result_label: Learning only syntactically motivated phrases degrades the performance of our systems.
+
+===================================
+paper_id: 18721941; YEAR: 2013
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: specter - title_tfidf
+TITLE: Improving Statistical Machine Translation with Word Class Models
+ABSTRACT: background_label: AbstractAutomatically clustering words from a monolingual or bilingual training corpus into classes is a widely used technique in statistical natural language processing.
+method_label: We present a very simple and easy to implement method for using these word classes to improve translation quality.
+method_label: It can be applied across different machine translation paradigms and with arbitrary types of models.
+method_label: We show its efficacy on a small German→English and a larger French→German translation task with both standard phrase-based and hierarchical phrase-based translation systems for a common set of models.
+result_label: Our results show that with word class models, the baseline can be improved by up to 1.4% BLEU and 1.0% TER on the French→German task and 0.3% BLEU and 1.1% TER on the German→English task.
+
+===================================
+paper_id: 119159284; YEAR: 2005
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_tfidf
+TITLE: Stable Signal Recovery from Incomplete and Inaccurate Measurements
+ABSTRACT: background_label: Suppose we wish to recover an n-dimensional real-valued vector x_0 (e.g.
+background_label: a digital signal or image) from incomplete and contaminated observations y = A x_0 + e; A is a n by m matrix with far fewer rows than columns (n<<m) and e is an error term.
+background_label: Is it possible to recover x_0 accurately based on the data y?
+method_label: To recover x_0, we consider the solution x* to the l1-regularization problem min \|x\|_1 subject to \|Ax-y\|_2<= epsilon, where epsilon is the size of the error term e. We show that if A obeys a uniform uncertainty principle (with unit-normed columns) and if the vector x_0 is sufficiently sparse, then the solution is within the noise level \|x* - x_0\|_2 \le C epsilon.
+result_label: As a first example, suppose that A is a Gaussian random matrix, then stable recovery occurs for almost all such A's provided that the number of nonzeros of x_0 is of about the same order as the number of observations.
+method_label: Second, suppose one observes few Fourier samples of x_0, then stable recovery occurs for almost any set of p coefficients provided that the number of nonzeros is of the order of n/[\log m]^6.
+result_label: In the case where the error term vanishes, the recovery is of course exact, and this work actually provides novel insights on the exact recovery phenomenon discussed in earlier papers.
+result_label: The methodology also explains why one can also very nearly recover approximately sparse signals.
+
+===================================
+paper_id: 147704286; YEAR: 2019
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_tfidfcbow200
+TITLE: Unified Language Model Pre-training for Natural Language Understanding and Generation
+ABSTRACT: background_label: This paper presents a new Unified pre-trained Language Model (UniLM) that can be fine-tuned for both natural language understanding and generation tasks.
+method_label: The model is pre-trained using three types of language modeling objectives: unidirectional (both left-to-right and right-to-left), bidirectional, and sequence-to-sequence prediction.
+method_label: The unified modeling is achieved by employing a shared Transformer network and utilizing specific self-attention masks to control what context the prediction conditions on.
+method_label: We can fine-tune UniLM as a unidirectional decoder, a bidirectional encoder, or a sequence-to-sequence model to support various downstream natural language understanding and generation tasks.
+method_label: UniLM compares favorably with BERT on the GLUE benchmark, and the SQuAD 2.0 and CoQA question answering tasks.
+result_label: Moreover, our model achieves new state-of-the-art results on three natural language generation tasks, including improving the CNN/DailyMail abstractive summarization ROUGE-L to 40.63 (2.16 absolute improvement), pushing the CoQA generative question answering F1 score to 82.5 (37.1 absolute improvement), and the SQuAD question generation BLEU-4 to 22.88 (6.50 absolute improvement).
+
+===================================
+paper_id: 115158314; YEAR: 2007
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_tfidf
+TITLE: Sum-product estimates via directed expanders
+ABSTRACT: background_label: Let $\F_q$ be a finite field of order $q$ and $P$ be a polynomial in $\F_q[x_1, x_2]$.
+background_label: For a set $A \subset \F_q$, define $P(A):=\{P(x_1, x_2) | x_i \in A \}$.
+other_label: Using certain constructions of expanders, we characterize all polynomials $P$ for which the following holds \vskip2mm \centerline{\it If $|A+A|$ is small, then $|P(A)|$ is large.}
+result_label: \vskip2mm The case $P=x_1x_2$ corresponds to the well-known sum-product problem.
+
+===================================
+paper_id: 791881; YEAR: 2006
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Improved Statistical Machine Translation Using Paraphrases
+ABSTRACT: background_label: Parallel corpora are crucial for training SMT systems.
+background_label: However, for many language pairs they are available only in very limited quantities.
+background_label: For these language pairs a huge portion of phrases encountered at run-time will be unknown.
+method_label: We show how techniques from paraphrasing can be used to deal with these otherwise unknown source language phrases.
+result_label: Our results show that augmenting a state-of-the-art SMT system with paraphrases leads to significantly improved coverage and translation quality.
+result_label: For a training corpus with 10,000 sentence pairs we increase the coverage of unique test set unigrams from 48% to 90%, with more than half of the newly covered items accurately translated, as opposed to none in current approaches.
+
+===================================
+paper_id: 694536; YEAR: 2013
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidfcbow200 - title_cbow200
+TITLE: Tower of babel: a crowdsourcing game building sentiment lexicons for resource-scarce languages
+ABSTRACT: background_label: With the growing amount of textual data produced by online social media today, the demands for sentiment analysis are also rapidly increasing; and, this is true for worldwide.
+background_label: However, non-English languages often lack sentiment lexicons, a core resource in performing sentiment analysis.
+objective_label: Our solution, Tower of Babel (ToB), is a language-independent sentiment-lexicon-generating crowdsourcing game.
+method_label: We conducted an experiment with 135 participants to explore the difference between our solution and a conventional manual annotation method.
+result_label: We evaluated ToB in terms of effectiveness, efficiency, and satisfactions.
+result_label: Based on the result of the evaluation, we conclude that sentiment classification via ToB is accurate, productive and enjoyable.
+
+===================================
+paper_id: 11657043; YEAR: 2008
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_cbow200 - title_tfidfcbow200 - title_tfidf
+TITLE: Enriching Morphologically Poor Languages for Statistical Machine Translation
+ABSTRACT: objective_label: AbstractWe address the problem of translating from morphologically poor to morphologically rich languages by adding per-word linguistic information to the source language.
+method_label: We use the syntax of the source sentence to extract information for noun cases and verb persons and annotate the corresponding words accordingly.
+method_label: In experiments, we show improved performance for translating from English into Greek and Czech.
+result_label: For English-Greek, we reduce the error on the verb conjugation from 19% to 5.4% and noun case agreement from 9% to 6%.
+
+===================================
+paper_id: 54956; YEAR: 2010
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Domain adaptation for semantic role labeling in the biomedical domain.
+ABSTRACT: background_label: MOTIVATION Semantic role labeling (SRL) is a natural language processing (NLP) task that extracts a shallow meaning representation from free text sentences.
+background_label: Several efforts to create SRL systems for the biomedical domain have been made during the last few years.
+background_label: However, state-of-the-art SRL relies on manually annotated training instances, which are rare and expensive to prepare.
+objective_label: In this article, we address SRL for the biomedical domain as a domain adaptation problem to leverage existing SRL resources from the newswire domain.
+result_label: RESULTS We evaluate the performance of three recently proposed domain adaptation algorithms for SRL.
+background_label: Our results show that by using domain adaptation, the cost of developing an SRL system for the biomedical domain can be reduced significantly.
+background_label: Using domain adaptation, our system can achieve 97% of the performance with as little as 60 annotated target domain abstracts.
+method_label: AVAILABILITY Our BioKIT system that performs SRL in the biomedical domain as described in this article is implemented in Python and C and operates under the Linux operating system.
+other_label: BioKIT can be downloaded at http://nlp.comp.nus.edu.sg/software.
+other_label: The domain adaptation software is available for download at http://www.mysmu.edu/faculty/jingjiang/software/DALR.html.
+other_label: The BioProp corpus is available from the Linguistic Data Consortium http://www.ldc.upenn.edu.
+
+===================================
+paper_id: 32253122; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_tfidfcbow200
+TITLE: Partial Sorting Problem on Evolving Data
+ABSTRACT: background_label: In this paper we investigate the top-k-selection problem, i.e.
+background_label: to determine and sort the top k elements, in the dynamic data model.
+background_label: Here dynamic means that the underlying total order evolves over time, and that the order can only be probed by pair-wise comparisons.
+method_label: It is assumed that at each time step, only one pair of elements can be compared.
+method_label: This assumption of restricted access is reasonable in the dynamic model, especially for massive data sets where it is impossible to access all the data before the next change occurs.
+result_label: Previously only two special cases were studied (Anagnostopoulos et al.
+background_label: in 36th international colloquium on automata, languages and programming (ICALP).
+background_label: LNCS, vol 5566, pp 339–350, 2009) in this model: selecting the element of a given rank, and sorting all elements.
+objective_label: This paper systematically deals with $$1\le k\le n$$ 1 ≤ k ≤ n .
+method_label: Specifically, we identify the critical point $$k^*$$ k ∗ such that the top-k-selection problem can be solved error-free with probability $$1-o(1)$$ 1 - o ( 1 ) if and only if $$k=o(k^*)$$ k = o ( k ∗ ) .
+method_label: A lower bound of the error when $$k=\varOmega (k^*)$$ k = Ω ( k ∗ ) is also determined, which actually is tight under some conditions.
+result_label: In contrast, we show that the top-k-set problem, which means finding the top k elements without sorting them, can be solved error-free with probability $$1-o(1)$$ 1 - o ( 1 ) for all $$1\le k\le n$$ 1 ≤ k ≤ n .
+result_label: Additionally, we consider some extensions of the dynamic data model and show that most of these results still hold.
+
+===================================
+paper_id: 24463810; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: specter - title_cbow200
+TITLE: Minimal Dependency Translation: a Framework for Computer-Assisted Translation for Under-Resourced Languages
+ABSTRACT: objective_label: This paper introduces Minimal Dependency Translation (MDT), an ongoing project to develop a rule-based framework for the creation of rudimentary bilingual lexicon-grammars for machine translation and computer-assisted translation into and out of under-resourced languages as well as initial steps towards an implementation of MDT for English-to-Amharic translation.
+background_label: The basic units in MDT, called groups, are headed multi-item sequences.
+method_label: In addition to wordforms, groups may contain lexemes, syntactic-semantic categories, and grammatical features.
+method_label: Each group is associated with one or more translations, each of which is a group in a target language.
+method_label: During translation, constraint satisfaction is used to select a set of source-language groups for the input sentence and to sequence the words in the associated target-language groups.
+
+===================================
+paper_id: 2577850; YEAR: 2011
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Lexical Normalisation of Short Text Messages: Makn Sens a #twitter
+ABSTRACT: background_label: AbstractTwitter provides access to large volumes of data in real time, but is notoriously noisy, hampering its utility for NLP.
+method_label: In this paper, we target out-of-vocabulary words in short text messages and propose a method for identifying and normalising ill-formed words.
+method_label: Our method uses a classifier to detect ill-formed words, and generates correction candidates based on morphophonemic similarity.
+method_label: Both word similarity and context are then exploited to select the most probable correction candidate for the word.
+result_label: The proposed method doesn't require any annotations, and achieves state-of-the-art performance over an SMS corpus and a novel dataset based on Twitter.
+
+===================================
+paper_id: 1842; YEAR: 1995
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Automatic Evaluation and Uniform Filter Cascades for Inducing N-Best Translation Lexicons
+ABSTRACT: objective_label: This paper shows how to induce an N-best translation lexicon from a bilingual text corpus using statistical properties of the corpus together with four external knowledge sources.
+method_label: The knowledge sources are cast as filters, so that any subset of them can be cascaded in a uniform framework.
+method_label: A new objective evaluation measure is used to compare the quality of lexicons induced with different filter cascades.
+method_label: The best filter cascades improve lexicon quality by up to 137% over the plain vanilla statistical method, and approach human performance.
+method_label: Drastically reducing the size of the training corpus has a much smaller impact on lexicon quality when these knowledge sources are used.
+result_label: This makes it practical to train on small hand-built corpora for language pairs where large bilingual corpora are unavailable.
+result_label: Moreover, three of the four filters prove useful even when used with large training corpora.
+
+===================================
+paper_id: 669616; YEAR: 2006
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Named Entity Transliteration and Discovery from Multilingual Comparable Corpora
+ABSTRACT: background_label: Named Entity recognition (NER) is an important part of many natural language processing tasks.
+background_label: Most current approaches employ machine learning techniques and require supervised data.
+background_label: However, many languages lack such resources.
+objective_label: This paper presents an algorithm to automatically discover Named Entities (NEs) in a resource free language, given a bilingual corpora in which it is weakly temporally aligned with a resource rich language.
+method_label: We observe that NEs have similar time distributions across such corpora, and that they are often transliterated, and develop an algorithm that exploits both iteratively.
+method_label: The algorithm makes use of a new, frequency based, metric for time distributions and a resource free discriminative approach to transliteration.
+result_label: We evaluate the algorithm on an English-Russian corpus, and show high level of NEs discovery in Russian.
+
+===================================
+paper_id: 17724224; YEAR: 2012
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_tfidfcbow200 - abs_tfidf
+TITLE: Ramsey Theory, Integer Partitions and a New Proof of the Erdos-Szekeres Theorem
+ABSTRACT: background_label: Let H be a k-uniform hypergraph whose vertices are the integers 1,...,N. We say that H contains a monotone path of length n if there are x_1<x_2<...<x_{n+k-1} so that H contains all n edges of the form {x_i,x_{i+1},...,x_{i+k-1}}.
+background_label: Let N_k(q,n) be the smallest integer N so that every q-coloring of the edges of the complete k-uniform hypergraph on N vertices contains a monochromatic monotone path of length n. While the study of N_k(q,n) for specific values of k and q goes back (implicitly) to the seminal 1935 paper of Erdos and Szekeres, the problem of bounding N_k(q,n) for arbitrary k and q was studied by Fox, Pach, Sudakov and Suk.
+method_label: Our main contribution here is a novel approach for bounding the Ramsey-type numbers N_k(q,n), based on establishing a surprisingly tight connection between them and the enumerative problem of counting high-dimensional integer partitions.
+method_label: Some of the concrete results we obtain using this approach are the following: 1.
+result_label: We show that for every fixed q we have N_3(q,n)=2^{\Theta(n^{q-1})}, thus resolving an open problem raised by Fox et al.
+method_label: 2.
+result_label: We show that for every k>= 3, N_k(2,n)=2^{\cdot^{\cdot^{2^{(2-o(1))n}}}} where the height of the tower is k-2, thus resolving an open problem raised by Elias and Matousek.
+result_label: 3.
+result_label: We give a new pigeonhole proof of the Erd\H{o}s-Szekeres Theorem on cups-vs-caps, similar to Seidenberg's proof of the Erdos-Szekeres Lemma on increasing/decreasing subsequences.
+
+===================================
+paper_id: 667949; YEAR: 2007
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: CCG Supertags in Factored Statistical Machine Translation
+ABSTRACT: background_label: Combinatorial Categorial Grammar (CCG) supertags present phrase-based machine translation with an opportunity to access rich syntactic information at a word level.
+background_label: The challenge is incorporating this information into the translation process.
+method_label: Factored translation models allow the inclusion of supertags as a factor in the source or target language.
+result_label: We show that this results in an improvement in the quality of translation and that the value of syntactic supertags in flat structured phrase-based models is largely due to better local reorderings.
+
+===================================
+paper_id: 30979829; YEAR: 2005
+adju relevance: Irrelevant (0)
+difference: 1; annotator2: 0; annotator3: 1
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Adaptation of the Translation Model for Statistical Machine Translation based on Information Retrieval
+ABSTRACT: background_label: In this paper we present experiments concerning translation model adaptation for statistical machine translation.
+method_label: We develop a method to adapt translation models using in- formation retrieval.
+method_label: The approach selects sentences similar to the test set to form an adapted training corpus.
+method_label: The method allows a better use of additionally available out-of-domain training data or finds in-domain data in a mixed corpus.
+result_label: The adapted translation models significantly improve the translation performance compared to competitive baseline sys- tems.
+
+===================================
+paper_id: 9390147; YEAR: 2002
+adju relevance: Irrelevant (0)
+difference: 1; annotator2: 1; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Learning A Translation Lexicon From Monolingual Corpora
+ABSTRACT: objective_label: This paper presents work on the task of constructing a word-level translation lexicon purely from unrelated monolingual corpora.
+method_label: We combine various clues such as cognates, similar context, preservation of word similarity, and word frequency.
+result_label: Experimental results for the construction of a German-English noun lexicon are reported.
+result_label: Noun translation accuracy of 39% scored against a parallel test corpus could be achieved.
+
+===================================
+paper_id: 3544821; YEAR: 2009
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: 11,001 New Features for Statistical Machine Translation
+ABSTRACT: background_label: We use the Margin Infused Relaxed Algorithm of Crammer et al.
+method_label: to add a large number of new features to two machine translation systems: the Hiero hierarchical phrase-based translation system and our syntax-based translation system.
+method_label: On a large-scale Chinese-English translation task, we obtain statistically significant improvements of +1.5 Bleu and + 1.1 Bleu, respectively.
+result_label: We analyze the impact of the new features and the performance of the learning algorithm.
+
+===================================
+paper_id: 34430502; YEAR: 1995
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_tfidfcbow200
+TITLE: Language model representations for beam-search decoding
+ABSTRACT: background_label: This paper presents an efficient way of representing a bigram language model for a beam-search based, continuous speech, large vocabulary HMM recognizer.
+method_label: The tree-based topology considered takes advantage of a factorization of the bigram probability derived from the bigram interpolation scheme, and of a tree organization of all the words that can follow a given one.
+method_label: Moreover, an optimization algorithm is used to considerably reduce the space requirements of the language model.
+result_label: Experimental results are provided for two 10,000-word dictation tasks: radiological reporting (perplexity 27) and newspaper dictation (perplexity 120).
+result_label: In the former domain 93% word accuracy is achieved with real-time response and 23 Mb process space.
+result_label: In the newspaper dictation domain, 88.1% word accuracy is achieved with 1.41 real-time response and 38 Mb process space.
+result_label: All recognition tests were performed on an HP-735 workstation.
+
+===================================
+paper_id: 2420674; YEAR: 2000
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Models Of Translational Equivalence Among Words
+ABSTRACT: background_label: Parallel texts (bitexts) have properties that distinguish them from other kinds of parallel data.
+background_label: First, most words translate to only one other word.
+background_label: Second, bitext correspondence is typically only partialmany words in each text have no clear equivalent in the other text.
+objective_label: This article presents methods for biasing statistical translation models to reflect these properties.
+method_label: Evaluation with respect to independent human judgments has confirmed that translation models biased in this fashion are significantly more accurate than a baseline knowledge-free model.
+method_label: This article also shows how a statistical translation model can take advantage of preexisting knowledge that might be available about particular language pairs.
+method_label: Even the simplest kinds of language-specific knowledge, such as the distinction between content words and function words, are shown to reliably boost translation model performance on some tasks.
+result_label: Statistical models that reflect knowledge about the model domain combine the best of both the rationalist and empiricist paradigms.
+
+===================================
+paper_id: 1758960; YEAR: 2007
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Can We Translate Letters?
+ABSTRACT: background_label: Current statistical machine translation systems handle the translation process as the transformation of a string of symbols into another string of symbols.
+background_label: Normally the symbols dealt with are the words in different languages, sometimes with some additional information included, like morphological data.
+objective_label: In this work we try to push the approach to the limit, working not on the level of words, but treating both the source and target sentences as a string of letters.
+method_label: We try to find out if a nearly unmodified state-of-the-art translation system is able to cope with the problem and whether it is capable to further generalize translation rules, for example at the level of word suffixes and translation of unseen words.
+result_label: Experiments are carried out for the translation of Catalan to Spanish.
+
+===================================
+paper_id: 15389538; YEAR: 2011
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Dialectal to Standard Arabic Paraphrasing to Improve Arabic-English Statistical Machine Translation
+ABSTRACT: objective_label: This paper is about improving the quality of Arabic-English statistical machine translation (SMT) on dialectal Arabic text using morphological knowledge.
+objective_label: We present a light-weight rule-based approach to producing Modern Standard Arabic (MSA) paraphrases of dialectal Arabic out-of-vocabulary (OOV) words and low frequency words.
+method_label: Our approach extends an existing MSA analyzer with a small number of morphological clitics, and uses transfer rules to generate paraphrase lattices that are input to a state-of-the-art phrase-based SMT system.
+method_label: This approach improves BLEU scores on a blind test set by 0.56 absolute BLEU (or 1.5% relative).
+result_label: A manual error analysis of translated dialectal words shows that our system produces correct translations in 74% of the time for OOVs and 60% of the time for low frequency words.
+
+===================================
+paper_id: 472478; YEAR: 2000
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: An Improved Error Model For Noisy Channel Spelling Correction
+ABSTRACT: background_label: The noisy channel model has been applied to a wide range of problems, including spelling correction.
+background_label: These models consist of two components: a source model and a channel model.
+background_label: Very little research has gone into improving the channel model for spelling correction.
+objective_label: This paper describes a new channel model for spelling correction, based on generic string to string edits.
+result_label: Using this model gives significant performance improvements compared to previously proposed models.
+
+===================================
+paper_id: 14823403; YEAR: 2004
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_cbow200
+TITLE: Recognizing names in biomedical texts: A machine learning approach
+ABSTRACT: background_label: MOTIVATION With an overwhelming amount of textual information in molecular biology and biomedicine, there is a need for effective and efficient literature mining and knowledge discovery that can help biologists to gather and make use of the knowledge encoded in text documents.
+background_label: In order to make organized and structured information available, automatically recognizing biomedical entity names becomes critical and is important for information retrieval, information extraction and automated knowledge acquisition.
+objective_label: RESULTS In this paper, we present a named entity recognition system in the biomedical domain, called PowerBioNE.
+method_label: In order to deal with the special phenomena of naming conventions in the biomedical domain, we propose various evidential features: (1) word formation pattern; (2) morphological pattern, such as prefix and suffix; (3) part-of-speech; (4) head noun trigger; (5) special verb trigger and (6) name alias feature.
+method_label: All the features are integrated effectively and efficiently through a hidden Markov model (HMM) and a HMM-based named entity recognizer.
+method_label: In addition, a k-Nearest Neighbor (k-NN) algorithm is proposed to resolve the data sparseness problem in our system.
+method_label: Finally, we present a pattern-based post-processing to automatically extract rules from the training data to deal with the cascaded entity name phenomenon.
+method_label: From our best knowledge, PowerBioNE is the first system which deals with the cascaded entity name phenomenon.
+result_label: Evaluation shows that our system achieves the F-measure of 66.6 and 62.2 on the 23 classes of GENIA V3.0 and V1.1, respectively.
+background_label: In particular, our system achieves the F-measure of 75.8 on the "protein" class of GENIA V3.0.
+background_label: For comparison, our system outperforms the best published result by 7.8 on GENIA V1.1, without help of any dictionaries.
+background_label: It also shows that our HMM and the k-NN algorithm outperform other models, such as back-off HMM, linear interpolated HMM, support vector machines, C4.5, C4.5 rules and RIPPER, by effectively capturing the local context dependency and resolving the data sparseness problem.
+result_label: Moreover, evaluation on GENIA V3.0 shows that the post-processing for the cascaded entity name phenomenon improves the F-measure by 3.9.
+result_label: Finally, error analysis shows that about half of the errors are caused by the strict annotation scheme and the annotation inconsistency in the GENIA corpus.
+result_label: This suggests that our system achieves an acceptable F-measure of 83.6 on the 23 classes of GENIA V3.0 and in particular 86.2 on the "protein" class, without help of any dictionaries.
+result_label: We think that a F-measure of 90 on the 23 classes of GENIA V3.0 and in particular 92 on the "protein" class, can be achieved through refining of the annotation scheme in the GENIA corpus, such as flexible annotation scheme and annotation consistency, and inclusion of a reasonable biomedical dictionary.
+other_label: AVAILABILITY A demo system is available at http://textmining.i2r.a-star.edu.sg/NLS/demo.htm.
+other_label: Technology license is available upon the bilateral agreement.
+
+===================================
+paper_id: 153311737; YEAR: 2019
+adju relevance: Irrelevant (0)
+difference: 1; annotator2: 0; annotator3: 1
+sources: title_tfidfcbow200 - title_cbow200
+TITLE: Meta-Learning for Low-resource Natural Language Generation in Task-oriented Dialogue Systems
+ABSTRACT: background_label: Natural language generation (NLG) is an essential component of task-oriented dialogue systems.
+background_label: Despite the recent success of neural approaches for NLG, they are typically developed for particular domains with rich annotated training examples.
+objective_label: In this paper, we study NLG in a low-resource setting to generate sentences in new scenarios with handful training examples.
+method_label: We formulate the problem from a meta-learning perspective, and propose a generalized optimization-based approach (Meta-NLG) based on the well-recognized model-agnostic meta-learning (MAML) algorithm.
+method_label: Meta-NLG defines a set of meta tasks, and directly incorporates the objective of adapting to new low-resource NLG tasks into the meta-learning optimization process.
+method_label: Extensive experiments are conducted on a large multi-domain dataset (MultiWoz) with diverse linguistic variations.
+result_label: We show that Meta-NLG significantly outperforms other training procedures in various low-resource configurations.
+result_label: We analyze the results, and demonstrate that Meta-NLG adapts extremely fast and well to low-resource situations.
+
+===================================
+paper_id: 10929935; YEAR: 2013
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: specter - title_tfidf
+TITLE: Machine Translation Approaches and Survey for Indian Languages
+ABSTRACT: background_label: AbstractThe term Machine Translation is a standard name for computerized systems responsible for the production of translations from one natural language into another with or without human assistance.
+background_label: It is a sub-field of computational linguistics that investigates the use of computer software to translate text or speech from one natural language to another.
+background_label: Many attempts are being made all over the world to develop machine translation systems for various languages using rule-based as well as statistically based approaches.
+background_label: Development of a full-fledged bilingual machine translation (MT) system for any two natural languages with limited electronic resources and tools is a challenging and demanding task.
+background_label: In order to achieve reasonable translation quality in open source tasks, corpus based machine translation approaches require large amounts of parallel corpora that are not always available, especially for less resourced language pairs.
+background_label: On the other hand, the rule-based machine translation process is extremely time consuming, difficult, and fails to analyze accurately a large corpus of unrestricted text.
+background_label: Even though there has been effort towards building English to Indian language and Indian language to Indian language translation system, unfortunately, we do not have an efficient translation system as of today.
+result_label: The literature shows that there have been many attempts in MT for English to Indian languages and Indian languages to Indian languages.
+result_label: At present, a number of government and private sector projects are working towards developing a full-fledged MT for Indian languages.
+result_label: This paper gives a brief description of the various approaches and major machine translation developments in India.
+
+===================================
+paper_id: 8650061; YEAR: 2015
+adju relevance: Irrelevant (0)
+difference: 2; annotator2: 0; annotator3: 2
+sources: abs_tfidfcbow200
+TITLE: Bridge Correlational Neural Networks for Multilingual Multimodal Representation Learning
+ABSTRACT: background_label: Recently there has been a lot of interest in learning common representations for multiple views of data.
+background_label: Typically, such common representations are learned using a parallel corpus between the two views (say, 1M images and their English captions).
+background_label: In this work, we address a real-world scenario where no direct parallel data is available between two views of interest (say, $V_1$ and $V_2$) but parallel data is available between each of these views and a pivot view ($V_3$).
+method_label: We propose a model for learning a common representation for $V_1$, $V_2$ and $V_3$ using only the parallel data available between $V_1V_3$ and $V_2V_3$.
+method_label: The proposed model is generic and even works when there are $n$ views of interest and only one pivot view which acts as a bridge between them.
+method_label: There are two specific downstream applications that we focus on (i) transfer learning between languages $L_1$,$L_2$,...,$L_n$ using a pivot language $L$ and (ii) cross modal access between images and a language $L_1$ using a pivot language $L_2$.
+result_label: Our model achieves state-of-the-art performance in multilingual document classification on the publicly available multilingual TED corpus and promising results in multilingual multimodal retrieval on a new dataset created and released as a part of this work.
+
+===================================
+paper_id: 122633983; YEAR: 1982
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_tfidf
+TITLE: Optimal control of service in tandem queues
+ABSTRACT: background_label: Customers arrive in a Poisson stream into a network consisting of two M/M/1 service stations in tandem.
+method_label: The service rate u \in [0, a] at station 1 is to be selected as a function of the state ( x_{1}, x_{2} ) where x i is the number of customers at station i so as to minimize the expected total discounted or average cost corresponding to the instantaneous cost c_{1}x_{1} + c_{2}x_{2} .
+method_label: The optimal policy is of the form u=a or u=0 according as x_{1} and S is a switching function.
+result_label: For the case of discounted cost, the optimal process can be nonergodic, but it is ergodic for the case of average cost.
+
+===================================
+paper_id: 28882385; YEAR: 2002
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Inducing Translation Lexicons via Diverse Similarity Measures and Bridge Languages
+ABSTRACT: background_label: This paper presents a method for inducing translation lexicons between two distant languages without the need for either parallel bilingual corpora or a direct bilingual seed dictionary.
+method_label: The algorithm successfully combines temporal occurrence similarity across dates in news corpora, wide and local cross-language context similarity, weighted Levenshtein distance, relative frequency and burstiness similarity measures.
+method_label: These similarity measures are integrated with the bridge language concept under a robust method of classifier combination for both the Slavic and Northern Indian language families.
+
+===================================
+paper_id: 119425731; YEAR: 1972
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidf
+TITLE: Unzerlegbare Darstellungen I
+ABSTRACT: background_label: LetK be the structure got by forgetting the composition law of morphisms in a given category.
+background_label: A linear representation ofK is given by a map V associating with any morphism ϕ: a→e ofK a linear vector space map V(ϕ): V(a)→V(e).
+method_label: We classify thoseK having only finitely many isomorphy classes of indecomposable linear representations.
+other_label: This classification is related to an old paper by Yoshii [3].
+
+===================================
+paper_id: 9717543; YEAR: 1993
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: But Dictionaries Are Data Too
+ABSTRACT: background_label: Although empiricist approaches to machine translation depend vitally on data in the form of large bilingual corpora, bilingual dictionaries are also a source of information.
+method_label: We show how to model at least a part of the information contained in a bilingual dictionary so that we can treat a bilingual dictionary and a bilingual corpus as two facets of a unified collection of data from which to extract values for the parameters of a probabilistic machine translation system.
+method_label: We give an algorithm for obtaining maximum likelihood estimates of the parameters of a probabilistic model from this combined data and we show how these parameters are affected by inclusion of the dictionary for some sample words.
+
+===================================
+paper_id: 2297856; YEAR: 2010
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: METEOR-NEXT and the METEOR Paraphrase Tables: Improved Evaluation Support for Five Target Languages
+ABSTRACT: background_label: AbstractThis paper describes our submission to the WMT10 Shared Evaluation Task and MetricsMATR10.
+method_label: We present a version of the METEOR-NEXT metric with paraphrase tables for five target languages.
+method_label: We describe the creation of these paraphrase tables and conduct a tuning experiment that demonstrates consistent improvement across all languages over baseline versions of the metric without paraphrase resources.
+
+===================================
+paper_id: 9363886; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_cbow200
+TITLE: Translation of Patent Sentences with a Large Vocabulary of Technical Terms Using Neural Machine Translation
+ABSTRACT: background_label: Neural machine translation (NMT), a new approach to machine translation, has achieved promising results comparable to those of traditional approaches such as statistical machine translation (SMT).
+background_label: Despite its recent success, NMT cannot handle a larger vocabulary because training complexity and decoding complexity proportionally increase with the number of target words.
+background_label: This problem becomes even more serious when translating patent documents, which contain many technical terms that are observed infrequently.
+background_label: In NMTs, words that are out of vocabulary are represented by a single unknown token.
+method_label: In this paper, we propose a method that enables NMT to translate patent sentences comprising a large vocabulary of technical terms.
+method_label: We train an NMT system on bilingual data wherein technical terms are replaced with technical term tokens; this allows it to translate most of the source sentences except technical terms.
+method_label: Further, we use it as a decoder to translate source sentences with technical term tokens and replace the tokens with technical term translations using SMT.
+method_label: We also use it to rerank the 1,000-best SMT translations on the basis of the average of the SMT score and that of the NMT rescoring of the translated sentences with technical term tokens.
+result_label: Our experiments on Japanese-Chinese patent sentences show that the proposed NMT system achieves a substantial improvement of up to 3.1 BLEU points and 2.3 RIBES points over traditional SMT systems and an improvement of approximately 0.6 BLEU points and 0.8 RIBES points over an equivalent NMT system without our proposed technique.
+
+===================================
+paper_id: 118988729; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidf
+TITLE: A Microphotonic Astrocomb
+ABSTRACT: background_label: One of the essential prerequisites for detection of Earth-like extra-solar planets or direct measurements of the cosmological expansion is the accurate and precise wavelength calibration of astronomical spectrometers.
+background_label: It has already been realized that the large number of exactly known optical frequencies provided by laser frequency combs ('astrocombs') can significantly surpass conventionally used hollow-cathode lamps as calibration light sources.
+background_label: A remaining challenge, however, is generation of frequency combs with lines resolvable by astronomical spectrometers.
+method_label: Here we demonstrate an astrocomb generated via soliton formation in an on-chip microphotonic resonator ('microresonator') with a resolvable line spacing of 23.7 GHz.
+method_label: This comb is providing wavelength calibration on the 10 cm/s radial velocity level on the GIANO-B high-resolution near-infrared spectrometer.
+result_label: As such, microresonator frequency combs have the potential of providing broadband wavelength calibration for the next-generation of astronomical instruments in planet-hunting and cosmological research.
+
+===================================
+paper_id: 9228771; YEAR: 2007
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Alignment-Based Discriminative String Similarity
+ABSTRACT: background_label: AbstractA character-based measure of similarity is an important component of many natural language processing systems, including approaches to transliteration, coreference, word alignment, spelling correction, and the identification of cognates in related vocabularies.
+objective_label: We propose an alignment-based discriminative framework for string similarity.
+method_label: We gather features from substring pairs consistent with a character-based alignment of the two strings.
+method_label: This approach achieves exceptional performance; on nine separate cognate identification experiments using six language pairs, we more than double the precision of traditional orthographic measures like Longest Common Subsequence Ratio and Dice's Coefficient.
+result_label: We also show strong improvements over other recent discriminative and heuristic similarity functions.
+
+===================================
+paper_id: 16707575; YEAR: 2008
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_tfidf
+TITLE: On Sequential Estimation and Prediction for Discrete Time Series
+ABSTRACT: background_label: The problem of extracting as much information as possible from a sequence of observations of a stationary stochastic process $X_0,X_1,...X_n$ has been considered by many authors from different points of view.
+background_label: It has long been known through the work of D. Bailey that no universal estimator for $\textbf{P}(X_{n+1}|X_0,X_1,...X_n)$ can be found which converges to the true estimator almost surely.
+method_label: Despite this result, for restricted classes of processes, or for sequences of estimators along stopping times, universal estimators can be found.
+result_label: We present here a survey of some of the recent work that has been done along these lines.
+
+===================================
+paper_id: 14469506; YEAR: 2014
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidf
+TITLE: Stemming resource-poor Indian languages
+ABSTRACT: background_label: Stemming is a basic method for morphological normalization of natural language texts.
+objective_label: In this study, we focus on the problem of stemming several resource-poor languages from Eastern India, viz., Assamese, Bengali, Bishnupriya Manipuri and Bodo.
+background_label: While Assamese, Bengali and Bishnupriya Manipuri are Indo-Aryan, Bodo is a Tibeto-Burman language.
+method_label: We design a rule-based approach to remove suffixes from words.
+method_label: To reduce over-stemming and under-stemming errors, we introduce a dictionary of frequent words.
+method_label: We observe that, for these languages a dominant amount of suffixes are single letters creating problems during suffix stripping.
+result_label: As a result, we introduce an HMM-based hybrid approach to classify the mis-matched last character.
+background_label: For each word, the stem is extracted by calculating the most probable path in four HMM states.
+method_label: At each step we measure the stemming accuracy for each language.
+method_label: We obtain 94% accuracy for Assamese and Bengali and 87%, and 82% for Bishnupriya Manipuri and Bodo, respectively, using the hybrid approach.
+method_label: We compare our work with Morfessor [Creutz and Lagus 2005].
+result_label: As of now, there is no reported work on stemming for Bishnupriya Manipuri and Bodo.
+result_label: Our results on Assamese and Bengali show significant improvement over prior published work [Sarkar and Bandyopadhyay 2008; Sharma et al.
+result_label: 2002, 2003].
+
+===================================
+paper_id: 3217392; YEAR: 2009
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Word Lattices for Multi-Source Translation
+ABSTRACT: background_label: Multi-source statistical machine translation is the process of generating a single translation from multiple inputs.
+background_label: Previous work has focused primarily on selecting from potential outputs of separate translation systems, and solely on multi-parallel corpora and test sets.
+method_label: We demonstrate how multi-source translation can be adapted for multiple monolingual inputs.
+method_label: We also examine different approaches to dealing with multiple sources, including consensus decoding, and we present a novel method of input combination to generate lattices for multi-source translation within a single translation model.
+
+===================================
+paper_id: 17449548; YEAR: 1999
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Automatic Construction Of Weighted String Similarity Measures
+ABSTRACT: background_label: AbstractString similarity metrics are used for several purposes in text-processing.
+background_label: One task is the extraction of cognates from bilingual text.
+method_label: In this paper three approaches to the automatic generation of language dependent string matching functions are presented.
+
+===================================
+paper_id: 830758; YEAR: 2008
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_cbow200
+TITLE: Web page language identification based on URLs
+ABSTRACT: background_label: ABSTRACTGiven only the URL of a web page, can we identify its language?
+background_label: This is the question that we examine in this paper.Such a language classifier is, for example, useful for crawlers of web search engines, which frequently try to satisfy certain language quotas.
+background_label: To determine the language of uncrawled web pages, they have to download the page, which might be wasteful, if the page is not in the desired language.
+method_label: With URL-based language classifiers these redundant downloads can be avoided.We apply a variety of machine learning algorithms to the language identification task and evaluate their performance in extensive experiments for five languages: English, French, German, Spanish and Italian.
+method_label: Our best methods achieve an F-measure, averaged over all languages, of around .90 for both a random sample of 1,260 web page from a large web crawl and for 25k pages from the ODP directory.
+result_label: For 5k pages of web search engine results we even achieve an Fmeasure of .96.
+result_label: The achieved recall for these collections is .93, .88 and .95 respectively.
+result_label: Two independent human evaluators performed considerably worse on the task, with an F-measure of .75 and a typical recall of a mere .67.
+result_label: Using only country-code top-level domains, such as .de or .fr yields a good precision, but a typical recall of below .60 and an F-measure of around .68.
+
+===================================
+paper_id: 742459; YEAR: 2007
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Improved word alignments using the web as a corpus
+ABSTRACT: background_label: We propose a novel method for improving word alignments in a parallel sentence-aligned bilingual corpus based on the idea that if two words are translations of each other then so should be many words in their local contexts.
+method_label: The idea is formalised using the Web as a corpus, a glossary of known word translations (dynamically augmented from the Web using bootstrapping), the vector space model, linguistically motivated weighted minimum edit distance, competitive linking, and the IBM models.
+result_label: Evaluation results on a Bulgarian-Russian corpus show a sizable improvement both in word alignment and in translation quality.
+
+===================================
+paper_id: 56052972; YEAR: 2012
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_tfidf
+TITLE: On a problem of optimal transport under marginal martingale constraints
+ABSTRACT: background_label: The basic problem of optimal transportation consists in minimizing the expected costs $\mathbb {E}[c(X_1,X_2)]$ by varying the joint distribution $(X_1,X_2)$ where the marginal distributions of the random variables $X_1$ and $X_2$ are fixed.
+method_label: Inspired by recent applications in mathematical finance and connections with the peacock problem, we study this problem under the additional condition that $(X_i)_{i=1,2}$ is a martingale, that is, $\mathbb {E}[X_2|X_1]=X_1$.
+method_label: We establish a variational principle for this problem which enables us to determine optimal martingale transport plans for specific cost functions.
+method_label: In particular, we identify a martingale coupling that resembles the classic monotone quantile coupling in several respects.
+other_label: In analogy with the celebrated theorem of Brenier, the following behavior can be observed: If the initial distribution is continuous, then this"monotone martingale"is supported by the graphs of two functions $T_1,T_2:\mathbb {R}\to \mathbb {R}$.
+
+===================================
+paper_id: 47018638; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 1; annotator2: 1; annotator3: 0
+sources: title_tfidfcbow200 - title_cbow200 - abs_tfidf - title_tfidf
+TITLE: Cross-Lingual Task-Specific Representation Learning for Text Classification in Resource Poor Languages
+ABSTRACT: background_label: Neural network models have shown promising results for text classification.
+background_label: However, these solutions are limited by their dependence on the availability of annotated data.
+background_label: The prospect of leveraging resource-rich languages to enhance the text classification of resource-poor languages is fascinating.
+background_label: The performance on resource-poor languages can significantly improve if the resource availability constraints can be offset.
+method_label: To this end, we present a twin Bidirectional Long Short Term Memory (Bi-LSTM) network with shared parameters consolidated by a contrastive loss function (based on a similarity metric).
+method_label: The model learns the representation of resource-poor and resource-rich sentences in a common space by using the similarity between their assigned annotation tags.
+method_label: Hence, the model projects sentences with similar tags closer and those with different tags farther from each other.
+result_label: We evaluated our model on the classification tasks of sentiment analysis and emoji prediction for resource-poor languages - Hindi and Telugu and resource-rich languages - English and Spanish.
+result_label: Our model significantly outperforms the state-of-the-art approaches in both the tasks across all metrics.
+
+===================================
+paper_id: 15728911; YEAR: 2005
+adju relevance: Irrelevant (0)
+difference: 2; annotator2: 0; annotator3: 2
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Paraphrasing with Bilingual Parallel Corpora
+ABSTRACT: background_label: Previous work has used monolingual parallel corpora to extract and generate paraphrases.
+background_label: We show that this task can be done using bilingual parallel corpora, a much more commonly available resource.
+method_label: Using alignment techniques from phrase-based statistical machine translation, we show how paraphrases in one language can be identified using a phrase in another language as a pivot.
+method_label: We define a paraphrase probability that allows paraphrases extracted from a bilingual parallel corpus to be ranked using translation probabilities, and show how it can be refined to take contextual information into account.
+result_label: We evaluate our paraphrase extraction and ranking methods using a set of manual word alignments, and contrast the quality with paraphrases extracted from automatic alignments.
+
+===================================
+paper_id: 12891991; YEAR: 2007
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Adaptive String Distance Measures for Bilingual Dialect Lexicon Induction
+ABSTRACT: background_label: This paper compares different measures of graphemic similarity applied to the task of bilingual lexicon induction between a Swiss German dialect and Standard German.
+method_label: The measures have been adapted to this particular language pair by training stochastic transducers with the Expectation-Maximisation algorithm or by using handmade transduction rules.
+result_label: These adaptive metrics show up to 11% F-measure improvement over a static metric like Levenshtein distance.
+
+===================================
+paper_id: 15256985; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_tfidf
+TITLE: On the Gaussianity of Kolmogorov Complexity of Mixing Sequences
+ABSTRACT: background_label: Let $ K(X_1, \ldots, X_n)$ and $H(X_n | X_{n-1}, \ldots, X_1)$ denote the Kolmogorov complexity and Shannon's entropy rate of a stationary and ergodic process $\{X_i\}_{i=-\infty}^\infty$.
+background_label: It has been proved that \[ \frac{K(X_1, \ldots, X_n)}{n} - H(X_n | X_{n-1}, \ldots, X_1) \rightarrow 0, \] almost surely.
+objective_label: This paper studies the convergence rate of this asymptotic result.
+result_label: In particular, we show that if the process satisfies certain mixing conditions, then there exists $\sigma<\infty$ such that $$\sqrt{n}\left(\frac{K(X_{1:n})}{n}- H(X_0|X_1,\dots,X_{-\infty})\right) \rightarrow_d N(0,\sigma^2).$$ Furthermore, we show that under slightly stronger mixing conditions one may obtain non-asymptotic concentration bounds for the Kolmogorov complexity.
+
+===================================
+paper_id: 43648288; YEAR: 2014
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidfcbow200 - title_cbow200
+TITLE: Automatic Speech Recognition for Low-resource Languages and Accents Using Multilingual and Crosslingual Information
+ABSTRACT: objective_label: This thesis explores methods to rapidly bootstrap automatic speech recognition systems for languages, which lack resources for speech and language processing.
+method_label: We focus on finding approaches which allow using data from multiple languages to improve the performance for those languages on different levels, such as feature extraction, acoustic modeling and language modeling.
+result_label: Under application aspects, this thesis also includes research work on non-native and Code-Switching speech.
+
+===================================
+paper_id: 120989074; YEAR: 1964
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_tfidf
+TITLE: On Local Limit Theorems for Sums of Independent Random Variables
+ABSTRACT: background_label: Let $X_1 ,X_2 , \cdots $ be a sequence of independent identically distributed random variables, ${\bf E}X_1 = m$, ${\bf D}X_1 = \sigma ^2 > 0$, and ${\bf E}|X_1 |^k < \infty $ for some integer $k \geqq 3$.
+method_label: The following theorem is proved:Suppose that the variable $Z_n = ({1 / {\sigma \sqrt n }})(\sum\nolimits_{j = 1}^n {X_j - nm} )$ has an absolutely continuous distribution with bounded density function $p_n (x)$ for some integer $n = n_0 $.
+result_label: Then there exists a function $\varepsilon (n)$ such that lim $\varepsilon (n) = 0$ and relation (1) is fulfilled.A similar theorem is proved for the case when $X_1 $ has a lattice distribution.
+result_label: Some consequences of these theorems concerning convergence to the normal law in the mean are discussed.
+
+===================================
+paper_id: 3159994; YEAR: 1998
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Dialect MT: A Case Study between Cantonese and Mandarin
+ABSTRACT: background_label: Machine Translation (MT) need not be confined to inter-language activities.
+objective_label: In this paper, we discuss inter-dialect MT in general and Cantonese-Mandarin MT in particular.
+background_label: Mandarin and Cantonese are two most important dialects of Chinese.
+background_label: The former is the national lingua franca and the latter is the most influential dialect in South China, Hong Kong and overseas.
+background_label: The difference in between is such that mutual intelligibility is impossible.
+result_label: This paper presents, from a computational point of view, a comparative study of Mandarin and Cantonese at the three aspects of sound systems, grammar rules and vocabulary contents, followed by a discussion of the design and implementation of a dialect MT system between them.
+
+===================================
+paper_id: 13090987; YEAR: 2009
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidfcbow200 - title_tfidf
+TITLE: Darjeeling, a feature-rich VM for the resource poor
+ABSTRACT: background_label: The programming and retasking of sensor nodes could benefit greatly from the use of a virtual machine (VM) since byte code is compact, can be loaded on demand, and interpreted on a heterogeneous set of devices.
+objective_label: The challenge is to ensure good programming tools and a small footprint for the virtual machine to meet the memory constraints of typical WSN platforms.
+method_label: To this end we propose Darjeeling, a virtual machine modelled after the Java VM and capable of executing a substantial subset of the Java language, but designed specifically to run on 8- and 16-bit microcontrollers with 2--10 KB of RAM.
+method_label: The Darjeeling VM uses a 16- rather than a 32-bit architecture, which is more efficient on the targeted platforms.
+method_label: Darjeeling features a novel memory organisation with strict separation of reference from non-reference types which eliminates the need for run-time type inspection in the underlying compacting garbage collector.
+method_label: Darjeeling uses a linked stack model that provides light-weight threads, and supports synchronisation.
+method_label: The VM has been implemented on three different platforms and was evaluated with micro benchmarks and a real-world application.
+method_label: The latter includes a pure Java implementation of the collection tree routing protocol conveniently programmed as a set of cooperating threads, and a reimplementation of an existing environmental monitoring application.
+result_label: The results show that Darjeeling is a viable solution for deploying large-scale heterogeneous sensor networks.
+
+===================================
+paper_id: 4971762; YEAR: 2014
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: specter
+TITLE: Phrase Dependency Machine Translation with Quasi-Synchronous Tree-to-Tree Features
+ABSTRACT: background_label: Recent research has shown clear improvement in translation quality by exploiting linguistic syntax for either the source or target language.
+background_label: However, when using syntax for both languages (“tree-to-tree” translation), there is evidence that syntactic divergence can hamper the extraction of useful rules (Ding and Palmer 2005).
+background_label: Smith and Eisner (2006) introduced quasi-synchronous grammar, a formalism that treats non-isomorphic structure softly using features rather than hard constraints.
+background_label: Although a natural fit for translation modeling, its flexibility has proved challenging for building real-world systems.
+objective_label: In this article, we present a tree-to-tree machine translation system inspired by quasi-synchronous grammar.
+method_label: The core of our approach is a new model that combines phrases and dependency syntax, integrating the advantages of phrase-based and syntax-based translation.
+method_label: We report statistically significant improvements over a phrase-based baseline on five of seven test sets across four language pairs.
+result_label: We also present encouraging preliminary results on the use of unsupervised dependency parsing for syntax-based machine translation.
+
+===================================
+paper_id: 2755801; YEAR: 2008
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Syntactic Constraints on Paraphrases Extracted from Parallel Corpora
+ABSTRACT: background_label: We improve the quality of paraphrases extracted from parallel corpora by requiring that phrases and their paraphrases be the same syntactic type.
+method_label: This is achieved by parsing the English side of a parallel corpus and altering the phrase extraction algorithm to extract phrase labels alongside bilingual phrase pairs.
+method_label: In order to retain broad coverage of non-constituent phrases, complex syntactic labels are introduced.
+result_label: A manual evaluation indicates a 19% absolute improvement in paraphrase quality over the baseline method.
+
+===================================
+paper_id: 18139425; YEAR: 2008
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_tfidfcbow200
+TITLE: Local approximation algorithms for a class of 0/1 max-min linear programs
+ABSTRACT: background_label: We study the applicability of distributed, local algorithms to 0/1 max-min LPs where the objective is to maximise ${\min_k \sum_v c_{kv} x_v}$ subject to ${\sum_v a_{iv} x_v \le 1}$ for each $i$ and ${x_v \ge 0}$ for each $v$.
+other_label: Here $c_{kv} \in \{0,1\}$, $a_{iv} \in \{0,1\}$, and the support sets ${V_i = \{v : a_{iv}>0 \}}$ and ${V_k = \{v : c_{kv}>0 \}}$ have bounded size; in particular, we study the case $|V_k| \le 2$.
+method_label: Each agent $v$ is responsible for choosing the value of $x_v$ based on information within its constant-size neighbourhood; the communication network is the hypergraph where the sets $V_k$ and $V_i$ constitute the hyperedges.
+result_label: We present a local approximation algorithm which achieves an approximation ratio arbitrarily close to the theoretical lower bound presented in prior work.
+
+===================================
+paper_id: 14049482; YEAR: 2014
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: specter
+TITLE: Treebank Translation for Cross-Lingual Parser Induction
+ABSTRACT: background_label: Cross-lingual learning has become a popular approach to facilitate the development of resources and tools for low density languages.
+objective_label: Its underlying idea is to make use of existing tools and annotations in resource-rich languages to create similar tools and resources for resource-poor languages.
+background_label: Typically, this is achieved by either projecting annotations across parallel corpora, or by transferring models from one or more source languages to a target language.
+method_label: In this paper, we explore a third strategy by using machine translation to create synthetic training data from the original source-side annotations.
+method_label: Specifically, we apply this technique to dependency parsing, using a cross-lingually unified treebank for adequate evaluation.
+method_label: Our approach draws on annotation projection but avoids the use of noisy source-side annotation of an unrelated parallel corpus and instead relies on manual treebank annotation in combination with statistical machine translation, which makes it possible to train fully lexicalized parsers.
+result_label: We show that this approach significantly outperforms delexicalized transfer parsing.% despite the error-prone translation step.
+
+===================================
+paper_id: 90682; YEAR: 2006
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Induction Of Cross-Language Affix And Letter Sequence Correspondence
+ABSTRACT: background_label: We introduce the problem of explicit modeling of form relationships between words in different languages, focusing here on languages having an alphabetic writing system and affixal morphology.
+method_label: We present an algorithm that learns the cross-language correspondence between affixes and letter sequences.
+method_label: The algorithm does not assume prior knowledge of affixes in any of the languages, using only a simple single letter correspondence as seed.
+result_label: Results are given for the English-Spanish language pair.
+
+===================================
+paper_id: 82456167; YEAR: 2007
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidf
+TITLE: Janeway's Immunobiology
+ABSTRACT: background_label: Part I An Introduction to Immunobiology and Innate Immunity 1.
+background_label: Basic Concepts in Immunology 2.
+background_label: Innate Immunity Part II The Recognition of Antigen 3.
+background_label: Antigen Recognition by B-cell and T-cell Receptors 4.
+method_label: The Generation of Lymphocyte Antigen Receptors 5.
+method_label: Antigen Presentation to T Lymphocytes Part III The Development of Mature Lymphocyte Receptor Repertoires 6.
+method_label: Signaling Through Immune System Receptors 7.
+result_label: The Development and Survival of Lymphocytes Part IV The Adaptive Immune Response 8.
+background_label: T Cell-Mediated Immunity 9.
+background_label: The Humoral Immune Response 10.
+background_label: Dynamics of Adaptive Immunity 11.
+other_label: The Mucosal Immune System Part V The Immune System in Health and Disease 12.
+background_label: Failures of Host Defense Mechanism 13.
+other_label: Allergy and Hypersensitivity 14.
+other_label: Autoimmunity and Transplantation 15.
+other_label: Manipulation of the Immune Response Part VI The Origins of Immune Responses 16.
+other_label: Evolution of the Immune System Appendix I Immunologists' Toolbox Appendix II CD Antigens Appendix III Cytokines and their Receptors Appendix IV Chemokines and their Receptors Appendix V Immunological Constants
+
+===================================
+paper_id: 5671928; YEAR: 2015
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_tfidf
+TITLE: Coordination in State-Dependent Distributed Networks: The Two-Agent Case
+ABSTRACT: background_label: This paper addresses a coordination problem between two agents (Agents $1$ and $2$) in the presence of a noisy communication channel which depends on an external system state $\{x_{0,t}\}$.
+method_label: The channel takes as inputs both agents' actions, $\{x_{1,t}\}$ and $\{x_{2,t}\}$ and produces outputs that are observed strictly causally at Agent $2$ but not at Agent $1$.
+method_label: The system state is available either causally or non-causally at Agent $1$ but unknown at Agent $2$.
+method_label: Necessary and sufficient conditions on a joint distribution $\bar{Q}(x_0,x_1,x_2)$ to be implementable asymptotically (i.e, when the number of taken actions grows large) are provided for both causal and non-causal state information at Agent $1$.
+method_label: Since the coordination degree between the agents' actions, $x_{1,t}$ and $x_{2,t}$, and the system state $x_{0,t}$ is measured in terms of an average payoff function, feasible payoffs are fully characterized by implementable joint distributions.
+result_label: In this sense, our results allow us to derive the performance of optimal power control policies on an interference channel and to assess the gain provided by non-causal knowledge of the system state at Agent $1$.
+result_label: The derived proofs readily yield new results also for the problem of state-amplification under a causality constraint at the decoder.
+
+===================================
+paper_id: 14776520; YEAR: 2008
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: A Hybrid Approach for Converting Written Egyptian Colloquial Dialect into Diacritized Arabic
+ABSTRACT: background_label: Recently the rate of written colloquial text has increased dramatically.
+background_label: It is being used as a medium of expressing ideas especially across the WWW, usually in the form of blogs and partially colloquial articles.
+background_label: Most of these written colloquial has been in the Egyptian colloquial dialect, which is considered the most widely dialect understood and used throughout the Arab world.
+background_label: Modern Standard Arabic is the official Arabic language taught and understood all over the Arab world.
+background_label: Diacritics play a key role in disambiguating Arabic text.
+background_label: The reader is expected to infer or predict vowels from the context of the sentence.
+method_label: Inferring the full form of the Arabic word is also useful when developing Arabic natural language processing tools and applications.
+method_label: In this paper, we introduce a generic method for converting a written Egyptian colloquial sentence into its corresponding diacritized Modern Standard Arabic sentence which could easily be extended to be applied to other dialects of Arabic.
+method_label: In spite of the non-availability of linguistic Arabic resources for this task, we have developed techniques for lexical acquisition of colloquial words which are used for transferring written Egyptian Arabic into Modern Standard Arabic.
+method_label: We successfully used Support Vector Machine approach for the diacritization (aka vocalization or vowelling) of Arabic text.
+
+===================================
+paper_id: 4534193; YEAR: 2011
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Tuning as Ranking
+ABSTRACT: background_label: AbstractWe offer a simple, effective, and scalable method for statistical machine translation parameter tuning based on the pairwise approach to ranking (Herbrich et al., 1999) .
+method_label: Unlike the popular MERT algorithm (Och, 2003) , our pairwise ranking optimization (PRO) method is not limited to a handful of parameters and can easily handle systems with thousands of features.
+method_label: Moreover, unlike recent approaches built upon the MIRA algorithm of Crammer and Singer (2003) (Watanabe et al., 2007; Chiang et al., 2008b) , PRO is easy to implement.
+method_label: It uses off-the-shelf linear binary classifier software and can be built on top of an existing MERT framework in a matter of hours.
+result_label: We establish PRO's scalability and effectiveness by comparing it to MERT and MIRA and demonstrate parity on both phrase-based and syntax-based systems in a variety of language pairs, using large scale data scenarios.
+
+===================================
+paper_id: 10636601; YEAR: 2014
+adju relevance: Irrelevant (0)
+difference: 1; annotator2: 1; annotator3: 0
+sources: abs_cbow200
+TITLE: Multilingual MRASTA features for low-resource keyword search and speech recognition systems
+ABSTRACT: background_label: This paper investigates the application of hierarchical MRASTA bottleneck (BN) features for under-resourced languages within the IARPA Babel project.
+background_label: Through multilingual training of Multilayer Perceptron (MLP) BN features on five languages (Cantonese, Pashto, Tagalog, Turkish, and Vietnamese), we could end up in a single feature stream which is more beneficial to all languages than the unilingual features.
+method_label: In the case of balanced corpus sizes, the multilingual BN features improve the automatic speech recognition (ASR) performance by 3-5% and the keyword search (KWS) by 3-10% relative for both limited (LLP) and full language packs (FLP).
+method_label: Borrowing orders of magnitude more data from non-target FLPs, the recognition error rate is reduced by 8-10%, and the spoken term detection is improved by over 40% relative on Vietnamese and Pashto LLP.
+method_label: Aiming at the fast development of acoustic models, cross-lingual transfer of multilingually ”pretrained” BN features for a new language is also investigated.
+result_label: Without the need of any MLP training on the new language, the ported BN features performed similarly to the unilingual features on FLP and significantly better on LLP.
+result_label: Results also show that a simple fine-tuning step on the new language is enough to achieve comparable KWS and ASR performance to that system where the target language is also involved in the time-consuming multilingual training.
+
+===================================
+paper_id: 8844862; YEAR: 1996
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Learning string edit distance
+ABSTRACT: background_label: In many applications, it is necessary to determine the similarity of two strings.
+background_label: A widely-used notion of string similarity is the edit distance: the minimum number of insertions, deletions, and substitutions required to transform one string into the other.
+objective_label: In this report, we provide a stochastic model for string edit distance.
+method_label: Our stochastic model allows us to learn a string edit distance function from a corpus of examples.
+method_label: We illustrate the utility of our approach by applying it to the difficult problem of learning the pronunciation of words in conversational speech.
+method_label: In this application, we learn a string edit distance with one fourth the error rate of the untrained Levenshtein distance.
+method_label: Our approach is applicable to any string classification problem that may be solved using a similarity function against a database of labeled prototypes.
+result_label: Keywords: string edit distance, Levenshtein distance, stochastic transduction, syntactic pattern recognition, prototype dictionary, spelling correction, string correction, string similarity, string classification, speech recognition, pronunciation modeling, Switchboard corpus.
+
+===================================
+paper_id: 16755592; YEAR: 2015
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidf - title_cbow200
+TITLE: Named Entity Disambiguation for Resource-Poor Languages
+ABSTRACT: background_label: Named entity disambiguation (NED) is the task of linking ambiguous names in natural language text to canonical entities like people, organizations or places, registered in a knowledge base.
+background_label: The problem is well-studied for English text, but few systems have considered resource-poor languages that lack comprehensive name-entity dictionaries, entity descriptions, and large annotated training corpora.
+objective_label: In this paper we address the NED problem for languages with limited amount of annotated corpora as well as structured resource such as Arabic.
+method_label: We present a method that leverages structured English resources to enrich the components of a language-agnostic NED system and enable effective NED for other languages.
+method_label: We achieve this by fusing data from several multilingual resources and the output of automatic translation/transliteration systems.
+result_label: We show the viability and quality of our approach by synthesizing NED systems for Arabic, Spanish and Italian.
+
+===================================
+paper_id: 586185; YEAR: 2009
+adju relevance: Irrelevant (0)
+difference: 1; annotator2: 1; annotator3: 0
+sources: title_tfidfcbow200 - title_cbow200 - title_tfidf
+TITLE: Learning-Based Named Entity Recognition for Morphologically-Rich, Resource-Scarce Languages
+ABSTRACT: background_label: Named entity recognition for morphologically rich, case-insensitive languages, including the majority of semitic languages, Iranian languages, and Indian languages, is inherently more difficult than its English counterpart.
+background_label: Worse still, progress on machine learning approaches to named entity recognition for many of these languages is currently hampered by the scarcity of annotated data and the lack of an accurate part-of-speech tagger.
+background_label: While it is possible to rely on manually-constructed gazetteers to combat data scarcity, this gazetteer-centric approach has the potential weakness of creating irreproducible results, since these name lists are not publicly available in general.
+method_label: Motivated in part by this concern, we present a learning-based named entity recognizer that does not rely on manually-constructed gazetteers, using Bengali as our representative resource-scarce, morphologically-rich language.
+result_label: Our recognizer achieves a relative improvement of 7.5% in F-measure over a baseline recognizer.
+result_label: Improvements arise from (1) using induced affixes, (2) extracting information from online lexical databases, and (3) jointly modeling part-of-speech tagging and named entity recognition.
+
+===================================
+paper_id: 272933; YEAR: 2011
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Domain Adaptation for Machine Translation by Mining Unseen Words
+ABSTRACT: background_label: AbstractWe show that unseen words account for a large part of the translation error when moving to new domains.
+method_label: Using an extension of a recent approach to mining translations from comparable corpora (Haghighi et al., 2008) , we are able to find translations for otherwise OOV terms.
+result_label: We show several approaches to integrating such translations into a phrasebased translation system, yielding consistent improvements in translations quality (between 0.5 and 1.5 Bleu points) on four domains and two language pairs.
+
+===================================
+paper_id: 14154185; YEAR: 2011
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Domain Adaptation for Statistical Classifiers
+ABSTRACT: background_label: The most basic assumption used in statistical learning theory is that training data and test data are drawn from the same underlying distribution.
+background_label: Unfortunately, in many applications, the"in-domain"test data is drawn from a distribution that is related, but not identical, to the"out-of-domain"distribution of the training data.
+background_label: We consider the common case in which labeled out-of-domain data is plentiful, but labeled in-domain data is scarce.
+method_label: We introduce a statistical formulation of this problem in terms of a simple mixture model and present an instantiation of this framework to maximum entropy classifiers and their linear chain counterparts.
+method_label: We present efficient inference algorithms for this special case based on the technique of conditional expectation maximization.
+result_label: Our experimental results show that our approach leads to improved performance on three real world tasks on four different data sets from the natural language processing domain.
+
+===================================
+paper_id: 6826327; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_tfidfcbow200 - abs_cbow200
+TITLE: Training Data Augmentation for Low-Resource Morphological Inflection
+ABSTRACT: background_label: AbstractThis work describes the UoE-LMU submission for the CoNLL-SIGMORPHON 2017 Shared Task on Universal Morphological Reinflection, Subtask 1: given a lemma and target morphological tags, generate the target inflected form.
+method_label: We evaluate several ways to improve performance in the 1000-example setting: three methods to augment the training data with identical input-output pairs (i.e., autoencoding), a heuristic approach to identify likely pairs of inflectional variants from an unlabeled corpus, and a method for crosslingual knowledge transfer.
+method_label: We find that autoencoding random strings works surprisingly well, outperformed only slightly by autoencoding words from an unlabelled corpus.
+result_label: The random string method also works well in the 10,000-example setting despite not being tuned for it.
+result_label: Among 18 submissions our system takes 1st and 6th place in the 10k and 1k settings, respectively.
+
+===================================
+paper_id: 52936518; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 2; annotator2: 2; annotator3: 0
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: Phonology-Augmented Statistical Framework for Machine Transliteration using Limited Linguistic Resources
+ABSTRACT: background_label: Transliteration converts words in a source language (e.g., English) into words in a target language (e.g., Vietnamese).
+background_label: This conversion considers the phonological structure of the target language, as the transliterated output needs to be pronounceable in the target language.
+background_label: For example, a word in Vietnamese that begins with a consonant cluster is phonologically invalid and thus would be an incorrect output of a transliteration system.
+background_label: Most statistical transliteration approaches, albeit being widely adopted, do not explicitly model the target language's phonology, which often results in invalid outputs.
+background_label: The problem is compounded by the limited linguistic resources available when converting foreign words to transliterated words in the target language.
+objective_label: In this work, we present a phonology-augmented statistical framework suitable for transliteration, especially when only limited linguistic resources are available.
+method_label: We propose the concept of pseudo-syllables as structures representing how segments of a foreign word are organized according to the syllables of the target language's phonology.
+method_label: We performed transliteration experiments on Vietnamese and Cantonese.
+result_label: We show that the proposed framework outperforms the statistical baseline by up to 44.68% relative, when there are limited training examples (587 entries).
+
+===================================
+paper_id: 8806211; YEAR: 2005
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Dependency Treelet Translation: Syntactically Informed Phrasal SMT
+ABSTRACT: background_label: We describe a novel approach to statistical machine translation that combines syntactic information in the source language with recent advances in phrasal translation.
+method_label: This method requires a source-language dependency parser, target language word segmentation and an unsupervised word alignment component.
+method_label: We align a parallel corpus, project the source dependency parse onto the target sentence, extract dependency treelet translation pairs, and train a tree-based ordering model.
+result_label: We describe an efficient decoder and show that using these tree-based models in combination with conventional SMT models provides a promising approach that incorporates the power of phrasal SMT with the linguistic generality available in a parser.
+
+===================================
+paper_id: 2482571; YEAR: 2011
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_cbow200 - abs_tfidfcbow200
+TITLE: MonoTrans2: a new human computation system to support monolingual translation
+ABSTRACT: background_label: In this paper, we present MonoTrans2, a new user interface to support monolingual translation; that is, translation by people who speak only the source or target language, but not both.
+background_label: Compared to previous systems, MonoTrans2 supports multiple edits in parallel, and shorter tasks with less translation context.
+method_label: In an experiment translating children's books, we show that MonoTrans2 is able to substantially close the gap between machine translation and human bilingual translations.
+result_label: The percentage of sentences rated 5 out of 5 for fluency and adequacy by both bilingual evaluators in our study increased from 10% for Google Translate output to 68% for MonoTrans2.
+
+===================================
+paper_id: 41480412; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: specter - title_cbow200 - title_tfidfcbow200 - title_tfidf
+TITLE: Context Models for OOV Word Translation in Low-Resource Languages
+ABSTRACT: background_label: Out-of-vocabulary word translation is a major problem for the translation of low-resource languages that suffer from a lack of parallel training data.
+objective_label: This paper evaluates the contributions of target-language context models towards the translation of OOV words, specifically in those cases where OOV translations are derived from external knowledge sources, such as dictionaries.
+method_label: We develop both neural and non-neural context models and evaluate them within both phrase-based and self-attention based neural machine translation systems.
+result_label: Our results show that neural language models that integrate additional context beyond the current sentence are the most effective in disambiguating possible OOV word translations.
+result_label: We present an efficient second-pass lattice-rescoring method for wide-context neural language models and demonstrate performance improvements over state-of-the-art self-attention based neural MT systems in five out of six low-resource language pairs.
+

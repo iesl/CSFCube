@@ -1,0 +1,1315 @@
+======================================================================
+paper_id: 3264891; YEAR: 2001
+TITLE: Stacking classifiers for anti-spam filtering of e-mail
+ABSTRACT: background_label: We evaluate empirically a scheme for combining classifiers, known as stacked generalization, in the context of anti-spam filtering, a novel cost-sensitive application of text categorization.
+background_label: Unsolicited commercial e-mail, or"spam", floods mailboxes, causing frustration, wasting bandwidth, and exposing minors to unsuitable content.
+result_label: Using a public corpus, we show that stacking can improve the efficiency of automatically induced anti-spam filters, and that such filters can be used in real-life applications.
+===================================
+paper_id: 40151482; YEAR: 2007
+adju relevance: Identical (+3)
+difference: 2; annotator1: 1; annotator2: 3
+sources: specter - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_tfidf
+TITLE: Boosting the Performance of Web Spam Detection with Ensemble Under-Sampling Classification
+ABSTRACT: background_label: Anti-spam has become one of the top challenges for the Web search.
+objective_label: In this paper, we explore the Web spam detection as a binary classification problem.
+method_label: Based on the fact that reputable pages are more easy to be obtained than spam ones on the Web, an ensemble under-sampling classification strategy is adopted, which exploits the information involved in the large number of reputable Websites to full advantage.
+method_label: The strategy is based on the predicted spamicity of every sub-classifiers, in which both content-based and link-based features are taken into account.
+result_label: The experiments on standard WEBSPAM-UK2006 benchmark showed that the ensemble strategy can improve the web spam detection performance effectively.
+
+===================================
+paper_id: 13894685; YEAR: 2009
+adju relevance: Identical (+3)
+difference: 1; annotator1: 3; annotator2: 2
+sources: abs_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Hybrid Spam Filtering for Mobile Communication
+ABSTRACT: background_label: Spam messages are an increasing threat to mobile communication.
+background_label: Several mitigation techniques have been proposed, including white and black listing, challenge-response and content-based filtering.
+background_label: However, none are perfect and it makes sense to use a combination rather than just one.
+method_label: We propose an anti-spam framework based on the hybrid of content-based filtering and challenge-response.
+method_label: There is the trade-offs between accuracy of anti-spam classifiers and the communication overhead.
+result_label: Experimental results show how, depending on the proportion of spam messages, different filtering %%@ parameters should be set.
+
+===================================
+paper_id: 17157304; YEAR: 2009
+adju relevance: Similar (+2)
+difference: 1; annotator1: 1; annotator2: 2
+sources: specter - title_cbow200 - title_tfidfcbow200 - abs_tfidf - title_tfidf
+TITLE: A survey of learning-based techniques of email spam filtering
+ABSTRACT: background_label: Email spam is one of the major problems of the today’s Internet, bringing financial damage to companies and annoying individual users.
+background_label: Among the approaches developed to stop spam, filtering is an important and popular one.
+objective_label: In this paper we give an overview of the state of the art of machine learning applications for spam filtering, and of the ways of evaluation and comparison of different filtering methods.
+method_label: We also provide a brief description of other branches of anti-spam protection and discuss the use of various approaches in commercial and non-commercial anti-spam software solutions.
+
+===================================
+paper_id: 2843845; YEAR: 2010
+adju relevance: Similar (+2)
+difference: 1; annotator1: 2; annotator2: 1
+sources: abs_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf
+TITLE: Machine Learning Approaches for Modeling Spammer Behavior
+ABSTRACT: background_label: Spam is commonly known as unsolicited or unwanted email messages in the Internet causing potential threat to Internet Security.
+background_label: Users spend a valuable amount of time deleting spam emails.
+background_label: More importantly, ever increasing spam emails occupy server storage space and consume network bandwidth.
+background_label: Keyword-based spam email filtering strategies will eventually be less successful to model spammer behavior as the spammer constantly changes their tricks to circumvent these filters.
+background_label: The evasive tactics that the spammer uses are patterns and these patterns can be modeled to combat spam.
+objective_label: This paper investigates the possibilities of modeling spammer behavioral patterns by well-known classification algorithms such as Na\"ive Bayesian classifier (Na\"ive Bayes), Decision Tree Induction (DTI) and Support Vector Machines (SVMs).
+result_label: Preliminary experimental results demonstrate a promising detection rate of around 92%, which is considerably an enhancement of performance compared to similar spammer behavior modeling research.
+
+===================================
+paper_id: 16698488; YEAR: 2011
+adju relevance: Similar (+2)
+difference: 1; annotator1: 1; annotator2: 2
+sources: specter - title_tfidfcbow200 - abs_tfidf - title_tfidf
+TITLE: An Improved Bayesian Algorithm for Filtering Spam E-Mail
+ABSTRACT: background_label: With the wide application of E-mail, unsolicited bulk email has become a major problem for E-mail users.
+method_label: In order to reduce the influence of spam false negative result, an improvement solution based on the traditional Bayesian algorithm is proposed, in which the loss factor is introduced to evaluate the risk of spam false negative rate.
+result_label: At last, the experimental result indicates that the improved Bayesian algorithm can reduce the false negative error rate when filtering spam E-mail, and get more desirable recall ratios and precision ratios.
+
+===================================
+paper_id: 10781858; YEAR: 2015
+adju relevance: Similar (+2)
+difference: 1; annotator1: 1; annotator2: 2
+sources: title_tfidf - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - specter - abs_tfidf
+TITLE: A survey and evaluation of supervised machine learning techniques for spam e-mail filtering
+ABSTRACT: background_label: Emails are used in most of the fields of education and business.
+background_label: They can be classified into ham and spam and with their increasing use, the ratio of spam is increasing day by day.
+background_label: There are several machine learning techniques, which provides spam mail filtering methods, such as Clustering, J48, Naïve Bayes etc.
+method_label: This paper considers different classification techniques using WEKA to filter spam mails.
+result_label: Result shows that Naïve Bayes technique provides good accuracy (near to highest) and take least time among other techniques.
+result_label: Also a comparative study of each technique in terms of accuracy and time taken is provided.
+
+===================================
+paper_id: 8337311; YEAR: 2010
+adju relevance: Similar (+2)
+difference: 0; annotator1: 2; annotator2: 2
+sources: abs_cbow200 - abs_tfidfcbow200 - specter - abs_tfidf - title_tfidf
+TITLE: A scalable intelligent non-content-based spam-filtering framework
+ABSTRACT: background_label: a b s t r a c tDesigning a spam-filtering system that can run efficiently on heavily burdened servers is particularly important to the widely used email service providers (ESPs) (e.g., Hotmail, Yahoo, and Gmail) who have to deal with millions of emails everyday.
+background_label: Two primary challenges these companies face in spam filtering are efficiency and scalability.
+objective_label: This study is undertaken to develop an efficient and scalable spam-filtering framework for heavily burdened email servers.
+method_label: We propose an Intelligent Hybrid Spam-Filtering Framework (IHSFF) to detect spam by analyzing only email headers.
+result_label: This framework is especially suitable for giant email servers because of its efficiency and scalability.
+background_label: The proposed filtering system may be deployed alone or in conjunction with other filters.
+method_label: We extract five features from the email header, namely ''originator field", ''destination field", ''X-Mailer field", ''sender server IP address" and ''mail subject".
+method_label: Email subjects are digitalized using an algorithm based on n-grams for better performance.
+method_label: Moreover, using real-world data from a well-known ESP in China, we employ various machine-learning algorithms to test the model.
+result_label: Experimental results show that the framework using the Random Forest algorithm achieves good accuracy, recall, precision, and F-measure.
+result_label: With the addition of MetaCost framework, the model works stably well and incurs small costs in various cost-sensitive scenarios.
+
+===================================
+paper_id: 9564498; YEAR: 2013
+adju relevance: Similar (+2)
+difference: 1; annotator1: 1; annotator2: 2
+sources: title_tfidfcbow200 - abs_tfidfcbow200 - title_cbow200
+TITLE: Using feature selection and classification scheme for automating phishing email detection
+ABSTRACT: background_label: Email has become the critical communication medium for most organizations.
+background_label: Unfortunately, email-born attacks in computer networks are causing considerable economic losses worldwide.
+background_label: Exiting phishing email blocking appliances have little effect in weeding out the vast majority of phishing emails.
+background_label: At the same time, online criminals are becoming more dangerous and sophisticated.
+background_label: Phishing emails are more active than ever before and putting the average computer user and organizations at risk of significant data, brand and financial loss.
+method_label: In this paper, we propose a hybrid feature selection approach based combination of content-based and behaviour-based.
+method_label: The approach could mine the attacker behaviour based on email header.
+result_label: On a publicly available test corpus, our hybrid features selection is able to achieve 94% accuracy rate.
+
+===================================
+paper_id: 14895712; YEAR: 1999
+adju relevance: Similar (+2)
+difference: 1; annotator1: 2; annotator2: 1
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Support vector machines for spam categorization
+ABSTRACT: background_label: We study the use of support vector machines (SVM's) in classifying e-mail as spam or nonspam by comparing it to three other classification algorithms: Ripper, Rocchio, and boosting decision trees.
+method_label: These four algorithms were tested on two different data sets: one data set where the number of features were constrained to the 1000 best features and another data set where the dimensionality was over 7000.
+result_label: SVM's performed best when using binary features.
+result_label: For both data sets, boosting trees and SVM's had acceptable test performance in terms of accuracy and speed.
+result_label: However, SVM's had significantly less training time.
+
+===================================
+paper_id: 16579632; YEAR: 2004
+adju relevance: Similar (+2)
+difference: 1; annotator1: 2; annotator2: 1
+sources: abs_tfidfcbow200 - title_tfidfcbow200 - specter - abs_tfidf - title_tfidf
+TITLE: A Neural Network Classifier for Junk E-Mail
+ABSTRACT: other_label: Abstract.
+background_label: Most e-mail readers spend a non-trivial amount of time regularly deleting junk e-mail (spam) messages, even as an expanding volume of such e-mail occupies server storage space and consumes network bandwidth.
+background_label: An ongoing challenge, therefore, rests within the development and refinement of automatic classifiers that can distinguish legitimate e-mail from spam.
+background_label: A few published studies have examined spam detectors using Naïve Bayesian approaches and large feature sets of binary attributes that determine the existence of common keywords in spam, and many commercial applications also use Naïve Bayesian techniques.
+method_label: Spammers recognize these attempts to thwart their messages and have developed tactics to circumvent these filters, but these evasive tactics are themselves patterns that human readers can often identify quickly.
+method_label: Therefore, in contrast to earlier approaches, our feature set uses descriptive characteristics of words and messages similar to those that a human reader would use to identify spam.
+method_label: This preliminary study tests this alternative approach using a neural network (NN) classifier on a corpus of e-mail messages from one user.
+result_label: The results of this study are compared to previous spam detectors that have used Naïve Bayesian classifiers.
+result_label: Also, it appears that commercial spam detectors are now beginning to use descriptive features as proposed here.
+
+===================================
+paper_id: 6645816; YEAR: 2005
+adju relevance: Similar (+2)
+difference: 1; annotator1: 1; annotator2: 2
+sources: title_tfidfcbow200 - abs_tfidfcbow200 - title_cbow200
+TITLE: MailRank: using ranking for spam detection
+ABSTRACT: background_label: Can we use social networks to combat spam?
+objective_label: This paper investigates the feasibility of MailRank, a new email ranking and classification scheme exploiting the social communication network created via email interactions.
+method_label: The underlying email network data is collected from the email contacts of all MailRank users and updated automatically based on their email activities to achieve an easy maintenance.
+method_label: MailRank is used to rate the sender address of arriving emails such that emails from trustworthy senders can be ranked and classified as spam or non-spam.
+method_label: The paper presents two variants: Basic MailRank computes a global reputation score for each email address, whereas in Personalized MailRank the score of each email address is different for each MailRank user.
+result_label: The evaluation shows that MailRank is highly resistant against spammer attacks, which obviously have to be considered right from the beginning in such an application scenario.
+result_label: MailRank also performs well even for rather sparse networks, i.e., where only a small set of peers actually take part in the ranking of email addresses.
+
+===================================
+paper_id: 13822468; YEAR: 2007
+adju relevance: Similar (+2)
+difference: 1; annotator1: 1; annotator2: 2
+sources: abs_tfidf - abs_tfidfcbow200 - title_tfidfcbow200 - abs_cbow200 - specter - title_tfidf
+TITLE: Improving web spam classifiers using link structure
+ABSTRACT: background_label: Web spam has been recognized as one of the top challenges in the search engine industry [14].
+background_label: A lot of recent work has addressed the problem of detecting or demoting web spam, including both content spam [16, 12] and link spam [22, 13].
+background_label: However, any time an anti-spam technique is developed, spammers will design new spamming techniques to confuse search engine ranking methods and spam detection mechanisms.
+method_label: Machine learning-based classification methods can quickly adapt to newly developed spam techniques.
+method_label: We describe a two-stage approach to improve the performance of common classifiers.
+method_label: We first implement a classifier to catch a large portion of spam in our data.
+method_label: Then we design several heuristics to decide if a node should be relabeled based on the preclassified result and knowledge about the neighborhood.
+result_label: Our experimental results show visible improvements with respect to precision and recall.
+
+===================================
+paper_id: 2035385; YEAR: 2006
+adju relevance: Similar (+2)
+difference: 1; annotator1: 2; annotator2: 1
+sources: specter - abs_tfidfcbow200 - title_tfidfcbow200 - abs_cbow200 - abs_tfidf
+TITLE: Learning to Filter Unsolicited Commercial E-Mail
+ABSTRACT: background_label: We present a thorough investigation on using machine learning to construct effective personalized anti-spam filters.
+background_label: The investigation includes four learning algorithms, Naive Bayes, Flexible Bayes, LogitBoost, and Support Vector Machines, and four datasets, constructed from the mailboxes of different users.
+method_label: We discuss the model and search biases of the learning algorithms, along with worst-case computational complexity figures, and observe how the latter relate to experimental measurements.
+method_label: We study how classification accuracy is affected when using attributes that represent sequences of tokens, as opposed to single tokens, and explore the effect of the size of the attribute and training set, all within a cost-sensitive framework.
+method_label: Furthermore, we describe the architecture of a fully implemented learning-based anti-spam filter, and present an analysis of its behavior in real use over a period of seven months.
+result_label: Information is also provided on other available learning-based anti-spam filters, and alternative filtering approaches.
+
+===================================
+paper_id: 12858497; YEAR: 2005
+adju relevance: Similar (+2)
+difference: 3; annotator1: 0; annotator2: 3
+sources: abs_cbow200 - abs_tfidfcbow200
+TITLE: Combining email models for false positive reduction
+ABSTRACT: background_label: Machine learning and data mining can be effectively used to model, classify and discover interesting information for a wide variety of data including email.
+background_label: The Email Mining Toolkit, EMT, has been designed to provide a wide range of analyses for arbitrary email sources.
+background_label: Depending upon the task, one can usually achieve very high accuracy, but with some amount of false positive tradeoff.
+background_label: Generally false positives are prohibitively expensive in the real world.
+background_label: In the case of spam detection, for example, even if one email is misclassified, this may be unacceptable if it is a very important email.
+method_label: Much work has been done to improve specific algorithms for the task of detecting unwanted messages, but less work has been report on leveraging multiple algorithms and correlating models in this particular domain of email analysis.EMT has been updated with new correlation functions allowing the analyst to integrate a number of EMT's user behavior models available in the core technology.
+method_label: We present results of combining classifier outputs for improving both accuracy and reducing false positives for the problem of spam detection.
+method_label: We apply these methods to a very large email data set and show results of different combination methods on these corpora.
+method_label: We introduce a new method to compare multiple and combined classifiers, and show how it differs from past work.
+method_label: The method analyzes the relative gain and maximum possible accuracy that can be achieved for certain combinations of classifiers to automatically choose the best combination.
+
+===================================
+paper_id: 55675675; YEAR: 2005
+adju relevance: Similar (+2)
+difference: 1; annotator1: 2; annotator2: 1
+sources: abs_tfidf - specter - title_tfidf
+TITLE: Spam filtering using ML algorithms
+ABSTRACT: background_label: Spam is commonly defined as unsolicited email messages, and the goal of spam categorization is to distinguish between spam and legitimate email messages.
+background_label: Spam used to be considered a mere nuisance, but due to the abundant amounts of spam being sent today, it has progressed from being a nuisance to becoming a major problem.
+background_label: Spam filtering is able to control the problem in a variety of ways.
+background_label: Many researches in spam filtering has been centred on the more sophisticated classifier-related issues.
+background_label: Currently,  machine learning for spam classification is an important research issue at present.
+method_label: Support Vector Machines (SVMs) are a new learning method and achieve substantial improvements over the currently preferred methods, and behave robustly whilst tackling a variety of different learning tasks.
+result_label: Due to its high dimensional input, fewer irrelevant features and high accuracy, the  SVMs are more important to researchers for categorizing spam.
+objective_label: This paper explores and identifies the use of different learning algorithms for classifying spam and legitimate messages from e-mail.
+result_label: A comparative analysis among the filtering techniques has also been presented in this paper.
+
+===================================
+paper_id: 7792064; YEAR: 2014
+adju relevance: Similar (+2)
+difference: 1; annotator1: 1; annotator2: 2
+sources: abs_tfidf - abs_cbow200 - title_tfidf
+TITLE: Leveraging Social Networks for Effective Spam Filtering
+ABSTRACT: background_label: The explosive growth of unsolicited e-mails has prompted the development of numerous spam filter techniques.
+background_label: Bayesian spam filters are superior to static keyword-based spam filters in that they can continuously evolve to tackle new spam by learning keywords in new spam emails.
+background_label: However, Bayesian spam filters are easily poisoned by clever spammers who avoid spam keywords and add many innocuous words in their emails.
+background_label: Also, Bayesian spam filters need a significant amount of time to adapt to a new spam based on user feedback.
+background_label: Moreover, few current spam filters exploit social networks to assist in spam detection.
+method_label: In order to develop an accurate and user-friendly spam filter, we propose a SOcial network Aided Personalized and effective spam filter (SOAP) in this paper.
+result_label: In SOAP, each node connects to its social friends; i.e., nodes form a distributed overlay by directly using social network links as overlay links.
+background_label: Each node uses SOAP to collect information and check spam autonomously in a distributed manner.
+background_label: Unlike previous spam filters that focus on parsing keywords (e.g., Bayesian filters) or building blacklists, SOAP exploits the social relationships among email correspondents and their (dis)interests to detect spam adaptively and automatically.
+method_label: In each node, SOAP integrates four components into the basic Bayesian filter: social closeness-based spam filtering, social interest-based spam filtering, adaptive trust management, and friend notification.
+result_label: We have evaluated the performance of SOAP using simulation based on trace data from Facebook.
+method_label: We also have implemented a SOAP prototype for real-world experiments.
+result_label: Experimental results show that SOAP can greatly improve the performance of Bayesian spam filters in terms of accuracy, attack-resilience, and efficiency of spam detection.
+result_label: The performance of the Bayesian spam filter is SOAP's lower bound.
+
+===================================
+paper_id: 15643187; YEAR: 2004
+adju relevance: Similar (+2)
+difference: 1; annotator1: 2; annotator2: 1
+sources: specter - title_tfidfcbow200 - abs_tfidf - title_tfidf
+TITLE: An Empirical Performance Comparison of Machine Learning Methods for Spam E-Mail Categorization
+ABSTRACT: background_label: The increasing volume of unsolicited bulk e-mail (also known as spam) has generated a need for reliable antispam filters.
+background_label: Using a classifier based on machine learning techniques to automatically filter out spam e-mail has drawn many researchers' attention.
+method_label: In this paper, we review some of relevant ideas and do a set of systematic experiments on e-mail categorization, which has been conducted with four machine learning algorithms applied to different parts of e-mail.
+result_label: Experimental results reveal that the header of e-mail provides very useful information for all the machine learning algorithms considered to detect spam e-mail.
+
+===================================
+paper_id: 17325210; YEAR: 2017
+adju relevance: Similar (+2)
+difference: 1; annotator1: 2; annotator2: 1
+sources: title_tfidfcbow200 - title_cbow200 - abs_tfidf - title_tfidf
+TITLE: Spam filtering email classification (SFECM) using gain and graph mining algorithm
+ABSTRACT: objective_label: This paper proposes a hybrid solution of spam email classifier using context based email classification model as main algorithm complimented by information gain calculation to increase spam classification accuracy.
+method_label: Proposed solution consists of three stages email pre-processing, feature extraction and email classification.
+method_label: Research has found that LingerIG spam filter is highly effective at separating spam emails from cluster of homogenous work emails.
+result_label: Also experiment result proved the accuracy of spam filtering is 100% as recorded by the team of developers at University of Sydney.
+result_label: The study has shown that implementing the spam filter in the context-based email classification model is feasible.
+result_label: Experiment of the study has confirmed that spam filtering aspect of context-based classification model can be improved.
+
+===================================
+paper_id: 62246815; YEAR: 2009
+adju relevance: Related (+1)
+difference: 1; annotator1: 0; annotator2: 1
+sources: specter - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200
+TITLE: Misleading Learners: Co-opting Your Spam Filter
+ABSTRACT: background_label: Using statistical machine learning for making security decisions intro- duces new vulnerabilities in large scale systems.
+background_label: We show how an adversary can exploit statistical machine learning, as used in the SpamBayes spam filter, to ren- der it useless—even if the adversary's access is limited to only 1% of the spam training messages.
+result_label: We demonstrate three new attacks that successfully make the filter unusable, prevent victims from receiving specific email messages, and cause spam emails to arrive in the victim's inbox.
+
+===================================
+paper_id: 1772033; YEAR: 2011
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: abs_tfidfcbow200 - title_tfidfcbow200 - abs_cbow200 - abs_tfidf - title_tfidf
+TITLE: SMSAssassin: crowdsourcing driven mobile-based system for SMS spam filtering
+ABSTRACT: background_label: Due to increase in use of Short Message Service (SMS) over mobile phones in developing countries, there has been a burst of spam SMSes.
+background_label: Content-based machine learning approaches were effective in filtering email spams.
+background_label: Researchers have used topical and stylistic features of the SMS to classify spam and ham.
+background_label: SMS spam filtering can be largely influenced by the presence of regional words, abbreviations and idioms.
+method_label: We have tested the feasibility of applying Bayesian learning and Support Vector Machine(SVM) based machine learning techniques which were reported to be most effective in email spam filtering on a India centric dataset.
+method_label: In our ongoing research, as an exploratory step, we have developed a mobile-based system SMSAssassin that can filter SMS spam messages based on bayesian learning and sender blacklisting mechanism.
+method_label: Since the spam SMS keywords and patterns keep on changing, SMSAssassin uses crowd sourcing to keep itself updated.
+result_label: Using a dataset that we are collecting from users in the real-world, we evaluated our approaches and found some interesting results.
+
+===================================
+paper_id: 11433266; YEAR: 2009
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: title_tfidfcbow200 - abs_tfidfcbow200 - title_cbow200 - abs_cbow200 - specter
+TITLE: Incremental SVM Model for Spam Detection on Dynamic Email Social Networks
+ABSTRACT: background_label: Recently, the huge number of email spams has caused serious problems in essential email communication.
+background_label: Traditional spam filters aim at analyzing email content to characterize the features that are commonly included in spams.
+background_label: However, it is observed that crafty tricks designed to avoid content-based filters will be endless owing to the economic benefits of sending spams.
+background_label: In view of this situation, there has been much research effort toward doing spam detection based on the reputation of senders rather than what is contained in emails.
+result_label: Motivated by the fact that spammers are prone to have unusual behavior and specific patterns of email communication, exploring email social networks to detect spams has received much attention.
+background_label: Nevertheless, previous works generally suffer from two problems: (1) the system is not robust in diverse environments, and (2) no update scheme is provided to catch the feature changes of evolving networks.
+objective_label: In this paper, we propose an incremental support vector machine (SVM) model for spam detection on dynamic email social networks.
+method_label: A complete spam detection system MailNET is devised to better adjust to diverse networks.
+method_label: Several features of each user in the network are extracted to train an SVM model.
+method_label: Moreover, to catch the evolving nature of email communication, we present an incremental update scheme to efficiently re-train an SVM model.
+result_label: We evaluate MailNET on a live data set from a university-scale email server and show that the proposed model is efficient and effective, thus applicable to the real world.
+
+===================================
+paper_id: 2380129; YEAR: 2005
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: title_tfidf - specter - abs_tfidf
+TITLE: Image analysis for efficient categorization of image-based spam e-mail
+ABSTRACT: background_label: To circumvent prevalent text-based anti-spam filters, spammers have begun embedding the advertisement text in images.
+background_label: Analogously, proprietary information (such as source code) may be communicated as screenshots to defeat text-based monitoring of outbound e-mail.
+method_label: The proposed method separates spam images from other common categories of e-mail images based on extracted overlay text and color features.
+method_label: No expensive OCR processing is necessary.
+method_label: Our method works robustly in spite of complex backgrounds, compression artifacts, and a wide variety of formats and fonts of overlaid spam text.
+method_label: It is also demonstrated successfully to detect screen-shots in outbound e-mail.
+
+===================================
+paper_id: 17961275; YEAR: 2014
+adju relevance: Related (+1)
+difference: 1; annotator1: 1; annotator2: 0
+sources: abs_cbow200
+TITLE: On Detecting Messaging Abuse in Short Text Messages using Linguistic and Behavioral patterns
+ABSTRACT: background_label: The use of short text messages in social media and instant messaging has become a popular communication channel during the last years.
+background_label: This rising popularity has caused an increment in messaging threats such as spam, phishing or malware as well as other threats.
+background_label: The processing of these short text message threats could pose additional challenges such as the presence of lexical variants, SMS-like contractions or advanced obfuscations which can degrade the performance of traditional filtering solutions.
+method_label: By using a real-world SMS data set from a large telecommunications operator from the US and a social media corpus, in this paper we analyze the effectiveness of machine learning filters based on linguistic and behavioral patterns in order to detect short text spam and abusive users in the network.
+method_label: We have also explored different ways to deal with short text message challenges such as tokenization and entity detection by using text normalization and substring clustering techniques.
+result_label: The obtained results show the validity of the proposed solution by enhancing baseline approaches.
+
+===================================
+paper_id: 16892039; YEAR: 2017
+adju relevance: Related (+1)
+difference: 1; annotator1: 0; annotator2: 1
+sources: title_cbow200 - title_tfidfcbow200 - title_tfidf
+TITLE: ENWalk: Learning Network Features for Spam Detection in Twitter
+ABSTRACT: background_label: Social medias are increasing their influence with the vast public information leading to their active use for marketing by the companies and organizations.
+background_label: Such marketing promotions are difficult to identify unlike the traditional medias like TV and newspaper.
+background_label: So, it is very much important to identify the promoters in the social media.
+background_label: Although, there are active ongoing researches, existing approaches are far from solving the problem.
+objective_label: To identify such imposters, it is very much important to understand their strategies of social circle creation and dynamics of content posting.
+other_label: Are there any specific spammer types?
+background_label: How successful are each types?
+background_label: We analyze these questions in the light of social relationships in Twitter.
+background_label: Our analyses discover two types of spammers and their relationships with the dynamics of content posts.
+background_label: Our results discover novel dynamics of spamming which are intuitive and arguable.
+objective_label: We propose ENWalk, a framework to detect the spammers by learning the feature representations of the users in the social media.
+method_label: We learn the feature representations using the random walks biased on the spam dynamics.
+result_label: Experimental results on large-scale twitter network and the corresponding tweets show the effectiveness of our approach that outperforms the existing approaches
+
+===================================
+paper_id: 15398129; YEAR: 2010
+adju relevance: Related (+1)
+difference: 1; annotator1: 0; annotator2: 1
+sources: abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Identifying spam link generators for monitoring emerging web spam
+ABSTRACT: background_label: In this paper, we address the question of how we can identify hosts that will generate links to web spam.
+background_label: Detecting such spam link generators is important because almost all new spam links are created by them.
+background_label: By monitoring spam link generators, we can quickly find emerging web spam that can be used for updating existing spam filters.
+method_label: In order to classify spam link generators, we investigate various linkbased features including modified PageRank scores based on white and spam seeds, and these scores of neighboring hosts.
+method_label: An online learning algorithm is used to handle large scale data, and the effectiveness of various features is examined.
+result_label: Experiments on three yearly archives of Japanese Web show that we can predict spam link generators with a reasonable performance.
+
+===================================
+paper_id: 6649691; YEAR: 2000
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: An evaluation of Naive Bayesian anti-spam filtering
+ABSTRACT: background_label: It has recently been argued that a Naive Bayesian classifier can be used to filter unsolicited bulk e-mail ("spam").
+method_label: We conduct a thorough evaluation of this proposal on a corpus that we make publicly available, contributing towards standard benchmarks.
+method_label: At the same time we investigate the effect of attribute-set size, training-corpus size, lemmatization, and stop-lists on the filter's performance, issues that had not been previously explored.
+result_label: After introducing appropriate cost-sensitive evaluation measures, we reach the conclusion that additional safety nets are needed for the Naive Bayesian anti-spam filter to be viable in practice.
+
+===================================
+paper_id: 44941249; YEAR: 2015
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: abs_tfidf - abs_cbow200 - specter
+TITLE: Spamizer: An approach to handle web form Spam
+ABSTRACT: background_label: The Spam Emails are regularly causing huge losses to business on a regular basis.
+background_label: The Spam filtering is an automated technique to identity SPAM and HAM (Non-Spam).
+background_label: The Web Spam filters can be categorized as: Content based spam filters and List based spam filters.
+objective_label: In this research work, we have studied the spam statistics of a famous Spambot `Srizbi'.
+method_label: We have also discussed different approaches for Spam Filtering and finally proposed a new algorithm which is made on the basis of behavioral approaches of Spammers and to restrict the budding economical growth of Spam generating company's.
+method_label: We have used the hidden Honeypot and a Honeytrap module to minimize the spam generated from Contact and Feedback forms on public and social networking CMS websites.
+
+===================================
+paper_id: 14912510; YEAR: 2013
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: specter - abs_tfidfcbow200 - abs_cbow200 - abs_tfidf - title_tfidf
+TITLE: Personalized Spam Filtering with Natural Language Attributes
+ABSTRACT: background_label: Email spam is one of the biggest threats to today's Internet.
+background_label: To deal with this threat, many anti-spam filters have been developed.
+background_label: One big challenge for these filters is to predict the labels of emails in a personalized mailbox.
+objective_label: In this paper, we report the performance of an anti-spam filter named Sentinel.
+objective_label: In addition to some commonplace attributes, Sentinel uses attributes related to natural language stylometry.
+method_label: The filter has been tested with six benchmark datasets in the Enron-Spam collection.
+result_label: Classifiers generated by well-known meta-learning algorithms like AdaBoostM1 and Bagging perform equally the best, while a Random Forest (RF) generated classifier performs almost as well.
+result_label: The performance of classifiers using Support Vector Machine (SVM) and Naive Bayes (NB) are not satisfactory.
+result_label: Comparisons show that the performance of Sentinel surpasses that of a number of state-of-the-art personalized filters proposed in previous studies.
+
+===================================
+paper_id: 14342744; YEAR: 2008
+adju relevance: Related (+1)
+difference: 1; annotator1: 0; annotator2: 1
+sources: title_tfidf - specter
+TITLE: Spam Filtering
+ABSTRACT: objective_label: AbstractWe present an approach to textual classification based on the suffix tree data structure and apply it to spam filtering.
+method_label: A method for scoring of documents using the suffix tree is developed and a number of scoring and score normalisation functions are tested.
+result_label: Our results show that the character level representation of documents and classes facilitated by the suffix tree significantly improves classification accuracy when compared with the currently popular naive Bayesian filtering method.
+
+===================================
+paper_id: 2881867; YEAR: 2011
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: abs_tfidf - title_tfidfcbow200 - abs_cbow200 - title_tfidf
+TITLE: SOAP: A Social network Aided Personalized and effective spam filter to clean your e-mail box
+ABSTRACT: background_label: The explosive growth of unsolicited emails has prompted the development of numerous spam filtering techniques.
+background_label: A Bayesian spam filter is superior to a static keywordbased spam filter because it can continuously evolve to tackle new spam by learning keywords in new spam emails.
+background_label: However, Bayesian spam filters can be easily poisoned by avoiding spam keywords and adding many innocuous keywords in the emails.
+background_label: In addition, they need a significant amount of time to adapt to a new spam based on user feedback.
+result_label: Moreover, few current spam filters exploit social networks to assist spam detection.
+objective_label: In order to develop an accurate and user-friendly spam filter, in this paper, we propose a SOcial network Aided Personalized and effective spam filter (SOAP).
+method_label: Unlike previous filters that focus on parsing keywords (e.g, Bayesian filter) or building blacklists, SOAP exploits the social relationship among email correspondents to detect the spam adaptively and automatically.
+method_label: SOAP integrates three components into the basic Bayesian filter: social closeness-based spam filtering, social interest-based spam filtering, and adaptive trust management.
+method_label: We evaluate performance of SOAP based on the trace data from Facebook.
+result_label: Experimental results show that SOAP can greatly improve the performance of Bayesian spam filters in terms of the accuracy, attack-resilience and efficiency of spam detection.
+result_label: We also find that the performance of Bayesian spam filters is the lower bound of SOAP.
+
+===================================
+paper_id: 202558529; YEAR: 2019
+adju relevance: Related (+1)
+difference: 1; annotator1: 0; annotator2: 1
+sources: title_tfidfcbow200 - title_cbow200 - abs_cbow200 - specter
+TITLE: Spam filtering on forums: A synthetic oversampling based approach for imbalanced data classification
+ABSTRACT: background_label: Forums play an important role in providing a platform for community interaction.
+background_label: The introduction of irrelevant content or spam by individuals for commercial and social gains tends to degrade the professional experience presented to the forum users.
+background_label: Automated moderation of the relevancy of posted content is desired.
+method_label: Machine learning is used for text classification and finds applications in spam email detection, fraudulent transaction detection etc.
+method_label: The balance of classes in training data is essential in the case of classification algorithms to make the learning efficient and accurate.
+method_label: However, in the case of forums, the spam content is sparse compared to the relevant content giving rise to a bias towards the latter while training.
+result_label: A model trained on such biased data will fail to classify a spam sample.
+background_label: An approach based on Synthetic Minority Over-sampling Technique(SMOTE) is presented in this paper to tackle imbalanced training data.
+method_label: It involves synthetically creating new minority class samples from the existing ones until balance in data is achieved.
+method_label: The enhanced data is then passed through various classifiers for which the performance is recorded.
+result_label: The results were analyzed on the data of forums of Spoken Tutorial, IIT Bombay over standard performance metrics and revealed that models trained after Synthetic Minority oversampling outperform the ones trained on imbalanced data by substantial margins.
+result_label: An empirical comparison of the results obtained by both SMOTE and without SMOTE for various supervised classification algorithms have been presented in this paper.
+result_label: Synthetic oversampling proves to be a critical technique for achieving uniform class distribution which in turn yields commendable results in text classification.
+result_label: The presented approach can be further extended to content categorization on educational websites thus helping to improve the overall digital learning experience.
+
+===================================
+paper_id: 32584966; YEAR: 2007
+adju relevance: Related (+1)
+difference: 1; annotator1: 0; annotator2: 1
+sources: abs_cbow200 - abs_tfidfcbow200 - specter - abs_tfidf
+TITLE: An artificial immunity-based spam detection system
+ABSTRACT: background_label: Spam is considered a significant security problem for computer users everywhere.
+background_label: Spammers exploit a variety of tricks to conceal parts of messages that can be used to identify spam.
+background_label: A number of different spam detection techniques have been proposed using a large number of message features, heuristic rules, or evidences from other detectors.
+objective_label: This paper presents an email feature extraction technique for spam detection based on artificial immune systems.
+method_label: The proposed method extracts a set of four features that can be used as inputs to a spam detection model.
+result_label: The performance evaluation against a standard spam collection and reference systems shows that the proposed spam detection system performs well compared to other systems with large sets of features, rules, or external evidences.
+result_label: The detection performance of the best system in this study is 0.91% and 1.95% of false positive and false negative rates, respectively.
+
+===================================
+paper_id: 7317223; YEAR: 2014
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: abs_tfidfcbow200 - abs_cbow200 - abs_tfidf
+TITLE: SPADE: a social-spam analytics and detection framework
+ABSTRACT: background_label: Social media such as Facebook, MySpace, and Twitter have become increasingly important for attracting millions of users.
+background_label: Consequently, spammers are increasing using such networks for propagating spam.
+background_label: Although existing filtering techniques such as collaborative filters and behavioral analysis filters are able to significantly reduce spam, each social network needs to build its own independent spam filter and support a spam team to keep spam prevention techniques current.
+objective_label: To alleviate those problems, we propose a framework for spam analytics and detection which can be used across all social network sites.
+method_label: Specifically, the proposed framework SPADE has numerous benefits including (1) new spam detected on one social network can quickly be identified across social networks; (2) accuracy of spam detection will be improved through cross-domain classification and associative classification; (3) other techniques (such as blacklists and message shingling) can be integrated and centralized; (4) new social networks can plug into the system easily, preventing spam at an early stage.
+method_label: In SPADE, we present a uniform schema model to allow cross-social network integration.
+background_label: In this paper, we define the user, message, and web page model.
+objective_label: Moreover, we provide an experimental study of real datasets from social networks to demonstrate the flexibility and feasibility of our framework.
+method_label: We extensively evaluated two major classification approaches in SPADE: cross-domain classification and associative classification.
+method_label: In cross-domain classification, SPADE achieved over 0.92 F-measure and over 91 % detection accuracy on web page model using Naïve Bayes classifier.
+result_label: In associative classification, SPADE also achieved 0.89 F-measure on message model and 0.87 F-measure on user profile model, respectively.
+result_label: Both detection accuracies are beyond 85 %.
+result_label: Based on those results, our SPADE has been demonstrated to be a competitive spam detection solution to social media.
+
+===================================
+paper_id: 17335313; YEAR: 2014
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: title_cbow200 - abs_tfidfcbow200 - title_tfidfcbow200 - specter - title_tfidf
+TITLE: Automated generation of ham rules for Vietnamese spam filtering
+ABSTRACT: background_label: The topic of spam filtering has been thoroughly studied by researchers in the past few decades.
+background_label: There has been successful works with high spam detection rates, yet no paper has described a method which can effectively detect spam and, at the same time, measure the importance of ham emails.
+method_label: In this paper, the authors propose a method of generating SpamAssassin rules which can indicate the degree of importance of an email message.
+method_label: Specifically we added a proportion of negatively weighted ham rules and adapted HPSOWM, an efficient evolutionary algorithm, to optimize SpamAssassin rule scores.
+method_label: As a result, using our new rule set, SpamAssassin is able to give indicative scores for both spam and ham.
+method_label: These scores can be utilized by email clients to categorize incoming messages based on their importance to user.
+result_label: Various experiments were conducted to evaluate our method.
+result_label: In addition, a conclusion was drawn about the best ratio of spam rules and ham rules.
+
+===================================
+paper_id: 60656989; YEAR: 2002
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: specter - title_cbow200 - title_tfidfcbow200 - abs_tfidf
+TITLE: An architecture of active learning SVMs for spam
+ABSTRACT: method_label: We propose a new method for spam categorization based on support vector machines (SVMs) using active learning strategy.
+objective_label: We study the use of support vector machines in classifying e-mail as spam or nonspam.
+method_label: It analyzes the particular properties of our special task and identifies why SVMs are appropriate for dealing with spam.
+method_label: Instead of using a randomly selected training set, the learner has access to a pool of unlabeled instances and can request the labels for some number of them.
+method_label: We introduce a new method for choosing which instances to request next.
+
+===================================
+paper_id: 1010510; YEAR: 2000
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Learning to Filter Spam E-Mail: A Comparison of a Naive Bayesian and a Memory-Based Approach
+ABSTRACT: background_label: We investigate the performance of two machine learning algorithms in the context of anti-spam filtering.
+background_label: The increasing volume of unsolicited bulk e-mail (spam) has generated a need for reliable anti-spam filters.
+background_label: Filters of this type have so far been based mostly on keyword patterns that are constructed by hand and perform poorly.
+method_label: The Naive Bayesian classifier has recently been suggested as an effective method to construct automatically anti-spam filters with superior performance.
+method_label: We investigate thoroughly the performance of the Naive Bayesian filter on a publicly available corpus, contributing towards standard benchmarks.
+method_label: At the same time, we compare the performance of the Naive Bayesian filter to an alternative memory-based learning approach, after introducing suitable cost-sensitive evaluation measures.
+result_label: Both methods achieve very accurate spam filtering, outperforming clearly the keyword-based filter of a widely used e-mail reader.
+
+===================================
+paper_id: 18744071; YEAR: 2012
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: title_cbow200 - abs_tfidfcbow200 - title_tfidfcbow200 - title_tfidf
+TITLE: Bayesian spam filtering for Vietnamese emails
+ABSTRACT: background_label: Spam filtering is seen as the considerable concern to the researchers, and there are some techniques and email filtering systems are implemented.
+background_label: They are, however, not so effective for Vietnamese language.
+background_label: Although methods for filtering English spam email can be still used in Vietnamese language, but Vietnamese has its own particular characteristic.
+background_label: The biggest difference is a signified word in Vietnamese usually a compound.
+background_label: When a compound used in spam email is separated into single words, it becomes words that are usually used in both spam and ham emails.
+background_label: This leads to the difficulty for the system to filter spam emails.
+objective_label: The objective of this paper is to present a new model using the application of Naïve Bayesian algorithms to analyze the segmentation of Vietnamese language.
+result_label: The process of demonstration and evaluation of this model shows the feasibility of this technique in filtering Vietnamese email.
+
+===================================
+paper_id: 18012473; YEAR: 2011
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: specter - abs_tfidfcbow200 - title_tfidfcbow200 - abs_tfidf - title_tfidf
+TITLE: MACHINE LEARNING METHODS FOR SPAM E-MAIL CLASSIFICATION
+ABSTRACT: background_label: The increasing volume of unsolicited bulk e-mail (also known as spam) has generated a need for reliable anti-spam filters.
+background_label: Machine learning techniques now days used to automatically filter the spam e-mail in a very successful rate.
+method_label: In this paper we review some of the most popular machine learning methods (Bayesian classification, k-NN, ANNs, SVMs, Artificial immune system and Rough sets) and of their applicability to the problem of spam Email classification.
+method_label: Descriptions of the algorithms are presented, and the comparison of their performance on the SpamAssassin spam corpus is presented.
+
+===================================
+paper_id: 6657717; YEAR: 2012
+adju relevance: Related (+1)
+difference: 1; annotator1: 1; annotator2: 0
+sources: title_tfidf - title_tfidfcbow200 - abs_tfidf
+TITLE: Minimizing the Time of Spam Mail Detection by Relocating Filtering System to the Sender Mail Server
+ABSTRACT: background_label: Unsolicited Bulk Emails (also known as Spam) are undesirable emails sent to massive number of users.
+background_label: Spam emails consume the network resources and cause lots of security uncertainties.
+background_label: As we studied, the location where the spam filter operates in is an important parameter to preserve network resources.
+background_label: Although there are many different methods to block spam emails, most of program developers only intend to block spam emails from being delivered to their clients.
+objective_label: In this paper, we will introduce a new and efficient approach to prevent spam emails from being transferred.
+result_label: The result shows that if we focus on developing a filtering method for spams emails in the sender mail server rather than the receiver mail server, we can detect the spam emails in the shortest time consequently to avoid wasting network resources.
+
+===================================
+paper_id: 16581683; YEAR: 2012
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: abs_tfidfcbow200 - specter - abs_tfidf - title_tfidf
+TITLE: A Study of Image Spam Filtering Techniques
+ABSTRACT: background_label: Nowadays, Internet is becoming an incontestable communication mean of choice, through emails, for both professional and personal correspondences.
+background_label: However, emails are not only, efficient, cheap, and rapid mean of communication, but also are becoming favourite lucrative business spammers.
+background_label: According to many survey reports, the amount of unsolicited e-mails, known as spam e-mails, is becoming a great and a serious problem because of the huge losses they yield to the organizations, ranging from extensive bandwidth consumption, mail server processing load, to user's productivity due to time spent on detection and dealing with spam mails.
+background_label: Initially, spam e-mails contained only textual messages and were easily detected by the text-based spam filters.
+result_label: To avoid detection, spammers have come up with a new approach to send their spam.
+background_label: It consists in including their advertisements as part of an embedded image file attachment (.gif, .jpg, .png, etc.)
+background_label: rather than the body of the e-mails hence defeating text-based spam filtering techniques.
+objective_label: This paper investigates the major image spam filtering techniques in current use.
+method_label: While studying these techniques, both success rates and possible problems are explored.
+method_label: The relevant work shows that spammers are becoming more sophisticated in their approach to adapt to all challenges, hence defeating the conventional spam filtering techniques.
+result_label: Consequently, image spam detection techniques should be scalable and adaptable to meet the future spammers' tactics.
+
+===================================
+paper_id: 19277476; YEAR: 2009
+adju relevance: Related (+1)
+difference: 2; annotator1: 0; annotator2: 2
+sources: title_tfidfcbow200 - title_cbow200
+TITLE: Tracking recurring contexts using ensemble classifiers: an application to email filtering
+ABSTRACT: background_label: Concept drift constitutes a challenging problem for the machine learning and data mining community that frequently appears in real world stream classification problems.
+background_label: It is usually defined as the unforeseeable concept change of the target variable in a prediction task.
+objective_label: In this paper, we focus on the problem of recurring contexts, a special sub-type of concept drift, that has not yet met the proper attention from the research community.
+objective_label: In the case of recurring contexts, concepts may re-appear in future and thus older classification models might be beneficial for future classifications.
+method_label: We propose a general framework for classifying data streams by exploiting stream clustering in order to dynamically build and update an ensemble of incremental classifiers.
+method_label: To achieve this, a transformation function that maps batches of examples into a new conceptual representation model is proposed.
+method_label: The clustering algorithm is then applied in order to group batches of examples into concepts and identify recurring contexts.
+method_label: The ensemble is produced by creating and maintaining an incremental classifier for every concept discovered in the data stream.
+method_label: An experimental study is performed using (a) two new real-world concept drifting datasets from the email domain, (b) an instantiation of the proposed framework and (c) five methods for dealing with drifting concepts.
+result_label: Results indicate the effectiveness of the proposed representation and the suitability of the concept-specific classifiers for problems with recurring contexts.
+
+===================================
+paper_id: 1111139; YEAR: 2000
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: An Experimental Comparison of Naive Bayesian and Keyword-Based Anti-Spam Filtering with Personal E-mail Messages
+ABSTRACT: background_label: The growing problem of unsolicited bulk e-mail, also known as"spam", has generated a need for reliable anti-spam e-mail filters.
+background_label: Filters of this type have so far been based mostly on manually constructed keyword patterns.
+method_label: An alternative approach has recently been proposed, whereby a Naive Bayesian classifier is trained automatically to detect spam messages.
+method_label: We test this approach on a large collection of personal e-mail messages, which we make publicly available in"encrypted"form contributing towards standard benchmarks.
+method_label: We introduce appropriate cost-sensitive measures, investigating at the same time the effect of attribute-set size, training-corpus size, lemmatization, and stop lists, issues that have not been explored in previous experiments.
+result_label: Finally, the Naive Bayesian filter is compared, in terms of performance, to a filter that uses keyword patterns, and which is part of a widely used e-mail reader.
+
+===================================
+paper_id: 15469943; YEAR: 2014
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: title_tfidfcbow200 - specter - abs_tfidf - title_tfidf
+TITLE: An Improved AIS Based E-mail Classification Technique for Spam Detection
+ABSTRACT: objective_label: An improved email classification method based on Artificial Immune System is proposed in this paper to develop an immune based system by using the immune learning, immune memory in solving complex problems in spam detection.
+method_label: An optimized technique for e-mail classification is accomplished by distinguishing the characteristics of spam and non-spam that is been acquired from trained data set.
+method_label: These extracted features of spam and non-spam are then combined to make a single detector, therefore reducing the false rate.
+method_label: (Non-spam that were wrongly classified as spam).
+result_label: Effectiveness of our technique in decreasing the false rate shall be demonstrated by the result that will be acquired.
+
+===================================
+paper_id: 53702853; YEAR: 2013
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: abs_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf
+TITLE: EFFICIENT SPAM CLASSIFICATION BY APPROPRIATE FEATURE SELECTION
+ABSTRACT: background_label: Spam is a key problem in electronic communication, including large-scale email systems and the growing number of blogs.
+background_label: Currently a lot of research work is performed on automatic detection of spam emails using classification techniques such as SVM, NB, MLP, KNN, ID3, J48, RandomTree, etc.
+background_label: For spam dataset it is possible to have large number of training instances.
+method_label: Based on this fact, we have made use of Random Forest and Partial Decision Trees algorithm to classify spam vs non-spam emails.
+method_label: These algorithms outperformed the previously implemented algorithms in terms of accuracy and time complexity.
+method_label: As a preprocessing step we have used feature selection methods such as Chisquare, Information gain, Gain ratio, Symmetrical uncertainty, Relief, OneR and Correlation.
+result_label: This allowed us to select subset of relevant, non redundant and most contributing features to have an added benefit in terms of improvisation in accuracy and reduced time complexity.
+
+===================================
+paper_id: 17883236; YEAR: 2008
+adju relevance: Related (+1)
+difference: 1; annotator1: 1; annotator2: 2
+sources: title_tfidfcbow200 - abs_tfidfcbow200 - title_cbow200 - abs_tfidf
+TITLE: Trusting spam reporters: A reporter-based reputation system for email filtering
+ABSTRACT: background_label: Spam is a growing problem; it interferes with valid email and burdens both email users and service providers.
+objective_label: In this work, we propose a reactive spam-filtering system based on reporter reputation for use in conjunction with existing spam-filtering techniques.
+objective_label: The system has a trust-maintenance component for users, based on their spam-reporting behavior.
+objective_label: The challenge that we consider is that of maintaining a reliable system, not vulnerable to malicious users, that will provide early spam-campaign detection to reduce the costs incurred by users and systems.
+method_label: We report on the utility of a reputation system for spam filtering that makes use of the feedback of trustworthy users.
+result_label: We evaluate our proposed framework, using actual complaint feedback from a large population of users, and validate its spam-filtering performance on a collection of real email traffic over several weeks.
+result_label: To test the broader implication of the system, we create a model of the behavior of malicious reporters, and we simulate the system under various assumptions using a synthetic dataset.
+
+===================================
+paper_id: 17474135; YEAR: 2006
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: title_tfidf - abs_tfidfcbow200 - title_tfidfcbow200 - specter - abs_tfidf
+TITLE: On Feature Extraction for Spam E-Mail Detection
+ABSTRACT: other_label: Abstract.
+background_label: Electronic mail is an important communication method for most computer users.
+background_label: Spam e-mails however consume bandwidth resource, fill-up server storage and are also a waste of time to tackle.
+method_label: The general way to label an e-mail as spam or non-spam is to set up a finite set of discriminative features and use a classifier for the detection.
+method_label: In most cases, the selection of such features is empirically verified.
+method_label: In this paper, two different methods are proposed to select the most discriminative features among a set of reasonably arbitrary features for spam e-mail detection.
+method_label: The selection methods are developed using the Common Vector Approach (CVA) which is actually a subspace-based pattern classifier.
+result_label: Experimental results indicate that the proposed feature selection methods give considerable reduction on the number of features without affecting recognition rates.
+
+===================================
+paper_id: 13298742; YEAR: 2005
+adju relevance: Related (+1)
+difference: 1; annotator1: 1; annotator2: 2
+sources: specter - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - abs_tfidf - title_tfidf
+TITLE: Using visual features for anti-spam filtering
+ABSTRACT: background_label: Unsolicited commercial email (UCE), also known as spam, has been a major problem on the Internet.
+background_label: In the past, researchers have addressed this problem as a text classification or categorization problem.
+background_label: However, as spammers' techniques continue to evolve and the genre of email content becomes more and more diverse, text-based anti-spam approaches alone are no longer sufficient.
+method_label: In this paper, we propose a novel anti-spam system which utilizes visual clues, in addition to text information in the email body, to determine whether a message is spam.
+method_label: We analyze a large collection of spam emails containing images and identify a number of useful visual features for this application.
+method_label: We then propose using one-class support vector machines (SVM) as the underlying base classifier for anti-spam filtering.
+result_label: The experimental results demonstrate that the proposed system can add significant filtering power to the existing text-based anti-spam filters.
+
+===================================
+paper_id: 53199228; YEAR: 2018
+adju relevance: Related (+1)
+difference: 2; annotator1: 2; annotator2: 0
+sources: title_tfidfcbow200 - abs_tfidfcbow200 - title_cbow200 - specter - abs_tfidf
+TITLE: A Mixture Model Based Defense for Data Poisoning Attacks Against Naive Bayes Spam Filters
+ABSTRACT: background_label: Naive Bayes spam filters are highly susceptible to data poisoning attacks.
+background_label: Here, known spam sources/blacklisted IPs exploit the fact that their received emails will be treated as (ground truth) labeled spam examples, and used for classifier training (or re-training).
+background_label: The attacking source thus generates emails that will skew the spam model, potentially resulting in great degradation in classifier accuracy.
+background_label: Such attacks are successful mainly because of the poor representation power of the naive Bayes (NB) model, with only a single (component) density to represent spam (plus a possible attack).
+method_label: We propose a defense based on the use of a mixture of NB models.
+method_label: We demonstrate that the learned mixture almost completely isolates the attack in a second NB component, with the original spam component essentially unchanged by the attack.
+method_label: Our approach addresses both the scenario where the classifier is being re-trained in light of new data and, significantly, the more challenging scenario where the attack is embedded in the original spam training set.
+method_label: Even for weak attack strengths, BIC-based model order selection chooses a two-component solution, which invokes the mixture-based defense.
+result_label: Promising results are presented on the TREC 2005 spam corpus.
+
+===================================
+paper_id: 8964461; YEAR: 2015
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: title_tfidfcbow200 - title_cbow200
+TITLE: Detection of phishing emails using data mining algorithms
+ABSTRACT: objective_label: This paper proposes an intelligent model for detection of phishing emails which depends on a preprocessing phase that extracts a set of features concerning different email parts.
+method_label: The extracted features are classified using the J48 classification algorithm.
+method_label: We experimented with a total of 23 features that have been used in the literature.
+method_label: Ten-fold cross-validation was applied for training, testing and validation.
+method_label: The primary focus of this paper is to enhance the overall metrics values of email classification by focusing on the preprocessing phase and determine the best algorithm that can be used in this field.
+result_label: The results show the benefits of using our preprocessing phase to extract features from the dataset.
+result_label: The model achieved 98.87% accuracy for the random forest algorithm, which is the highest registered so far for an approved dataset.
+result_label: A comparison of ten different classification algorithms demonstrates their merits and capabilities through a set of experiments.
+
+===================================
+paper_id: 8266190; YEAR: 2004
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: specter - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - abs_tfidf - title_tfidf
+TITLE: A Memory-Based Approach to Anti-Spam Filtering for Mailing Lists
+ABSTRACT: background_label: This paper presents an extensive empirical evaluation of memory-based learning in the context of anti-spam filtering, a novel cost-sensitive application of text categorization that attempts to identify automatically unsolicited commercial messages that flood mailboxes.
+method_label: Focusing on anti-spam filtering for mailing lists, a thorough investigation of the effectiveness of a memory-based anti-spam filter is performed using a publicly available corpus.
+method_label: The investigation includes different attribute and distance-weighting schemes, and studies on the effect of the neighborhood size, the size of the attribute set, and the size of the training corpus.
+method_label: Three different cost scenarios are identified, and suitable cost-sensitive evaluation functions are employed.
+result_label: We conclude that memory-based anti-spam filtering for mailing lists is practically feasible, especially when combined with additional safety nets.
+result_label: Compared to a previously tested Naive Bayes filter, the memory-based filter performs on average better, particularly when the misclassification cost for non-spam messages is high.
+
+===================================
+paper_id: 7933425; YEAR: 2004
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: abs_tfidf - specter - title_tfidf
+TITLE: Spam filter analysis
+ABSTRACT: background_label: Unsolicited bulk email (aka.
+background_label: spam) is a major problem on the Internet.
+background_label: To counter spam, several techniques, ranging from spam filters to mail protocol extensions like hashcash, have been proposed.
+objective_label: In this paper we investigate the effectiveness of several spam filtering techniques and technologies.
+method_label: Our analysis was performed by simulating email traffic under different conditions.
+result_label: We show that genetic algorithm based spam filters perform best at server level and naive Bayesian filters are the most appropriate for filtering at user level.
+
+===================================
+paper_id: 16975738; YEAR: 2016
+adju relevance: Related (+1)
+difference: 1; annotator1: 0; annotator2: 1
+sources: abs_cbow200 - title_tfidfcbow200 - specter - abs_tfidf
+TITLE: Towards Web Spam Filtering Using a Classifier Based on the Minimum Description Length Principle
+ABSTRACT: background_label: The steady growth and popularization of the Web has led spammers to develop techniques to circumvent search engines aiming good visibility to their web pages in search results.
+background_label: They are responsible for serious problems such as dissatisfaction, irritation, exposure to unpleasant or malicious content, and financial loss.
+background_label: Despite different machine learning approaches have been used to detect web spam, many of them suffer with the curse of dimensionality or require a very high computational cost impeding their employment in real scenarios.
+background_label: In this way, there is still a big effort to develop more advanced methods that at the same time are able to prevent overfitting and fast to learn.
+method_label: To fill this gap, we present the MDLClass, a classifier technique based on the minimum description length principle, applied to the context of web spam filtering.
+method_label: The proposed method is very efficient, lightweight, multi-class, and fast.
+method_label: We also evaluated a new approach to detect web spam that combines the predictions obtained by the classifiers using content-based, link-based, and transformed link-based features.
+method_label: In our experiments, we employed two real, public and large datasets: the WEBSPAM-UK2006 and the WEBSPAM-UK2007.
+result_label: The results indicate that the proposed MDLClass and ensemble of predictions using different types of features are promising in the task of web spam filtering.
+
+===================================
+paper_id: 12704073; YEAR: 2009
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: abs_tfidf - abs_tfidfcbow200 - specter - title_tfidf
+TITLE: Spam decisions on gray e-mail using personalized ontologies
+ABSTRACT: background_label: E-mail is one of the most common communication methods among people on the Internet.
+background_label: However, the increase of e-mail misuse/abuse has resulted in an increasing volume of spam e-mail over recent years.
+background_label: As spammers always try to find a way to evade existing spam filters, new filters need to be developed to catch spam.
+background_label: A statistical learning filter is at the core of many commercial anti-spam filters.
+method_label: It can either be trained globally for all users, or personally for each user.
+background_label: Generally, globally-trained filters outperform personally-trained filters for both small and large collections of users under a real environment.
+background_label: However, globally-trained filters sometimes ignore personal data.
+background_label: Globally-trained filters cannot retain personal preferences and contexts as to whether a feature should be treated as an indicator of legitimate e-mail or spam.
+background_label: Gray e-mail is a message that could reasonably be considered either legitimate or spam.
+method_label: In this paper, a personalized ontology spam filter was implemented to make decisions for gray e-mail.
+result_label: In the future, by considering both global and personal ontology-based filters, we can show a significant improvement in overall performance.
+
+===================================
+paper_id: 17172018; YEAR: 2015
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: title_tfidfcbow200 - title_cbow200 - specter
+TITLE: Content based spam detection in email using Bayesian classifier
+ABSTRACT: background_label: Internet provides Emails as means of data communication.
+background_label: Email messaging is an essential contribution.
+background_label: Hacking attacks, phishing attacks and malicious attack are frequently undergo email services to attempt fraud and deception motivation.
+background_label: They use emails to obtain personal credentials of user for financial gain.
+background_label: Emails with genuine content may include phishing URLs for stealing of useful data such kind of emails are nothing but a spam.
+method_label: In order to detect and filter such kind of emails.
+result_label: Bayesian classifier is used and The performance of Bayesian classifier is evaluated in terms of Accuracy, Error, Time, Precision and Recall, Bayesian classifier is used for email classification and detection of spam mails.
+
+===================================
+paper_id: 14843136; YEAR: 2016
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: title_cbow200 - abs_tfidfcbow200 - title_tfidfcbow200
+TITLE: EmailProfiler: Spearphishing Filtering with Header and Stylometric Features of Emails
+ABSTRACT: background_label: Spearphishing is a prominent targeted attack vector in today's Internet.
+background_label: By impersonating trusted email senders through carefully crafted messages and spoofed metadata, adversaries can trick victims into launching attachments containing malicious code or into clicking on malicious links that grant attackers a foothold into otherwise well-protected networks.
+background_label: Spearphishing is effective because it is fundamentally difficult for users to distinguish legitimate emails from spearphishing emails without additional defensive mechanisms.
+background_label: However, such mechanisms, such as cryptographic signatures, have found limited use in practice due to their perceived difficulty of use for normal users.
+objective_label: In this paper, we present a novel automated approach to defending users against spearphishing attacks.
+method_label: The approach first builds probabilistic models of both email metadata and stylometric features of email content.
+method_label: Then, subsequent emails are compared to these models to detect characteristic indicators of spearphishing attacks.
+method_label: Several instantiations of this approach are possible, including performing model learning and evaluation solely on the receiving side, or senders publishing models that can be checked remotely by the receiver.
+result_label: Our evaluation of a real data set drawn from 20 email users demonstrates that the approach effectively discriminates spearphishing attacks from legitimate email while providing significant ease-of-use benefits over traditional defenses.
+
+===================================
+paper_id: 15788291; YEAR: 2012
+adju relevance: Related (+1)
+difference: 2; annotator1: 3; annotator2: 1
+sources: title_cbow200
+TITLE: Ensemble Classifiers for Steganalysis of Digital Media
+ABSTRACT: background_label: Today, the most accurate steganalysis methods for digital media are built as supervised classifiers on feature vectors extracted from the media.
+background_label: The tool of choice for the machine learning seems to be the support vector machine (SVM).
+objective_label: In this paper, we propose an alternative and well-known machine learning tool-ensemble classifiers implemented as random forests-and argue that they are ideally suited for steganalysis.
+background_label: Ensemble classifiers scale much more favorably w.r.t.
+method_label: the number of training examples and the feature dimensionality with performance comparable to the much more complex SVMs.
+method_label: The significantly lower training complexity opens up the possibility for the steganalyst to work with rich (high-dimensional) cover models and train on larger training sets-two key elements that appear necessary to reliably detect modern steganographic algorithms.
+method_label: Ensemble classification is portrayed here as a powerful developer tool that allows fast construction of steganography detectors with markedly improved detection accuracy across a wide range of embedding methods.
+result_label: The power of the proposed framework is demonstrated on three steganographic methods that hide messages in JPEG images.
+
+===================================
+paper_id: 1178914; YEAR: 2006
+adju relevance: Related (+1)
+difference: 1; annotator1: 0; annotator2: 1
+sources: abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Content based SMS spam filtering
+ABSTRACT: background_label: In the recent years, we have witnessed a dramatic increment in the volume of spam email.
+background_label: Other related forms of spam are increasingly revealing as a problem of importance, specially the spam on Instant Messaging services (the so called SPIM), and Short Message Service (SMS) or mobile spam.Like email spam, the SMS spam problem can be approached with legal, economic or technical measures.
+background_label: Among the wide range of technical measures, Bayesian filters are playing a key role in stopping email spam.
+method_label: In this paper, we analyze to what extent Bayesian filtering techniques used to block email spam, can be applied to the problem of detecting and stopping mobile spam.
+method_label: In particular, we have built two SMS spam test collections of significant size, in English and Spanish.
+method_label: We have tested on them a number of messages representation techniques and Machine Learning algorithms, in terms of effectiveness.
+result_label: Our results demonstrate that Bayesian filtering techniques can be effectively transferred from email to SMS spam.
+
+===================================
+paper_id: 18511231; YEAR: 2013
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: title_tfidf - title_tfidfcbow200 - specter - abs_tfidf
+TITLE: A study on e-mail image spam filtering techniques
+ABSTRACT: background_label: Spam filters are the most used software tool used by businesses and individual to block spam mails entering into their mail boxes.
+background_label: Until recently, majority of research effort was expended on controlling text-based spam emails.
+background_label: However, the past few years have envisaged a novel approach, where the spammers embed the text message into an image.
+background_label: Thus, the anti-spam filtering research is forced to move from text-based techniques to image-based techniques.
+background_label: Spam and the spam blockers designed to combat it have spawned an upsurge in creativity and innovation.
+background_label: Many software developers are developing new and every more effective spam filtering software.
+method_label: All the methods have a common dream that is to eliminate 100% of the spam, which is still not a reality.
+result_label: To reduce the gap between this reality and dream, researchers have proposed many different types of spam filters and this paper provides a review of them.
+
+===================================
+paper_id: 16024070; YEAR: 2009
+adju relevance: Related (+1)
+difference: 1; annotator1: 1; annotator2: 2
+sources: title_tfidf - title_tfidfcbow200 - specter - abs_tfidf
+TITLE: Improved spam filtering by extraction of information from text embedded image e-mail
+ABSTRACT: background_label: The increase of image spam, a kind of spam in which the text message is embedded into an attached image to defeat spam filtering techniques, is becoming an increasingly major problem.
+background_label: For nearly a decade, content based filtering using text classification or machine learning has been a major trend of antispam filtering systems.
+method_label: A Key technique being used by spammers is to embed text into image(s) in spam email.
+method_label: In [4], we proposed two levels of ontology spam filters: a first level global ontology filter and a second level user-customized ontology filter.
+method_label: However, that previous system handles only text e-mail and the percentage of attached images is increasing sharply.
+result_label: The contribution of the paper is that we add an image e-mail handling capability to the previous anti-spam filtering system, enhancing the effectiveness of spam filtering.
+
+===================================
+paper_id: 16759; YEAR: 2008
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: specter - abs_tfidfcbow200 - abs_tfidf - title_tfidf
+TITLE: A survey of emerging approaches to spam filtering
+ABSTRACT: background_label: From just an annoying characteristic of the electronic mail epoch, spam has evolved into an expensive resource and time-consuming problem.
+objective_label: In this survey, we focus on emerging approaches to spam filtering built on recent developments in computing technologies.
+method_label: These include peer-to-peer computing, grid computing, semantic Web, and social networks.
+method_label: We also address a number of perspectives related to personalization and privacy in spam filtering.
+result_label: We conclude that, while important advancements have been made in spam filtering in recent years, high performance approaches remain to be explored due to the large scale of the problem.
+
+===================================
+paper_id: 2833304; YEAR: 2011
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: abs_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Privacy Preserving Spam Filtering
+ABSTRACT: background_label: Email is a private medium of communication, and the inherent privacy constraints form a major obstacle in developing effective spam filtering methods which require access to a large amount of email data belonging to multiple users.
+method_label: To mitigate this problem, we envision a privacy preserving spam filtering system, where the server is able to train and evaluate a logistic regression based spam classifier on the combined email data of all users without being able to observe any emails using primitives such as homomorphic encryption and randomization.
+method_label: We analyze the protocols for correctness and security, and perform experiments of a prototype system on a large scale spam filtering task.
+method_label: State of the art spam filters often use character n-grams as features which result in large sparse data representation, which is not feasible to be used directly with our training and evaluation protocols.
+result_label: We explore various data independent dimensionality reduction which decrease the running time of the protocol making it feasible to use in practice while achieving high accuracy.
+
+===================================
+paper_id: 62176796; YEAR: 2005
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: abs_tfidf - specter
+TITLE: A Spam-Detecting Artificial Immune System
+ABSTRACT: background_label: Electronic junk mail, colloquially known as spam, has increasingly become a part of life for users of email.
+background_label: Although people dislike the constant barrage, it is difficult to design an anti-spam solution that can adapt appropriately to the constantly changing messages.
+background_label: Inspired by models of the human immune system, the spam immune system is a spam classifier that protects users from spam.
+background_label: The metaphor of the immune system is a compelling one because of the immune system’s ability to protect the body by distinguishing self from non-self, even as the non-self changes.
+method_label: The spam immune system creates digital antibodies which are used as email classifiers.
+method_label: As the system is exposed to messages, it learns about the user’s classification of spam and non-spam.
+result_label: Once trained, the resulting system can achieve classification rates comparable to those of existing commercial anti-spam products.
+
+===================================
+paper_id: 14293273; YEAR: 2014
+adju relevance: Related (+1)
+difference: 1; annotator1: 0; annotator2: 1
+sources: abs_cbow200 - abs_tfidfcbow200
+TITLE: PhishStorm: Detecting Phishing With Streaming Analytics
+ABSTRACT: background_label: Despite the growth of prevention techniques, phishing remains an important threat since the principal countermeasures in use are still based on reactive URL blacklisting.
+background_label: This technique is inefficient due to the short lifetime of phishing Web sites, making recent approaches relying on real-time or proactive phishing URL detection techniques more appropriate.
+method_label: In this paper, we introduce PhishStorm, an automated phishing detection system that can analyze in real time any URL in order to identify potential phishing sites.
+method_label: PhishStorm can interface with any email server or HTTP proxy.
+result_label: We argue that phishing URLs usually have few relationships between the part of the URL that must be registered (low-level domain) and the remaining part of the URL (upper-level domain, path, query).
+background_label: We show in this paper that experimental evidence supports this observation and can be used to detect phishing sites.
+objective_label: For this purpose, we define the new concept of intra-URL relatedness and evaluate it using features extracted from words that compose a URL based on query data from Google and Yahoo search engines.
+method_label: These features are then used in machine-learning-based classification to detect phishing URLs from a real dataset.
+method_label: Our technique is assessed on 96 018 phishing and legitimate URLs that result in a correct classification rate of 94.91% with only 1.44% false positives.
+method_label: An extension for a URL phishingness rating system exhibiting high confidence rate ( $>$ 99%) is proposed.
+result_label: We discuss in this paper efficient implementation patterns that allow real-time analytics using Big Data architectures such as STORM and advanced data structures based on the Bloom filter.
+
+===================================
+paper_id: 8126111; YEAR: 2006
+adju relevance: Related (+1)
+difference: 1; annotator1: 1; annotator2: 2
+sources: title_tfidf - abs_tfidf
+TITLE: Collaborative Spam Filtering Using E-Mail Networks
+ABSTRACT: background_label: Widespread Internet use has led to the emergence of several kinds of large-scale social networks in cyberspace, most notably e-mail networks.
+background_label: Unfortunately, the tremendous convenience that e-mail affords comes at a high price: Although the network's underlying connectivity is hidden, making it almost impossible to build a comprehensive directory of every individual's contact lists, e-mail addresses themselves can be easily obtained from publicly available documents.
+background_label: Spammers have exploited this vulnerability to inundate users with unsolicited bulk e-mail.
+background_label: A distributed spam-filtering system that leverages e-mail networks' topological properties is more efficient and scalable than client-server-based solutions.
+result_label: Large-scale simulations of a prototype system reveal that this approach achieves a near-perfect spam-detection rate while minimizing bandwidth cost
+
+===================================
+paper_id: 25340299; YEAR: 2013
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: title_cbow200 - title_tfidfcbow200 - specter
+TITLE: Revised Naive Bayes classifier for combating the focus attack in spam filtering
+ABSTRACT: background_label: The focus attack, which misleads the classifier to block the legitimate emails containing particular words from the user, is the causative adversary attack in the spam filter application.
+objective_label: This paper proposes the revised Naive Bayes classifier to combat the focus attack.
+method_label: For each feature in the Naive Bayes classifier, the additional weight based on the number of ham and spam containing the feature is added.
+method_label: The weight reduces the effect of the focus attack to the features.
+result_label: Experimental results show that the proposed method is more robust under the focus attack.
+result_label: The accuracy on the attacked samples of the proposed method is higher than standard Naive Bayes classifier, especially when the degree of attack is large.
+
+===================================
+paper_id: 9477357; YEAR: 2007
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Relaxed online SVMs for spam filtering
+ABSTRACT: background_label: Spam is a key problem in electronic communication, including large-scale email systems and the growing number of blogs.
+background_label: Content-based filtering is one reliable method of combating this threat in its various forms, but some academic researchers and industrial practitioners disagree on how best to filter spam.
+method_label: The former have advocated the use of Support Vector Machines (SVMs) for content-based filtering, as this machine learning methodology gives state-of-the-art performance for text classification.
+background_label: However, similar performance gains have yet to be demonstrated for online spam filtering.
+method_label: Additionally, practitioners cite the high cost of SVMs as reason to prefer faster (if less statistically robust) Bayesian methods.
+objective_label: In this paper, we offer a resolution to this controversy.
+method_label: First, we show that online SVMs indeed give state-of-the-art classification performance on online spam filtering on large benchmark data sets.
+method_label: Second, we show that nearly equivalent performance may be achieved by a Relaxed Online SVM (ROSVM) at greatly reduced computational cost.
+result_label: Our results are experimentally verified on email spam, blog spam, and splog detection tasks.
+
+===================================
+paper_id: 15748075; YEAR: 2013
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: abs_tfidfcbow200 - specter - abs_tfidf
+TITLE: Classifying Spam Emails Using Text and Readability Features
+ABSTRACT: background_label: Supervised machine learning methods for classifying spam emails are long-established.
+background_label: Most of these methods use either header-based or content-based features.
+background_label: Spammers, however, can bypass these methods easily-especially the ones that deal with header features.
+method_label: In this paper, we report a novel spam classification method that uses features based on email content-language and readability combined with the previously used content-based task features.
+method_label: The features are extracted from four benchmark datasets viz.
+method_label: CSDMC2010, Spam Assassin, Ling Spam, and Enron-Spam.
+method_label: We use five well-known algorithms to induce our spam classifiers: Random Forest (RF), BAGGING, ADABOOSTM1, Support Vector Machine (SVM), and Naïve Bayes (NB).
+result_label: We evaluate the classifier performances and find that BAGGING performs the best.
+result_label: Moreover, its performance surpasses that of a number of state-of-the-art methods proposed in previous studies.
+result_label: Although applied only to English language emails, the results indicate that our method may be an excellent means to classify spam emails in other languages, as well.
+
+===================================
+paper_id: 16915854; YEAR: 2014
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: title_cbow200 - title_tfidfcbow200 - specter
+TITLE: Examination of data, rule generation and detection of phishing URLs using online logistic regression
+ABSTRACT: background_label: Web services such as online banking, gaming, and social networking have rapidly evolved as has the reliance upon them by people to perform everyday tasks.
+background_label: As a result, a large amount of information is uploaded on a daily basis to the Web.
+background_label: The openness of the Web exposes opportunities for criminals to upload malicious content.
+background_label: Despite extensive research, email based spam filtering techniques are unable to protect other web services.
+background_label: Therefore, a counter measure must be taken that generalizes across web services to protect the user from phishing hosts.
+method_label: The paper describes an approach that classifies URLs automatically based on their lexical and host-based features.
+method_label: The usability of Mahout is demonstrated for such scalable machine learning problems, and online learning is considered over batch learning.
+method_label: The classifier achieves 93-97% accuracy by detecting a large number of phishing hosts, while maintaining a modest false positive rate.
+method_label: The raw data is examined, and the effectiveness of various feature subsets is assessed.
+result_label: The relevance of bigrams is assessed, and strengthened by using the chi-squared and information gain attribute evaluation methods.
+
+===================================
+paper_id: 1332955; YEAR: 2009
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: abs_cbow200
+TITLE: Classification of HTTP Attacks: A Study on the ECML/PKDD 2007 Discovery Challenge
+ABSTRACT: background_label: As the world becomes more reliant on Web applications for commercial, financial, and medical transactions, cyber attacks on the World Wide Web are increasing in frequency and severity.
+background_label: Web applications provide an attractive alternative to traditional desktop applications due to their accessibility and ease of deployment.
+background_label: However, the accessibility of Web applications also makes them extremely vulnerable to attack.
+background_label: This inherent vulnerability is intensified by the distributed nature of Web applications and the complexity of configuring application servers.
+result_label: These factors have led to a proliferation of Web-based attacks, in which attackers surreptitiously inject code into HTTP requests, allowing them to execute arbitrary commands on remote systems and perform malicious activities such as reading, altering, or destroying sensitive data.
+background_label: One approach for dealing with HTTP-based attacks is to identify malicious code in incoming HTTP requests and eliminate bad requests before they are processed.
+method_label: Using machine learning techniques, we can build a classifier to automatically label requests as “Valid” or “Attack.” For this study, we develop a simple, but effective HTTP attack classifier, based on the vector space model used commonly for Information Retrieval.
+method_label: Our classifier not only separates attacks from valid requests, but can also identify specific attack types (e.g., “SQL Injection” or “Path Traversal”).
+method_label: We demonstrate the effectiveness of our approach through experiments on the ECML/PKDD 2007 Discovery Challenge data set.
+result_label: Specifically, we show that our approach achieves higher precision and recall than previous methods.
+result_label: In addition, our approach has a number of desirable characteristics, including robustness to missing contextual information, interpretability of models, and scalability.
+
+===================================
+paper_id: 5131153; YEAR: 2013
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: abs_tfidfcbow200 - title_tfidfcbow200 - abs_cbow200
+TITLE: UNIK: unsupervised social network spam detection
+ABSTRACT: background_label: Social network spam increases explosively with the rapid development and wide usage of various social networks on the Internet.
+background_label: To timely detect spam in large social network sites, it is desirable to discover unsupervised schemes that can save the training cost of supervised schemes.
+objective_label: In this work, we first show several limitations of existing unsupervised detection schemes.
+background_label: The main reason behind the limitations is that existing schemes heavily rely on spamming patterns that are constantly changing to avoid detection.
+method_label: Motivated by our observations, we first propose a sybil defense based spam detection scheme SD2 that remarkably outperforms existing schemes by taking the social network relationship into consideration.
+background_label: In order to make it highly robust in facing an increased level of spam attacks, we further design an unsupervised spam detection scheme, called UNIK.
+method_label: Instead of detecting spammers directly, UNIK works by deliberately removing non-spammers from the network, leveraging both the social graph and the user-link graph.
+method_label: The underpinning of UNIK is that while spammers constantly change their patterns to evade detection, non-spammers do not have to do so and thus have a relatively non-volatile pattern.
+result_label: UNIK has comparable performance to SD2 when it is applied to a large social network site, and outperforms SD2 significantly when the level of spam attacks increases.
+result_label: Based on detection results of UNIK, we further analyze several identified spam campaigns in this social network site.
+result_label: The result shows that different spammer clusters demonstrate distinct characteristics, implying the volatility of spamming patterns and the ability of UNIK to automatically extract spam signatures.
+
+===================================
+paper_id: 776035; YEAR: 2010
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: CIMDS: Adapting Postprocessing Techniques of Associative Classification for Malware Detection
+ABSTRACT: background_label: Malware is software designed to infiltrate or damage a computer system without the owner's informed consent (e.g., viruses, backdoors, spyware, trojans, and worms).
+background_label: Nowadays, numerous attacks made by the malware pose a major security threat to computer users.
+background_label: Unfortunately, along with the development of the malware writing techniques, the number of file samples that need to be analyzed, named "gray list," on a daily basis is constantly increasing.
+method_label: In order to help our virus analysts, quickly and efficiently pick out the malicious executables from the "gray list," an automatic and robust tool to analyze and classify the file samples is needed.
+method_label: In our previous work, we have developed an intelligent malware detection system (IMDS) by adopting associative classification method based on the analysis of application programming interface (API) execution calls.
+result_label: Despite its good performance in malware detection, IMDS still faces the following two challenges: (1) handling the large set of the generated rules to build the classifier; and (2) finding effective rules for classifying new file samples.
+background_label: In this paper, we first systematically evaluate the effects of the postprocessing techniques (e.g., rule pruning, rule ranking, and rule selection) of associative classification in malware detection, and then, propose an effective way, i.e., CIDCPF, to detect the malware from the "gray list."
+objective_label: To the best of our knowledge, this is the first effort on using postprocessing techniques of associative classification in malware detection.
+method_label: CIDCPF adapts the postprocessing techniques as follows: first applying Chi-square testing and Insignificant rule pruning followed by using Database coverage based on the Chi-square measure rule ranking mechanism and Pessimistic error estimation, and finally performing prediction by selecting the best First rule.
+method_label: We have incorporated the CIDCPF method into our existing IMDS system, and we call the new system as CIMDS system.
+result_label: Case studies are performed on the large collection of file samples obtained from the Antivirus Laboratory at Kingsoft Corporation and promising experimental results demonstrate that the efficiency and ability of detecting malware from the "gray list" of our CIMDS system outperform popular antivirus software tools, such as McAfee VirusScan and Norton Antivirus, as well as previous data-mining-based detection systems, which employed Naive Bayes, support vector machine, and decision tree techniques.
+result_label: In particular, our CIMDS system can greatly reduce the number of generated rules, which makes it easy for our virus analysts to identify the useful ones.
+
+===================================
+paper_id: 10115586; YEAR: 2008
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: abs_cbow200
+TITLE: Unsupervised strategies for shilling detection and robust collaborative filtering
+ABSTRACT: background_label: Collaborative filtering systems are essentially social systems which base their recommendation on the judgment of a large number of people.
+background_label: However, like other social systems, they are also vulnerable to manipulation by malicious social elements.
+background_label: Lies and Propaganda may be spread by a malicious user who may have an interest in promoting an item, or downplaying the popularity of another one.
+method_label: By doing this systematically, with either multiple identities, or by involving more people, malicious user votes and profiles can be injected into a collaborative recommender system.
+result_label: This can significantly affect the robustness of a system or algorithm, as has been studied in previous work.
+background_label: While current detection algorithms are able to use certain characteristics of shilling profiles to detect them, they suffer from low precision, and require a large amount of training data.
+objective_label: In this work, we provide an in-depth analysis of shilling profiles and describe new approaches to detect malicious collaborative filtering profiles.
+method_label: In particular, we exploit the similarity structure in shilling user profiles to separate them from normal user profiles using unsupervised dimensionality reduction.
+method_label: We present two detection algorithms; one based on PCA, while the other uses PLSA.
+result_label: Experimental results show a much improved detection precision over existing methods without the usage of additional training time required for supervised approaches.
+result_label: Finally, we present a novel and highly effective robust collaborative filtering algorithm which uses ideas presented in the detection algorithms using principal component analysis.
+
+===================================
+paper_id: 125859648; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: Consensus vote models for detecting and filtering neutrality in sentiment analysis
+ABSTRACT: background_label: Abstract Recently, interest in sentiment analysis has grown exponentially.
+background_label: Many studies have developed a wide variety of algorithms capable of classifying texts according to the sentiment conveyed in them.
+background_label: Such sentiment is usually expressed as positive, neutral or negative.
+background_label: However, neutral reviews are often ignored in many sentiment analysis problems because of their ambiguity and lack of information.
+objective_label: In this paper, we propose to empower neutrality by characterizing the boundary between positive and negative reviews, with the goal of improving the model’s performance.
+method_label: We apply different sentiment analysis methods to different corpora extracting their sentiment and, hence, detecting neutral reviews by consensus to filter them, i.e., taking into account different models based on weighted aggregation.
+method_label: We finally compare classification performance on single and aggregated models.
+result_label: The results clearly show that aggregation methods outperform single models in most cases, which led us to conclude that neutrality is key for distinguishing between positive and negative and, then, for improving sentiment classification.
+
+===================================
+paper_id: 18254979; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_tfidfcbow200 - abs_tfidfcbow200 - title_cbow200 - abs_tfidf - title_tfidf
+TITLE: Content-based Approach for Vietnamese Spam SMS Filtering
+ABSTRACT: background_label: Short Message Service (SMS) spam is a serious problem in Vietnam because of the availability of very cheap pre-paid SMS packages.
+background_label: There are some systems to detect and filter spam messages for English, most of which use machine learning techniques to analyze the content of messages and classify them.
+background_label: For Vietnamese, there is some research on spam email filtering but none focused on SMS.
+objective_label: In this work, we propose the first system for filtering Vietnamese spam SMS.
+method_label: We first propose an appropriate preprocessing method since existing tools for Vietnamese preprocessing cannot give good accuracy on our dataset.
+method_label: We then experiment with vector representations and classifiers to find the best model for this problem.
+result_label: Our system achieves an accuracy of 94% when labelling spam messages while the misclassification rate of legitimate messages is relatively small, about only 0.4%.
+result_label: This is an encouraging result compared to that of English and can be served as a strong baseline for future development of Vietnamese SMS spam prevention systems.
+
+===================================
+paper_id: 440787; YEAR: 2005
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Instance-Based Learning Algorithms
+ABSTRACT: background_label: Storing and using specific instances improves the performance of several supervised learning algorithms.
+background_label: These include algorithms that learn decision trees, classification rules, and distributed networks.
+background_label: However, no investigation has analyzed algorithms that use only specific instances to solve incremental learning tasks.
+objective_label: In this paper, we describe a framework and methodology, called instance-based learning, that generates classification predictions using only specific instances.
+method_label: Instance-based learning algorithms do not maintain a set of abstractions derived from specific instances.
+method_label: This approach extends the nearest neighbor algorithm, which has large storage requirements.
+method_label: We describe how storage requirements can be significantly reduced with, at most, minor sacrifices in learning rate and classification accuracy.
+method_label: While the storage-reducing algorithm performs well on several real-world databases, its performance degrades rapidly with the level of attribute noise in training instances.
+method_label: Therefore, we extended it with a significance test to distinguish noisy instances.
+result_label: This extended algorithm's performance degrades gracefully with increasing noise levels and compares favorably with a noise-tolerant decision tree algorithm.
+
+===================================
+paper_id: 6791069; YEAR: 2013
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_cbow200
+TITLE: A method for identifying and confirming the use of URL filtering products for censorship
+ABSTRACT: background_label: Products used for managing network traffic and restricting access to Web content represent a dual-use technology.
+background_label: While they were designed to improve performance and protect users from inappropriate content, these products are also used to censor the Web by authoritarian regimes around the globe.
+background_label: This dual use has not gone unnoticed, with Western governments placing restrictions on their export.
+objective_label: Our contribution is to present methods for identifying installations of URL filtering products and confirming their use for censorship.
+method_label: We first present a methodology for identifying externally visible installations of URL filtering products in ISPs around the globe.
+method_label: Further, we leverage the fact that many of these products accept user-submitted sites for blocking to confirm that a specific URL filtering product is being used for censorship.
+method_label: Using this method, we are able to confirm the use of McAfee SmartFilter in Saudi Arabia and the United Arab Emirates (UAE) and Netsweeper in Qatar, the UAE, and Yemen.
+result_label: Our results show that these products are being used to block a range of content, including oppositional political speech, religious discussion and gay and lesbian material, speech generally protected by international human rights norms.
+
+===================================
+paper_id: 119425731; YEAR: 1972
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_tfidf
+TITLE: Unzerlegbare Darstellungen I
+ABSTRACT: background_label: LetK be the structure got by forgetting the composition law of morphisms in a given category.
+background_label: A linear representation ofK is given by a map V associating with any morphism ϕ: a→e ofK a linear vector space map V(ϕ): V(a)→V(e).
+method_label: We classify thoseK having only finitely many isomorphy classes of indecomposable linear representations.
+other_label: This classification is related to an old paper by Yoshii [3].
+
+===================================
+paper_id: 6636236; YEAR: 2006
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: abs_cbow200
+TITLE: Anagram: A Content Anomaly Detector Resistant to Mimicry Attack
+ABSTRACT: background_label: In this paper, we present Anagram, a content anomaly detector that models a mixture of high-order n-grams (n > 1) designed to detect anomalous and suspicious network packet payloads.
+background_label: By using higher-order n-grams, Anagram can detect significant anomalous byte sequences and generate robust signatures of validated malicious packet content.
+method_label: The Anagram content models are implemented using highly efficient Bloom filters, reducing space requirements and enabling privacy-preserving cross-site correlation.
+method_label: The sensor models the distinct content flow of a network or host using a semi-supervised training regimen.
+method_label: Previously known exploits, extracted from the signatures of an IDS, are likewise modeled in a Bloom filter and are used during training as well as detection time.
+method_label: We demonstrate that Anagram can identify anomalous traffic with high accuracy and low false positive rates.
+method_label: Anagram's high-order n-gram analysis technique is also resilient against simple mimicry attacks that blend exploits with normal appearing byte padding, such as the blended polymorphic attack recently demonstrated in [1].
+method_label: We discuss randomized n-gram models, which further raises the bar and makes it more difficult for attackers to build precise packet structures to evade Anagram even if they know the distribution of the local site content flow.
+result_label: Finally, Anagram's speed and high detection rate makes it valuable not only as a standalone sensor, but also as a network anomaly flow classifier in an instrumented fault-tolerant host-based environment; this enables significant cost amortization and the possibility of a symbiotic feedback loop that can improve accuracy and reduce false positive rates over time.
+
+===================================
+paper_id: 18350742; YEAR: 2014
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_cbow200 - title_tfidf
+TITLE: Countering anti-forensics of median filtering
+ABSTRACT: background_label: The statistical fingerprints left by median filtering can be a valuable clue for image forensics.
+background_label: However, these fingerprints may be maliciously erased by a forger.
+background_label: Recently, a tricky anti-forensic method has been proposed to remove median filtering traces by restoring images' pixel difference distribution.
+method_label: In this paper, we analyze the traces of this anti-forensic technique and propose a novel counter method.
+result_label: The experimental results show that our method could reveal this anti-forensics effectively at low computation load.
+result_label: According to our best knowledge, it's the first work on countering anti-forensics of median filtering.
+
+===================================
+paper_id: 54815878; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: abs_cbow200
+TITLE: TextBugger: Generating Adversarial Text Against Real-world Applications
+ABSTRACT: background_label: Deep Learning-based Text Understanding (DLTU) is the backbone technique behind various applications, including question answering, machine translation, and text classification.
+background_label: Despite its tremendous popularity, the security vulnerabilities of DLTU are still largely unknown, which is highly concerning given its increasing use in security-sensitive applications such as sentiment analysis and toxic content detection.
+objective_label: In this paper, we show that DLTU is inherently vulnerable to adversarial text attacks, in which maliciously crafted texts trigger target DLTU systems and services to misbehave.
+method_label: Specifically, we present TextBugger, a general attack framework for generating adversarial texts.
+method_label: In contrast to prior works, TextBugger differs in significant ways: (i) effective -- it outperforms state-of-the-art attacks in terms of attack success rate; (ii) evasive -- it preserves the utility of benign text, with 94.9\% of the adversarial text correctly recognized by human readers; and (iii) efficient -- it generates adversarial text with computational complexity sub-linear to the text length.
+result_label: We empirically evaluate TextBugger on a set of real-world DLTU systems and services used for sentiment analysis and toxic content detection, demonstrating its effectiveness, evasiveness, and efficiency.
+result_label: For instance, TextBugger achieves 100\% success rate on the IMDB dataset based on Amazon AWS Comprehend within 4.61 seconds and preserves 97\% semantic similarity.
+result_label: We further discuss possible defense mechanisms to mitigate such attack and the adversary's potential countermeasures, which leads to promising directions for further research.
+
+===================================
+paper_id: 1934486; YEAR: 2004
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 1; annotator2: 0
+sources: abs_tfidf - specter - title_tfidf
+TITLE: Characterizing a spam traffic
+ABSTRACT: background_label: The rapid increase in the volume of unsolicited commercial e-mails, also known as spam, is beginning to take its toll in system administrators, business corporations and end-users.
+background_label: Widely varying estimates of the cost associated with spam are available in the literature.
+background_label: However, a quantitative analysis of the determinant characteristics of spam traffic is still an open problem.
+objective_label: This work fills this gap and presents what we believe to be the first extensive characterization of a spam traffic.
+method_label: As basis for our characterization, standard spam detection techniques are used to classify over 360 thousand incoming e-mails to a large university into two categories, namely spam and non-spam.
+method_label: For each of the two resulting workloads, as well as for the aggregate workload, we analyze a set of parameters, aiming at identifying the characteristics that significantly distinguish spam from non-spam traffic, assessing the qualitative impact of spam on the aggregate traffic and, possibly, drawing insights into the design of more effective spam detection techniques.
+result_label: Our characterization reveals significant differences in the spam and non-spam traffic patterns.
+result_label: E-mail arrival process, size distribution as well as the distributions of popularity and temporal locality of e-mail recipients are key workload aspects which distinguish spam from traditional e-mail traffic.
+result_label: We conjecture that these differences are consequence of the inherently different mode of operation of spam and non-spam senders.
+result_label: Whereas non-spam e-mail transmissions are typically driven by social bilateral relationships, spam transmission is usually a unilateral action, based solely on the senders's will to reach as many users as possible.
+
+===================================
+paper_id: 17405283; YEAR: 2015
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: abs_tfidfcbow200 - abs_cbow200 - abs_tfidf
+TITLE: Hunting for Spammers: Detecting Evolved Spammers on Twitter
+ABSTRACT: background_label: Once an email problem, spam has nowadays branched into new territories with disruptive effects.
+background_label: In particular, spam has established itself over the recent years as a ubiquitous, annoying, and sometimes threatening aspect of online social networks.
+background_label: Due to its prevalent existence, many works have tackled spam on Twitter from different angles.
+background_label: Spam is, however, a moving target.
+background_label: The new generation of spammers on Twitter has evolved into online creatures that are not easily recognizable by old detection systems.
+result_label: With the strong tangled spamming community, automatic tweeting scripts, and the ability to massively create Twitter accounts with a negligible cost, spam on Twitter is becoming smarter, fuzzier and harder to detect.
+background_label: Our own analysis of spam content on Arabic trending hashtags in Saudi Arabia results in an estimate of about three quarters of the total generated content.
+background_label: This alarming rate makes the development of adaptive spam detection techniques a very real and pressing need.
+objective_label: In this paper, we analyze the spam content of trending hashtags on Saudi Twitter, and assess the performance of previous spam detection systems on our recently gathered dataset.
+method_label: Due to the escalating manipulation that characterizes newer spamming accounts, simple manual labeling currently leads to inaccurate results.
+method_label: In order to get reliable ground-truth data, we propose an updated manual classification algorithm that avoids the deficiencies of older manual approaches.
+method_label: We also adapt the previously proposed features to respond to spammers evading techniques, and use these features to build a new data-driven detection system.
+
+===================================
+paper_id: 2185716; YEAR: 2000
+adju relevance: Irrelevant (0)
+difference: 2; annotator1: 0; annotator2: 2
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: BoosTexter: A Boosting-based System for Text Categorization
+ABSTRACT: objective_label: This work focuses on algorithms which learn from examples to perform multiclass text and speech categorization tasks.
+background_label: Our approach is based on a new and improved family of boosting algorithms.
+method_label: We describe in detail an implementation, called BoosTexter, of the new boosting algorithms for text categorization tasks.
+method_label: We present results comparing the performance of BoosTexter and a number of other text-categorization algorithms on a variety of tasks.
+result_label: We conclude by describing the application of our system to automatic call-type identification from unconstrained spoken customer responses.
+
+===================================
+paper_id: 7265861; YEAR: 2015
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: Exhaust: Optimizing Wu-Manber pattern matching for intrusion detection using Bloom filters
+ABSTRACT: background_label: Intrusion detection systems are widely accepted as one of the main tools for monitoring and analyzing host and network traffic to protect data from illegal access or modification.
+background_label: Almost all types of signature-based intrusion detection systems must employ a pattern matching algorithm to inspect packets for malicious signatures.
+background_label: Unfortunately, pattern matching algorithms dominate the execution time and have become the bottleneck.
+method_label: To remedy that, we introduce a new software-based pattern matching algorithm that modifies Wu-Manber pattern matching algorithm using Bloom filters.
+method_label: The Bloom filter acts as an exclusion filter to reduce the number of searches to the large HASH table.
+method_label: The HASH table is accessed if there is a probable match represented by a shift value of zero.
+result_label: On average the HASH table search is skipped 10.6% of the time with a worst case average running time speedup over Wu-Manber of 33%.
+result_label: The maximum overhead incurred on preprocessing time is 1.1% and the worst case increase in memory usage was limited to 0.33%.
+
+===================================
+paper_id: 118988729; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_tfidf
+TITLE: A Microphotonic Astrocomb
+ABSTRACT: background_label: One of the essential prerequisites for detection of Earth-like extra-solar planets or direct measurements of the cosmological expansion is the accurate and precise wavelength calibration of astronomical spectrometers.
+background_label: It has already been realized that the large number of exactly known optical frequencies provided by laser frequency combs ('astrocombs') can significantly surpass conventionally used hollow-cathode lamps as calibration light sources.
+background_label: A remaining challenge, however, is generation of frequency combs with lines resolvable by astronomical spectrometers.
+method_label: Here we demonstrate an astrocomb generated via soliton formation in an on-chip microphotonic resonator ('microresonator') with a resolvable line spacing of 23.7 GHz.
+method_label: This comb is providing wavelength calibration on the 10 cm/s radial velocity level on the GIANO-B high-resolution near-infrared spectrometer.
+result_label: As such, microresonator frequency combs have the potential of providing broadband wavelength calibration for the next-generation of astronomical instruments in planet-hunting and cosmological research.
+
+===================================
+paper_id: 36117198; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_tfidf
+TITLE: DeepMind_Commentary
+ABSTRACT: background_label: We agree with Lake and colleagues on their list of key ingredients for building humanlike intelligence, including the idea that model-based reasoning is essential.
+background_label: However, we favor an approach that centers on one additional ingredient: autonomy.
+objective_label: In particular, we aim toward agents that can both build and exploit their own internal models, with minimal human hand-engineering.
+method_label: We believe an approach centered on autonomous learning has the greatest chance of success as we scale toward real-world complexity, tackling domains for which ready-made formal models are not available.
+result_label: Here we survey several important examples of the progress that has been made toward building autonomous agents with humanlike abilities, and highlight some outstanding challenges.
+
+===================================
+paper_id: 18924556; YEAR: 2010
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: abs_tfidf - title_cbow200 - title_tfidfcbow200 - specter
+TITLE: An In-depth Analysis of Spam and Spammers
+ABSTRACT: background_label: Electronic mail services have become an important source of communication for millions of people all over the world.
+background_label: Due to this tremendous growth, there has been a significant increase in spam traffic.
+background_label: Spam messes up user's inbox, consumes network resources and spread worms and viruses.
+objective_label: In this paper we study the characteristics of spam and the technology used by spammers.
+method_label: In order to counter anti spam technology, spammers change their mode of operation, therefore continues evaluation of the characteristics of spam and spammers technology has become mandatory.
+method_label: These evaluations help us to enhance the existing anti spam technology and thereby help us to combat spam effectively.
+result_label: In order to characterize spam, we collected four hundred thousand spam mails from a corporate mail server for a period of 14 months from January 2006 to February 2007.
+background_label: For analysis we classified spam based on attachment and contents.
+background_label: We observed that spammers use software tools to send spam with attachment.
+background_label: The main features of this software are hiding sender's identity, randomly selecting text messages, identifying open relay machines, mass mailing capability and defining spamming duration.
+background_label: Spammers do not use spam software to send spam without attachment.
+result_label: From our study we observed that, four years old heavy users email accounts attract more spam than four years old light users mail accounts.
+result_label: Relatively new email accounts which are 14 months old do not receive spam.
+result_label: But in some special cases like DDoS attacks, we found that new email accounts receive spam and 14 months old heavy users email accounts have attracted more spam than 14 months old light users.
+result_label: We believe that this analysis could be useful to develop more efficient anti spam techniques.
+
+===================================
+paper_id: 82456167; YEAR: 2007
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_tfidf
+TITLE: Janeway's Immunobiology
+ABSTRACT: background_label: Part I An Introduction to Immunobiology and Innate Immunity 1.
+background_label: Basic Concepts in Immunology 2.
+background_label: Innate Immunity Part II The Recognition of Antigen 3.
+background_label: Antigen Recognition by B-cell and T-cell Receptors 4.
+method_label: The Generation of Lymphocyte Antigen Receptors 5.
+method_label: Antigen Presentation to T Lymphocytes Part III The Development of Mature Lymphocyte Receptor Repertoires 6.
+method_label: Signaling Through Immune System Receptors 7.
+result_label: The Development and Survival of Lymphocytes Part IV The Adaptive Immune Response 8.
+background_label: T Cell-Mediated Immunity 9.
+background_label: The Humoral Immune Response 10.
+background_label: Dynamics of Adaptive Immunity 11.
+other_label: The Mucosal Immune System Part V The Immune System in Health and Disease 12.
+background_label: Failures of Host Defense Mechanism 13.
+other_label: Allergy and Hypersensitivity 14.
+other_label: Autoimmunity and Transplantation 15.
+other_label: Manipulation of the Immune Response Part VI The Origins of Immune Responses 16.
+other_label: Evolution of the Immune System Appendix I Immunologists' Toolbox Appendix II CD Antigens Appendix III Cytokines and their Receptors Appendix IV Chemokines and their Receptors Appendix V Immunological Constants
+

@@ -1,0 +1,1368 @@
+======================================================================
+paper_id: 1936997; YEAR: 2013
+TITLE: "Not not bad"is not"bad": A distributional account of negation
+ABSTRACT: background_label: With the increasing empirical success of distributional models of compositional semantics, it is timely to consider the types of textual logic that such models are capable of capturing.
+objective_label: In this paper, we address shortcomings in the ability of current models to capture logical operations such as negation.
+method_label: As a solution we propose a tripartite formulation for a continuous vector space representation of semantics and subsequently use this representation to develop a formal compositional notion of negation within such models.
+===================================
+paper_id: 18631267; YEAR: 2014
+adju relevance: Similar (+2)
+difference: 1; annotator2: 1; annotator3: 2
+sources: abs_tfidf - specter
+TITLE: From Logical to Distributional Models
+ABSTRACT: background_label: The paper relates two variants of semantic models for natural language, logical functional models and compositional distributional vector space models, by transferring the logic and reasoning from the logical to the distributional models.
+method_label: The geometrical operations of quantum logic are reformulated as algebraic operations on vectors.
+method_label: A map from functional models to vector space models makes it possible to compare the meaning of sentences word by word.
+
+===================================
+paper_id: 17362755; YEAR: 2017
+adju relevance: Similar (+2)
+difference: 1; annotator2: 1; annotator3: 2
+sources: abs_tfidf
+TITLE: When a Red Herring in Not a Red Herring: Using Compositional Methods to Detect Non-Compositional Phrases
+ABSTRACT: background_label: Non-compositional phrases such as `red herring' and weakly compositional phrases such as `spelling bee' are an integral part of natural language (Sag, 2002).
+background_label: They are also the phrases that are difficult, or even impossible, for good compositional distributional models of semantics.
+background_label: Compositionality detection therefore provides a good testbed for compositional methods.
+method_label: We compare an integrated compositional distributional approach, using sparse high dimensional representations, with the ad-hoc compositional approach of applying simple composition operations to state-of-the-art neural embeddings.
+
+===================================
+paper_id: 26901423; YEAR: 2010
+adju relevance: Similar (+2)
+difference: 1; annotator2: 1; annotator3: 2
+sources: cited - abs_cbow200 - abs_tfidf - abs_tfidfcbow200 - specter
+TITLE: Composition in distributional models of semantics.
+ABSTRACT: background_label: Vector-based models of word meaning have become increasingly popular in cognitive science.
+background_label: The appeal of these models lies in their ability to represent meaning simply by using distributional information under the assumption that words occurring within similar contexts are semantically similar.
+background_label: Despite their widespread use, vector-based models are typically directed at representing words in isolation, and methods for constructing representations for phrases or sentences have received little attention in the literature.
+background_label: This is in marked contrast to experimental evidence (e.g., in sentential priming) suggesting that semantic similarity is more complex than simply a relation between isolated words.
+objective_label: This article proposes a framework for representing the meaning of word combinations in vector space.
+method_label: Central to our approach is vector composition, which we operationalize in terms of additive and multiplicative functions.
+result_label: Under this framework, we introduce a wide range of composition models that we evaluate empirically on a phrase similarity task.
+
+===================================
+paper_id: 370914; YEAR: 2013
+adju relevance: Similar (+2)
+difference: 2; annotator2: 0; annotator3: 2
+sources: cited - abs_cbow200 - abs_tfidf - abs_tfidfcbow200 - specter
+TITLE: Towards a Formal Distributional Semantics: Simulating Logical Calculi with Tensors
+ABSTRACT: background_label: The development of compositional distributional models of semantics reconciling the empirical aspects of distributional semantics with the compositional aspects of formal semantics is a popular topic in the contemporary literature.
+objective_label: This paper seeks to bring this reconciliation one step further by showing how the mathematical constructs commonly used in compositional distributional models, such as tensors and matrices, can be used to simulate different aspects of predicate logic.
+method_label: This paper discusses how the canonical isomorphism between tensors and multilinear maps can be exploited to simulate a full-blown quantifier-free predicate calculus using tensors.
+method_label: It provides tensor interpretations of the set of logical connectives required to model propositional calculi.
+method_label: It suggests a variant of these tensor calculi capable of modelling quantifiers, using few non-linear operations.
+result_label: It finally discusses the relation between these variants, and how this relation should constitute the subject of future work.
+
+===================================
+paper_id: 18597583; YEAR: 2008
+adju relevance: Similar (+2)
+difference: 1; annotator2: 1; annotator3: 2
+sources: cited - abs_cbow200 - abs_tfidf - abs_tfidfcbow200 - specter
+TITLE: Vector-based Models of Semantic Composition
+ABSTRACT: objective_label: AbstractThis paper proposes a framework for representing the meaning of phrases and sentences in vector space.
+objective_label: Central to our approach is vector composition which we operationalize in terms of additive and multiplicative functions.
+method_label: Under this framework, we introduce a wide range of composition models which we evaluate empirically on a sentence similarity task.
+result_label: Experimental results demonstrate that the multiplicative models are superior to the additive alternatives when compared against human judgments.
+
+===================================
+paper_id: 2920392; YEAR: 2011
+adju relevance: Similar (+2)
+difference: 0; annotator2: 2; annotator3: 2
+sources: cited - abs_cbow200 - abs_tfidf - abs_tfidfcbow200 - specter
+TITLE: Integrating Logical Representations with Probabilistic Information using Markov Logic
+ABSTRACT: background_label: AbstractFirst-order logic provides a powerful and flexible mechanism for representing natural language semantics.
+background_label: However, it is an open question of how best to integrate it with uncertain, probabilistic knowledge, for example regarding word meaning.
+objective_label: This paper describes the first steps of an approach to recasting first-order semantics into the probabilistic models that are part of Statistical Relational AI.
+method_label: Specifically, we show how Discourse Representation Structures can be combined with distributional models for word meaning inside a Markov Logic Network and used to successfully perform inferences that take advantage of logical concepts such as factivity as well as probabilistic information on word meaning in context.
+
+===================================
+paper_id: 5917203; YEAR: 2010
+adju relevance: Similar (+2)
+difference: 0; annotator2: 2; annotator3: 2
+sources: cited - abs_cbow200 - abs_tfidf - abs_tfidfcbow200 - specter
+TITLE: Mathematical Foundations for a Compositional Distributional Model of Meaning
+ABSTRACT: background_label: We propose a mathematical framework for a unification of the distributional theory of meaning in terms of vector space models, and a compositional theory for grammatical types, for which we rely on the algebra of Pregroups, introduced by Lambek.
+objective_label: This mathematical framework enables us to compute the meaning of a well-typed sentence from the meanings of its constituents.
+method_label: Concretely, the type reductions of Pregroups are `lifted' to morphisms in a category, a procedure that transforms meanings of constituents into a meaning of the (well-typed) whole.
+method_label: Importantly, meanings of whole sentences live in a single space, independent of the grammatical structure of the sentence.
+method_label: Hence the inner-product can be used to compare meanings of arbitrary sentences, as it is for comparing the meanings of words in the distributional model.
+method_label: The mathematical structure we employ admits a purely diagrammatic calculus which exposes how the information flows between the words in a sentence in order to make up the meaning of the whole sentence.
+result_label: A variation of our `categorical model' which involves constraining the scalars of the vector spaces to the semiring of Booleans results in a Montague-style Boolean-valued semantics.
+
+===================================
+paper_id: 15969603; YEAR: 2014
+adju relevance: Related (+1)
+difference: 1; annotator2: 2; annotator3: 1
+sources: abs_tfidfcbow200
+TITLE: Learning Abstract Concept Embeddings from Multi-Modal Data: Since You Probably Can't See What I Mean
+ABSTRACT: background_label: Models that acquire semantic representations from both linguistic and perceptual input are of interest to researchers in NLP because of the obvious parallels with human language learning.
+background_label: Performance advantages of the multi-modal approach over language-only models have been clearly established when models are required to learn concrete noun concepts.
+background_label: However, such concepts are comparatively rare in everyday language.
+objective_label: In this work, we present a new means of extending the scope of multi-modal models to more commonly-occurring abstract lexical concepts via an approach that learns multimodal embeddings.
+method_label: Our architecture outperforms previous approaches in combining input from distinct modalities, and propagates perceptual information on concrete concepts to abstract concepts more effectively than alternatives.
+result_label: We discuss the implications of our results both for optimizing the performance of multi-modal models and for theories of abstract conceptual representation.
+
+===================================
+paper_id: 23273296; YEAR: 2014
+adju relevance: Related (+1)
+difference: 0; annotator2: 1; annotator3: 1
+sources: abs_tfidfcbow200 - abs_tfidf
+TITLE: Distributed Representations for Compositional Semantics
+ABSTRACT: background_label: The mathematical representation of semantics is a key issue for Natural Language Processing (NLP).
+background_label: A lot of research has been devoted to finding ways of representing the semantics of individual words in vector spaces.
+background_label: Distributional approaches --- meaning distributed representations that exploit co-occurrence statistics of large corpora --- have proved popular and successful across a number of tasks.
+background_label: However, natural language usually comes in structures beyond the word level, with meaning arising not only from the individual words but also the structure they are contained in at the phrasal or sentential level.
+objective_label: Modelling the compositional process by which the meaning of an utterance arises from the meaning of its parts is an equally fundamental task of NLP.
+objective_label: This dissertation explores methods for learning distributed semantic representations and models for composing these into representations for larger linguistic units.
+method_label: Our underlying hypothesis is that neural models are a suitable vehicle for learning semantically rich representations and that such representations in turn are suitable vehicles for solving important tasks in natural language processing.
+result_label: The contribution of this thesis is a thorough evaluation of our hypothesis, as part of which we introduce several new approaches to representation learning and compositional semantics, as well as multiple state-of-the-art models which apply distributed semantic representations to various tasks in NLP.
+
+===================================
+paper_id: 14230035; YEAR: 2003
+adju relevance: Related (+1)
+difference: 0; annotator2: 1; annotator3: 1
+sources: cited - abs_cbow200 - abs_tfidf - abs_tfidfcbow200 - specter
+TITLE: Word vectors and quantum logic: Experiments with negation and disjunction
+ABSTRACT: background_label: A calculus which combined the flexible geometric structure o f vector models with the crisp efficiency of Boolean logic would be extrem ely beneficial for modelling natural language.
+objective_label: With this goal in mind, we present a formulation for logical connectives in vector spaces based on standard linear algebra, giving examples of the use of vector negation to discriminate between different senses of ambiguous words.
+method_label: It turns out that the operators developed in this way are precisely the connectives of quantum logic (Birkhoff and von Neumann, 1936), which to our knowledge have not been exploited before in natural language processing.
+method_label: In quantum logic, arbitrary sets are replaced by linear subs paces of a vector space, and set unions, intersections and complements are replaced by vector sum, intersection and orthogonal complements of subspaces.
+result_label: We demonstrate that these logical connectives (particularly the orthogonal complement for negation) are powerful tools for exploring and analysing word meanings and show distinct advantages over Boolean operators in document retrieval experiments.
+
+===================================
+paper_id: 2158386; YEAR: 2013
+adju relevance: Related (+1)
+difference: 1; annotator2: 0; annotator3: 1
+sources: cited - abs_cbow200 - abs_tfidf - abs_tfidfcbow200 - specter
+TITLE: Montague Meets Markov: Deep Semantics with Probabilistic Logical Form
+ABSTRACT: background_label: AbstractWe combine logical and distributional representations of natural language meaning by transforming distributional similarity judgments into weighted inference rules using Markov Logic Networks (MLNs).
+method_label: We show that this framework supports both judging sentence similarity and recognizing textual entailment by appropriately adapting the MLN implementation of logical connectives.
+result_label: We also show that distributional phrase similarity, used as textual inference rules created on the fly, improves its performance.
+
+===================================
+paper_id: 11567084; YEAR: 2012
+adju relevance: Related (+1)
+difference: 1; annotator2: 0; annotator3: 1
+sources: cited - abs_cbow200 - abs_tfidf - abs_tfidfcbow200 - specter
+TITLE: A Comparison of Vector-based Representations for Semantic Composition
+ABSTRACT: objective_label: AbstractIn this paper we address the problem of modeling compositional meaning for phrases and sentences using distributional methods.
+background_label: We experiment with several possible combinations of representation and composition, exhibiting varying degrees of sophistication.
+background_label: Some are shallow while others operate over syntactic structure, rely on parameter learning, or require access to very large corpora.
+method_label: We find that shallow approaches are as good as more computationally intensive alternatives with regards to two particular tests: (1) phrase similarity and (2) paraphrase detection.
+result_label: The sizes of the involved training corpora and the generated vectors are not as important as the fit between the meaning representation and compositional method.
+
+===================================
+paper_id: 326903; YEAR: 2011
+adju relevance: Related (+1)
+difference: 1; annotator2: 1; annotator3: 0
+sources: cited - abs_cbow200 - abs_tfidf - abs_tfidfcbow200 - specter
+TITLE: Experimental Support for a Categorical Compositional Distributional Model of Meaning
+ABSTRACT: background_label: Modelling compositional meaning for sentences using empirical distributional methods has been a challenge for computational linguists.
+background_label: We implement the abstract categorical model of Coecke et al.
+method_label: (arXiv:1003.4394v1 [cs.CL]) using data from the BNC and evaluate it.
+method_label: The implementation is based on unsupervised learning of matrices for relational words and applying them to the vectors of their arguments.
+method_label: The evaluation is based on the word disambiguation task developed by Mitchell and Lapata (2008) for intransitive sentences, and on a similar new experiment designed for transitive sentences.
+result_label: Our model matches the results of its competitors in the first experiment, and betters them in the second.
+result_label: The general improvement in results with increase in syntactic complexity showcases the compositional power of our model.
+
+===================================
+paper_id: 12474263; YEAR: 2015
+adju relevance: Related (+1)
+difference: 2; annotator2: 0; annotator3: 2
+sources: abs_cbow200 - abs_tfidf - abs_tfidfcbow200
+TITLE: Bringing Machine Learning and Compositional Semantics Together
+ABSTRACT: background_label: Computational semantics has long been considered a field divided between logical and statistical approaches, but this divide is rapidly eroding with the development of statistical models that learn compositional semantic theories from corpora and databases.
+objective_label: This review presents a simple discriminative learning framework for defining such models and relating them to logical theories.
+method_label: Within this framework, we discuss the task of learning to map utterances to logical forms (semantic parsing) and the task of learning from denotations with logical forms as latent variables.
+result_label: We also consider models that use distributed (e.g., vector) representations rather than logical ones, showing that these can be considered part of the same overall framework for understanding meaning and structural complexity.
+
+===================================
+paper_id: 806709; YEAR: 2012
+adju relevance: Related (+1)
+difference: 0; annotator2: 1; annotator3: 1
+sources: cited - abs_cbow200 - abs_tfidf - abs_tfidfcbow200 - specter
+TITLE: Semantic Compositionality through Recursive Matrix-Vector Spaces
+ABSTRACT: background_label: AbstractSingle-word vector space models have been very successful at learning lexical information.
+background_label: However, they cannot capture the compositional meaning of longer phrases, preventing them from a deeper understanding of language.
+objective_label: We introduce a recursive neural network (RNN) model that learns compositional vector representations for phrases and sentences of arbitrary syntactic type and length.
+method_label: Our model assigns a vector and a matrix to every node in a parse tree: the vector captures the inherent meaning of the constituent, while the matrix captures how it changes the meaning of neighboring words or phrases.
+method_label: This matrix-vector RNN can learn the meaning of operators in propositional logic and natural language.
+result_label: The model obtains state of the art performance on three different experiments: predicting fine-grained sentiment distributions of adverb-adjective pairs; classifying sentiment labels of movie reviews and classifying semantic relationships such as cause-effect or topic-message between nouns using the syntactic path between them.
+
+===================================
+paper_id: 8360910; YEAR: 2010
+adju relevance: Related (+1)
+difference: 1; annotator2: 1; annotator3: 0
+sources: cited - abs_cbow200 - abs_tfidf - abs_tfidfcbow200 - specter
+TITLE: Nouns are Vectors, Adjectives are Matrices: Representing Adjective-Noun Constructions in Semantic Space
+ABSTRACT: background_label: AbstractWe propose an approach to adjective-noun composition (AN) for corpus-based distributional semantics that, building on insights from theoretical linguistics, represents nouns as vectors and adjectives as data-induced (linear) functions (encoded as matrices) over nominal vectors.
+method_label: Our model significantly outperforms the rivals on the task of reconstructing AN vectors not seen in training.
+method_label: A small post-hoc analysis further suggests that, when the model-generated AN vector is not similar to the corpus-observed AN vector, this is due to anomalies in the latter.
+result_label: We show moreover that our approach provides two novel ways to represent adjective meanings, alternative to its representation via corpus-based co-occurrence vectors, both outperforming the latter in an adjective clustering task.
+
+===================================
+paper_id: 20687969; YEAR: 2013
+adju relevance: Related (+1)
+difference: 0; annotator2: 1; annotator3: 1
+sources: abs_cbow200 - abs_tfidf - abs_tfidfcbow200 - specter
+TITLE: Category-Theoretic Quantitative Compositional Distributional Models of Natural Language Semantics
+ABSTRACT: background_label: This thesis is about the problem of compositionality in distributional semantics.
+background_label: Distributional semantics presupposes that the meanings of words are a function of their occurrences in textual contexts.
+background_label: It models words as distributions over these contexts and represents them as vectors in high dimensional spaces.
+background_label: The problem of compositionality for such models concerns itself with how to produce representations for larger units of text by composing the representations of smaller units of text.
+method_label: This thesis focuses on a particular approach to this compositionality problem, namely using the categorical framework developed by Coecke, Sadrzadeh, and Clark, which combines syntactic analysis formalisms with distributional semantic representations of meaning to produce syntactically motivated composition operations.
+background_label: This thesis shows how this approach can be theoretically extended and practically implemented to produce concrete compositional distributional models of natural language semantics.
+background_label: It furthermore demonstrates that such models can perform on par with, or better than, other competing approaches in the field of natural language processing.
+objective_label: There are three principal contributions to computational linguistics in this thesis.
+method_label: The first is to extend the DisCoCat framework on the syntactic front and semantic front, incorporating a number of syntactic analysis formalisms and providing learning procedures allowing for the generation of concrete compositional distributional models.
+method_label: The second contribution is to evaluate the models developed from the procedures presented here, showing that they outperform other compositional distributional models present in the literature.
+result_label: The third contribution is to show how using category theory to solve linguistic problems forms a sound basis for research, illustrated by examples of work on this topic, that also suggest directions for future research.
+
+===================================
+paper_id: 3107589; YEAR: 2016
+adju relevance: Related (+1)
+difference: 1; annotator2: 0; annotator3: 1
+sources: abs_tfidfcbow200
+TITLE: A Corpus-based Toy Model for DisCoCat
+ABSTRACT: background_label: The categorical compositional distributional (DisCoCat) model of meaning rigorously connects distributional semantics and pregroup grammars, and has found a variety of applications in computational linguistics.
+background_label: From a more abstract standpoint, the DisCoCat paradigm predicates the construction of a mapping from syntax to categorical semantics.
+objective_label: In this work we present a concrete construction of one such mapping, from a toy model of syntax for corpora annotated with constituent structure trees, to categorical semantics taking place in a category of free R-semimodules over an involutive commutative semiring R.
+
+===================================
+paper_id: 14298291; YEAR: 2016
+adju relevance: Related (+1)
+difference: 1; annotator2: 0; annotator3: 1
+sources: abs_tfidfcbow200
+TITLE: Learning Continuous Semantic Representations of Symbolic Expressions
+ABSTRACT: background_label: Combining abstract, symbolic reasoning with continuous neural reasoning is a grand challenge of representation learning.
+objective_label: As a step in this direction, we propose a new architecture, called neural equivalence networks, for the problem of learning continuous semantic representations of algebraic and logical expressions.
+method_label: These networks are trained to represent semantic equivalence, even of expressions that are syntactically very different.
+method_label: The challenge is that semantic representations must be computed in a syntax-directed manner, because semantics is compositional, but at the same time, small changes in syntax can lead to very large changes in semantics, which can be difficult for continuous neural architectures.
+result_label: We perform an exhaustive evaluation on the task of checking equivalence on a highly diverse class of symbolic algebraic and boolean expression types, showing that our model significantly outperforms existing architectures.
+
+===================================
+paper_id: 455112; YEAR: 2013
+adju relevance: Related (+1)
+difference: 1; annotator2: 2; annotator3: 1
+sources: cited - abs_cbow200 - abs_tfidf - abs_tfidfcbow200 - specter
+TITLE: Domain and Function: A Dual-Space Model of Semantic Relations and Compositions
+ABSTRACT: background_label: Given appropriate representations of the semantic relations between carpenter and wood and between mason and stone (for example, vectors in a vector space model), a suitable algorithm should be able to recognize that these relations are highly similar (carpenter is to wood as mason is to stone; the relations are analogous).
+background_label: Likewise, with representations of dog, house, and kennel, an algorithm should be able to recognize that the semantic composition of dog and house, dog house, is highly similar to kennel (dog house and kennel are synonymous).
+background_label: It seems that these two tasks, recognizing relations and compositions, are closely connected.
+background_label: However, up to now, the best models for relations are significantly different from the best models for compositions.
+method_label: In this paper, we introduce a dual-space model that unifies these two tasks.
+method_label: This model matches the performance of the best previous models for relations and compositions.
+method_label: The dual-space model consists of a space for measuring domain similarity and a space for measuring function similarity.
+background_label: Carpenter and wood share the same domain, the domain of carpentry.
+background_label: Mason and stone share the same domain, the domain of masonry.
+background_label: Carpenter and mason share the same function, the function of artisans.
+background_label: Wood and stone share the same function, the function of materials.
+background_label: In the composition dog house, kennel has some domain overlap with both dog and house (the domains of pets and buildings).
+method_label: The function of kennel is similar to the function of house (the function of shelters).
+result_label: By combining domain and function similarities in various ways, we can model relations, compositions, and other aspects of semantics.
+
+===================================
+paper_id: 1588782; YEAR: 2008
+adju relevance: Related (+1)
+difference: 1; annotator2: 1; annotator3: 2
+sources: cited - abs_cbow200 - abs_tfidf - abs_tfidfcbow200 - specter
+TITLE: A Structured Vector Space Model for Word Meaning in Context
+ABSTRACT: background_label: We address the task of computing vector space representations for the meaning of word occurrences, which can vary widely according to context.
+background_label: This task is a crucial step towards a robust, vector-based compositional account of sentence meaning.
+background_label: We argue that existing models for this task do not take syntactic structure sufficiently into account.
+method_label: We present a novel structured vector space model that addresses these issues by incorporating the selectional preferences for words' argument positions.
+method_label: This makes it possible to integrate syntax into the computation of word meaning in context.
+result_label: In addition, the model performs at and above the state of the art for modeling the contextual adequacy of paraphrases.
+
+===================================
+paper_id: 21699063; YEAR: 2009
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: Choice is Not True or False: The Domain of Rhetorical Argumentation
+ABSTRACT: background_label: Leading contemporary argumentation theories such as those of Ralph Johnson, van Eemeren and Houtlosser, and Tindale, in their attempt to address rhetoric, tend to define rhetorical argumentation with reference to (a) the rhetorical arguer’s goal (to persuade effectively), and (b) the means he employs to do so.
+background_label: However, a central strand in the rhetorical tradition itself, led by Aristotle, and arguably the dominant view, sees rhetorical argumentation as defined with reference to the domain of issues discussed.
+background_label: On that view, the domain of rhetorical argumentation is centered on choice of action in the civic sphere, and the distinctive nature of issues in this domain is considered crucial.
+method_label: Hence, argumentation theories such as those discussed, insofar as they do not see rhetoric as defined by its distinctive domain, apply an understanding of rhetoric that is historically inadequate.
+result_label: It is further suggested that theories adopting this understanding of rhetoric risk ignoring important distinctive features of argumentation about action.
+
+===================================
+paper_id: 1922970; YEAR: 2013
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: specter
+TITLE: What is in a text, what isn't, and what this has to do with lexical semantics
+ABSTRACT: background_label: AbstractThis paper queries which aspects of lexical semantics can reasonably be expected to be modelled by corpus-based theories such as distributional semantics or techniques such as ontology extraction.
+background_label: We argue that a full lexical semantics theory must take into account the extensional potential of words.
+result_label: We investigate to which extent corpora provide the necessary data to model this information and suggest that it may be partly learnable from text-based distributions, partly inferred from annotated data, using the insight that a concept's features are extensionally interdependent.
+
+===================================
+paper_id: 36117198; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidf
+TITLE: DeepMind_Commentary
+ABSTRACT: background_label: We agree with Lake and colleagues on their list of key ingredients for building humanlike intelligence, including the idea that model-based reasoning is essential.
+background_label: However, we favor an approach that centers on one additional ingredient: autonomy.
+objective_label: In particular, we aim toward agents that can both build and exploit their own internal models, with minimal human hand-engineering.
+method_label: We believe an approach centered on autonomous learning has the greatest chance of success as we scale toward real-world complexity, tackling domains for which ready-made formal models are not available.
+result_label: Here we survey several important examples of the progress that has been made toward building autonomous agents with humanlike abilities, and highlight some outstanding challenges.
+
+===================================
+paper_id: 12698795; YEAR: 2006
+adju relevance: Irrelevant (0)
+difference: 1; annotator2: 0; annotator3: 1
+sources: cited - abs_cbow200 - abs_tfidf - abs_tfidfcbow200 - specter
+TITLE: Markov logic networks
+ABSTRACT: objective_label: We propose a simple approach to combining first-order logic and probabilistic graphical models in a single representation.
+background_label: A Markov logic network (MLN) is a first-order knowledge base with a weight attached to each formula (or clause).
+method_label: Together with a set of constants representing objects in the domain, it specifies a ground Markov network containing one feature for each possible grounding of a first-order formula in the KB, with the corresponding weight.
+method_label: Inference in MLNs is performed by MCMC over the minimal subset of the ground network required for answering the query.
+method_label: Weights are efficiently learned from relational databases by iteratively optimizing a pseudo-likelihood measure.
+method_label: Optionally, additional clauses are learned using inductive logic programming techniques.
+result_label: Experiments with a real-world database and knowledge base in a university domain illustrate the promise of this approach.
+
+===================================
+paper_id: 17991397; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_cbow200 - abs_tfidfcbow200
+TITLE: Well-Behaved Model Transformations with Model Subtyping
+ABSTRACT: background_label: In model-driven engineering, models abstract the relevant features of software artefacts and model transformations act on them automating complex tasks of the development process.
+background_label: It is, thus, crucially important to provide pragmatic, reliable methods to verify that model transformations guarantee the correctness of generated models in order to ensure the quality of the final end product.
+method_label: In this paper, we build on an object-oriented algebraic encoding of metamodels and models as defined in the standard Meta-Object Facility and in tools, such as the Eclipse Modeling Framework, to specify a domain-specific language for representing the action part of model transformations.
+method_label: We introduce the big-step operational structural semantics of this language and its type system, which includes a notion of polymorphic model subtyping, showing that well-typed model transformations are well behaved.
+result_label: That is, that metamodel-conformant model transformations never go wrong.
+
+===================================
+paper_id: 46279910; YEAR: 1992
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidfcbow200 - title_tfidf
+TITLE: Age of acquisition, not word frequency, affects object naming, not object recognition.
+ABSTRACT: background_label: Word frequency is widely believed to affect object naming speed, despite several studies in which it has been reported that frequency effects may be redundant upon age of acquisition.
+background_label: We report, first, a reanalysis of data from the study by Oldfield and Wingfield (1965), which is standardly cited as evidence for a word frequency effect in object naming; then we report two new experiments.
+method_label: The reanalysis of Oldfield and Wingfield shows that age of acquisition is the major determinant of naming speed, and that frequency plays no independent role when its correlation with other variables is taken into account.
+method_label: In Experiment 1, age of acquisition and phoneme length proved to be the primary determinants of object naming speed.
+method_label: Frequency, prototypicality, and imageability had no independent effect.
+method_label: In Experiment 2, subjects classified objects into two semantic categories (natural or man-made).
+result_label: Prototypicality and semantic category were the only variables to have a significant effect on reaction time, with no effect of age of acquisition, frequency, imageability, or word length.
+result_label: We conclude that age of acquisition, not word frequency, affects the retrieval and/or execution of object names, not the process of object recognition.
+result_label: The locus of this effect is discussed, along with the possibility that words learned in early childhood may be more resistant to the effects of brain injury in at least some adult aphasics than words learned somewhat later.
+
+===================================
+paper_id: 199552244; YEAR: 2019
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidf - title_cbow200 - title_tfidfcbow200
+TITLE: Attention is not not Explanation
+ABSTRACT: background_label: Attention mechanisms play a central role in NLP systems, especially within recurrent neural network (RNN) models.
+background_label: Recently, there has been increasing interest in whether or not the intermediate representations offered by these modules may be used to explain the reasoning for a model's prediction, and consequently reach insights regarding the model's decision-making process.
+background_label: A recent paper claims that `Attention is not Explanation' (Jain and Wallace, 2019).
+method_label: We challenge many of the assumptions underlying this work, arguing that such a claim depends on one's definition of explanation, and that testing it needs to take into account all elements of the model, using a rigorous experimental design.
+method_label: We propose four alternative tests to determine when/whether attention can be used as explanation: a simple uniform-weights baseline; a variance calibration based on multiple random seed runs; a diagnostic framework using frozen weights from pretrained models; and an end-to-end adversarial attention training protocol.
+method_label: Each allows for meaningful interpretation of attention mechanisms in RNN models.
+result_label: We show that even when reliable adversarial distributions can be found, they don't perform well on the simple diagnostic, indicating that prior work does not disprove the usefulness of attention mechanisms for explainability.
+
+===================================
+paper_id: 251940; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_cbow200 - abs_tfidf - abs_tfidfcbow200
+TITLE: Semantic Composition via Probabilistic Model Theory
+ABSTRACT: background_label: Semantic composition remains an open problem for vector space models of semantics.
+objective_label: In this paper, we explain how the probabilistic graphical model used in the framework of Functional Distributional Semantics can be interpreted as a probabilistic version of model theory.
+method_label: Building on this, we explain how various semantic phenomena can be recast in terms of conditional probabilities in the graphical model.
+method_label: This connection between formal semantics and machine learning is helpful in both directions: it gives us an explicit mechanism for modelling context-dependent meanings (a challenge for formal semantics), and also gives us well-motivated techniques for composing distributed representations (a challenge for distributional semantics).
+result_label: We present results on two datasets that go beyond word similarity, showing how these semantically-motivated techniques improve on the performance of vector models.
+
+===================================
+paper_id: 116974286; YEAR: 1986
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: specter
+TITLE: Relevance Logic and Entailment
+ABSTRACT: background_label: Note carefully that the title of this piece is not ‘A Survey of Relevance Logic’.
+background_label: Such a project would be impossible given the development of the field and even the space limitations of this Handbook.
+background_label: For example Anderson and Belnap’s [1975] book Entailment: The Logic of Relevance and Necessity, volume 1 runs over 500 pages, and is their summary of just ‘half’ of the work done by them and their co-workers up to about the early 70s.1
+
+===================================
+paper_id: 166753895; YEAR: 2015
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidf
+TITLE: A City is Not a Tree
+ABSTRACT: objective_label: In order to define such structures, let me first define the concept of a set.
+background_label: A set is a collection of elements which for some reason we think of as belonging together.
+background_label: Since, as designers, we are concerned with the physical living city and its physical backbone, we must naturally restrict ourselves to considering sets which are collections of material elements such as people, blades of grass, cars, molecules, houses, gardens, water pipes, the water molecules in them etc.
+
+===================================
+paper_id: 5849086; YEAR: 1982
+adju relevance: Irrelevant (0)
+difference: 1; annotator2: 0; annotator3: 1
+sources: specter
+TITLE: Test-Score Semantics For Natural Languages
+ABSTRACT: background_label: Test-score semantics is based on the premise that almost everything that relates to natural languages is a matter of degree.
+background_label: Viewed from this perspective, any semantic entity in a natural language, e.g., a predicate, predicate-modifier, proposition, quantifier, command, question, etc.
+background_label: may be represented as a system of elastic constraints on a collection of objects or derived objects in a universe of discourse.
+result_label: In this sense, test-score semantics may be viewed as a generalization of truth-conditional, possible-world and model-theoretic semantics, but its expressive power is substantially greater.
+
+===================================
+paper_id: 119425731; YEAR: 1972
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidf
+TITLE: Unzerlegbare Darstellungen I
+ABSTRACT: background_label: LetK be the structure got by forgetting the composition law of morphisms in a given category.
+background_label: A linear representation ofK is given by a map V associating with any morphism ϕ: a→e ofK a linear vector space map V(ϕ): V(a)→V(e).
+method_label: We classify thoseK having only finitely many isomorphy classes of indecomposable linear representations.
+other_label: This classification is related to an old paper by Yoshii [3].
+
+===================================
+paper_id: 14214642; YEAR: 2009
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_tfidfcbow200 - abs_cbow200
+TITLE: The Hidden Markov Topic Model: A Probabilistic Model of Semantic Representation
+ABSTRACT: background_label: In this paper, we describe a model that learns semantic representations from the distributional statistics of language.
+background_label: This model, however, goes beyond the common bag-of-words paradigm, and infers semantic representations by taking into account the inherent sequential nature of linguistic data.
+method_label: The model we describe, which we refer to as a Hidden Markov Topics model, is a natural extension of the current state of the art in Bayesian bag-of-words models, that is, the Topics model of Griffiths, Steyvers, and Tenenbaum (2007), preserving its strengths while extending its scope to incorporate more fine-grained linguistic information.
+
+===================================
+paper_id: 16758049; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 2; annotator2: 0; annotator3: 2
+sources: specter
+TITLE: A Label Semantics Approach to Linguistic Hedges
+ABSTRACT: background_label: We introduce a model for the linguistic hedges `very' and `quite' within the label semantics framework, and combined with the prototype and conceptual spaces theories of concepts.
+method_label: The proposed model emerges naturally from the representational framework we use and as such, has a clear semantic grounding.
+result_label: We give generalisations of these hedge models and show that they can be composed with themselves and with other functions, going on to examine their behaviour in the limit of composition.
+
+===================================
+paper_id: 19304772; YEAR: 2010
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_cbow200 - title_tfidfcbow200 - title_tfidf
+TITLE: The prosodic word is not universal, but emergent
+ABSTRACT: background_label: In Prosodic Phonology, domains for the application of phonological patterns are commonly modeled as a Prosodic Hierarchy.
+background_label: The theory predicts, among other things, that (i) prosodic domains cluster on a single universal set of domains ('Clustering'), and (ii) no level of prosodic structure is skipped in the building of prosodic structure unless this is required by independently motivated higher ranking principles or constraints ('Strict Succession').
+background_label: In this paper, we demonstrate that if, as is standardly done, evidence is limited to lexically general phonological processes, some languages systematically violate the Strict Succession Prediction, evidencing no prosodic word domain, and some languages systematically violate the Clustering Prediction, evidencing more than one domain between the phonological phrase and the foot.
+method_label: We substantiate these claims by in-depth studies of phonological rule domains in Vietnamese (Austroasiatic) and Limbu (Sino-Tibetan).
+method_label: As an alternative to the Prosodic Hierarchy framework, we advocate a heuristic for cross-linguistic comparison in which prosodic domains are conceived of as language-particular, intrinsic and highly specific properties of individual phonological rules or constraints.
+method_label: This allows us to explore empirically the actual degree of variation to be encountered across prosodic systems.
+result_label: It turns out that the 'word' has no privileged or universal status in phonology, but only emerges through frequent reference of sound patterns to a given construction type in a given language.
+
+===================================
+paper_id: 1065884; YEAR: 1965
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidf
+TITLE: Why Not?
+ABSTRACT: background_label: As humans, we have expectations for the results of any action, e.g.
+background_label: we expect at least one student to be returned when we query a university database for student records.
+background_label: When these expectations are not met, traditional database users often explore datasets via a series of slightly altered SQL queries.
+background_label: Yet most database access is via limited interfaces that deprive end users of the ability to alter their query in any way to garner better understanding of the dataset and result set.
+background_label: Users are unable to question why a particular data item is Not in the result set of a given query.
+method_label: In this work, we develop a model for answers to WHY NOT?
+objective_label: queries.
+method_label: We show through a user study the usefulness of our answers, and describe two algorithms for finding the manipulation that discarded the data item of interest.
+method_label: Moreover, we work through two different methods for tracing the discarded data item that can be used with either algorithm.
+result_label: Using our algorithms, it is feasible for users to find the manipulation that excluded the data item of interest, and can eliminate the need for exhausting debugging.
+
+===================================
+paper_id: 2775184; YEAR: 2013
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidfcbow200 - title_tfidf
+TITLE: Security-Informed Safety: If It's Not Secure, It's Not Safe
+ABSTRACT: other_label: Abstract.
+background_label: Traditionally, safety and security have been treated as separate disciplines, but this position is increasingly becoming untenable and stakeholders are beginning to argue that if it's not secure, it's not safe.
+objective_label: In this paper we present some of the work we have been doing on "security-informed safety".
+method_label: Our approach is based on the use of structured safety cases and we discuss the impact that security might have on an existing safety case.
+method_label: We also outline a method we have been developing for assessing the security risks associated with an existing safety system such as a large-scale critical infrastructure.
+
+===================================
+paper_id: 17981782; YEAR: 2013
+adju relevance: Irrelevant (0)
+difference: 2; annotator2: 0; annotator3: 2
+sources: cited - abs_cbow200 - abs_tfidf - abs_tfidfcbow200 - specter
+TITLE: The Role of Syntax in Vector Space Models of Compositional Semantics
+ABSTRACT: background_label: AbstractModelling the compositional process by which the meaning of an utterance arises from the meaning of its parts is a fundamental task of Natural Language Processing.
+objective_label: In this paper we draw upon recent advances in the learning of vector space representations of sentential semantics and the transparent interface between syntax and semantics provided by Combinatory Categorial Grammar to introduce Combinatory Categorial Autoencoders.
+method_label: This model leverages the CCG combinatory operators to guide a non-linear transformation of meaning within a sentence.
+result_label: We use this model to learn high dimensional embeddings for sentences and evaluate them in a range of tasks, demonstrating that the incorporation of syntax allows a concise model to learn representations that are both effective and general.
+
+===================================
+paper_id: 18982392; YEAR: 1977
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidfcbow200 - title_cbow200 - title_tfidf
+TITLE: Why I am not a co-citationist
+ABSTRACT: background_label: Some of us make modest use of citation analysis in our work, 1 but remain radically skeptical of the claims of those who devote more prime time and energy to the elaboration of such methods.
+background_label: Why do we not accept the faith?
+background_label: Why can we not do the proper Kuhnian thing and let the “paradigmatic achievements” of the new quantitative methods define the field for us—posing our fundamental problems, laying down agreed techniques, prefiguring acceptable answers, and unrolling a “progressive research program “?
+objective_label: 1 suggest that what is at issue here is essentially a dl~ference of aim.
+objective_label: My conception of “doing the sociology of science” allows citation analysis, at best, only a very peripheral role.
+objective_label: I will try to outline my position as succinctly as possible.
+background_label: 1) Let me first identify and reject a claim that seems to me to lurk, if only implicitly, behind these quantitative methods: essentially, the claim is that, in transcending the “limited, subjective and biased” perspective of individuals, and in giving some “public, aggregated, objective and unbiased” account, these measures have, as it were, “a preferred logical status”.
+background_label: They are more “objective”, more “reliable”; they can be used to “correct” participants’ accounts; they can define “what really is (or was) the case”, and can arbitrate between conflicting accounts; and so on.
+other_label: These quantitative procedures are often Iabelled ‘‘scientific”, and the sociology (or history) to which they give rise is ‘‘scientific sociology’ ‘—as opposed, presumably, to qualitative, individualistic and “biased”, ‘‘incomplete” sociology.
+other_label: Garfteld, Sher and Torpie, for inst ante, in their pioneer 1964 paper, state:
+
+===================================
+paper_id: 7603943; YEAR: 2012
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidfcbow200 - title_cbow200 - title_tfidf
+TITLE: To share or not to share: that is not the question.
+ABSTRACT: background_label: There is an increasing awareness of the power of integrating multiple sources of data to accelerate biomedical discoveries.
+background_label: Some even argue that it is unethical not to share data that could be used for the public good.
+background_label: However, the challenges involved in sharing clinical and biomedical data are seldom discussed.
+method_label: I briefly review some of these challenges and provide an overview of how they are being addressed by the scientific community.
+
+===================================
+paper_id: 14771077; YEAR: 2015
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: Archaeal ancestors of eukaryotes: not so elusive any more
+ABSTRACT: background_label: The origin of eukaryotes is one of the hardest problems in evolutionary biology and sometimes raises the ominous specter of irreducible complexity.
+background_label: Reconstruction of the gene repertoire of the last eukaryotic common ancestor (LECA) has revealed a highly complex organism with a variety of advanced features but no detectable evolutionary intermediates to explain their origin.
+background_label: Recently, however, genome analysis of diverse archaea led to the discovery of apparent ancestral versions of several signature eukaryotic systems, such as the actin cytoskeleton and the ubiquitin network, that are scattered among archaea.
+method_label: These findings inspired the hypothesis that the archaeal ancestor of eukaryotes was an unusually complex form with an elaborate intracellular organization.
+method_label: The latest striking discovery made by deep metagenomic sequencing vindicates this hypothesis by showing that in phylogenetic trees eukaryotes fall within a newly identified archaeal group, the Lokiarchaeota, which combine several eukaryotic signatures previously identified in different archaea.
+result_label: The discovery of complex archaea that are the closest living relatives of eukaryotes is most compatible with the symbiogenetic scenario for eukaryogenesis.
+
+===================================
+paper_id: 36331005; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_cbow200
+TITLE: Reified Input/Output logic: Combining Input/Output logic and Reification to represent norms coming from existing legislation
+ABSTRACT: objective_label: AbstractIn this paper, we propose to combine Input/Output logic, a well-known formalism for normative reasoning, with the reification-based approach of Jerry R. Hobbs.
+background_label: The latter is a wide-coverage logic for Natural Language Semantics able to handle a fairly large set of linguistic phenomena into a simple logical formalism.
+background_label: The result is a new framework that we will call 'reified Input/Output logic'.
+objective_label: This paper represents the first step of a long-term research aiming at filling the gap between Input/Output logic and the richness of Natural Language Semantics.
+result_label: We plan in our future work to use reified Input/Output logic as the underlying formalism for applications in legal informatics to process and reason on existing legal texts, which are available in natural language only.
+
+===================================
+paper_id: 3806881; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 3; annotator2: 0; annotator3: 3
+sources: abs_tfidfcbow200 - abs_cbow200 - abs_tfidf
+TITLE: A Generalised Quantifier Theory of Natural Language in Categorical Compositional Distributional Semantics with Bialgebras
+ABSTRACT: background_label: Categorical compositional distributional semantics is a model of natural language; it combines the statistical vector space models of words with the compositional models of grammar.
+background_label: We formalise in this model the generalised quantifier theory of natural language, due to Barwise and Cooper.
+method_label: The underlying setting is a compact closed category with bialgebras.
+method_label: We start from a generative grammar formalisation and develop an abstract categorical compositional semantics for it, then instantiate the abstract setting to sets and relations and to finite dimensional vector spaces and linear maps.
+method_label: We prove the equivalence of the relational instantiation to the truth theoretic semantics of generalised quantifiers.
+result_label: The vector space instantiation formalises the statistical usages of words and enables us to, for the first time, reason about quantified phrases and sentences compositionally in distributional semantics.
+
+===================================
+paper_id: 3264852; YEAR: 2000
+adju relevance: Irrelevant (0)
+difference: 1; annotator2: 0; annotator3: 1
+sources: abs_cbow200
+TITLE: Reasoning with Higher-Order Abstract Syntax in a Logical Framework
+ABSTRACT: background_label: Logical frameworks based on intuitionistic or linear logics with higher-type quantification have been successfully used to give high-level, modular, and formal specifications of many important judgments in the area of programming languages and inference systems.
+background_label: Given such specifications, it is natural to consider proving properties about the specified systems in the framework: for example, given the specification of evaluation for a functional programming language, prove that the language is deterministic or that evaluation preserves types.
+background_label: One challenge in developing a framework for such reasoning is that higher-order abstract syntax (HOAS), an elegant and declarative treatment of object-level abstraction and substitution, is difficult to treat in proofs involving induction.
+method_label: In this paper, we present a meta-logic that can be used to reason about judgments coded using HOAS; this meta-logic is an extension of a simple intuitionistic logic that admits higher-order quantification over simply typed lambda-terms (key ingredients for HOAS) as well as induction and a notion of definition.
+method_label: We explore the difficulties of formal meta-theoretic analysis of HOAS encodings by considering encodings of intuitionistic and linear logics, and formally derive the admissibility of cut for important subsets of these logics.
+method_label: We then propose an approach to avoid the apparent tradeoff between the benefits of higher-order abstract syntax and the ability to analyze the resulting encodings.
+method_label: We illustrate this approach through examples involving the simple functional and imperative programming languages PCF and PCF:=.
+method_label: We formally derive such properties as unicity of typing, subject reduction, determinacy of evaluation, and the equivalence of transition semantics and natural semantics presentations of evaluation.
+
+===================================
+paper_id: 423511; YEAR: 2004
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_tfidf - abs_cbow200 - abs_tfidfcbow200
+TITLE: Logic knowledge bases with two default rules
+ABSTRACT: background_label: Logic knowledge based systems (LKBS) containing at most one form of default negation and explicit (or “classical”) negation have been studied in the literature.
+background_label: In this paper we describe a class of LKBS containing multiple forms of default negation in addition to explicit negation.
+background_label: We define a semantics for these systems in terms of the well‐founded semantics defined by Van Gelder et al.
+method_label: (1988) and the stable semantics introduced by Gelfond and Lifschitz (1988) and later extended to the 3‐valued case by Przymusinski (1991).
+method_label: We investigate properties of the new combined semantics and calculate the computational complexity of three main reasoning tasks for this semantics, namely existence of models, skeptical and credulous reasoning.
+method_label: An effective procedure to construct the collection of models characterizing the semantics of such a system is given.
+method_label: Applications to knowledge representation and knowledge base merging are presented.
+
+===================================
+paper_id: 5941289; YEAR: 2004
+adju relevance: Irrelevant (0)
+difference: 1; annotator2: 0; annotator3: 1
+sources: abs_cbow200 - abs_tfidfcbow200
+TITLE: Complex Probabilistic Modeling with Recursive Relational Bayesian Networks
+ABSTRACT: background_label: A number of representation systems have been proposed that extend the purely propositional Bayesian network paradigm with representation tools for some types of first-order probabilistic dependencies.
+background_label: Examples of such systems are dynamic Bayesian networks and systems for knowledge based model construction.
+background_label: We can identify the representation of probabilistic relational models as a common well-defined semantic core of such systems.
+background_label: Recursive relational Bayesian networks (RRBNs) are a framework for the representation of probabilistic relational models.
+objective_label: A main design goal for RRBNs is to achieve greatest possible expressiveness with as few elementary syntactic constructs as possible.
+method_label: The advantage of such an approach is that a system based on a small number of elementary constructs will be much more amenable to a thorough mathematical investigation of its semantic and algorithmic properties than a system based on a larger number of high-level constructs.
+objective_label: In this paper we show that with RRBNs we have achieved our goal, by showing, first, how to solve within that framework a number of non-trivial representation problems.
+method_label: In the second part of the paper we show how to construct from a RRBN and a specific query, a standard Bayesian network in which the answer to the query can be computed with standard inference algorithms.
+method_label: Here the simplicity of the underlying representation framework greatly facilitates the development of simple algorithms and correctness proofs.
+result_label: As a result we obtain a construction algorithm that even for RRBNs that represent models for complex first-order and statistical dependencies generates standard Bayesian networks of size polynomial in the size of the domain given in a specific application instance.
+
+===================================
+paper_id: 31981096; YEAR: 2010
+adju relevance: Irrelevant (0)
+difference: 1; annotator2: 0; annotator3: 1
+sources: abs_cbow200
+TITLE: Probabilistic Semantics and Program Analysis
+ABSTRACT: background_label: Abstract.
+method_label: The aims of these lecture notes are two-fold: (i) we investigate the relation between the operational semantics of probabilistic programming languages and Discrete Time Markov Chains (DTMCs), and (ii) we present a framework for probabilistic program analysis which is inspired by the classical Abstract Interpretation framework by Cousot & Cousot and which we introduced as Probabilistic Abstract Interpretation (PAI) in [1] .
+method_label: The link between programming languages and DTMCs is the construction of a so-called Linear Operator semantics (LOS) in a syntax-directed or compositional way.
+method_label: The main element in this construction is the use of tensor product to combine information about different aspects of a program.
+result_label: Although this inevitably results in a combinatorial explosion of the size of the semantics of program, the PAI approach allows us to keep some control and to obtain reasonably sized abstract models.
+
+===================================
+paper_id: 13364281; YEAR: 2011
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: specter
+TITLE: How we BLESSed distributional semantic evaluation
+ABSTRACT: background_label: AbstractWe introduce BLESS, a data set specifically designed for the evaluation of distributional semantic models.
+background_label: BLESS contains a set of tuples instantiating different, explicitly typed semantic relations, plus a number of controlled random tuples.
+objective_label: It is thus possible to assess the ability of a model to detect truly related word pairs, as well as to perform in-depth analyses of the types of semantic relations that a model favors.
+result_label: We discuss the motivations for BLESS, describe its construction and structure, and present examples of its usage in the evaluation of distributional semantic models.
+
+===================================
+paper_id: 3909257; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidf - title_cbow200 - title_tfidfcbow200
+TITLE: Type-preserving CPS translation of Σ and Π types is not not possible
+ABSTRACT: background_label: Dependently typed languages such as Coq are used to specify and prove functional correctness of source programs, but what we ultimately need are guarantees about correctness of compiled code.
+background_label: By preserving dependent types through each compiler pass, we could preserve source-level specifications and correctness proofs into the generated target-language programs.
+background_label: Unfortunately, type-preserving compilation of dependent types is hard.
+background_label: In 2002, Barthe and Uustalu showed that type-preserving CPS is not possible for languages such as Coq.
+method_label: Specifically, they showed that for strong dependent pairs (Σ types), the standard typed call-by-name CPS is not type preserving.
+method_label: They further proved that for dependent case analysis on sums, a class of typed CPS translations—including the standard translation—is not possible.
+result_label: In 2016, Morrisett noticed a similar problem with the standard call-by-value CPS translation for dependent functions (Π types).
+background_label: In essence, the problem is that the standard typed CPS translation by double-negation, in which computations are assigned types of the form (A → ⊥) → ⊥, disrupts the term/type equivalence that is used during type checking in a dependently typed language.
+background_label: In this paper, we prove that type-preserving CPS translation for dependently typed languages is not not possible.
+method_label: We develop both call-by-name and call-by-value CPS translations from the Calculus of Constructions with both Π and Σ types (CC) to a dependently typed target language, and prove type preservation and compiler correctness of each translation.
+method_label: Our target language is CC extended with an additional equivalence rule and an additional typing rule, which we prove consistent by giving a model in the extensional Calculus of Constructions.
+method_label: Our key observation is that we can use a CPS translation that employs answer-type polymorphism, where CPS-translated computations have type ∀ α.
+method_label: (A → α) → α.
+method_label: This type justifies, by a free theorem, the new equality rule in our target language and allows us to recover the term/type equivalences that CPS translation disrupts.
+result_label: Finally, we conjecture that our translation extends to dependent case analysis on sums, despite the impossibility result, and provide a proof sketch.
+
+===================================
+paper_id: 11691908; YEAR: 2012
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: cited - abs_cbow200 - abs_tfidf - abs_tfidfcbow200 - specter
+TITLE: A Unified Sentence Space for Categorical Distributional-Compositional Semantics: Theory and Experiments
+ABSTRACT: background_label: ABSTRACTThis short paper summarizes a faithful implementation of the categorical framework of Coecke et al.
+objective_label: (2010) , the aim of which is to provide compositionality in distributional models of lexical semantics.
+method_label: Based on Frobenius Algebras, our method enable us to (1) have a unifying meaning space for phrases and sentences of different structure and word vectors, (2) stay faithful to the linguistic types suggested by the underlying type-logic, and (3) perform the concrete computations in lower dimensions by reducing the space complexity.
+result_label: We experiment with two different parameters of the model and apply the setting to a verb disambiguation and a term/definition classification task with promising results.
+
+===================================
+paper_id: 3882934; YEAR: 2012
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: cited - abs_cbow200 - abs_tfidf - abs_tfidfcbow200 - specter
+TITLE: *SEM 2012 Shared Task: Resolving the Scope and Focus of Negation
+ABSTRACT: background_label: AbstractThe Joint Conference on Lexical and Computational Semantics (*SEM) each year hosts a shared task on semantic related topics.
+background_label: In its first edition held in 2012, the shared task was dedicated to resolving the scope and focus of negation.
+objective_label: This paper presents the specifications, datasets and evaluation criteria of the task.
+result_label: An overview of participating systems is provided and their results are summarized.
+
+===================================
+paper_id: 52928664; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 1; annotator2: 0; annotator3: 1
+sources: abs_cbow200 - abs_tfidfcbow200
+TITLE: Abstracting Probabilistic Relational Models
+ABSTRACT: background_label: AbstractAbstraction is a powerful idea widely used in science, to model, reason and explain the behavior of systems in a more tractable search space, by omitting irrelevant details.
+objective_label: While notions of abstraction have matured for deterministic systems, the case for abstracting probabilistic models is not yet fully understood.In this paper, we develop a foundational framework for abstraction in probabilistic relational models from first principles.
+method_label: These models borrow syntactic devices from first-order logic and are very expressive, thus naturally allowing for relational and hierarchical constructs with stochastic primitives.
+method_label: We motivate a definition of consistency between a high-level model and its low-level counterpart, but also treat the case when the high-level model is missing critical information present in the low-level model.
+result_label: We prove properties of abstractions, both at the level of the parameter as well as the structure of the models.
+
+===================================
+paper_id: 9338281; YEAR: 2012
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: specter
+TITLE: Challenges for Distributional Compositional Semantics
+ABSTRACT: background_label: This paper summarises the current state-of-the art in the study of compositionality in distributional semantics, and major challenges for this area.
+method_label: We single out generalised quantifiers and intensional semantics as areas on which to focus attention for the development of the theory.
+method_label: Once suitable theories have been developed, algorithms will be needed to apply the theory to tasks.
+result_label: Evaluation is a major problem; we single out application to recognising textual entailment and machine translation for this purpose.
+
+===================================
+paper_id: 29792562; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_tfidfcbow200 - abs_cbow200
+TITLE: Inconsistency-Tolerant Query Answering: Rationality Properties and Computational Complexity Analysis
+ABSTRACT: background_label: Abstract.
+background_label: Generalising the state of the art, an inconsistency-tolerant semantics can be seen as a couple composed of a modifier operator and an inference strategy.
+objective_label: In this paper we deepen the analysis of such general setting and focus on two aspects.
+method_label: First, we investigate the rationality properties of such semantics for existential rule knowledge bases.
+method_label: Second, we unfold the broad landscape of complexity results of inconsistency-tolerant semantics under a specific (yet expressive) subclass of existential rules.
+
+===================================
+paper_id: 7202818; YEAR: 2014
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: specter
+TITLE: Semantics, Modelling, and the Problem of Representation of Meaning -- a Brief Survey of Recent Literature
+ABSTRACT: background_label: Over the past 50 years many have debated what representation should be used to capture the meaning of natural language utterances.
+background_label: Recently new needs of such representations have been raised in research.
+objective_label: Here I survey some of the interesting representations suggested to answer for these new needs.
+
+===================================
+paper_id: 44049223; YEAR: 2011
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: Regular $g$-measures are not always Gibbsian
+ABSTRACT: background_label: Regular $g$-measures are discrete-time processes determined by conditional expectations with respect to the past.
+background_label: One-dimensional Gibbs measures, on the other hand, are fields determined by simultaneous conditioning on past and future.
+background_label: For the Markovian and exponentially continuous cases both theories are known to be equivalent.
+background_label: Its equivalence for more general cases was an open problem.
+method_label: We present a simple example settling this issue in a negative way: there exist $g$-measures that are continuous and non-null but are not Gibbsian.
+result_label: Our example belongs, in fact, to a well-studied family of processes with rather nice attributes: It is a chain with variable-length memory, characterized by the absence of phase coexistence and the existence of a visible renewal scheme.
+
+===================================
+paper_id: 2161880; YEAR: 2008
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidfcbow200 - title_cbow200 - title_tfidf
+TITLE: Small Is Not Always Beautiful
+ABSTRACT: background_label: Peer-to-peer content distribution systems have been enjoying great popularity, and are now gaining momentum as a means of disseminating video streams over the Internet.
+background_label: In many of these protocols, including the popular BitTorrent, content is split into mostly fixed-size pieces, allowing a client to download data from many peers simultaneously.
+background_label: This makes piece size potentially critical for performance.
+background_label: However, previous research efforts have largely overlooked this parameter, opting to focus on others instead.
+method_label: This paper presents the results of real experiments with varying piece sizes on a controlled BitTorrent testbed.
+result_label: We demonstrate that this parameter is indeed critical, as it determines the degree of parallelism in the system, and we investigate optimal piece sizes for distributing small and large content.
+result_label: We also pinpoint a related design trade-off, and explain how BitTorrent's choice of dividing pieces into subpieces attempts to address it.
+
+===================================
+paper_id: 15706947; YEAR: 2012
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidfcbow200 - title_cbow200 - title_tfidf
+TITLE: The bliss (not the problem) of motor abundance (not redundancy)
+ABSTRACT: background_label: Motor control is an area of natural science exploring how the nervous system interacts with other body parts and the environment to produce purposeful, coordinated actions.
+background_label: A central problem of motor control—the problem of motor redundancy—was formulated by Nikolai Bernstein as the problem of elimination of redundant degrees-of-freedom.
+background_label: Traditionally, this problem has been addressed using optimization methods based on a variety of cost functions.
+objective_label: This review draws attention to a body of recent findings suggesting that the problem has been formulated incorrectly.
+method_label: An alternative view has been suggested as the principle of abundance, which considers the apparently redundant degrees-of-freedom as useful and even vital for many aspects of motor behavior.
+method_label: Over the past 10 years, dozens of publications have provided support for this view based on the ideas of synergic control, computational apparatus of the uncontrolled manifold hypothesis, and the equilibrium-point (referent configuration) hypothesis.
+result_label: In particular, large amounts of “good variance”—variance in the space of elements that has no effect on the overall performance—have been documented across a variety of natural actions.
+method_label: “Good variance” helps an abundant system to deal with secondary tasks and unexpected perturbations; its amount shows adaptive modulation across a variety of conditions.
+result_label: These data support the view that there is no problem of motor redundancy; there is bliss of motor abundance.
+
+===================================
+paper_id: 198953482; YEAR: 2019
+adju relevance: Irrelevant (0)
+difference: 1; annotator2: 0; annotator3: 1
+sources: abs_tfidf
+TITLE: Revisiting Explicit Negation in Answer Set Programming
+ABSTRACT: background_label: A common feature in Answer Set Programming is the use of a second negation, stronger than default negation and sometimes called explicit, strong or classical negation.
+background_label: This explicit negation is normally used in front of atoms, rather than allowing its use as a regular operator.
+background_label: In this paper we consider the arbitrary combination of explicit negation with nested expressions, as those defined by Lifschitz, Tang and Turner.
+method_label: We extend the concept of reduct for this new syntax and then prove that it can be captured by an extension of Equilibrium Logic with this second negation.
+method_label: We study some properties of this variant and compare to the already known combination of Equilibrium Logic with Nelson's strong negation.
+result_label: Under consideration for acceptance in TPLP.
+
+===================================
+paper_id: 118988729; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidf
+TITLE: A Microphotonic Astrocomb
+ABSTRACT: background_label: One of the essential prerequisites for detection of Earth-like extra-solar planets or direct measurements of the cosmological expansion is the accurate and precise wavelength calibration of astronomical spectrometers.
+background_label: It has already been realized that the large number of exactly known optical frequencies provided by laser frequency combs ('astrocombs') can significantly surpass conventionally used hollow-cathode lamps as calibration light sources.
+background_label: A remaining challenge, however, is generation of frequency combs with lines resolvable by astronomical spectrometers.
+method_label: Here we demonstrate an astrocomb generated via soliton formation in an on-chip microphotonic resonator ('microresonator') with a resolvable line spacing of 23.7 GHz.
+method_label: This comb is providing wavelength calibration on the 10 cm/s radial velocity level on the GIANO-B high-resolution near-infrared spectrometer.
+result_label: As such, microresonator frequency combs have the potential of providing broadband wavelength calibration for the next-generation of astronomical instruments in planet-hunting and cosmological research.
+
+===================================
+paper_id: 294175; YEAR: 1992
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_tfidf
+TITLE: On Compositional Semantics
+ABSTRACT: background_label: We prove a theorem stating that any semantics can be encoded as a compositional semantics, which means that, essentially, the standard definition of compositionality is formally vacuous.
+method_label: We then show that when one requires compositional semantics to be "systematic" (that is the meaning function cannot be arbitrary, but must belong to some class), one can easily distinguish between compositional and non-compositional semantics.
+method_label: We also present an example of a simple grammar for which there is no "systematic" compositional semantics.
+method_label: This implies that it is possible to distinguish "good" and "bad" grammars on the basis of whether they can have compositional semantics.
+result_label: As a result, we believe that the paper clarifies the concept of compositionality and opens a possibility of making systematic comparisons of different systems of grammars and NLU programs.
+
+===================================
+paper_id: 2752001; YEAR: 2005
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_cbow200
+TITLE: On the Properties of Metamodeling in OWL
+ABSTRACT: background_label: A common practice in conceptual modeling is to separate the intensional from the extensional model.
+background_label: Although very intuitive, this approach is inadequate for many complex domains, where the borderline between the two models is not clear-cut.
+background_label: Therefore, OWL-Full, the most expressive of the Semantic Web ontology languages, allows combining the intensional and the extensional model by a feature we refer to as metamodeling.
+method_label: In this paper, we show that the semantics of metamodeling adopted in OWL-Full leads to undecidability of basic inference problems, due to free mixing of logical and metalogical symbols.
+method_label: Based on this result, we propose two alternative semantics for metamodeling: the contextual and the HiLog semantics.
+method_label: We show that SHOIQ- a description logic underlying OWL-DL- extended with metamodeling under either semantics is decidable.
+result_label: Finally, we show how the latter semantics can be used in practice to axiomatize the logical interaction between concepts and metaconcepts.
+
+===================================
+paper_id: 15636957; YEAR: 2013
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_tfidf
+TITLE: Negation in the Head of CP-logic Rules
+ABSTRACT: background_label: CP-logic is a probabilistic extension of the logic FO(ID).
+background_label: Unlike ASP, both of these logics adhere to a Tarskian informal semantics, in which interpretations represent objective states-of-affairs.
+background_label: In other words, these logics lack the epistemic component of ASP, in which interpretations represent the beliefs or knowledge of a rational agent.
+background_label: Consequently, neither CP-logic nor FO(ID) have the need for two kinds of negations: there is only one negation, and its meaning is that of objective falsehood.
+background_label: Nevertheless, the formal semantics of this objective negation is mathematically more similar to ASP's negation-as-failure than to its classical negation.
+background_label: The reason is that both CP-logic and FO(ID) have a constructive semantics in which all atoms start out as false, and may only become true as the result of a rule application.
+objective_label: This paper investigates the possibility of adding the well-known ASP feature of allowing negation in the head of rules to CP-logic.
+result_label: Because CP-logic only has one kind of negation, it is of necessity this ''negation-as-failure like'' negation that will be allowed in the head.
+result_label: We investigate the intuitive meaning of such a construct and the benefits that arise from it.
+
+===================================
+paper_id: 14964272; YEAR: 2015
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: Clutching Is Not (Necessarily) the Enemy
+ABSTRACT: background_label: Clutching is usually assumed to be triggered by a lack of physical space and detrimental to pointing performance.
+method_label: We conduct a controlled experiment using a laptop trackpad where the effect of clutching on pointing performance is dissociated from the effects of control-to-display transfer functions.
+method_label: Participants performed a series of target acquisition tasks using typical cursor acceleration functions with and without clutching.
+result_label: All pointing tasks were feasible without clutching, but clutch-less movements were harder to perform, caused more errors, required more preparation time, and were not faster than clutch-enabled movements.
+
+===================================
+paper_id: 4756608; YEAR: 2014
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidfcbow200 - title_cbow200
+TITLE: Selective correlations; not voodoo.
+ABSTRACT: background_label: The problem of "voodoo" correlations-exceptionally high observed correlations in selected regions of the brain-is well recognized in neuroimaging.
+background_label: It arises when quantities of interest are estimated from the same data that was used to select them as interesting.
+background_label: In statistical terminology, the problem of inference following selection from the same data is that of selective inference.
+method_label: Motivated by the unwelcome side-effects of splitting the data- the recommended remedy-we adapt the recent developments in selective inference in order to construct confidence intervals (CIs) with good reproducibility prospects, even if selection and estimation are done with the same data.
+method_label: These intervals control the expected proportion of non-covered correlations in the selected voxels-the False Coverage Rate (FCR).
+result_label: They extend further toward zero than standard intervals, thus attenuating the impression made by highly biased observed correlations.
+background_label: They do so adaptively, in that they coincide with the standard CIs when far away from the selection point.
+background_label: We complement existing analytic proofs with a simulation, showing that the proposed intervals control the FCR in realistic social neuroscience problems.
+method_label: We also suggest a "confidence calibration plot", to allow the intervals to be reported in a clear and interpretable way.
+method_label: Applying the proposed methodology on a loss-aversion study, we demonstrate that with the sample size and selection type employed, selection bias is considerable.
+method_label: Finally, selective intervals are compared to the currently recommended data-splitting approach.
+result_label: We discover that our approach has more power and typically more informative, as no data is discarded.
+result_label: Computation of the intervals is implemented in an accompanying software package.
+
+===================================
+paper_id: 73572517; YEAR: 2003
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidfcbow200 - title_cbow200 - title_tfidf
+TITLE: Mental representations as simulated affordances: not intrinsic, not so much functional, but intentionally-driven
+ABSTRACT: objective_label: The goal of this paper is to discuss the status of mental representations (MR).
+objective_label: The proposed view essentially agrees with Auletta's (this issue) arguments on the power of intention in defining representational contents, but further questions the articulation between intentionality and the functionality of representations, in light of an affordance-based approach to the origins of mental states.
+method_label: "Nous sommes, nous, de notre cote, arrive a la conclusion de l'irreductibilite du psychique au physique.
+other_label: Cependant, notre esprit demande, pour ainsi dire avec instance, qu'on ne le separe pas par un abime du monde materiel ou il habite, qu'on retablisse l'unite entre le physique et le psychique".
+other_label: Joseph Delbœuf (1876: 105).
+result_label: As Auletta states in his target paper 1 , many authors in philosophy are prone to establish the intrinsic nature of representations.
+background_label: It is noteworthy that mainstream cognitive psychology similarly views representations as the result of internalizing the external world and its physical principles (Shepard, 1994).
+background_label: Moreover, the debate with alternative proposals is highly contemporary (e.g.
+background_label: Todd & Gigerenzer, 2001).
+background_label: Consistently, Auletta has proposed an interesting view of representations and has done a nice job in demonstrating the need for considering the dynamics of the relationship between representing and represented entities.
+method_label: He has overcome a major problem hardly solvable by many other theories of representations: The contradictory opposition between a consistent, linear mental space, and a variable, non-linear biological space.
+result_label: Auletta suggests to ground representations at the interaction between the individual engagement and the nature of the external world, so that representations are not the result of a linear internalization of the world but rather of a dynamic engagement of intention.
+other_label: Though I am ↓
+
+===================================
+paper_id: 9727714; YEAR: 2013
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: specter - abs_tfidf - abs_tfidfcbow200
+TITLE: A relatedness benchmark to test the role of determiners in compositional distributional semantics
+ABSTRACT: background_label: AbstractDistributional models of semantics capture word meaning very effectively, and they have been recently extended to account for compositionally-obtained representations of phrases made of content words.
+objective_label: We explore whether compositional distributional semantic models can also handle a construction in which grammatical terms play a crucial role, namely determiner phrases (DPs).
+result_label: We introduce a new publicly available dataset to test distributional representations of DPs, and we evaluate state-of-the-art models on this set.
+
+===================================
+paper_id: 15616495; YEAR: 2010
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: cited - abs_cbow200 - abs_tfidf - abs_tfidfcbow200 - specter
+TITLE: Estimating Linear Models for Compositional Distributional Semantics
+ABSTRACT: background_label: AbstractIn distributional semantics studies, there is a growing attention in compositionally determining the distributional meaning of word sequences.
+background_label: Yet, compositional distributional models depend on a large set of parameters that have not been explored.
+objective_label: In this paper we propose a novel approach to estimate parameters for a class of compositional distributional models: the additive models.
+method_label: Our approach leverages on two main ideas.
+method_label: Firstly, a novel idea for extracting compositional distributional semantics examples.
+method_label: Secondly, an estimation method based on regression models for multiple dependent variables.
+result_label: Experiments demonstrate that our approach outperforms existing methods for determining a good model for compositional distributional semantics.
+
+===================================
+paper_id: 14418928; YEAR: 2013
+adju relevance: Irrelevant (0)
+difference: 1; annotator2: 1; annotator3: 0
+sources: title_tfidfcbow200 - title_tfidf
+TITLE: Why not, WINE?: towards answering why-not questions in social image search
+ABSTRACT: background_label: Despite considerable progress in recent years on Tag-based Social Image Retrieval (TagIR), state-of-the-art TagIR systems fail to provide a systematic framework for end users to ask why certain images are not in the result set of a given query and provide an explanation for such missing results.
+background_label: However, as humans, such why-not questions are natural when expected images are missing in the query results returned by a TagIR system.
+background_label: Clearly, it would be very helpful to users if they could pose follow-up why-not questions to seek clarifications on missing images in query results.
+objective_label: In this work, we take the first step to systematically answer the why-not questions posed by end-users on TagIR systems.
+method_label: Our answer not only involves the reason why desired images are missing in the results but also suggestion on how the query can be altered so that the user can view these missing images in sufficient number.
+method_label: We present three explanation models, namely result reordering, query relaxation, and query substitution, that enable us to explain a variety of why-not questions.
+method_label: We present an algorithm called WINE (Why-not questIon aNswering Engine) that exploits these models to answer why-not questions efficiently.
+result_label: Experiments on NUS-WIDE dataset demonstrate effectiveness as well as benefits of WINE.
+
+===================================
+paper_id: 13783080; YEAR: 2008
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_cbow200 - title_tfidfcbow200 - title_tfidf
+TITLE: Allostery: absence of a change in shape does not imply that allostery is not at play.
+ABSTRACT: background_label: Allostery is essential for controlled catalysis, signal transmission, receptor trafficking, turning genes on and off, and apoptosis.
+background_label: It governs the organism's response to environmental and metabolic cues, dictating transient partner interactions in the cellular network.
+background_label: Textbooks taught us that allostery is a change of shape at one site on the protein surface brought about by ligand binding to another.
+background_label: For several years, it has been broadly accepted that the change of shape is not induced; rather, it is observed simply because a larger protein population presents it.
+result_label: Current data indicate that while side chains can reorient and rewire, allostery may not even involve a change of (backbone) shape.
+result_label: Assuming that the enthalpy change does not reverse the free-energy change due to the change in entropy, entropy is mainly responsible for binding.
+
+===================================
+paper_id: 9299839; YEAR: 2012
+adju relevance: Irrelevant (0)
+difference: 1; annotator2: 0; annotator3: 1
+sources: abs_tfidf - specter
+TITLE: Representing and Resolving Negation for Sentiment Analysis
+ABSTRACT: background_label: Proper treatment of negation is an important characteristic of methods for sentiment analysis.
+background_label: However, while there is a growing body of research on the automatic resolution of negation, it is not yet clear as to how negation is best represented for different applications.
+method_label: To begin to address this issue, we review representation alternatives and present a state-of-the-art system for negation resolution that is interoperable across these schemes.
+result_label: By employing different configurations of this system as a component in a test bed for lexically-based sentiment classification, we demonstrate that the choice of representation can have a significant impact on downstream processing.
+
+===================================
+paper_id: 118636771; YEAR: 2019
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: Locality of not-so-weak coloring
+ABSTRACT: background_label: Many graph problems are locally checkable: a solution is globally feasible if it looks valid in all constant-radius neighborhoods.
+background_label: This idea is formalized in the concept of locally checkable labelings (LCLs), introduced by Naor and Stockmeyer (1995).
+background_label: Recently, Chang et al.
+method_label: (2016) showed that in bounded-degree graphs, every LCL problem belongs to one of the following classes: -"Easy": solvable in $O(\log^* n)$ rounds with both deterministic and randomized distributed algorithms.
+method_label: -"Hard": requires at least $\Omega(\log n)$ rounds with deterministic and $\Omega(\log \log n)$ rounds with randomized distributed algorithms.
+method_label: Hence for any parameterized LCL problem, when we move from local problems towards global problems, there is some point at which complexity suddenly jumps from easy to hard.
+result_label: For example, for vertex coloring in $d$-regular graphs it is now known that this jump is at precisely $d$ colors: coloring with $d+1$ colors is easy, while coloring with $d$ colors is hard.
+background_label: However, it is currently poorly understood where this jump takes place when one looks at defective colorings.
+background_label: To study this question, we define $k$-partial $c$-coloring as follows: nodes are labeled with numbers between $1$ and $c$, and every node is incident to at least $k$ properly colored edges.
+background_label: It is known that $1$-partial $2$-coloring (a.k.a.
+background_label: weak $2$-coloring) is easy for any $d \ge 1$.
+method_label: As our main result, we show that $k$-partial $2$-coloring becomes hard as soon as $k \ge 2$, no matter how large a $d$ we have.
+result_label: We also show that this is fundamentally different from $k$-partial $3$-coloring: no matter which $k \ge 3$ we choose, the problem is always hard for $d = k$ but it becomes easy when $d \gg k$.
+result_label: The same was known previously for partial $c$-coloring with $c \ge 4$, but the case of $c<4$ was open.
+
+===================================
+paper_id: 7768929; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 1; annotator2: 0; annotator3: 1
+sources: specter
+TITLE: Role Semantics for Better Models of Implicit Discourse Relations
+ABSTRACT: background_label: Predicting the structure of a discourse is challenging because relations between discourse segments are often implicit and thus hard to distinguish computationally.
+background_label: I extend previous work to classify implicit discourse relations by introducing a novel set of features on the level of semantic roles.
+result_label: My results demonstrate that such features are helpful, yielding results competitive with other feature-rich approaches on the PDTB.
+result_label: My main contribution is an analysis of improvements that can be traced back to role-based features, providing insights into why and when role semantics is helpful.
+
+===================================
+paper_id: 25845573; YEAR: 2008
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: cited - abs_cbow200 - abs_tfidf - abs_tfidfcbow200 - specter
+TITLE: Wide-Coverage Semantic Analysis with Boxer
+ABSTRACT: background_label: Boxer is an open-domain software component for semantic analysis of text, based on Combinatory Categorial Grammar (CCG) and Discourse Representation Theory (DRT).
+method_label: Used together with the CC (b) discourse structure triggered by conditionals, negation or discourse adverbs was overall correctly computed; (c) some measure and time expressions are correctly analysed, others aren't; (d) several shallow analyses are given for lexical phrases that require deep analysis; (e) bridging references and pronouns are not resolved in most cases.
+result_label: Boxer is distributed with the C&C tools and freely available for research purposes.
+
+===================================
+paper_id: 15703563; YEAR: 2010
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_tfidfcbow200 - abs_tfidf
+TITLE: Disciplined Heterogeneous Modeling
+ABSTRACT: background_label: Complex systems demand diversity in the modeling mechanisms.
+background_label: One way to deal with a diversity of requirements is to create flexible modeling frameworks that can be adapted to cover the field of interest.
+background_label: The downside of this approach is a weakening of the semantics of the modeling frameworks that compromises interoperability, understandability, and analyzability of the models.
+objective_label: An alternative approach is to embrace heterogeneity and to provide mechanisms for a diversity of models to interact.
+objective_label: This paper reviews an approach that achieves such interaction between diverse models using an abstract semantics, which is a deliberately incomplete semantics that cannot by itself define a useful modeling framework.
+method_label: It instead focuses on the interactions between diverse models, reducing the nature of those interactions to a minimum that achieves a well-defined composition.
+method_label: An example of such an abstract semantics is the actor semantics, which can handle many heterogeneous models that are built today, and some that are not common today.
+result_label: The actor abstract semantics and many concrete semantics have been implemented in Ptolemy II, an open-source software framework distributed under a BSD-style license.
+
+===================================
+paper_id: 118916966; YEAR: 2008
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidfcbow200 - title_cbow200
+TITLE: Paraconsistent Vagueness: Why Not?
+ABSTRACT: background_label: The idea that the phenomenon of vagueness might be modelled by a paraconsistent logic has been little discussed in contemporary work on vagueness, just as the idea that paraconsistent logics might be fruitfully applied to the phenomenon of vagueness has been little discussed in contemporary work on paraconsistency.
+background_label: This is prima facie surprising given that the earliest formalisations of paraconsistent logics presented in Jaskowski and Hallden were presented as logics of vagueness.
+background_label: One possible explanation for this is that, despite initial advocacy by pioneers of paraconsistency, the prospects for a paraconsistent account of vagueness are so poor as to warrant little further consideration.
+method_label: In this paper we look at the reasons that might be offered in defence of this negative claim.
+result_label: As we shall show, they are far from compelling.
+result_label: Paraconsistent accounts of vagueness deserve further attention.
+
+===================================
+paper_id: 10181469; YEAR: 1980
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: "Sometime" is sometimes "not never": on the temporal logic of programs
+ABSTRACT: background_label: Pnueli [15] has recently introduced the idea of using temporal logic [18] as the logical basis for proving correctness properties of concurrent programs.
+background_label: This has permitted an elegant unifying formulation of previous proof methods.
+objective_label: In this paper, we attempt to clarify the logical foundations of the application of temporal logic to concurrent programs.
+method_label: In doing so, we will also clarify the relation between concurrency and nondeterminism, and identify some problems for further research.In this paper, we consider logics containing the temporal operators "henceforth" (or "always") and "eventually" (or "sometime").
+method_label: We define the semantics of such a temporal logic in terms of an underlying model that abstracts the fundamental concepts common to almost all the models of computation which have been used.
+method_label: We are concerned mainly with the semantics of temporal logic, and will not discuss in any detail the actual rules for deducing theorems.We will describe two different temporal logics for reasoning about a computational model.
+result_label: The same formulas appear in both logics, but they are interpreted differently.
+background_label: The two interpretations correspond to two different ways of viewing time: as a continually branching set of possibilities, or as a single linear sequence of actual events.
+background_label: The temporal concepts of "sometime" and "not never" ("not always not") are equivalent in the theory of linear time, but not in the theory of branching time -- hence, our title.
+background_label: We will argue that the logic of linear time is better for reasoning about concurrent programs, and the logic of branching time is better for reasoning about nondeterministic programs.The logic of linear time was used by Pnueli in [15], while the logic of branching time seems to be the one used by most computer scientists for reasoning about temporal concepts.
+objective_label: We have found this to cause some confusion among our colleagues, so one of our goals has been to clarify the formal foundations of Pnueli's work.The following section gives an intuitive discussion of temporal logic, and Section 3 formally defines the semantics of the two temporal logics.
+method_label: In Section 4, we prove that the two temporal logics are not equivalent, and discuss their differences.
+method_label: Section 5 discusses the problems of validity and completeness for the temporal logics.
+result_label: In Section 6, we show that there are some important properties of the computational model that cannot be expressed with the temporal operators "henceforth" and "eventually", and define more general operators.
+
+===================================
+paper_id: 195866186; YEAR: 1996
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_cbow200 - abs_tfidfcbow200
+TITLE: Abstraction mechanisms in discrete-event inductive modeling
+ABSTRACT: background_label: The power of abstraction lies in its ability to deal with "lack" of knowledge.
+background_label: In this regard, success in modeling and simulation rests on discovering useful abstractions that can support objectives of modeling.
+background_label: In our treatment, we refer to "data abstraction" as opposed to "structure simplification" since we consider a system's behavior rather than its structure.
+background_label: A system's behavior can be represented as time varying input/output segments.
+method_label: Given the behavior of a causal, time-invariant system, we define some basic abstraction mechanisms to support inductive modeling.
+method_label: The basis for these abstraction mechanisms are a set of general assumptions which allow consistent abstraction of IO segments.
+method_label: Then, given these assumptions and non-monotonic reasoning paradigm, capable of handling them, we try to tackle the fundamental problem of insufficient knowledge in the realm of inductive modeling.
+result_label: In this way, by making useful abstractions, we can predict a system's unobserved behavior according to a well-defined framework of discrete-event inductive modeling.
+
+===================================
+paper_id: 57558611; YEAR: 2012
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: Unrest Assured: Why Unipolarity Is Not Peaceful
+ABSTRACT: background_label: The United States has been at war for thirteen of the twenty-two years since the Cold War ended and the world became unipolar.
+background_label: Still, the consensual view among international relations theorists is that unipolarity is peaceful.
+background_label: They base this view on two assumptions: first, the unipole will guarantee the global status quo and, second, no state will balance against it.
+background_label: Both assumptions are problematic.
+result_label: First, the unipole may disengage from a particular region, thus removing constraints on regional conflicts.
+background_label: Second, if the unipole remains engaged in the world, those minor powers that decide not to accommodate it will be unable to find a great power sponsor.
+background_label: Placed in this situation of extreme self-help, they will try to revise the status quo in their favor, a dynamic that is likely to trigger conflict with the unipole.
+background_label: Therefore, neither the structure of a unipolar world nor U.S. strategic choices clearly benefit the overall prospects for peace.
+background_label: For the world as a whole, unipolarity makes conflict likely.
+background_label: For the unipole, it presents a difficult choice between disengagement and frequent conflict.
+result_label: In neither case will the unipole be able to easily convert its power into favorable outcomes peacefully.
+
+===================================
+paper_id: 116918892; YEAR: 2007
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidf - title_cbow200 - title_tfidfcbow200
+TITLE: Bicat is not triequivalent to Gray
+ABSTRACT: background_label: Bicat is the tricategory of bicategories, homomorphisms, pseudonatural transformations, and modifications.
+background_label: Gray is the subtricategory of 2-categories, 2-functors, pseudonatural transformations, and modifications.
+result_label: We show that these two tricategories are not triequivalent.
+
+===================================
+paper_id: 3416500; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidf
+TITLE: Unhappy Developers: Bad for Themselves, Bad for Process, and Bad for Software Product
+ABSTRACT: background_label: Recent research in software engineering supports the"happy-productive"thesis, and the desire of flourishing happiness among programmers is often expressed by industry practitioners.
+background_label: Recent literature has suggested that a cost-effective way to foster happiness and productivity among workers could be to limit unhappiness of developers due to its negative impact.
+background_label: However, possible negative effects of unhappiness are still largely unknown in the software development context.
+objective_label: In this paper, we present the first results from a study exploring the consequences of the unhappy developers.
+method_label: Using qualitative data analysis of the survey responses given by 181 participants, we identified 49 potential consequences of unhappiness while developing software.
+result_label: These results have several implications.
+result_label: While raising the awareness of the role of moods, emotions and feelings in software development, we foresee that our classification scheme will spawn new happiness studies linking causes and effects, and it can act as a guideline for developers and managers to foster happiness at work.
+
+===================================
+paper_id: 22870263; YEAR: 2009
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidfcbow200 - title_cbow200 - title_tfidf
+TITLE: Seeing is not believing
+ABSTRACT: background_label: Altering digital imagery is now ubiquitous.
+background_label: People have come to expect it in the fashion and entertainment world, where airbrushing blemishes and wrinkles away is routine.
+background_label: And anyone surfing the Web is routinely subjected to crude photographic mashups like the Palin hoax, whose creators clearly aren't interested in realism but in whatever titillation or outrage they can generate.
+background_label: Even as experts continue to develop techniques for exposing photographic frauds, new techniques for creating better and harder-to-detect fakes are also evolving.
+background_label: As in the battle against spam and computer viruses, it seems inevitable that the arms race between the forger and the forensic analyst will continue to escalate, with no clear victor.
+background_label: Improved image forensics will never be able to eradicate or prevent digital tampering, but these techniques can make it more time-consuming and difficult for forgers to ply their trade.
+result_label: Tomorrow's technology will almost certainly enable digital manipulations that today seem unimaginable, and the science of digital forensics will have to work hard to keep pace.
+result_label: It is my hope that these new techniques, along with a greater awareness of the technological possibilities and sensible updates in policy and law, will help the media, the courts, and the public contend with the exciting but often baffling events of our digital age.
+
+===================================
+paper_id: 1144461; YEAR: 1997
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: cited - abs_cbow200 - abs_tfidf - abs_tfidfcbow200 - specter
+TITLE: A solution to Plato’s problem: The latent semantic analysis theory of acquisition, induction, and representation of knowledge
+ABSTRACT: background_label: How do people know as much as they do with as little information as they get?
+background_label: The problem takes many forms; learning vocabulary from text is an especially dramatic and convenient case for research.
+method_label: A new general theory of acquired similarity and knowledge representation, latent semantic analysis (LSA), is presented and used to successfully simulate such learning and several other psycholinguistic phenomena.
+method_label: By inducing global knowledge indirectly from local co-occurrence data in a large body of representative text, LSA acquired knowledge about the full vocabulary of English at a comparable rate to schoolchildren.
+method_label: LSA uses no prior linguistic or perceptual similarity knowledge; it is based solely on a general mathematical learning method that achieves powerful inductive effects by extracting the right number of dimensions (e.g., 300) to represent objects and contexts.
+method_label: Relations to other theories, phenomena, and problems are sketched.
+
+===================================
+paper_id: 4954256; YEAR: 2015
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: specter
+TITLE: Distributional Semantics in Use
+ABSTRACT: background_label: AbstractIn this position paper we argue that an adequate semantic model must account for language in use, taking into account how discourse context affects the meaning of words and larger linguistic units.
+background_label: Distributional semantic models are very attractive models of meaning mainly because they capture conceptual aspects and are automatically induced from natural language data.
+background_label: However, they need to be extended in order to account for language use in a discourse or dialogue context.
+result_label: We discuss phenomena that the new generation of distributional semantic models should capture, and propose concrete tasks on which they could be tested.
+
+===================================
+paper_id: 15637264; YEAR: 1998
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: Why IDLs are not ideal
+ABSTRACT: background_label: The dominant approach to addressing heterogeneity, interoperability and legacy software components at present is based on the use of interface description languages (IDLs) such as the OMG/CORBA IDL.
+background_label: We believe that this approach has serious drawbacks.
+objective_label: In this paper we outline our objections to the IDL-based approach, then describe ongoing research directed toward producing a superior alternative, which we refer to as the polylingual systems approach.
+result_label: We illustrate both our objections to the IDL-based approach and also our new polylingual systems approach with examples based on the IWSSD common case study.
+
+===================================
+paper_id: 3080804; YEAR: 2015
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_cbow200 - abs_tfidf - abs_tfidfcbow200
+TITLE: Bialgebraic Semantics for Logic Programming
+ABSTRACT: background_label: Bialgebrae provide an abstract framework encompassing the semantics of different kinds of computational models.
+objective_label: In this paper we propose a bialgebraic approach to the semantics of logic programming.
+objective_label: Our methodology is to study logic programs as reactive systems and exploit abstract techniques developed in that setting.
+method_label: First we use saturation to model the operational semantics of logic programs as coalgebrae on presheaves.
+method_label: Then, we make explicit the underlying algebraic structure by using bialgebrae on presheaves.
+method_label: The resulting semantics turns out to be compositional with respect to conjunction and term substitution.
+result_label: Also, it encodes a parallel model of computation, whose soundness is guaranteed by a built-in notion of synchronisation between different threads.
+
+===================================
+paper_id: 7788178; YEAR: 2013
+adju relevance: Irrelevant (0)
+difference: 1; annotator2: 0; annotator3: 1
+sources: cited - abs_cbow200 - abs_tfidf - abs_tfidfcbow200 - specter
+TITLE: Cutting Recursive Autoencoder Trees
+ABSTRACT: background_label: Deep Learning models enjoy considerable success in Natural Language Processing.
+background_label: While deep architectures produce useful representations that lead to improvements in various tasks, they are often difficult to interpret.
+background_label: This makes the analysis of learned structures particularly difficult.
+background_label: In this paper, we rely on empirical tests to see whether a particular structure makes sense.
+method_label: We present an analysis of the Semi-Supervised Recursive Autoencoder, a well-known model that produces structural representations of text.
+result_label: We show that for certain tasks, the structure of the autoencoder can be significantly reduced without loss of classification accuracy and we evaluate the produced structures using human judgment.
+
+===================================
+paper_id: 13623031; YEAR: 2001
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: Not all laughs are alike: voiced but not unvoiced laughter readily elicits positive affect.
+ABSTRACT: background_label: We tested whether listeners are differentially responsive to the presence or absence of voicing, a salient, distinguishing acoustic feature, in laughter.
+background_label: Each of 128 participants rated 50 voiced and 20 unvoiced laughs twice according to one of five different rating strategies.
+result_label: Results were highly consistent regardless of whether participants rated their own emotional responses, likely responses of other people, or one of three perceived attributes concerning the laughers, thus indicating that participants were experiencing similarly differentiated affective responses in all these cases.
+result_label: Specifically, voiced, songlike laughs were significantly more likely to elicit positive responses than were variants such as unvoiced grunts, pants, and snortlike sounds.
+result_label: Participants were also highly consistent in their relative dislike of these other sounds, especially those produced by females.
+result_label: Based on these results, we argue that laughers use the acoustic features of their vocalizations to shape listener affect.
+
+===================================
+paper_id: 989810; YEAR: 1995
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_tfidf - specter
+TITLE: From compositional to systematic semantics
+ABSTRACT: background_label: We prove a theorem stating that any semantics can be encoded as a compositional semantics, which means that, essentially, the standard definition of compositionality is formally vacuous.
+method_label: We then show that when compositional semantics is required to be"systematic"(that is, the meaning function cannot be arbitrary, but must belong to some class), it is possible to distinguish between compositional and non-compositional semantics.
+result_label: As a result, we believe that the paper clarifies the concept of compositionality and opens a possibility of making systematic formal comparisons of different systems of grammars.
+
+===================================
+paper_id: 52945237; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: specter
+TITLE: Towards Verifying Semantic Roles Co-occurrence
+ABSTRACT: background_label: Semantic role theory considers roles as a small universal set of unanalyzed entities.
+background_label: It means that formally there are no restrictions on role combinations.
+background_label: We argue that the semantic roles co-occur in verb representations.
+background_label: It means that there are hidden restrictions on role combinations.
+method_label: To demonstrate that a practical and evidence-based approach has been built on in-depth analysis of the largest verb database VerbNet.
+result_label: The consequences of this approach are considered.
+
+===================================
+paper_id: 10021081; YEAR: 2014
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_tfidf - specter
+TITLE: On Strong and Default Negation in Logic Program Updates (Extended Version)
+ABSTRACT: background_label: Existing semantics for answer-set program updates fall into two categories: either they consider only strong negation in heads of rules, or they primarily rely on default negation in heads of rules and optionally provide support for strong negation by means of a syntactic transformation.
+objective_label: In this paper we pinpoint the limitations of both these approaches and argue that both types of negation should be first-class citizens in the context of updates.
+method_label: We identify principles that plausibly constrain their interaction but are not simultaneously satisfied by any existing rule update semantics.
+method_label: Then we extend one of the most advanced semantics with direct support for strong negation and show that it satisfies the outlined principles as well as a variety of other desirable properties.
+
+===================================
+paper_id: 61274663; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidfcbow200 - title_tfidf
+TITLE: Software is Not Fragile
+ABSTRACT: background_label: Trying all simple changes (first order mutations) to executed C, C++ and CUDA source code shows software engineering artefacts are more robust than is often assumed.
+background_label: Of those that compile, up to 89 % run without error.
+background_label: Indeed a few mutants are improvements.
+background_label: Program fitness landscapes are smoother.
+result_label: Analysis of these programs, a parallel nVidia GPGPU kernel, all CUDA samples and the GNU C library shows many lines of code and integer values are repeated and may follow Zipf’s law.
+
+===================================
+paper_id: 86395766; YEAR: 2019
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_tfidf
+TITLE: The Negation of Basic Probability Assignment
+ABSTRACT: background_label: In many cases, we obtain information using various methods in order to make better decisions.
+background_label: The everything in nature and society has its negative, the negation of negation has significant meaning.
+background_label: Considering the problem from two aspects, we can get more accurate information.
+background_label: However, in most cases, the information of negation is ignored.
+result_label: Hence, the negation provides a new view to obtain information.
+background_label: However, existing negation method mainly apply to probability distribution.
+background_label: How to get the negation of basic probability assignment (BPA) in Dempster-Shafer (D-S) theory is still an open issue.
+method_label: The paper proposed the new negation method of BPA.
+method_label: Besides, some numerical examples are given to this approach for better understanding.
+method_label: Moreover, in order to demonstrate the efficiency of the proposed method, the paper compared the changes of uncertainty between original and negation by using some uncertain measurement methods.
+result_label: Finally, practical application is used to be discussed the application of proposed method.
+
+===================================
+paper_id: 202565468; YEAR: 2019
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: Which of My Transient Type Checks Are Not (Almost) Free?
+ABSTRACT: background_label: One form of type checking used in gradually typed language is transient type checking: whenever an object 'flows' through code with a type annotation, the object is dynamically checked to ensure it has the methods required by the annotation.
+background_label: Just-in-time compilation and optimisation in virtual machines can eliminate much of the overhead of run-time transient type checks.
+background_label: Unfortunately this optimisation is not uniform: some type checks will significantly decrease, or even increase, a program's performance.
+method_label: In this paper, we refine the so called"Takikawa"protocol, and use it to identify which type annotations have the greatest effects on performance.
+method_label: In particular, we show how graphing the performance of such benchmarks when varying which type annotations are present in the source code can be used to discern potential patterns in performance.
+method_label: We demonstrate our approach by testing the Moth virtual machine: for many of the benchmarks where Moth's transient type checking impacts performance, we have been able to identify one or two specific type annotations that are the likely cause.
+result_label: Without these type annotations, the performance impact of transient type checking becomes negligible.
+result_label: Using our technique programmers can optimise programs by removing expensive type checks, and VM engineers can identify new opportunities for compiler optimisation.
+
+===================================
+paper_id: 24823034; YEAR: 2004
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidf - title_cbow200 - title_tfidfcbow200
+TITLE: Invertebrate immune systems--not homogeneous, not simple, not well understood.
+ABSTRACT: background_label: The approximate 30 extant invertebrate phyla have diversified along separate evolutionary trajectories for hundreds of millions of years.
+background_label: Although recent work understandably has emphasized the commonalities of innate defenses, there is also ample evidence, as from completed genome studies, to suggest that even members of the same invertebrate order have taken significantly different approaches to internal defense.
+background_label: These data suggest that novel immune capabilities will be found among the different phyla.
+background_label: Many invertebrates have intimate associations with symbionts that may play more of a role in internal defense than generally appreciated.
+background_label: Some invertebrates that are either long lived or have colonial body plans may diversify components of their defense systems via somatic mutation.
+background_label: Somatic diversification following pathogen exposure, as seen in plants, has been investigated little in invertebrates.
+result_label: Recent molecular studies of sponges, cnidarians, shrimp, mollusks, sea urchins, tunicates, and lancelets have found surprisingly diversified immune molecules, and a model is presented that supports the adaptive value of diversified non-self recognition molecules in invertebrates.
+result_label: Interactions between invertebrates and viruses also remain poorly understood.
+result_label: As we are in the midst of alarming losses of coral reefs, increased pathogen challenge to invertebrate aquaculture, and rampant invertebrate-transmitted parasites of humans and domestic animals, we need a better understanding of invertebrate immunology.
+
+===================================
+paper_id: 195798821; YEAR: 2019
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_tfidfcbow200
+TITLE: On Open-Universe Causal Reasoning
+ABSTRACT: background_label: We extend two kinds of causal models, structural equation models and simulation models, to infinite variable spaces.
+method_label: This enables a semantics for conditionals founded on a calculus of intervention, and axiomatization of causal reasoning for rich, expressive generative models---including those in which a causal representation exists only implicitly---in an open-universe setting.
+method_label: Further, we show that under suitable restrictions the two kinds of models are equivalent, perhaps surprisingly as their axiomatizations differ substantially in the general case.
+result_label: We give a series of complete axiomatizations in which the open-universe nature of the setting is seen to be essential.
+
+===================================
+paper_id: 82456167; YEAR: 2007
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidf
+TITLE: Janeway's Immunobiology
+ABSTRACT: background_label: Part I An Introduction to Immunobiology and Innate Immunity 1.
+background_label: Basic Concepts in Immunology 2.
+background_label: Innate Immunity Part II The Recognition of Antigen 3.
+background_label: Antigen Recognition by B-cell and T-cell Receptors 4.
+method_label: The Generation of Lymphocyte Antigen Receptors 5.
+method_label: Antigen Presentation to T Lymphocytes Part III The Development of Mature Lymphocyte Receptor Repertoires 6.
+method_label: Signaling Through Immune System Receptors 7.
+result_label: The Development and Survival of Lymphocytes Part IV The Adaptive Immune Response 8.
+background_label: T Cell-Mediated Immunity 9.
+background_label: The Humoral Immune Response 10.
+background_label: Dynamics of Adaptive Immunity 11.
+other_label: The Mucosal Immune System Part V The Immune System in Health and Disease 12.
+background_label: Failures of Host Defense Mechanism 13.
+other_label: Allergy and Hypersensitivity 14.
+other_label: Autoimmunity and Transplantation 15.
+other_label: Manipulation of the Immune Response Part VI The Origins of Immune Responses 16.
+other_label: Evolution of the Immune System Appendix I Immunologists' Toolbox Appendix II CD Antigens Appendix III Cytokines and their Receptors Appendix IV Chemokines and their Receptors Appendix V Immunological Constants
+
+===================================
+paper_id: 1374085; YEAR: 2003
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_tfidfcbow200
+TITLE: Parameterized Aspect Calculus: A Core Calculus for the Direct Study of Aspect-Oriented Languages
+ABSTRACT: background_label: Formal study of aspect-oriented languages is difficult because current theoretical models provide a range of features that is too limited and rely on encodings using lower-level abstractions, which involve a cumbersome level of indirection.
+background_label: We present a calculus, based on Abadi and Cardelli’s object calculus, that explicitly models a base language and a variety of point cut description languages.
+method_label: This explicit modeling makes clear the aspect-oriented features of the calculus by removing the indirection of some existing models.
+result_label: We demonstrate the generality of our calculus by presenting models for AspectJ’s open classes and advice, and HyperJ’s compositions, and sketching a model for DemeterJ’s adaptive methods.
+
+===================================
+paper_id: 1877316; YEAR: 2014
+adju relevance: Irrelevant (0)
+difference: 2; annotator2: 0; annotator3: 2
+sources: abs_tfidfcbow200 - abs_tfidf
+TITLE: An Algebraic View on the Semantics of model Composition
+ABSTRACT: background_label: Due to the increased complexity of software development projects more and more systems are described by models.
+background_label: The sheer size makes it impractical to describe these systems by a single model.
+background_label: Instead many models are developed that provide several complementary views on the system to be developed.
+background_label: This however leads to a need for compositional models.
+objective_label: This paper describes a foundational theory of model composition in form of an algebra to explicitly clarify different variants and uses of composition, their interplay with the semantics of the involved models and their composition operators.
+
+===================================
+paper_id: 2816192; YEAR: 2013
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_tfidfcbow200 - abs_tfidf - specter
+TITLE: Combined Distributional and Logical Semantics
+ABSTRACT: background_label: We introduce a new approach to semantics which combines the benefits of distributional and formal logical semantics.
+background_label: Distributional models have been successful in modelling the meanings of content words, but logical semantics is necessary to adequately represent many function words.
+method_label: We follow formal semantics in mapping language to logical representations, but differ in that the relational constants used are induced by offline distributional clustering at the level of predicate-argument structure.
+method_label: Our clustering algorithm is highly scalable, allowing us to run on corpora the size of Gigaword.
+method_label: Different senses of a word are disambiguated based on their induced types.
+result_label: We outperform a variety of existing approaches on a wide-coverage question answering task, and demonstrate the ability to make complex multi-sentence inferences involving quantifiers on the FraCaS suite.
+
+===================================
+paper_id: 16595363; YEAR: 2004
+adju relevance: Irrelevant (0)
+difference: 1; annotator2: 0; annotator3: -1
+sources: title_tfidf - title_cbow200 - title_tfidfcbow200
+TITLE: A Gaussian input is not too bad
+ABSTRACT: background_label: We consider the problem of choosing a robust input for communicating over an input constrained additive-noise channel where the noise distribution is arbitrary.
+background_label: We show that the mutual information rate achievable using a white Gaussian input never incurs a loss of more than half a bit per sample with respect to the power constrained capacity.
+method_label: For comparison, for the family of colored Gaussian noise channels a white Gaussian input loses at most log(e)/2e/spl ap/0.265 bit per sample with respect to the optimum water-pouring solution.
+method_label: For general input constraints, we derive a formula for choosing the best input in the min-max capacity loss (bound) sense.
+result_label: The bound on the capacity loss is tight for pulse position modulation (PPM) in the presence of a bursty jammer.
+
+===================================
+paper_id: 5471801; YEAR: 2003
+adju relevance: Irrelevant (0)
+difference: 1; annotator2: 0; annotator3: 1
+sources: specter
+TITLE: Entailment, Intensionality And Text Understanding
+ABSTRACT: background_label: We argue that the detection of entailment and contradiction relations between texts is a minimal metric for the evaluation of text understanding systems.
+background_label: Intensionality, which is widespread in natural language, raises a number of detection issues that cannot be brushed aside.
+method_label: We describe a contexted clausal representation, derived from approaches in formal semantics, that permits an extended range of intensional entailments and contradictions to be tractably detected.
+

@@ -1,0 +1,1267 @@
+======================================================================
+paper_id: 53082542; YEAR: 2018
+TITLE: Compact Personalized Models for Neural Machine Translation
+ABSTRACT: background_label: We propose and compare methods for gradient-based domain adaptation of self-attentive neural machine translation models.
+method_label: We demonstrate that a large proportion of model parameters can be frozen during adaptation with minimal or no reduction in translation quality by encouraging structured sparsity in the set of offset tensors during learning via group lasso regularization.
+method_label: We evaluate this technique for both batch and incremental adaptation across multiple data sets and language pairs.
+result_label: Our system architecture - combining a state-of-the-art self-attentive model with compact domain adaptation - provides high quality personalized machine translation that is both space and time efficient.
+===================================
+paper_id: 52281487; YEAR: 2018
+adju relevance: Identical (+3)
+difference: 1; annotator1: 3; annotator2: 2
+sources: specter
+TITLE: Freezing Subnetworks to Analyze Domain Adaptation in Neural Machine Translation
+ABSTRACT: background_label: To better understand the effectiveness of continued training, we analyze the major components of a neural machine translation system (the encoder, decoder, and each embedding space) and consider each component's contribution to, and capacity for, domain adaptation.
+method_label: We find that freezing any single component during continued training has minimal impact on performance, and that performance is surprisingly good when a single component is adapted while holding the rest of the model fixed.
+result_label: We also find that continued training does not move the model very far from the out-of-domain model, compared to a sensitivity analysis metric, suggesting that the out-of-domain model can provide a good generic initialization for the new domain.
+
+===================================
+paper_id: 13545751; YEAR: 2015
+adju relevance: Similar (+2)
+difference: 1; annotator1: 1; annotator2: 0
+sources: abs_tfidfcbow200 - abs_cbow200 - abs_tfidf
+TITLE: Investigating online low-footprint speaker adaptation using generalized linear regression and click-through data
+ABSTRACT: background_label: To develop speaker adaptation algorithms for deep neural network (DNN) that are suitable for large-scale online deployment, it is desirable that the adaptation model be represented in a compact form and learned in an unsupervised fashion.
+objective_label: In this paper, we propose a novel low-footprint adaptation technique for DNN that adapts the DNN model through node activation functions.
+method_label: The approach introduces slope and bias parameters in the sigmoid activation functions for each speaker, allowing the adaptation model to be stored in a small-sized storage space.
+method_label: We show that this adaptation technique can be formulated in a linear regression fashion, analogous to other speak adaptation algorithms that apply additional linear transformations to the DNN layers.
+method_label: We further investigate semi-supervised online adaptation by making use of the user click-through data as a supervision signal.
+result_label: The proposed method is evaluated on short message dictation and voice search tasks in supervised, unsupervised, and semi-supervised setups.
+result_label: Compared with the singular value decomposition (SVD) bottleneck adaptation, the proposed adaptation method achieves comparable accuracy improvements with much smaller footprint.
+
+===================================
+paper_id: 16342015; YEAR: 2014
+adju relevance: Similar (+2)
+difference: 1; annotator1: 1; annotator2: 0
+sources: abs_tfidfcbow200 - abs_tfidf
+TITLE: Direct adaptation of hybrid DNN/HMM model for fast speaker adaptation in LVCSR based on speaker code
+ABSTRACT: background_label: Recently an effective fast speaker adaptation method using discriminative speaker code (SC) has been proposed for the hybrid DNN-HMM models in speech recognition [1].
+method_label: This adaptation method depends on a joint learning of a large generic adaptation neural network for all speakers as well as multiple small speaker codes using the standard back-propagation algorithm.
+method_label: In this paper, we propose an alternative direct adaptation in model space, where speaker codes are directly connected to the original DNN models through a set of new connection weights, which can be estimated very efficiently from all or part of training data.
+method_label: As a result, the proposed method is more suitable for large scale speech recognition tasks since it eliminates the time-consuming training process to estimate another adaptation neural networks.
+method_label: In this work, we have evaluated the proposed direct SC-based adaptation method in the large scale 320-hr Switchboard task.
+result_label: Experimental results have shown that the proposed SC-based rapid adaptation method is very effective not only for small recognition tasks but also for very large scale tasks.
+result_label: For example, it has shown that the proposed method leads to up to 8% relative reduction in word error rate in Switchboard by using only a very small number of adaptation utterances per speaker (from 10 to a few dozens).
+result_label: Moreover, the extra training time required for adaptation is also significantly reduced from the method in [1].
+
+===================================
+paper_id: 19247366; YEAR: 2018
+adju relevance: Similar (+2)
+difference: 0; annotator1: 2; annotator2: 2
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Extreme Adaptation for Personalized Neural Machine Translation
+ABSTRACT: background_label: Every person speaks or writes their own flavor of their native language, influenced by a number of factors: the content they tend to talk about, their gender, their social status, or their geographical origin.
+background_label: When attempting to perform Machine Translation (MT), these variations have a significant effect on how the system should perform translation, but this is not captured well by standard one-size-fits-all models.
+method_label: In this paper, we propose a simple and parameter-efficient adaptation technique that only requires adapting the bias of the output softmax to each particular user of the MT system, either directly or through a factored approximation.
+result_label: Experiments on TED talks in three languages demonstrate improvements in translation accuracy, and better reflection of speaker traits in the target text.
+
+===================================
+paper_id: 195069084; YEAR: 2019
+adju relevance: Similar (+2)
+difference: 0; annotator1: 2; annotator2: 2
+sources: abs_cbow200 - title_cbow200 - title_tfidfcbow200 - specter - abs_tfidf
+TITLE: Multilingual Multi-Domain Adaptation Approaches for Neural Machine Translation
+ABSTRACT: objective_label: In this paper, we propose two novel methods for domain adaptation for the attention-only neural machine translation (NMT) model, i.e., the Transformer.
+method_label: Our methods focus on training a single translation model for multiple domains by either learning domain specialized hidden state representations or predictor biases for each domain.
+method_label: We combine our methods with a previously proposed black-box method called mixed fine tuning, which is known to be highly effective for domain adaptation.
+method_label: In addition, we incorporate multilingualism into the domain adaptation framework.
+result_label: Experiments show that multilingual multi-domain adaptation can significantly improve both resource-poor in-domain and resource-rich out-of-domain translations, and the combination of our methods with mixed fine tuning achieves the best performance.
+
+===================================
+paper_id: 49183898; YEAR: 2018
+adju relevance: Similar (+2)
+difference: 1; annotator1: 2; annotator2: 1
+sources: title_tfidf - specter
+TITLE: Generative Neural Machine Translation
+ABSTRACT: background_label: We introduce Generative Neural Machine Translation (GNMT), a latent variable architecture which is designed to model the semantics of the source and target sentences.
+method_label: We modify an encoder-decoder translation model by adding a latent variable as a language agnostic representation which is encouraged to learn the meaning of the sentence.
+method_label: GNMT achieves competitive BLEU scores on pure translation tasks, and is superior when there are missing words in the source sentence.
+method_label: We augment the model to facilitate multilingual translation and semi-supervised learning without adding parameters.
+result_label: This framework significantly reduces overfitting when there is limited paired data available, and is effective for translating between pairs of languages not seen during training.
+
+===================================
+paper_id: 24831157; YEAR: 2017
+adju relevance: Similar (+2)
+difference: 2; annotator1: 2; annotator2: 0
+sources: abs_cbow200 - abs_tfidfcbow200 - abs_tfidf
+TITLE: Unsupervised Multi-Domain Image Translation with Domain-Specific Encoders/Decoders
+ABSTRACT: background_label: Unsupervised Image-to-Image Translation achieves spectacularly advanced developments nowadays.
+background_label: However, recent approaches mainly focus on one model with two domains, which may face heavy burdens with large cost of $O(n^2)$ training time and model parameters, under such a requirement that $n$ domains are freely transferred to each other in a general setting.
+method_label: To address this problem, we propose a novel and unified framework named Domain-Bank, which consists of a global shared auto-encoder and $n$ domain-specific encoders/decoders, assuming that a universal shared-latent sapce can be projected.
+method_label: Thus, we yield $O(n)$ complexity in model parameters along with a huge reduction of the time budgets.
+method_label: Besides the high efficiency, we show the comparable (or even better) image translation results over state-of-the-arts on various challenging unsupervised image translation tasks, including face image translation, fashion-clothes translation and painting style translation.
+method_label: We also apply the proposed framework to domain adaptation and achieve state-of-the-art performance on digit benchmark datasets.
+method_label: Further, thanks to the explicit representation of the domain-specific decoders as well as the universal shared-latent space, it also enables us to conduct incremental learning to add a new domain encoder/decoder.
+result_label: Linear combination of different domains' representations is also obtained by fusing the corresponding decoders.
+
+===================================
+paper_id: 5793818; YEAR: 2017
+adju relevance: Similar (+2)
+difference: 1; annotator1: 0; annotator2: 1
+sources: title_tfidfcbow200 - title_cbow200 - title_tfidf
+TITLE: Towards Compact and Fast Neural Machine Translation Using a Combined Method
+ABSTRACT: background_label: Neural Machine Translation (NMT) lays intensive burden on computation and  memory cost.
+background_label: It is a challenge to deploy NMT models on the devices with limited computation and memory budgets.
+objective_label: This paper presents a four stage pipeline to  compress model and speed up the decoding for NMT.
+method_label: Our method first introduces  a compact architecture based on convolutional encoder and weight shared embeddings.
+method_label: Then weight pruning is applied to obtain a sparse model.
+method_label: Next, we propose a fast sequence interpolation approach which enables the greedy decoding to achieve performance on par with the beam search.
+method_label: Hence, the time-consuming beam search can be replaced by simple  greedy decoding.
+method_label: Finally, vocabulary selection is used to reduce the computation  of softmax layer.
+result_label: Our final model achieves 10 × speedup, 17 × parameters reduction, 35MB storage size and comparable performance compared to the baseline model.
+
+===================================
+paper_id: 6162124; YEAR: 2004
+adju relevance: Similar (+2)
+difference: 3; annotator1: 3; annotator2: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Model selection and estimation in regression with grouped variables
+ABSTRACT: background_label: Summary.
+background_label: We consider the problem of selecting grouped variables (factors) for accurate prediction in regression.
+background_label: Such a problem arises naturally in many practical situations with the multifactor analysis-of-variance problem as the most important and well-known example.
+method_label: Instead of selecting factors by stepwise backward elimination, we focus on the accuracy of estimation and consider extensions of the lasso, the LARS algorithm and the non-negative garrotte for factor selection.
+method_label: The lasso, the LARS algorithm and the non-negative garrotte are recently proposed regression methods that can be used to select individual variables.
+method_label: We study and propose efficient algorithms for the extensions of these methods for factor selection and show that these extensions give superior performance to the traditional stepwise backward elimination method in factor selection problems.
+method_label: We study the similarities and the differences between these methods.
+result_label: Simulations and real examples are used to illustrate the methods.
+
+===================================
+paper_id: 61947758; YEAR: 2015
+adju relevance: Similar (+2)
+difference: 2; annotator1: 3; annotator2: 1
+sources: abs_tfidf
+TITLE: Mixed-Domain vs. Multi-Domain Statistical Machine Translation
+ABSTRACT: background_label: Domain adaptation boosts translation quality on in-domain data, but translation quality for domain adapted systems on out-of-domain data tends to suffer.
+background_label: Users of web-based translation services expect high quality translation across a wide range of diverse domains, and what makes the task even more difficult is that no domain label is provided with the translation request.
+objective_label: In this paper we present an approach to domain adaptation which results in large-scale, general purpose machine translation systems.
+method_label: First, we tune our translation models to multiple individual domains.
+method_label: Then, by means of source-side domain classification, we are able to predict the domain of individual input sentences and thereby select the appropriate domain-specific model parameters.
+method_label: We call this approach multi-domain translation.
+method_label: We develop state-of-the-art, domain-adapted translation engines for three broadly-defined domains: TED talks, Europarl, and News.
+result_label: Our results suggest that multi-domain translation performs better than a mixed-domain approach, which deploys a system that has been tuned on a development set composed of samples from many domains.
+
+===================================
+paper_id: 15886238; YEAR: 2016
+adju relevance: Similar (+2)
+difference: 0; annotator1: 2; annotator2: 2
+sources: title_tfidf
+TITLE: Recurrent Neural Machine Translation
+ABSTRACT: background_label: The vanilla sequence-to-sequence learning (seq2seq) reads and encodes a source sequence into a fixed-length vector only once, suffering from its insufficiency in modeling structural correspondence between the source and target sequence.
+objective_label: Instead of handling this insufficiency with a linearly weighted attention mechanism, in this paper, we propose to use a recurrent neural network (RNN) as an alternative (Cseq2seq-I).
+method_label: During decoding, Cseq2seq-I cyclically feeds the previous decoding state back to the encoder as the initial state of the RNN, and reencodes source representations to produce context vectors.
+method_label: We surprisingly find that the introduced RNN succeeds in dynamically detecting translationrelated source tokens according to the partial target sequence.
+method_label: Based on this finding, we further hypothesize that the partial target sequence can act as a feedback to improve the understanding of the source sequence.
+method_label: To test this hypothesis, we propose cyclic sequence-to-sequence learning (Cseq2seq-II) which differs from the seq2seq only in the reintroduction of previous decoding state into the same encoder.
+method_label: We further perform parameter sharing on Cseq2seq-II to reduce parameter redundancy and enhance regularization.
+method_label: In particular, we share the weights of the encoder and decoder, and two targetside word embeddings, making Cseq2seq-II equivalent to a single conditional RNN model, with 31% parameters pruned but even better performance.
+method_label: Cseq2seq-II not only preserves the simplicity of seq2seq but also yields comparable and promising results on machine translation tasks.
+result_label: Experiments on Chinese- English and English-German translation show that Cseq2seq achieves significant and consistent improvements over seq2seq and is as competitive as the attention-based seq2seq model.
+
+===================================
+paper_id: 8005042; YEAR: 2015
+adju relevance: Similar (+2)
+difference: 0; annotator1: 2; annotator2: 2
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Hierarchical Incremental Adaptation for Statistical Machine Translation
+ABSTRACT: background_label: We present an incremental adaptation approach for statistical machine translation that maintains a flexible hierarchical domain structure within a single consistent model.
+method_label: Both weights and rules are updated incrementallyonastreamofpost-edits.
+method_label: Our multi-level domain hierarchy allows the system to adapt simultaneously towards local context at dierent levels of granularity, including genres and individual documents.
+result_label: Our experiments show consistent improvements in translation quality from all components of our approach.
+
+===================================
+paper_id: 3515219; YEAR: 2017
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: title_tfidf
+TITLE: Unsupervised Neural Machine Translation
+ABSTRACT: background_label: In spite of the recent success of neural machine translation (NMT) in standard benchmarks, the lack of large parallel corpora poses a major practical problem for many language pairs.
+background_label: There have been several proposals to alleviate this issue with, for instance, triangulation and semi-supervised learning techniques, but they still require a strong cross-lingual signal.
+method_label: In this work, we completely remove the need of parallel data and propose a novel method to train an NMT system in a completely unsupervised manner, relying on nothing but monolingual corpora.
+method_label: Our model builds upon the recent work on unsupervised embedding mappings, and consists of a slightly modified attentional encoder-decoder model that can be trained on monolingual corpora alone using a combination of denoising and backtranslation.
+method_label: Despite the simplicity of the approach, our system obtains 15.56 and 10.21 BLEU points in WMT 2014 French-to-English and German-to-English translation.
+result_label: The model can also profit from small parallel corpora, and attains 21.81 and 15.24 points when combined with 100,000 parallel sentences, respectively.
+result_label: Our implementation is released as an open source project.
+
+===================================
+paper_id: 54555710; YEAR: 2018
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: specter
+TITLE: Conditional Variational Autoencoder for Neural Machine Translation
+ABSTRACT: background_label: We explore the performance of latent variable models for conditional text generation in the context of neural machine translation (NMT).
+method_label: Similar to Zhang et al., we augment the encoder-decoder NMT paradigm by introducing a continuous latent variable to model features of the translation process.
+method_label: We extend this model with a co-attention mechanism motivated by Parikh et al.
+method_label: in the inference network.
+method_label: Compared to the vision domain, latent variable models for text face additional challenges due to the discrete nature of language, namely posterior collapse.
+method_label: We experiment with different approaches to mitigate this issue.
+method_label: We show that our conditional variational model improves upon both discriminative attention-based translation and the variational baseline presented in Zhang et al.
+result_label: Finally, we present some exploration of the learned latent space to illustrate what the latent variable is capable of capturing.
+result_label: This is the first reported conditional variational model for text that meaningfully utilizes the latent variable without weakening the translation model.
+
+===================================
+paper_id: 6552599; YEAR: 2017
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: specter - title_cbow200 - abs_tfidf
+TITLE: Regularization techniques for fine-tuning in neural machine translation
+ABSTRACT: background_label: We investigate techniques for supervised domain adaptation for neural machine translation where an existing model trained on a large out-of-domain dataset is adapted to a small in-domain dataset.
+background_label: In this scenario, overfitting is a major challenge.
+method_label: We investigate a number of techniques to reduce overfitting and improve transfer learning, including regularization techniques such as dropout and L2-regularization towards an out-of-domain prior.
+method_label: In addition, we introduce tuneout, a novel regularization technique inspired by dropout.
+method_label: We apply these techniques, alone and in combination, to neural machine translation, obtaining improvements on IWSLT datasets for English->German and English->Russian.
+result_label: We also investigate the amounts of in-domain training data needed for domain adaptation in NMT, and find a logarithmic relationship between the amount of training data and gain in BLEU score.
+
+===================================
+paper_id: 2871880; YEAR: 2015
+adju relevance: Related (+1)
+difference: 1; annotator1: 1; annotator2: 0
+sources: abs_cbow200 - abs_tfidf
+TITLE: Domain-Adversarial Training of Neural Networks
+ABSTRACT: background_label: We introduce a new representation learning approach for domain adaptation, in which data at training and test time come from similar but different distributions.
+background_label: Our approach is directly inspired by the theory on domain adaptation suggesting that, for effective domain transfer to be achieved, predictions must be made based on features that cannot discriminate between the training (source) and test (target) domains.
+method_label: The approach implements this idea in the context of neural network architectures that are trained on labeled data from the source domain and unlabeled data from the target domain (no labeled target-domain data is necessary).
+method_label: As the training progresses, the approach promotes the emergence of features that are (i) discriminative for the main learning task on the source domain and (ii) indiscriminate with respect to the shift between the domains.
+method_label: We show that this adaptation behaviour can be achieved in almost any feed-forward model by augmenting it with few standard layers and a new gradient reversal layer.
+method_label: The resulting augmented architecture can be trained using standard backpropagation and stochastic gradient descent, and can thus be implemented with little effort using any of the deep learning packages.
+result_label: We demonstrate the success of our approach for two distinct classification problems (document sentiment analysis and image classification), where state-of-the-art domain adaptation performance on standard benchmarks is achieved.
+result_label: We also validate the approach for descriptor learning task in the context of person re-identification application.
+
+===================================
+paper_id: 553584; YEAR: 2016
+adju relevance: Related (+1)
+difference: 1; annotator1: 1; annotator2: 0
+sources: abs_cbow200 - abs_tfidfcbow200
+TITLE: Differentiable Pooling for Unsupervised Acoustic Model Adaptation
+ABSTRACT: background_label: We present a deep neural network (DNN) acoustic model that includes parametrised and differentiable pooling operators.
+background_label: Unsupervised acoustic model adaptation is cast as the problem of updating the decision boundaries implemented by each pooling operator.
+method_label: In particular, we experiment with two types of pooling parametrisations: learned $L_p$-norm pooling and weighted Gaussian pooling, in which the weights of both operators are treated as speaker-dependent.
+method_label: We perform investigations using three different large vocabulary speech recognition corpora: AMI meetings, TED talks and Switchboard conversational telephone speech.
+result_label: We demonstrate that differentiable pooling operators provide a robust and relatively low-dimensional way to adapt acoustic models, with relative word error rates reductions ranging from 5--20% with respect to unadapted systems, which themselves are better than the baseline fully-connected DNN-based acoustic models.
+result_label: We also investigate how the proposed techniques work under various adaptation conditions including the quality of adaptation data and complementarity to other feature- and model-space adaptation methods, as well as providing an analysis of the characteristics of each of the proposed approaches.
+
+===================================
+paper_id: 16116519; YEAR: 2017
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: title_tfidfcbow200 - title_cbow200
+TITLE: Efficient Transfer Learning Schemes for Personalized Language Modeling using Recurrent Neural Network
+ABSTRACT: objective_label: In this paper, we propose an efficient transfer leaning methods for training a personalized language model using a recurrent neural network with long short-term memory architecture.
+method_label: With our proposed fast transfer learning schemes, a general language model is updated to a personalized language model with a small amount of user data and a limited computing resource.
+method_label: These methods are especially useful for a mobile device environment while the data is prevented from transferring out of the device for privacy purposes.
+result_label: Through experiments on dialogue data in a drama, it is verified that our transfer learning methods have successfully generated the personalized language model, whose output is more similar to the personal language style in both qualitative and quantitative aspects.
+
+===================================
+paper_id: 10388486; YEAR: 2007
+adju relevance: Related (+1)
+difference: 1; annotator1: 1; annotator2: 0
+sources: abs_tfidfcbow200 - abs_cbow200 - abs_tfidf
+TITLE: Regularized Adaptation: Theory, Algorithms and Applications
+ABSTRACT: background_label: Many statistical learning techniques assume that training and testing samples are generated from the same underlying distribution.
+background_label: Often, however, an "unadapted classifier" is trained on samples drawn from a training distribution that is different from the target (or test-time) distribution.
+background_label: Moreover, in many applications, while there may be essentially an unlimited amount of labeled "training data," only a small amount of labeled "adaptation data" drawn from the target distribution is available.
+method_label: The problem of adaptive learning (or adaptation) then, is to learn a new classifier utilizing the unadapted classifier and the limited adaptation data, in an attempt to obtain as good classification performance on the target distribution as possible.
+objective_label: The goal of this dissertation is to investigate theory, algorithms and applications of adaptive learning.
+method_label: Specifically, we propose a Bayesian "fidelity prior" for classifier adaptation, which leads to simple yet principled adaptation strategies for both generative and discriminative models.
+method_label: In the PAC-Bayesian framework, this prior relates the generalization error bound to the KL-divergence between training and target distributions.
+background_label: Furthermore, based on the fidelity prior, we develop "regularized adaptation" algorithms in particular for support vector machines and multi-layer perceptrons.
+method_label: We evaluate these algorithms on a vowel classification corpus for speaker adaptation, and on an object recognition corpus for lighting condition adaptation.
+result_label: Experiments show that regularized adaptation yielded superior performance compared with other adaptation strategies.
+method_label: The theoretical and algorithmic work on adaptive learning was originally motivated by the development of the "Vocal Joystick" (VJ), a voice based computer interface for individuals with motor impairments.
+method_label: The final part of this dissertation describes the VJ engine architecture, with focus on the signal processing and pattern recognition modules.
+method_label: We discuss the application of regularized adaptation algorithms to a vowel classifier and a discrete sound recognizer in the VJ, which greatly helped enhance the engine performance.
+method_label: In addition, we present other machine learning techniques developed for the VJ, including a novel pitch tracking algorithm and an online adaptive filter algorithm.
+
+===================================
+paper_id: 3065236; YEAR: 2013
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: specter - abs_tfidf
+TITLE: Decoding with Large-Scale Neural Language Models Improves Translation
+ABSTRACT: background_label: AbstractWe explore the application of neural language models to machine translation.
+method_label: We develop a new model that combines the neural probabilistic language model of Bengio et al., rectified linear units, and noise-contrastive estimation, and we incorporate it into a machine translation system both by reranking k-best lists and by direct integration into the decoder.
+result_label: Our large-scale, large-vocabulary experiments across four language pairs show that our neural language model improves translation quality by up to 1.1 Bleu.
+
+===================================
+paper_id: 16292943; YEAR: 2013
+adju relevance: Related (+1)
+difference: 1; annotator1: 1; annotator2: 0
+sources: abs_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: A Multi-Domain Translation Model Framework for Statistical Machine Translation
+ABSTRACT: background_label: While domain adaptation techniques for SMT have proven to be effective at improving translation quality, their practicality for a multi-domain environment is often limited because of the computational and human costs of developing and maintaining multiple systems adapted to different domains.
+method_label: We present an architecture that delays the computation of translation model features until decoding, allowing for the application of mixture-modeling techniques at decoding time.
+method_label: We also describe a method for unsupervised adaptation with development and test data from multiple domains.
+result_label: Experimental results on two language pairs demonstrate the effectiveness of both our translation model architecture and automatic clustering, with gains of up to 1 BLEU over unadapted systems and single-domain adaptation.
+
+===================================
+paper_id: 18431463; YEAR: 2009
+adju relevance: Related (+1)
+difference: 1; annotator1: 0; annotator2: 1
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Stochastic Gradient Descent Training for L1-regularized Log-linear Models with Cumulative Penalty
+ABSTRACT: background_label: Stochastic gradient descent (SGD) uses approximate gradients estimated from subsets of the training data and updates the parameters in an online fashion.
+background_label: This learning framework is attractive because it often requires much less training time in practice than batch training algorithms.
+background_label: However, L1-regularization, which is becoming popular in natural language processing because of its ability to produce compact models, cannot be efficiently applied in SGD training, due to the large dimensions of feature vectors and the fluctuations of approximate gradients.
+method_label: We present a simple method to solve these problems by penalizing the weights according to cumulative values for L1 penalty.
+method_label: We evaluate the effectiveness of our method in three applications: text chunking, named entity recognition, and part-of-speech tagging.
+result_label: Experimental results demonstrate that our method can produce compact and accurate models much more quickly than a state-of-the-art quasi-Newton method for L1-regularized loglinear models.
+
+===================================
+paper_id: 49235047; YEAR: 2017
+adju relevance: Related (+1)
+difference: 1; annotator1: 0; annotator2: 1
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Continuous Learning from Human Post-Edits for Neural Machine Translation
+ABSTRACT: background_label: Abstract Improving machine translation (MT) by learning from human post-edits is a powerful solution that is still unexplored in the neural machine translation (NMT) framework.
+background_label: Also in this scenario, effective techniques for the continuous tuning of an existing model to a stream of manual corrections would have several advantages over current batch methods.
+background_label: First, they would make it possible to adapt systems at run time to new users/domains; second, this would happen at a lower computational cost compared to NMT retraining from scratch or in batch mode.
+method_label: To attack the problem, we explore several online learning strategies to stepwise fine-tune an existing model to the incoming post-edits.
+result_label: Our evaluation on data from two language pairs and different target domains shows significant improvements over the use of static models.
+
+===================================
+paper_id: 7497218; YEAR: 2016
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: title_tfidf - title_cbow200 - abs_tfidf
+TITLE: Domain Control for Neural Machine Translation
+ABSTRACT: background_label: Machine translation systems are very sensitive to the domains they were trained on.
+background_label: Several domain adaptation techniques have been deeply studied.
+objective_label: We propose a new technique for neural machine translation (NMT) that we call domain control which is performed at runtime using a unique neural network covering multiple domains.
+method_label: The presented approach shows quality improvements when compared to dedicated domains translating on any of the covered domains and even on out-of-domain data.
+method_label: In addition, model parameters do not need to be re-estimated for each domain, making this effective to real use cases.
+method_label: Evaluation is carried out on English-to-French translation for two different testing scenarios.
+method_label: We first consider the case where an end-user performs translations on a known domain.
+method_label: Secondly, we consider the scenario where the domain is not known and predicted at the sentence level before translating.
+result_label: Results show consistent accuracy improvements for both conditions.
+
+===================================
+paper_id: 37405481; YEAR: 2017
+adju relevance: Related (+1)
+difference: 1; annotator1: 2; annotator2: 1
+sources: abs_tfidf - abs_cbow200
+TITLE: Cost Weighting for Neural Machine Translation Domain Adaptation
+ABSTRACT: objective_label: AbstractIn this paper, we propose a new domain adaptation technique for neural machine translation called cost weighting, which is appropriate for adaptation scenarios in which a small in-domain data set and a large general-domain data set are available.
+method_label: Cost weighting incorporates a domain classifier into the neural machine translation training algorithm, using features derived from the encoder representation in order to distinguish in-domain from out-of-domain data.
+method_label: Classifier probabilities are used to weight sentences according to their domain similarity when updating the parameters of the neural translation model.
+method_label: We compare cost weighting to two traditional domain adaptation techniques developed for statistical machine translation: data selection and sub-corpus weighting.
+result_label: Experiments on two large-data tasks show that both the traditional techniques and our novel proposal lead to significant gains, with cost weighting outperforming the traditional methods.
+
+===================================
+paper_id: 1664041; YEAR: 2012
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: abs_tfidf
+TITLE: Translation Quality-Based Supplementary Data Selection by Incremental Update of Translation Models
+ABSTRACT: background_label: ABSTRACTSupplementary data selection from out-of-domain or related-domain data is a well established technique in domain adaptation of statistical machine translation.
+background_label: The selection criteria for such data are mostly based on measures of similarity with available in-domain data, but not directly in terms of translation quality.
+objective_label: In this paper, we present a technique for selecting supplementary data to improve translation performance, directly in terms of translation quality, measured by automatic evaluation metric scores.
+method_label: Batches of data selected from out-of-domain corpora are incrementally added to an existing baseline system and evaluated in terms of translation quality on a development set.
+method_label: A batch is selected only if its inclusion improves translation quality.
+method_label: To assist the process, we present a novel translation model merging technique that allows rapid retraining of the translation models with incremental data.
+method_label: When incorporated into the 'in-domain' translation models, the final cumulatively selected datasets are found to provide statistically significant improvements for a number of different supplementary datasets.
+result_label: Furthermore, the translation model merging technique is found to perform on a par with state-of-the-art methods of phrase-table combination.
+
+===================================
+paper_id: 7178598; YEAR: 2016
+adju relevance: Related (+1)
+difference: 1; annotator1: 2; annotator2: 1
+sources: abs_tfidf
+TITLE: Multi-task Domain Adaptation for Sequence Tagging
+ABSTRACT: background_label: Many domain adaptation approaches rely on learning cross domain shared representations to transfer the knowledge learned in one domain to other domains.
+background_label: Traditional domain adaptation only considers adapting for one task.
+objective_label: In this paper, we explore multi-task representation learning under the domain adaptation scenario.
+method_label: We propose a neural network framework that supports domain adaptation for multiple tasks simultaneously, and learns shared representations that better generalize for domain adaptation.
+method_label: We apply the proposed framework to domain adaptation for sequence tagging problems considering two tasks: Chinese word segmentation and named entity recognition.
+result_label: Experiments show that multi-task domain adaptation works better than disjoint domain adaptation for each task, and achieves the state-of-the-art results for both tasks in the social media domain.
+
+===================================
+paper_id: 198897554; YEAR: 2019
+adju relevance: Related (+1)
+difference: 1; annotator1: 1; annotator2: 0
+sources: abs_tfidfcbow200 - abs_tfidf
+TITLE: Self-supervised Domain Adaptation for Computer Vision Tasks
+ABSTRACT: background_label: Recent progress of self-supervised visual representation learning has achieved remarkable success on many challenging computer vision benchmarks.
+background_label: However, whether these techniques can be used for domain adaptation has not been explored.
+method_label: In this work, we propose a generic method for self-supervised domain adaptation, using object recognition and semantic segmentation of urban scenes as use cases.
+method_label: Focusing on simple pretext/auxiliary tasks (e.g.
+method_label: image rotation prediction), we assess different learning strategies to improve domain adaptation effectiveness by self-supervision.
+method_label: Additionally, we propose two complementary strategies to further boost the domain adaptation accuracy within our method, consisting of prediction layer alignment and batch normalization calibration.
+method_label: For the experimental work, we focus on the relevant setting of training models using synthetic images, and adapting them to perform on real-world images.
+result_label: The obtained results show adaptation levels comparable to most studied domain adaptation methods, thus, bringing self-supervision as a new alternative for reaching domain adaptation.
+other_label: The code is available at https://github.com/Jiaolong/self-supervised-da.
+
+===================================
+paper_id: 173990683; YEAR: 2019
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: specter - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - title_tfidf
+TITLE: Domain Adaptive Inference for Neural Machine Translation
+ABSTRACT: background_label: We investigate adaptive ensemble weighting for Neural Machine Translation, addressing the case of improving performance on a new and potentially unknown domain without sacrificing performance on the original domain.
+method_label: We adapt sequentially across two Spanish-English and three English-German tasks, comparing unregularized fine-tuning, L2 and Elastic Weight Consolidation.
+method_label: We then report a novel scheme for adaptive NMT ensemble decoding by extending Bayesian Interpolation with source information, and show strong improvements across test domains without access to the domain label.
+
+===================================
+paper_id: 52176390; YEAR: 2018
+adju relevance: Related (+1)
+difference: 2; annotator1: 0; annotator2: 2
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: Logographic Subword Model for Neural Machine Translation
+ABSTRACT: background_label: A novel logographic subword model is proposed to reinterpret logograms as abstract subwords for neural machine translation.
+method_label: Our approach drastically reduces the size of an artificial neural network, while maintaining comparable BLEU scores as those attained with the baseline RNN and CNN seq2seq models.
+method_label: The smaller model size also leads to shorter training and inference time.
+result_label: Experiments demonstrate that in the tasks of English-Chinese/Chinese-English translation, the reduction of those aspects can be from $11\%$ to as high as $77\%$.
+result_label: Compared to previous subword models, abstract subwords can be applied to various logographic languages.
+result_label: Considering most of the logographic languages are ancient and very low resource languages, these advantages are very desirable for archaeological computational linguistic applications such as a resource-limited offline hand-held Demotic-English translator.
+
+===================================
+paper_id: 56895350; YEAR: 2018
+adju relevance: Related (+1)
+difference: 1; annotator1: 0; annotator2: 1
+sources: title_tfidfcbow200 - title_cbow200
+TITLE: Learning to Refine Source Representations for Neural Machine Translation
+ABSTRACT: background_label: Neural machine translation (NMT) models generally adopt an encoder-decoder architecture for modeling the entire translation process.
+background_label: The encoder summarizes the representation of input sentence from scratch, which is potentially a problem if the sentence is ambiguous.
+background_label: When translating a text, humans often create an initial understanding of the source sentence and then incrementally refine it along the translation on the target side.
+method_label: Starting from this intuition, we propose a novel encoder-refiner-decoder framework, which dynamically refines the source representations based on the generated target-side information at each decoding step.
+method_label: Since the refining operations are time-consuming, we propose a strategy, leveraging the power of reinforcement learning models, to decide when to refine at specific decoding steps.
+result_label: Experimental results on both Chinese-English and English-German translation tasks show that the proposed approach significantly and consistently improves translation performance over the standard encoder-decoder framework.
+result_label: Furthermore, when refining strategy is applied, results still show reasonable improvement over the baseline without much decrease in decoding speed.
+
+===================================
+paper_id: 943080; YEAR: 2004
+adju relevance: Related (+1)
+difference: 1; annotator1: 2; annotator2: 1
+sources: title_tfidf - title_cbow200
+TITLE: Adaptive Language And Translation Models For Interactive Machine Translation
+ABSTRACT: background_label: AbstractWe describe experiments carried out with adaptive language and translation models in the context of an interactive computer-assisted translation program.
+method_label: We developed cache-based language models which were then extended to the bilingual case for a cachebased translation model.
+result_label: We present the improvements we obtained in two contexts: in a theoretical setting, we achieved a drop in perplexity for the new models and, in a more practical situation simulating a user working with the system, we showed that fewer keystrokes would be needed to enter a translation.
+
+===================================
+paper_id: 53083122; YEAR: 2018
+adju relevance: Related (+1)
+difference: 1; annotator1: 0; annotator2: 1
+sources: specter - title_cbow200 - title_tfidfcbow200 - title_tfidf
+TITLE: Exploiting Deep Representations for Neural Machine Translation
+ABSTRACT: background_label: Advanced neural machine translation (NMT) models generally implement encoder and decoder as multiple layers, which allows systems to model complex functions and capture complicated linguistic structures.
+background_label: However, only the top layers of encoder and decoder are leveraged in the subsequent process, which misses the opportunity to exploit the useful information embedded in other layers.
+objective_label: In this work, we propose to simultaneously expose all of these signals with layer aggregation and multi-layer attention mechanisms.
+method_label: In addition, we introduce an auxiliary regularization term to encourage different layers to capture diverse information.
+result_label: Experimental results on widely-used WMT14 English-German and WMT17 Chinese-English translation data demonstrate the effectiveness and universality of the proposed approach.
+
+===================================
+paper_id: 67855706; YEAR: 2019
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: specter - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - title_tfidf
+TITLE: Non-Parametric Adaptation for Neural Machine Translation
+ABSTRACT: background_label: Neural Networks trained with gradient descent are known to be susceptible to catastrophic forgetting caused by parameter shift during the training process.
+background_label: In the context of Neural Machine Translation (NMT) this results in poor performance on heterogeneous datasets and on sub-tasks like rare phrase translation.
+background_label: On the other hand, non-parametric approaches are immune to forgetting, perfectly complementing the generalization ability of NMT.
+background_label: However, attempts to combine non-parametric or retrieval based approaches with NMT have only been successful on narrow domains, possibly due to over-reliance on sentence level retrieval.
+method_label: We propose a novel n-gram level retrieval approach that relies on local phrase level similarities, allowing us to retrieve neighbors that are useful for translation even when overall sentence similarity is low.
+method_label: We complement this with an expressive neural network, allowing our model to extract information from the noisy retrieved context.
+result_label: We evaluate our semi-parametric NMT approach on a heterogeneous dataset composed of WMT, IWSLT, JRC-Acquis and OpenSubtitles, and demonstrate gains on all 4 evaluation sets.
+result_label: The semi-parametric nature of our approach opens the door for non-parametric domain adaptation, demonstrating strong inference-time adaptation performance on new domains without the need for any parameter updates.
+
+===================================
+paper_id: 201657196; YEAR: 2019
+adju relevance: Related (+1)
+difference: 1; annotator1: 2; annotator2: 1
+sources: abs_cbow200 - specter - abs_tfidf
+TITLE: Unsupervised Domain Adaptation for Neural Machine Translation with Domain-Aware Feature Embeddings
+ABSTRACT: background_label: The recent success of neural machine translation models relies on the availability of high quality, in-domain data.
+background_label: Domain adaptation is required when domain-specific data is scarce or nonexistent.
+background_label: Previous unsupervised domain adaptation strategies include training the model with in-domain copied monolingual or back-translated data.
+method_label: However, these methods use generic representations for text regardless of domain shift, which makes it infeasible for translation models to control outputs conditional on a specific domain.
+method_label: In this work, we propose an approach that adapts models with domain-aware feature embeddings, which are learned via an auxiliary language modeling task.
+method_label: Our approach allows the model to assign domain-specific representations to words and output sentences in the desired domain.
+result_label: Our empirical results demonstrate the effectiveness of the proposed strategy, achieving consistent improvements in multiple experimental settings.
+result_label: In addition, we show that combining our method with back translation can further improve the performance of the model.
+
+===================================
+paper_id: 14900221; YEAR: 2016
+adju relevance: Related (+1)
+difference: 0; annotator1: 1; annotator2: 1
+sources: title_cbow200 - title_tfidfcbow200 - specter - title_tfidf
+TITLE: Coverage Embedding Models for Neural Machine Translation
+ABSTRACT: objective_label: In this paper, we enhance the attention-based neural machine translation (NMT) by adding explicit coverage embedding models to alleviate issues of repeating and dropping translations in NMT.
+method_label: For each source word, our model starts with a full coverage embedding vector to track the coverage status, and then keeps updating it with neural networks as the translation goes.
+result_label: Experiments on the large-scale Chinese-to-English task show that our enhanced model improves the translation quality significantly on various test sets over the strong large vocabulary NMT system.
+
+===================================
+paper_id: 5067886; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 0; annotator2: 1
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: A neural interlingua for multilingual machine translation
+ABSTRACT: background_label: We incorporate an explicit neural interlingua into a multilingual encoder-decoder neural machine translation (NMT) architecture.
+method_label: We demonstrate that our model learns a language-independent representation by performing direct zero-shot translation (without using pivot translation), and by using the source sentence embeddings to create an English Yelp review classifier that, through the mediation of the neural interlingua, can also classify French and German reviews.
+result_label: Furthermore, we show that, despite using a smaller number of parameters than a pairwise collection of bilingual NMT models, our approach produces comparable BLEU scores for each language pair in WMT15.
+
+===================================
+paper_id: 57379200; YEAR: 2019
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 1; annotator2: 0
+sources: abs_tfidfcbow200 - abs_cbow200 - abs_tfidf
+TITLE: Recurrent Neural Network Language Model Adaptation for Multi-Genre Broadcast Speech Recognition and Alignment
+ABSTRACT: background_label: Recurrent neural network language models RNNLMs generally outperform $n$-gram language models when used in automatic speech recognition ASR.
+background_label: Adapting RNNLMs to new domains is an open problem and current approaches can be categorised as either feature-based or model based.
+background_label: In feature-based adaptation, the input to the RNNLM is augmented with auxiliary features whilst model-based adaptation includes model fine-tuning and the introduction of adaptation layers in the network.
+method_label: In this paper, the properties of both types of adaptation are investigated on multi-genre broadcast speech recognition.
+method_label: Existing techniques for both types of adaptation are reviewed and the proposed techniques for model-based adaptation, namely the linear hidden network adaptation layer and the $K$-component adaptive the RNNLM, are investigated.
+result_label: Moreover, new features derived from the acoustic domain are investigated for the RNNLM adaptation.
+background_label: The contributions of this paper include two hybrid adaptation techniques: the fine-tuning of feature-based RNNLMs and a feature-based adaptation layer.
+method_label: Moreover, the semi-supervised adaptation of RNNLMs using genre information is also proposed.
+method_label: The ASR systems were trained using 700 h of multi-genre broadcast speech.
+result_label: The gains obtained when using the RNNLM adaptation techniques proposed in this paper are consistent when using RNNLMs trained on an in-domain set of 10M words and on a combination of in-domain and out-of-domain sets of 660 M words, with approx.
+result_label: $\text{10}{\%}$ perplexity and $\text{2}{\%}$ relative word error rate improvements on a 28.3 h. test set.
+other_label: The best RNNLM adaptation techniques for ASR are also evaluated on a lightly supervised alignment of subtitles task for the same data, where the use of RNNLM adaptation leads to an absolute increase in the F–measure of $\text{0.5}{\%}$.
+
+===================================
+paper_id: 158046633; YEAR: 2019
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 1; annotator2: 0
+sources: abs_tfidfcbow200 - abs_cbow200
+TITLE: End-to-end Adaptation with Backpropagation through WFST for On-device Speech Recognition System
+ABSTRACT: background_label: An on-device DNN-HMM speech recognition system efficiently works with a limited vocabulary in the presence of a variety of predictable noise.
+background_label: In such a case, vocabulary and environment adaptation is highly effective.
+method_label: In this paper, we propose a novel method of end-to-end (E2E) adaptation, which adjusts not only an acoustic model (AM) but also a weighted finite-state transducer (WFST).
+method_label: We convert a pretrained WFST to a trainable neural network and adapt the system to target environments/vocabulary by E2E joint training with an AM.
+method_label: We replicate Viterbi decoding with forward--backward neural network computation, which is similar to recurrent neural networks (RNNs).
+method_label: By pooling output score sequences, a vocabulary posterior for each utterance is obtained and used for discriminative loss computation.
+result_label: Experiments using 2--10 hours of English/Japanese adaptation datasets indicate that the fine-tuning of only WFSTs and that of only AMs are both comparable to a state-of-the-art adaptation method, and E2E joint training of the two components achieves the best recognition performance.
+result_label: We also adapt each language system to the other language using the adaptation data, and the results show that the proposed method also works well for language adaptations.
+
+===================================
+paper_id: 13756489; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 0; annotator2: 1
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Attention Is All You Need
+ABSTRACT: background_label: The dominant sequence transduction models are based on complex recurrent or convolutional neural networks in an encoder-decoder configuration.
+background_label: The best performing models also connect the encoder and decoder through an attention mechanism.
+objective_label: We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely.
+method_label: Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train.
+method_label: Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles by over 2 BLEU.
+result_label: On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature.
+result_label: We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data.
+
+===================================
+paper_id: 11080756; YEAR: 2002
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Bleu: a Method for Automatic Evaluation of Machine Translation
+ABSTRACT: background_label: Human evaluations of machine translation are extensive but expensive.
+background_label: Human evaluations can take months to finish and involve human labor that can not be reused.
+method_label: We propose a method of automatic machine translation evaluation that is quick, inexpensive, and language-independent, that correlates highly with human evaluation, and that has little marginal cost per run.
+method_label: We present this method as an automated understudy to skilled human judges which substitutes for them when there is need for quick or frequent evaluations.
+
+===================================
+paper_id: 12267036; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 0; annotator2: 1
+sources: title_tfidf
+TITLE: Adversarial Neural Machine Translation
+ABSTRACT: background_label: In this paper, we study a new learning paradigm for Neural Machine Translation (NMT).
+background_label: Instead of maximizing the likelihood of the human translation as in previous works, we minimize the distinction between human translation and the translation given by an NMT model.
+method_label: To achieve this goal, inspired by the recent success of generative adversarial networks (GANs), we employ an adversarial training architecture and name it as Adversarial-NMT.
+method_label: In Adversarial-NMT, the training of the NMT model is assisted by an adversary, which is an elaborately designed Convolutional Neural Network (CNN).
+objective_label: The goal of the adversary is to differentiate the translation result generated by the NMT model from that by human.
+objective_label: The goal of the NMT model is to produce high quality translations so as to cheat the adversary.
+objective_label: A policy gradient method is leveraged to co-train the NMT model and the adversary.
+result_label: Experimental results on English$\rightarrow$French and German$\rightarrow$English translation tasks show that Adversarial-NMT can achieve significantly better translation quality than several strong baselines.
+
+===================================
+paper_id: 174799399; YEAR: 2019
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 0; annotator2: 1
+sources: title_cbow200 - title_tfidfcbow200 - title_tfidf
+TITLE: Learning Deep Transformer Models for Machine Translation
+ABSTRACT: background_label: Transformer is the state-of-the-art model in recent machine translation evaluations.
+background_label: Two strands of research are promising to improve models of this kind: the first uses wide networks (a.k.a.
+background_label: Transformer-Big) and has been the de facto standard for the development of the Transformer system, and the other uses deeper language representation but faces the difficulty arising from learning deep networks.
+objective_label: Here, we continue the line of research on the latter.
+method_label: We claim that a truly deep Transformer model can surpass the Transformer-Big counterpart by 1) proper use of layer normalization and 2) a novel way of passing the combination of previous layers to the next.
+result_label: On WMT'16 English- German, NIST OpenMT'12 Chinese-English and larger WMT'18 Chinese-English tasks, our deep system (30/25-layer encoder) outperforms the shallow Transformer-Big/Base baseline (6-layer encoder) by 0.4-2.4 BLEU points.
+result_label: As another bonus, the deep model is 1.6X smaller in size and 3X faster in training than Transformer-Big.
+
+===================================
+paper_id: 6850604; YEAR: 2015
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 0; annotator2: 1
+sources: title_cbow200 - title_tfidfcbow200 - title_tfidf
+TITLE: Deep Neural Language Models for Machine Translation
+ABSTRACT: background_label: Neural language models (NLMs) have been able to improve machine translation (MT) thanks to their ability to generalize well to long contexts.
+background_label: Despite recent successes of deep neural networks in speech and vision, the general practice in MT is to incorporate NLMs with only one or two hidden layers and there have not been clear results on whether having more layers helps.
+objective_label: In this paper, we demonstrate that deep NLMs with three or four layers outperform those with fewer layers in terms of both the perplexity and the translation quality.
+method_label: We combine various techniques to successfully train deep NLMs that jointly condition on both the source and target contexts.
+method_label: When reranking nbest lists of a strong web-forum baseline, our deep models yield an average boost of 0.5 TER / 0.5 BLEU points compared to using a shallow NLM.
+result_label: Additionally, we adapt our models to a new sms-chat domain and obtain a similar gain of 1.0 TER / 0.5 BLEU points.
+result_label: 1
+
+===================================
+paper_id: 4570446; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 2; annotator1: 2; annotator2: 0
+sources: abs_tfidf
+TITLE: mRUBiS: An Exemplar for Model-Based Architectural Self-Healing and Self-Optimization
+ABSTRACT: background_label: Self-adaptive software systems are often structured into an adaptation engine that manages an adaptable software by operating on a runtime model that represents the architecture of the software (model-based architectural self-adaptation).
+background_label: Despite the popularity of such approaches, existing exemplars provide application programming interfaces but no runtime model to develop adaptation engines.
+background_label: Consequently, there does not exist any exemplar that supports developing, evaluating, and comparing model-based self-adaptation off the shelf.
+method_label: Therefore, we present mRUBiS, an extensible exemplar for model-based architectural self-healing and self-optimization.
+method_label: mRUBiS simulates the adaptable software and therefore provides and maintains an architectural runtime model of the software, which can be directly used by adaptation engines to realize and perform self-adaptation.
+method_label: Particularly, mRUBiS supports injecting issues into the model, which should be handled by self-adaptation, and validating the model to assess the self-adaptation.
+result_label: Finally, mRUBiS allows developers to explore variants of adaptation engines (e.g., event-driven self-adaptation) and to evaluate the effectiveness, efficiency, and scalability of the engines.
+
+===================================
+paper_id: 627008; YEAR: 2010
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - specter - abs_tfidf - title_tfidf
+TITLE: N-Best Reranking by Multitask Learning
+ABSTRACT: background_label: AbstractWe propose a new framework for N-best reranking on sparse feature sets.
+objective_label: The idea is to reformulate the reranking problem as a Multitask Learning problem, where each N-best list corresponds to a distinct task.
+background_label: This is motivated by the observation that N-best lists often show significant differences in feature distributions.
+method_label: Training a single reranker directly on this heterogenous data can be difficult.Our proposed meta-algorithm solves this challenge by using multitask learning (such as ℓ 1 /ℓ 2 regularization) to discover common feature representations across Nbest lists.
+method_label: This meta-algorithm is simple to implement, and its modular approach allows one to plug-in different learning algorithms from existing literature.
+result_label: As a proof of concept, we show statistically significant improvements on a machine translation system involving millions of features.
+
+===================================
+paper_id: 946515; YEAR: 2014
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_tfidfcbow200 - title_cbow200
+TITLE: Bilingual Recurrent Neural Networks for improved statistical machine translation
+ABSTRACT: background_label: Recurrent Neural Networks (RNN) have been successfully applied for improved speech recognition and statistical machine translation (SMT) for N-best list re-ranking.
+method_label: In SMT, we investigate using bilingual word-aligned sentences to train a bilingual recurrent neural network model.
+method_label: We employ a bag-of-word representation of a source sentence as additional input features in model training.
+result_label: Experimental results show that our proposed approach performs consistently better than recurrent neural network language model trained only on target-side text in terms of machine translation performance.
+result_label: We also investigate other input representation of a source sentence based on latent semantic analysis.
+
+===================================
+paper_id: 905565; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 0; annotator2: 1
+sources: title_cbow200 - title_tfidfcbow200 - title_tfidf
+TITLE: Nematus: a Toolkit for Neural Machine Translation
+ABSTRACT: background_label: We present Nematus, a toolkit for Neural Machine Translation.
+background_label: The toolkit prioritizes high translation accuracy, usability, and extensibility.
+method_label: Nematus has been used to build top-performing submissions to shared translation tasks at WMT and IWSLT, and has been used to train systems for production environments.
+
+===================================
+paper_id: 43951628; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 0; annotator2: 1
+sources: title_tfidf - title_cbow200
+TITLE: Neural pre-translation for hybrid machine translation
+ABSTRACT: background_label: Hybrid machine translation (HMT) takes advantage of different types of machine translation  (MT) systems to improve translation performance.
+background_label: Neural machine translation (NMT) can  produce more fluent translations while phrase-based statistical machine translation (PB-SMT)  can produce adequate results primarily due to the contribution of the translation model.
+objective_label: In  this paper, we propose a cascaded hybrid framework to combine NMT and PB-SMT to improve translation quality.
+method_label: Specifically, we first use the trained NMT system to pre-translate  the training data, and then employ the pre-translated training data to build an SMT system and  tune parameters using the pre-translated development set.
+method_label: Finally, the SMT system is utilised  as a post-processing step to re-decode the pre-translated test set and produce the final result.
+result_label: Experiments conducted on Japanese!English and Chinese!English show that the proposed  cascaded hybrid framework can significantly improve performance by 2.38 BLEU points and  4.22 BLEU points, respectively, compared to the baseline NMT system.
+
+===================================
+paper_id: 5709441; YEAR: 2014
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_tfidfcbow200 - title_cbow200
+TITLE: Learning New Semi-Supervised Deep Auto-encoder Features for Statistical Machine Translation
+ABSTRACT: background_label: In this paper, instead of designing new features based on intuition, linguistic knowledge and domain, we learn some new and effective features using the deep autoencoder (DAE) paradigm for phrase-based translation model.
+method_label: Using the unsupervised pre-trained deep belief net (DBN) to initialize DAE’s parameters and using the input original phrase features as a teacher for semi-supervised fine-tuning, we learn new semi-supervised DAE features, which are more effective and stable than the unsupervised DBN features.
+method_label: Moreover, to learn high dimensional feature representation, we introduce a natural horizontal composition of more DAEs for large hidden layers feature learning.
+result_label: On two ChineseEnglish tasks, our semi-supervised DAE features obtain statistically significant improvements of 1.34/2.45 (IWSLT) and 0.82/1.52 (NIST) BLEU points over the unsupervised DBN features and the baseline features, respectively.
+
+===================================
+paper_id: 163946; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: abs_cbow200
+TITLE: Convolutional Pose Machines
+ABSTRACT: background_label: Pose Machines provide a sequential prediction framework for learning rich implicit spatial models.
+objective_label: In this work we show a systematic design for how convolutional networks can be incorporated into the pose machine framework for learning image features and image-dependent spatial models for the task of pose estimation.
+objective_label: The contribution of this paper is to implicitly model long-range dependencies between variables in structured prediction tasks such as articulated pose estimation.
+method_label: We achieve this by designing a sequential architecture composed of convolutional networks that directly operate on belief maps from previous stages, producing increasingly refined estimates for part locations, without the need for explicit graphical model-style inference.
+method_label: Our approach addresses the characteristic difficulty of vanishing gradients during training by providing a natural learning objective function that enforces intermediate supervision, thereby replenishing back-propagated gradients and conditioning the learning procedure.
+result_label: We demonstrate state-of-the-art performance and outperform competing methods on standard benchmarks including the MPII, LSP, and FLIC datasets.
+
+===================================
+paper_id: 201106127; YEAR: 2019
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: abs_cbow200
+TITLE: Make a Face: Towards Arbitrary High Fidelity Face Manipulation
+ABSTRACT: background_label: Recent studies have shown remarkable success in face manipulation task with the advance of GANs and VAEs paradigms, but the outputs are sometimes limited to low-resolution and lack of diversity.
+objective_label: In this work, we propose Additive Focal Variational Auto-encoder (AF-VAE), a novel approach that can arbitrarily manipulate high-resolution face images using a simple yet effective model and only weak supervision of reconstruction and KL divergence losses.
+method_label: First, a novel additive Gaussian Mixture assumption is introduced with an unsupervised clustering mechanism in the structural latent space, which endows better disentanglement and boosts multi-modal representation with external memory.
+method_label: Second, to improve the perceptual quality of synthesized results, two simple strategies in architecture design are further tailored and discussed on the behavior of Human Visual System (HVS) for the first time, allowing for fine control over the model complexity and sample quality.
+result_label: Human opinion studies and new state-of-the-art Inception Score (IS) / Frechet Inception Distance (FID) demonstrate the superiority of our approach over existing algorithms, advancing both the fidelity and extremity of face manipulation task.
+
+===================================
+paper_id: 129944996; YEAR: 2019
+adju relevance: Irrelevant (0)
+difference: 2; annotator1: 2; annotator2: 0
+sources: abs_tfidf
+TITLE: Bidirectional Learning for Domain Adaptation of Semantic Segmentation
+ABSTRACT: background_label: Domain adaptation for semantic image segmentation is very necessary since manually labeling large datasets with pixel-level labels is expensive and time consuming.
+background_label: Existing domain adaptation techniques either work on limited datasets, or yield not so good performance compared with supervised learning.
+objective_label: In this paper, we propose a novel bidirectional learning framework for domain adaptation of segmentation.
+method_label: Using the bidirectional learning, the image translation model and the segmentation adaptation model can be learned alternatively and promote to each other.
+method_label: Furthermore, we propose a self-supervised learning algorithm to learn a better segmentation adaptation model and in return improve the image translation model.
+result_label: Experiments show that our method is superior to the state-of-the-art methods in domain adaptation of segmentation with a big margin.
+other_label: The source code is available at https://github.com/liyunsheng13/BDL.
+
+===================================
+paper_id: 11102913; YEAR: 2012
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 0; annotator2: 1
+sources: abs_tfidf - specter
+TITLE: Perplexity Minimization for Translation Model Domain Adaptation in Statistical Machine Translation
+ABSTRACT: background_label: We investigate the problem of domain adaptation for parallel data in Statistical Machine Translation (SMT).
+method_label: While techniques for domain adaptation of monolingual data can be borrowed for parallel data, we explore conceptual differences between translation model and language model domain adaptation and their effect on performance, such as the fact that translation models typically consist of several features that have different characteristics and can be optimized separately.
+result_label: We also explore adapting multiple (4-10) data sets with no a priori distinction between in-domain and out-of-domain data except for an in-domain development set.
+
+===================================
+paper_id: 52100117; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 0; annotator2: 1
+sources: title_cbow200 - title_tfidfcbow200 - specter
+TITLE: Contextual Parameter Generation for Universal Neural Machine Translation
+ABSTRACT: background_label: We propose a simple modification to existing neural machine translation (NMT) models that enables using a single universal model to translate between multiple languages while allowing for language specific parameterization, and that can also be used for domain adaptation.
+method_label: Our approach requires no changes to the model architecture of a standard NMT system, but instead introduces a new component, the contextual parameter generator (CPG), that generates the parameters of the system (e.g., weights in a neural network).
+method_label: This parameter generator accepts source and target language embeddings as input, and generates the parameters for the encoder and the decoder, respectively.
+method_label: The rest of the model remains unchanged and is shared across all languages.
+method_label: We show how this simple modification enables the system to use monolingual data for training and also perform zero-shot translation.
+result_label: We further show it is able to surpass state-of-the-art performance for both the IWSLT-15 and IWSLT-17 datasets and that the learned language embeddings are able to uncover interesting relationships between languages.
+
+===================================
+paper_id: 936390; YEAR: 2010
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 1; annotator2: 0
+sources: title_tfidf - title_cbow200
+TITLE: Stream-based Translation Models for Statistical Machine Translation
+ABSTRACT: background_label: AbstractTypical statistical machine translation systems are trained with static parallel corpora.
+background_label: Here we account for scenarios with a continuous incoming stream of parallel training data.
+background_label: Such scenarios include daily governmental proceedings, sustained output from translation agencies, or crowd-sourced translations.
+method_label: We show incorporating recent sentence pairs from the stream improves performance compared with a static baseline.
+method_label: Since frequent batch retraining is computationally demanding we introduce a fast incremental alternative using an online version of the EM algorithm.
+method_label: To bound our memory requirements we use a novel data-structure and associated training regime.
+result_label: When compared to frequent batch retraining, our online time and space-bounded model achieves the same performance with significantly less computational overhead.
+
+===================================
+paper_id: 17281254; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 0; annotator2: 1
+sources: specter - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - title_tfidf
+TITLE: A Coverage Embedding Model for Neural Machine Translation
+ABSTRACT: objective_label: AbstractIn this paper, we enhance the attention-based neural machine translation by adding an explicit coverage embedding model to alleviate issues of repeating and dropping translations in NMT.
+method_label: For each source word, our model starts with a full coverage embedding vector, and then keeps updating it with a gated recurrent unit as the translation goes.
+method_label: All the initialized coverage embeddings and updating matrix are learned in the training procedure.
+result_label: Experiments on the large-scale Chineseto-English task show that our enhanced model improves the translation quality significantly on various test sets over the strong large vocabulary NMT system.
+
+===================================
+paper_id: 16143978; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 1; annotator2: 0
+sources: abs_tfidfcbow200 - abs_cbow200 - abs_tfidf
+TITLE: Bayesian Unsupervised Batch and Online Speaker Adaptation of Activation Function Parameters in Deep Models for Automatic Speech Recognition
+ABSTRACT: background_label: We present a Bayesian framework to obtain maximum a posteriori (MAP) estimation of a small set of hidden activation function parameters in context-dependent-deep neural network-hidden markov model (CD-DNN-HMM)-based automatic speech recognition (ASR) systems.
+objective_label: When applied to speaker adaptation, we aim at transfer learning from a well-trained deep model for a “general” usage to a “personalized” model geared toward a particular talker by using a collection of speaker-specific data.
+method_label: To make the framework applicable to practical situations, we perform adaptation in an unsupervised manner assuming that the transcriptions of the adaptation utterances are not readily available to the ASR system.
+method_label: We conduct a series of comprehensive batch adaptation experiments on the Switchboard ASR task and show that the proposed approach is effective even with CD-DNN-HMM built with discriminative sequential training.
+method_label: Indeed, MAP speaker adaptation reduces the word error rate (WER) to 20.1% from an initial 21.9% on the full NIST 2000 Hub5 benchmark test set.
+method_label: Moreover, MAP speaker adaptation compares favorably with other techniques evaluated on the same speech tasks.
+result_label: We also demonstrate its complementarity to other approaches by applying MAP adaptation to CD-DNN-HMM trained with speaker adaptive features generated through constrained maximum likelihood linear regression and further reduces the WER to 18.6%.
+method_label: Leveraging upon the intrinsic recursive nature in Bayesian adaptation and mitigating possible system constraints on batch learning, we also proposed an incremental approach to unsupervised online speaker adaptation by simultaneously updating the hyperparameters of the approximate posterior densities and the DNN parameters sequentially.
+result_label: The advantage of such a sequential learning algorithm over a batch method is not necessarily in the final performance, but in computational efficiency and reduced storage needs, without having to wait for all the data to be processed.
+result_label: So far, the experimental results are promising.
+
+===================================
+paper_id: 52154931; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 0; annotator2: 1
+sources: title_tfidfcbow200 - title_cbow200 - title_tfidf
+TITLE: Future-Prediction-Based Model for Neural Machine Translation
+ABSTRACT: objective_label: We propose a novel model for Neural Machine Translation (NMT).
+method_label: Different from the conventional method, our model can predict the future text length and words at each decoding time step so that the generation can be helped with the information from the future prediction.
+method_label: With such information, the model does not stop generation without having translated enough content.
+result_label: Experimental results demonstrate that our model can significantly outperform the baseline models.
+result_label: Besides, our analysis reflects that our model is effective in the prediction of the length and words of the untranslated content.
+
+===================================
+paper_id: 8586038; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 0; annotator2: 1
+sources: title_cbow200 - title_tfidfcbow200 - title_tfidf
+TITLE: Deep Recurrent Models with Fast-Forward Connections for Neural Machine Translation
+ABSTRACT: background_label: Neural machine translation (NMT) aims at solving machine translation (MT) problems using neural networks and has exhibited promising results in recent years.
+background_label: However, most of the existing NMT models are shallow and there is still a performance gap between a single NMT model and the best conventional MT system.
+method_label: In this work, we introduce a new type of linear connections, named fast-forward connections, based on deep Long Short-Term Memory (LSTM) networks, and an interleaved bi-directional architecture for stacking the LSTM layers.
+method_label: Fast-forward connections play an essential role in propagating the gradients and building a deep topology of depth 16.
+method_label: On the WMT'14 English-to-French task, we achieve BLEU=37.7 with a single attention model, which outperforms the corresponding single shallow model by 6.2 BLEU points.
+method_label: This is the first time that a single NMT model achieves state-of-the-art performance and outperforms the best conventional model by 0.7 BLEU points.
+method_label: We can still achieve BLEU=36.3 even without using an attention mechanism.
+result_label: After special handling of unknown words and model ensembling, we obtain the best score reported to date on this task with BLEU=40.4.
+result_label: Our models are also validated on the more difficult WMT'14 English-to-German task.
+
+===================================
+paper_id: 4623739; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_tfidfcbow200 - title_cbow200
+TITLE: Marian: Fast Neural Machine Translation in C++
+ABSTRACT: background_label: We present Marian, an efficient and self-contained Neural Machine Translation framework with an integrated automatic differentiation engine based on dynamic computation graphs.
+background_label: Marian is written entirely in C++.
+method_label: We describe the design of the encoder-decoder framework and demonstrate that a research-friendly toolkit can achieve high training and translation speed.
+
+===================================
+paper_id: 22078220; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Online Learning for Neural Machine Translation Post-editing
+ABSTRACT: background_label: Neural machine translation has meant a revolution of the field.
+background_label: Nevertheless, post-editing the outputs of the system is mandatory for tasks requiring high translation quality.
+background_label: Post-editing offers a unique opportunity for improving neural machine translation systems, using online learning techniques and treating the post-edited translations as new, fresh training data.
+method_label: We review classical learning methods and propose a new optimization algorithm.
+method_label: We thoroughly compare online learning algorithms in a post-editing scenario.
+result_label: Results show significant improvements in translation quality and effort reduction.
+
+===================================
+paper_id: 16741401; YEAR: 2015
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: abs_cbow200
+TITLE: Effective deep learning-based multi-modal retrieval
+ABSTRACT: background_label: Multi-modal retrieval is emerging as a new search paradigm that enables seamless information retrieval from various types of media.
+background_label: For example, users can simply snap a movie poster to search for relevant reviews and trailers.
+objective_label: The mainstream solution to the problem is to learn a set of mapping functions that project data from different modalities into a common metric space in which conventional indexing schemes for high-dimensional space can be applied.
+method_label: Since the effectiveness of the mapping functions plays an essential role in improving search quality, in this paper, we exploit deep learning techniques to learn effective mapping functions.
+method_label: In particular, we first propose a general learning objective that effectively captures both intramodal and intermodal semantic relationships of data from heterogeneous sources.
+method_label: Given the general objective, we propose two learning algorithms to realize it: (1) an unsupervised approach that uses stacked auto-encoders and requires minimum prior knowledge on the training data and (2) a supervised approach using deep convolutional neural network and neural language model.
+method_label: Our training algorithms are memory efficient with respect to the data volume.
+method_label: Given a large training dataset, we split it into mini-batches and adjust the mapping functions continuously for each batch.
+result_label: Experimental results on three real datasets demonstrate that our proposed methods achieve significant improvement in search accuracy over the state-of-the-art solutions.
+
+===================================
+paper_id: 195699997; YEAR: 2019
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 1; annotator2: 0
+sources: abs_tfidfcbow200
+TITLE: Lattice-Based Unsupervised Test-Time Adaptation of Neural Network Acoustic Models
+ABSTRACT: background_label: Acoustic model adaptation to unseen test recordings aims to reduce the mismatch between training and testing conditions.
+background_label: Most adaptation schemes for neural network models require the use of an initial one-best transcription for the test data, generated by an unadapted model, in order to estimate the adaptation transform.
+background_label: It has been found that adaptation methods using discriminative objective functions - such as cross-entropy loss - often require careful regularisation to avoid over-fitting to errors in the one-best transcriptions.
+method_label: In this paper we solve this problem by performing discriminative adaptation using lattices obtained from a first pass decoding, an approach that can be readily integrated into the lattice-free maximum mutual information (LF-MMI) framework.
+method_label: We investigate this approach on three transcription tasks of varying difficulty: TED talks, multi-genre broadcast (MGB) and a low-resource language (Somali).
+result_label: We find that our proposed approach enables many more parameters to be adapted without over-fitting being observed, and is successful even when the initial transcription has a WER in excess of 50%.
+
+===================================
+paper_id: 8555434; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 0; annotator2: 1
+sources: title_tfidfcbow200 - title_cbow200 - title_tfidf
+TITLE: Neural Machine Translation Leveraging Phrase-based Models in a Hybrid Search
+ABSTRACT: background_label: In this paper, we introduce a hybrid search for attention-based neural machine translation (NMT).
+method_label: A target phrase learned with statistical MT models extends a hypothesis in the NMT beam search when the attention of the NMT model focuses on the source words translated by this phrase.
+method_label: Phrases added in this way are scored with the NMT model, but also with SMT features including phrase-level translation probabilities and a target language model.
+result_label: Experimental results on German->English news domain and English->Russian e-commerce domain translation tasks show that using phrase-based models in NMT search improves MT quality by up to 2.3% BLEU absolute as compared to a strong NMT baseline.
+
+===================================
+paper_id: 14260005; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: abs_tfidfcbow200 - abs_tfidf
+TITLE: A Domain Adaptation Regularization for Denoising Autoencoders
+ABSTRACT: background_label: Finding domain invariant features is critical for successful domain adaptation and transfer learning.
+background_label: However, in the case of unsupervised adaptation, there is a significant risk of overfitting on source training data.
+background_label: Recently, a regularization for domain adaptation was proposed for deep models by (Ganin and Lempitsky, 2015).
+method_label: We build on their work by suggesting a more appropriate regularization for denoising autoencoders.
+method_label: Our model remains unsupervised and can be computed in a closed form.
+result_label: On standard text classification adaptation tasks, our approach yields the state of the art results, with an important reduction of the learning cost.
+
+===================================
+paper_id: 1114678; YEAR: 2015
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Neural Machine Translation of Rare Words with Subword Units
+ABSTRACT: background_label: Neural machine translation (NMT) models typically operate with a fixed vocabulary, but translation is an open-vocabulary problem.
+background_label: Previous work addresses the translation of out-of-vocabulary words by backing off to a dictionary.
+objective_label: In this paper, we introduce a simpler and more effective approach, making the NMT model capable of open-vocabulary translation by encoding rare and unknown words as sequences of subword units.
+method_label: This is based on the intuition that various word classes are translatable via smaller units than words, for instance names (via character copying or transliteration), compounds (via compositional translation), and cognates and loanwords (via phonological and morphological transformations).
+result_label: We discuss the suitability of different word segmentation techniques, including simple character n-gram models and a segmentation based on the byte pair encoding compression algorithm, and empirically show that subword models improve over a back-off dictionary baseline for the WMT 15 translation tasks English-German and English-Russian by 1.1 and 1.3 BLEU, respectively.
+
+===================================
+paper_id: 49865884; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_cbow200 - title_tfidfcbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Recurrent Stacking of Layers for Compact Neural Machine Translation Models
+ABSTRACT: background_label: In neural machine translation (NMT), the most common practice is to stack a number of recurrent or feed-forward layers in the encoder and the decoder.
+background_label: As a result, the addition of each new layer improves the translation quality significantly.
+background_label: However, this also leads to a significant increase in the number of parameters.
+objective_label: In this paper, we propose to share parameters across all the layers thereby leading to a recurrently stacked NMT model.
+method_label: We empirically show that the translation quality of a model that recurrently stacks a single layer 6 times is comparable to the translation quality of a model that stacks 6 separate layers.
+result_label: We also show that using pseudo-parallel corpora by back-translation leads to further significant improvements in translation quality.
+
+===================================
+paper_id: 10217785; YEAR: 2012
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Joint Feature Selection in Distributed Stochastic Learning for Large-Scale Discriminative Training in SMT
+ABSTRACT: background_label: AbstractWith a few exceptions, discriminative training in statistical machine translation (SMT) has been content with tuning weights for large feature sets on small development data.
+background_label: Evidence from machine learning indicates that increasing the training sample size results in better prediction.
+objective_label: The goal of this paper is to show that this common wisdom can also be brought to bear upon SMT.
+method_label: We deploy local features for SCFG-based SMT that can be read off from rules at runtime, and present a learning algorithm that applies 1 / 2 regularization for joint feature selection over distributed stochastic learning processes.
+result_label: We present experiments on learning on 1.5 million training sentences, and show significant improvements over tuning discriminative models on small development sets.
+
+===================================
+paper_id: 24218611; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 0; annotator2: 1
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: Sockeye: A Toolkit for Neural Machine Translation
+ABSTRACT: background_label: We describe Sockeye (version 1.12), an open-source sequence-to-sequence toolkit for Neural Machine Translation (NMT).
+background_label: Sockeye is a production-ready framework for training and applying models as well as an experimental platform for researchers.
+background_label: Written in Python and built on MXNet, the toolkit offers scalable training and inference for the three most prominent encoder-decoder architectures: attentional recurrent neural networks, self-attentional transformers, and fully convolutional networks.
+method_label: Sockeye also supports a wide range of optimizers, normalization and regularization techniques, and inference improvements from current NMT literature.
+method_label: Users can easily run standard training recipes, explore different model settings, and incorporate new ideas.
+method_label: In this paper, we highlight Sockeye's features and benchmark it against other NMT toolkits on two language arcs from the 2017 Conference on Machine Translation (WMT): English-German and Latvian-English.
+result_label: We report competitive BLEU scores across all three architectures, including an overall best score for Sockeye's transformer implementation.
+result_label: To facilitate further comparison, we release all system outputs and training scripts used in our experiments.
+result_label: The Sockeye toolkit is free software released under the Apache 2.0 license.
+
+===================================
+paper_id: 18017180; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_tfidf - title_cbow200 - abs_tfidf
+TITLE: Pre-Translation for Neural Machine Translation
+ABSTRACT: background_label: Recently, the development of neural machine translation (NMT) has significantly improved the translation quality of automatic machine translation.
+background_label: While most sentences are more accurate and fluent than translations by statistical machine translation (SMT)-based systems, in some cases, the NMT system produces translations that have a completely different meaning.
+background_label: This is especially the case when rare words occur.
+method_label: When using statistical machine translation, it has already been shown that significant gains can be achieved by simplifying the input in a preprocessing step.
+result_label: A commonly used example is the pre-reordering approach.
+method_label: In this work, we used phrase-based machine translation to pre-translate the input into the target language.
+method_label: Then a neural machine translation system generates the final hypothesis using the pre-translation.
+method_label: Thereby, we use either only the output of the phrase-based machine translation (PBMT) system or a combination of the PBMT output and the source sentence.
+result_label: We evaluate the technique on the English to German translation task.
+result_label: Using this approach we are able to outperform the PBMT system as well as the baseline neural MT system by up to 2 BLEU points.
+result_label: We analyzed the influence of the quality of the initial system on the final result.
+
+===================================
+paper_id: 146016877; YEAR: 2019
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: abs_cbow200
+TITLE: Semi-supervised and Population Based Training for Voice Commands Recognition
+ABSTRACT: background_label: We present a rapid design methodology that combines automated hyper-parameter tuning with semi-supervised training to build highly accurate and robust models for voice commands classification.
+method_label: Proposed approach allows quick evaluation of network architectures to fit performance and power constraints of available hardware, while ensuring good hyper-parameter choices for each network in real-world scenarios.
+method_label: Leveraging the vast amount of unlabeled data with a student/teacher based semi-supervised method, classification accuracy is improved from 84% to 94% in the validation set.
+result_label: For model optimization, we explore the hyper-parameter space through population based training and obtain an optimized model in the same time frame as it takes to train a single model.
+
+===================================
+paper_id: 11073674; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: Target-Bidirectional Neural Models for Machine Transliteration
+ABSTRACT: background_label: AbstractOur purely neural network-based system represents a paradigm shift away from the techniques based on phrase-based statistical machine translation we have used in the past.
+method_label: The approach exploits the agreement between a pair of target-bidirectional LSTMs, in order to generate balanced targets with both good suffixes and good prefixes.
+result_label: The evaluation results show that the method is able to match and even surpass the current state-of-the-art on most language pairs, but also exposes weaknesses on some tasks motivating further study.
+other_label: The Janus toolkit that was used to build the systems used in the evaluation is publicly available at https://github.com/lemaoliu/Agtarbidir.
+
+===================================
+paper_id: 2197983; YEAR: 2015
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Rethinking the Inception Architecture for Computer Vision
+ABSTRACT: background_label: Convolutional networks are at the core of most state-of-the-art computer vision solutions for a wide variety of tasks.
+background_label: Since 2014 very deep convolutional networks started to become mainstream, yielding substantial gains in various benchmarks.
+background_label: Although increased model size and computational cost tend to translate to immediate quality gains for most tasks (as long as enough labeled data is provided for training), computational efficiency and low parameter count are still enabling factors for various use cases such as mobile vision and big-data scenarios.
+objective_label: Here we explore ways to scale up networks in ways that aim at utilizing the added computation as efficiently as possible by suitably factorized convolutions and aggressive regularization.
+result_label: We benchmark our methods on the ILSVRC 2012 classification challenge validation set demonstrate substantial gains over the state of the art: 21.2% top-1 and 5.6% top-5 error for single frame evaluation using a network with a computational cost of 5 billion multiply-adds per inference and with using less than 25 million parameters.
+result_label: With an ensemble of 4 models and multi-crop evaluation, we report 3.5% top-5 error on the validation set (3.6% error on the test set) and 17.3% top-1 error on the validation set.
+
+===================================
+paper_id: 2085865; YEAR: 2013
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Multi-Task Learning for Improved Discriminative Training in SMT
+ABSTRACT: background_label: AbstractMulti-task learning has been shown to be effective in various applications, including discriminative SMT.
+background_label: We present an experimental evaluation of the question whether multi-task learning depends on a "natural" division of data into tasks that balance shared and individual knowledge, or whether its inherent regularization makes multi-task learning a broadly applicable remedy against overfitting.
+method_label: To investigate this question, we compare "natural" tasks defined as sections of the International Patent Classification versus "random" tasks defined as random shards in the context of patent SMT.
+result_label: We find that both versions of multi-task learning improve equally well over independent and pooled baselines, and gain nearly 2 BLEU points over standard MERT tuning.
+
+===================================
+paper_id: 10856517; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: abs_cbow200 - abs_tfidfcbow200
+TITLE: Boosted Zero-Shot Learning with Semantic Correlation Regularization
+ABSTRACT: background_label: We study zero-shot learning (ZSL) as a transfer learning problem, and focus on the two key aspects of ZSL, model effectiveness and model adaptation.
+method_label: For effective modeling, we adopt the boosting strategy to learn a zero-shot classifier from weak models to a strong model.
+method_label: For adaptable knowledge transfer, we devise a Semantic Correlation Regularization (SCR) approach to regularize the boosted model to be consistent with the inter-class semantic correlations.
+method_label: With SCR embedded in the boosting objective, and with a self-controlled sample selection for learning robustness, we propose a unified framework, Boosted Zero-shot classification with Semantic Correlation Regularization (BZ-SCR).
+method_label: By balancing the SCR-regularized boosted model selection and the self-controlled sample selection, BZ-SCR is capable of capturing both discriminative and adaptable feature-to-class semantic alignments, while ensuring the reliability and adaptability of the learned samples.
+result_label: The experiments on two ZSL datasets show the superiority of BZ-SCR over the state-of-the-arts.
+
+===================================
+paper_id: 75137125; YEAR: 2019
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 0; annotator2: 1
+sources: specter - title_cbow200 - title_tfidfcbow200 - title_tfidf
+TITLE: Context-Aware Learning for Neural Machine Translation
+ABSTRACT: background_label: Interest in larger-context neural machine translation, including document-level and multi-modal translation, has been growing.
+background_label: Multiple works have proposed new network architectures or evaluation schemes, but potentially helpful context is still sometimes ignored by larger-context translation models.
+objective_label: In this paper, we propose a novel learning algorithm that explicitly encourages a neural translation model to take into account additional context using a multilevel pair-wise ranking loss.
+method_label: We evaluate the proposed learning algorithm with a transformer-based larger-context translation system on document-level translation.
+result_label: By comparing performance using actual and random contexts, we show that a model trained with the proposed algorithm is more sensitive to the additional context.
+
+===================================
+paper_id: 56475925; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 0; annotator2: 1
+sources: title_tfidfcbow200 - title_cbow200 - title_tfidf
+TITLE: DTMT: A Novel Deep Transition Architecture for Neural Machine Translation
+ABSTRACT: background_label: Past years have witnessed rapid developments in Neural Machine Translation (NMT).
+background_label: Most recently, with advanced modeling and training techniques, the RNN-based NMT (RNMT) has shown its potential strength, even compared with the well-known Transformer (self-attentional) model.
+background_label: Although the RNMT model can possess very deep architectures through stacking layers, the transition depth between consecutive hidden states along the sequential axis is still shallow.
+method_label: In this paper, we further enhance the RNN-based NMT through increasing the transition depth between consecutive hidden states and build a novel Deep Transition RNN-based Architecture for Neural Machine Translation, named DTMT.
+method_label: This model enhances the hidden-to-hidden transition with multiple non-linear transformations, as well as maintains a linear transformation path throughout this deep transition by the well-designed linear transformation mechanism to alleviate the gradient vanishing problem.
+result_label: Experiments show that with the specially designed deep transition modules, our DTMT can achieve remarkable improvements on translation quality.
+result_label: Experimental results on Chinese->English translation task show that DTMT can outperform the Transformer model by +2.09 BLEU points and achieve the best results ever reported in the same dataset.
+result_label: On WMT14 English->German and English->French translation tasks, DTMT shows superior quality to the state-of-the-art NMT systems, including the Transformer and the RNMT+.
+
+===================================
+paper_id: 7395053; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 0; annotator2: 1
+sources: abs_tfidf - abs_tfidfcbow200 - specter
+TITLE: Domain specialization: a post-training domain adaptation for Neural Machine Translation
+ABSTRACT: background_label: Domain adaptation is a key feature in Machine Translation.
+background_label: It generally encompasses terminology, domain and style adaptation, especially for human post-editing workflows in Computer Assisted Translation (CAT).
+background_label: With Neural Machine Translation (NMT), we introduce a new notion of domain adaptation that we call"specialization"and which is showing promising results both in the learning speed and in adaptation accuracy.
+objective_label: In this paper, we propose to explore this approach under several perspectives.
+
+===================================
+paper_id: 30042437; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 0; annotator2: 1
+sources: specter - title_cbow200 - title_tfidfcbow200 - title_tfidf
+TITLE: Effective Domain Mixing for Neural Machine Translation
+ABSTRACT: background_label: AbstractNeural Machine Translation (NMT) models are often trained on heterogeneous mixtures of domains, from news to parliamentary proceedings, each with unique distributions and language.
+background_label: In this work we show that training NMT systems on naively mixed data can degrade performance versus models fit to each constituent domain.
+objective_label: We demonstrate that this problem can be circumvented, and propose three models that do so by jointly learning domain discrimination and translation.
+method_label: We demonstrate the efficacy of these techniques by merging pairs of domains in three languages: Chinese, French, and Japanese.
+method_label: After training on composite data, each approach outperforms its domain-specific counterparts, with a model based on a discriminator network doing so most reliably.
+result_label: We obtain consistent performance improvements and an average increase of 1.1 BLEU.
+
+===================================
+paper_id: 7417943; YEAR: 2014
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 1; annotator2: 0
+sources: title_cbow200 - title_tfidfcbow200 - title_tfidf
+TITLE: Fast and Robust Neural Network Joint Models for Statistical Machine Translation
+ABSTRACT: background_label: Recent work has shown success in using neural network language models (NNLMs) as features in MT systems.
+objective_label: Here, we present a novel formulation for a neural network joint model (NNJM), which augments the NNLM with a source context window.
+method_label: Our model is purely lexicalized and can be integrated into any MT decoder.
+method_label: We also present several variations of the NNJM which provide significant additive improvements.
+
+===================================
+paper_id: 189898494; YEAR: 2019
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 1; annotator2: 0
+sources: abs_tfidfcbow200
+TITLE: Cumulative Adaptation for BLSTM Acoustic Models
+ABSTRACT: objective_label: This paper addresses the robust speech recognition problem as an adaptation task.
+background_label: Specifically, we investigate the cumulative application of adaptation methods.
+method_label: A bidirectional Long Short-Term Memory (BLSTM) based neural network, capable of learning temporal relationships and translation invariant representations, is used for robust acoustic modelling.
+method_label: Further, i-vectors were used as an input to the neural network to perform instantaneous speaker and environment adaptation, providing 8\% relative improvement in word error rate on the NIST Hub5 2000 evaluation test set.
+result_label: By enhancing the first-pass i-vector based adaptation with a second-pass adaptation using speaker and environment dependent transformations within the network, a further relative improvement of 5\% in word error rate was achieved.
+result_label: We have reevaluated the features used to estimate i-vectors and their normalization to achieve the best performance in a modern large scale automatic speech recognition system.
+
+===================================
+paper_id: 4325083; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 1; annotator2: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - specter - abs_tfidf - title_tfidf
+TITLE: A User-Study on Online Adaptation of Neural Machine Translation to Human Post-Edits
+ABSTRACT: background_label: The advantages of neural machine translation (NMT) have been extensively validated for offline translation of several language pairs for different domains of spoken and written language.
+background_label: However, research on interactive learning of NMT by adaptation to human post-edits has so far been confined to simulation experiments.
+objective_label: We present the first user study on online adaptation of NMT to user post-edits in the domain of patent translation.
+method_label: Our study involves 29 human subjects (translation students) whose post-editing effort and translation quality were measured on about 4,500 interactions of a human post-editor and a machine translation system integrating an online adaptive learning algorithm.
+result_label: Our experimental results show a significant reduction of human post-editing effort due to online adaptation in NMT according to several evaluation metrics, including hTER, hBLEU, and KSMR.
+result_label: Furthermore, we found significant improvements in BLEU/TER between NMT outputs and professional translations in granted patents, providing further evidence for the advantages of online adaptive NMT in an interactive setup.
+
+===================================
+paper_id: 153312783; YEAR: 2019
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: abs_cbow200
+TITLE: Diversify and Match: A Domain Adaptive Representation Learning Paradigm for Object Detection
+ABSTRACT: background_label: We introduce a novel unsupervised domain adaptation approach for object detection.
+objective_label: We aim to alleviate the imperfect translation problem of pixel-level adaptations, and the source-biased discriminativity problem of feature-level adaptations simultaneously.
+method_label: Our approach is composed of two stages, i.e., Domain Diversification (DD) and Multi-domain-invariant Representation Learning (MRL).
+method_label: At the DD stage, we diversify the distribution of the labeled data by generating various distinctive shifted domains from the source domain.
+method_label: At the MRL stage, we apply adversarial learning with a multi-domain discriminator to encourage feature to be indistinguishable among the domains.
+method_label: DD addresses the source-biased discriminativity, while MRL mitigates the imperfect image translation.
+method_label: We construct a structured domain adaptation framework for our learning paradigm and introduce a practical way of DD for implementation.
+result_label: Our method outperforms the state-of-the-art methods by a large margin of 3%~11% in terms of mean average precision (mAP) on various datasets.
+
+===================================
+paper_id: 52123353; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 0; annotator2: 1
+sources: title_tfidfcbow200 - title_cbow200
+TITLE: An Operation Sequence Model for Explainable Neural Machine Translation
+ABSTRACT: objective_label: We propose to achieve explainable neural machine translation (NMT) by changing the output representation to explain itself.
+objective_label: We present a novel approach to NMT which generates the target sentence by monotonically walking through the source sentence.
+method_label: Word reordering is modeled by operations which allow setting markers in the target sentence and move a target-side write head between those markers.
+method_label: In contrast to many modern neural models, our system emits explicit word alignment information which is often crucial to practical machine translation as it improves explainability.
+result_label: Our technique can outperform a plain text system in terms of BLEU score under the recent Transformer architecture on Japanese-English and Portuguese-English, and is within 0.5 BLEU difference on Spanish-English.
+
+===================================
+paper_id: 14657941; YEAR: 2014
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 1; annotator2: 0
+sources: abs_tfidf
+TITLE: Translation Model Based Weighting for Phrase Extraction
+ABSTRACT: background_label: Domain adaptation for statistical machine translation is the task of altering general models to improve performance on the test domain.
+objective_label: In this work, we suggest several novel weighting schemes based on translation models for adapted phrase extraction.
+method_label: To calculate the weights, we first phrase align the general bilingual training data, then, using domain specific translation models, the aligned data is scored and weights are defined over these scores.
+method_label: Experiments are performed on two translation tasks, German-to-English and Arabic-toEnglish translation with lectures as the target domain.
+method_label: Different weighting schemes based on translation models are compared, and significant improvements over automatic translation quality are reported.
+result_label: In addition, we compare our work to previous methods for adaptation and show significant gains.
+
+===================================
+paper_id: 174798282; YEAR: 2019
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: abs_cbow200
+TITLE: KERMIT: Generative Insertion-Based Modeling for Sequences
+ABSTRACT: background_label: We present KERMIT, a simple insertion-based approach to generative modeling for sequences and sequence pairs.
+background_label: KERMIT models the joint distribution and its decompositions (i.e., marginals and conditionals) using a single neural network and, unlike much prior work, does not rely on a prespecified factorization of the data distribution.
+method_label: During training, one can feed KERMIT paired data $(x, y)$ to learn the joint distribution $p(x, y)$, and optionally mix in unpaired data $x$ or $y$ to refine the marginals $p(x)$ or $p(y)$.
+method_label: During inference, we have access to the conditionals $p(x \mid y)$ and $p(y \mid x)$ in both directions.
+method_label: We can also sample from the joint distribution or the marginals.
+method_label: The model supports both serial fully autoregressive decoding and parallel partially autoregressive decoding, with the latter exhibiting an empirically logarithmic runtime.
+result_label: We demonstrate through experiments in machine translation, representation learning, and zero-shot cloze question answering that our unified approach is capable of matching or exceeding the performance of dedicated state-of-the-art systems across a wide range of tasks without the need for problem-specific architectural adaptation.
+
+===================================
+paper_id: 3291104; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: specter - title_tfidf
+TITLE: Data Augmentation for Low-Resource Neural Machine Translation
+ABSTRACT: background_label: The quality of a Neural Machine Translation system depends substantially on the availability of sizable parallel corpora.
+background_label: For low-resource language pairs this is not the case, resulting in poor translation quality.
+objective_label: Inspired by work in computer vision, we propose a novel data augmentation approach that targets low-frequency words by generating new sentence pairs containing rare words in new, synthetically created contexts.
+result_label: Experimental results on simulated low-resource settings show that our method improves translation quality by up to 2.9 BLEU points over the baseline and up to 3.2 BLEU over back-translation.
+
+===================================
+paper_id: 7177285; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 0; annotator2: 1
+sources: title_tfidfcbow200 - title_cbow200
+TITLE: Towards Bidirectional Hierarchical Representations for Attention-Based Neural Machine Translation
+ABSTRACT: objective_label: This paper proposes a hierarchical attentional neural translation model which focuses on enhancing source-side hierarchical representations by covering both local and global semantic information using a bidirectional tree-based encoder.
+method_label: To maximize the predictive likelihood of target words, a weighted variant of an attention mechanism is used to balance the attentive information between lexical and phrase vectors.
+method_label: Using a tree-based rare word encoding, the proposed model is extended to sub-word level to alleviate the out-of-vocabulary (OOV) problem.
+result_label: Empirical results reveal that the proposed model significantly outperforms sequence-to-sequence attention-based and tree-based neural translation models in English-Chinese translation tasks.
+
+===================================
+paper_id: 44131019; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_tfidf
+TITLE: Scaling Neural Machine Translation
+ABSTRACT: background_label: Sequence to sequence learning models still require several days to reach state of the art performance on large benchmark datasets using a single machine.
+background_label: This paper shows that reduced precision and large batch training can speedup training by nearly 5x on a single 8-GPU machine with careful tuning and implementation.
+background_label: On WMT'14 English-German translation, we match the accuracy of Vaswani et al.
+method_label: (2017) in under 5 hours when training on 8 GPUs and we obtain a new state of the art of 29.3 BLEU after training for 85 minutes on 128 GPUs.
+result_label: We further improve these results to 29.8 BLEU by training on the much larger Paracrawl dataset.
+result_label: On the WMT'14 English-French task, we obtain a state-of-the-art BLEU of 43.2 in 8.5 hours on 128 GPUs.
+
+===================================
+paper_id: 44157913; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 0; annotator2: 1
+sources: abs_tfidf - specter - title_tfidf
+TITLE: A Survey of Domain Adaptation for Neural Machine Translation
+ABSTRACT: background_label: Neural machine translation (NMT) is a deep learning based approach for machine translation, which yields the state-of-the-art translation performance in scenarios where large-scale parallel corpora are available.
+background_label: Although the high-quality and domain-specific translation is crucial in the real world, domain-specific corpora are usually scarce or nonexistent, and thus vanilla NMT performs poorly in such scenarios.
+background_label: Domain adaptation that leverages both out-of-domain parallel corpora as well as monolingual corpora for in-domain translation, is very important for domain-specific translation.
+objective_label: In this paper, we give a comprehensive survey of the state-of-the-art domain adaptation techniques for NMT.
+
+===================================
+paper_id: 65422233; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_tfidf - title_tfidfcbow200
+TITLE: MTIL2017: Machine Translation Using Recurrent Neural Network on Statistical Machine Translation
+ABSTRACT: background_label: Abstract Machine translation (MT) is the automatic translation of the source language to its target language by a computer system.
+objective_label: In the current paper, we propose an approach of using recurrent neural networks (RNNs) over traditional statistical MT (SMT).
+method_label: We compare the performance of the phrase table of SMT to the performance of the proposed RNN and in turn improve the quality of the MT output.
+method_label: This work has been done as a part of the shared task problem provided by the MTIL2017.
+method_label: We have constructed the traditional MT model using Moses toolkit and have additionally enriched the language model using external data sets.
+result_label: Thereafter, we have ranked the phrase tables using an RNN encoder-decoder module created originally as a part of the GroundHog project of LISA lab.
+
+===================================
+paper_id: 57928678; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_tfidfcbow200 - title_cbow200 - abs_cbow200 - title_tfidf
+TITLE: Neural machine translation of Basque
+ABSTRACT: background_label: We describe the first experimental results in neural machine translation for Basque.
+background_label: As a synthetic language featuring agglutinative morphology, an extended case system, complex verbal morphology and relatively free word order, Basque presents a large number of challenging characteristics for machine translation in general, and for data-driven approaches such as attention-based encoder-decoder models in particular.
+method_label: We present our results on a large range of experiments in Basque-Spanish translation, comparing several neural machine translation system variants with both rule-based and statistical machine translation systems.
+result_label: We demonstrate that significant gains can be obtained with a neural network approach for this challenging language pair, and describe optimal configurations in terms of word segmentation and decoding parameters, measured against test sets that feature multiple references to account for word order variability.
+
+===================================
+paper_id: 51865629; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 1; annotator1: 0; annotator2: 1
+sources: specter - abs_tfidfcbow200 - abs_cbow200
+TITLE: Auto-Encoding Variational Neural Machine Translation
+ABSTRACT: background_label: We present a deep generative model of bilingual sentence pairs for machine translation.
+method_label: The model generates source and target sentences jointly from a shared latent representation and is parameterised by neural networks.
+method_label: We perform efficient training using amortised variational inference and reparameterised gradients.
+method_label: Additionally, we discuss the statistical implications of joint modelling and propose an efficient approximation to maximum a posteriori decoding for fast test-time predictions.
+method_label: We demonstrate the effectiveness of our model in three machine translation scenarios: in-domain training, mixed-domain training, and learning from a mix of gold-standard and synthetic data.
+result_label: Our experiments show consistently that our joint formulation outperforms conditional modelling (i.e.
+result_label: standard neural machine translation) in all such scenarios.
+
+===================================
+paper_id: 15830483; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: title_tfidf
+TITLE: Neural Machine Translation with Reconstruction
+ABSTRACT: background_label: Although end-to-end Neural Machine Translation (NMT) has achieved remarkable progress in the past two years, it suffers from a major drawback: translations generated by NMT systems often lack of adequacy.
+background_label: It has been widely observed that NMT tends to repeatedly translate some source words while mistakenly ignoring other words.
+objective_label: To alleviate this problem, we propose a novel encoder-decoder-reconstructor framework for NMT.
+method_label: The reconstructor, incorporated into the NMT model, manages to reconstruct the input source sentence from the hidden layer of the output target sentence, to ensure that the information in the source side is transformed to the target side as much as possible.
+result_label: Experiments show that the proposed framework significantly improves the adequacy of NMT output and achieves superior translation result over state-of-the-art NMT and statistical MT systems.
+
+===================================
+paper_id: 16369942; YEAR: 2014
+adju relevance: Irrelevant (0)
+difference: 0; annotator1: 0; annotator2: 0
+sources: abs_tfidfcbow200 - abs_tfidf
+TITLE: Supervised domain adaptation for I-vector based speaker recognition
+ABSTRACT: background_label: In this paper, we present a comprehensive study on supervised domain adaptation of PLDA based i-vector speaker recognition systems.
+background_label: After describing the system parameters subject to adaptation, we study the impact of their adaptation on recognition performance.
+background_label: Using the recently designed domain adaptation challenge, we observe that the adaptation of the PLDA parameters (i.e.
+method_label: across-class and within-class co variances) produces the largest gains.
+method_label: Nonetheless, length-normalization is also important; whereas using an indomani UBM and T matrix is not crucial.
+method_label: For the PLDA adaptation, we compare four approaches.
+method_label: Three of them are proposed in this work, and a fourth one was previously published.
+result_label: Overall, the four techniques are successful at leveraging varying amounts of labeled in-domain data and their performance is quite similar.
+result_label: However, our approaches are less involved, and two of them are applicable to a larger class of models (low-rank across-class).
+

@@ -1,0 +1,1395 @@
+======================================================================
+paper_id: 7898033; YEAR: 2008
+TITLE: A Uniform Approach to Analogies, Synonyms, Antonyms, and Associations
+ABSTRACT: background_label: Recognizing analogies, synonyms, antonyms, and associations appear to be four distinct tasks, requiring distinct NLP algorithms.
+background_label: In the past, the four tasks have been treated independently, using a wide variety of algorithms.
+background_label: These four semantic classes, however, are a tiny sample of the full range of semantic phenomena, and we cannot afford to create ad hoc algorithms for each semantic phenomenon; we need to seek a unified approach.
+objective_label: We propose to subsume a broad range of phenomena under analogies.
+objective_label: To limit the scope of this paper, we restrict our attention to the subsumption of synonyms, antonyms, and associations.
+method_label: We introduce a supervised corpus-based machine learning algorithm for classifying analogous word pairs, and we show that it can solve multiple-choice SAT analogy questions, TOEFL synonym questions, ESL synonym-antonym questions, and similar-associated-both questions from cognitive psychology.
+===================================
+paper_id: 2468783; YEAR: 2006
+adju relevance: Identical (+3)
+difference: 1; annotator2: 2; annotator3: 3
+sources: cited - specter - abs_tfidf - title_tfidf
+TITLE: Similarity of Semantic Relations
+ABSTRACT: background_label: There are at least two kinds of similarity.
+background_label: Relational similarity is correspondence between relations, in contrast with attributional similarity, which is correspondence between attributes.
+background_label: When two words have a high degree of attributional similarity, we call them synonyms.
+background_label: When two pairs of words have a high degree of relational similarity, we say that their relations are analogous.
+background_label: For example, the word pair mason:stone is analogous to the pair carpenter:wood.
+method_label: This paper introduces Latent Relational Analysis (LRA), a method for measuring relational similarity.
+background_label: LRA has potential applications in many areas, including information extraction, word sense disambiguation, and information retrieval.
+background_label: Recently the Vector Space Model (VSM) of information retrieval has been adapted to measuring relational similarity, achieving a score of 47% on a collection of 374 college-level multiple-choice word analogy questions.
+background_label: In the VSM approach, the relation between a pair of words is characterized by a vector of frequencies of predefined patterns in a large corpus.
+method_label: LRA extends the VSM approach in three ways: (1) the patterns are derived automatically from the corpus, (2) the Singular Value Decomposition (SVD) is used to smooth the frequency data, and (3) automatically generated synonyms are used to explore variations of the word pairs.
+result_label: LRA achieves 56% on the 374 analogy questions, statistically equivalent to the average human score of 57%.
+result_label: On the related problem of classifying semantic relations, LRA achieves similar gains over the VSM.
+
+===================================
+paper_id: 5052538; YEAR: 2003
+adju relevance: Identical (+3)
+difference: 2; annotator2: 1; annotator3: 3
+sources: title_tfidf - specter - abs_tfidf
+TITLE: Learning Analogies and Semantic Relations
+ABSTRACT: background_label: We present an algorithm for learning from unlabeled text, based on the Vector Space Model (VSM) of information retrieval, that can solve verbal analogy questions of the kind found in the Scholastic Aptitude Test (SAT).
+background_label: A verbal analogy has the form A:B::C:D, meaning"A is to B as C is to D"; for example, mason:stone::carpenter:wood.
+method_label: SAT analogy questions provide a word pair, A:B, and the problem is to select the most analogous word pair, C:D, from a set of five choices.
+method_label: The VSM algorithm correctly answers 47% of a collection of 374 college-level analogy questions (random guessing would yield 20% correct).
+objective_label: We motivate this research by relating it to work in cognitive science and linguistics, and by applying it to a difficult problem in natural language processing, determining semantic relations in noun-modifier pairs.
+objective_label: The problem is to classify a noun-modifier pair, such as"laser printer", according to the semantic relation between the noun (printer) and the modifier (laser).
+method_label: We use a supervised nearest-neighbour algorithm that assigns a class to a given noun-modifier pair by finding the most analogous noun-modifier pair in the training data.
+method_label: With 30 classes of semantic relations, on a collection of 600 labeled noun-modifier pairs, the learning algorithm attains an F value of 26.5% (random guessing: 3.3%).
+result_label: With 5 classes of semantic relations, the F value is 43.2% (random: 20%).
+result_label: The performance is state-of-the-art for these challenging problems.
+
+===================================
+paper_id: 9322367; YEAR: 2005
+adju relevance: Identical (+3)
+difference: 2; annotator2: 1; annotator3: 3
+sources: cited - specter - abs_tfidf - title_tfidf
+TITLE: Corpus-based Learning of Analogies and Semantic Relations
+ABSTRACT: background_label: We present an algorithm for learning from unlabeled text, based on the Vector Space Model (VSM) of information retrieval, that can solve verbal analogy questions of the kind found in the SAT college entrance exam.
+background_label: A verbal analogy has the form A:B::C:D, meaning"A is to B as C is to D"; for example, mason:stone::carpenter:wood.
+method_label: SAT analogy questions provide a word pair, A:B, and the problem is to select the most analogous word pair, C:D, from a set of five choices.
+method_label: The VSM algorithm correctly answers 47% of a collection of 374 college-level analogy questions (random guessing would yield 20% correct; the average college-bound senior high school student answers about 57% correctly).
+objective_label: We motivate this research by applying it to a difficult problem in natural language processing, determining semantic relations in noun-modifier pairs.
+objective_label: The problem is to classify a noun-modifier pair, such as"laser printer", according to the semantic relation between the noun (printer) and the modifier (laser).
+method_label: We use a supervised nearest-neighbour algorithm that assigns a class to a given noun-modifier pair by finding the most analogous noun-modifier pair in the training data.
+method_label: With 30 classes of semantic relations, on a collection of 600 labeled noun-modifier pairs, the learning algorithm attains an F value of 26.5% (random guessing: 3.3%).
+result_label: With 5 classes of semantic relations, the F value is 43.2% (random: 20%).
+result_label: The performance is state-of-the-art for both verbal analogies and noun-modifier relations.
+
+===================================
+paper_id: 17792779; YEAR: 2014
+adju relevance: Similar (+2)
+difference: 1; annotator2: 1; annotator3: 2
+sources: specter - abs_tfidf
+TITLE: Taking Antonymy Mask off in Vector Space
+ABSTRACT: background_label: AbstractAutomatic detection of antonymy is an important task in Natural Language Processing (NLP) for Information Retrieval (IR), Ontology Learning (OL) and many other semantic applications.
+background_label: However, current unsupervised approaches to antonymy detection are still not fully effective because they cannot discriminate antonyms from synonyms.
+method_label: In this paper, we introduce APAnt, a new AveragePrecision-based measure for the unsupervised discrimination of antonymy from synonymy using Distributional Semantic Models (DSMs).
+method_label: APAnt makes use of Average Precision to estimate the extent and salience of the intersection among the most descriptive contexts of two target words.
+result_label: Evaluation shows that the proposed method is able to distinguish antonyms and synonyms with high accuracy across different parts of speech, including nouns, adjectives and verbs.
+result_label: APAnt outperforms the vector cosine and a baseline model implementing the cooccurrence hypothesis.
+
+===================================
+paper_id: 8494712; YEAR: 2015
+adju relevance: Similar (+2)
+difference: 1; annotator2: 1; annotator3: 2
+sources: abs_tfidf - specter
+TITLE: Word Embedding-based Antonym Detection using Thesauri and Distributional Information
+ABSTRACT: objective_label: This paper proposes a novel approach to train word embeddings to capture antonyms.
+background_label: Word embeddings have shown to capture synonyms and analogies.
+background_label: Such word embeddings, however, cannot capture antonyms since they depend on the distributional hypothesis.
+method_label: Our approach utilizes supervised synonym and antonym information from thesauri, as well as distributional information from large-scale unlabelled text data.
+result_label: The evaluation results on the GRE antonym question task show that our model outperforms the state-of-the-art systems and it can answer the antonym questions in the F-score of 89%.
+
+===================================
+paper_id: 29074; YEAR: 2003
+adju relevance: Similar (+2)
+difference: 1; annotator2: 2; annotator3: 3
+sources: cited - specter - abs_tfidf - title_tfidf
+TITLE: Combining Independent Modules to Solve Multiple-choice Synonym and Analogy Problems
+ABSTRACT: background_label: Existing statistical approaches to natural language problems are very coarse approximations to the true complexity of language processing.
+background_label: As such, no single technique will be best for all problem instances.
+background_label: Many researchers are examining ensemble methods that combine the output of successful, separately developed modules to create more accurate solutions.
+objective_label: This paper examines three merging rules for combining probability distributions: the well known mixture rule, the logarithmic rule, and a novel product rule.
+method_label: These rules were applied with state-of-the-art results to two problems commonly used to assess human mastery of lexical semantics -- synonym questions and analogy questions.
+result_label: All three merging rules result in ensembles that are more accurate than any of their component modules.
+result_label: The differences among the three rules are not statistically significant, but it is suggestive that the popular mixture rule is not the best rule for either of the two problems.
+
+===================================
+paper_id: 17342054; YEAR: 2015
+adju relevance: Related (+1)
+difference: 0; annotator2: 1; annotator3: 1
+sources: title_tfidfcbow200
+TITLE: A VSM-based Statistical Model for the Semantic Relation Interpretation of Noun-Modifier Pairs
+ABSTRACT: background_label: AbstractThe paper addresses the task of automatic interpretation of semantic relation in noun compounds.
+background_label: The problem has been attempted with both Ontology-based and Statistical approaches, but both approaches having their own limitations.
+method_label: We present a novel VSMbased statistical model which represents each relation with a weighted vector of prepositional and verbal paraphrases.
+method_label: The model ranks the paraphrases on their relevance and assigns higher weights to more relevant paraphrases.
+result_label: The performance of the model is compared with the Ontology model and the results are quite encouraging.
+result_label: We finally propose a Hybrid of the two models which compares on par with the best performing systems on Nastase and Szpakowicz (2003) dataset.
+
+===================================
+paper_id: 8073851; YEAR: 2009
+adju relevance: Related (+1)
+difference: 0; annotator2: 1; annotator3: 1
+sources: abs_tfidf
+TITLE: Using the Wiktionary Graph Structure for Synonym Detection
+ABSTRACT: background_label: This paper presents our work on using the graph structure of Wiktionary for synonym detection.
+method_label: We implement semantic relatedness metrics using both a direct measure of information flow on the graph and a comparison of the list of vertices found to be "close" to a given vertex.
+result_label: Our algorithms, evaluated on ESL 50, TOEFL 80 and RDWP 300 data sets, perform better than or comparable to existing semantic relatedness measures.
+
+===================================
+paper_id: 1796933; YEAR: 2011
+adju relevance: Related (+1)
+difference: 1; annotator2: 1; annotator3: 0
+sources: specter - abs_tfidf
+TITLE: Which Noun Phrases Denote Which Concepts?
+ABSTRACT: background_label: AbstractResolving polysemy and synonymy is required for high-quality information extraction.
+objective_label: We present ConceptResolver, a component for the Never-Ending Language Learner (NELL) (Carlson et al., 2010) that handles both phenomena by identifying the latent concepts that noun phrases refer to.
+method_label: ConceptResolver performs both word sense induction and synonym resolution on relations extracted from text using an ontology and a small amount of labeled data.
+method_label: Domain knowledge (the ontology) guides concept creation by defining a set of possible semantic types for concepts.
+method_label: Word sense induction is performed by inferring a set of semantic types for each noun phrase.
+method_label: Synonym detection exploits redundant information to train several domain-specific synonym classifiers in a semi-supervised fashion.
+result_label: When ConceptResolver is run on NELL's knowledge base, 87% of the word senses it creates correspond to real-world concepts, and 85% of noun phrases that it suggests refer to the same concept are indeed synonyms.
+
+===================================
+paper_id: 13245557; YEAR: 2015
+adju relevance: Related (+1)
+difference: 1; annotator2: 1; annotator3: 0
+sources: abs_tfidfcbow200
+TITLE: Exploring relation types for literature-based discovery
+ABSTRACT: objective_label: OBJECTIVE Literature-based discovery (LBD) aims to identify "hidden knowledge" in the medical literature by: (1) analyzing documents to identify pairs of explicitly related concepts (terms), then (2) hypothesizing novel relations between pairs of unrelated concepts that are implicitly related via a shared concept to which both are explicitly related.
+background_label: Many LBD approaches use simple techniques to identify semantically weak relations between concepts, for example, document co-occurrence.
+method_label: These generate huge numbers of hypotheses, difficult for humans to assess.
+method_label: More complex techniques rely on linguistic analysis, for example, shallow parsing, to identify semantically stronger relations.
+method_label: Such approaches generate fewer hypotheses, but may miss hidden knowledge.
+method_label: The authors investigate this trade-off in detail, comparing techniques for identifying related concepts to discover which are most suitable for LBD.
+method_label: MATERIALS AND METHODS A generic LBD system that can utilize a range of relation types was developed.
+background_label: Experiments were carried out comparing a number of techniques for identifying relations.
+method_label: Two approaches were used for evaluation: replication of existing discoveries and the "time slicing" approach.
+method_label: (1) RESULTS: Previous LBD discoveries could be replicated using relations based either on document co-occurrence or linguistic analysis.
+result_label: Using relations based on linguistic analysis generated many fewer hypotheses, but a significantly greater proportion of them were candidates for hidden knowledge.
+result_label: DISCUSSION AND CONCLUSION The use of linguistic analysis-based relations improves accuracy of LBD without overly damaging coverage.
+result_label: LBD systems often generate huge numbers of hypotheses, which are infeasible to manually review.
+result_label: Improving their accuracy has the potential to make these systems significantly more usable.
+
+===================================
+paper_id: 6708547; YEAR: 1998
+adju relevance: Related (+1)
+difference: 0; annotator2: 1; annotator3: 1
+sources: cited - specter - abs_tfidf - title_tfidf
+TITLE: Solving Analogies on Words: An Algorithm
+ABSTRACT: background_label: To introduce the algorithm presented in this paper, we take a path that is inverse to the historical development of the idea of analogy (see (Hoffman 95)).
+background_label: This is necessary, because a certain incomprehension is faced when speaking about linguistic analogy, i.e., it is generally given a broader and more psychological definition.
+background_label: Also, with our proposal being computational, it is impossible to ignore works about analogy in computer science, which has come to mean artificial intelligence.
+
+===================================
+paper_id: 12998616; YEAR: 2002
+adju relevance: Related (+1)
+difference: 1; annotator2: 1; annotator3: 0
+sources: specter - abs_tfidf
+TITLE: Near-Synonymy And Lexical Choice
+ABSTRACT: background_label: We develop a new computational model for representing the fine-grained meanings of near-synonyms and the differences between them.
+background_label: We also develop a lexical-choice process that can decide which of several near-synonyms is most appropriate in a particular situation.
+objective_label: This research has direct applications in machine translation and text generation.
+method_label: We first identify the problems of representing near-synonyms in a computational lexicon and show that no previous model adequately accounts for near-synonymy.
+method_label: We then propose a preliminary theory to account for near-synonymy, relying crucially on the notion of granularity of representation, in which the meaning of a word arises out of a context-dependent combination of a context-independent core meaning and a set of explicit differences to its near-synonyms.
+method_label: That is, near-synonyms cluster together.
+result_label: We then develop a clustered model of lexical knowledge, derived from the conventional ontological model.
+background_label: The model cuts off the ontology at a coarse grain, thus avoiding an awkward proliferation of language-dependent concepts in the ontology, yet maintaining the advantages of efficient computation and reasoning.
+background_label: The model groups near-synonyms into subconceptual clusters that are linked to the ontology.
+background_label: A cluster differentiates near-synonyms in terms of fine-grained aspects of denotation, implication, expressed attitude, and style.
+method_label: The model is general enough to account for other types of variation, for instance, in collocational behavior.
+method_label: An efficient, robust, and flexible fine-grained lexical-choice process is a consequence of a clustered model of lexical knowledge.
+method_label: To make it work, we formalize criteria for lexical choice as preferences to express certain concepts with varying indirectness, to express attitudes, and to establish certain styles.
+method_label: The lexical-choice process itself works on two tiers: between clusters and between near-synonyns of clusters.
+result_label: We describe our prototype implementation of the system, called I-Saurus.
+
+===================================
+paper_id: 14184076; YEAR: 2017
+adju relevance: Related (+1)
+difference: 1; annotator2: 0; annotator3: 1
+sources: title_tfidf - title_tfidfcbow200 - specter
+TITLE: Distinguishing Antonyms and Synonyms in a Pattern-based Neural Network
+ABSTRACT: background_label: Distinguishing between antonyms and synonyms is a key task to achieve high performance in NLP systems.
+background_label: While they are notoriously difficult to distinguish by distributional co-occurrence models, pattern-based methods have proven effective to differentiate between the relations.
+method_label: In this paper, we present a novel neural network model AntSynNET that exploits lexico-syntactic patterns from syntactic parse trees.
+method_label: In addition to the lexical and syntactic information, we successfully integrate the distance between the related words along the syntactic path as a new pattern feature.
+result_label: The results from classification experiments show that AntSynNET improves the performance over prior pattern-based methods.
+
+===================================
+paper_id: 13179349; YEAR: 2013
+adju relevance: Related (+1)
+difference: 0; annotator2: 1; annotator3: 1
+sources: title_tfidf - title_cbow200
+TITLE: Context, cortex, and associations: a connectionist developmental approach to verbal analogies
+ABSTRACT: background_label: We present a PDP model of binary choice verbal analogy problems (A:B as C:[D1|D2], where D1 and D2 represent choice alternatives).
+method_label: We train a recurrent neural network in item-relation-item triples and use this network to test performance on analogy questions.
+method_label: Without training on analogy problems per se, the model explains the developmental shift from associative to relational responding as an emergent consequence of learning upon the environment's statistics.
+method_label: Such learning allows gradual, item-specific acquisition of relational knowledge to overcome the influence of unbalanced association frequency, accounting for association effects of analogical reasoning seen in cognitive development.
+result_label: The network also captures the overall degradation in performance after anterior temporal damage by deleting a fraction of learned connections, while capturing the return of associative dominance after frontal damage by treating frontal structures as necessary for maintaining activation of A and B while seeking a relation between C and D. While our theory is still far from being complete it provides a unified explanation of findings that need to be considered together in any integrated account of analogical reasoning.
+
+===================================
+paper_id: 2010697; YEAR: 2012
+adju relevance: Related (+1)
+difference: 0; annotator2: 1; annotator3: 1
+sources: abs_tfidf - specter
+TITLE: Polarity Inducing Latent Semantic Analysis
+ABSTRACT: background_label: AbstractExisting vector space models typically map synonyms and antonyms to similar word vectors, and thus fail to represent antonymy.
+method_label: We introduce a new vector space representation where antonyms lie on opposite sides of a sphere: in the word vector space, synonyms have cosine similarities close to one, while antonyms are close to minus one.We derive this representation with the aid of a thesaurus and latent semantic analysis (LSA).
+method_label: Each entry in the thesaurus -a word sense along with its synonyms and antonyms -is treated as a "document," and the resulting document collection is subjected to LSA.
+result_label: The key contribution of this work is to show how to assign signs to the entries in the co-occurrence matrix on which LSA operates, so as to induce a subspace with the desired property.We evaluate this procedure with the Graduate Record Examination questions of (Mohammed et al., 2008) and find that the method improves on the results of that study.
+result_label: Further improvements result from refining the subspace representation with discriminative training, and augmenting the training data with general newspaper text.
+result_label: Altogether, we improve on the best previous results by 11 points absolute in F measure.
+
+===================================
+paper_id: 1359050; YEAR: 1997
+adju relevance: Related (+1)
+difference: 1; annotator2: 1; annotator3: 0
+sources: cited - specter - abs_tfidf - title_tfidf
+TITLE: Semantic Similarity Based on Corpus Statistics and Lexical Taxonomy
+ABSTRACT: objective_label: This paper presents a new approach for measuring semantic similarity/distance between words and concepts.
+objective_label: It combines a lexical taxonomy structure with corpus statistical information so that the semantic distance between nodes in the semantic space constructed by the taxonomy can be better quantified with the computational evidence derived from a distributional analysis of corpus data.
+method_label: Specifically, the proposed measure is a combined approach that inherits the edge-based approach of the edge counting scheme, which is then enhanced by the node-based approach of the information content calculation.
+method_label: When tested on a common data set of word pair similarity ratings, the proposed approach outperforms other computational models.
+result_label: It gives the highest correlation value (r = 0.828) with a benchmark based on human similarity judgements, whereas an upper bound (r = 0.885) is observed when human subjects replicate the same task.
+
+===================================
+paper_id: 10202222; YEAR: 2013
+adju relevance: Related (+1)
+difference: 1; annotator2: 1; annotator3: 2
+sources: specter
+TITLE: Distributional semantics beyond words: Supervised learning of analogy and paraphrase
+ABSTRACT: background_label: There have been several efforts to extend distributional semantics beyond individual words, to measure the similarity of word pairs, phrases, and sentences (briefly, tuples; ordered sets of words, contiguous or noncontiguous).
+background_label: One way to extend beyond words is to compare two tuples using a function that combines pairwise similarities between the component words in the tuples.
+background_label: A strength of this approach is that it works with both relational similarity (analogy) and compositional similarity (paraphrase).
+background_label: However, past work required hand-coding the combination function for different tasks.
+objective_label: The main contribution of this paper is that combination functions are generated by supervised learning.
+result_label: We achieve state-of-the-art results in measuring relational similarity between word pairs (SAT analogies and SemEval~2012 Task 2) and measuring compositional similarity between noun-modifier phrases and unigrams (multiple-choice paraphrase questions).
+
+===================================
+paper_id: 10544909; YEAR: 2017
+adju relevance: Related (+1)
+difference: 0; annotator2: 1; annotator3: 1
+sources: title_tfidfcbow200 - title_cbow200
+TITLE: Retrofitting Concept Vector Representations of Medical Concepts to Improve Estimates of Semantic Similarity and Relatedness
+ABSTRACT: background_label: Estimation of semantic similarity and relatedness between biomedical concepts has utility for many informatics applications.
+method_label: Automated methods fall into two categories: methods based on distributional statistics drawn from text corpora, and methods using the structure of existing knowledge resources.
+background_label: Methods in the former category disregard taxonomic structure, while those in the latter fail to consider semantically relevant empirical information.
+method_label: In this paper, we present a method that retrofits distributional context vector representations of biomedical concepts using structural information from the UMLS Metathesaurus, such that the similarity between vector representations of linked concepts is augmented.
+method_label: We evaluated it on the UMNSRS benchmark.
+result_label: Our results demonstrate that retrofitting of concept vector representations leads to better correlation with human raters for both similarity and relatedness, surpassing the best results reported to date.
+result_label: They also demonstrate a clear improvement in performance on this reference standard for retrofitted vector representations, as compared to those without retrofitting.
+
+===================================
+paper_id: 14624577; YEAR: 2007
+adju relevance: Related (+1)
+difference: 0; annotator2: 1; annotator3: 1
+sources: cited - specter - abs_tfidf - title_tfidf
+TITLE: SemEval-2007 Task 04: Classification of Semantic Relations between Nominals
+ABSTRACT: background_label: The NLP community has shown a renewed interest in deeper semantic analyses, among them automatic recognition of relations between pairs of words in a text.
+objective_label: We present an evaluation task designed to provide a framework for comparing different approaches to classifying semantic relations between nominals in a sentence.
+method_label: This is part of SemEval, the 4th edition of the semantic evaluation event previously known as SensEval.
+method_label: We define the task, describe the training/test data and their creation, list the participating systems and discuss their results.
+result_label: There were 14 teams who submitted 15 systems.
+
+===================================
+paper_id: 682154; YEAR: 2008
+adju relevance: Related (+1)
+difference: 0; annotator2: 1; annotator3: 1
+sources: specter - abs_cbow200
+TITLE: Solving Relational Similarity Problems Using the Web as a Corpus
+ABSTRACT: background_label: AbstractWe present a simple linguistically-motivated method for characterizing the semantic relations that hold between two nouns.
+background_label: The approach leverages the vast size of the Web in order to build lexically-specific features.
+objective_label: The main idea is to look for verbs, prepositions, and coordinating conjunctions that can help make explicit the hidden relations between the target nouns.
+result_label: Using these features in instance-based classifiers, we demonstrate state-of-the-art results on various relational similarity problems, including mapping noun-modifier pairs to abstract relations like TIME, LOCATION and CONTAINER, characterizing noun-noun compounds in terms of abstract linguistic predicates like CAUSE, USE, and FROM, classifying the relations between nominals in context, and solving SAT verbal analogy problems.
+result_label: In essence, the approach puts together some existing ideas, showing that they apply generally to various semantic tasks, finding that verbs are especially useful features.
+
+===================================
+paper_id: 8570237; YEAR: 2001
+adju relevance: Related (+1)
+difference: 0; annotator2: 1; annotator3: 1
+sources: cited - specter - abs_tfidf - title_tfidf
+TITLE: Classifying The Semantic Relations In Noun Compounds Via A Domain-Specific Lexical Hierarchy
+ABSTRACT: background_label: AbstractWe are developing corpus-based techniques for identifying semantic relations at an intermediate level of description (more specific than those used in case frames, but more general than those used in traditional knowledge representation systems).
+objective_label: In this paper we describe a classification algorithm for identifying relationships between two-word noun compounds.
+result_label: We find that a very simple approach using a machine learning algorithm and a domain-specific lexical hierarchy successfully generalizes from training instances, performing better on previously unseen words than a baseline consisting of training on the words themselves.
+
+===================================
+paper_id: 201103753; YEAR: 2019
+adju relevance: Related (+1)
+difference: 0; annotator2: 1; annotator3: 1
+sources: specter
+TITLE: CA-EHN: Commonsense Word Analogy from E-HowNet
+ABSTRACT: background_label: Word analogy tasks have tended to be handcrafted, involving permutations of hundreds of words with dozens of relations, mostly morphological relations and named entities.
+objective_label: Here, we propose modeling commonsense knowledge down to word-level analogical reasoning.
+method_label: We present CA-EHN, the first commonsense word analogy dataset containing 85K analogies covering 5K words and 6K commonsense relations.
+method_label: This was compiled by leveraging E-HowNet, an ontology that annotates 88K Chinese words with their structured sense definitions and English translations.
+result_label: Experiments show that CA-EHN stands out as a great indicator of how well word representations embed commonsense structures, which is crucial for future end-to-end models to generalize inference beyond training corpora.
+other_label: The dataset is publicly available at \url{https://github.com/jacobvsdanniel/CA-EHN}.
+
+===================================
+paper_id: 14680675; YEAR: 2006
+adju relevance: Related (+1)
+difference: 0; annotator2: 1; annotator3: 1
+sources: specter
+TITLE: Semantic Taxonomy Induction From Heterogenous Evidence
+ABSTRACT: background_label: We propose a novel algorithm for inducing semantic taxonomies.
+background_label: Previous algorithms for taxonomy induction have typically focused on independent classifiers for discovering new single relationships based on hand-constructed or automatically discovered textual patterns.
+method_label: By contrast, our algorithm flexibly incorporates evidence from multiple classifiers over heterogenous relationships to optimize the entire structure of the taxonomy, using knowledge of a word's coordinate terms to help in determining its hypernyms, and vice versa.
+method_label: We apply our algorithm on the problem of sense-disambiguated noun hyponym acquisition, where we combine the predictions of hypernym and coordinate term classifiers with the knowledge in a preexisting semantic taxonomy (WordNet 2.1).
+method_label: We add 10,000 novel synsets to WordNet 2.1 at 84% precision, a relative error reduction of 70% over a non-joint algorithm using the same component classifiers.
+result_label: Finally, we show that a taxonomy built using our algorithm shows a 23% relative F-score improvement over WordNet 2.1 on an independent testset of hypernym pairs.
+
+===================================
+paper_id: 17017087; YEAR: 2013
+adju relevance: Related (+1)
+difference: 1; annotator2: 0; annotator3: 1
+sources: specter
+TITLE: Align, Disambiguate and Walk: A Unified Approach for Measuring Semantic Similarity
+ABSTRACT: background_label: AbstractSemantic similarity is an essential component of many Natural Language Processing applications.
+background_label: However, prior methods for computing semantic similarity often operate at different levels, e.g., single words or entire documents, which requires adapting the method for each data type.
+method_label: We present a unified approach to semantic similarity that operates at multiple levels, all the way from comparing word senses to comparing text documents.
+method_label: Our method leverages a common probabilistic representation over word senses in order to compare different types of linguistic data.
+result_label: This unified representation shows state-ofthe-art performance on three tasks: semantic textual similarity, word similarity, and word sense coarsening.
+
+===================================
+paper_id: 16186615; YEAR: 2013
+adju relevance: Related (+1)
+difference: 1; annotator2: 1; annotator3: 0
+sources: title_tfidf - title_tfidfcbow200 - specter - abs_tfidf
+TITLE: Uncovering Distributional Differences between Synonyms and Antonyms in a Word Space Model
+ABSTRACT: background_label: AbstractFor many NLP applications such as Information Extraction and Sentiment Detection, it is of vital importance to distinguish between synonyms and antonyms.
+method_label: While the general assumption is that distributional models are not suitable for this task, we demonstrate that using suitable features, differences in the contexts of synonymous and antonymous German adjective pairs can be identified with a simple word space model.
+result_label: Experimenting with two context settings (a simple windowbased model and a 'co-disambiguation model' to approximate adjective sense disambiguation), our best model significantly outperforms the 50% baseline and achieves 70.6% accuracy in a synonym/antonym classification task.
+
+===================================
+paper_id: 9828393; YEAR: 2012
+adju relevance: Related (+1)
+difference: 1; annotator2: 1; annotator3: 0
+sources: abs_tfidf - title_tfidfcbow200
+TITLE: The role of polarity in antonym and synonym conceptual knowledge: Evidence from stroke aphasia and multidimensional ratings of abstract words
+ABSTRACT: background_label: This study describes an investigation of different types of semantic relationship among abstract words: antonyms (e.g.
+background_label: good-bad), synonyms (e.g.
+other_label: good-great), non-antonymous, non-synonymous associates (NANSAs; e.g.
+other_label: good-fun) and unrelated words (e.g.
+background_label: good-late).
+result_label: The comprehension and semantic properties of these words were examined using two distinct methodologies.
+background_label: Experiment 1 tested the comprehension of pairs of abstract words in three patients with global aphasia using a spoken word to written word matching paradigm.
+background_label: Contrary to expectations, all three patients showed superior antonym comprehension compared with synonyms or NANSAs, discriminating antonyms with a similar level of accuracy as unrelated words.
+method_label: Experiment 2 aimed to explore the content or semantic attributes of the abstract words used in Experiment 1 through the generation of control ratings across nine cognitive dimensions (sensation, action, thought, emotion, social interaction, space, time, quantity and polarity).
+result_label: Discrepancy analyses revealed that antonyms were as or more similar to one another than synonyms on all but one measure: polarity.
+result_label: The results of Experiment 2 provide a possible explanation for the novel pattern of neuropsychological data observed in Experiment 1, namely that polarity information is more important than other semantic attributes when discriminating the meaning of abstract words.
+result_label: It is argued that polarity is a critical semantic attribute of abstract words, and that simple 'dissimilarity' metrics mask fundamental consistencies in the semantic representation of antonyms.
+result_label: It is also suggested that mapping abstract semantic space requires the identification and quantification of the contribution made to abstract concepts by not only sensorimotor and emotional information but also a host of other cognitive dimensions.
+
+===================================
+paper_id: 3201604; YEAR: 2001
+adju relevance: Related (+1)
+difference: 1; annotator2: 0; annotator3: 1
+sources: abs_cbow200
+TITLE: Searching in metric spaces
+ABSTRACT: background_label: The problem of searching the elements of a set that are close to a given query element under some similarity criterion has a vast number of applications in many branches of computer science, from pattern recognition to textual and multimedia information retrieval.
+background_label: We are interested in the rather general case where the similarity criterion defines a metric space, instead of the more restricted case of a vector space.
+background_label: Many solutions have been proposed in different areas, in many cases without cross-knowledge.
+method_label: Because of this, the same ideas have been reconceived several times, and very different presentations have been given for the same approaches.
+result_label: We present some basic results that explain the intrinsic difficulty of the search problem.
+background_label: This includes a quantitative definition of the elusive concept of "intrinsic dimensionality."
+background_label: We also present a unified view of all the known proposals to organize metric spaces, so as to be able to understand them under a common framework.
+background_label: Most approaches turn out to be variations on a few different concepts.
+method_label: We organize those works in a taxonomy that allows us to devise new algorithms from combinations of concepts not noticed before because of the lack of communication between different communities.
+result_label: We present experiments validating our results and comparing the existing approaches.
+result_label: We finish with recommendations for practitioners and open questions for future development.
+
+===================================
+paper_id: 15863641; YEAR: 2009
+adju relevance: Related (+1)
+difference: 0; annotator2: 1; annotator3: 1
+sources: abs_tfidf - specter - title_tfidf
+TITLE: Extracting Synonyms from Dictionary Definitions
+ABSTRACT: background_label: AbstractWe investigate the problem of extracting synonyms from dictionary definitions.
+objective_label: Our premise for using definition texts in dictionaries is that, in contrast to freetexts, their composition usually exhibits more regularities in terms of syntax and style and thus, will provide a better controlled environment for synonym extraction.
+method_label: We propose three extraction methods: two rule-based ones and one using the maximum entropy model; each method is evaluated on three experiments -by solving TOEFL synonym questions, by comparing extraction results with existing thesauri, and by labeling synonyms in definition texts.
+result_label: Results show that simple rule-based extraction methods perform surprisingly well on solving TOEFL synonym questions; they actually out-perform the best reported lexicon-based method by a large margin, although they do not correlate as well with existing thesauri.
+
+===================================
+paper_id: 7289480; YEAR: 2003
+adju relevance: Related (+1)
+difference: 0; annotator2: 1; annotator3: 1
+sources: abs_tfidf
+TITLE: Optimizing Synonym Extraction Using Monolingual And Bilingual Resources
+ABSTRACT: background_label: Automatically acquiring synonymous words (synonyms) from corpora is a challenging task.
+background_label: For this task, methods that use only one kind of resources are inadequate because of low precision or low recall.
+method_label: To improve the performance of synonym extraction, we propose a method to extract synonyms with multiple resources including a monolingual dictionary, a bilingual corpus, and a large monolingual corpus.
+method_label: This approach uses an ensemble to combine the synonyms extracted by individual extractors which use the three resources.
+result_label: Experimental results prove that the three resources are complementary to each other on synonym extraction, and that the ensemble method we used is very effective to improve both precisions and recalls of extracted synonyms.
+
+===================================
+paper_id: 5509836; YEAR: 2002
+adju relevance: Related (+1)
+difference: 0; annotator2: 1; annotator3: 1
+sources: cited - specter - abs_tfidf - title_tfidf
+TITLE: Mining the Web for Synonyms: PMI-IR versus LSA on TOEFL
+ABSTRACT: background_label: This paper presents a simple unsupervised learning algorithm for recognizing synonyms, based on statistical data acquired by querying a Web search engine.
+method_label: The algorithm, called PMI-IR, uses Pointwise Mutual Information (PMI) and Information Retrieval (IR) to measure the similarity of pairs of words.
+method_label: PMI-IR is empirically evaluated using 80 synonym test questions from the Test of English as a Foreign Language (TOEFL) and 50 synonym test questions from a collection of tests for students of English as a Second Language (ESL).
+method_label: On both tests, the algorithm obtains a score of 74%.
+method_label: PMI-IR is contrasted with Latent Semantic Analysis (LSA), which achieves a score of 64% on the same 80 TOEFL questions.
+result_label: The paper discusses potential applications of the new unsupervised learning algorithm and some implications of the results for LSA and LSI (Latent Semantic Indexing).
+
+===================================
+paper_id: 14673969; YEAR: 2009
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_tfidf - specter - title_tfidf
+TITLE: Grouping Synonyms by Definitions
+ABSTRACT: method_label: We present a method for grouping the synonyms of a lemma according to its dictionary senses.
+method_label: The senses are defined by a large machine readable dictionary for French, the TLFi (Tr\'esor de la langue fran\c{c}aise informatis\'e) and the synonyms are given by 5 synonym dictionaries (also for French).
+method_label: To evaluate the proposed method, we manually constructed a gold standard where for each (word, definition) pair and given the set of synonyms defined for that word by the 5 synonym dictionaries, 4 lexicographers specified the set of synonyms they judge adequate.
+result_label: While inter-annotator agreement ranges on that task from 67% to at best 88% depending on the annotator pair and on the synonym dictionary being considered, the automatic procedure we propose scores a precision of 67% and a recall of 71%.
+result_label: The proposed method is compared with related work namely, word sense disambiguation, synonym lexicon acquisition and WordNet construction.
+
+===================================
+paper_id: 195316636; YEAR: 2019
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_tfidfcbow200 - abs_cbow200
+TITLE: A Comparative Survey of Recent Natural Language Interfaces for Databases
+ABSTRACT: background_label: Over the last few years natural language interfaces (NLI) for databases have gained significant traction both in academia and industry.
+background_label: These systems use very different approaches as described in recent survey papers.
+background_label: However, these systems have not been systematically compared against a set of benchmark questions in order to rigorously evaluate their functionalities and expressive power.
+objective_label: In this paper, we give an overview over 24 recently developed NLIs for databases.
+method_label: Each of the systems is evaluated using a curated list of ten sample questions to show their strengths and weaknesses.
+method_label: We categorize the NLIs into four groups based on the methodology they are using: keyword-, pattern-, parsing-, and grammar-based NLI.
+method_label: Overall, we learned that keyword-based systems are enough to answer simple questions.
+method_label: To solve more complex questions involving subqueries, the system needs to apply some sort of parsing to identify structural dependencies.
+method_label: Grammar-based systems are overall the most powerful ones, but are highly dependent on their manually designed rules.
+result_label: In addition to providing a systematic analysis of the major systems, we derive lessons learned that are vital for designing NLIs that can answer a wide range of user questions.
+
+===================================
+paper_id: 18050299; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_cbow200 - abs_tfidfcbow200
+TITLE: An Analysis of Visual Question Answering Algorithms
+ABSTRACT: background_label: In visual question answering (VQA), an algorithm must answer text-based questions about images.
+background_label: While multiple datasets for VQA have been created since late 2014, they all have flaws in both their content and the way algorithms are evaluated on them.
+background_label: As a result, evaluation scores are inflated and predominantly determined by answering easier questions, making it difficult to compare different methods.
+objective_label: In this paper, we analyze existing VQA algorithms using a new dataset.
+method_label: It contains over 1.6 million questions organized into 12 different categories.
+method_label: We also introduce questions that are meaningless for a given image to force a VQA system to reason about image content.
+method_label: We propose new evaluation schemes that compensate for over-represented question-types and make it easier to study the strengths and weaknesses of algorithms.
+method_label: We analyze the performance of both baseline and state-of-the-art VQA models, including multi-modal compact bilinear pooling (MCB), neural module networks, and recurrent answering units.
+result_label: Our experiments establish how attention helps certain categories more than others, determine which models work better than others, and explain how simple models (e.g.
+result_label: MLP) can surpass more complex models (MCB) by simply learning to answer large, easy question categories.
+
+===================================
+paper_id: 8402900; YEAR: 1997
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidfcbow200
+TITLE: Language-naive chimpanzees (Pan troglodytes) judge relations between relations in a conceptual matching-to-sample task.
+ABSTRACT: background_label: Three chimpanzees with a history of conditional and numeric token training spontaneously matched relations between relations under conditions of nondifferential reinforcement.
+background_label: Heretofore, this conceptual ability was demonstrated only in language-trained chimpanzees.
+background_label: The performance levels of the language-naive animals in this study, however, were equivalent to those of a 4th animal--Sarah--whose history included language training and analogical problem solving.
+background_label: There was no evidence that associative factors mediated successful performance in any of the animals.
+result_label: Prior claims of a profound disparity between language-trained and language-naive chimpanzees apparently can be attributed to prior experience with arbitrary tokens consistently associated with abstract relations and not language per se.
+
+===================================
+paper_id: 21528614; YEAR: 2007
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_cbow200
+TITLE: The supermatrix approach to systematics.
+ABSTRACT: background_label: Recent reviews of the construction of large phylogenies have focused on supertree methods that involve separate analyses of data sets and subsequent integration of the resulting trees.
+method_label: Here, we consider the alternative method of analyzing all character data simultaneously.
+method_label: Such 'supermatrix' analyses use information from each character directly and enable straightforward incorporation of diverse kinds of data, including characters from fossils.
+method_label: The approach has been extended by the development of new methods, including model-based techniques for analyzing heterogeneous data and hierarchical methods for constructing extremely large trees.
+method_label: Recent work also suggests that the problem of missing data in supermatrix analyses has been overstated.
+result_label: Although the supermatrix approach is not suited for all cases, we suggest that its inherent strengths will ensure that it will continue to have a central role in inferring large phylogenetic trees from diverse data.
+
+===================================
+paper_id: 6468765; YEAR: 2015
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_tfidfcbow200
+TITLE: Semi-supervised Question Retrieval with Gated Convolutions
+ABSTRACT: background_label: Question answering forums are rapidly growing in size with no effective automated ability to refer to and reuse answers already available for previous posted questions.
+background_label: In this paper, we develop a methodology for finding semantically related questions.
+background_label: The task is difficult since 1) key pieces of information are often buried in extraneous details in the question body and 2) available annotations on similar questions are scarce and fragmented.
+method_label: We design a recurrent and convolutional model (gated convolution) to effectively map questions to their semantic representations.
+method_label: The models are pre-trained within an encoder-decoder framework (from body to title) on the basis of the entire raw corpus, and fine-tuned discriminatively from limited annotations.
+result_label: Our evaluation demonstrates that our model yields substantial gains over a standard IR baseline and various neural network architectures (including CNNs, LSTMs and GRUs).
+
+===================================
+paper_id: 144086530; YEAR: 1996
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidfcbow200 - title_tfidf
+TITLE: Lattice analysis and the representation of handicap associations
+ABSTRACT: objective_label: A main goal of this paper is to show how lattice analysis and the computer program GLAD can help in understanding the associations among psychological/somatic handicaps for a population of children excluded from school because of those handicaps.
+method_label: The lattices can be taken as a conceptual as well as an implicational model of multiple handicaps because of their capacity for formalizing the definitions of disorders in terms of extensions or intensions.
+result_label: Certain substructures of the lattice, weighted by the frequencies of the subject groups, can display the assessed associations between handicaps, thus addressing quite directly the research questions of the health services.
+
+===================================
+paper_id: 3968254; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_cbow200
+TITLE: Stacking with Auxiliary Features for Visual Question Answering
+ABSTRACT: background_label: AbstractVisual Question Answering (VQA) is a wellknown and challenging task that requires systems to jointly reason about natural language and vision.
+background_label: Deep learning models in various forms have been the standard for solving VQA.
+background_label: However, some of these VQA models are better at certain types of image-question pairs than other models.
+method_label: Ensembling VQA models intelligently to leverage their diverse expertise is, therefore, advantageous.Stacking With Auxiliary Features (SWAF) is an intelligent ensembling technique which learns to combine the results of multiple models using features of the current problem as context.
+method_label: We propose four categories of auxiliary features for ensembling for VQA.
+method_label: Three out of the four categories of features can be inferred from an image-question pair and do not require querying the component models.
+method_label: The fourth category of auxiliary features uses model-specific explanations.
+method_label: In this paper, we describe how we use these various categories of auxiliary features to improve performance for VQA.
+method_label: Using SWAF to effectively ensemble three recent systems, we obtain a new state-of-the-art.
+result_label: Our work also highlights the advantages of explainable AI models.
+
+===================================
+paper_id: 67033226; YEAR: 2006
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: cited - specter - abs_tfidf - title_tfidf
+TITLE: Purest Ever Example-Based Machine Translation: detailed presentation and assessment
+ABSTRACT: background_label: We have designed, implemented and assessed an EBMT system that can be dubbed the 'purest ever built': it strictly does not make any use of variables, templates or patterns, does not have any explicit transfer component, and does not require any preprocessing or training of the aligned examples.
+method_label: It only uses a specic operation, proportional analogy, that implicitly neutralises divergences between lan- guages and captures lexical and syntactical variations along the paradigmatic and syntagmatic axes without explicitly decomposing sentences into fragments.
+method_label: Exactly the same genuine implementation of such a core engine was evaluated on dieren t tasks and language pairs.
+method_label: To begin with, we compared our system on two tasks of a previous MT evaluation campaign to rank it among other current state-of-the-art systems.
+method_label: Then, we illustrated the 'universality' of our system by participating in a recent MT evaluation campaign, with exactly the same core engine, for a wide variety of language pairs.
+result_label: Finally, we studied the inuence of extra data like dictionaries and paraphrases on the system performance.
+
+===================================
+paper_id: 291860; YEAR: 2004
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_cbow200
+TITLE: The TSIMMIS Approach to Mediation: Data Models and Languages
+ABSTRACT: background_label: TSIMMIS—The Stanford-IBM Manager of Multiple InformationSources—is a system for integrating information.
+background_label: It offers a datamodel and a common query language that are designed to support thecombining of information from many different sources.
+background_label: It also offerstools for generating automatically the components that are needed tobuild systems for integrating information.
+objective_label: In this paper we shalldiscuss the principal architectural features and their rationale.
+
+===================================
+paper_id: 12137139; YEAR: 2008
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_tfidf
+TITLE: An empirical study of gene synonym query expansion in biomedical information retrieval
+ABSTRACT: background_label: Due to the heavy use of gene synonyms in biomedical text, people have tried many query expansion techniques using synonyms in order to improve performance in biomedical information retrieval.
+background_label: However, mixed results have been reported.
+background_label: The main challenge is that it is not trivial to assign appropriate weights to the added gene synonyms in the expanded query; under-weighting of synonyms would not bring much benefit, while overweighting some unreliable synonyms can hurt performance significantly.
+background_label: So far, there has been no systematic evaluation of various synonym query expansion strategies for biomedical text.
+method_label: In this work, we propose two different strategies to extend a standard language modeling approach for gene synonym query expansion and conduct a systematic evaluation of these methods on all the available TREC biomedical text collections for ad hoc document retrieval.
+result_label: Our experiment results show that synonym expansion can significantly improve the retrieval accuracy.
+result_label: However, different query types require different synonym expansion methods, and appropriate weighting of gene names and synonym terms is critical for improving performance.
+
+===================================
+paper_id: 82456167; YEAR: 2007
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidf
+TITLE: Janeway's Immunobiology
+ABSTRACT: background_label: Part I An Introduction to Immunobiology and Innate Immunity 1.
+background_label: Basic Concepts in Immunology 2.
+background_label: Innate Immunity Part II The Recognition of Antigen 3.
+background_label: Antigen Recognition by B-cell and T-cell Receptors 4.
+method_label: The Generation of Lymphocyte Antigen Receptors 5.
+method_label: Antigen Presentation to T Lymphocytes Part III The Development of Mature Lymphocyte Receptor Repertoires 6.
+method_label: Signaling Through Immune System Receptors 7.
+result_label: The Development and Survival of Lymphocytes Part IV The Adaptive Immune Response 8.
+background_label: T Cell-Mediated Immunity 9.
+background_label: The Humoral Immune Response 10.
+background_label: Dynamics of Adaptive Immunity 11.
+other_label: The Mucosal Immune System Part V The Immune System in Health and Disease 12.
+background_label: Failures of Host Defense Mechanism 13.
+other_label: Allergy and Hypersensitivity 14.
+other_label: Autoimmunity and Transplantation 15.
+other_label: Manipulation of the Immune Response Part VI The Origins of Immune Responses 16.
+other_label: Evolution of the Immune System Appendix I Immunologists' Toolbox Appendix II CD Antigens Appendix III Cytokines and their Receptors Appendix IV Chemokines and their Receptors Appendix V Immunological Constants
+
+===================================
+paper_id: 17525632; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_tfidfcbow200
+TITLE: Learning Distributed Representations of Data in Community Question Answering for Question Retrieval
+ABSTRACT: background_label: We study the problem of question retrieval in community question answering (CQA).
+background_label: The biggest challenge within this task is lexical gaps between questions since similar questions are usually expressed with different but semantically related words.
+method_label: To bridge the gaps, state-of-the-art methods incorporate extra information such as word-to-word translation and categories of questions into the traditional language models.
+method_label: We find that the existing language model based methods can be interpreted using a new framework, that is they represent words and question categories in a vector space and calculate question-question similarities with a linear combination of dot products of the vectors.
+method_label: The problem is that these methods are either heuristic on data representation or difficult to scale up.
+result_label: We propose a principled and efficient approach to learning representations of data in CQA.
+background_label: In our method, we simultaneously learn vectors of words and vectors of question categories by optimizing an objective function naturally derived from the framework.
+method_label: In question retrieval, we incorporate learnt representations into traditional language models in an effective and efficient way.
+background_label: We conduct experiments on large scale data from Yahoo!
+method_label: Answers and Baidu Knows, and compared our method with state-of-the-art methods on two public data sets.
+result_label: Experimental results show that our method can significantly improve on baseline methods for retrieval relevance.
+result_label: On 1 million training data, our method takes less than 50 minutes to learn a model on a single multicore machine, while the translation based language model needs more than 2 days to learn a translation table on the same machine.
+
+===================================
+paper_id: 675997; YEAR: 2015
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_cbow200 - abs_tfidfcbow200 - abs_tfidf
+TITLE: Solving Verbal Comprehension Questions in IQ Test by Knowledge-Powered Word Embedding
+ABSTRACT: background_label: Intelligence Quotient (IQ) Test is a set of standardized questions designed to evaluate human intelligence.
+background_label: Verbal comprehension questions appear very frequently in IQ tests, which measure human's verbal ability including the understanding of the words with multiple senses, the synonyms and antonyms, and the analogies among words.
+background_label: In this work, we explore whether such tests can be solved automatically by artificial intelligence technologies, especially the deep learning technologies that are recently developed and successfully applied in a number of fields.
+background_label: However, we found that the task was quite challenging, and simply applying existing technologies (e.g., word embedding) could not achieve a good performance, mainly due to the multiple senses of words and the complex relations among words.
+method_label: To tackle these challenges, we propose a novel framework consisting of three components.
+method_label: First, we build a classifier to recognize the specific type of a verbal question (e.g., analogy, classification, synonym, or antonym).
+method_label: Second, we obtain distributed representations of words and relations by leveraging a novel word embedding method that considers the multi-sense nature of words and the relational knowledge among words (or their senses) contained in dictionaries.
+method_label: Third, for each type of questions, we propose a specific solver based on the obtained distributed word representations and relation representations.
+result_label: Experimental results have shown that the proposed framework can not only outperform existing methods for solving verbal comprehension questions but also exceed the average performance of the Amazon Mechanical Turk workers involved in the study.
+result_label: The results indicate that with appropriate uses of the deep learning technologies we might be a further step closer to the human intelligence.
+
+===================================
+paper_id: 16142140; YEAR: 2013
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidfcbow200
+TITLE: The optimality of attaching unlinked labels to unlinked meanings
+ABSTRACT: background_label: Vocabulary learning by children can be characterized by many biases.
+background_label: When encountering a new word, children as well as adults, are biased towards assuming that it means something totally different from the words that they already know.
+objective_label: To the best of our knowledge, the 1st mathematical proof of the optimality of this bias is presented here.
+method_label: First, it is shown that this bias is a particular case of the maximization of mutual information between words and meanings.
+method_label: Second, the optimality is proven within a more general information theoretic framework where mutual information maximization competes with other information theoretic principles.
+method_label: The bias is a prediction from modern information theory.
+result_label: The relationship between information theoretic principles and the principles of contrast and mutual exclusivity is also shown.
+
+===================================
+paper_id: 7121547; YEAR: 1992
+adju relevance: Irrelevant (0)
+difference: 2; annotator2: 0; annotator3: 2
+sources: specter
+TITLE: Computational Lexicons: the Neat Examples and the Odd Exemplars
+ABSTRACT: background_label: When implementing computational lexicons it is important to keep in mind the texts that a NLP system must deal with.
+objective_label: Words relate to each other in many different, often queer, ways: this information is rarely found in dictionaries, and it is quite hard to be invented a priori, despite the imagination that linguists exhibit at inventing esoteric examples.In this paper we present the results of an experiment in learning from corpora the frequent selectional restrictions holding between content words.
+method_label: The method is based on the analysis of word associations augmented with syntactic markers and semantic tags.
+method_label: Word pairs are extracted by a morphosyntactic analyzer and clustered according to their semantic tags.
+method_label: A statistical measure is applied to the data to evaluate the significance of a detected relation.
+result_label: Clustered association data render the study of word associations more interesting with several respects: data are more reliable even for smaller corpora, more easy to interpret, and have many practical applications in NLP.
+
+===================================
+paper_id: 64259583; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: cited - specter - abs_tfidf - title_tfidf
+TITLE: Data Mining Practical Machine Learning Tools And Techniques With Java Implementations
+ABSTRACT: background_label: Thank you for reading data mining practical machine learning tools and techniques with java implementations.
+background_label: As you may know, people have look hundreds times for their favorite novels like this data mining practical machine learning tools and techniques with java implementations, but end up in infectious downloads.
+background_label: Rather than reading a good book with a cup of tea in the afternoon, instead they juggled with some malicious bugs inside their laptop.
+
+===================================
+paper_id: 14692997; YEAR: 2010
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidfcbow200 - title_cbow200
+TITLE: PCFGs, Topic Models, Adaptor Grammars and Learning Topical Collocations and the Structure of Proper Names
+ABSTRACT: background_label: AbstractThis paper establishes a connection between two apparently very different kinds of probabilistic models.
+background_label: Latent Dirichlet Allocation (LDA) models are used as "topic models" to produce a lowdimensional representation of documents, while Probabilistic Context-Free Grammars (PCFGs) define distributions over trees.
+method_label: The paper begins by showing that LDA topic models can be viewed as a special kind of PCFG, so Bayesian inference for PCFGs can be used to infer Topic Models as well.
+method_label: Adaptor Grammars (AGs) are a hierarchical, non-parameteric Bayesian extension of PCFGs.
+method_label: Exploiting the close relationship between LDA and PCFGs just described, we propose two novel probabilistic models that combine insights from LDA and AG models.
+method_label: The first replaces the unigram component of LDA topic models with multi-word sequences or collocations generated by an AG.
+method_label: The second extension builds on the first one to learn aspects of the internal structure of proper names.
+
+===================================
+paper_id: 7077951; YEAR: 2003
+adju relevance: Irrelevant (0)
+difference: 1; annotator2: 1; annotator3: 0
+sources: abs_cbow200 - abs_tfidfcbow200
+TITLE: Clustering by Committee
+ABSTRACT: background_label: Text contains a wealth of knowledge about who we are, what we know, how we think, and how we communicate.
+background_label: We are just beginning to tap into the information that is available in the tales we read to our children, the narratives that capture our thoughts, and the stories that shape our world.
+objective_label: In this work, we present some recent advances in automatically acquiring knowledge from text.
+method_label: We propose a general-purpose clustering algorithm called CBC (Clustering By Committee) from which we will organize documents according to topics as well as discover concepts and word senses.
+method_label: We will explore the value of these systems by experimenting with two novel evaluation methodologies that attempt to define what a word sense is and define the quality of a particular clustering.
+method_label: CBC addresses the general goal of clustering, which is to group data elements such that the intra-group similarities are high and the inter-group similarities are low.
+method_label: Using sets of representative elements called committees, CBC attempts to discover cluster centroids that unambiguously describe the members of a possible class.
+method_label: CBC will be shown to outperform several common clustering algorithms in document clustering and concept discovery tasks.
+result_label: Document clustering is practical in many information retrieval tasks such as document browsing and the organization and viewing of retrieval results.
+background_label: Broad-coverage lexical resources such as WordNet are extremely useful but are mostly hand generated.
+background_label: They often include many rare senses while missing domain-specific senses.
+background_label: Automatically generating them is useful for many applications such as word sense disambiguation, question answering and ontology construction.
+background_label: Sample concepts discovered by CBC include baking ingredients, symptoms, academic departments, Impressionists, Canadian provinces, musical instruments, and emotions.
+method_label: We present two novel evaluation methodologies.
+method_label: The first is based on the editing distance between output clusters and a manually constructed answer key.
+method_label: It defines how much work is necessary in order to convert from one to the other.
+method_label: For the word sense discovery system, we present an evaluation methodology for measuring the precision and recall of discovered senses.
+result_label: Using WordNet, we formulate what is a correct sense of a word.
+
+===================================
+paper_id: 64214454; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidfcbow200 - title_cbow200 - specter
+TITLE: Semantic Relations And The Lexicon Antonymy Synonymy And Other Paradigms
+ABSTRACT: background_label: Thank you very much for downloading semantic relations and the lexicon antonymy synonymy and other paradigms.
+background_label: As you may know, people have search numerous times for their favorite novels like this semantic relations and the lexicon antonymy synonymy and other paradigms, but end up in harmful downloads.
+background_label: Rather than reading a good book with a cup of coffee in the afternoon, instead they juggled with some infectious virus inside their desktop computer.
+
+===================================
+paper_id: 6116435; YEAR: 1999
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_cbow200
+TITLE: A statistical approach to snakes for bimodal and trimodal imagery
+ABSTRACT: background_label: We describe a new region based approach to active contours for segmenting images composed of two or three types of regions characterizable by a given statistic.
+objective_label: The essential idea is to derive curve evolutions which separate two or more valves of a pre-determined set of statistics computed over geometrically determined subsets of the image.
+method_label: Both global and local image information is used to evolve the active contour.
+method_label: Image derivatives, however, are avoided, thereby giving rise to a further degree of noise robustness compared to most edge based snake algorithms.
+
+===================================
+paper_id: 3582999; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_cbow200 - abs_tfidfcbow200
+TITLE: One Single Deep Bidirectional LSTM Network for Word Sense Disambiguation of Text Data
+ABSTRACT: background_label: Due to recent technical and scientific advances, we have a wealth of information hidden in unstructured text data such as offline/online narratives, research articles, and clinical reports.
+background_label: To mine these data properly, attributable to their innate ambiguity, a Word Sense Disambiguation (WSD) algorithm can avoid numbers of difficulties in Natural Language Processing (NLP) pipeline.
+background_label: However, considering a large number of ambiguous words in one language or technical domain, we may encounter limiting constraints for proper deployment of existing WSD models.
+method_label: This paper attempts to address the problem of one-classifier-per-one-word WSD algorithms by proposing a single Bidirectional Long Short-Term Memory (BLSTM) network which by considering senses and context sequences works on all ambiguous words collectively.
+result_label: Evaluated on SensEval-3 benchmark, we show the result of our model is comparable with top-performing WSD algorithms.
+result_label: We also discuss how applying additional modifications alleviates the model fault and the need for more training data.
+
+===================================
+paper_id: 6763915; YEAR: 2002
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_tfidf - specter - title_tfidf
+TITLE: Acquiring Collocations For Lexical Choice Between Near-Synonyms
+ABSTRACT: background_label: We extend a lexical knowledge-base of near-synonym differences with knowledge about their collocational behaviour.
+background_label: This type of knowledge is useful in the process of lexical choice between near-synonyms.
+method_label: We acquire collocations for the near-synonyms of interest from a corpus (only collocations with the appropriate sense and part-of-speech).
+method_label: For each word that collocates with a near-synonym we use a differential test to learn whether the word forms a less-preferred collocation or an anti-collocation with other near-synonyms in the same cluster.
+method_label: For this task we use a much larger corpus (the Web).
+result_label: We also look at associations (longer-distance co-occurrences) as a possible source of learning more about nuances that the near-synonyms may carry.
+
+===================================
+paper_id: 85558243; YEAR: 1991
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: Worldsheet approach to heterotic instantons and solitons
+ABSTRACT: background_label: Abstract Instantons and soliton solutions of heterotic string theory are investigated with an emphasis on the worldsheet point of view.
+background_label: The solitons have the structure of a fivebrane in ten dimensions, the instantons are simply related to the solitons by Wick rotation.
+method_label: Some new fivebrane solutions are presented with a four-dimensional cross-section of the fivebrane given by an infinitely long, semi-wormhole at the core stabilized by axion charge and containing non-abelian gauge excitations.
+method_label: The generic such solution is shown to correspond to a sigma model with (4, 0) worldsheet supersymmetry.
+method_label: At special symmetric points in the moduli space of multi-instanton or multi-soliton solutions, the spin connection with torsion becomes identical to the Yang-Mills gauge connection.
+result_label: This results in (4, 4) worldsheet supersymmetry, and we argue that the resulting sigma models with torsion are finite and conformally invariant with no α′ corrections.
+method_label: It is further shown that the wormhole throat is then described by an exactly soluble conformal field theory which is essentially a Wess-Zumino-Witten model whose level is related to the axion charge.
+result_label: Because of the simplicity and exactness of these symmetric solutions, they should provide a useful starting point for the analysis of such issues as integration of collective coordinates in string theory, duality between strings and fivebranes and the quantization of fundamental fivebranes.
+
+===================================
+paper_id: 16406612; YEAR: 2005
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidf
+TITLE: Associated type synonyms
+ABSTRACT: background_label: Haskell programmers often use a multi-parameter type class in which one or more type parameters are functionally dependent on the first.
+background_label: Although such functional dependencies have proved quite popular in practice, they express the programmer's intent somewhat indirectly.
+objective_label: Developing earlier work on associated data types, we propose to add functionally dependent types as type synonyms to type-class bodies.
+result_label: These associated type synonyms constitute an interesting new alternative to explicit functional dependencies.
+
+===================================
+paper_id: 8736393; YEAR: 2002
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidfcbow200 - specter - abs_tfidf
+TITLE: The Computation Of Word Associations: Comparing Syntagmatic And Paradigmatic Approaches
+ABSTRACT: background_label: It is shown that basic language processes such as the production of free word associations and the generation of synonyms can be simulated using statistical models that analyze the distribution of words in large text corpora.
+background_label: According to the law of association by contiguity, the acquisition of word associations can be explained by Hebbian learning.
+method_label: The free word associations as produced by subjects on presentation of single stimulus words can thus be predicted by applying first-order statistics to the frequencies of word co-occurrences as observed in texts.
+method_label: The generation of synonyms can also be conducted on co-occurrence data but requires second-order statistics.
+method_label: The reason is that synonyms rarely occur together but appear in similar lexical neighborhoods.
+method_label: Both approaches are systematically compared and are validated on empirical data.
+result_label: It turns out that for both tasks the performance of the statistical system is comparable to the performance of human subjects.
+
+===================================
+paper_id: 10865063; YEAR: 2012
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_tfidfcbow200 - abs_cbow200 - abs_tfidf
+TITLE: Computational Approaches to Sentence Completion
+ABSTRACT: background_label: AbstractThis paper studies the problem of sentencelevel semantic coherence by answering SATstyle sentence completion questions.
+background_label: These questions test the ability of algorithms to distinguish sense from nonsense based on a variety of sentence-level phenomena.
+method_label: We tackle the problem with two approaches: methods that use local lexical information, such as the n-grams of a classical language model; and methods that evaluate global coherence, such as latent semantic analysis.
+method_label: We evaluate these methods on a suite of practice SAT questions, and on a recently released sentence completion task based on data taken from five Conan Doyle novels.
+result_label: We find that by fusing local and global information, we can exceed 50% on this task (chance baseline is 20%), and we suggest some avenues for further research.
+
+===================================
+paper_id: 143594444; YEAR: 2008
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidf - abs_tfidf
+TITLE: Antonyms in children's and child-directed speech
+ABSTRACT: background_label: This article presents two studies based on a corpus of American English speech by and to five children from 2 to 5 years old.
+background_label: The first study investigates frequency of antonym co-occurrence in speakers' turns.
+method_label: The second examines the discourse-functional properties of those co-occurrences, with comparison to adult-directed adult English.
+result_label: We find: (1) children know/use antonyms at earlier ages than experimental studies have shown; (2) children use antonyms for mostly the same discursive purposes as adults do; (3) children can be categorized as being either `heavy' or `light' antonym users, and `heaviness' of antonym use seems to correlate to other aspects of antonym behaviour.
+
+===================================
+paper_id: 5995501; YEAR: 2009
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_tfidf
+TITLE: Context sensitive synonym discovery for web search queries
+ABSTRACT: background_label: We propose a simple yet effective approach to context sensitive synonym discovery for Web search queries based on co-click analysis; i.e., analyzing queries leading to clicking same documents.
+method_label: In addition to deriving word based synonyms, we also derive concept based synonyms with the help of query segmentation.
+result_label: Evaluation results show that this approach dramatically outperforms the thesaurus based synonym replacement method in keeping search intent, from accuracy of 40% to above 80%.
+
+===================================
+paper_id: 14983093; YEAR: 2015
+adju relevance: Irrelevant (0)
+difference: 1; annotator2: 0; annotator3: 1
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: A consolidated approach to the axiomatization of outranking relations: a survey and new results
+ABSTRACT: background_label: Outranking relations such as produced by the Electre I or II or the Tactic methods are based on a concordance and non-discordance principle that leads to declaring that an alternative is “superior” to another, if the coalition of attributes supporting this proposition is “sufficiently important” (concordance condition) and if there is no attribute that “strongly rejects” it (non-discordance condition).
+background_label: Such a way of comparing alternatives is rather natural and does not require a detailed analysis of tradeoffs between the various attributes.
+background_label: However, it is well known that it may produce binary relations that do not possess any remarkable property of transitivity or completeness.
+background_label: The axiomatic foundations of outranking relations have recently received attention.
+method_label: Within a conjoint measurement framework, characterizations of reflexive concordance–discordance relations have been obtained.
+method_label: These relations encompass those generated by the Electre I and II methods, which are non-strict (reflexive) relations.
+result_label: A different characterization has been provided for strict (asymmetric) preference relations such as produced by Tactic.
+background_label: In this paper we briefly review the various kinds of axiomatizations of outranking relations proposed so far in the literature.
+method_label: Then we analyze the relationships between reflexive and asymmetric outranking relations in a conjoint measurement framework, consolidating our previous work.
+method_label: Co-duality plays an essential rôle in our analysis.
+method_label: It allows us to understand the correspondence between the previous characterizations.
+method_label: Making a step further, we provide a common axiomatic characterization for both types of relations.
+method_label: Applying the co-duality operator to concordance–discordance relations also yields a new and interesting type of preference relation that we call concordance relation with bonus.
+result_label: The axiomatic characterization of such relations results directly from co-duality arguments.
+
+===================================
+paper_id: 6946120; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_cbow200
+TITLE: Labeled Graph Kernel for Behavior Analysis
+ABSTRACT: background_label: Automatic behavior analysis from video is a major topic in many areas of research, including computer vision, multimedia, robotics, biology, cognitive science, social psychology, psychiatry, and linguistics.
+background_label: Two major problems are of interest when analyzing behavior.
+objective_label: First, we wish to automatically categorize observed behaviors into a discrete set of classes (i.e., classification).
+method_label: For example, to determine word production from video sequences in sign language.
+method_label: Second, we wish to understand the relevance of each behavioral feature in achieving this classification (i.e., decoding).
+method_label: For instance, to know which behavior variables are used to discriminate between the words apple and onion in American Sign Language (ASL).
+result_label: The present paper proposes to model behavior using a labeled graph, where the nodes define behavioral features and the edges are labels specifying their order (e.g., before, overlaps, start).
+background_label: In this approach, classification reduces to a simple labeled graph matching.
+background_label: Unfortunately, the complexity of labeled graph matching grows exponentially with the number of categories we wish to represent.
+objective_label: Here, we derive a graph kernel to quickly and accurately compute this graph similarity.
+method_label: This approach is very general and can be plugged into any kernel-based classifier.
+method_label: Specifically, we derive a Labeled Graph Support Vector Machine (LGSVM) and a Labeled Graph Logistic Regressor (LGLR) that can be readily employed to discriminate between many actions (e.g., sign language concepts).
+method_label: The derived approach can be readily used for decoding too, yielding invaluable information for the understanding of a problem (e.g., to know how to teach a sign language).
+result_label: The derived algorithms allow us to achieve higher accuracy results than those of state-of-the-art algorithms in a fraction of the time.
+result_label: We show experimental results on a variety of problems and datasets, including multimodal data.
+
+===================================
+paper_id: 11741230; YEAR: 2012
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_tfidfcbow200
+TITLE: Understanding user intent in community question answering
+ABSTRACT: background_label: Community Question Answering (CQA) services, such as Yahoo!
+background_label: Answers, are specifically designed to address the innate limitation of Web search engines by helping users obtain information from a community.
+background_label: Understanding the user intent of questions would enable a CQA system identify similar questions, find relevant answers, and recommend potential answerers more effectively and efficiently.
+objective_label: In this paper, we propose to classify questions into three categories according to their underlying user intent: subjective, objective, and social.
+method_label: In order to identify the user intent of a new question, we build a predictive model through machine learning based on both text and metadata features.
+method_label: Our investigation reveals that these two types of features are conditionally independent and each of them is sufficient for prediction.
+method_label: Therefore they can be exploited as two views in co-training - a semi-supervised learning framework - to make use of a large amount of unlabelled questions, in addition to the small set of manually labelled questions, for enhanced question classification.
+result_label: The preliminary experimental results show that co-training works significantly better than simply pooling these two types of features together.
+
+===================================
+paper_id: 28756012; YEAR: 2013
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidfcbow200
+TITLE: Functional load and the lexicon: Evidence that syntactic category and frequency relationships in minimal lemma pairs predict the loss of phoneme contrasts in language change.
+ABSTRACT: background_label: All languages use individually meaningless, contrastive categories in combination to create distinct words.
+background_label: Despite their central role in communication, these "phoneme" contrasts can be lost over the course of language change.
+background_label: The century-old functional load hypothesis proposes that loss of a phoneme contrast will be inhibited in relation to the work that it does in distinguishing words.
+method_label: In a previous work we showed for the first time that a simple measure of functional load does significantly predict patterns of contrast loss within a diverse set of languages: the more minimal word pairs that a phoneme contrast distinguishes, the less likely those phonemes are to have merged over the course of language change.
+method_label: Here, we examine several lexical properties that are predicted to influence the uncertainty between word pairs in usage.
+result_label: We present evidence that (a) the lemma rather than surface-form count of minimal pairs is more predictive of merger; (b) the count of minimal lemma pairs that share a syntactic category is a stronger predictor of merger than the count of those with divergent syntactic categories, and (c) that the count of minimal lemma pairs with members of similar frequency is a stronger predictor of merger than that of those with more divergent frequencies.
+result_label: These findings support the broad hypothesis that properties of individual utterances influence long-term language change, and are consistent with findings suggesting that phonetic cues are modulated in response to lexical uncertainty within utterances.
+
+===================================
+paper_id: 152218662; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_cbow200
+TITLE: ABX-Discriminability Measures and Applications
+ABSTRACT: background_label: This thesis constitutes an indirect contribution to the problem of modeling phonetic category acquisition in infancy.
+background_label: Some specific computational models of phonetic category acquisition have been proposed, but they were never tested extensively nor compared quantitatively to see whether they were really able to account for a sizable portion of the available empirical observations.
+objective_label: In this thesis, we introduce ABX-Discriminability Measures and we develop a methodology based on these measures that allows to perform such a systematic evaluation.
+method_label: We demonstrate the interest of our framework by applying it to the evaluation of models for two related problems: phonetic category processing at birth and in adulthood.
+method_label: The next step, applying our framework to models of phonetic category acquisition, is left for future work.
+method_label: The interest of ABX-Discriminability Measures is not restricted to the particular problem of evaluating models of phonetic category processing in humans.
+result_label: We argue that their interest generalizes to the study of other signals than speech and other category structures than phonetic categories, as well as to other research fields than cognitive science, like low-resource engineering, data mining and artificial intelligence for example.
+result_label: To make this point, we study the properties of these measures in a general abstract framework and we detail the rationale for three broad family of potential applications: evaluating systems operating without explicit supervision in their ability to represent a category structure; providing simple computational models of behavior in discrimination tasks; providing descriptive measurements for representations of categorical data.
+
+===================================
+paper_id: 9518835; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidfcbow200
+TITLE: An Evolutionary Algorithm to Learn SPARQL Queries for Source-Target-Pairs: Finding Patterns for Human Associations in DBpedia
+ABSTRACT: background_label: Efficient usage of the knowledge provided by the Linked Data community is often hindered by the need for domain experts to formulate the right SPARQL queries to answer questions.
+background_label: For new questions they have to decide which datasets are suitable and in which terminology and modelling style to phrase the SPARQL query.
+objective_label: In this work we present an evolutionary algorithm to help with this challenging task.
+method_label: Given a training list of source-target node-pair examples our algorithm can learn patterns (SPARQL queries) from a SPARQL endpoint.
+method_label: The learned patterns can be visualised to form the basis for further investigation, or they can be used to predict target nodes for new source nodes.
+method_label: Amongst others, we apply our algorithm to a dataset of several hundred human associations (such as"circle - square") to find patterns for them in DBpedia.
+method_label: We show the scalability of the algorithm by running it against a SPARQL endpoint loaded with>7.9 billion triples.
+result_label: Further, we use the resulting SPARQL queries to mimic human associations with a Mean Average Precision (MAP) of 39.9 % and a Recall@10 of 63.9 %.
+
+===================================
+paper_id: 17371059; YEAR: 2013
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidfcbow200
+TITLE: Representational similarity analysis reveals commonalities and differences in the semantic processing of words and objects.
+ABSTRACT: background_label: Understanding the meanings of words and objects requires the activation of underlying conceptual representations.
+background_label: Semantic representations are often assumed to be coded such that meaning is evoked regardless of the input modality.
+background_label: However, the extent to which meaning is coded in modality-independent or amodal systems remains controversial.
+objective_label: We address this issue in a human fMRI study investigating the neural processing of concepts, presented separately as written words and pictures.
+method_label: Activation maps for each individual word and picture were used as input for searchlight-based multivoxel pattern analyses.
+method_label: Representational similarity analysis was used to identify regions correlating with low-level visual models of the words and objects and the semantic category structure common to both.
+method_label: Common semantic category effects for both modalities were found in a left-lateralized network, including left posterior middle temporal gyrus (LpMTG), left angular gyrus, and left intraparietal sulcus (LIPS), in addition to object- and word-specific semantic processing in ventral temporal cortex and more anterior MTG, respectively.
+method_label: To explore differences in representational content across regions and modalities, we developed novel data-driven analyses, based on k-means clustering of searchlight dissimilarity matrices and seeded correlation analysis.
+result_label: These revealed subtle differences in the representations in semantic-sensitive regions, with representations in LIPS being relatively invariant to stimulus modality and representations in LpMTG being uncorrelated across modality.
+result_label: These results suggest that, although both LpMTG and LIPS are involved in semantic processing, only the functional role of LIPS is the same regardless of the visual input, whereas the functional role of LpMTG differs for words and objects.
+
+===================================
+paper_id: 36117198; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidf
+TITLE: DeepMind_Commentary
+ABSTRACT: background_label: We agree with Lake and colleagues on their list of key ingredients for building humanlike intelligence, including the idea that model-based reasoning is essential.
+background_label: However, we favor an approach that centers on one additional ingredient: autonomy.
+objective_label: In particular, we aim toward agents that can both build and exploit their own internal models, with minimal human hand-engineering.
+method_label: We believe an approach centered on autonomous learning has the greatest chance of success as we scale toward real-world complexity, tackling domains for which ready-made formal models are not available.
+result_label: Here we survey several important examples of the progress that has been made toward building autonomous agents with humanlike abilities, and highlight some outstanding challenges.
+
+===================================
+paper_id: 47328136; YEAR: 2004
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: cited - specter - abs_tfidf - title_tfidf
+TITLE: Bagging predictors
+ABSTRACT: background_label: Bagging predictors is a method for generating multiple versions of a predictor and using these to get an aggregated predictor.
+background_label: The aggregation averages over the versions when predicting a numerical outcome and does a plurality vote when predicting a class.
+method_label: The multiple versions are formed by making bootstrap replicates of the learning set and using these as new learning sets.
+result_label: Tests on real and simulated data sets using classification and regression trees and subset selection in linear regression show that bagging can give substantial gains in accuracy.
+result_label: The vital element is the instability of the prediction method.
+result_label: If perturbing the learning set can cause significant changes in the predictor constructed, then bagging can improve accuracy.
+
+===================================
+paper_id: 142730854; YEAR: 2001
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: Pragmatic markers and sociolinguistic variation : a relevance-theoretic approach to the language of adolescents
+ABSTRACT: background_label: This book combines theoretical work in linguistic pragmatics and sociolinguistics with empirical work based on a corpus of London adolescent conversation.
+objective_label: It makes a general contribution to the study of pragmatic markers, as it proposes an analytical model that involves notions such as subjectivity, interactional and textual capacity, and the distinction between contextual alignment/divergence.
+method_label: These notions are defined according to how information contained in an utterance interacts with the cognitive environment of the hearer.
+method_label: Moreover, the model captures the diachronic development of markers from lexical items via processes of grammaticalisation, arguing that markerhood may be viewed as a gradient phenomenon.
+method_label: The empirical work concerns the use of like as a marker, as well as a characteristic use of two originally interrogative forms, innit and is it, which are used as attitudinal markers throughout the inflectional paradigm, despite the fact that they contain a third person singular neuter pronoun.
+result_label: The author provides an in-depth analysis of these features in terms of pragmatic functions, diachronic development and sociolinguistic variation, thus adding support to the hypothesis that adolescents play an important role in language variation and change.
+
+===================================
+paper_id: 143253950; YEAR: 1966
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: cited - specter - abs_tfidf - title_tfidf
+TITLE: Cognition and Thought: An Information-Processing Approach.
+ABSTRACT: background_label: This book covers the very interesting subject of computer simulation of such human functions as cognition and thought.
+background_label: Its stated purpose is ".
+background_label: .
+objective_label: .
+background_label: to introduce a general psychological audience to the psychological implications of information-processing concepts and computer simulation and to what theories and theorists in this area are about."
+method_label: At this it succeeds reasonably well, setting forth some background on the theoretical framework involved, and going on to somewhat more concrete discussion of specific information processing models such as the General Problem Solver (GPS) and Argus.
+method_label: There is an appendix on Information Processing Language-V (IPL-V).
+result_label: For the potential reader, it might be important to give some idea of whether this is a book for casual reading as an entertaining introduction to the field, or a book for serious study.
+other_label: Unfortunately —and I believe this is its major failing—it is neither.
+result_label: It requires a good deal of concentrated effort to follow,
+
+===================================
+paper_id: 155144146; YEAR: 2019
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_cbow200
+TITLE: Learning to Spot and Refactor Inconsistent Method Names
+ABSTRACT: background_label: To ensure code readability and facilitate software maintenance, program methods must be named properly.
+background_label: In particular, method names must be consistent with the corresponding method implementations.
+background_label: Debugging method names remains an important topic in the literature, where various approaches analyze commonalities among method names in a large dataset to detect inconsistent method names and suggest better ones.
+background_label: We note that the state-of-the-art does not analyze the implemented code itself to assess consistency.
+method_label: We thus propose a novel automated approach to debugging method names based on the analysis of consistency between method names and method code.
+method_label: The approach leverages deep feature representation techniques adapted to the nature of each artifact.
+result_label: Experimental results on over 2.1 million Java methods show that we can achieve up to 15 percentage points improvement over the state-of-the-art, establishing a record performance of 67.9% F1- measure in identifying inconsistent method names.
+result_label: We further demonstrate that our approach yields up to 25% accuracy in suggesting full names, while the state-of-the-art lags far behind at 1.1% accuracy.
+result_label: Finally, we report on our success in fixing 66 inconsistent method names in a live study on projects in the wild.
+
+===================================
+paper_id: 15230614; YEAR: 2004
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidf - abs_tfidf
+TITLE: Structured Analogies for Forecasting
+ABSTRACT: background_label: When people forecast, they often use analogies but in an unstructured manner.
+method_label: We propose a structured judgmental procedure that involves asking experts to list as many analogies as they can, rate how similar the analogies are to the target situation, and match the outcomes of the analogies with possible outcomes of the target.
+method_label: An administrator would then derive a forecast from the experts' information.
+method_label: We compared structured analogies with unaided judgments for predicting the decisions made in eight conflict situations.
+result_label: These were difficult forecasting problems; the 32% accuracy of the unaided experts was only slightly better than chance.
+result_label: In contrast, 46% of structured analogies forecasts were accurate.
+result_label: Among experts who were independently able to think of two or more analogies and who had direct experience with their closest analogy, 60% of forecasts were accurate.
+result_label: Collaboration did not improve accuracy.
+
+===================================
+paper_id: 14772601; YEAR: 2003
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: specter
+TITLE: Sweetening WORDNET with DOLCE
+ABSTRACT: background_label: Despite its original intended use, which was very different, WORDNET is used more and more today as an ontology, where the hyponym relation between word senses is interpreted as a subsumption relation between concepts.
+objective_label: In this article, we discuss the general problems related to the semantic interpretation of WORDNET taxonomy in light of rigorous ontological principles inspired by the philosophical tradition.
+method_label: Then we introduce the DOLCE upper-level ontology, which is inspired by such principles but with a clear orientation toward language and cognition.
+result_label: We report the results of an experimental effort to align WORDNET'S upper level with DOLCE.
+result_label: We suggest that such alignment could lead to an "ontologically sweetened" WORD-NET, meant to be conceptually more rigorous, cognitively transparent, and efficiently exploitable in several applications.
+
+===================================
+paper_id: 5481961; YEAR: 1969
+adju relevance: Irrelevant (0)
+difference: 1; annotator2: 1; annotator3: 0
+sources: cited - specter - abs_tfidf - title_tfidf
+TITLE: IX. Word-Word Associations in Document Retrieval Systems
+ABSTRACT: background_label: The SMART automatic document retrieval system is used to study association procedures for automatic content analysis.
+background_label: The effect of word frequency and other parameters on the association process is investigated through examination of related pairs and through retrieval experiments.
+background_label: Associated pairs of words usually reflect localized word meanings, and true synonyms cannot readily be found from first or second order relationships in our document collections.
+background_label: There is little overlap between word relationships found through associations and those used in thesaurus construction, and the effects of word associations and a thesaurus in retrieval are independent.
+method_label: The use of associations in retrieval experiments improves not only recall, by permitting new matches between requests and documents, but also precision, by reinforcing existing matches.
+result_label: In our experiments, the precision effect is responsible for most of the improvement possible with associations.
+result_label: A properly constructed thesaurus, however, offers better performance than statistical association methods.
+
+===================================
+paper_id: 1144461; YEAR: 1997
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: cited - specter - abs_tfidf - title_tfidf
+TITLE: A solution to Plato’s problem: The latent semantic analysis theory of acquisition, induction, and representation of knowledge
+ABSTRACT: background_label: How do people know as much as they do with as little information as they get?
+background_label: The problem takes many forms; learning vocabulary from text is an especially dramatic and convenient case for research.
+method_label: A new general theory of acquired similarity and knowledge representation, latent semantic analysis (LSA), is presented and used to successfully simulate such learning and several other psycholinguistic phenomena.
+method_label: By inducing global knowledge indirectly from local co-occurrence data in a large body of representative text, LSA acquired knowledge about the full vocabulary of English at a comparable rate to schoolchildren.
+method_label: LSA uses no prior linguistic or perceptual similarity knowledge; it is based solely on a general mathematical learning method that achieves powerful inductive effects by extracting the right number of dimensions (e.g., 300) to represent objects and contexts.
+method_label: Relations to other theories, phenomena, and problems are sketched.
+
+===================================
+paper_id: 118988729; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidf
+TITLE: A Microphotonic Astrocomb
+ABSTRACT: background_label: One of the essential prerequisites for detection of Earth-like extra-solar planets or direct measurements of the cosmological expansion is the accurate and precise wavelength calibration of astronomical spectrometers.
+background_label: It has already been realized that the large number of exactly known optical frequencies provided by laser frequency combs ('astrocombs') can significantly surpass conventionally used hollow-cathode lamps as calibration light sources.
+background_label: A remaining challenge, however, is generation of frequency combs with lines resolvable by astronomical spectrometers.
+method_label: Here we demonstrate an astrocomb generated via soliton formation in an on-chip microphotonic resonator ('microresonator') with a resolvable line spacing of 23.7 GHz.
+method_label: This comb is providing wavelength calibration on the 10 cm/s radial velocity level on the GIANO-B high-resolution near-infrared spectrometer.
+result_label: As such, microresonator frequency combs have the potential of providing broadband wavelength calibration for the next-generation of astronomical instruments in planet-hunting and cosmological research.
+
+===================================
+paper_id: 9831789; YEAR: 2011
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_tfidfcbow200 - abs_tfidf
+TITLE: Extracting relevant questions to an RDF dataset using formal concept analysis
+ABSTRACT: background_label: With the rise of linked data, more and more semantically described information is being published online according to the principles and technologies of the Semantic Web (especially, RDF and SPARQL).
+background_label: The use of such standard technologies means that this data should be exploitable, integrable and reusable straight away.
+background_label: However, once a potentially interesting dataset has been discovered, significant efforts are currently required in order to understand its schema, its content, the way to query it and what it can answer.
+method_label: In this paper, we propose a method and a tool to automatically discover questions that can be answered by an RDF dataset.
+method_label: We use formal concept analysis to build a hierarchy of meaningful sets of entities from a dataset.
+method_label: These sets of entities represent answers, which common characteristics represent the clauses of the corresponding questions.
+method_label: This hierarchy can then be used as a querying interface, proposing questions of varying levels of granularity and specificity to the user.
+method_label: A major issue is however that thousands of questions can be included in this hierarchy.
+method_label: Based on an empirical analysis and using metrics inspired both from formal concept analysis and from ontology summarization, we devise an approach for identifying relevant questions to act as a starting point to the navigation in the question hierarchy.
+
+===================================
+paper_id: 5121862; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_cbow200
+TITLE: NEAL: A Neurally Enhanced Approach to Linking Citation and Reference
+ABSTRACT: other_label: Abstract.
+method_label: As a way to tackle Task 1A in CL-SciSumm 2016, we introduce a composite model consisting of TFIDF and Neural Network (NN), the latter being a adaptation of the embedding model originally proposed for the Q/A domain [2, 7] .
+result_label: We discuss an experiment using a development data, results thereof, and some remaining issues.
+
+===================================
+paper_id: 15705646; YEAR: 2015
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: specter
+TITLE: Corpus-based discovery of semantic intensity scales
+ABSTRACT: background_label: Gradable terms such as brief, lengthy and extended illustrate varying degrees of a scale and can therefore participate in comparative constructs.
+background_label: Knowing the set of words that can be compared on the same scale and the associated ordering between them (brief < lengthy < extended) is very useful for a variety of lexical semantic tasks.
+background_label: Current techniques to derive such an ordering rely on WordNet to determine which words belong on the same scale and are limited to adjectives.
+method_label: Here we describe an extension to recent work: we investigate a fully automated pipeline to extract gradable terms from a corpus, group them into clusters reflecting the same scale and establish an ordering among them.
+method_label: This methodology reduces the amount of required handcrafted knowledge, and can infer gradability of words independent of their part of speech.
+method_label: Our approach infers an ordering for adjectives with comparable performance to previous work, but also for adverbs with an accuracy of 71%.
+result_label: We find that the technique is useful for inferring such rankings among words across different domains, and present an example using biomedical text.
+
+===================================
+paper_id: 129179366; YEAR: 2002
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_cbow200
+TITLE: Bayesian Approach to Sapwood Estimates and Felling Dates in Dendrochronology
+ABSTRACT: background_label: An improved method of generating sapwood estimates for oak is developed.
+background_label: This suggests a revision of the 95% confidence range from 10–40 to 9–36 rings for trees from southern England.
+method_label: Current methods for estimating felling dates on timbers with incomplete sapwood do not generate true 95% confidence limits, and a Bayesian method for deriving such limits is presented.
+method_label: For timbers with no sapwood, the addition of 12 years to the date of the final ring is shown to give a 95% confidence limit on the terminus post quem for felling.
+result_label: The further application of these methods is illustrated by calculation of the common felling date for timbers from the Great Kitchen at Windsor Castle.
+
+===================================
+paper_id: 41372474; YEAR: 2013
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_cbow200
+TITLE: ClearTK-TimeML: A minimalist approach to TempEval 2013
+ABSTRACT: background_label: AbstractThe ClearTK-TimeML submission to TempEval 2013 competed in all English tasks: identifying events, identifying times, and identifying temporal relations.
+method_label: The system is a pipeline of machine-learning models, each with a small set of features from a simple morpho-syntactic annotation pipeline, and where temporal relations are only predicted for a small set of syntactic constructions and relation types.
+result_label: ClearTKTimeML ranked 1 st for temporal relation F1, time extent strict F1 and event tense accuracy.
+
+===================================
+paper_id: 14510205; YEAR: 2003
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_tfidfcbow200 - abs_cbow200 - abs_tfidf
+TITLE: Question Classification with Support Vector Machines and Error Correcting Codes
+ABSTRACT: background_label: In this paper we consider a machine learning technique for question classification.
+objective_label: The goal is to replace our regular expression based classifier with a classifier that learns from a set of labeled questions.
+background_label: We have realized that an enourmous amount of time is required to create a rich collection of patterns and keywords for a good coverage of questions in an open-domain application.
+method_label: We decided to use support vector machines, since they have been successfully used for a number of benchmark problems.
+method_label: Although the support vector machines are inherently binary classifiers, it is possible to extend their use as multi-class classifiers using binary codes.
+method_label: We represent questions as frequency weighted vectors of salient terms.
+method_label: We compare our approcah to related work that uses relatively complex syntactic/semantic processing to create features and a sparse network of linear units to classify questions.
+result_label: We provide results to show performance of the method.
+
+===================================
+paper_id: 5649696; YEAR: 1997
+adju relevance: Irrelevant (0)
+difference: 1; annotator2: 0; annotator3: 1
+sources: title_cbow200 - title_tfidf
+TITLE: Objects, Associations and Subsystems: A Hierarchical Approach to Encapsulation
+ABSTRACT: background_label: We describe a compositional approach to the formal interpretation of type view diagrams and statecharts.
+background_label: We define theories for object instances and classes, and theories for associations between them.
+method_label: These theories are combined with categorical constructions to yield a formalisation of the entire system.
+method_label: We observe that some notations require the identification of theories intermediate between the theories of the constituent classes and associations and that of the entire system.
+result_label: This leads us to propose a notion of subsystem which generalises the concept of object and yields an approach to system specification employing object-like encapsulation in a nested hierarchy of components.
+
+===================================
+paper_id: 119425731; YEAR: 1972
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidf
+TITLE: Unzerlegbare Darstellungen I
+ABSTRACT: background_label: LetK be the structure got by forgetting the composition law of morphisms in a given category.
+background_label: A linear representation ofK is given by a map V associating with any morphism ϕ: a→e ofK a linear vector space map V(ϕ): V(a)→V(e).
+method_label: We classify thoseK having only finitely many isomorphy classes of indecomposable linear representations.
+other_label: This classification is related to an old paper by Yoshii [3].
+
+===================================
+paper_id: 49585076; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_cbow200 - abs_tfidfcbow200
+TITLE: Overcoming low-utility facets for complex answer retrieval
+ABSTRACT: background_label: Many questions cannot be answered simply; their answers must include numerous nuanced details and additional context.
+background_label: Complex Answer Retrieval (CAR) is the retrieval of answers to such questions.
+background_label: In their simplest form, these questions are constructed from a topic entity (e.g., `cheese') and a facet (e.g., `health effects').
+method_label: While topic matching has been thoroughly explored, we observe that some facets use general language that is unlikely to appear verbatim in answers.
+method_label: We call these low-utility facets.
+objective_label: In this work, we present an approach to CAR that identifies and addresses low-utility facets.
+background_label: We propose two estimators of facet utility.
+background_label: These include exploiting the hierarchical structure of CAR queries and using facet frequency information from training data.
+method_label: To improve the retrieval performance on low-utility headings, we also include entity similarity scores using knowledge graph embeddings.
+method_label: We apply our approaches to a leading neural ranking technique, and evaluate using the TREC CAR dataset.
+result_label: We find that our approach perform significantly better than the unmodified neural ranker and other leading CAR techniques.
+result_label: We also provide a detailed analysis of our results, and verify that low-utility facets are indeed more difficult to match, and that our approach improves the performance for these difficult queries.
+
+===================================
+paper_id: 512194; YEAR: 1979
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_cbow200
+TITLE: A Formal Approach to Null Values in Database Relations
+ABSTRACT: background_label: We study the problem of null values.
+background_label: By this we mean that an attribute is applicable but its value at present is unknown and also that an attribute is applicable but its value is arbitrary.
+background_label: We adopt the view that tuples denote statements of predicate logic about database relations.
+method_label: Then, a null value of the first kind, respectively second kind, corresponds to an existentially quantified variable, respectively universally quantified variable.
+method_label: For instance if r is a database relation without null values and X is a range declaration for r then the tuple (a, ∀,b, ∃) ∈ R is intended to mean “there exists an x ∈ X such that for all y ∈ X: (a,y,b,x) ∈ r”.
+method_label: We extend basic operations of the well-known relational algebra to relations with null values.
+method_label: Using formal notions of correctness and completeness (adapted from predicate logic) we show that our extensions are meaningful and natural.
+method_label: Furthermore we reexamine the generalized join within our framework.
+result_label: Finally we investigate the algebraic structure of the class of relations with null values under a partial ordering which can be interpreted as a kind of logical implication.
+
+===================================
+paper_id: 53748665; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 1; annotator2: 1; annotator3: 0
+sources: abs_tfidfcbow200
+TITLE: QuaRel: A Dataset and Models for Answering Questions about Qualitative Relationships
+ABSTRACT: background_label: Many natural language questions require recognizing and reasoning with qualitative relationships (e.g., in science, economics, and medicine), but are challenging to answer with corpus-based methods.
+background_label: Qualitative modeling provides tools that support such reasoning, but the semantic parsing task of mapping questions into those models has formidable challenges.
+objective_label: We present QuaRel, a dataset of diverse story questions involving qualitative relationships that characterize these challenges, and techniques that begin to address them.
+method_label: The dataset has 2771 questions relating 19 different types of quantities.
+result_label: For example,"Jenny observes that the robot vacuum cleaner moves slower on the living room carpet than on the bedroom carpet.
+other_label: Which carpet has more friction?
+background_label: "We contribute (1) a simple and flexible conceptual framework for representing these kinds of questions; (2) the QuaRel dataset, including logical forms, exemplifying the parsing challenges; and (3) two novel models for this task, built as extensions of type-constrained semantic parsing.
+background_label: The first of these models (called QuaSP+) significantly outperforms off-the-shelf tools on QuaRel.
+result_label: The second (QuaSP+Zero) demonstrates zero-shot capability, i.e., the ability to handle new qualitative relationships without requiring additional training data, something not possible with previous models.
+objective_label: This work thus makes inroads into answering complex, qualitative questions that require reasoning, and scaling to new relationships at low cost.
+other_label: The dataset and models are available at http://data.allenai.org/quarel.
+
+===================================
+paper_id: 8984950; YEAR: 2007
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidf - title_cbow200 - title_tfidfcbow200
+TITLE: The proactive brain : using analogies and associations to generate predictions
+ABSTRACT: background_label: Rather than passively 'waiting' to be activated by sensations, it is proposed that the human brain is continuously busy generating predictions that approximate the relevant future.
+method_label: Building on previous work, this proposal posits that rudimentary information is extracted rapidly from the input to derive analogies linking that input with representations in memory.
+method_label: The linked stored representations then activate the associations that are relevant in the specific context, which provides focused predictions.
+method_label: These predictions facilitate perception and cognition by pre-sensitizing relevant representations.
+method_label: Predictions regarding complex information, such as those required in social interactions, integrate multiple analogies.
+result_label: This cognitive neuroscience framework can help explain a variety of phenomena, ranging from recognition to first impressions, and from the brain's 'default mode' to a host of mental disorders.
+
+===================================
+paper_id: 17086579; YEAR: 1992
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_cbow200 - abs_tfidfcbow200
+TITLE: Method for refining automatically-discovered lexical relations: Combining weak techniques for stronger results
+ABSTRACT: background_label: Knowledge-poor corpus-based approaches to natural language processing are attractive in that they do not incur the difficulties associated with complex knowledge bases and real-world inferences.
+background_label: However, these kinds of language processing techniques in isolation often do not suffice for a particular task; for this reason we are interested in finding ways to combine various techniques and improve their results.
+method_label: Accordingly, we conducted experiments to refine the results of an automatic lexical discovery technique by making use of a statistically-based syntactic similarity measure.
+method_label: The discovery program uses lexico-syntactic patterns to find instances of the hyponymy relation in large text bases.
+method_label: Once relations of this sort are found, they should be inserted into an existing lexicon or thesaurus.
+method_label: However, the terms in the relation may have multiple senses, thus hampering automatic placement.
+method_label: In order to address this problem we applied a termsimilarity determination technique to the problem of choosing where, in an existing lexical hierarchy, to install a lexical relation.
+result_label: The union of these two corpus-based methods is promising, although only partially successful in the experiments run so far.
+result_label: Here we report some preliminary results, and make suggestions for how to improve the technique in future.
+
+===================================
+paper_id: 14567261; YEAR: 2004
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: specter
+TITLE: Revising The Wordnet Domains Hierarchy: Semantics, Coverage And Balancing
+ABSTRACT: background_label: The continuous expansion of the multilingual information society has led in recent years to a pressing demand for multilingual linguistic resources suitable to be used for different applications.
+background_label: In this paper we present the WordNet Domains Hierarchy (WDH), a language-independent resource composed of 164, hierarchically organized, domain labels (e.g.
+objective_label: Architecture, Sport, Medicine).
+method_label: Although WDH has been successfully applied to various Natural Language Processing tasks, the first available version presented some problems, mostly related to the lack of a clear semantics of the domain labels.
+method_label: Other correlated issues were the coverage and the balancing of the domains.
+method_label: We illustrate a new version of WDH addressing these problems by an explicit and systematic reference to the Dewey Decimal Classification.
+result_label: The new version of WDH has a better defined semantics and is applicable to a wider range of tasks.
+
+===================================
+paper_id: 21461440; YEAR: 1990
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: cited - specter - abs_tfidf - title_tfidf
+TITLE: Semantic and associative priming in the cerebral hemispheres: some words do, some words don't ... sometimes, some places.
+ABSTRACT: background_label: This study investigated spreading activation for words presented to the left and right hemispheres using an automatic semantic priming paradigm.
+background_label: Three types of semantic relations were used: similar-only (Deer-Pony), associated-only (Bee-Honey), and similar + associated (Doctor-Nurse).
+background_label: Priming of lexical decisions was symmetrical over visual fields for all semantic relations when prime words were centrally presented.
+method_label: However, when primes and targets were lateralized to the same visual field, similar-only priming was greater in the LVF than in the RVF, no priming was obtained for associated-only words, and priming was equivalent over visual fields for similar + associated words.
+result_label: Similar results were found using a naming task.
+result_label: These findings suggest that it is important to lateralize both prime and target information to assess hemisphere-specific spreading activation processes.
+result_label: Further, while spreading activation occurs in either hemisphere for the most highly related words (those related by category membership and association), our findings suggest that automatic access to semantic category relatedness occurs primarily in the right cerebral hemisphere.
+result_label: These results imply a unique role for the right hemisphere in the processing of word meanings.
+result_label: We relate our results to our previous proposal (Burgess & Simpson, 1988a; Chiarello, 1988c) that there is rapid selection of one meaning and suppression of other candidates in the left hemisphere, while activation spreads more diffusely in the right hemisphere.
+result_label: We also outline a new proposal that activation spreads in a different manner for associated words than for words related by semantic similarity.
+
+===================================
+paper_id: 6430524; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_tfidfcbow200 - abs_cbow200
+TITLE: Ontology Driven Disease Incidence Detection on Twitter
+ABSTRACT: background_label: In this work we address the issue of generic automated disease incidence monitoring on twitter.
+method_label: We employ an ontology of disease related concepts and use it to obtain a conceptual representation of tweets.
+method_label: Unlike previous key word based systems and topic modeling approaches, our ontological approach allows us to apply more stringent criteria for determining which messages are relevant such as spatial and temporal characteristics whilst giving a stronger guarantee that the resulting models will perform well on new data that may be lexically divergent.
+method_label: We achieve this by training learners on concepts rather than individual words.
+method_label: For training we use a dataset containing mentions of influenza and Listeria and use the learned models to classify datasets containing mentions of an arbitrary selection of other diseases.
+method_label: We show that our ontological approach achieves good performance on this task using a variety of Natural Language Processing Techniques.
+result_label: We also show that word vectors can be learned directly from our concepts to achieve even better results.
+
+===================================
+paper_id: 7622169; YEAR: 2005
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_tfidfcbow200
+TITLE: Analysis of Statistical Question Classification for Fact-Based Questions
+ABSTRACT: background_label: Question classification systems play an important role in question answering systems and can be used in a wide range of other domains.
+objective_label: The goal of question classification is to accurately assign labels to questions based on expected answer type.
+background_label: Most approaches in the past have relied on matching questions against hand-crafted rules.
+background_label: However, rules require laborious effort to create and often suffer from being too specific.
+method_label: Statistical question classification methods overcome these issues by employing machine learning techniques.
+method_label: We empirically show that a statistical approach is robust and achieves good performance on three diverse data sets with little or no hand tuning.
+method_label: Furthermore, we examine the role different syntactic and semantic features have on performance.
+result_label: We find that semantic features tend to increase performance more than purely syntactic features.
+result_label: Finally, we analyze common causes of misclassification error and provide insight into ways they may be overcome.
+
+===================================
+paper_id: 12982947; YEAR: 2005
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_cbow200 - abs_tfidfcbow200
+TITLE: Support Vector Learning for Semantic Argument Classification
+ABSTRACT: background_label: The natural language processing community has recently experienced a growth of interest in domain independent shallow semantic parsing—the process of assigning a Who did What to Whom, When, Where, Why, How etc.
+background_label: structure to plain text.
+method_label: This process entails identifying groups of words in a sentence that represent these semantic arguments and assigning specific labels to them.
+background_label: It could play a key role in NLP tasks like Information Extraction, Question Answering and Summarization.
+method_label: We propose a machine learning algorithm for semantic role parsing, extending the work of Gildea and Jurafsky (2002), Surdeanu et al.
+method_label: (2003) and others.
+background_label: Our algorithm is based on Support Vector Machines which we show give large improvement in performance over earlier classifiers.
+background_label: We show performance improvements through a number of new features designed to improve generalization to unseen data, such as automatic clustering of verbs.
+background_label: We also report on various analytic studies examining which features are most important, comparing our classifier to other machine learning algorithms in the literature, and testing its generalization to new test set from different genre.
+method_label: On the task of assigning semantic labels to the PropBank (Kingsbury, Palmer, & Marcus, 2002) corpus, our final system has a precision of 84% and a recall of 75%, which are the best results currently reported for this task.
+method_label: Finally, we explore a completely different architecture which does not requires a deep syntactic parse.
+result_label: We reformulate the task as a combined chunking and classification problem, thus allowing our algorithm to be applied to new languages or genres of text for which statistical syntactic parsers may not be available.
+
+===================================
+paper_id: 14099741; YEAR: 2015
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_cbow200 - abs_tfidfcbow200
+TITLE: Visualizing and Understanding Neural Models in NLP
+ABSTRACT: background_label: While neural networks have been successfully applied to many NLP tasks the resulting vector-based models are very difficult to interpret.
+background_label: For example it's not clear how they achieve {\em compositionality}, building sentence meaning from the meanings of words and phrases.
+objective_label: In this paper we describe four strategies for visualizing compositionality in neural models for NLP, inspired by similar work in computer vision.
+method_label: We first plot unit values to visualize compositionality of negation, intensification, and concessive clauses, allow us to see well-known markedness asymmetries in negation.
+method_label: We then introduce three simple and straightforward methods for visualizing a unit's {\em salience}, the amount it contributes to the final composed meaning: (1) gradient back-propagation, (2) the variance of a token from the average word node, (3) LSTM-style gates that measure information flow.
+method_label: We test our methods on sentiment using simple recurrent nets and LSTMs.
+result_label: Our general-purpose methods may have wide applications for understanding compositionality and other semantic properties of deep networks , and also shed light on why LSTMs outperform simple recurrent nets,
+
+===================================
+paper_id: 15121152; YEAR: 2014
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: abs_tfidfcbow200 - abs_cbow200 - abs_tfidf
+TITLE: Learning to suggest questions in social media
+ABSTRACT: background_label: Social media systems with Q&A functionalities have accumulated large archives of questions and answers.
+background_label: Two representative types are online forums and community-based Q&A services.
+background_label: To enable users to explore the large number of questions and answers in social media systems effectively, it is essential to suggest interesting items to an active user.
+objective_label: In this article, we address the problem of question suggestion, which targets at suggesting questions that are semantically related to a queried question.
+background_label: Existing bag-of-words approaches suffer from the shortcoming that they could not bridge the lexical chasm between semantically related questions.
+method_label: Therefore, we present a new framework, and propose the topic-enhanced translation-based language model (TopicTRLM), which fuses both the lexical and latent semantic knowledge.
+method_label: This fusing enables TopicTRLM to find semantically related questions to a given question even when there is little word overlap.
+method_label: Moreover, to incorporate the answer information into the model to make the model more complete, we also propose the topic-enhanced translation-based language model with answer ensemble.
+method_label: Extensive experiments have been conducted with real-world datasets.
+result_label: Experimental results indicate our approach is very effective and outperforms other popular methods in several metrics.
+
+===================================
+paper_id: 14496668; YEAR: 2006
+adju relevance: Irrelevant (0)
+difference: 0; annotator2: 0; annotator3: 0
+sources: title_tfidfcbow200 - title_cbow200
+TITLE: D.P.: From variadic functions to variadic relations: A miniKanren perspective
+ABSTRACT: background_label: We present an implementation of miniKanren, an embedding of logic programming in R 5 RS Scheme that comprises three logic operators.
+method_label: We describe these operators, and use them to define plus o , a relation that adds two numbers.
+method_label: We then define plus o , which adds zero or more numbers; plus o takes exactly two arguments, the first of which is a list of numbers to be added or a logical variable representing such a list.
+method_label: We call such a relation pseudo-variadic.
+method_label: Combining Scheme’s var-args facility with pseudo-variadic helper relations leads to variadic relations, which take a variable number of arguments.
+method_label: We focus on pseudo-variadic relations, which we demonstrate are more flexible than their variadic equivalents.
+method_label: We show how to define plus o in terms of plus o using foldr o and foldl o , higher-order relational abstractions derived from Haskell’s foldr and foldl functions.
+result_label: These higherorder abstractions demonstrate the benefit of embedding relational operators in a functional language.
+method_label: We define many other pseudo-variadic relations using foldr o and foldl o , consider the limitations of these abstractions, and explore their eect on the divergence behavior of the relations they define.
+result_label: We also consider double-pseudo-variadic relations, a generalization of pseudo-variadic relations that take as their first argument a list of lists or a logical variable representing a list of lists.
+

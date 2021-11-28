@@ -1,0 +1,1337 @@
+======================================================================
+paper_id: 5270848; YEAR: 2014
+TITLE: Incremental Adaptation Strategies for Neural Network Language Models
+ABSTRACT: background_label: It is today acknowledged that neural network language models outperform backoff language models in applications like speech recognition or statistical machine translation.
+background_label: However, training these models on large amounts of data can take several days.
+objective_label: We present efficient techniques to adapt a neural network language model to new data.
+method_label: Instead of training a completely new model or relying on mixture approaches, we propose two new methods: continued training on resampled data or insertion of adaptation layers.
+result_label: We present experimental results in an CAT environment where the post-edits of professional translators are used to improve an SMT system.
+result_label: Both methods are very fast and achieve significant improvements without overfitting the small adaptation data.
+===================================
+paper_id: 3285974; YEAR: 2017
+adju relevance: Similar (+2)
+difference: 1; annotator4: 2; annotator3: 1
+sources: title_tfidf
+TITLE: Incremental Learning Through Deep Adaptation
+ABSTRACT: background_label: Given an existing trained neural network, it is often desirable to learn new capabilities without hindering performance of those already learned.
+background_label: Existing approaches either learn sub-optimal solutions, require joint training, or incur a substantial increment in the number of parameters for each added domain, typically as many as the original network.
+method_label: We propose a method called \emph{Deep Adaptation Networks} (DAN) that constrains newly learned filters to be linear combinations of existing ones.
+method_label: DANs precisely preserve performance on the original domain, require a fraction (typically 13\%, dependent on network architecture) of the number of parameters compared to standard fine-tuning procedures and converge in less cycles of training to a comparable or better level of performance.
+method_label: When coupled with standard network quantization techniques, we further reduce the parameter cost to around 3\% of the original with negligible or no loss in accuracy.
+method_label: The learned architecture can be controlled to switch between various learned representations, enabling a single network to solve a task from multiple different domains.
+result_label: We conduct extensive experiments showing the effectiveness of our method on a range of image classification tasks and explore different aspects of its behavior.
+
+===================================
+paper_id: 2810210; YEAR: 2000
+adju relevance: Related (+1)
+difference: 1; annotator4: 1; annotator3: 2
+sources: abs_tfidf
+TITLE: On adaptive decision rules and decision parameter adaptation for automatic speech recognition
+ABSTRACT: background_label: Recent advances in automatic speech recognition are accomplished by designing a plug-in maximum a posteriori decision rule such that the forms of the acoustic and language model distributions are specified and the parameters of the assumed distributions are estimated from a collection of speech and language training corpora.
+background_label: Maximum-likelihood point estimation is by far the most prevailing training method.
+background_label: However, due to the problems of unknown speech distributions, sparse training data, high spectral and temporal variabilities in speech, and possible mismatch between training and testing conditions, a dynamic training strategy is needed.
+method_label: To cope with the changing speakers and speaking conditions in real operational conditions for high-performance speech recognition, such paradigms incorporate a small amount of speaker and environment specific adaptation data into the training process.
+method_label: Bayesian adaptive learning is an optimal way to combine prior knowledge in an existing collection of general models with a new set of condition-specific adaptation data.
+method_label: In this paper, the mathematical framework for Bayesian adaptation of acoustic and language model parameters is first described.
+method_label: Maximum a posteriori point estimation is then developed for hidden Markov models and a number of useful parameters densities commonly used in automatic speech recognition and natural language processing.
+
+===================================
+paper_id: 20496081; YEAR: 2017
+adju relevance: Related (+1)
+difference: 1; annotator4: 1; annotator3: 0
+sources: specter - title_cbow200 - title_tfidfcbow200 - title_tfidf
+TITLE: A Neural Network Approach for Mixing Language Models
+ABSTRACT: background_label: The performance of Neural Network (NN)-based language models is steadily improving due to the emergence of new architectures, which are able to learn different natural language characteristics.
+objective_label: This paper presents a novel framework, which shows that a significant improvement can be achieved by combining different existing heterogeneous models in a single architecture.
+method_label: This is done through 1) a feature layer, which separately learns different NN-based models and 2) a mixture layer, which merges the resulting model features.
+method_label: In doing so, this architecture benefits from the learning capabilities of each model with no noticeable increase in the number of model parameters or the training time.
+result_label: Extensive experiments conducted on the Penn Treebank (PTB) and the Large Text Compression Benchmark (LTCB) corpus showed a significant reduction of the perplexity when compared to state-of-the-art feedforward as well as recurrent neural network architectures.
+
+===================================
+paper_id: 16959895; YEAR: 2015
+adju relevance: Related (+1)
+difference: 1; annotator4: 1; annotator3: 0
+sources: title_tfidfcbow200 - title_cbow200
+TITLE: Context adaptive deep neural networks for fast acoustic model adaptation
+ABSTRACT: background_label: Deep neural networks (DNNs) are widely used for acoustic modeling in automatic speech recognition (ASR), since they greatly outperform legacy Gaussian mixture model-based systems.
+background_label: However, the levels of performance achieved by current DNN-based systems remain far too low in many tasks, e.g.
+background_label: when the training and testing acoustic contexts differ due to ambient noise, reverberation or speaker variability.
+background_label: Consequently, research on DNN adaptation has recently attracted much interest.
+objective_label: In this paper, we present a novel approach for the fast adaptation of a DNN-based acoustic model to the acoustic context.
+method_label: We introduce a context adaptive DNN with one or several layers depending on external factors that represent the acoustic conditions.
+method_label: This is realized by introducing a factorized layer that uses a different set of parameters to process each class of factors.
+method_label: The output of the factorized layer is then obtained by weighted averaging over the contribution of the different factor classes, given posteriors over the factor classes.
+result_label: This paper introduces the concept of context adaptive DNN and describes preliminary experiments with the TIMIT phoneme recognition task showing consistent improvement with the proposed approach.
+
+===================================
+paper_id: 17815442; YEAR: 2017
+adju relevance: Related (+1)
+difference: 0; annotator4: 1; annotator3: 1
+sources: specter
+TITLE: Improving Context Aware Language Models
+ABSTRACT: background_label: Increased adaptability of RNN language models leads to improved predictions that benefit many applications.
+background_label: However, current methods do not take full advantage of the RNN structure.
+method_label: We show that the most widely-used approach to adaptation (concatenating the context with the word embedding at the input to the recurrent layer) is outperformed by a model that has some low-cost improvements: adaptation of both the hidden and output layers.
+method_label: and a feature hashing bias term to capture context idiosyncrasies.
+result_label: Experiments on language modeling and classification tasks using three different corpora demonstrate the advantages of the proposed techniques.
+
+===================================
+paper_id: 16116519; YEAR: 2017
+adju relevance: Related (+1)
+difference: 2; annotator4: 1; annotator3: -1
+sources: title_tfidfcbow200 - title_cbow200 - abs_cbow200 - specter - abs_tfidf
+TITLE: Efficient Transfer Learning Schemes for Personalized Language Modeling using Recurrent Neural Network
+ABSTRACT: objective_label: In this paper, we propose an efficient transfer leaning methods for training a personalized language model using a recurrent neural network with long short-term memory architecture.
+method_label: With our proposed fast transfer learning schemes, a general language model is updated to a personalized language model with a small amount of user data and a limited computing resource.
+method_label: These methods are especially useful for a mobile device environment while the data is prevented from transferring out of the device for privacy purposes.
+result_label: Through experiments on dialogue data in a drama, it is verified that our transfer learning methods have successfully generated the personalized language model, whose output is more similar to the personal language style in both qualitative and quantitative aspects.
+
+===================================
+paper_id: 388785; YEAR: 2017
+adju relevance: Related (+1)
+difference: 2; annotator4: 0; annotator3: 2
+sources: abs_tfidfcbow200 - abs_cbow200
+TITLE: Learning What Data to Learn
+ABSTRACT: background_label: Machine learning is essentially the sciences of playing with data.
+background_label: An adaptive data selection strategy, enabling to dynamically choose different data at various training stages, can reach a more effective model in a more efficient way.
+objective_label: In this paper, we propose a deep reinforcement learning framework, which we call \emph{\textbf{N}eural \textbf{D}ata \textbf{F}ilter} (\textbf{NDF}), to explore automatic and adaptive data selection in the training process.
+method_label: In particular, NDF takes advantage of a deep neural network to adaptively select and filter important data instances from a sequential stream of training data, such that the future accumulative reward (e.g., the convergence speed) is maximized.
+method_label: In contrast to previous studies in data selection that is mainly based on heuristic strategies, NDF is quite generic and thus can be widely suitable for many machine learning tasks.
+result_label: Taking neural network training with stochastic gradient descent (SGD) as an example, comprehensive experiments with respect to various neural network modeling (e.g., multi-layer perceptron networks, convolutional neural networks and recurrent neural networks) and several applications (e.g., image classification and text understanding) demonstrate that NDF powered SGD can achieve comparable accuracy with standard SGD process by using less data and fewer iterations.
+
+===================================
+paper_id: 15288676; YEAR: 2013
+adju relevance: Related (+1)
+difference: 1; annotator4: 0; annotator3: 1
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Improving Language Model Adaptation using Automatic Data Selection and Neural Network
+ABSTRACT: background_label: AbstractSince language model (LM) is very sensitive to domain mismatch between training and test data, using a group of techniques to adapt a big LM to specific domains is quite helpful.
+background_label: In this paper, we, benefit from salient performance of recurrent neural network to improve domain adapted LM.
+method_label: In this way, we first apply an automatic data selection procedure on a limited amount of in-domain data in order to enrich the training set.
+method_label: After that, we train a domain specific N-gram LM and improve it by using recurrent neural network language model trained on limited in-domain data.
+result_label: Experiments in the framework of EUBRIDGE 1 project on weather forecast dataset show that the automatic data selection procedure improves the word error rate around 2% and RNNLM makes additional improvement over 0.3%.
+
+===================================
+paper_id: 10766958; YEAR: 2011
+adju relevance: Related (+1)
+difference: 0; annotator4: 1; annotator3: 1
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Domain Adaptation via Pseudo In-Domain Data Selection
+ABSTRACT: background_label: AbstractWe explore efficient domain adaptation for the task of statistical machine translation based on extracting sentences from a large generaldomain parallel corpus that are most relevant to the target domain.
+method_label: These sentences may be selected with simple cross-entropy based methods, of which we present three.
+method_label: As these sentences are not themselves identical to the in-domain data, we call them pseudo in-domain subcorpora.
+method_label: These subcorpora -1% the size of the original -can then used to train small domain-adapted Statistical Machine Translation (SMT) systems which outperform systems trained on the entire corpus.
+method_label: Performance is further improved when we use these domain-adapted models in combination with a true in-domain model.
+result_label: The results show that more training data is not always better, and that best results are attained via proper domain-relevant data selection, as well as combining in-and general-domain systems during decoding.
+
+===================================
+paper_id: 9941447; YEAR: 2010
+adju relevance: Related (+1)
+difference: 1; annotator4: 0; annotator3: 1
+sources: title_tfidfcbow200 - title_cbow200 - title_tfidf
+TITLE: An incremental learning method for neural networks in adaptive environments
+ABSTRACT: background_label: Many real scenarios in machine learning are non-stationary.
+background_label: These challenges forces to develop new algorithms that are able to deal with changes in the underlying problem to be learnt.
+background_label: These changes can be gradual or abrupt.
+background_label: As the dynamics of the changes can be different, the existing machine learning algorithms exhibit difficulties to cope with them.
+method_label: In this work we propose a new method, that is based in the introduction of a forgetting function in an incremental online learning algorithm for two-layer feedforward neural networks.
+method_label: This forgetting function gives a monotonically crescent importance to new data.
+method_label: Due to this fact, the network forgets in presence of changes while maintaining a stable behavior when the context is stationary.
+method_label: The theoretical basis for the method is given and its performance is illustrated by evaluating its behavior.
+result_label: The results confirm that the proposed method is able to work in evolving environments.
+
+===================================
+paper_id: 57374299; YEAR: 1993
+adju relevance: Related (+1)
+difference: 1; annotator4: 1; annotator3: 2
+sources: title_tfidf - title_tfidfcbow200 - specter
+TITLE: On the dynamic adaptation of stochastic language models
+ABSTRACT: background_label: A simple and general scheme for the adaptation of stochastic language models to changing text styles is introduced.
+method_label: For each word in the running text, the adapted model is a linear combination of specific models, the interpolation parameters being estimated on the preceding text passage.
+result_label: Experiments on a 1.1-million English word corpus show the validity of the approach.
+other_label: The adaptation method improves a bigram language model by 10% in terms of test-set perplexity.<<ETX>>
+
+===================================
+paper_id: 49486041; YEAR: 2018
+adju relevance: Related (+1)
+difference: 0; annotator4: 1; annotator3: 1
+sources: title_tfidfcbow200 - title_cbow200 - specter
+TITLE: Unsupervised and Efficient Vocabulary Expansion for Recurrent Neural Network Language Models in ASR
+ABSTRACT: background_label: In automatic speech recognition (ASR) systems, recurrent neural network language models (RNNLM) are used to rescore a word lattice or N-best hypotheses list.
+background_label: Due to the expensive training, the RNNLM's vocabulary set accommodates only small shortlist of most frequent words.
+background_label: This leads to suboptimal performance if an input speech contains many out-of-shortlist (OOS) words.
+objective_label: An effective solution is to increase the shortlist size and retrain the entire network which is highly inefficient.
+method_label: Therefore, we propose an efficient method to expand the shortlist set of a pretrained RNNLM without incurring expensive retraining and using additional training data.
+method_label: Our method exploits the structure of RNNLM which can be decoupled into three parts: input projection layer, middle layers, and output projection layer.
+method_label: Specifically, our method expands the word embedding matrices in projection layers and keeps the middle layers unchanged.
+method_label: In this approach, the functionality of the pretrained RNNLM will be correctly maintained as long as OOS words are properly modeled in two embedding spaces.
+method_label: We propose to model the OOS words by borrowing linguistic knowledge from appropriate in-shortlist words.
+method_label: Additionally, we propose to generate the list of OOS words to expand vocabulary in unsupervised manner by automatically extracting them from ASR output.
+
+===================================
+paper_id: 3960630; YEAR: 2018
+adju relevance: Related (+1)
+difference: 0; annotator4: 1; annotator3: 1
+sources: title_tfidfcbow200 - title_cbow200 - abs_tfidf - title_tfidf
+TITLE: Context Adaptive Neural Network Based Acoustic Models for Rapid Adaptation
+ABSTRACT: background_label: The adaptation of automatic speech recognition systems to a speaker or an environment is important if we are to achieve high speech recognition performance ubiquitously.
+background_label: Recently, deep neural network DNN based acoustic models have been made adaptive to speakers or environments by the addition of an auxiliary feature representing the acoustic context information such as speaker or noise characteristics to the network input.
+background_label: The addition of such auxiliary features to the input realizes only the adaptation of the bias term of the input layer.
+objective_label: In this paper, we introduce “context adaptive neural networks,” which are an alternative approach for exploiting auxiliary features that can achieve adaptation of all the parameters of a layer including the linear transformation matrices and the bias terms.
+method_label: A context adaptive neural network is a neural network with one of its layers factorized into sublayers, each associated with an acoustic context class representing a class of speakers or noise conditions.
+method_label: The output of the factorized layer is obtained as a weighted sum of the contributions of all of the sublayers.
+method_label: The weighting coefficients, or context class weights, are derived from the auxiliary features, by transforming them through an auxiliary network.
+method_label: The auxiliary network and the main network can be trained jointly, which enables the context classes that optimize the training criterion to be learned automatically.
+method_label: We perform experiments on three tasks, i.e., two speaker adaptation experiments using DNN models with medium-sized Wall Street Journal and large Continuous Spontaneous Japanese training datasets, and one environmental adaptation of a convolutional neural network based acoustic model with CHiME3 data.
+result_label: These experiments confirm the potential of the proposed approach in various settings.
+
+===================================
+paper_id: 9536363; YEAR: 2007
+adju relevance: Related (+1)
+difference: 1; annotator4: 1; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Experiments in Domain Adaptation for Statistical Machine Translation
+ABSTRACT: background_label: The special challenge of the WMT 2007 shared task was domain adaptation.
+background_label: We took this opportunity to experiment with various ways of adapting a statistical machine translation systems to a special domain (here: news commentary), when most of the training data is from a different domain (here: European Parliament speeches).
+result_label: This paper also gives a description of the submission of the University of Edinburgh to the shared task.
+
+===================================
+paper_id: 14828669; YEAR: 2011
+adju relevance: Related (+1)
+difference: 2; annotator4: 0; annotator3: 2
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Structured Output Layer neural network language model
+ABSTRACT: background_label: This paper introduces a new neural network language model (NNLM) based on word clustering to structure the output vocabulary: Structured Output Layer NNLM.
+method_label: This model is able to handle vocabularies of arbitrary size, hence dispensing with the design of short-lists that are commonly used in NNLMs.
+method_label: Several softmax layers replace the standard output layer in this model.
+method_label: The output structure depends on the word clustering which uses the continuous word representation induced by a NNLM.
+method_label: The GALE Mandarin data was used to carry out the speech-to-text experiments and evaluate the NNLMs.
+result_label: On this data the well tuned baseline system has a character error rate under 10%.
+result_label: Our model achieves consistent improvements over the combination of an n-gram model and classical short-list NNLMs both in terms of perplexity and recognition accuracy.
+
+===================================
+paper_id: 14955348; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: abs_cbow200 - abs_tfidfcbow200
+TITLE: Communication-Efficient Learning of Deep Networks from Decentralized Data
+ABSTRACT: background_label: Modern mobile devices have access to a wealth of data suitable for learning models, which in turn can greatly improve the user experience on the device.
+background_label: For example, language models can improve speech recognition and text entry, and image models can automatically select good photos.
+background_label: However, this rich data is often privacy sensitive, large in quantity, or both, which may preclude logging to the data center and training there using conventional approaches.
+objective_label: We advocate an alternative that leaves the training data distributed on the mobile devices, and learns a shared model by aggregating locally-computed updates.
+method_label: We term this decentralized approach Federated Learning.
+method_label: We present a practical method for the federated learning of deep networks based on iterative model averaging, and conduct an extensive empirical evaluation, considering five different model architectures and four datasets.
+result_label: These experiments demonstrate the approach is robust to the unbalanced and non-IID data distributions that are a defining characteristic of this setting.
+result_label: Communication costs are the principal constraint, and we show a reduction in required communication rounds by 10-100x as compared to synchronized stochastic gradient descent.
+
+===================================
+paper_id: 14141965; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: abs_tfidfcbow200 - abs_cbow200
+TITLE: Data Programming: Creating Large Training Sets, Quickly
+ABSTRACT: background_label: Large labeled training sets are the critical building blocks of supervised learning methods and are key enablers of deep learning techniques.
+background_label: For some applications, creating labeled training sets is the most time-consuming and expensive part of applying machine learning.
+background_label: We therefore propose a paradigm for the programmatic creation of training sets called data programming in which users express weak supervision strategies or domain heuristics as labeling functions, which are programs that label subsets of the data, but that are noisy and may conflict.
+method_label: We show that by explicitly representing this training set labeling process as a generative model, we can"denoise"the generated training set, and establish theoretically that we can recover the parameters of these generative models in a handful of settings.
+method_label: We then show how to modify a discriminative loss function to make it noise-aware, and demonstrate our method over a range of discriminative models including logistic regression and LSTMs.
+result_label: Experimentally, on the 2014 TAC-KBP Slot Filling challenge, we show that data programming would have led to a new winning score, and also show that applying data programming to an LSTM model leads to a TAC-KBP score almost 6 F1 points over a state-of-the-art LSTM baseline (and into second place in the competition).
+result_label: Additionally, in initial user studies we observed that data programming may be an easier way for non-experts to create machine learning models when training data is limited or unavailable.
+
+===================================
+paper_id: 126180494; YEAR: 2019
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: abs_cbow200 - abs_tfidfcbow200
+TITLE: A Scalable Handwritten Text Recognition System
+ABSTRACT: background_label: Many studies on (Offline) Handwritten Text Recognition (HTR) systems have focused on building state-of-the-art models for line recognition on small corpora.
+background_label: However, adding HTR capability to a large scale multilingual OCR system poses new challenges.
+objective_label: This paper addresses three problems in building such systems: data, efficiency, and integration.
+objective_label: Firstly, one of the biggest challenges is obtaining sufficient amounts of high quality training data.
+method_label: We address the problem by using online handwriting data collected for a large scale production online handwriting recognition system.
+method_label: We describe our image data generation pipeline and study how online data can be used to build HTR models.
+background_label: We show that the data improve the models significantly under the condition where only a small number of real images is available, which is usually the case for HTR models.
+background_label: It enables us to support a new script at substantially lower cost.
+method_label: Secondly, we propose a line recognition model based on neural networks without recurrent connections.
+method_label: The model achieves a comparable accuracy with LSTM-based models while allowing for better parallelism in training and inference.
+method_label: Finally, we present a simple way to integrate HTR models into an OCR system.
+result_label: These constitute a solution to bring HTR capability into a large scale OCR system.
+
+===================================
+paper_id: 52879098; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: title_tfidfcbow200 - title_cbow200 - title_tfidf
+TITLE: Adaptive Pruning of Neural Language Models for Mobile Devices
+ABSTRACT: background_label: Neural language models (NLMs) exist in an accuracy-efficiency tradeoff space where better perplexity typically comes at the cost of greater computation complexity.
+background_label: In a software keyboard application on mobile devices, this translates into higher power consumption and shorter battery life.
+objective_label: This paper represents the first attempt, to our knowledge, in exploring accuracy-efficiency tradeoffs for NLMs.
+method_label: Building on quasi-recurrent neural networks (QRNNs), we apply pruning techniques to provide a"knob"to select different operating points.
+method_label: In addition, we propose a simple technique to recover some perplexity using a negligible amount of memory.
+result_label: Our empirical evaluations consider both perplexity as well as energy consumption on a Raspberry Pi, where we demonstrate which methods provide the best perplexity-power consumption operating point.
+result_label: At one operating point, one of the techniques is able to provide energy savings of 40% over the state of the art with only a 17% relative increase in perplexity.
+
+===================================
+paper_id: 15301376; YEAR: 2015
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: abs_tfidfcbow200 - abs_tfidf
+TITLE: Transfer Learning for Speech and Language Processing
+ABSTRACT: background_label: Transfer learning is a vital technique that generalizes models trained for one setting or task to other settings or tasks.
+background_label: For example in speech recognition, an acoustic model trained for one language can be used to recognize speech in another language, with little or no re-training data.
+background_label: Transfer learning is closely related to multi-task learning (cross-lingual vs. multilingual), and is traditionally studied in the name of `model adaptation'.
+background_label: Recent advance in deep learning shows that transfer learning becomes much easier and more effective with high-level abstract features learned by deep models, and the `transfer' can be conducted not only between data distributions and data types, but also between model structures (e.g., shallow nets and deep nets) or even model types (e.g., Bayesian models and neural models).
+result_label: This review paper summarizes some recent prominent research towards this direction, particularly for speech and language processing.
+result_label: We also report some results from our group and highlight the potential of this very interesting research field.
+
+===================================
+paper_id: 82456167; YEAR: 2007
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: title_tfidf
+TITLE: Janeway's Immunobiology
+ABSTRACT: background_label: Part I An Introduction to Immunobiology and Innate Immunity 1.
+background_label: Basic Concepts in Immunology 2.
+background_label: Innate Immunity Part II The Recognition of Antigen 3.
+background_label: Antigen Recognition by B-cell and T-cell Receptors 4.
+method_label: The Generation of Lymphocyte Antigen Receptors 5.
+method_label: Antigen Presentation to T Lymphocytes Part III The Development of Mature Lymphocyte Receptor Repertoires 6.
+method_label: Signaling Through Immune System Receptors 7.
+result_label: The Development and Survival of Lymphocytes Part IV The Adaptive Immune Response 8.
+background_label: T Cell-Mediated Immunity 9.
+background_label: The Humoral Immune Response 10.
+background_label: Dynamics of Adaptive Immunity 11.
+other_label: The Mucosal Immune System Part V The Immune System in Health and Disease 12.
+background_label: Failures of Host Defense Mechanism 13.
+other_label: Allergy and Hypersensitivity 14.
+other_label: Autoimmunity and Transplantation 15.
+other_label: Manipulation of the Immune Response Part VI The Origins of Immune Responses 16.
+other_label: Evolution of the Immune System Appendix I Immunologists' Toolbox Appendix II CD Antigens Appendix III Cytokines and their Receptors Appendix IV Chemokines and their Receptors Appendix V Immunological Constants
+
+===================================
+paper_id: 11308291; YEAR: 2012
+adju relevance: Irrelevant (0)
+difference: 2; annotator4: 0; annotator3: 2
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Adaptation of context-dependent deep neural networks for automatic speech recognition
+ABSTRACT: background_label: In this paper, we evaluate the effectiveness of adaptation methods for context-dependent deep-neural-network hidden Markov models (CD-DNN-HMMs) for automatic speech recognition.
+method_label: We investigate the affine transformation and several of its variants for adapting the top hidden layer.
+method_label: We compare the affine transformations against direct adaptation of the softmax layer weights.
+method_label: The feature-space discriminative linear regression (fDLR) method with the affine transformations on the input layer is also evaluated.
+result_label: On a large vocabulary speech recognition task, a stochastic gradient ascent implementation of the fDLR and the top hidden layer adaptation is shown to reduce word error rates (WERs) by 17% and 14%, respectively, compared to the baseline DNN performances.
+result_label: With a batch update implementation, the softmax layer adaptation technique reduces WERs by 10%.
+result_label: We observe that using bias shift performs as well as doing scaling plus bias shift.
+
+===================================
+paper_id: 9223911; YEAR: 2008
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: abs_tfidf - specter
+TITLE: Semi-supervised model adaptation for statistical machine translation
+ABSTRACT: background_label: Statistical machine translation systems are usually trained on large amounts of bilingual text (used to learn a translation model), and also large amounts of monolingual text in the target language (used to train a language model).
+objective_label: In this article we explore the use of semi-supervised model adaptation methods for the effective use of monolingual data from the source language in order to improve translation quality.
+method_label: We propose several algorithms with this aim, and present the strengths and weaknesses of each one.
+method_label: We present detailed experimental evaluations on the French–English EuroParl data set and on data from the NIST Chinese–English large-data track.
+result_label: We show a significant improvement in translation quality on both tasks.
+
+===================================
+paper_id: 146118700; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: abs_tfidf - title_tfidf
+TITLE: CLMAD: A Chinese Language Model Adaptation Dataset
+ABSTRACT: background_label: A language model (LM) is an important part of a speech recognition system.
+background_label: Language model adaptation techniques use a large amount of source domain data and limited target domain data to improve the performance of language models in target domain.
+background_label: Even though text datasets are easy to obtain, there is no public Chinese text dataset for language model adaptation tasks.
+objective_label: This paper presents a language model adaptation dataset which consists of four different domains of news data, i.e., sport, stock, fashion, finance.
+method_label: The discrepancy between the domains of data is evaluated.
+method_label: Model combination based adaptation of n-gram is evaluated on the dataset.
+result_label: Three different fine-tuning adaptation methods of recurrent neural network language models (RNNLMs) are evaluated.
+result_label: WER results on AIShell speech data with the language models trained on this dataset are also provided.
+result_label: The absolute WER reduction of lattice rescoring with adapted RNNLM is 4.74%.
+
+===================================
+paper_id: 202539232; YEAR: 2019
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: abs_cbow200 - abs_tfidfcbow200 - abs_tfidf
+TITLE: Abductive Reasoning as Self-Supervision for Common Sense Question Answering
+ABSTRACT: background_label: Question answering has seen significant advances in recent times, especially with the introduction of increasingly bigger transformer-based models pre-trained on massive amounts of data.
+background_label: While achieving impressive results on many benchmarks, their performances appear to be proportional to the amount of training data available in the target domain.
+objective_label: In this work, we explore the ability of current question-answering models to generalize - to both other domains as well as with restricted training data.
+background_label: We find that large amounts of training data are necessary, both for pre-training as well as fine-tuning to a task, for the models to perform well on the designated task.
+method_label: We introduce a novel abductive reasoning approach based on Grenander's Pattern Theory framework to provide self-supervised domain adaptation cues or"pseudo-labels,"which can be used instead of expensive human annotations.
+method_label: The proposed self-supervised training regimen allows for effective domain adaptation without losing performance compared to fully supervised baselines.
+method_label: Extensive experiments on two publicly available benchmarks show the efficacy of the proposed approach.
+result_label: We show that neural networks models trained using self-labeled data can retain up to $75\%$ of the performance of models trained on large amounts of human-annotated training data.
+
+===================================
+paper_id: 5467830; YEAR: 2014
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: specter - title_cbow200
+TITLE: Decoder Integration and Expected BLEU Training for Recurrent Neural Network Language Models
+ABSTRACT: background_label: Neural network language models are often trained by optimizing likelihood, but we would prefer to optimize for a task specific metric, such as BLEU in machine translation.
+background_label: We show how a recurrent neural network language model can be optimized towards an expected BLEU loss instead of the usual cross-entropy criterion.
+method_label: Furthermore, we tackle the issue of directly integrating a recurrent network into firstpass decoding under an efficient approximation.
+result_label: Our best results improve a phrasebased statistical machine translation system trained on WMT 2012 French-English data by up to 2.0 BLEU, and the expected BLEU objective improves over a crossentropy trained model by up to 0.6 BLEU in a single reference setup.
+
+===================================
+paper_id: 166228599; YEAR: 2019
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: abs_tfidfcbow200
+TITLE: Classification Accuracy Score for Conditional Generative Models
+ABSTRACT: background_label: Deep generative models (DGMs) of images are now sufficiently mature that they produce nearly photorealistic samples and obtain scores similar to the data distribution on heuristics such as Frechet Inception Distance.
+background_label: These results, especially on large-scale datasets such as ImageNet, suggest that DGMs are learning the data distribution in a perceptually meaningful space, and can be used in downstream tasks.
+method_label: To test this latter hypothesis, we use class-conditional generative models from a number of model classes---variational autoencoder, autoregressive models, and generative adversarial networks---to infer the class labels of real data.
+method_label: We perform this inference by training the image classifier using only synthetic data, and using the classifier to predict labels on real data.
+method_label: The performance on this task, which we call Classification Accuracy Score (CAS), highlights some surprising results not captured by traditional metrics and comprise our contributions.
+result_label: First, when using a state-of-the-art GAN (BigGAN), Top-5 accuracy decreases by 41.6% compared to the original data and conditional generative models from other model classes, such as high-resolution VQ-VAE and Hierarchical Autoregressive Models, substantially outperform GANs on this benchmark.
+method_label: Second, CAS automatically surfaces particular classes for which generative models failed to capture the data distribution, and were previously unknown in the literature.
+method_label: Third, we find traditional GAN metrics such as Frechet Inception Distance neither predictive of CAS nor useful when evaluating non-GAN models.
+result_label: Finally, we introduce Naive Augmentation Score, a variant of CAS where the image classifier is trained on both real and synthetic data, to demonstrate that naive augmentation improves classification performance in limited circumstances.
+result_label: In order to facilitate better diagnoses of generative models, we open-source the proposed metric.
+
+===================================
+paper_id: 3707160; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 1; annotator4: 0; annotator3: 1
+sources: specter - abs_tfidfcbow200 - abs_cbow200
+TITLE: Neural Network Language Modeling with Letter-Based Features and Importance Sampling
+ABSTRACT: background_label: In this paper we describe an extension of the Kaldi software toolkit to support neural-based language modeling, intended for use in automatic speech recognition (ASR) and related tasks.
+method_label: We combine the use of subword features (letter n-grams) and one-hot encoding of frequent words so that the models can handle large vocabularies containing infrequent words.
+method_label: We propose a new objective function that allows for training of unnormalized probabilities.
+method_label: An importance sampling based method is supported to speed up training when the vocabulary is large.
+result_label: Experimental results on five corpora show that Kaldi-RNNLM rivals other recurrent neural network language model toolkits both on performance and training speed.
+
+===================================
+paper_id: 16488979; YEAR: 2015
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: abs_cbow200 - abs_tfidfcbow200
+TITLE: Machine Learning for Machine Data from a CATI Network
+ABSTRACT: background_label: This is a machine learning application paper involving big data.
+background_label: We present high-accuracy prediction methods of rare events in semi-structured machine log files, which are produced at high velocity and high volume by NORC's computer-assisted telephone interviewing (CATI) network for conducting surveys.
+method_label: We judiciously apply natural language processing (NLP) techniques and data-mining strategies to train effective learning and prediction models for classifying uncommon error messages in the log---without access to source code, updated documentation or dictionaries.
+result_label: In particular, our simple but effective approach of features preallocation for learning from imbalanced data coupled with naive Bayes classifiers can be conceivably generalized to supervised or semi-supervised learning and prediction methods for other critical events such as cyberattack detection.
+
+===================================
+paper_id: 6598351; YEAR: 2015
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: title_cbow200 - title_tfidf
+TITLE: Discriminative method for recurrent neural network language models
+ABSTRACT: background_label: A recurrent neural network language model (RNN-LM) can use a long word context more than can an n-gram language model, and its effective has recently been shown in its accomplishment of automatic speech recognition (ASR) tasks.
+background_label: However, the training criteria of RNN-LM are based on cross entropy (CE) between predicted and reference words.
+method_label: In addition, unlike the discriminative training of acoustic models and discriminative language models (DLM), these criteria do not explicitly consider discriminative criteria calculated from ASR hypotheses and references.
+method_label: This paper proposes a discriminative training method for RNN-LM by additionally considering a discriminative criterion to CE.
+method_label: We use the log-likelihood ratio of the ASR hypotheses and references as an discriminative criterion.
+method_label: The proposed training criterion emphasizes the effect of improperly recognized words relatively compared to the effect of correct words, which are discounted in training.
+method_label: Experiments on a large vocabulary continuous speech recognition task show that our proposed method improves the RNN-LM baseline.
+result_label: In addition, combining the proposed discriminative RNN-LM and DLM further shows its effectiveness.
+
+===================================
+paper_id: 8176549; YEAR: 2010
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: specter - abs_tfidfcbow200 - abs_cbow200 - abs_tfidf
+TITLE: Training Continuous Space Language Models: Some Practical Issues
+ABSTRACT: background_label: AbstractUsing multi-layer neural networks to estimate the probabilities of word sequences is a promising research area in statistical language modeling, with applications in speech recognition and statistical machine translation.
+background_label: However, training such models for large vocabulary tasks is computationally challenging which does not scale easily to the huge corpora that are nowadays available.
+objective_label: In this work, we study the performance and behavior of two neural statistical language models so as to highlight some important caveats of the classical training algorithms.
+method_label: The induced word embeddings for extreme cases are also analysed, thus providing insight into the convergence issues.
+method_label: A new initialization scheme and new training techniques are then introduced.
+method_label: These methods are shown to greatly reduce the training time and to significantly improve performance, both in terms of perplexity and on a large-scale translation task.
+
+===================================
+paper_id: 15037378; YEAR: 2013
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: title_tfidfcbow200 - title_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Combination of Recurrent Neural Networks and Factored Language Models for Code-Switching Language Modeling
+ABSTRACT: objective_label: AbstractIn this paper, we investigate the application of recurrent neural network language models (RNNLM) and factored language models (FLM) to the task of language modeling for Code-Switching speech.
+objective_label: We present a way to integrate partof-speech tags (POS) and language information (LID) into these models which leads to significant improvements in terms of perplexity.
+method_label: Furthermore, a comparison between RNNLMs and FLMs and a detailed analysis of perplexities on the different backoff levels are performed.
+method_label: Finally, we show that recurrent neural networks and factored language models can be combined using linear interpolation to achieve the best performance.
+result_label: The final combined language model provides 37.8% relative improvement in terms of perplexity on the SEAME development set and a relative improvement of 32.7% on the evaluation set compared to the traditional n-gram language model.
+
+===================================
+paper_id: 12672327; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: specter - title_tfidf
+TITLE: Incorporating Side Information into Recurrent Neural Network Language Models
+ABSTRACT: background_label: AbstractRecurrent neural network language models (RNNLM) have recently demonstrated vast potential in modelling long-term dependencies for NLP problems, ranging from speech recognition to machine translation.
+method_label: In this work, we propose methods for conditioning RNNLMs on external side information, e.g., metadata such as keywords, description, document title or topic headline.
+method_label: Our experiments show consistent improvements of RNNLMs using side information over the baselines for two different datasets and genres in two languages.
+result_label: Interestingly, we found that side information in a foreign language can be highly beneficial in modelling texts in another language, serving as a form of cross-lingual language modelling.
+
+===================================
+paper_id: 201666324; YEAR: 2019
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: abs_cbow200
+TITLE: Well-Read Students Learn Better: The Impact of Student Initialization on Knowledge Distillation
+ABSTRACT: background_label: Recent developments in natural language representations have been accompanied by large and expensive models that leverage vast amounts of general-domain text through self-supervised pre-training.
+background_label: Due to the cost of applying such models to down-stream tasks, several model compression techniques on pre-trained language representations have been proposed (Sun et al., 2019; Sanh, 2019).
+background_label: However, surprisingly, the simple baseline of just pre-training and fine-tuning compact models has been overlooked.
+method_label: In this paper, we first show that pre-training remains important in the context of smaller architectures, and fine-tuning pre-trained compact models can be competitive to more elaborate methods proposed in concurrent work.
+method_label: Starting with pre-trained compact models, we then explore transferring task knowledge from large fine-tuned models through standard knowledge distillation.
+method_label: The resulting simple, yet effective and general algorithm, Pre-trained Distillation, brings further improvements.
+method_label: Through extensive experiments, we more generally explore the interaction between pre-training and distillation under two variables that have been under-studied: model size and properties of unlabeled task data.
+result_label: One surprising observation is that they have a compound effect even when sequentially applied on the same data.
+result_label: To accelerate future research, we will make our 24 pre-trained miniature BERT models publicly available.
+
+===================================
+paper_id: 900029; YEAR: 2012
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: title_tfidf - specter
+TITLE: Deep Neural Network Language Models
+ABSTRACT: background_label: AbstractIn recent years, neural network language models (NNLMs) have shown success in both peplexity and word error rate (WER) compared to conventional n-gram language models.
+background_label: Most NNLMs are trained with one hidden layer.
+background_label: Deep neural networks (DNNs) with more hidden layers have been shown to capture higher-level discriminative information about input features, and thus produce better networks.
+method_label: Motivated by the success of DNNs in acoustic modeling, we explore deep neural network language models (DNN LMs) in this paper.
+result_label: Results on a Wall Street Journal (WSJ) task demonstrate that DNN LMs offer improvements over a single hidden layer NNLM.
+result_label: Furthermore, our preliminary results are competitive with a model M language model, considered to be one of the current state-of-the-art techniques for language modeling.
+
+===================================
+paper_id: 14133458; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: title_tfidfcbow200 - title_cbow200 - specter
+TITLE: Learning Simpler Language Models with the Delta Recurrent Neural Network Framework
+ABSTRACT: background_label: AbstractLearning useful information across long time lags is a critical and difficult problem for temporal neural models in tasks like language modeling.
+background_label: Existing architectures that address the issue are often complex and costly to train.
+background_label: The Delta Recurrent Neural Network (Delta-RNN) framework is a simple and highperforming design that unifies previously proposed gated neural models.
+method_label: The Delta-RNN models maintain longer-term memory by learning to interpolate between a fast-changing data-driven representation and a slowly changing, implicitly stable state.
+method_label: This requires hardly any more parameters than a classical simple recurrent network.
+result_label: The models outperform popular complex architectures, such as the Long Short Term Memory (LSTM) and the Gated Recurrent Unit (GRU) and achieve state-of-the art performance in language modeling at character and word levels and yield comparable performance at the subword level.
+
+===================================
+paper_id: 186597544; YEAR: 2000
+adju relevance: Irrelevant (0)
+difference: 1; annotator4: 1; annotator3: 0
+sources: title_tfidf
+TITLE: Language Model Adaptation
+ABSTRACT: objective_label: This paper reviews methods for language model adaptation.
+method_label: Paradigms and basic methods are first introduced.
+method_label: Basic theory is presented for maximum a-posteriori estimation, mixture based adaptation, and minimum discrimination information.
+method_label: Models to cope with long distance dependencies are also introduced.
+result_label: Applications and results from the recent literature are finally surveyed.
+
+===================================
+paper_id: 6035643; YEAR: 2015
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: specter - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - title_tfidf
+TITLE: Strategies for Training Large Vocabulary Neural Language Models
+ABSTRACT: background_label: Training neural network language models over large vocabularies is still computationally very costly compared to count-based models such as Kneser-Ney.
+background_label: At the same time, neural language models are gaining popularity for many applications such as speech recognition and machine translation whose success depends on scalability.
+method_label: We present a systematic comparison of strategies to represent and train large vocabularies, including softmax, hierarchical softmax, target sampling, noise contrastive estimation and self normalization.
+method_label: We further extend self normalization to be a proper estimator of likelihood and introduce an efficient variant of softmax.
+result_label: We evaluate each method on three popular benchmarks, examining performance on rare words, the speed/accuracy trade-off and complementarity to Kneser-Ney.
+
+===================================
+paper_id: 5036936; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: specter - title_cbow200 - title_tfidfcbow200 - abs_tfidf
+TITLE: Lightweight Adaptive Mixture of Neural and N-gram Language Models
+ABSTRACT: background_label: It is often the case that the best performing language model is an ensemble of a neural language model with n-grams.
+objective_label: In this work, we propose a method to improve how these two models are combined.
+method_label: By using a small network which predicts the mixture weight between the two models, we adapt their relative importance at each time step.
+method_label: Because the gating network is small, it trains quickly on small amounts of held out data, and does not add overhead at scoring time.
+result_label: Our experiments carried out on the One Billion Word benchmark show a significant improvement over the state of the art ensemble without retraining of the basic modules.
+
+===================================
+paper_id: 189928081; YEAR: 2019
+adju relevance: Irrelevant (0)
+difference: 1; annotator4: 0; annotator3: 1
+sources: abs_tfidfcbow200 - specter - abs_tfidf
+TITLE: Scalable Syntax-Aware Language Models Using Knowledge Distillation
+ABSTRACT: background_label: Prior work has shown that, on small amounts of training data, syntactic neural language models learn structurally sensitive generalisations more successfully than sequential language models.
+background_label: However, their computational complexity renders scaling difficult, and it remains an open question whether structural biases are still necessary when sequential models have access to ever larger amounts of training data.
+method_label: To answer this question, we introduce an efficient knowledge distillation (KD) technique that transfers knowledge from a syntactic language model trained on a small corpus to an LSTM language model, hence enabling the LSTM to develop a more structurally sensitive representation of the larger training data it learns from.
+result_label: On targeted syntactic evaluations, we find that, while sequential LSTMs perform much better than previously reported, our proposed technique substantially improves on this baseline, yielding a new state of the art.
+result_label: Our findings and analysis affirm the importance of structural biases, even in models that learn from large amounts of data.
+
+===================================
+paper_id: 62951875; YEAR: 2009
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: abs_cbow200
+TITLE: Self-taught learning
+ABSTRACT: background_label: We introduce a new machine learning framework called self-taught learning for using unlabeled data in supervised classification tasks.
+background_label: This framework does not require that the unlabeled data follow the class labels of the supervised task, or arise from the same generative distribution.
+background_label: Such unlabeled data is often significantly easier to obtain than in previously studied frameworks such as semi-supervised learning.
+objective_label: In this thesis, we demonstrate that self-taught learning can be applied successfully to a variety of hard machine learning problems.
+method_label: The centerpiece of our work is a self-taught learning algorithm based on an optimization problem called "sparse coding."
+method_label: This algorithm uses unlabeled data to learn a new representation for complex, high-dimensional inputs, and then applies supervised learning over this representation.
+method_label: The representation captures higher-level aspects of the input, and significantly improves classification performance on many test domains, including computer vision, audio recognition and text classification.
+method_label: We present efficient sparse coding algorithms for a translation-invariant version of the model, that can be applied to audio and image data.
+method_label: We also generalize the model to a much broader class of inputs, including domains that are hard to handle with previous algorithms, and apply the model to text classification and a robotic perception task.
+background_label: Taken together, these experiments demonstrate that using the self-taught learning framework, machine learning can be applied to much harder problems than previously possible.
+background_label: These self-taught learning algorithms work best when they are allowed to learn rich models (with millions of parameters) using large amounts of unlabeled data (millions of examples).
+background_label: Unfortunately, with current methods, it can take weeks to learn such rich models.
+method_label: Further, these methods require fast, sequential updates, and with current algorithms, are not conducive to being parallelized on a distributed cluster.
+method_label: To apply self-taught learning to such large-scale problems, we show that graphics processor hardware (available in most modern desktops) can be used to massively parallelize the algorithms.
+method_label: Using a new inherently parallel algorithm, the sparse coding algorithm can be easily implemented on graphics processors, and we show that this can reduce the learning time from about three weeks to a single day.
+method_label: Finally, we consider self-taught learning methods that learn hierarchical representations using unlabeled data.
+method_label: We develop general principles for unsupervised learning of such hierarchical models using graphics processors, and show that the slow learning algorithms for the popular deep belief network model can be successfully parallelized.
+result_label: This implementation is up to 70 times faster than an optimized CPU implementation, reduces the learning time from weeks to hours, and represents the state-of-the-art in learning large deep belief networks.
+
+===================================
+paper_id: 36117198; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: title_tfidf
+TITLE: DeepMind_Commentary
+ABSTRACT: background_label: We agree with Lake and colleagues on their list of key ingredients for building humanlike intelligence, including the idea that model-based reasoning is essential.
+background_label: However, we favor an approach that centers on one additional ingredient: autonomy.
+objective_label: In particular, we aim toward agents that can both build and exploit their own internal models, with minimal human hand-engineering.
+method_label: We believe an approach centered on autonomous learning has the greatest chance of success as we scale toward real-world complexity, tackling domains for which ready-made formal models are not available.
+result_label: Here we survey several important examples of the progress that has been made toward building autonomous agents with humanlike abilities, and highlight some outstanding challenges.
+
+===================================
+paper_id: 51608813; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: abs_tfidfcbow200 - abs_cbow200
+TITLE: Neural Networks Incorporating Unlabeled and Partially-labeled Data for Cross-domain Chinese Word Segmentation
+ABSTRACT: background_label: AbstractMost existing Chinese word segmentation (CWS) methods are usually supervised.
+background_label: Hence, large-scale annotated domain-specific datasets are needed for training.
+objective_label: In this paper, we seek to address the problem of CWS for the resource-poor domains that lack annotated data.
+method_label: A novel neural network model is proposed to incorporate unlabeled and partiallylabeled data.
+method_label: To make use of unlabeled data, we combine a bidirectional LSTM segmentation model with two character-level language models using a gate mechanism.
+method_label: These language models can capture co-occurrence information.
+method_label: To make use of partially-labeled data, we modify the original cross entropy loss function of RNN.
+result_label: Experimental results demonstrate that the method performs well on CWS tasks in a series of domains.
+
+===================================
+paper_id: 15464301; YEAR: 2014
+adju relevance: Irrelevant (0)
+difference: 1; annotator4: 1; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Translation project adaptation for MT-enhanced computer assisted translation
+ABSTRACT: background_label: The effective integration of MT technology into computer-assisted translation tools is a challenging topic both for academic research and the translation industry.
+background_label: In particular, professional translators consider the ability of MT systems to adapt to the feedback provided by them to be crucial.
+objective_label: In this paper, we propose an adaptation scheme to tune a statistical MT system to a translation project using small amounts of post-edited texts, like those generated by a single user in even just one day of work.
+method_label: The same scheme can be applied on a larger scale in order to focus general purpose models towards the specific domain of interest.
+method_label: We assess our method on two domains, namely information technology and legal, and four translation directions, from English to French, Italian, Spanish and German.
+result_label: The main outcome is that our adaptation strategy can be very effective provided that the seed data used for adaptation is ‘close enough’ to the remaining text to be translated; otherwise, MT quality neither improves nor worsens, thus showing the robustness of our method.
+
+===================================
+paper_id: 53096901; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: abs_tfidfcbow200 - abs_cbow200
+TITLE: Dual Latent Variable Model for Low-Resource Natural Language Generation in Dialogue Systems
+ABSTRACT: background_label: Recent deep learning models have shown improving results to natural language generation (NLG) irrespective of providing sufficient annotated data.
+background_label: However, a modest training data may harm such models performance.
+background_label: Thus, how to build a generator that can utilize as much of knowledge from a low-resource setting data is a crucial issue in NLG.
+method_label: This paper presents a variational neural-based generation model to tackle the NLG problem of having limited labeled dataset, in which we integrate a variational inference into an encoder-decoder generator and introduce a novel auxiliary autoencoding with an effective training procedure.
+result_label: Experiments showed that the proposed methods not only outperform the previous models when having sufficient training dataset but also show strong ability to work acceptably well when the training data is scarce.
+
+===================================
+paper_id: 173990529; YEAR: 2019
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: abs_cbow200
+TITLE: A Semi-Supervised Approach for Low-Resourced Text Generation
+ABSTRACT: background_label: Recently, encoder-decoder neural models have achieved great success on text generation tasks.
+background_label: However, one problem of this kind of models is that their performances are usually limited by the scale of well-labeled data, which are very expensive to get.
+background_label: The low-resource (of labeled data) problem is quite common in different task generation tasks, but unlabeled data are usually abundant.
+method_label: In this paper, we propose a method to make use of the unlabeled data to improve the performance of such models in the low-resourced circumstances.
+method_label: We use denoising auto-encoder (DAE) and language model (LM) based reinforcement learning (RL) to enhance the training of encoder and decoder with unlabeled data.
+method_label: Our method shows adaptability for different text generation tasks, and makes significant improvements over basic text generation models.
+
+===================================
+paper_id: 1421053; YEAR: 2007
+adju relevance: Irrelevant (0)
+difference: 1; annotator4: 0; annotator3: 1
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Mixture-Model Adaptation for SMT
+ABSTRACT: background_label: We describe a mixture-model approach to adapting a Statistical Machine Translation System for new domains, using weights that depend on text distances to mixture components.
+method_label: We investigate a number of variants on this approach, including cross-domain versus dynamic adaptation; linear versus loglinear mixtures; language and translation model adaptation; different methods of assigning weights; and granularity of the source unit being adapted to.
+result_label: The best methods achieve gains of approximately one BLEU percentage point over a state-of-the art non-adapted baseline system.
+
+===================================
+paper_id: 15480329; YEAR: 2015
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: abs_cbow200 - abs_tfidfcbow200
+TITLE: Unsupervised acoustic model training: Comparing South African English and isiZulu
+ABSTRACT: background_label: Large amounts of untranscribed audio data are generated every day.
+background_label: These audio resources can be used to develop robust acoustic models that can be used in a variety of speech-based systems.
+background_label: Manually transcribing this data is resource intensive and requires funding, time and expertise.
+background_label: Lightly-supervised training techniques, however, provide a means to rapidly transcribe audio, thus reducing the initial resource investment to begin the modelling process.
+result_label: Our findings suggest that the lightly-supervised training technique works well for English but when moving to an agglutinative language, such as isiZulu, the process fails to achieve the performance seen for English.
+result_label: Additionally, phone-based performances are significantly worse when compared to an approach using word-based language models.
+result_label: These results indicate a strong dependence on large or well-matched text resources for lightly-supervised training techniques.
+
+===================================
+paper_id: 8170227; YEAR: 2010
+adju relevance: Irrelevant (0)
+difference: 1; annotator4: 0; annotator3: 1
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Intelligent Selection of Language Model Training Data
+ABSTRACT: objective_label: AbstractWe address the problem of selecting nondomain-specific language model training data to build auxiliary language models for use in tasks such as machine translation.
+method_label: Our approach is based on comparing the cross-entropy, according to domainspecific and non-domain-specifc language models, for each sentence of the text source used to produce the latter language model.
+result_label: We show that this produces better language models, trained on less data, than both random data selection and two other previously proposed methods.
+
+===================================
+paper_id: 63367705; YEAR: 1997
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: title_tfidfcbow200 - title_cbow200
+TITLE: Training strategies for critic and action neural networks in dual heuristic programming method
+ABSTRACT: background_label: This paper discusses strategies for and details of training procedures for the dual heuristic programming methodology.
+background_label: This and other approximate dynamic programming approaches have been discussed in the literature, all being members of the adaptive critic design family.
+objective_label: It suggests and investigates several alternative procedures and compares their performance with respect to convergence speed and quality of resulting controller design.
+method_label: A modification is to introduce a real copy of the criticNN (criticNN 2) for making the "desired output" calculations, and this criticNN 2 is trained differently than is criticNN 1.
+method_label: The idea is to provide the "desired outputs" from a stable platform during an epoch while adapting the criticNN 1.
+method_label: Then at the end of the epoch, criticNN 2 is made identical to the then-current adapted state of criticNN 1, and a new epoch starts.
+method_label: In this way, both the criticNN 1 and the actionNN can be simultaneously trained online during each epoch, with a faster overall convergence than the older approach.
+result_label: The measures used suggest that a "better" controller design (the actionNN) results.
+
+===================================
+paper_id: 202573036; YEAR: 2019
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: abs_tfidfcbow200
+TITLE: DBPal: Weak Supervision for Learning a Natural Language Interface to Databases
+ABSTRACT: background_label: This paper describes DBPal, a new system to translate natural language utterances into SQL statements using a neural machine translation model.
+background_label: While other recent approaches use neural machine translation to implement a Natural Language Interface to Databases (NLIDB), existing techniques rely on supervised learning with manually curated training data, which results in substantial overhead for supporting each new database schema.
+method_label: In order to avoid this issue, DBPal implements a novel training pipeline based on weak supervision that synthesizes all training data from a given database schema.
+result_label: In our evaluation, we show that DBPal can outperform existing rule-based NLIDBs while achieving comparable performance to other NLIDBs that leverage deep neural network models without relying on manually curated training data for every new database schema.
+
+===================================
+paper_id: 20511915; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: title_tfidfcbow200 - title_cbow200
+TITLE: Animating Cognitive Models and Architectures: A Rule-Based Approach
+ABSTRACT: background_label: AbstractComputational psychology provides computational models exploring different aspects of cognition.
+background_label: A cognitive architecture includes the basic aspects of any cognitive agent.
+background_label: It consists of different correlated modules.
+background_label: In general, cognitive architectures provide the needed layouts for building intelligent agents.
+objective_label: The paper presents a rule-based approach to visually animate the simulations of models done through cognitive architectures.
+method_label: As a proof of concept, simulations through Adaptive Control of Thought-Rational (ACT-R) were animated.
+method_label: ACT-R is a well-known cognitive architecture.
+method_label: It was deployed to create models in different fields including, among others, learning, problem solving and languages.
+
+===================================
+paper_id: 8073156; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: Adaptive stimulus design for dynamic recurrent neural network models
+ABSTRACT: background_label: We present a theoretical application of an optimal experiment design (OED) methodology to the development of mathematical models to describe the stimulus-response relationship of sensory neurons.
+background_label: Although there are a few related studies in the computational neuroscience literature on this topic, most of them are either involving non-linear static maps or simple linear filters cascaded to a static non-linearity.
+background_label: Although the linear filters might be appropriate to demonstrate some aspects of neural processes, the high level of non-linearity in the nature of the stimulus-response data may render them inadequate.
+method_label: In addition, modelling by a static non-linear input - output map may mask important dynamical (time-dependent) features in the response data.
+method_label: Due to all those facts a non-linear continuous time dynamic recurrent neural network that models the excitatory and inhibitory membrane potential dynamics is preferred.
+objective_label: The main goal of this research is to estimate the parametric details of this model from the available stimulus-response data.
+objective_label: In order to design an efficient estimator an optimal experiment design scheme is proposed which computes a pre-shaped stimulus to maximize a certain measure of Fisher Information Matrix.
+method_label: This measure depends on the estimated values of the parameters in the current step and the optimal stimuli are used in a maximum likelihood estimation procedure to find an estimate of the network parameters.
+method_label: This process works as a loop until a reasonable convergence occurs.
+method_label: The response data is discontinuous as it is composed of the neural spiking instants which is assumed to obey the Poisson statistical distribution.
+method_label: Thus the likelihood functions depend on the Poisson statistics.
+result_label: In order to validate the approach and evaluate its performance, a comparison with another approach on estimation based on randomly generated stimuli is also presented.
+
+===================================
+paper_id: 44148130; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: title_tfidf
+TITLE: Incremental Natural Language Processing: Challenges, Strategies, and Evaluation
+ABSTRACT: background_label: Incrementality is ubiquitous in human-human interaction and beneficial for human-computer interaction.
+background_label: It has been a topic of research in different parts of the NLP community, mostly with focus on the specific topic at hand even though incremental systems have to deal with similar challenges regardless of domain.
+objective_label: In this survey, I consolidate and categorize the approaches, identifying similarities and differences in the computation and data, and show trade-offs that have to be considered.
+result_label: A focus lies on evaluating incremental systems because the standard metrics often fail to capture the incremental properties of a system and coming up with a suitable evaluation scheme is non-trivial.
+
+===================================
+paper_id: 4729540; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: abs_tfidfcbow200
+TITLE: Learning Unified Embedding for Apparel Recognition
+ABSTRACT: background_label: In apparel recognition, specialized models (e.g.
+background_label: models trained for a particular vertical like dresses) can significantly outperform general models (i.e.
+background_label: models that cover a wide range of verticals).
+background_label: Therefore, deep neural network models are often trained separately for different verticals.
+background_label: However, using specialized models for different verticals is not scalable and expensive to deploy.
+objective_label: This paper addresses the problem of learning one unified embedding model for multiple object verticals (e.g.
+background_label: all apparel classes) without sacrificing accuracy.
+background_label: The problem is tackled from two aspects: training data and training difficulty.
+background_label: On the training data aspect, we figure out that for a single model trained with triplet loss, there is an accuracy sweet spot in terms of how many verticals are trained together.
+method_label: To ease the training difficulty, a novel learning scheme is proposed by using the output from specialized models as learning targets so that L2 loss can be used instead of triplet loss.
+method_label: This new loss makes the training easier and make it possible for more efficient use of the feature space.
+method_label: The end result is a unified model which can achieve the same retrieval accuracy as a number of separate specialized models, while having the model complexity as one.
+result_label: The effectiveness of our approach is shown in experiments.
+
+===================================
+paper_id: 12023372; YEAR: 2012
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Evaluating the Learning Curve of Domain Adaptive Statistical Machine Translation Systems
+ABSTRACT: background_label: AbstractThe new frontier of computer assisted translation technology is the effective integration of statistical MT within the translation workflow.
+background_label: In this respect, the SMT ability of incrementally learning from the translations produced by users plays a central role.
+background_label: A still open problem is the evaluation of SMT systems that evolve over time.
+objective_label: In this paper, we propose a new metric for assessing the quality of an adaptive MT component that is derived from the theory of learning curves: the percentage slope.
+
+===================================
+paper_id: 17815145; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: title_cbow200 - title_tfidfcbow200
+TITLE: Training Excitatory-Inhibitory Recurrent Neural Networks for Cognitive Tasks: A Simple and Flexible Framework
+ABSTRACT: background_label: The ability to simultaneously record from large numbers of neurons in behaving animals has ushered in a new era for the study of the neural circuit mechanisms underlying cognitive functions.
+objective_label: One promising approach to uncovering the dynamical and computational principles governing population responses is to analyze model recurrent neural networks (RNNs) that have been optimized to perform the same tasks as behaving animals.
+method_label: Because the optimization of network parameters specifies the desired output but not the manner in which to achieve this output, "trained" networks serve as a source of mechanistic hypotheses and a testing ground for data analyses that link neural computation to behavior.
+background_label: Complete access to the activity and connectivity of the circuit, and the ability to manipulate them arbitrarily, make trained networks a convenient proxy for biological circuits and a valuable platform for theoretical investigation.
+background_label: However, existing RNNs lack basic biological features such as the distinction between excitatory and inhibitory units (Dale's principle), which are essential if RNNs are to provide insights into the operation of biological circuits.
+method_label: Moreover, trained networks can achieve the same behavioral performance but differ substantially in their structure and dynamics, highlighting the need for a simple and flexible framework for the exploratory training of RNNs.
+method_label: Here, we describe a framework for gradient descent-based training of excitatory-inhibitory RNNs that can incorporate a variety of biological knowledge.
+method_label: We provide an implementation based on the machine learning library Theano, whose automatic differentiation capabilities facilitate modifications and extensions.
+method_label: We validate this framework by applying it to well-known experimental paradigms such as perceptual decision-making, context-dependent integration, multisensory integration, parametric working memory, and motor sequence generation.
+result_label: Our results demonstrate the wide range of neural activity patterns and behavior that can be modeled, and suggest a unified setting in which diverse cognitive computations and mechanisms can be studied.
+
+===================================
+paper_id: 62249774; YEAR: 2006
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: abs_tfidf - specter
+TITLE: Factored Language Models for Statistical Machine Translation
+ABSTRACT: background_label: Machine translation systems, as a whole, are currently not able to use the output of linguistic tools, such as part-of-speech taggers, to effectively improve translation performance.
+background_label: However, a new language modeling technique, Factored Language Models can incorporate the additional linguistic information that is produced by these tools.
+background_label: In the field of automatic speech recognition, Factored Language Models smoothed with Generalized Parallel Backoff have been shown to significantly reduce language model perplexity.
+method_label: However, Factored Language Models have previously only been applied to statistical machine translation as part of a second-pass rescoring system.
+method_label: In this thesis, we show that a state-of-the-art phrase-based system using factored language models with generalized parallel backoff can improve performance over an identical system using trigram language models.
+result_label: These improvements can be seen both with the use of additional word features and without.
+result_label: The relative gain from the Factored Language Models increases with smaller training corpora, making this approach especially useful for domains with limited data.
+
+===================================
+paper_id: 119425731; YEAR: 1972
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: title_tfidf
+TITLE: Unzerlegbare Darstellungen I
+ABSTRACT: background_label: LetK be the structure got by forgetting the composition law of morphisms in a given category.
+background_label: A linear representation ofK is given by a map V associating with any morphism ϕ: a→e ofK a linear vector space map V(ϕ): V(a)→V(e).
+method_label: We classify thoseK having only finitely many isomorphy classes of indecomposable linear representations.
+other_label: This classification is related to an old paper by Yoshii [3].
+
+===================================
+paper_id: 6358183; YEAR: 2013
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: abs_tfidf
+TITLE: Adaptation of Reordering Models for Statistical Machine Translation
+ABSTRACT: background_label: AbstractPrevious research on domain adaptation (DA) for statistical machine translation (SMT) has mainly focused on the translation model (TM) and the language model (LM).
+background_label: To the best of our knowledge, there is no previous work on reordering model (RM) adaptation for phrasebased SMT.
+method_label: In this paper, we demonstrate that mixture model adaptation of a lexicalized RM can significantly improve SMT performance, even when the system already contains a domain-adapted TM and LM.
+method_label: We find that, surprisingly, different training corpora can vary widely in their reordering characteristics for particular phrase pairs.
+method_label: Furthermore, particular training corpora may be highly suitable for training the TM or the LM, but unsuitable for training the RM, or vice versa, so mixture weights for these models should be estimated separately.
+objective_label: An additional contribution of the paper is to propose two improvements to mixture model adaptation: smoothing the in-domain sample, and weighting instances by document frequency.
+result_label: Applied to mixture RMs in our experiments, these techniques (especially smoothing) yield significant performance improvements.
+
+===================================
+paper_id: 7961699; YEAR: 2014
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Sequence to Sequence Learning with Neural Networks
+ABSTRACT: background_label: Deep Neural Networks (DNNs) are powerful models that have achieved excellent performance on difficult learning tasks.
+background_label: Although DNNs work well whenever large labeled training sets are available, they cannot be used to map sequences to sequences.
+objective_label: In this paper, we present a general end-to-end approach to sequence learning that makes minimal assumptions on the sequence structure.
+method_label: Our method uses a multilayered Long Short-Term Memory (LSTM) to map the input sequence to a vector of a fixed dimensionality, and then another deep LSTM to decode the target sequence from the vector.
+method_label: Our main result is that on an English to French translation task from the WMT'14 dataset, the translations produced by the LSTM achieve a BLEU score of 34.8 on the entire test set, where the LSTM's BLEU score was penalized on out-of-vocabulary words.
+method_label: Additionally, the LSTM did not have difficulty on long sentences.
+result_label: For comparison, a phrase-based SMT system achieves a BLEU score of 33.3 on the same dataset.
+result_label: When we used the LSTM to rerank the 1000 hypotheses produced by the aforementioned SMT system, its BLEU score increases to 36.5, which is close to the previous best result on this task.
+method_label: The LSTM also learned sensible phrase and sentence representations that are sensitive to word order and are relatively invariant to the active and the passive voice.
+result_label: Finally, we found that reversing the order of the words in all source sentences (but not target sentences) improved the LSTM's performance markedly, because doing so introduced many short term dependencies between the source and the target sentence which made the optimization problem easier.
+
+===================================
+paper_id: 12469208; YEAR: 2005
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: specter - abs_tfidf - title_tfidf
+TITLE: Training Neural Network Language Models on Very Large Corpora
+ABSTRACT: background_label: During the last years there has been growing interest in using neural networks for language modeling.
+background_label: In contrast to the well known back-off n-gram language models, the neural network approach attempts to overcome the data sparseness problem by performing the estimation in a continuous space.
+objective_label: This type of language model was mostly used for tasks for which only a very limited amount of in-domain training data is available.In this paper we present new algorithms to train a neural network language model on very large text corpora.
+method_label: This makes possible the use of the approach in domains where several hundreds of millions words of texts are available.
+result_label: The neural network language model is evaluated in a state-of-the-art real-time continuous speech recognizer for French Broadcast News.
+result_label: Word error reductions of 0.5% absolute are reported using only a very limited amount of additional processing time.
+
+===================================
+paper_id: 14253329; YEAR: 2015
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: title_cbow200 - title_tfidfcbow200 - specter - title_tfidf
+TITLE: Unnormalized exponential and neural network language models
+ABSTRACT: background_label: Model M, an exponential class-based language model, and neural network language models (NNLM's) have outperformed word n-gram language models over a wide range of tasks.
+background_label: However, these gains come at the cost of vastly increased computation when calculating word probabilities.
+background_label: For both models, the bulk of this computation involves evaluating the softmax function over a large word or class vocabulary to ensure that probabilities sum to 1.
+method_label: In this paper, we study unnormalized variants of Model M and NNLM's, whereby the softmax function is simply omitted.
+method_label: Accordingly, model training must be modified to encourage scores to sum close to 1.
+result_label: In this paper, we demonstrate up to a factor of 35 faster n-gram lookups with unnormalized models over their normalized counterparts, while still yielding state-of-the-art performance in WER (10.2 on the English broadcast news rt04 set).
+
+===================================
+paper_id: 8374684; YEAR: 2015
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: title_cbow200 - title_tfidfcbow200 - title_tfidf
+TITLE: Parameterized Neural Network Language Models for Information Retrieval
+ABSTRACT: background_label: Information Retrieval (IR) models need to deal with two difficult issues, vocabulary mismatch and term dependencies.
+background_label: Vocabulary mismatch corresponds to the difficulty of retrieving relevant documents that do not contain exact query terms but semantically related terms.
+background_label: Term dependencies refers to the need of considering the relationship between the words of the query when estimating the relevance of a document.
+method_label: A multitude of solutions has been proposed to solve each of these two problems, but no principled model solve both.
+method_label: In parallel, in the last few years, language models based on neural networks have been used to cope with complex natural language processing tasks like emotion and paraphrase detection.
+background_label: Although they present good abilities to cope with both term dependencies and vocabulary mismatch problems, thanks to the distributed representation of words they are based upon, such models could not be used readily in IR, where the estimation of one language model per document (or query) is required.
+background_label: This is both computationally unfeasible and prone to over-fitting.
+method_label: Based on a recent work that proposed to learn a generic language model that can be modified through a set of document-specific parameters, we explore use of new neural network models that are adapted to ad-hoc IR tasks.
+method_label: Within the language model IR framework, we propose and study the use of a generic language model as well as a document-specific language model.
+method_label: Both can be used as a smoothing component, but the latter is more adapted to the document at hand and has the potential of being used as a full document language model.
+result_label: We experiment with such models and analyze their results on TREC-1 to 8 datasets.
+
+===================================
+paper_id: 2030497; YEAR: 2013
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Adaptation Data Selection using Neural Language Models: Experiments in Machine Translation
+ABSTRACT: background_label: AbstractData selection is an effective approach to domain adaptation in statistical machine translation.
+objective_label: The idea is to use language models trained on small in-domain text to select similar sentences from large general-domain corpora, which are then incorporated into the training data.
+background_label: Substantial gains have been demonstrated in previous works, which employ standard ngram language models.
+objective_label: Here, we explore the use of neural language models for data selection.
+method_label: We hypothesize that the continuous vector representation of words in neural language models makes them more effective than n-grams for modeling unknown word contexts, which are prevalent in general-domain text.
+result_label: In a comprehensive evaluation of 4 language pairs (English to German, French, Russian, Spanish), we found that neural language models are indeed viable tools for data selection: while the improvements are varied (i.e.
+result_label: 0.1 to 1.7 gains in BLEU), they are fast to train on small in-domain data and can sometimes substantially outperform conventional n-grams.
+
+===================================
+paper_id: 4657352; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: abs_cbow200
+TITLE: Keep it simple: Is deep learning good for linguistic smell detection?
+ABSTRACT: background_label: Deep neural networks is a popular technique that has been applied successfully to domains such as image processing, sentiment analysis, speech recognition, and computational linguistic.
+background_label: Deep neural networks are machine learning algorithms that, in general, require a labeled set of positive and negative examples that are used to tune hyper-parameters and adjust model coefficients to learn a prediction function.
+background_label: Recently, deep neural networks have also been successfully applied to certain software engineering problem domains (e.g., bug prediction), however, results are shown to be outperformed by traditional machine learning approaches in other domains (e.g., recovering links between entries in a discussion forum).
+objective_label: In this paper, we report our experience in building an automatic Linguistic Antipattern Detector (LAPD) using deep neural networks.
+method_label: We manually build and validate an oracle of around 1,700 instances and create binary classification models using traditional machine learning approaches and Convolutional Neural Networks.
+result_label: Our experience is that, considering the size of the oracle, the available hardware and software, as well as the theory to interpret results, deep neural networks are outperformed by traditional machine learning algorithms in terms of all evaluation metrics we used and resources (time and memory).
+result_label: Therefore, although deep learning is reported to produce results comparable and even superior to human experts for certain complex tasks, it does not seem to be a good fit for simple classification tasks like smell detection.
+result_label: Researchers and practitioners should be careful when selecting machine learning models for the problem at hand.
+
+===================================
+paper_id: 16930073; YEAR: 2004
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: abs_tfidf - specter
+TITLE: Efficient training of large neural networks for language modeling
+ABSTRACT: background_label: Recently there has been increasing interest in using neural networks for language modeling.
+background_label: In contrast to the well-known backoff n-gram language models, the neural network approach tries to limit the data sparseness problem by performing the estimation in a continuous space, allowing by this means smooth interpolations.
+background_label: The complexity to train such a model and to calculate one n-gram probability is however several orders of magnitude higher than for the backoff models, making the new approach difficult to use in real applications.
+method_label: In this paper several techniques are presented that allow the use of a neural network language model in a large vocabulary speech recognition system, in particular very, fast lattice rescoring and efficient training of large neural networks on training corpora of over 10 million words.
+result_label: The described approach achieves significant word error reductions with respect to a carefully tuned 4-gram backoff language model in a state of the art conversational speech recognizer for the DARPA rich transcriptions evaluations.
+
+===================================
+paper_id: 14518311; YEAR: 2009
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: title_cbow200 - title_tfidfcbow200 - title_tfidf
+TITLE: Neural network based language models for highly inflective languages
+ABSTRACT: background_label: Speech recognition of inflectional and morphologically rich languages like Czech is currently quite a challenging task, because simple n-gram techniques are unable to capture important regularities in the data.
+background_label: Several possible solutions were proposed, namely class based models, factored models, decision trees and neural networks.
+objective_label: This paper describes improvements obtained in recognition of spoken Czech lectures using language models based on neural networks.
+result_label: Relative reductions in word error rate are more than 15% over baseline obtained with adapted 4-gram backoff language model using modified Kneser-Ney smoothing.
+
+===================================
+paper_id: 7456796; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: title_cbow200 - title_tfidfcbow200 - specter - title_tfidf
+TITLE: Recurrent neural network language models for keyword search
+ABSTRACT: background_label: Recurrent neural network language models (RNNLMs) have becoming increasingly popular in many applications such as automatic speech recognition (ASR).
+background_label: Significant performance improvements in both perplexity and word error rate over standard n-gram LMs have been widely reported on ASR tasks.
+background_label: In contrast, published research on using RNNLMs for keyword search systems has been relatively limited.
+method_label: In this paper the application of RNNLMs for the IARPA Babel keyword search task is investigated.
+method_label: In order to supplement the limited acoustic transcription data, large amounts of web texts are also used in large vocabulary design and LM training.
+method_label: Various training criteria were then explored to improved RNNLMs' efficiency in both training and evaluation.
+result_label: Significant and consistent improvements on both keyword search and ASR tasks were obtained across all languages.
+
+===================================
+paper_id: 567846; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: title_cbow200 - title_tfidfcbow200 - specter
+TITLE: RETURNN: The RWTH Extensible Training framework for Universal Recurrent Neural Networks
+ABSTRACT: background_label: In this work we release our extensible and easily configurable neural network training software.
+background_label: It provides a rich set of functional layers with a particular focus on efficient training of recurrent neural network topologies on multiple GPUs.
+background_label: The source of the software package is public and freely available for academic research purposes and can be used as a framework or as a standalone tool which supports a flexible configuration.
+result_label: The software allows to train state-of-the-art deep bidirectional long short-term memory (LSTM) models on both one dimensional data like speech or two dimensional data like handwritten text and was used to develop successful submission systems in several evaluation campaigns.
+
+===================================
+paper_id: 67855637; YEAR: 2019
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - specter
+TITLE: An Embarrassingly Simple Approach for Transfer Learning from Pretrained Language Models
+ABSTRACT: background_label: A growing number of state-of-the-art transfer learning methods employ language models pretrained on large generic corpora.
+objective_label: In this paper we present a conceptually simple and effective transfer learning approach that addresses the problem of catastrophic forgetting.
+method_label: Specifically, we combine the task-specific optimization function with an auxiliary language model objective, which is adjusted during the training process.
+method_label: This preserves language regularities captured by language models, while enabling sufficient adaptation for solving the target task.
+method_label: Our method does not require pretraining or finetuning separate components of the network and we train our models end-to-end in a single step.
+result_label: We present results on a variety of challenging affective and text classification tasks, surpassing well established transfer learning methods with greater level of complexity.
+
+===================================
+paper_id: 8103988; YEAR: 2009
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: abs_tfidf - abs_cbow200 - specter - title_tfidf
+TITLE: Distributed Language Models
+ABSTRACT: background_label: Language models are used in a wide variety of natural language applications, including machine translation, speech recognition, spelling correction, optical character recognition, etc.
+background_label: Recent studies have shown that more data is better data, and bigger language models are better language models: the authors found nearly constant machine translation improvements with each doubling of the training data size even at 2 trillion tokens (resulting in 400 billion n-grams).
+background_label: Training and using such large models is a challenge.
+method_label: This tutorial shows efficient methods for distributed training of large language models based on the MapReduce computing model.
+result_label: We also show efficient ways of using distributed models in which requesting individual n-grams is expensive because they require communication between different machines.
+
+===================================
+paper_id: 51677261; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: title_tfidfcbow200 - title_cbow200 - specter - title_tfidf
+TITLE: A Comparison of Adaptation Techniques and Recurrent Neural Network Architectures
+ABSTRACT: background_label: Recently, recurrent neural networks have become state-of-the-art in acoustic modeling for automatic speech recognition.
+background_label: The long short-term memory (LSTM) units are the most popular ones.
+background_label: However, alternative units like gated recurrent unit (GRU) and its modifications outperformed LSTM in some publications.
+method_label: In this paper, we compared five neural network (NN) architectures with various adaptation and feature normalization techniques.
+method_label: We have evaluated feature-space maximum likelihood linear regression, five variants of i-vector adaptation and two variants of cepstral mean normalization.
+method_label: The most adaptation and normalization techniques were developed for feed-forward NNs and, according to results in this paper, not all of them worked also with RNNs.
+method_label: For experiments, we have chosen a well known and available TIMIT phone recognition task.
+method_label: The phone recognition is much more sensitive to the quality of AM than large vocabulary task with a complex language model.
+result_label: Also, we published the open-source scripts to easily replicate the results and to help continue the development.
+
+===================================
+paper_id: 16733173; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: title_tfidf
+TITLE: Convolutional Neural Network Language Models
+ABSTRACT: background_label: AbstractConvolutional Neural Networks (CNNs) have shown to yield very strong results in several Computer Vision tasks.
+background_label: Their application to language has received much less attention, and it has mainly focused on static classification tasks, such as sentence classification for Sentiment Analysis or relation extraction.
+objective_label: In this work, we study the application of CNNs to language modeling, a dynamic, sequential prediction task that needs models to capture local as well as long-range dependency information.
+objective_label: Our contribution is twofold.
+method_label: First, we show that CNNs achieve 11-26% better absolute performance than feed-forward neural language models, demonstrating their potential for language representation even in sequential tasks.
+method_label: As for recurrent models, our model outperforms RNNs but is below state of the art LSTM models.
+result_label: Second, we gain some understanding of the behavior of the model, showing that CNNs in language act as feature detectors at a high level of abstraction, like in Computer Vision, and that the model can profitably use information from as far as 16 words before the target.
+
+===================================
+paper_id: 44085059; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: abs_cbow200
+TITLE: Protecting Intellectual Property of Deep Neural Networks with Watermarking
+ABSTRACT: background_label: Deep learning technologies, which are the key components of state-of-the-art Artificial Intelligence (AI) services, have shown great success in providing human-level capabilities for a variety of tasks, such as visual analysis, speech recognition, and natural language processing and etc.
+background_label: Building a production-level deep learning model is a non-trivial task, which requires a large amount of training data, powerful computing resources, and human expertises.
+background_label: Therefore, illegitimate reproducing, distribution, and the derivation of proprietary deep learning models can lead to copyright infringement and economic harm to model creators.
+background_label: Therefore, it is essential to devise a technique to protect the intellectual property of deep learning models and enable external verification of the model ownership.
+objective_label: In this paper, we generalize the "digital watermarking'' concept from multimedia ownership verification to deep neural network (DNNs) models.
+method_label: We investigate three DNN-applicable watermark generation algorithms, propose a watermark implanting approach to infuse watermark into deep learning models, and design a remote verification mechanism to determine the model ownership.
+method_label: By extending the intrinsic generalization and memorization capabilities of deep neural networks, we enable the models to learn specially crafted watermarks at training and activate with pre-specified predictions when observing the watermark patterns at inference.
+result_label: We evaluate our approach with two image recognition benchmark datasets.
+result_label: Our framework accurately (100%) and quickly verifies the ownership of all the remotely deployed deep learning models without affecting the model accuracy for normal input data.
+method_label: In addition, the embedded watermarks in DNN models are robust and resilient to different counter-watermark mechanisms, such as fine-tuning, parameter pruning, and model inversion attacks.
+
+===================================
+paper_id: 15076873; YEAR: 2011
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Strategies for training large scale neural network language models
+ABSTRACT: background_label: We describe how to effectively train neural network based language models on large data sets.
+background_label: Fast convergence during training and better overall performance is observed when the training data are sorted by their relevance.
+method_label: We introduce hash-based implementation of a maximum entropy model, that can be trained as a part of the neural network model.
+method_label: This leads to significant reduction of computational complexity.
+result_label: We achieved around 10% relative reduction of word error rate on English Broadcast News speech recognition task, against large 4-gram model trained on 400M tokens.
+
+===================================
+paper_id: 10553280; YEAR: 2015
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: specter
+TITLE: LSTM Neural Reordering Feature for Statistical Machine Translation
+ABSTRACT: background_label: Artificial neural networks are powerful models, which have been widely applied into many aspects of machine translation, such as language modeling and translation modeling.
+background_label: Though notable improvements have been made in these areas, the reordering problem still remains a challenge in statistical machine translations.
+objective_label: In this paper, we present a novel neural reordering model that directly models word pairs and alignment.
+method_label: By utilizing LSTM recurrent neural networks, much longer context could be learned for reordering prediction.
+result_label: Experimental results on NIST OpenMT12 Arabic-English and Chinese-English 1000-best rescoring task show that our LSTM neural reordering feature is robust and achieves significant improvements over various baseline systems.
+
+===================================
+paper_id: 1480310; YEAR: 2013
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: title_cbow200 - title_tfidfcbow200 - specter - title_tfidf
+TITLE: Comparison of feedforward and recurrent neural network language models
+ABSTRACT: background_label: Research on language modeling for speech recognition has increasingly focused on the application of neural networks.
+background_label: Two competing concepts have been developed: On the one hand, feedforward neural networks representing an n-gram approach, on the other hand recurrent neural networks that may learn context dependencies spanning more than a fixed number of predecessor words.
+background_label: To the best of our knowledge, no comparison has been carried out between feedforward and state-of-the-art recurrent networks when applied to speech recognition.
+objective_label: This paper analyzes this aspect in detail on a well-tuned French speech recognition task.
+method_label: In addition, we propose a simple and efficient method to normalize language model probabilities across different vocabularies, and we show how to speed up training of recurrent neural networks by parallelization.
+
+===================================
+paper_id: 5762940; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: title_cbow200
+TITLE: Sequential Recurrent Neural Networks for Language Modeling
+ABSTRACT: background_label: Feedforward Neural Network (FNN)-based language models estimate the probability of the next word based on the history of the last N words, whereas Recurrent Neural Networks (RNN) perform the same task based only on the last word and some context information that cycles in the network.
+objective_label: This paper presents a novel approach, which bridges the gap between these two categories of networks.
+method_label: In particular, we propose an architecture which takes advantage of the explicit, sequential enumeration of the word history in FNN structure while enhancing each word representation at the projection layer through recurrent context information that evolves in the network.
+method_label: The context integration is performed using an additional word-dependent weight matrix that is also learned during the training.
+result_label: Extensive experiments conducted on the Penn Treebank (PTB) and the Large Text Compression Benchmark (LTCB) corpus showed a significant reduction of the perplexity when compared to state-of-the-art feedforward as well as recurrent neural network architectures.
+
+===================================
+paper_id: 46821460; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: title_tfidfcbow200 - title_cbow200 - title_tfidf
+TITLE: Adaptation and contextualization of deep neural network models
+ABSTRACT: background_label: The ability of Deep Neural Networks (DNNs) to provide very high accuracy in classification and recognition problems makes them the major tool for developments in such problems.
+background_label: It is, however, known that DNNs are currently used in a ‘black box’ manner, lacking transparency and interpretability of their decision-making process.
+background_label: Moreover, DNNs should use prior information on data classes, or object categories, so as to provide efficient classification of new data, or objects, without forgetting their previous knowledge.
+objective_label: In this paper, we propose a novel class of systems that are able to adapt and contextualize the structure of trained DNNs, providing ways for handling the above-mentioned problems.
+method_label: A hierarchical and distributed system memory is generated and used for this purpose.
+method_label: The main memory is composed of the trained DNN architecture for classification/prediction, i.e., its structure and weights, as well as of an extracted — equivalent — Clustered Representation Set (CRS) generated by the DNN during training at its final — before the output — hidden layer.
+method_label: The latter includes centroids — ‘points of attraction’ — which link the extracted representation to a specific area in the existing system memory.
+method_label: Drift detection, occurring, for example, in personalized data analysis, can be accomplished by comparing the distances of new data from the centroids, taking into account the intra-cluster distances.
+method_label: Moreover, using the generated CRS, the system is able to contextualize its decision-making process, when new data become available.
+result_label: A new public medical database on Parkinson's disease is used as testbed to illustrate the capabilities of the proposed architecture.
+
+===================================
+paper_id: 121536178; YEAR: 1987
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: title_tfidf
+TITLE: Multiconnected neural network models
+ABSTRACT: background_label: A generalisation of the Hopfield model which includes interactions between p()2) Ising spins is considered.
+background_label: The exact storage capacity behaves as Np-1/2(p-1)!
+background_label: ln N when the number of nodes, N, is large.
+method_label: In the limit p to infinity , the thermodynamics of the model can be solved exactly without using the replica method; at zero temperature, a solution which is completely correlated with the input pattern exists for alpha < alpha c where alpha c to infinity as p to infinity and this solution has lower energy than the spin-glass solution if alpha < alpha 1=1/4 ln 2 where the number of patterns n=(2 alpha /p!)Np-1.
+result_label: For finite values of p, the correlation with the input pattern is not complete; for p=3 and 4, approximate values of alpha c and alpha 1 are obtained and for p to infinity the replica symmetric approximation gives alpha c approximately p/4 ln p.
+
+===================================
+paper_id: 18929718; YEAR: 2014
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: abs_tfidf
+TITLE: Fast Adaptation of Deep Neural Network Based on Discriminant Codes for Speech Recognition
+ABSTRACT: background_label: Fast adaptation of deep neural networks (DNN) is an important research topic in deep learning.
+objective_label: In this paper, we have proposed a general adaptation scheme for DNN based on discriminant condition codes, which are directly fed to various layers of a pre-trained DNN through a new set of connection weights.
+method_label: Moreover, we present several training methods to learn connection weights from training data as well as the corresponding adaptation methods to learn new condition code from adaptation data for each new test condition.
+method_label: In this work, the fast adaptation scheme is applied to supervised speaker adaptation in speech recognition based on either frame-level cross-entropy or sequence-level maximum mutual information training criterion.
+method_label: We have proposed three different ways to apply this adaptation scheme based on the so-called speaker codes: i) Nonlinear feature normalization in feature space; ii) Direct model adaptation of DNN based on speaker codes; iii) Joint speaker adaptive training with speaker codes.
+method_label: We have evaluated the proposed adaptation methods in two standard speech recognition tasks, namely TIMIT phone recognition and large vocabulary speech recognition in the Switchboard task.
+result_label: Experimental results have shown that all three methods are quite effective to adapt large DNN models using only a small amount of adaptation data.
+result_label: For example, the Switchboard results have shown that the proposed speaker-code-based adaptation methods may achieve up to 8-10% relative error reduction using only a few dozens of adaptation utterances per speaker.
+other_label: Finally, we have achieved very good performance in Switchboard (12.1% in WER) after speaker adaptation using sequence training criterion, which is very close to the best performance reported in this task (“Deep convolutional neural networks for LVCSR,” T. N. Sainath , Proc.
+other_label: IEEE Acoust., Speech, Signal Process., 2013).
+
+===================================
+paper_id: 13822432; YEAR: 2002
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: abs_tfidf
+TITLE: Text normalization with varied data sources for conversational speech language modeling
+ABSTRACT: background_label: Collecting sufficient language model training data for good speech recognition performance in a new domain is often difficult.
+background_label: However, there may be other sources of data that are matched in terms of topic or style, if not both.
+objective_label: This paper looks at the use of text normalization tools to make these data more suitable for language model training, in conjunction with mixture models to combine data from different sources.
+result_label: We specifically address the task of recognizing meeting speech, showing a small reduction in word error rate over a baseline language model trained from conversational speech data.
+
+===================================
+paper_id: 118988729; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: title_tfidf
+TITLE: A Microphotonic Astrocomb
+ABSTRACT: background_label: One of the essential prerequisites for detection of Earth-like extra-solar planets or direct measurements of the cosmological expansion is the accurate and precise wavelength calibration of astronomical spectrometers.
+background_label: It has already been realized that the large number of exactly known optical frequencies provided by laser frequency combs ('astrocombs') can significantly surpass conventionally used hollow-cathode lamps as calibration light sources.
+background_label: A remaining challenge, however, is generation of frequency combs with lines resolvable by astronomical spectrometers.
+method_label: Here we demonstrate an astrocomb generated via soliton formation in an on-chip microphotonic resonator ('microresonator') with a resolvable line spacing of 23.7 GHz.
+method_label: This comb is providing wavelength calibration on the 10 cm/s radial velocity level on the GIANO-B high-resolution near-infrared spectrometer.
+result_label: As such, microresonator frequency combs have the potential of providing broadband wavelength calibration for the next-generation of astronomical instruments in planet-hunting and cosmological research.
+
+===================================
+paper_id: 11080756; YEAR: 2002
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Bleu: a Method for Automatic Evaluation of Machine Translation
+ABSTRACT: background_label: Human evaluations of machine translation are extensive but expensive.
+background_label: Human evaluations can take months to finish and involve human labor that can not be reused.
+method_label: We propose a method of automatic machine translation evaluation that is quick, inexpensive, and language-independent, that correlates highly with human evaluation, and that has little marginal cost per run.
+method_label: We present this method as an automated understudy to skilled human judges which substitutes for them when there is need for quick or frequent evaluations.
+
+===================================
+paper_id: 8608051; YEAR: 2012
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: cited - abs_tfidfcbow200 - title_cbow200 - title_tfidfcbow200 - abs_cbow200 - specter - abs_tfidf - title_tfidf
+TITLE: Continuous Space Translation Models for Phrase-Based Statistical Machine Translation
+ABSTRACT: objective_label: ABSTRACTThis paper presents a new approach to perform the estimation of the translation model probabilities of a phrase-based statistical machine translation system.
+method_label: We use neural networks to directly learn the translation probability of phrase pairs using continuous representations.
+method_label: The system can be easily trained on the same data used to build standard phrase-based systems.
+method_label: We provide experimental evidence that the approach seems to be able to infer meaningful translation probabilities for phrase pairs not seen in the training data, or even predict a list of the most likely translations given a source phrase.
+method_label: The approach can be used to rescore n-best lists, but we also discuss an integration into the Moses decoder.
+result_label: A preliminary evaluation on the English/French IWSLT task achieved improvements in the BLEU score and a human analysis showed that the new model often chooses semantically better translations.
+result_label: Several extensions of this work are discussed.
+
+===================================
+paper_id: 189898023; YEAR: 2019
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: abs_tfidfcbow200 - abs_cbow200
+TITLE: Augmenting Neural Networks with First-order Logic
+ABSTRACT: background_label: Today, the dominant paradigm for training neural networks involves minimizing task loss on a large dataset.
+background_label: Using world knowledge to inform a model, and yet retain the ability to perform end-to-end training remains an open question.
+objective_label: In this paper, we present a novel framework for introducing declarative knowledge to neural network architectures in order to guide training and prediction.
+method_label: Our framework systematically compiles logical statements into computation graphs that augment a neural network without extra learnable parameters or manual redesign.
+result_label: We evaluate our modeling strategy on three tasks: machine comprehension, natural language inference, and text chunking.
+result_label: Our experiments show that knowledge-augmented networks can strongly improve over baselines, especially in low-data regimes.
+
+===================================
+paper_id: 166227820; YEAR: 2019
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: title_cbow200 - title_tfidfcbow200 - title_tfidf
+TITLE: HadaNets: Flexible Quantization Strategies for Neural Networks
+ABSTRACT: background_label: On-board processing elements on UAVs are currently inadequate for training and inference of Deep Neural Networks.
+background_label: This is largely due to the energy consumption of memory accesses in such a network.
+background_label: HadaNets introduce a flexible train-from-scratch tensor quantization scheme by pairing a full precision tensor to a binary tensor in the form of a Hadamard product.
+method_label: Unlike wider reduced precision neural network models, we preserve the train-time parameter count, thus out-performing XNOR-Nets without a train-time memory penalty.
+method_label: Such training routines could see great utility in semi-supervised online learning tasks.
+method_label: Our method also offers advantages in model compression, as we reduce the model size of ResNet-18 by 7.43 times with respect to a full precision model without utilizing any other compression techniques.
+result_label: We also demonstrate a 'Hadamard Binary Matrix Multiply' kernel, which delivers a 10-fold increase in performance over full precision matrix multiplication with a similarly optimized kernel.
+
+===================================
+paper_id: 5933073; YEAR: 2016
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: abs_cbow200 - abs_tfidfcbow200
+TITLE: ModelHub: Towards Unified Data and Lifecycle Management for Deep Learning
+ABSTRACT: background_label: Deep learning has improved state-of-the-art results in many important fields, and has been the subject of much research in recent years, leading to the development of several systems for facilitating deep learning.
+background_label: Current systems, however, mainly focus on model building and training phases, while the issues of data management, model sharing, and lifecycle management are largely ignored.
+background_label: Deep learning modeling lifecycle generates a rich set of data artifacts, such as learned parameters and training logs, and comprises of several frequently conducted tasks, e.g., to understand the model behaviors and to try out new models.
+background_label: Dealing with such artifacts and tasks is cumbersome and largely left to the users.
+objective_label: This paper describes our vision and implementation of a data and lifecycle management system for deep learning.
+method_label: First, we generalize model exploration and model enumeration queries from commonly conducted tasks by deep learning modelers, and propose a high-level domain specific language (DSL), inspired by SQL, to raise the abstraction level and accelerate the modeling process.
+method_label: To manage the data artifacts, especially the large amount of checkpointed float parameters, we design a novel model versioning system (dlv), and a read-optimized parameter archival storage system (PAS) that minimizes storage footprint and accelerates query workloads without losing accuracy.
+method_label: PAS archives versioned models using deltas in a multi-resolution fashion by separately storing the less significant bits, and features a novel progressive query (inference) evaluation algorithm.
+method_label: Third, we show that archiving versioned models using deltas poses a new dataset versioning problem and we develop efficient algorithms for solving it.
+result_label: We conduct extensive experiments over several real datasets from computer vision domain to show the efficiency of the proposed techniques.
+
+===================================
+paper_id: 14642692; YEAR: 2013
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: specter
+TITLE: Application of LSTM Neural Networks in Language Modelling
+ABSTRACT: other_label: Abstract.
+background_label: Artificial neural networks have become state-of-the-art in the task of language modelling on a small corpora.
+background_label: While feed-forward networks are able to take into account only a fixed context length to predict the next word, recurrent neural networks (RNN) can take advantage of all previous words.
+background_label: Due the difficulties in training of RNN, the way could be in using Long Short Term Memory (LSTM) neural network architecture.
+method_label: In this work, we show an application of LSTM network with extensions on a language modelling task with Czech spontaneous phone calls.
+result_label: Experiments show considerable improvements in perplexity and WER on recognition system over n-gram baseline.
+
+===================================
+paper_id: 182952667; YEAR: 2019
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: title_tfidf - specter
+TITLE: A Survey on Neural Network Language Models
+ABSTRACT: background_label: As the core component of Natural Language Processing (NLP) system, Language Model (LM) can provide word representation and probability indication of word sequences.
+background_label: Neural Network Language Models (NNLMs) overcome the curse of dimensionality and improve the performance of traditional LMs.
+method_label: A survey on NNLMs is performed in this paper.
+method_label: The structure of classic NNLMs is described firstly, and then some major improvements are introduced and analyzed.
+method_label: We summarize and compare corpora and toolkits of NNLMs.
+result_label: Further, some research directions of NNLMs are discussed.
+
+===================================
+paper_id: 119111907; YEAR: 2019
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: abs_cbow200 - abs_tfidfcbow200 - abs_tfidf
+TITLE: Attention-Passing Models for Robust and Data-Efficient End-to-End Speech Translation
+ABSTRACT: background_label: Speech translation has traditionally been approached through cascaded models consisting of a speech recognizer trained on a corpus of transcribed speech, and a machine translation system trained on parallel texts.
+background_label: Several recent works have shown the feasibility of collapsing the cascade into a single, direct model that can be trained in an end-to-end fashion on a corpus of translated speech.
+background_label: However, experiments are inconclusive on whether the cascade or the direct model is stronger, and have only been conducted under the unrealistic assumption that both are trained on equal amounts of data, ignoring other available speech recognition and machine translation corpora.
+background_label: In this paper, we demonstrate that direct speech translation models require more data to perform well than cascaded models, and while they allow including auxiliary data through multi-task training, they are poor at exploiting such data, putting them at a severe disadvantage.
+method_label: As a remedy, we propose the use of end-to-end trainable models with two attention mechanisms, the first establishing source speech to source text alignments, the second modeling source to target text alignment.
+method_label: We show that such models naturally decompose into multi-task-trainable recognition and translation tasks and propose an attention-passing technique that alleviates error propagation issues in a previous formulation of a model with two attention stages.
+result_label: Our proposed model outperforms all examined baselines and is able to exploit auxiliary training data much more effectively than direct attentional models.
+
+===================================
+paper_id: 4300271; YEAR: 2018
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: title_cbow200 - abs_tfidf - title_tfidf
+TITLE: Neural Network Methods for Natural Language Processing
+ABSTRACT: background_label: Deep learning has attracted dramatic attention in recent years, both in academia and industry.
+background_label: The popular term deep learning generally refers to neural network methods.
+background_label: Indeed, many core ideas and methods were born years ago in the era of "shallow" neural networks.
+background_label: However, recent development of computation resources and accumulation of data, and of course new algorithmic techniques, has enabled this branch of machine learning to dominate many areas of artificial intelligence, first for perception tasks like speech recognition and computer vision, and gradually for natural language processing (NLP) since around 2013.Natural language is an intricate object for computers to handle.
+result_label: Philosophical debates aside, the field of NLP has witnessed a paradigm shift from rule-based methods to statistical approaches, which have been dominant since the 1990s.
+background_label: Following this background, deep learning goes further down the statistical route, and gradually becomes the de facto technique of the mainstream statistical landscape.This book covers the two exciting topics of neural networks and natural language processing.
+objective_label: More specifically, it focuses on how neural network methods are applied on natural language data.
+method_label: With this guideline, the structure of the book appears smoother from a neural network entry: It first lays the background of neural network methods, and then discusses the traits of natural language data, including challenges to address and sources of information that we can exploit, so that specialized neural network models introduced later are designed in ways that accommodate natural language data.
+method_label: On the other hand, some fundamentals in natural language processing are not covered in the book, for example, linguistic theories and backgrounds of the natural language processing tasks, and proper preparation of corpus data.
+method_label: Based on this structure, the book is intended for practitioners from both deep learning and natural language processing to have a common ground and a shared understanding of what has been achieved at the intersection of these two fields.
+result_label: NLP practitioners can become well armed with the neural network tools to work on their natural language data, whereas neural network practitioners may feel that the content of the book is a bit light, although sufficient and effective enough for an entry into working with natural language data.After the first, introductory chapter, the book is divided into four parts that roughly follow the structure of the book mentioned above.
+
+===================================
+paper_id: 2383221; YEAR: 2009
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: abs_tfidf
+TITLE: Active Learning for Statistical Phrase-based Machine Translation
+ABSTRACT: background_label: Statistical machine translation (SMT) models need large bilingual corpora for training, which are unavailable for some language pairs.
+objective_label: This paper provides the first serious experimental study of active learning for SMT.
+method_label: We use active learning to improve the quality of a phrase-based SMT system, and show significant improvements in translation compared to a random sentence selection baseline, when test and training data are taken from the same or different domains.
+result_label: Experimental results are shown in a simulated setting using three language pairs, and in a realistic situation for Bangla-English, a language pair with limited translation resources.
+
+===================================
+paper_id: 20618558; YEAR: 2017
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: abs_tfidfcbow200 - abs_cbow200
+TITLE: Phonemic and Graphemic Multilingual CTC Based Speech Recognition
+ABSTRACT: background_label: Training automatic speech recognition (ASR) systems requires large amounts of data in the target language in order to achieve good performance.
+background_label: Whereas large training corpora are readily available for languages like English, there exists a long tail of languages which do suffer from a lack of resources.
+method_label: One method to handle data sparsity is to use data from additional source languages and build a multilingual system.
+background_label: Recently, ASR systems based on recurrent neural networks (RNNs) trained with connectionist temporal classification (CTC) have gained substantial research interest.
+method_label: In this work, we extended our previous approach towards training CTC-based systems multilingually.
+method_label: Our systems feature a global phone set, based on the joint phone sets of each source language.
+result_label: We evaluated the use of different language combinations as well as the addition of Language Feature Vectors (LFVs).
+result_label: As contrastive experiment, we built systems based on graphemes as well.
+method_label: Systems having a multilingual phone set are known to suffer in performance compared to their monolingual counterparts.
+result_label: With our proposed approach, we could reduce the gap between these mono- and multilingual setups, using either graphemes or phonemes.
+
+===================================
+paper_id: 5552894; YEAR: 2013
+adju relevance: Irrelevant (0)
+difference: 0; annotator4: 0; annotator3: 0
+sources: specter - title_tfidfcbow200
+TITLE: Joint Language and Translation Modeling with Recurrent Neural Networks
+ABSTRACT: background_label: AbstractWe present a joint language and translation model based on a recurrent neural network which predicts target words based on an unbounded history of both source and target words.
+background_label: The weaker independence assumptions of this model result in a vastly larger search space compared to related feedforward-based language or translation models.
+objective_label: We tackle this issue with a new lattice rescoring algorithm and demonstrate its effectiveness empirically.
+method_label: Our joint model builds on a well known recurrent neural network language model (Mikolov, 2012) augmented by a layer of additional inputs from the source language.
+method_label: We show competitive accuracy compared to the traditional channel model features.
+result_label: Our best results improve the output of a system trained on WMT 2012 French-English data by up to 1.5 BLEU, and by 1.1 BLEU on average across several test sets.
+
