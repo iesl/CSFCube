@@ -15,32 +15,32 @@ Please use the appropriate [release](https://github.com/iesl/CSFCube/releases) t
 
 ### Contents:
 
-		├── abstracts-csfcube-preds.jsonl
-		├── ann_guidelines.pdf
-		├── queries-release.csv
-		├── README.md
-		├── LICENSE.md
-		├── datasheet.md
-		├── evaluation_splits.json
-		├── eval_scripts
-		│             ├── rank_metrics.py
-		│             ├── ranking_eval.py
-		│             ├── requirements.txt
-		│             └── sample_ranked_pools
-		│                 ├── test-pid2pool-csfcube-specter-background-ranked.json
-		│                 ├── test-pid2pool-csfcube-specter-method-ranked.json
-		│	              └── test-pid2pool-csfcube-specter-result-ranked.json
-		├── readable_annotations
-		│             ├── 10010426-method-adju.txt
-		│             ├── 10014168-background-adju.txt
-		│	.
-		│	.
-		│	.	
-		│
-		├── test-pid2anns-csfcube-background.json
-		├── test-pid2anns-csfcube-method.json
-		├── test-pid2anns-csfcube-result.json
-		└── test-pid2pool-csfcube.json
+        ├── abstracts-csfcube-preds.jsonl
+        ├── ann_guidelines.pdf
+        ├── queries-release.csv
+        ├── README.md
+        ├── LICENSE.md
+        ├── datasheet.md
+        ├── evaluation_splits.json
+        ├── eval_scripts
+        │             ├── rank_metrics.py
+        │             ├── ranking_eval.py
+        │             ├── requirements.txt
+        │             └── sample_ranked_pools
+        │                 ├── test-pid2pool-csfcube-specter-background-ranked.json
+        │                 ├── test-pid2pool-csfcube-specter-method-ranked.json
+        │                 └── test-pid2pool-csfcube-specter-result-ranked.json
+        ├── readable_annotations
+        │             ├── 10010426-method-adju.txt
+        │             ├── 10014168-background-adju.txt
+        │	.
+        │	.
+        │	.	
+        │
+        ├── test-pid2anns-csfcube-background.json
+        ├── test-pid2anns-csfcube-method.json
+        ├── test-pid2anns-csfcube-result.json
+        └── test-pid2pool-csfcube.json
 
 `abstracts-csfcube-preds.jsonl`: `jsonl` file containing the paper-id, abstracts, titles, and metadata for the queries and candidates which are part of the test collection.
 
@@ -69,32 +69,32 @@ Please use the appropriate [release](https://github.com/iesl/CSFCube/releases) t
 1. To generate rankings per query the following files will be necessary: `test-pid2anns-csfcube-{background/method/result}.json` and `abstracts-csfcube-preds.jsonl`. The `test-pid2anns-*` files contain the rated pool of documents per query which your methods will need to re-rank and `abstracts-csfcube-preds` contains the actual title and abstract text for the documents. In generating ranked outputs the evaluation scripts consume json files of a specific format. Below is some example code for reading in data, generating rankings, and writing out an apt json file for evaluation of the `background` facet with an toy model called `my_model`:
 
 	```
-	# Read in paper text data.
-	with codecs.open('abstracts-csfcube-preds.jsonl', 'r', 'utf-8') as absfile:
+    # Read in paper text data.
+    with codecs.open('abstracts-csfcube-preds.jsonl', 'r', 'utf-8') as absfile:
         for line in absfile:
             injson = json.loads(line.strip())
             pid2abstract[injson['paper_id']] = injson
 
-	# Read in pools for the queries per facet.
-	with codecs.open(test-pid2anns-csfcube-background.json, 'r', 'utf-8') as fp:
+    # Read in pools for the queries per facet.
+    with codecs.open(test-pid2anns-csfcube-background.json, 'r', 'utf-8') as fp:
         qpid2pool = json.load(fp)
 	
-	# Rank the candidates per query.
-	qpid2pool_ranked = {}
-	for qpid in qpid2pool.keys():
-		# Get the paper-ids for candidates.
+    # Rank the candidates per query.
+    qpid2pool_ranked = {}
+    for qpid in qpid2pool.keys():
+        # Get the paper-ids for candidates.
         cand_pids = qpid2pool[qpid]['cands']
         # Compute the distance between a query and candidate.
         query_cand_distance = []
         for cpid in cand_pids:
-        	dist = my_model(pid2abstract[qpid], pid2abstract[cpid])
-			query_cand_distance.append((cpid, dist))
-		# Sort the candidates in predicted rank order - smallest to largest distances.
-		ranked_pool = list(sorted(query_cand_distance, key=lambda cd: cd[1]))
-		qpid2pool_ranked[qpid] = ranked_pool
+            dist = my_model(pid2abstract[qpid], pid2abstract[cpid])
+            query_cand_distance.append((cpid, dist))
+        # Sort the candidates in predicted rank order - smallest to largest distances.
+        ranked_pool = list(sorted(query_cand_distance, key=lambda cd: cd[1]))
+        qpid2pool_ranked[qpid] = ranked_pool
 
-	# Write out the ranked pool in a format consumed by the eval script.
-	with codecs.open('test-pid2pool-csfcube-my_model-background-ranked.json', 'w', 'utf-8') as fp:
+    # Write out the ranked pool in a format consumed by the eval script.
+    with codecs.open('test-pid2pool-csfcube-my_model-background-ranked.json', 'w', 'utf-8') as fp:
         json.dump(query2rankedcands, fp)
 	```
 
@@ -121,10 +121,10 @@ This dataset was built using the [Semantic Scholar Open Research Corpus](https:/
 Cite the paper as:
 ```
 @inproceedings{mysore2021csfcube,
-	title={{CSFC}ube - A Test Collection of Computer Science Research Articles for Faceted Query by Example},
-	author={Sheshera Mysore and Tim O'Gorman and Andrew McCallum and Hamed Zamani},
-	booktitle={Thirty-fifth Conference on Neural Information Processing Systems Datasets and Benchmarks Track (Round 2)},
-	year={2021},
-	url={https://openreview.net/forum?id=8Y50dBbmGU}
+    title={{CSFC}ube - A Test Collection of Computer Science Research Articles for Faceted Query by Example},
+    author={Sheshera Mysore and Tim O'Gorman and Andrew McCallum and Hamed Zamani},
+    booktitle={Thirty-fifth Conference on Neural Information Processing Systems Datasets and Benchmarks Track (Round 2)},
+    year={2021},
+    url={https://openreview.net/forum?id=8Y50dBbmGU}
 }
 ```
